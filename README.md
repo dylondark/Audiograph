@@ -14,8 +14,8 @@ Features include:
 - And more!
 
 ## Screenshots
-![Charts page](https://imgur.com/nHFSMbI)
-![Track page](https://imgur.com/liE8Iji)
-![User page](https://imgur.com/xYGrRdK)
-![About](https://imgur.com/pEQnQju)
-![Console](https://imgur.com/RdXB5fI)
+![Charts page](https://i.imgur.com/nHFSMbI.png)
+![Track page](https://i.imgur.com/liE8Iji.png)
+![User page](https://i.imgur.com/xYGrRdK.png)
+![About](https://i.imgur.com/pEQnQju.png)
+![Console](https://i.imgur.com/RdXB5fI.png)

@@ -1,0 +1,47 @@
+charts:
+top tracks (by country option) - chart.getTopTracks, geo.getTopTracks
+top artists (by country option) - chart.getTopArtists, geo.getTopArtists
+
+artist:
+artist search - artist.getCorrection, artist.search
+	artist info - artist.getInfo
+	similar artists - artist.getSimilar
+	popular artist tags - aritst.getTopTags
+	artist top albums - artist.getTopAlbums
+	user's plays from artist
+	user's top songs from artist
+
+album:
+album search - album.search
+	album info - album.getInfo
+	album art image
+	album popular tags - album.getTopTags
+	user's plays from album
+	user's specific song plays from album
+
+track:
+track search - track.getCorrection, track.search
+	track info - track.getInfo
+	album art image
+	track popular tags - track.getTopTags
+	similar tracks - track.getSimilar
+	user stats
+
+user:
+set user
+user info - user.getInfo
+user friends - user.getFriends
+get top artists (by date range) - user.GetTopArtists, user.getWeeklyArtistChart
+get top albums (by date range) - user.getTopAlbums, user.getWeeklyAlbumChart
+get top tracks (by date range) - user.getTopTracks, user.getWeeklyTrackChart
+user artist library - library.getArtists
+
+user lookup:
+search user
+user info - user.getInfo
+user friends - user.getFriends
+get top artists (by date range) - user.GetTopArtists, user.getWeeklyArtistChart
+get top albums (by date range) - user.getTopAlbums, user.getWeeklyAlbumChart
+get top tracks (by date range) - user.getTopTracks, user.getWeeklyTrackChart
+user artist library - library.getArtists
+user comparisons (FOR NEXT VERSION)

@@ -3801,7 +3801,7 @@ namespace Audiograph
         #endregion
 
         #region Context Menu
-        private void CmsArtOpen(ContextMenuStrip sender, EventArgs e)
+        private void CmsArtOpen(object sender, EventArgs e)
         {
             // get parent
             PictureBox parent = (PictureBox)sender.SourceControl;
@@ -3822,7 +3822,7 @@ namespace Audiograph
             }
         }
 
-        private void ArtOpenImage(ToolStripMenuItem sender, EventArgs e)
+        private void ArtOpenImage(object sender, EventArgs e)
         {
             var parent1 = sender.GetCurrentParent();
             ContextMenuStrip parent2 = (ContextMenuStrip)parent1;
@@ -3834,7 +3834,7 @@ namespace Audiograph
             }
         }
 
-        private void ArtCopyImage(ToolStripMenuItem sender, EventArgs e)
+        private void ArtCopyImage(object sender, EventArgs e)
         {
             var parent1 = sender.GetCurrentParent();
             ContextMenuStrip parent2 = (ContextMenuStrip)parent1;
@@ -3850,7 +3850,7 @@ namespace Audiograph
             }
         }
 
-        private void ArtCopyImageLink(ToolStripMenuItem sender, EventArgs e)
+        private void ArtCopyImageLink(object sender, EventArgs e)
         {
             var parent1 = sender.GetCurrentParent();
             ContextMenuStrip parent2 = (ContextMenuStrip)parent1;
@@ -3866,7 +3866,7 @@ namespace Audiograph
             }
         }
 
-        private void ArtSaveImage(ToolStripMenuItem sender, EventArgs e)
+        private void ArtSaveImage(object sender, EventArgs e)
         {
             var parent1 = sender.GetCurrentParent();
             ContextMenuStrip parent2 = (ContextMenuStrip)parent1;
@@ -3914,7 +3914,7 @@ namespace Audiograph
             }
         }
 
-        private void CmsChartTrackOpen(ContextMenuStrip sender, EventArgs e)
+        private void CmsChartTrackOpen(object sender, EventArgs e)
         {
             byte row = CMSLists.GetChartRowIndex((Label)sender.SourceControl);
 
@@ -3955,7 +3955,7 @@ namespace Audiograph
             }
         }
 
-        private void ChartTrackGoToTrack(ToolStripMenuItem sender, EventArgs e)
+        private void ChartTrackGoToTrack(object sender, EventArgs e)
         {
             var parent1 = sender.GetCurrentParent();
             ContextMenuStrip parent2 = (ContextMenuStrip)parent1;
@@ -3965,7 +3965,7 @@ namespace Audiograph
             Utilities.GoToTrack(CMSLists.ChartTrackLabel[row, 0].Text, CMSLists.ChartTrackLabel[row, 1].Text);
         }
 
-        private void ChartTrackGoToArtist(ToolStripMenuItem sender, EventArgs e)
+        private void ChartTrackGoToArtist(object sender, EventArgs e)
         {
             var parent1 = sender.GetCurrentParent();
             ContextMenuStrip parent2 = (ContextMenuStrip)parent1;
@@ -3975,7 +3975,7 @@ namespace Audiograph
             Utilities.GoToArtist(CMSLists.ChartTrackLabel[row, 1].Text);
         }
 
-        private void ChartTrackGoToAlbum(ToolStripMenuItem sender, EventArgs e)
+        private void ChartTrackGoToAlbum(object sender, EventArgs e)
         {
             var parent1 = sender.GetCurrentParent();
             ContextMenuStrip parent2 = (ContextMenuStrip)parent1;
@@ -3985,7 +3985,7 @@ namespace Audiograph
             Utilities.GoToAlbum(CMSLists.ChartTrackLabel[row, 2].Text, CMSLists.ChartTrackLabel[row, 1].Text);
         }
 
-        private void ChartTrackBackupTrack(ToolStripMenuItem sender, EventArgs e)
+        private void ChartTrackBackupTrack(object sender, EventArgs e)
         {
             var parent1 = sender.GetCurrentParent();
             ContextMenuStrip parent2 = (ContextMenuStrip)parent1;
@@ -3995,7 +3995,7 @@ namespace Audiograph
             Utilities.BackupTrack(CMSLists.ChartTrackLabel[row, 0].Text, CMSLists.ChartTrackLabel[row, 1].Text);
         }
 
-        private void ChartTrackBackupArtist(ToolStripMenuItem sender, EventArgs e)
+        private void ChartTrackBackupArtist(object sender, EventArgs e)
         {
             var parent1 = sender.GetCurrentParent();
             ContextMenuStrip parent2 = (ContextMenuStrip)parent1;
@@ -4005,7 +4005,7 @@ namespace Audiograph
             Utilities.BackupArtist(CMSLists.ChartTrackLabel[row, 1].Text);
         }
 
-        private void ChartTrackBackupAlbum(ToolStripMenuItem sender, EventArgs e)
+        private void ChartTrackBackupAlbum(object sender, EventArgs e)
         {
             var parent1 = sender.GetCurrentParent();
             ContextMenuStrip parent2 = (ContextMenuStrip)parent1;
@@ -4015,7 +4015,7 @@ namespace Audiograph
             Utilities.BackupAlbum(CMSLists.ChartTrackLabel[row, 2].Text, CMSLists.ChartTrackLabel[row, 1].Text);
         }
 
-        private void CmsChartArtistOpen(ContextMenuStrip sender, EventArgs e)
+        private void CmsChartArtistOpen(object sender, CancelEventArgs e)
         {
             byte row = CMSLists.GetChartRowIndex((Label)sender.SourceControl);
 
@@ -4032,7 +4032,7 @@ namespace Audiograph
             }
         }
 
-        private void ChartArtistGoToArtist(ToolStripMenuItem sender, EventArgs e)
+        private void ChartArtistGoToArtist(object sender, EventArgs e)
         {
             var parent1 = sender.GetCurrentParent();
             ContextMenuStrip parent2 = (ContextMenuStrip)parent1;
@@ -4042,7 +4042,7 @@ namespace Audiograph
             Utilities.GoToArtist(CMSLists.ChartArtistLabel[row, 0].Text);
         }
 
-        private void ChartArtistBackupArtist(ToolStripMenuItem sender, EventArgs e)
+        private void ChartArtistBackupArtist(object sender, EventArgs e)
         {
             var parent1 = sender.GetCurrentParent();
             ContextMenuStrip parent2 = (ContextMenuStrip)parent1;
@@ -4052,7 +4052,7 @@ namespace Audiograph
             Utilities.BackupArtist(CMSLists.ChartArtistLabel[row, 0].Text);
         }
 
-        private void CmsSearchOpen(ContextMenuStrip sender, CancelEventArgs e)
+        private void CmsSearchOpen(object sender, CancelEventArgs e)
         {
             if (string.IsNullOrEmpty(txtSearchInfo.Text))
             {
@@ -4070,17 +4070,17 @@ namespace Audiograph
             }
         }
 
-        private void SearchBackupTag(ToolStripMenuItem sender, EventArgs e)
+        private void SearchBackupTag(object sender, EventArgs e)
         {
             Utilities.BackupTag(txtSearchInfo.Text.Split(Conversions.ToChar(Constants.vbLf))[1]);
         }
 
-        private void SearchSelectAll(ToolStripMenuItem sender, EventArgs e)
+        private void SearchSelectAll(object sender, EventArgs e)
         {
             txtSearchInfo.SelectAll();
         }
 
-        private void SearchCopy(ToolStripMenuItem sender, EventArgs e)
+        private void SearchCopy(object sender, EventArgs e)
         {
             try
             {
@@ -4092,7 +4092,7 @@ namespace Audiograph
             }
         }
 
-        private void CmsSearchListsOpen(ContextMenuStrip sender, CancelEventArgs e)
+        private void CmsSearchListsOpen(object sender, CancelEventArgs e)
         {
             if (((ListView)sender.SourceControl).SelectedItems.Count <= 0)
             {
@@ -4100,37 +4100,37 @@ namespace Audiograph
             }
         }
 
-        private void SearchGoToTrack(ToolStripMenuItem sender, EventArgs e)
+        private void SearchGoToTrack(object sender, EventArgs e)
         {
             Utilities.GoToTrack(ltvSearchTracks.SelectedItems[0].SubItems[1].Text, ltvSearchTracks.SelectedItems[0].SubItems[2].Text);
         }
 
-        private void SearchGoToArtist(ToolStripMenuItem sender, EventArgs e)
+        private void SearchGoToArtist(object sender, EventArgs e)
         {
             Utilities.GoToArtist(ltvSearchArtists.SelectedItems[0].SubItems[1].Text);
         }
 
-        private void SearchGoToAlbum(ToolStripMenuItem sender, EventArgs e)
+        private void SearchGoToAlbum(object sender, EventArgs e)
         {
             Utilities.GoToAlbum(ltvSearchAlbums.SelectedItems[0].SubItems[1].Text, ltvSearchAlbums.SelectedItems[0].SubItems[2].Text);
         }
 
-        private void SearchBackupTrack(ToolStripMenuItem sender, EventArgs e)
+        private void SearchBackupTrack(object sender, EventArgs e)
         {
             Utilities.BackupTrack(ltvSearchTracks.SelectedItems[0].SubItems[1].Text, ltvSearchTracks.SelectedItems[0].SubItems[2].Text);
         }
 
-        private void SearchBackupArtist(ToolStripMenuItem sender, EventArgs e)
+        private void SearchBackupArtist(object sender, EventArgs e)
         {
             Utilities.BackupArtist(ltvSearchArtists.SelectedItems[0].SubItems[1].Text);
         }
 
-        private void SearchBackupAlbum(ToolStripMenuItem sender, EventArgs e)
+        private void SearchBackupAlbum(object sender, EventArgs e)
         {
             Utilities.BackupAlbum(ltvSearchAlbums.SelectedItems[0].SubItems[1].Text, ltvSearchAlbums.SelectedItems[0].SubItems[2].Text);
         }
 
-        private void CmsTrackOpen(ContextMenuStrip sender, CancelEventArgs e)
+        private void CmsTrackOpen(object sender, CancelEventArgs e)
         {
             // do not open if nothing is in the text box
             if (string.IsNullOrEmpty(txtTrackInfo.Text.Trim()))
@@ -4149,17 +4149,17 @@ namespace Audiograph
             }
         }
 
-        private void TrackBackupTrack(ToolStripMenuItem sender, EventArgs e)
+        private void TrackBackupTrack(object sender, EventArgs e)
         {
             Utilities.BackupTrack(txtTrackInfo.Text.Split(Conversions.ToChar(Constants.vbLf))[1], txtTrackInfo.Text.Split(Conversions.ToChar(Constants.vbLf))[4]);
         }
 
-        private void TrackSelectAll(ToolStripMenuItem sender, EventArgs e)
+        private void TrackSelectAll(object sender, EventArgs e)
         {
             txtTrackInfo.SelectAll();
         }
 
-        private void TrackCopy(ToolStripMenuItem sender, EventArgs e)
+        private void TrackCopy(object sender, EventArgs e)
         {
             try
             {
@@ -4171,7 +4171,7 @@ namespace Audiograph
             }
         }
 
-        private void CmsArtistOpen(ContextMenuStrip sender, CancelEventArgs e)
+        private void CmsArtistOpen(object sender, CancelEventArgs e)
         {
             // do not open if nothing is in the text box
             if (string.IsNullOrEmpty(txtArtistInfo.Text.Trim()))
@@ -4190,17 +4190,17 @@ namespace Audiograph
             }
         }
 
-        private void ArtistBackupArtist(ToolStripMenuItem sender, EventArgs e)
+        private void ArtistBackupArtist(object sender, EventArgs e)
         {
             Utilities.BackupArtist(txtArtistInfo.Text.Split(Conversions.ToChar(Constants.vbLf))[1]);
         }
 
-        private void ArtistSelectAll(ToolStripMenuItem sender, EventArgs e)
+        private void ArtistSelectAll(object sender, EventArgs e)
         {
             txtArtistInfo.SelectAll();
         }
 
-        private void ArtistCopy(ToolStripMenuItem sender, EventArgs e)
+        private void ArtistCopy(object sender, EventArgs e)
         {
             try
             {
@@ -4212,7 +4212,7 @@ namespace Audiograph
             }
         }
 
-        private void CmsAlbumOpen(ContextMenuStrip sender, CancelEventArgs e)
+        private void CmsAlbumOpen(object sender, CancelEventArgs e)
         {
             // do not open if nothing is in the text box
             if (string.IsNullOrEmpty(txtAlbumInfo.Text.Trim()))
@@ -4231,17 +4231,17 @@ namespace Audiograph
             }
         }
 
-        private void AlbumBackupAlbum(ToolStripMenuItem sender, EventArgs e)
+        private void AlbumBackupAlbum(object sender, EventArgs e)
         {
             Utilities.BackupAlbum(txtAlbumInfo.Text.Split(Conversions.ToChar(Constants.vbLf))[1], txtAlbumInfo.Text.Split(Conversions.ToChar(Constants.vbLf))[4]);
         }
 
-        private void AlbumSelectAll(ToolStripMenuItem sender, EventArgs e)
+        private void AlbumSelectAll(object sender, EventArgs e)
         {
             txtAlbumInfo.SelectAll();
         }
 
-        private void AlbumCopy(ToolStripMenuItem sender, EventArgs e)
+        private void AlbumCopy(object sender, EventArgs e)
         {
             try
             {
@@ -4253,7 +4253,7 @@ namespace Audiograph
             }
         }
 
-        private void CmsUserOpen(ContextMenuStrip sender, CancelEventArgs e)
+        private void CmsUserOpen(object sender, CancelEventArgs e)
         {
             // do not open if nothing is in the text box
             if (string.IsNullOrEmpty(txtUserInfo.Text.Trim()))
@@ -4272,17 +4272,17 @@ namespace Audiograph
             }
         }
 
-        private void UserBackupUser(ToolStripMenuItem sender, EventArgs e)
+        private void UserBackupUser(object sender, EventArgs e)
         {
             Utilities.BackupUser(txtUserInfo.Text.Split(Conversions.ToChar(Constants.vbLf))[1]);
         }
 
-        private void UserSelectAll(ToolStripMenuItem sender, EventArgs e)
+        private void UserSelectAll(object sender, EventArgs e)
         {
             txtUserInfo.SelectAll();
         }
 
-        private void UserCopy(ToolStripMenuItem sender, EventArgs e)
+        private void UserCopy(object sender, EventArgs e)
         {
             try
             {
@@ -4294,7 +4294,7 @@ namespace Audiograph
             }
         }
 
-        private void CmsUserFriendsOpen(ContextMenuStrip sender, CancelEventArgs e)
+        private void CmsUserFriendsOpen(object sender, CancelEventArgs e)
         {
             // do not open if nothing is selected
             if (ltvUserFriends.SelectedItems.Count <= 0)
@@ -4304,24 +4304,24 @@ namespace Audiograph
             }
         }
 
-        private void UserFriendGoToUser(ToolStripMenuItem sender, EventArgs e)
+        private void UserFriendGoToUser(object sender, EventArgs e)
         {
             txtUserL.Text = ltvUserFriends.SelectedItems[0].SubItems[0].Text;
             tabControl.SelectedIndex = 6;
             btnUserLSet.PerformClick();
         }
 
-        private void UserFriendOpenLink(ToolStripMenuItem sender, EventArgs e)
+        private void UserFriendOpenLink(object sender, EventArgs e)
         {
             Process.Start(ltvUserFriends.SelectedItems[0].SubItems[2].Text);
         }
 
-        private void UserFriendBackupUser(ToolStripMenuItem sender, EventArgs e)
+        private void UserFriendBackupUser(object sender, EventArgs e)
         {
             Utilities.BackupUser(ltvUserFriends.SelectedItems[0].SubItems[0].Text);
         }
 
-        private void UserFriendCopyUsername(ToolStripMenuItem sender, EventArgs e)
+        private void UserFriendCopyUsername(object sender, EventArgs e)
         {
             try
             {
@@ -4333,7 +4333,7 @@ namespace Audiograph
             }
         }
 
-        private void CmsUserLovedTracksOpen(ContextMenuStrip sender, CancelEventArgs e)
+        private void CmsUserLovedTracksOpen(object sender, CancelEventArgs e)
         {
             // do not open if nothing is selected
             if (ltvUserLovedTracks.SelectedItems.Count <= 0)
@@ -4343,27 +4343,27 @@ namespace Audiograph
             }
         }
 
-        private void UserLovedTrackGoToTrack(ToolStripMenuItem sender, EventArgs e)
+        private void UserLovedTrackGoToTrack(object sender, EventArgs e)
         {
             Utilities.GoToTrack(ltvUserLovedTracks.SelectedItems[0].SubItems[0].Text, ltvUserLovedTracks.SelectedItems[0].SubItems[1].Text);
         }
 
-        private void UserLovedTrackGoToArtist(ToolStripMenuItem sender, EventArgs e)
+        private void UserLovedTrackGoToArtist(object sender, EventArgs e)
         {
             Utilities.GoToArtist(ltvUserLovedTracks.SelectedItems[0].SubItems[1].Text);
         }
 
-        private void UserLovedTrackBackupTrack(ToolStripMenuItem sender, EventArgs e)
+        private void UserLovedTrackBackupTrack(object sender, EventArgs e)
         {
             Utilities.BackupTrack(ltvUserLovedTracks.SelectedItems[0].SubItems[0].Text, ltvUserLovedTracks.SelectedItems[0].SubItems[1].Text);
         }
 
-        private void UserLovedTrackBackupArtist(ToolStripMenuItem sender, EventArgs e)
+        private void UserLovedTrackBackupArtist(object sender, EventArgs e)
         {
             Utilities.BackupArtist(ltvUserLovedTracks.SelectedItems[0].SubItems[1].Text);
         }
 
-        private void CmsUserRecentOpen(ContextMenuStrip sender, CancelEventArgs e)
+        private void CmsUserRecentOpen(object sender, CancelEventArgs e)
         {
             byte row = CMSLists.GetUserRecentRowIndex((Label)sender.SourceControl);
 
@@ -4404,7 +4404,7 @@ namespace Audiograph
             }
         }
 
-        private void UserRecentGoToTrack(ToolStripMenuItem sender, EventArgs e)
+        private void UserRecentGoToTrack(object sender, EventArgs e)
         {
             var parent1 = sender.GetCurrentParent();
             ContextMenuStrip parent2 = (ContextMenuStrip)parent1;
@@ -4414,7 +4414,7 @@ namespace Audiograph
             Utilities.GoToTrack(CMSLists.UserRecentLabel[row, 0].Text, CMSLists.UserRecentLabel[row, 1].Text);
         }
 
-        private void UserRecentGoToArtist(ToolStripMenuItem sender, EventArgs e)
+        private void UserRecentGoToArtist(object sender, EventArgs e)
         {
             var parent1 = sender.GetCurrentParent();
             ContextMenuStrip parent2 = (ContextMenuStrip)parent1;
@@ -4424,7 +4424,7 @@ namespace Audiograph
             Utilities.GoToArtist(CMSLists.UserRecentLabel[row, 1].Text);
         }
 
-        private void UserRecentGoToAlbum(ToolStripMenuItem sender, EventArgs e)
+        private void UserRecentGoToAlbum(object sender, EventArgs e)
         {
             var parent1 = sender.GetCurrentParent();
             ContextMenuStrip parent2 = (ContextMenuStrip)parent1;
@@ -4434,7 +4434,7 @@ namespace Audiograph
             Utilities.GoToAlbum(CMSLists.UserRecentLabel[row, 2].Text, CMSLists.UserRecentLabel[row, 1].Text);
         }
 
-        private void UserRecentBackupTrack(ToolStripMenuItem sender, EventArgs e)
+        private void UserRecentBackupTrack(object sender, EventArgs e)
         {
             var parent1 = sender.GetCurrentParent();
             ContextMenuStrip parent2 = (ContextMenuStrip)parent1;
@@ -4444,7 +4444,7 @@ namespace Audiograph
             Utilities.BackupTrack(CMSLists.UserRecentLabel[row, 0].Text, CMSLists.UserRecentLabel[row, 1].Text);
         }
 
-        private void UserRecentBackupArtist(ToolStripMenuItem sender, EventArgs e)
+        private void UserRecentBackupArtist(object sender, EventArgs e)
         {
             var parent1 = sender.GetCurrentParent();
             ContextMenuStrip parent2 = (ContextMenuStrip)parent1;
@@ -4454,7 +4454,7 @@ namespace Audiograph
             Utilities.BackupArtist(CMSLists.UserRecentLabel[row, 1].Text);
         }
 
-        private void UserRecentBackupAlbum(ToolStripMenuItem sender, EventArgs e)
+        private void UserRecentBackupAlbum(object sender, EventArgs e)
         {
             var parent1 = sender.GetCurrentParent();
             ContextMenuStrip parent2 = (ContextMenuStrip)parent1;
@@ -4464,7 +4464,7 @@ namespace Audiograph
             Utilities.BackupAlbum(CMSLists.UserRecentLabel[row, 2].Text, CMSLists.UserRecentLabel[row, 1].Text);
         }
 
-        private void CmsUserTopTrackOpen(ContextMenuStrip sender, CancelEventArgs e)
+        private void CmsUserTopTrackOpen(object sender, CancelEventArgs e)
         {
             byte row = CMSLists.GetUserTopTrackRowIndex((Label)sender.SourceControl);
 
@@ -4505,7 +4505,7 @@ namespace Audiograph
             }
         }
 
-        private void UserTopTrackGoToTrack(ToolStripMenuItem sender, EventArgs e)
+        private void UserTopTrackGoToTrack(object sender, EventArgs e)
         {
             var parent1 = sender.GetCurrentParent();
             ContextMenuStrip parent2 = (ContextMenuStrip)parent1;
@@ -4515,7 +4515,7 @@ namespace Audiograph
             Utilities.GoToTrack(CMSLists.UserTopTracksLabel[row, 0].Text, CMSLists.UserTopTracksLabel[row, 1].Text);
         }
 
-        private void UserTopTrackGoToArtist(ToolStripMenuItem sender, EventArgs e)
+        private void UserTopTrackGoToArtist(object sender, EventArgs e)
         {
             var parent1 = sender.GetCurrentParent();
             ContextMenuStrip parent2 = (ContextMenuStrip)parent1;
@@ -4525,7 +4525,7 @@ namespace Audiograph
             Utilities.GoToArtist(CMSLists.UserTopTracksLabel[row, 1].Text);
         }
 
-        private void UserTopTrackGoToAlbum(ToolStripMenuItem sender, EventArgs e)
+        private void UserTopTrackGoToAlbum(object sender, EventArgs e)
         {
             var parent1 = sender.GetCurrentParent();
             ContextMenuStrip parent2 = (ContextMenuStrip)parent1;
@@ -4535,7 +4535,7 @@ namespace Audiograph
             Utilities.GoToAlbum(CMSLists.UserTopTracksLabel[row, 2].Text, CMSLists.UserTopTracksLabel[row, 1].Text);
         }
 
-        private void UserTopTrackBackupTrack(ToolStripMenuItem sender, EventArgs e)
+        private void UserTopTrackBackupTrack(object sender, EventArgs e)
         {
             var parent1 = sender.GetCurrentParent();
             ContextMenuStrip parent2 = (ContextMenuStrip)parent1;
@@ -4545,7 +4545,7 @@ namespace Audiograph
             Utilities.BackupTrack(CMSLists.UserTopTracksLabel[row, 0].Text, CMSLists.UserTopTracksLabel[row, 1].Text);
         }
 
-        private void UserTopTrackBackupArtist(ToolStripMenuItem sender, EventArgs e)
+        private void UserTopTrackBackupArtist(object sender, EventArgs e)
         {
             var parent1 = sender.GetCurrentParent();
             ContextMenuStrip parent2 = (ContextMenuStrip)parent1;
@@ -4555,7 +4555,7 @@ namespace Audiograph
             Utilities.BackupArtist(CMSLists.UserTopTracksLabel[row, 1].Text);
         }
 
-        private void UserTopTrackBackupAlbum(ToolStripMenuItem sender, EventArgs e)
+        private void UserTopTrackBackupAlbum(object sender, EventArgs e)
         {
             var parent1 = sender.GetCurrentParent();
             ContextMenuStrip parent2 = (ContextMenuStrip)parent1;
@@ -4565,7 +4565,7 @@ namespace Audiograph
             Utilities.BackupAlbum(CMSLists.UserTopTracksLabel[row, 2].Text, CMSLists.UserTopTracksLabel[row, 1].Text);
         }
 
-        private void UserTopArtistGoToArtist(ToolStripMenuItem sender, EventArgs e)
+        private void UserTopArtistGoToArtist(object sender, EventArgs e)
         {
             var parent1 = sender.GetCurrentParent();
             ContextMenuStrip parent2 = (ContextMenuStrip)parent1;
@@ -4575,7 +4575,7 @@ namespace Audiograph
             Utilities.GoToArtist(CMSLists.UserTopArtistsLabel[row, 0].Text);
         }
 
-        private void UserTopArtistBackupArtist(ToolStripMenuItem sender, EventArgs e)
+        private void UserTopArtistBackupArtist(object sender, EventArgs e)
         {
             var parent1 = sender.GetCurrentParent();
             ContextMenuStrip parent2 = (ContextMenuStrip)parent1;
@@ -4585,7 +4585,7 @@ namespace Audiograph
             Utilities.BackupArtist(CMSLists.UserTopArtistsLabel[row, 0].Text);
         }
 
-        private void UserTopAlbumGoToAlbum(ToolStripMenuItem sender, EventArgs e)
+        private void UserTopAlbumGoToAlbum(object sender, EventArgs e)
         {
             var parent1 = sender.GetCurrentParent();
             ContextMenuStrip parent2 = (ContextMenuStrip)parent1;
@@ -4595,7 +4595,7 @@ namespace Audiograph
             Utilities.GoToAlbum(CMSLists.UserTopAlbumsLabel[row, 0].Text, CMSLists.UserTopAlbumsLabel[row, 1].Text);
         }
 
-        private void UserTopAlbumGoToArtist(ToolStripMenuItem sender, EventArgs e)
+        private void UserTopAlbumGoToArtist(object sender, EventArgs e)
         {
             var parent1 = sender.GetCurrentParent();
             ContextMenuStrip parent2 = (ContextMenuStrip)parent1;
@@ -4605,7 +4605,7 @@ namespace Audiograph
             Utilities.GoToArtist(CMSLists.UserTopAlbumsLabel[row, 1].Text);
         }
 
-        private void UserTopAlbumBackupAlbum(ToolStripMenuItem sender, EventArgs e)
+        private void UserTopAlbumBackupAlbum(object sender, EventArgs e)
         {
             var parent1 = sender.GetCurrentParent();
             ContextMenuStrip parent2 = (ContextMenuStrip)parent1;
@@ -4615,7 +4615,7 @@ namespace Audiograph
             Utilities.BackupAlbum(CMSLists.UserTopAlbumsLabel[row, 0].Text, CMSLists.UserTopAlbumsLabel[row, 1].Text);
         }
 
-        private void UserTopAlbumBackupArtist(ToolStripMenuItem sender, EventArgs e)
+        private void UserTopAlbumBackupArtist(object sender, EventArgs e)
         {
             var parent1 = sender.GetCurrentParent();
             ContextMenuStrip parent2 = (ContextMenuStrip)parent1;
@@ -4625,7 +4625,7 @@ namespace Audiograph
             Utilities.BackupArtist(CMSLists.UserTopAlbumsLabel[row, 1].Text);
         }
 
-        private void CmsUserHistoryOpen(ContextMenuStrip sender, CancelEventArgs e)
+        private void CmsUserHistoryOpen(object sender, CancelEventArgs e)
         {
             // do not open if nothing is selected
             if (ltvUserHistory.SelectedItems.Count <= 0)
@@ -4635,37 +4635,37 @@ namespace Audiograph
             }
         }
 
-        private void UserHistoryGoToTrack(ToolStripMenuItem sender, EventArgs e)
+        private void UserHistoryGoToTrack(object sender, EventArgs e)
         {
             Utilities.GoToTrack(ltvUserHistory.SelectedItems[0].SubItems[0].Text, ltvUserHistory.SelectedItems[0].SubItems[1].Text);
         }
 
-        private void UserHistoryGoToArtist(ToolStripMenuItem sender, EventArgs e)
+        private void UserHistoryGoToArtist(object sender, EventArgs e)
         {
             Utilities.GoToArtist(ltvUserHistory.SelectedItems[0].SubItems[1].Text);
         }
 
-        private void UserHistoryGoToAlbum(ToolStripMenuItem sender, EventArgs e)
+        private void UserHistoryGoToAlbum(object sender, EventArgs e)
         {
             Utilities.GoToAlbum(ltvUserHistory.SelectedItems[0].SubItems[2].Text, ltvUserHistory.SelectedItems[0].SubItems[1].Text);
         }
 
-        private void UserHistoryBackupTrack(ToolStripMenuItem sender, EventArgs e)
+        private void UserHistoryBackupTrack(object sender, EventArgs e)
         {
             Utilities.BackupTrack(ltvUserHistory.SelectedItems[0].SubItems[0].Text, ltvUserHistory.SelectedItems[0].SubItems[1].Text);
         }
 
-        private void UserHistoryBackupArtist(ToolStripMenuItem sender, EventArgs e)
+        private void UserHistoryBackupArtist(object sender, EventArgs e)
         {
             Utilities.BackupArtist(ltvUserHistory.SelectedItems[0].SubItems[1].Text);
         }
 
-        private void UserHistoryBackupAlbum(ToolStripMenuItem sender, EventArgs e)
+        private void UserHistoryBackupAlbum(object sender, EventArgs e)
         {
             Utilities.BackupAlbum(ltvUserHistory.SelectedItems[0].SubItems[2].Text, ltvUserHistory.SelectedItems[0].SubItems[1].Text);
         }
 
-        private void CmsUserLOpen(ContextMenuStrip sender, CancelEventArgs e)
+        private void CmsUserLOpen(object sender, CancelEventArgs e)
         {
             // do not open if nothing is in the text box
             if (string.IsNullOrEmpty(txtUserLInfo.Text.Trim()))
@@ -4684,17 +4684,17 @@ namespace Audiograph
             }
         }
 
-        private void UserLBackupUserL(ToolStripMenuItem sender, EventArgs e)
+        private void UserLBackupUserL(object sender, EventArgs e)
         {
             Utilities.BackupUser(txtUserLInfo.Text.Split(Conversions.ToChar(Constants.vbLf))[1]);
         }
 
-        private void UserLSelectAll(ToolStripMenuItem sender, EventArgs e)
+        private void UserLSelectAll(object sender, EventArgs e)
         {
             txtUserLInfo.SelectAll();
         }
 
-        private void UserLCopy(ToolStripMenuItem sender, EventArgs e)
+        private void UserLCopy(object sender, EventArgs e)
         {
             try
             {
@@ -4706,7 +4706,7 @@ namespace Audiograph
             }
         }
 
-        private void CmsUserLFriendsOpen(ContextMenuStrip sender, CancelEventArgs e)
+        private void CmsUserLFriendsOpen(object sender, CancelEventArgs e)
         {
             // do not open if nothing is selected
             if (ltvUserLFriends.SelectedItems.Count <= 0)
@@ -4716,24 +4716,24 @@ namespace Audiograph
             }
         }
 
-        private void UserLFriendGoToUserL(ToolStripMenuItem sender, EventArgs e)
+        private void UserLFriendGoToUserL(object sender, EventArgs e)
         {
             txtUserL.Text = ltvUserLFriends.SelectedItems[0].SubItems[0].Text;
             tabControl.SelectedIndex = 6;
             btnUserLSet.PerformClick();
         }
 
-        private void UserLFriendOpenLink(ToolStripMenuItem sender, EventArgs e)
+        private void UserLFriendOpenLink(object sender, EventArgs e)
         {
             Process.Start(ltvUserLFriends.SelectedItems[0].SubItems[2].Text);
         }
 
-        private void UserLFriendBackupUserL(ToolStripMenuItem sender, EventArgs e)
+        private void UserLFriendBackupUserL(object sender, EventArgs e)
         {
             Utilities.BackupUser(ltvUserLFriends.SelectedItems[0].SubItems[0].Text);
         }
 
-        private void UserLFriendCopyUserLname(ToolStripMenuItem sender, EventArgs e)
+        private void UserLFriendCopyUserLname(object sender, EventArgs e)
         {
             try
             {
@@ -4745,7 +4745,7 @@ namespace Audiograph
             }
         }
 
-        private void CmsUserLLovedTracksOpen(ContextMenuStrip sender, CancelEventArgs e)
+        private void CmsUserLLovedTracksOpen(object sender, CancelEventArgs e)
         {
             // do not open if nothing is selected
             if (ltvUserLLovedTracks.SelectedItems.Count <= 0)
@@ -4755,27 +4755,27 @@ namespace Audiograph
             }
         }
 
-        private void UserLLovedTrackGoToTrack(ToolStripMenuItem sender, EventArgs e)
+        private void UserLLovedTrackGoToTrack(object sender, EventArgs e)
         {
             Utilities.GoToTrack(ltvUserLLovedTracks.SelectedItems[0].SubItems[0].Text, ltvUserLLovedTracks.SelectedItems[0].SubItems[1].Text);
         }
 
-        private void UserLLovedTrackGoToArtist(ToolStripMenuItem sender, EventArgs e)
+        private void UserLLovedTrackGoToArtist(object sender, EventArgs e)
         {
             Utilities.GoToArtist(ltvUserLLovedTracks.SelectedItems[0].SubItems[1].Text);
         }
 
-        private void UserLLovedTrackBackupTrack(ToolStripMenuItem sender, EventArgs e)
+        private void UserLLovedTrackBackupTrack(object sender, EventArgs e)
         {
             Utilities.BackupTrack(ltvUserLLovedTracks.SelectedItems[0].SubItems[0].Text, ltvUserLLovedTracks.SelectedItems[0].SubItems[1].Text);
         }
 
-        private void UserLLovedTrackBackupArtist(ToolStripMenuItem sender, EventArgs e)
+        private void UserLLovedTrackBackupArtist(object sender, EventArgs e)
         {
             Utilities.BackupArtist(ltvUserLLovedTracks.SelectedItems[0].SubItems[1].Text);
         }
 
-        private void CmsUserLRecentOpen(ContextMenuStrip sender, CancelEventArgs e)
+        private void CmsUserLRecentOpen(object sender, CancelEventArgs e)
         {
             byte row = CMSLists.GetUserRecentRowIndex((Label)sender.SourceControl);
 
@@ -4816,7 +4816,7 @@ namespace Audiograph
             }
         }
 
-        private void UserLRecentGoToTrack(ToolStripMenuItem sender, EventArgs e)
+        private void UserLRecentGoToTrack(object sender, EventArgs e)
         {
             var parent1 = sender.GetCurrentParent();
             ContextMenuStrip parent2 = (ContextMenuStrip)parent1;
@@ -4826,7 +4826,7 @@ namespace Audiograph
             Utilities.GoToTrack(CMSLists.UserLRecentLabel[row, 0].Text, CMSLists.UserLRecentLabel[row, 1].Text);
         }
 
-        private void UserLRecentGoToArtist(ToolStripMenuItem sender, EventArgs e)
+        private void UserLRecentGoToArtist(object sender, EventArgs e)
         {
             var parent1 = sender.GetCurrentParent();
             ContextMenuStrip parent2 = (ContextMenuStrip)parent1;
@@ -4836,7 +4836,7 @@ namespace Audiograph
             Utilities.GoToArtist(CMSLists.UserLRecentLabel[row, 1].Text);
         }
 
-        private void UserLRecentGoToAlbum(ToolStripMenuItem sender, EventArgs e)
+        private void UserLRecentGoToAlbum(object sender, EventArgs e)
         {
             var parent1 = sender.GetCurrentParent();
             ContextMenuStrip parent2 = (ContextMenuStrip)parent1;
@@ -4846,7 +4846,7 @@ namespace Audiograph
             Utilities.GoToAlbum(CMSLists.UserLRecentLabel[row, 2].Text, CMSLists.UserLRecentLabel[row, 1].Text);
         }
 
-        private void UserLRecentBackupTrack(ToolStripMenuItem sender, EventArgs e)
+        private void UserLRecentBackupTrack(object sender, EventArgs e)
         {
             var parent1 = sender.GetCurrentParent();
             ContextMenuStrip parent2 = (ContextMenuStrip)parent1;
@@ -4856,7 +4856,7 @@ namespace Audiograph
             Utilities.BackupTrack(CMSLists.UserLRecentLabel[row, 0].Text, CMSLists.UserLRecentLabel[row, 1].Text);
         }
 
-        private void UserLRecentBackupArtist(ToolStripMenuItem sender, EventArgs e)
+        private void UserLRecentBackupArtist(object sender, EventArgs e)
         {
             var parent1 = sender.GetCurrentParent();
             ContextMenuStrip parent2 = (ContextMenuStrip)parent1;
@@ -4866,7 +4866,7 @@ namespace Audiograph
             Utilities.BackupArtist(CMSLists.UserLRecentLabel[row, 1].Text);
         }
 
-        private void UserLRecentBackupAlbum(ToolStripMenuItem sender, EventArgs e)
+        private void UserLRecentBackupAlbum(object sender, EventArgs e)
         {
             var parent1 = sender.GetCurrentParent();
             ContextMenuStrip parent2 = (ContextMenuStrip)parent1;
@@ -4876,7 +4876,7 @@ namespace Audiograph
             Utilities.BackupAlbum(CMSLists.UserLRecentLabel[row, 2].Text, CMSLists.UserLRecentLabel[row, 1].Text);
         }
 
-        private void CmsUserLTopTrackOpen(ContextMenuStrip sender, CancelEventArgs e)
+        private void CmsUserLTopTrackOpen(object sender, CancelEventArgs e)
         {
             byte row = CMSLists.GetUserTopTrackRowIndex((Label)sender.SourceControl);
 
@@ -4917,7 +4917,7 @@ namespace Audiograph
             }
         }
 
-        private void UserLTopTrackGoToTrack(ToolStripMenuItem sender, EventArgs e)
+        private void UserLTopTrackGoToTrack(object sender, EventArgs e)
         {
             var parent1 = sender.GetCurrentParent();
             ContextMenuStrip parent2 = (ContextMenuStrip)parent1;
@@ -4927,7 +4927,7 @@ namespace Audiograph
             Utilities.GoToTrack(CMSLists.UserLTopTracksLabel[row, 0].Text, CMSLists.UserLTopTracksLabel[row, 1].Text);
         }
 
-        private void UserLTopTrackGoToArtist(ToolStripMenuItem sender, EventArgs e)
+        private void UserLTopTrackGoToArtist(object sender, EventArgs e)
         {
             var parent1 = sender.GetCurrentParent();
             ContextMenuStrip parent2 = (ContextMenuStrip)parent1;
@@ -4937,7 +4937,7 @@ namespace Audiograph
             Utilities.GoToArtist(CMSLists.UserLTopTracksLabel[row, 1].Text);
         }
 
-        private void UserLTopTrackGoToAlbum(ToolStripMenuItem sender, EventArgs e)
+        private void UserLTopTrackGoToAlbum(object sender, EventArgs e)
         {
             var parent1 = sender.GetCurrentParent();
             ContextMenuStrip parent2 = (ContextMenuStrip)parent1;
@@ -4947,7 +4947,7 @@ namespace Audiograph
             Utilities.GoToAlbum(CMSLists.UserLTopTracksLabel[row, 2].Text, CMSLists.UserLTopTracksLabel[row, 1].Text);
         }
 
-        private void UserLTopTrackBackupTrack(ToolStripMenuItem sender, EventArgs e)
+        private void UserLTopTrackBackupTrack(object sender, EventArgs e)
         {
             var parent1 = sender.GetCurrentParent();
             ContextMenuStrip parent2 = (ContextMenuStrip)parent1;
@@ -4957,7 +4957,7 @@ namespace Audiograph
             Utilities.BackupTrack(CMSLists.UserLTopTracksLabel[row, 0].Text, CMSLists.UserLTopTracksLabel[row, 1].Text);
         }
 
-        private void UserLTopTrackBackupArtist(ToolStripMenuItem sender, EventArgs e)
+        private void UserLTopTrackBackupArtist(object sender, EventArgs e)
         {
             var parent1 = sender.GetCurrentParent();
             ContextMenuStrip parent2 = (ContextMenuStrip)parent1;
@@ -4967,7 +4967,7 @@ namespace Audiograph
             Utilities.BackupArtist(CMSLists.UserLTopTracksLabel[row, 1].Text);
         }
 
-        private void UserLTopTrackBackupAlbum(ToolStripMenuItem sender, EventArgs e)
+        private void UserLTopTrackBackupAlbum(object sender, EventArgs e)
         {
             var parent1 = sender.GetCurrentParent();
             ContextMenuStrip parent2 = (ContextMenuStrip)parent1;
@@ -4977,7 +4977,7 @@ namespace Audiograph
             Utilities.BackupAlbum(CMSLists.UserLTopTracksLabel[row, 2].Text, CMSLists.UserLTopTracksLabel[row, 1].Text);
         }
 
-        private void UserLTopArtistGoToArtist(ToolStripMenuItem sender, EventArgs e)
+        private void UserLTopArtistGoToArtist(object sender, EventArgs e)
         {
             var parent1 = sender.GetCurrentParent();
             ContextMenuStrip parent2 = (ContextMenuStrip)parent1;
@@ -4987,7 +4987,7 @@ namespace Audiograph
             Utilities.GoToArtist(CMSLists.UserLTopArtistsLabel[row, 0].Text);
         }
 
-        private void UserLTopArtistBackupArtist(ToolStripMenuItem sender, EventArgs e)
+        private void UserLTopArtistBackupArtist(object sender, EventArgs e)
         {
             var parent1 = sender.GetCurrentParent();
             ContextMenuStrip parent2 = (ContextMenuStrip)parent1;
@@ -4997,7 +4997,7 @@ namespace Audiograph
             Utilities.BackupArtist(CMSLists.UserLTopArtistsLabel[row, 0].Text);
         }
 
-        private void UserLTopAlbumGoToAlbum(ToolStripMenuItem sender, EventArgs e)
+        private void UserLTopAlbumGoToAlbum(object sender, EventArgs e)
         {
             var parent1 = sender.GetCurrentParent();
             ContextMenuStrip parent2 = (ContextMenuStrip)parent1;
@@ -5007,7 +5007,7 @@ namespace Audiograph
             Utilities.GoToAlbum(CMSLists.UserLTopAlbumsLabel[row, 0].Text, CMSLists.UserLTopAlbumsLabel[row, 1].Text);
         }
 
-        private void UserLTopAlbumGoToArtist(ToolStripMenuItem sender, EventArgs e)
+        private void UserLTopAlbumGoToArtist(object sender, EventArgs e)
         {
             var parent1 = sender.GetCurrentParent();
             ContextMenuStrip parent2 = (ContextMenuStrip)parent1;
@@ -5017,7 +5017,7 @@ namespace Audiograph
             Utilities.GoToArtist(CMSLists.UserLTopAlbumsLabel[row, 1].Text);
         }
 
-        private void UserLTopAlbumBackupAlbum(ToolStripMenuItem sender, EventArgs e)
+        private void UserLTopAlbumBackupAlbum(object sender, EventArgs e)
         {
             var parent1 = sender.GetCurrentParent();
             ContextMenuStrip parent2 = (ContextMenuStrip)parent1;
@@ -5027,7 +5027,7 @@ namespace Audiograph
             Utilities.BackupAlbum(CMSLists.UserLTopAlbumsLabel[row, 0].Text, CMSLists.UserLTopAlbumsLabel[row, 1].Text);
         }
 
-        private void UserLTopAlbumBackupArtist(ToolStripMenuItem sender, EventArgs e)
+        private void UserLTopAlbumBackupArtist(object sender, EventArgs e)
         {
             var parent1 = sender.GetCurrentParent();
             ContextMenuStrip parent2 = (ContextMenuStrip)parent1;
@@ -5037,7 +5037,7 @@ namespace Audiograph
             Utilities.BackupArtist(CMSLists.UserLTopAlbumsLabel[row, 1].Text);
         }
 
-        private void CmsUserLHistoryOpen(ContextMenuStrip sender, CancelEventArgs e)
+        private void CmsUserLHistoryOpen(object sender, CancelEventArgs e)
         {
             // do not open if nothing is selected
             if (ltvUserLHistory.SelectedItems.Count <= 0)
@@ -5047,32 +5047,32 @@ namespace Audiograph
             }
         }
 
-        private void UserLHistoryGoToTrack(ToolStripMenuItem sender, EventArgs e)
+        private void UserLHistoryGoToTrack(object sender, EventArgs e)
         {
             Utilities.GoToTrack(ltvUserLHistory.SelectedItems[0].SubItems[0].Text, ltvUserLHistory.SelectedItems[0].SubItems[1].Text);
         }
 
-        private void UserLHistoryGoToArtist(ToolStripMenuItem sender, EventArgs e)
+        private void UserLHistoryGoToArtist(object sender, EventArgs e)
         {
             Utilities.GoToArtist(ltvUserLHistory.SelectedItems[0].SubItems[1].Text);
         }
 
-        private void UserLHistoryGoToAlbum(ToolStripMenuItem sender, EventArgs e)
+        private void UserLHistoryGoToAlbum(object sender, EventArgs e)
         {
             Utilities.GoToAlbum(ltvUserLHistory.SelectedItems[0].SubItems[2].Text, ltvUserLHistory.SelectedItems[0].SubItems[1].Text);
         }
 
-        private void UserLHistoryBackupTrack(ToolStripMenuItem sender, EventArgs e)
+        private void UserLHistoryBackupTrack(object sender, EventArgs e)
         {
             Utilities.BackupTrack(ltvUserLHistory.SelectedItems[0].SubItems[0].Text, ltvUserLHistory.SelectedItems[0].SubItems[1].Text);
         }
 
-        private void UserLHistoryBackupArtist(ToolStripMenuItem sender, EventArgs e)
+        private void UserLHistoryBackupArtist(object sender, EventArgs e)
         {
             Utilities.BackupArtist(ltvUserLHistory.SelectedItems[0].SubItems[1].Text);
         }
 
-        private void UserLHistoryBackupAlbum(ToolStripMenuItem sender, EventArgs e)
+        private void UserLHistoryBackupAlbum(object sender, EventArgs e)
         {
             Utilities.BackupAlbum(ltvUserLHistory.SelectedItems[0].SubItems[2].Text, ltvUserLHistory.SelectedItems[0].SubItems[1].Text);
         }
@@ -5139,7 +5139,7 @@ namespace Audiograph
             }
         }
 
-        private void CmsUserTopArtistOpen(ContextMenuStrip sender, EventArgs e)
+        private void CmsUserTopArtistOpen(object sender, EventArgs e)
         {
             byte row = CMSLists.GetUserTopArtistRowIndex((Label)sender.SourceControl);
 

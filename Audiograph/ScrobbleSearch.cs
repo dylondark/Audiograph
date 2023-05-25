@@ -254,8 +254,8 @@ namespace Audiograph
 
             // clear all info
             ltvResults.SelectedItems.Clear();
-            sender.Text = string.Empty;
-            if (sender.Name == "txtTrack")
+            ((TextBox)sender).Text = string.Empty;
+            if (((TextBox)sender).Name == "txtTrack")
             {
                 txtArtist.Clear();
             }
@@ -271,9 +271,9 @@ namespace Audiograph
 
         private void ArtClicked(object sender, EventArgs e)
         {
-            if (Conversions.ToBoolean(Operators.ConditionalCompareObjectEqual(sender.ImageLocation.Contains("http"), true, false)))
+            if (Conversions.ToBoolean(Operators.ConditionalCompareObjectEqual(((PictureBox)sender).ImageLocation.Contains("http"), true, false)))
             {
-                Process.Start(sender.ImageLocation);
+                Process.Start(((PictureBox)sender).ImageLocation);
             }
         }
 

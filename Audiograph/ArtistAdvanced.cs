@@ -132,7 +132,7 @@ namespace Audiograph
             // clear all info
             ltvResults.SelectedItems.Clear();
             txtListeners.Text = "N/A";
-            sender.Clear();
+            ((TextBox)sender).Clear();
         }
 
         private void DoubleClickItem(object sender, EventArgs e)

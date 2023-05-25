@@ -226,6 +226,7 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Main.resx">
       <DependentUpon>Main.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -326,7 +327,7 @@
     <None Include="Resources\pause.png" />
     <None Include="Resources\play.png" />
     <None Include="Resources\icon.png" />
-	<None Include="Resources\icon.bmp" />
+    <None Include="Resources\icon.bmp" />
     <None Include="Resources\imageunavailable.png" />
     <None Include="Resources\imageerror.png" />
   </ItemGroup>

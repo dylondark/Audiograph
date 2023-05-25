@@ -13,6 +13,7 @@ using System.Windows.Forms;
 using System.Xml.Linq;
 using Microsoft.VisualBasic;
 using Microsoft.VisualBasic.CompilerServices;
+using WMPLib;
 
 namespace Audiograph
 {
@@ -433,7 +434,7 @@ namespace Audiograph
             this.lblStatus.Text = "Ready";
         }
 
-        private void BackgroundStopOp(global::System.ComponentModel.BackgroundWorker sender, global::System.ComponentModel.RunWorkerCompletedEventArgs e)
+        private void BackgroundStopOp(object sender, global::System.ComponentModel.RunWorkerCompletedEventArgs e)
         {
             // ui
             this.btnStart.Enabled = true;

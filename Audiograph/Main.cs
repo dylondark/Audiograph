@@ -10,6 +10,7 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 using System.Windows.Forms;
+using System.Xml.Linq;
 using AxWMPLib;
 using Microsoft.VisualBasic;
 using Microsoft.VisualBasic.CompilerServices;
@@ -180,13 +181,13 @@ namespace Audiograph
             string[] infonodes = new string[] { "name", "total", "reach", "wiki/content" };
             Utilities.ParseXML(infoXML, "/lfm/tag", 0U, ref infonodes);
             // check for errors
-            foreach (string element in infonodes)
+            for (int x = 0; x < infonodes.Length; x++)
             {
-                if (element.Contains("ERROR: ") == true)
+                if (infonodes[x].Contains("ERROR: ") == true)
                 {
-                    element = "(Unavailable)";
+                    infonodes[x] = "(Unavailable)";
                 }
-            }
+            } 
             // set name in search box
             if (infonodes[0] != "(Unavailable)")
             {

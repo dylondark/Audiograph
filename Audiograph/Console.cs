@@ -1350,7 +1350,7 @@ namespace Audiograph
         }
 
         // var for checking whether a command has been entered since the last time this sub was ran
-        private ushort _History_checkvalue = (ushort)cmdlist.Count;
+        private ushort _History_checkvalue = 0;
 
         // switches between command history on up/down arrow press
         private void History(object sender, KeyEventArgs e)

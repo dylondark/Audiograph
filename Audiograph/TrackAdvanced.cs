@@ -230,7 +230,7 @@ namespace Audiograph
             }
         }
 
-        private void UserType(TextBox sender, KeyEventArgs e)
+        private void UserType(object sender, KeyEventArgs e)
         {
             if (ltvResults.SelectedItems.Count == 0)
             {

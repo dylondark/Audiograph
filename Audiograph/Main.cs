@@ -3804,7 +3804,7 @@ namespace Audiograph
         private void CmsArtOpen(object sender, EventArgs e)
         {
             // get parent
-            PictureBox parent = (PictureBox)sender.SourceControl;
+            PictureBox parent = (PictureBox)((ContextMenuStrip)sender).SourceControl;
 
             if (parent.ImageLocation.Contains("http") == true)
             {
@@ -3824,7 +3824,7 @@ namespace Audiograph
 
         private void ArtOpenImage(object sender, EventArgs e)
         {
-            var parent1 = sender.GetCurrentParent();
+            var parent1 = ((ToolStripMenuItem)sender).GetCurrentParent();
             ContextMenuStrip parent2 = (ContextMenuStrip)parent1;
             PictureBox finalParent = (PictureBox)parent2.SourceControl;
 
@@ -3836,7 +3836,7 @@ namespace Audiograph
 
         private void ArtCopyImage(object sender, EventArgs e)
         {
-            var parent1 = sender.GetCurrentParent();
+            var parent1 = ((ToolStripMenuItem)sender).GetCurrentParent();
             ContextMenuStrip parent2 = (ContextMenuStrip)parent1;
             PictureBox finalParent = (PictureBox)parent2.SourceControl;
 
@@ -3852,7 +3852,7 @@ namespace Audiograph
 
         private void ArtCopyImageLink(object sender, EventArgs e)
         {
-            var parent1 = sender.GetCurrentParent();
+            var parent1 = ((ToolStripMenuItem)sender).GetCurrentParent();
             ContextMenuStrip parent2 = (ContextMenuStrip)parent1;
             PictureBox finalParent = (PictureBox)parent2.SourceControl;
 
@@ -3868,7 +3868,7 @@ namespace Audiograph
 
         private void ArtSaveImage(object sender, EventArgs e)
         {
-            var parent1 = sender.GetCurrentParent();
+            var parent1 = ((ToolStripMenuItem)sender).GetCurrentParent();
             ContextMenuStrip parent2 = (ContextMenuStrip)parent1;
             PictureBox finalParent = (PictureBox)parent2.SourceControl;
 
@@ -3916,7 +3916,7 @@ namespace Audiograph
 
         private void CmsChartTrackOpen(object sender, EventArgs e)
         {
-            byte row = CMSLists.GetChartRowIndex((Label)sender.SourceControl);
+            byte row = CMSLists.GetChartRowIndex((Label)((ContextMenuStrip)sender).SourceControl);
 
             // disable track if needed
             if (CMSLists.ChartTrackLabel[row, 0].Text.Contains("(Unavailable)") == true || CMSLists.ChartTrackLabel[row, 0].Text.Contains("ERROR: ") == true || CMSLists.ChartTrackLabel[row, 1].Text.Contains("(Unavailable)") == true || CMSLists.ChartTrackLabel[row, 1].Text.Contains("ERROR: ") == true)
@@ -3957,7 +3957,7 @@ namespace Audiograph
 
         private void ChartTrackGoToTrack(object sender, EventArgs e)
         {
-            var parent1 = sender.GetCurrentParent();
+            var parent1 = ((ToolStripMenuItem)sender).GetCurrentParent();
             ContextMenuStrip parent2 = (ContextMenuStrip)parent1;
             Label finalParent = (Label)parent2.SourceControl;
             byte row = CMSLists.GetChartRowIndex(finalParent);
@@ -3967,7 +3967,7 @@ namespace Audiograph
 
         private void ChartTrackGoToArtist(object sender, EventArgs e)
         {
-            var parent1 = sender.GetCurrentParent();
+            var parent1 = ((ToolStripMenuItem)sender).GetCurrentParent();
             ContextMenuStrip parent2 = (ContextMenuStrip)parent1;
             Label finalParent = (Label)parent2.SourceControl;
             byte row = CMSLists.GetChartRowIndex(finalParent);
@@ -3977,7 +3977,7 @@ namespace Audiograph
 
         private void ChartTrackGoToAlbum(object sender, EventArgs e)
         {
-            var parent1 = sender.GetCurrentParent();
+            var parent1 = ((ToolStripMenuItem)sender).GetCurrentParent();
             ContextMenuStrip parent2 = (ContextMenuStrip)parent1;
             Label finalParent = (Label)parent2.SourceControl;
             byte row = CMSLists.GetChartRowIndex(finalParent);
@@ -3987,7 +3987,7 @@ namespace Audiograph
 
         private void ChartTrackBackupTrack(object sender, EventArgs e)
         {
-            var parent1 = sender.GetCurrentParent();
+            var parent1 = ((ToolStripMenuItem)sender).GetCurrentParent();
             ContextMenuStrip parent2 = (ContextMenuStrip)parent1;
             Label finalParent = (Label)parent2.SourceControl;
             byte row = CMSLists.GetChartRowIndex(finalParent);
@@ -3997,7 +3997,7 @@ namespace Audiograph
 
         private void ChartTrackBackupArtist(object sender, EventArgs e)
         {
-            var parent1 = sender.GetCurrentParent();
+            var parent1 = ((ToolStripMenuItem)sender).GetCurrentParent();
             ContextMenuStrip parent2 = (ContextMenuStrip)parent1;
             Label finalParent = (Label)parent2.SourceControl;
             byte row = CMSLists.GetChartRowIndex(finalParent);
@@ -4007,7 +4007,7 @@ namespace Audiograph
 
         private void ChartTrackBackupAlbum(object sender, EventArgs e)
         {
-            var parent1 = sender.GetCurrentParent();
+            var parent1 = ((ToolStripMenuItem)sender).GetCurrentParent();
             ContextMenuStrip parent2 = (ContextMenuStrip)parent1;
             Label finalParent = (Label)parent2.SourceControl;
             byte row = CMSLists.GetChartRowIndex(finalParent);
@@ -4017,7 +4017,7 @@ namespace Audiograph
 
         private void CmsChartArtistOpen(object sender, CancelEventArgs e)
         {
-            byte row = CMSLists.GetChartRowIndex((Label)sender.SourceControl);
+            byte row = CMSLists.GetChartRowIndex((Label)((ContextMenuStrip)sender).SourceControl);
 
             // disable artist if needed
             if (CMSLists.ChartArtistLabel[row, 1].Text.Contains("(Unavailable)") == true || CMSLists.ChartArtistLabel[row, 1].Text.Contains("ERROR: ") == true)
@@ -4034,7 +4034,7 @@ namespace Audiograph
 
         private void ChartArtistGoToArtist(object sender, EventArgs e)
         {
-            var parent1 = sender.GetCurrentParent();
+            var parent1 = ((ToolStripMenuItem)sender).GetCurrentParent();
             ContextMenuStrip parent2 = (ContextMenuStrip)parent1;
             Label finalParent = (Label)parent2.SourceControl;
             byte row = CMSLists.GetChartRowIndex(finalParent);
@@ -4044,7 +4044,7 @@ namespace Audiograph
 
         private void ChartArtistBackupArtist(object sender, EventArgs e)
         {
-            var parent1 = sender.GetCurrentParent();
+            var parent1 = ((ToolStripMenuItem)sender).GetCurrentParent();
             ContextMenuStrip parent2 = (ContextMenuStrip)parent1;
             Label finalParent = (Label)parent2.SourceControl;
             byte row = CMSLists.GetChartRowIndex(finalParent);
@@ -4094,7 +4094,7 @@ namespace Audiograph
 
         private void CmsSearchListsOpen(object sender, CancelEventArgs e)
         {
-            if (((ListView)sender.SourceControl).SelectedItems.Count <= 0)
+            if (((ListView)((ContextMenuStrip)sender).SourceControl).SelectedItems.Count <= 0)
             {
                 e.Cancel = true;
             }
@@ -4365,7 +4365,7 @@ namespace Audiograph
 
         private void CmsUserRecentOpen(object sender, CancelEventArgs e)
         {
-            byte row = CMSLists.GetUserRecentRowIndex((Label)sender.SourceControl);
+            byte row = CMSLists.GetUserRecentRowIndex((Label)((ContextMenuStrip)sender).SourceControl);
 
             // disable track if needed
             if (CMSLists.UserRecentLabel[row, 0].Text.Contains("(Unavailable)") == true || CMSLists.UserRecentLabel[row, 0].Text.Contains("ERROR: ") == true || CMSLists.UserRecentLabel[row, 1].Text.Contains("(Unavailable)") == true || CMSLists.UserRecentLabel[row, 1].Text.Contains("ERROR: ") == true)
@@ -4406,7 +4406,7 @@ namespace Audiograph
 
         private void UserRecentGoToTrack(object sender, EventArgs e)
         {
-            var parent1 = sender.GetCurrentParent();
+            var parent1 = ((ToolStripMenuItem)sender).GetCurrentParent();
             ContextMenuStrip parent2 = (ContextMenuStrip)parent1;
             Label finalParent = (Label)parent2.SourceControl;
             byte row = CMSLists.GetUserRecentRowIndex(finalParent);
@@ -4416,7 +4416,7 @@ namespace Audiograph
 
         private void UserRecentGoToArtist(object sender, EventArgs e)
         {
-            var parent1 = sender.GetCurrentParent();
+            var parent1 = ((ToolStripMenuItem)sender).GetCurrentParent();
             ContextMenuStrip parent2 = (ContextMenuStrip)parent1;
             Label finalParent = (Label)parent2.SourceControl;
             byte row = CMSLists.GetUserRecentRowIndex(finalParent);
@@ -4426,7 +4426,7 @@ namespace Audiograph
 
         private void UserRecentGoToAlbum(object sender, EventArgs e)
         {
-            var parent1 = sender.GetCurrentParent();
+            var parent1 = ((ToolStripMenuItem)sender).GetCurrentParent();
             ContextMenuStrip parent2 = (ContextMenuStrip)parent1;
             Label finalParent = (Label)parent2.SourceControl;
             byte row = CMSLists.GetUserRecentRowIndex(finalParent);
@@ -4436,7 +4436,7 @@ namespace Audiograph
 
         private void UserRecentBackupTrack(object sender, EventArgs e)
         {
-            var parent1 = sender.GetCurrentParent();
+            var parent1 = ((ToolStripMenuItem)sender).GetCurrentParent();
             ContextMenuStrip parent2 = (ContextMenuStrip)parent1;
             Label finalParent = (Label)parent2.SourceControl;
             byte row = CMSLists.GetUserRecentRowIndex(finalParent);
@@ -4446,7 +4446,7 @@ namespace Audiograph
 
         private void UserRecentBackupArtist(object sender, EventArgs e)
         {
-            var parent1 = sender.GetCurrentParent();
+            var parent1 = ((ToolStripMenuItem)sender).GetCurrentParent();
             ContextMenuStrip parent2 = (ContextMenuStrip)parent1;
             Label finalParent = (Label)parent2.SourceControl;
             byte row = CMSLists.GetUserRecentRowIndex(finalParent);
@@ -4456,7 +4456,7 @@ namespace Audiograph
 
         private void UserRecentBackupAlbum(object sender, EventArgs e)
         {
-            var parent1 = sender.GetCurrentParent();
+            var parent1 = ((ToolStripMenuItem)sender).GetCurrentParent();
             ContextMenuStrip parent2 = (ContextMenuStrip)parent1;
             Label finalParent = (Label)parent2.SourceControl;
             byte row = CMSLists.GetUserRecentRowIndex(finalParent);
@@ -4466,7 +4466,7 @@ namespace Audiograph
 
         private void CmsUserTopTrackOpen(object sender, CancelEventArgs e)
         {
-            byte row = CMSLists.GetUserTopTrackRowIndex((Label)sender.SourceControl);
+            byte row = CMSLists.GetUserTopTrackRowIndex((Label)((ContextMenuStrip)sender).SourceControl);
 
             // disable track if needed
             if (CMSLists.UserTopTracksLabel[row, 0].Text.Contains("(Unavailable)") == true || CMSLists.UserTopTracksLabel[row, 0].Text.Contains("ERROR: ") == true || CMSLists.UserTopTracksLabel[row, 1].Text.Contains("(Unavailable)") == true || CMSLists.UserTopTracksLabel[row, 1].Text.Contains("ERROR: ") == true)
@@ -4507,7 +4507,7 @@ namespace Audiograph
 
         private void UserTopTrackGoToTrack(object sender, EventArgs e)
         {
-            var parent1 = sender.GetCurrentParent();
+            var parent1 = ((ToolStripMenuItem)sender).GetCurrentParent();
             ContextMenuStrip parent2 = (ContextMenuStrip)parent1;
             Label finalParent = (Label)parent2.SourceControl;
             byte row = CMSLists.GetUserTopTrackRowIndex(finalParent);
@@ -4517,7 +4517,7 @@ namespace Audiograph
 
         private void UserTopTrackGoToArtist(object sender, EventArgs e)
         {
-            var parent1 = sender.GetCurrentParent();
+            var parent1 = ((ToolStripMenuItem)sender).GetCurrentParent();
             ContextMenuStrip parent2 = (ContextMenuStrip)parent1;
             Label finalParent = (Label)parent2.SourceControl;
             byte row = CMSLists.GetUserTopTrackRowIndex(finalParent);
@@ -4527,7 +4527,7 @@ namespace Audiograph
 
         private void UserTopTrackGoToAlbum(object sender, EventArgs e)
         {
-            var parent1 = sender.GetCurrentParent();
+            var parent1 = ((ToolStripMenuItem)sender).GetCurrentParent();
             ContextMenuStrip parent2 = (ContextMenuStrip)parent1;
             Label finalParent = (Label)parent2.SourceControl;
             byte row = CMSLists.GetUserTopTrackRowIndex(finalParent);
@@ -4537,7 +4537,7 @@ namespace Audiograph
 
         private void UserTopTrackBackupTrack(object sender, EventArgs e)
         {
-            var parent1 = sender.GetCurrentParent();
+            var parent1 = ((ToolStripMenuItem)sender).GetCurrentParent();
             ContextMenuStrip parent2 = (ContextMenuStrip)parent1;
             Label finalParent = (Label)parent2.SourceControl;
             byte row = CMSLists.GetUserTopTrackRowIndex(finalParent);
@@ -4547,7 +4547,7 @@ namespace Audiograph
 
         private void UserTopTrackBackupArtist(object sender, EventArgs e)
         {
-            var parent1 = sender.GetCurrentParent();
+            var parent1 = ((ToolStripMenuItem)sender).GetCurrentParent();
             ContextMenuStrip parent2 = (ContextMenuStrip)parent1;
             Label finalParent = (Label)parent2.SourceControl;
             byte row = CMSLists.GetUserTopTrackRowIndex(finalParent);
@@ -4557,7 +4557,7 @@ namespace Audiograph
 
         private void UserTopTrackBackupAlbum(object sender, EventArgs e)
         {
-            var parent1 = sender.GetCurrentParent();
+            var parent1 = ((ToolStripMenuItem)sender).GetCurrentParent();
             ContextMenuStrip parent2 = (ContextMenuStrip)parent1;
             Label finalParent = (Label)parent2.SourceControl;
             byte row = CMSLists.GetUserTopTrackRowIndex(finalParent);
@@ -4567,7 +4567,7 @@ namespace Audiograph
 
         private void UserTopArtistGoToArtist(object sender, EventArgs e)
         {
-            var parent1 = sender.GetCurrentParent();
+            var parent1 = ((ToolStripMenuItem)sender).GetCurrentParent();
             ContextMenuStrip parent2 = (ContextMenuStrip)parent1;
             Label finalParent = (Label)parent2.SourceControl;
             byte row = CMSLists.GetUserTopArtistRowIndex(finalParent);
@@ -4577,7 +4577,7 @@ namespace Audiograph
 
         private void UserTopArtistBackupArtist(object sender, EventArgs e)
         {
-            var parent1 = sender.GetCurrentParent();
+            var parent1 = ((ToolStripMenuItem)sender).GetCurrentParent();
             ContextMenuStrip parent2 = (ContextMenuStrip)parent1;
             Label finalParent = (Label)parent2.SourceControl;
             byte row = CMSLists.GetUserTopArtistRowIndex(finalParent);
@@ -4587,7 +4587,7 @@ namespace Audiograph
 
         private void UserTopAlbumGoToAlbum(object sender, EventArgs e)
         {
-            var parent1 = sender.GetCurrentParent();
+            var parent1 = ((ToolStripMenuItem)sender).GetCurrentParent();
             ContextMenuStrip parent2 = (ContextMenuStrip)parent1;
             Label finalParent = (Label)parent2.SourceControl;
             byte row = CMSLists.GetUserTopAlbumRowIndex(finalParent);
@@ -4597,7 +4597,7 @@ namespace Audiograph
 
         private void UserTopAlbumGoToArtist(object sender, EventArgs e)
         {
-            var parent1 = sender.GetCurrentParent();
+            var parent1 = ((ToolStripMenuItem)sender).GetCurrentParent();
             ContextMenuStrip parent2 = (ContextMenuStrip)parent1;
             Label finalParent = (Label)parent2.SourceControl;
             byte row = CMSLists.GetUserTopAlbumRowIndex(finalParent);
@@ -4607,7 +4607,7 @@ namespace Audiograph
 
         private void UserTopAlbumBackupAlbum(object sender, EventArgs e)
         {
-            var parent1 = sender.GetCurrentParent();
+            var parent1 = ((ToolStripMenuItem)sender).GetCurrentParent();
             ContextMenuStrip parent2 = (ContextMenuStrip)parent1;
             Label finalParent = (Label)parent2.SourceControl;
             byte row = CMSLists.GetUserTopAlbumRowIndex(finalParent);
@@ -4617,7 +4617,7 @@ namespace Audiograph
 
         private void UserTopAlbumBackupArtist(object sender, EventArgs e)
         {
-            var parent1 = sender.GetCurrentParent();
+            var parent1 = ((ToolStripMenuItem)sender).GetCurrentParent();
             ContextMenuStrip parent2 = (ContextMenuStrip)parent1;
             Label finalParent = (Label)parent2.SourceControl;
             byte row = CMSLists.GetUserTopAlbumRowIndex(finalParent);
@@ -4777,7 +4777,7 @@ namespace Audiograph
 
         private void CmsUserLRecentOpen(object sender, CancelEventArgs e)
         {
-            byte row = CMSLists.GetUserRecentRowIndex((Label)sender.SourceControl);
+            byte row = CMSLists.GetUserRecentRowIndex((Label)((ContextMenuStrip)sender).SourceControl);
 
             // disable track if needed
             if (CMSLists.UserLRecentLabel[row, 0].Text.Contains("(Unavailable)") == true || CMSLists.UserLRecentLabel[row, 0].Text.Contains("ERROR: ") == true || CMSLists.UserLRecentLabel[row, 1].Text.Contains("(Unavailable)") == true || CMSLists.UserLRecentLabel[row, 1].Text.Contains("ERROR: ") == true)
@@ -4818,7 +4818,7 @@ namespace Audiograph
 
         private void UserLRecentGoToTrack(object sender, EventArgs e)
         {
-            var parent1 = sender.GetCurrentParent();
+            var parent1 = ((ToolStripMenuItem)sender).GetCurrentParent();
             ContextMenuStrip parent2 = (ContextMenuStrip)parent1;
             Label finalParent = (Label)parent2.SourceControl;
             byte row = CMSLists.GetUserRecentRowIndex(finalParent);
@@ -4828,7 +4828,7 @@ namespace Audiograph
 
         private void UserLRecentGoToArtist(object sender, EventArgs e)
         {
-            var parent1 = sender.GetCurrentParent();
+            var parent1 = ((ToolStripMenuItem)sender).GetCurrentParent();
             ContextMenuStrip parent2 = (ContextMenuStrip)parent1;
             Label finalParent = (Label)parent2.SourceControl;
             byte row = CMSLists.GetUserRecentRowIndex(finalParent);
@@ -4838,7 +4838,7 @@ namespace Audiograph
 
         private void UserLRecentGoToAlbum(object sender, EventArgs e)
         {
-            var parent1 = sender.GetCurrentParent();
+            var parent1 = ((ToolStripMenuItem)sender).GetCurrentParent();
             ContextMenuStrip parent2 = (ContextMenuStrip)parent1;
             Label finalParent = (Label)parent2.SourceControl;
             byte row = CMSLists.GetUserRecentRowIndex(finalParent);
@@ -4848,7 +4848,7 @@ namespace Audiograph
 
         private void UserLRecentBackupTrack(object sender, EventArgs e)
         {
-            var parent1 = sender.GetCurrentParent();
+            var parent1 = ((ToolStripMenuItem)sender).GetCurrentParent();
             ContextMenuStrip parent2 = (ContextMenuStrip)parent1;
             Label finalParent = (Label)parent2.SourceControl;
             byte row = CMSLists.GetUserRecentRowIndex(finalParent);
@@ -4858,7 +4858,7 @@ namespace Audiograph
 
         private void UserLRecentBackupArtist(object sender, EventArgs e)
         {
-            var parent1 = sender.GetCurrentParent();
+            var parent1 = ((ToolStripMenuItem)sender).GetCurrentParent();
             ContextMenuStrip parent2 = (ContextMenuStrip)parent1;
             Label finalParent = (Label)parent2.SourceControl;
             byte row = CMSLists.GetUserRecentRowIndex(finalParent);
@@ -4868,7 +4868,7 @@ namespace Audiograph
 
         private void UserLRecentBackupAlbum(object sender, EventArgs e)
         {
-            var parent1 = sender.GetCurrentParent();
+            var parent1 = ((ToolStripMenuItem)sender).GetCurrentParent();
             ContextMenuStrip parent2 = (ContextMenuStrip)parent1;
             Label finalParent = (Label)parent2.SourceControl;
             byte row = CMSLists.GetUserRecentRowIndex(finalParent);
@@ -4878,7 +4878,7 @@ namespace Audiograph
 
         private void CmsUserLTopTrackOpen(object sender, CancelEventArgs e)
         {
-            byte row = CMSLists.GetUserTopTrackRowIndex((Label)sender.SourceControl);
+            byte row = CMSLists.GetUserTopTrackRowIndex((Label)((ContextMenuStrip)sender).SourceControl);
 
             // disable track if needed
             if (CMSLists.UserLTopTracksLabel[row, 0].Text.Contains("(Unavailable)") == true || CMSLists.UserLTopTracksLabel[row, 0].Text.Contains("ERROR: ") == true || CMSLists.UserLTopTracksLabel[row, 1].Text.Contains("(Unavailable)") == true || CMSLists.UserLTopTracksLabel[row, 1].Text.Contains("ERROR: ") == true)
@@ -4919,7 +4919,7 @@ namespace Audiograph
 
         private void UserLTopTrackGoToTrack(object sender, EventArgs e)
         {
-            var parent1 = sender.GetCurrentParent();
+            var parent1 = ((ToolStripMenuItem)sender).GetCurrentParent();
             ContextMenuStrip parent2 = (ContextMenuStrip)parent1;
             Label finalParent = (Label)parent2.SourceControl;
             byte row = CMSLists.GetUserTopTrackRowIndex(finalParent);
@@ -4929,7 +4929,7 @@ namespace Audiograph
 
         private void UserLTopTrackGoToArtist(object sender, EventArgs e)
         {
-            var parent1 = sender.GetCurrentParent();
+            var parent1 = ((ToolStripMenuItem)sender).GetCurrentParent();
             ContextMenuStrip parent2 = (ContextMenuStrip)parent1;
             Label finalParent = (Label)parent2.SourceControl;
             byte row = CMSLists.GetUserTopTrackRowIndex(finalParent);
@@ -4939,7 +4939,7 @@ namespace Audiograph
 
         private void UserLTopTrackGoToAlbum(object sender, EventArgs e)
         {
-            var parent1 = sender.GetCurrentParent();
+            var parent1 = ((ToolStripMenuItem)sender).GetCurrentParent();
             ContextMenuStrip parent2 = (ContextMenuStrip)parent1;
             Label finalParent = (Label)parent2.SourceControl;
             byte row = CMSLists.GetUserTopTrackRowIndex(finalParent);
@@ -4949,7 +4949,7 @@ namespace Audiograph
 
         private void UserLTopTrackBackupTrack(object sender, EventArgs e)
         {
-            var parent1 = sender.GetCurrentParent();
+            var parent1 = ((ToolStripMenuItem)sender).GetCurrentParent();
             ContextMenuStrip parent2 = (ContextMenuStrip)parent1;
             Label finalParent = (Label)parent2.SourceControl;
             byte row = CMSLists.GetUserTopTrackRowIndex(finalParent);
@@ -4959,7 +4959,7 @@ namespace Audiograph
 
         private void UserLTopTrackBackupArtist(object sender, EventArgs e)
         {
-            var parent1 = sender.GetCurrentParent();
+            var parent1 = ((ToolStripMenuItem)sender).GetCurrentParent();
             ContextMenuStrip parent2 = (ContextMenuStrip)parent1;
             Label finalParent = (Label)parent2.SourceControl;
             byte row = CMSLists.GetUserTopTrackRowIndex(finalParent);
@@ -4969,7 +4969,7 @@ namespace Audiograph
 
         private void UserLTopTrackBackupAlbum(object sender, EventArgs e)
         {
-            var parent1 = sender.GetCurrentParent();
+            var parent1 = ((ToolStripMenuItem)sender).GetCurrentParent();
             ContextMenuStrip parent2 = (ContextMenuStrip)parent1;
             Label finalParent = (Label)parent2.SourceControl;
             byte row = CMSLists.GetUserTopTrackRowIndex(finalParent);
@@ -4979,7 +4979,7 @@ namespace Audiograph
 
         private void UserLTopArtistGoToArtist(object sender, EventArgs e)
         {
-            var parent1 = sender.GetCurrentParent();
+            var parent1 = ((ToolStripMenuItem)sender).GetCurrentParent();
             ContextMenuStrip parent2 = (ContextMenuStrip)parent1;
             Label finalParent = (Label)parent2.SourceControl;
             byte row = CMSLists.GetUserTopArtistRowIndex(finalParent);
@@ -4989,7 +4989,7 @@ namespace Audiograph
 
         private void UserLTopArtistBackupArtist(object sender, EventArgs e)
         {
-            var parent1 = sender.GetCurrentParent();
+            var parent1 = ((ToolStripMenuItem)sender).GetCurrentParent();
             ContextMenuStrip parent2 = (ContextMenuStrip)parent1;
             Label finalParent = (Label)parent2.SourceControl;
             byte row = CMSLists.GetUserTopArtistRowIndex(finalParent);
@@ -4999,7 +4999,7 @@ namespace Audiograph
 
         private void UserLTopAlbumGoToAlbum(object sender, EventArgs e)
         {
-            var parent1 = sender.GetCurrentParent();
+            var parent1 = ((ToolStripMenuItem)sender).GetCurrentParent();
             ContextMenuStrip parent2 = (ContextMenuStrip)parent1;
             Label finalParent = (Label)parent2.SourceControl;
             byte row = CMSLists.GetUserTopAlbumRowIndex(finalParent);
@@ -5009,7 +5009,7 @@ namespace Audiograph
 
         private void UserLTopAlbumGoToArtist(object sender, EventArgs e)
         {
-            var parent1 = sender.GetCurrentParent();
+            var parent1 = ((ToolStripMenuItem)sender).GetCurrentParent();
             ContextMenuStrip parent2 = (ContextMenuStrip)parent1;
             Label finalParent = (Label)parent2.SourceControl;
             byte row = CMSLists.GetUserTopAlbumRowIndex(finalParent);
@@ -5019,7 +5019,7 @@ namespace Audiograph
 
         private void UserLTopAlbumBackupAlbum(object sender, EventArgs e)
         {
-            var parent1 = sender.GetCurrentParent();
+            var parent1 = ((ToolStripMenuItem)sender).GetCurrentParent();
             ContextMenuStrip parent2 = (ContextMenuStrip)parent1;
             Label finalParent = (Label)parent2.SourceControl;
             byte row = CMSLists.GetUserTopAlbumRowIndex(finalParent);
@@ -5029,7 +5029,7 @@ namespace Audiograph
 
         private void UserLTopAlbumBackupArtist(object sender, EventArgs e)
         {
-            var parent1 = sender.GetCurrentParent();
+            var parent1 = ((ToolStripMenuItem)sender).GetCurrentParent();
             ContextMenuStrip parent2 = (ContextMenuStrip)parent1;
             Label finalParent = (Label)parent2.SourceControl;
             byte row = CMSLists.GetUserTopAlbumRowIndex(finalParent);
@@ -5141,7 +5141,7 @@ namespace Audiograph
 
         private void CmsUserTopArtistOpen(object sender, EventArgs e)
         {
-            byte row = CMSLists.GetUserTopArtistRowIndex((Label)sender.SourceControl);
+            byte row = CMSLists.GetUserTopArtistRowIndex((Label)((ContextMenuStrip)sender).SourceControl);
 
             // disable artist if needed
             if (CMSLists.UserTopArtistsLabel[row, 1].Text.Contains("(Unavailable)") == true || CMSLists.UserTopArtistsLabel[row, 1].Text.Contains("ERROR: ") == true)

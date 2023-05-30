@@ -3464,12 +3464,12 @@ namespace Audiograph
         }
 
         // opens clicked image in browser
-        private void ArtClicked(PictureBox sender, MouseEventArgs e)
+        private void ArtClicked(object sender, MouseEventArgs e)
         {
 
-            if (e.Button == MouseButtons.Left && sender.ImageLocation.Contains("http") == true)
+            if (e.Button == MouseButtons.Left && ((PictureBox)sender).ImageLocation.Contains("http") == true)
             {
-                Process.Start(sender.ImageLocation);
+                Process.Start(((PictureBox)sender).ImageLocation);
             }
         }
 
@@ -5102,41 +5102,41 @@ namespace Audiograph
             }
         }
 
-        private void ChartTrackTrackClick(Label sender, MouseEventArgs e)
+        private void ChartTrackTrackClick(Object sender, MouseEventArgs e)
         {
-            byte row = CMSLists.GetChartRowIndex(sender);
+            byte row = CMSLists.GetChartRowIndex((Label)sender);
 
-            if (e.Button == MouseButtons.Left && sender.Text.Contains("(Unavailable)") == false && sender.Text.Contains("ERROR: ") == false && CMSLists.UserRecentLabel[row, 1].Text.Contains("(Unavailable)") == false && CMSLists.UserRecentLabel[row, 1].Text.Contains("ERROR: ") == false)
+            if (e.Button == MouseButtons.Left && ((Label)sender).Text.Contains("(Unavailable)") == false && ((Label)sender).Text.Contains("ERROR: ") == false && CMSLists.UserRecentLabel[row, 1].Text.Contains("(Unavailable)") == false && CMSLists.UserRecentLabel[row, 1].Text.Contains("ERROR: ") == false)
             {
                 Utilities.GoToTrack(CMSLists.ChartTrackLabel[row, 0].Text, CMSLists.ChartTrackLabel[row, 1].Text);
             }
         }
 
-        private void ChartTrackArtistClick(Label sender, MouseEventArgs e)
+        private void ChartTrackArtistClick(object sender, MouseEventArgs e)
         {
-            byte row = CMSLists.GetChartRowIndex(sender);
+            byte row = CMSLists.GetChartRowIndex((Label)sender);
 
-            if (e.Button == MouseButtons.Left && sender.Text.Contains("(Unavailable)") == false && sender.Text.Contains("ERROR: ") == false)
+            if (e.Button == MouseButtons.Left && ((Label)sender).Text.Contains("(Unavailable)") == false && ((Label)sender).Text.Contains("ERROR: ") == false)
             {
                 Utilities.GoToArtist(CMSLists.ChartTrackLabel[row, 1].Text);
             }
         }
 
-        private void ChartTrackAlbumClick(Label sender, MouseEventArgs e)
+        private void ChartTrackAlbumClick(object sender, MouseEventArgs e)
         {
-            byte row = CMSLists.GetChartRowIndex(sender);
+            byte row = CMSLists.GetChartRowIndex((Label)sender);
 
-            if (e.Button == MouseButtons.Left && sender.Text.Contains("(Unavailable)") == false && sender.Text.Contains("ERROR: ") == false && CMSLists.UserRecentLabel[row, 1].Text.Contains("(Unavailable)") == false && CMSLists.UserRecentLabel[row, 1].Text.Contains("ERROR: ") == false)
+            if (e.Button == MouseButtons.Left && ((Label)sender).Text.Contains("(Unavailable)") == false && ((Label)sender).Text.Contains("ERROR: ") == false && CMSLists.UserRecentLabel[row, 1].Text.Contains("(Unavailable)") == false && CMSLists.UserRecentLabel[row, 1].Text.Contains("ERROR: ") == false)
             {
                 Utilities.GoToAlbum(CMSLists.ChartTrackLabel[row, 2].Text, CMSLists.ChartTrackLabel[row, 1].Text);
             }
         }
 
-        private void ChartArtistClick(Label sender, MouseEventArgs e)
+        private void ChartArtistClick(object sender, MouseEventArgs e)
         {
-            byte row = CMSLists.GetChartRowIndex(sender);
+            byte row = CMSLists.GetChartRowIndex((Label)sender);
 
-            if (e.Button == MouseButtons.Left && sender.Text.Contains("(Unavailable)") == false && sender.Text.Contains("ERROR: ") == false)
+            if (e.Button == MouseButtons.Left && ((Label)sender).Text.Contains("(Unavailable)") == false && ((Label)sender).Text.Contains("ERROR: ") == false)
             {
                 Utilities.GoToArtist(CMSLists.ChartArtistLabel[row, 0].Text);
             }
@@ -5451,19 +5451,19 @@ namespace Audiograph
             Process.Start(e.LinkText);
         }
 
-        private void ArtistTopTrackClick(Label sender, MouseEventArgs e)
+        private void ArtistTopTrackClick(object sender, MouseEventArgs e)
         {
-            if (e.Button == MouseButtons.Left && sender.Text.Contains("(Unavailable)") == false && sender.Text.Contains("ERROR: ") == false)
+            if (e.Button == MouseButtons.Left && ((Label)sender).Text.Contains("(Unavailable)") == false && ((Label)sender).Text.Contains("ERROR: ") == false)
             {
-                Utilities.GoToTrack(sender.Text, txtArtistInfo.Text.Split(Conversions.ToChar(Constants.vbLf))[1]);
+                Utilities.GoToTrack(((Label)sender).Text, txtArtistInfo.Text.Split(Conversions.ToChar(Constants.vbLf))[1]);
             }
         }
 
-        private void ArtistTopAlbumClick(Label sender, MouseEventArgs e)
+        private void ArtistTopAlbumClick(object sender, MouseEventArgs e)
         {
-            if (e.Button == MouseButtons.Left && sender.Text.Contains("(Unavailable)") == false && sender.Text.Contains("ERROR: ") == false)
+            if (e.Button == MouseButtons.Left && ((Label)sender).Text.Contains("(Unavailable)") == false && ((Label)sender).Text.Contains("ERROR: ") == false)
             {
-                Utilities.GoToAlbum(sender.Text, txtArtistInfo.Text.Split(Conversions.ToChar(Constants.vbLf))[1]);
+                Utilities.GoToAlbum(((Label)sender).Text, txtArtistInfo.Text.Split(Conversions.ToChar(Constants.vbLf))[1]);
             }
         }
         #endregion
@@ -5719,9 +5719,9 @@ namespace Audiograph
             My.MyProject.Forms.frmAuthentication.Show();
         }
 
-        private void UserRecentTrackClick(Label sender, MouseEventArgs e)
+        private void UserRecentTrackClick(object sender, MouseEventArgs e)
         {
-            byte row = CMSLists.GetUserRecentRowIndex(sender);
+            byte row = CMSLists.GetUserRecentRowIndex((Label)sender);
 
             if (e.Button == MouseButtons.Left && CMSLists.UserRecentLabel[row, 0].Text.Contains("(Unavailable)") == false && CMSLists.UserRecentLabel[row, 0].Text.Contains("ERROR: ") == false && CMSLists.UserRecentLabel[row, 1].Text.Contains("(Unavailable)") == false && CMSLists.UserRecentLabel[row, 1].Text.Contains("ERROR: ") == false)
             {
@@ -5729,19 +5729,19 @@ namespace Audiograph
             }
         }
 
-        private void UserRecentArtistClick(Label sender, MouseEventArgs e)
+        private void UserRecentArtistClick(object sender, MouseEventArgs e)
         {
-            byte row = CMSLists.GetUserRecentRowIndex(sender);
+            byte row = CMSLists.GetUserRecentRowIndex((Label)sender);
 
-            if (e.Button == MouseButtons.Left && sender.Text.Contains("(Unavailable)") == false && sender.Text.Contains("ERROR: ") == false)
+            if (e.Button == MouseButtons.Left && ((Label)sender).Text.Contains("(Unavailable)") == false && ((Label)sender).Text.Contains("ERROR: ") == false)
             {
                 Utilities.GoToArtist(CMSLists.UserRecentLabel[row, 1].Text);
             }
         }
 
-        private void UserRecentAlbumClick(Label sender, MouseEventArgs e)
+        private void UserRecentAlbumClick(object sender, MouseEventArgs e)
         {
-            byte row = CMSLists.GetUserRecentRowIndex(sender);
+            byte row = CMSLists.GetUserRecentRowIndex((Label)sender);
 
             if (e.Button == MouseButtons.Left && CMSLists.UserRecentLabel[row, 2].Text.Contains("(Unavailable)") == false && CMSLists.UserRecentLabel[row, 2].Text.Contains("ERROR: ") == false && CMSLists.UserRecentLabel[row, 1].Text.Contains("(Unavailable)") == false && CMSLists.UserRecentLabel[row, 1].Text.Contains("ERROR: ") == false)
             {
@@ -5749,9 +5749,9 @@ namespace Audiograph
             }
         }
 
-        private void UserTopTrackTrackClicked(Label sender, MouseEventArgs e)
+        private void UserTopTrackTrackClicked(object sender, MouseEventArgs e)
         {
-            byte row = CMSLists.GetUserTopTrackRowIndex(sender);
+            byte row = CMSLists.GetUserTopTrackRowIndex((Label)sender);
 
             if (e.Button == MouseButtons.Left && CMSLists.UserTopTracksLabel[row, 0].Text.Contains("(Unavailable)") == false && CMSLists.UserTopTracksLabel[row, 0].Text.Contains("ERROR: ") == false && CMSLists.UserTopTracksLabel[row, 1].Text.Contains("(Unavailable)") == false && CMSLists.UserTopTracksLabel[row, 1].Text.Contains("ERROR: ") == false)
             {
@@ -5759,9 +5759,9 @@ namespace Audiograph
             }
         }
 
-        private void UserTopTrackArtistClicked(Label sender, MouseEventArgs e)
+        private void UserTopTrackArtistClicked(object sender, MouseEventArgs e)
         {
-            byte row = CMSLists.GetUserTopTrackRowIndex(sender);
+            byte row = CMSLists.GetUserTopTrackRowIndex((Label)sender);
 
             if (e.Button == MouseButtons.Left && CMSLists.UserTopTracksLabel[row, 1].Text.Contains("(Unavailable)") == false && CMSLists.UserTopTracksLabel[row, 1].Text.Contains("ERROR: ") == false)
             {
@@ -5769,9 +5769,9 @@ namespace Audiograph
             }
         }
 
-        private void UserTopTrackAlbumClicked(Label sender, MouseEventArgs e)
+        private void UserTopTrackAlbumClicked(object sender, MouseEventArgs e)
         {
-            byte row = CMSLists.GetUserTopTrackRowIndex(sender);
+            byte row = CMSLists.GetUserTopTrackRowIndex((Label)sender);
 
             if (e.Button == MouseButtons.Left && CMSLists.UserTopTracksLabel[row, 2].Text.Contains("(Unavailable)") == false && CMSLists.UserTopTracksLabel[row, 2].Text.Contains("ERROR: ") == false && CMSLists.UserTopTracksLabel[row, 1].Text.Contains("(Unavailable)") == false && CMSLists.UserTopTracksLabel[row, 1].Text.Contains("ERROR: ") == false)
             {
@@ -5779,9 +5779,9 @@ namespace Audiograph
             }
         }
 
-        private void UserTopArtistClicked(Label sender, MouseEventArgs e)
+        private void UserTopArtistClicked(object sender, MouseEventArgs e)
         {
-            byte row = CMSLists.GetUserTopArtistRowIndex(sender);
+            byte row = CMSLists.GetUserTopArtistRowIndex((Label)sender);
 
             if (e.Button == MouseButtons.Left && CMSLists.UserTopArtistsLabel[row, 0].Text.Contains("(Unavailable)") == false && CMSLists.UserTopArtistsLabel[row, 0].Text.Contains("ERROR: ") == false)
             {
@@ -5789,9 +5789,9 @@ namespace Audiograph
             }
         }
 
-        private void UserTopAlbumAlbumClicked(Label sender, MouseEventArgs e)
+        private void UserTopAlbumAlbumClicked(object sender, MouseEventArgs e)
         {
-            byte row = CMSLists.GetUserTopAlbumRowIndex(sender);
+            byte row = CMSLists.GetUserTopAlbumRowIndex((Label)sender);
 
             if (e.Button == MouseButtons.Left && CMSLists.UserTopAlbumsLabel[row, 0].Text.Contains("(Unavailable)") == false && CMSLists.UserTopAlbumsLabel[row, 0].Text.Contains("ERROR: ") == false && CMSLists.UserTopAlbumsLabel[row, 1].Text.Contains("(Unavailable)") == false && CMSLists.UserTopAlbumsLabel[row, 1].Text.Contains("ERROR: ") == false)
             {
@@ -5799,9 +5799,9 @@ namespace Audiograph
             }
         }
 
-        private void UserTopAlbumArtistClicked(Label sender, MouseEventArgs e)
+        private void UserTopAlbumArtistClicked(object sender, MouseEventArgs e)
         {
-            byte row = CMSLists.GetUserTopAlbumRowIndex(sender);
+            byte row = CMSLists.GetUserTopAlbumRowIndex((Label)sender);
 
             if (e.Button == MouseButtons.Left && CMSLists.UserTopAlbumsLabel[row, 0].Text.Contains("(Unavailable)") == false && CMSLists.UserTopAlbumsLabel[row, 0].Text.Contains("ERROR: ") == false)
             {
@@ -5937,9 +5937,9 @@ namespace Audiograph
             }
         }
 
-        private void UserLRecentTrackClick(Label sender, MouseEventArgs e)
+        private void UserLRecentTrackClick(object sender, MouseEventArgs e)
         {
-            byte row = CMSLists.GetUserRecentRowIndex(sender);
+            byte row = CMSLists.GetUserRecentRowIndex((Label)sender);
 
             if (e.Button == MouseButtons.Left && CMSLists.UserLRecentLabel[row, 0].Text.Contains("(Unavailable)") == false && CMSLists.UserLRecentLabel[row, 0].Text.Contains("ERROR: ") == false && CMSLists.UserLRecentLabel[row, 1].Text.Contains("(Unavailable)") == false && CMSLists.UserLRecentLabel[row, 1].Text.Contains("ERROR: ") == false)
             {
@@ -5947,19 +5947,19 @@ namespace Audiograph
             }
         }
 
-        private void UserLRecentArtistClick(Label sender, MouseEventArgs e)
+        private void UserLRecentArtistClick(object sender, MouseEventArgs e)
         {
-            byte row = CMSLists.GetUserRecentRowIndex(sender);
+            byte row = CMSLists.GetUserRecentRowIndex((Label)sender);
 
-            if (e.Button == MouseButtons.Left && sender.Text.Contains("(Unavailable)") == false && sender.Text.Contains("ERROR: ") == false)
+            if (e.Button == MouseButtons.Left && ((Label)sender).Text.Contains("(Unavailable)") == false && ((Label)sender).Text.Contains("ERROR: ") == false)
             {
                 Utilities.GoToArtist(CMSLists.UserLRecentLabel[row, 1].Text);
             }
         }
 
-        private void UserLRecentAlbumClick(Label sender, MouseEventArgs e)
+        private void UserLRecentAlbumClick(object sender, MouseEventArgs e)
         {
-            byte row = CMSLists.GetUserRecentRowIndex(sender);
+            byte row = CMSLists.GetUserRecentRowIndex((Label)sender);
 
             if (e.Button == MouseButtons.Left && CMSLists.UserLRecentLabel[row, 2].Text.Contains("(Unavailable)") == false && CMSLists.UserLRecentLabel[row, 2].Text.Contains("ERROR: ") == false && CMSLists.UserLRecentLabel[row, 1].Text.Contains("(Unavailable)") == false && CMSLists.UserLRecentLabel[row, 1].Text.Contains("ERROR: ") == false)
             {
@@ -5967,9 +5967,9 @@ namespace Audiograph
             }
         }
 
-        private void UserLTopTrackTrackClicked(Label sender, MouseEventArgs e)
+        private void UserLTopTrackTrackClicked(object sender, MouseEventArgs e)
         {
-            byte row = CMSLists.GetUserTopTrackRowIndex(sender);
+            byte row = CMSLists.GetUserTopTrackRowIndex((Label)sender);
 
             if (e.Button == MouseButtons.Left && CMSLists.UserLTopTracksLabel[row, 0].Text.Contains("(Unavailable)") == false && CMSLists.UserLTopTracksLabel[row, 0].Text.Contains("ERROR: ") == false && CMSLists.UserLTopTracksLabel[row, 1].Text.Contains("(Unavailable)") == false && CMSLists.UserLTopTracksLabel[row, 1].Text.Contains("ERROR: ") == false)
             {
@@ -5977,9 +5977,9 @@ namespace Audiograph
             }
         }
 
-        private void UserLTopTrackArtistClicked(Label sender, MouseEventArgs e)
+        private void UserLTopTrackArtistClicked(object sender, MouseEventArgs e)
         {
-            byte row = CMSLists.GetUserTopTrackRowIndex(sender);
+            byte row = CMSLists.GetUserTopTrackRowIndex((Label)sender);
 
             if (e.Button == MouseButtons.Left && CMSLists.UserLTopTracksLabel[row, 1].Text.Contains("(Unavailable)") == false && CMSLists.UserLTopTracksLabel[row, 1].Text.Contains("ERROR: ") == false)
             {
@@ -5987,9 +5987,9 @@ namespace Audiograph
             }
         }
 
-        private void UserLTopTrackAlbumClicked(Label sender, MouseEventArgs e)
+        private void UserLTopTrackAlbumClicked(object sender, MouseEventArgs e)
         {
-            byte row = CMSLists.GetUserTopTrackRowIndex(sender);
+            byte row = CMSLists.GetUserTopTrackRowIndex((Label)sender);
 
             if (e.Button == MouseButtons.Left && CMSLists.UserLTopTracksLabel[row, 2].Text.Contains("(Unavailable)") == false && CMSLists.UserLTopTracksLabel[row, 2].Text.Contains("ERROR: ") == false && CMSLists.UserLTopTracksLabel[row, 1].Text.Contains("(Unavailable)") == false && CMSLists.UserLTopTracksLabel[row, 1].Text.Contains("ERROR: ") == false)
             {
@@ -5997,9 +5997,9 @@ namespace Audiograph
             }
         }
 
-        private void UserLTopArtistClicked(Label sender, MouseEventArgs e)
+        private void UserLTopArtistClicked(object sender, MouseEventArgs e)
         {
-            byte row = CMSLists.GetUserTopArtistRowIndex(sender);
+            byte row = CMSLists.GetUserTopArtistRowIndex((Label)sender);
 
             if (e.Button == MouseButtons.Left && CMSLists.UserLTopArtistsLabel[row, 0].Text.Contains("(Unavailable)") == false && CMSLists.UserLTopArtistsLabel[row, 0].Text.Contains("ERROR: ") == false)
             {
@@ -6007,9 +6007,9 @@ namespace Audiograph
             }
         }
 
-        private void UserLTopAlbumAlbumClicked(Label sender, MouseEventArgs e)
+        private void UserLTopAlbumAlbumClicked(object sender, MouseEventArgs e)
         {
-            byte row = CMSLists.GetUserTopAlbumRowIndex(sender);
+            byte row = CMSLists.GetUserTopAlbumRowIndex((Label)sender);
 
             if (e.Button == MouseButtons.Left && CMSLists.UserLTopAlbumsLabel[row, 0].Text.Contains("(Unavailable)") == false && CMSLists.UserLTopAlbumsLabel[row, 0].Text.Contains("ERROR: ") == false && CMSLists.UserLTopAlbumsLabel[row, 1].Text.Contains("(Unavailable)") == false && CMSLists.UserLTopAlbumsLabel[row, 1].Text.Contains("ERROR: ") == false)
             {
@@ -6017,9 +6017,9 @@ namespace Audiograph
             }
         }
 
-        private void UserLTopAlbumArtistClicked(Label sender, MouseEventArgs e)
+        private void UserLTopAlbumArtistClicked(object sender, MouseEventArgs e)
         {
-            byte row = CMSLists.GetUserTopAlbumRowIndex(sender);
+            byte row = CMSLists.GetUserTopAlbumRowIndex((Label)sender);
 
             if (e.Button == MouseButtons.Left && CMSLists.UserLTopAlbumsLabel[row, 0].Text.Contains("(Unavailable)") == false && CMSLists.UserLTopAlbumsLabel[row, 0].Text.Contains("ERROR: ") == false)
             {
@@ -6548,130 +6548,6 @@ namespace Audiograph
             My.MyProject.Forms.frmScrobbleIndexEditor.NewFile();
         }
 
-        private void ChartArtistClick(object sender, EventArgs e)
-        {
-
-        }
-
-        private void ChartTrackAlbumClick(object sender, EventArgs e)
-        {
-
-        }
-
-        private void ChartTrackArtistClick(object sender, EventArgs e)
-        {
-
-        }
-
-        private void ChartTrackTrackClick(object sender, EventArgs e)
-        {
-
-        }
-
-        private void ArtClicked(object sender, MouseEventArgs e)
-        {
-
-        }
-
-        private void ArtistTopTrackClick(object sender, EventArgs e)
-        {
-
-        }
-
-        private void ArtistTopAlbumClick(object sender, EventArgs e)
-        {
-
-        }
-
-        private void UserTopTrackAlbumClicked(object sender, EventArgs e)
-        {
-
-        }
-
-        private void UserTopTrackArtistClicked(object sender, EventArgs e)
-        {
-
-        }
-
-        private void UserTopTrackTrackClicked(object sender, EventArgs e)
-        {
-
-        }
-
-        private void UserTopArtistClicked(object sender, EventArgs e)
-        {
-
-        }
-
-        private void UserTopAlbumAlbumClicked(object sender, EventArgs e)
-        {
-
-        }
-
-        private void UserTopAlbumArtistClicked(object sender, EventArgs e)
-        {
-
-        }
-
-        private void UserRecentAlbumClick(object sender, EventArgs e)
-        {
-
-        }
-
-        private void UserRecentArtistClick(object sender, EventArgs e)
-        {
-
-        }
-
-        private void UserRecentTrackClick(object sender, EventArgs e)
-        {
-
-        }
-
-        private void UserLTopTrackAlbumClicked(object sender, EventArgs e)
-        {
-
-        }
-
-        private void UserLTopTrackArtistClicked(object sender, EventArgs e)
-        {
-
-        }
-
-        private void UserLTopTrackTrackClicked(object sender, EventArgs e)
-        {
-
-        }
-
-        private void UserLTopArtistClicked(object sender, EventArgs e)
-        {
-
-        }
-
-        private void UserLTopAlbumAlbumClicked(object sender, EventArgs e)
-        {
-
-        }
-
-        private void UserLTopAlbumArtistClicked(object sender, EventArgs e)
-        {
-
-        }
-
-        private void UserLRecentAlbumClick(object sender, EventArgs e)
-        {
-
-        }
-
-        private void UserLRecentArtistClick(object sender, EventArgs e)
-        {
-
-        }
-
-        private void UserLRecentTrackClick(object sender, EventArgs e)
-        {
-
-        }
         #endregion
 
     }

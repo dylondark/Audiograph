@@ -1933,7 +1933,7 @@ namespace Audiograph
             this.btnChartGo.TabIndex = 3;
             this.btnChartGo.Text = "&Go";
             this.btnChartGo.UseVisualStyleBackColor = true;
-            this.btnChartGo.Click += new System.EventHandler(this.ChartGo);
+            this.btnChartGo.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartGo);
             // 
             // cmbChartCountry
             // 
@@ -2864,7 +2864,7 @@ namespace Audiograph
             this.lblTopArtist20.TabIndex = 99;
             this.lblTopArtist20.Text = "(Unavailable)";
             this.lblTopArtist20.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblTopArtist20.Click += new System.EventHandler(this.ChartArtistClick);
+            this.lblTopArtist20.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartArtistClick);
             // 
             // Label148
             // 
@@ -2887,7 +2887,7 @@ namespace Audiograph
             this.lblTopArtist19.TabIndex = 96;
             this.lblTopArtist19.Text = "(Unavailable)";
             this.lblTopArtist19.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblTopArtist19.Click += new System.EventHandler(this.ChartArtistClick);
+            this.lblTopArtist19.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartArtistClick);
             // 
             // Label146
             // 
@@ -2910,7 +2910,7 @@ namespace Audiograph
             this.lblTopArtist18.TabIndex = 93;
             this.lblTopArtist18.Text = "(Unavailable)";
             this.lblTopArtist18.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblTopArtist18.Click += new System.EventHandler(this.ChartArtistClick);
+            this.lblTopArtist18.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartArtistClick);
             // 
             // Label144
             // 
@@ -2933,7 +2933,7 @@ namespace Audiograph
             this.lblTopArtist17.TabIndex = 90;
             this.lblTopArtist17.Text = "(Unavailable)";
             this.lblTopArtist17.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblTopArtist17.Click += new System.EventHandler(this.ChartArtistClick);
+            this.lblTopArtist17.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartArtistClick);
             // 
             // Label142
             // 
@@ -2956,7 +2956,7 @@ namespace Audiograph
             this.lblTopArtist16.TabIndex = 87;
             this.lblTopArtist16.Text = "(Unavailable)";
             this.lblTopArtist16.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblTopArtist16.Click += new System.EventHandler(this.ChartArtistClick);
+            this.lblTopArtist16.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartArtistClick);
             // 
             // Label140
             // 
@@ -2979,7 +2979,7 @@ namespace Audiograph
             this.lblTopArtist15.TabIndex = 84;
             this.lblTopArtist15.Text = "(Unavailable)";
             this.lblTopArtist15.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblTopArtist15.Click += new System.EventHandler(this.ChartArtistClick);
+            this.lblTopArtist15.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartArtistClick);
             // 
             // Label138
             // 
@@ -3002,7 +3002,7 @@ namespace Audiograph
             this.lblTopArtist14.TabIndex = 81;
             this.lblTopArtist14.Text = "(Unavailable)";
             this.lblTopArtist14.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblTopArtist14.Click += new System.EventHandler(this.ChartArtistClick);
+            this.lblTopArtist14.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartArtistClick);
             // 
             // Label136
             // 
@@ -3025,7 +3025,7 @@ namespace Audiograph
             this.lblTopArtist13.TabIndex = 78;
             this.lblTopArtist13.Text = "(Unavailable)";
             this.lblTopArtist13.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblTopArtist13.Click += new System.EventHandler(this.ChartArtistClick);
+            this.lblTopArtist13.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartArtistClick);
             // 
             // Label134
             // 
@@ -3048,7 +3048,7 @@ namespace Audiograph
             this.lblTopArtist12.TabIndex = 75;
             this.lblTopArtist12.Text = "(Unavailable)";
             this.lblTopArtist12.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblTopArtist12.Click += new System.EventHandler(this.ChartArtistClick);
+            this.lblTopArtist12.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartArtistClick);
             // 
             // Label132
             // 
@@ -3071,7 +3071,7 @@ namespace Audiograph
             this.lblTopArtist11.TabIndex = 72;
             this.lblTopArtist11.Text = "(Unavailable)";
             this.lblTopArtist11.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblTopArtist11.Click += new System.EventHandler(this.ChartArtistClick);
+            this.lblTopArtist11.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartArtistClick);
             // 
             // Label130
             // 
@@ -3094,7 +3094,7 @@ namespace Audiograph
             this.lblTopArtist10.TabIndex = 69;
             this.lblTopArtist10.Text = "(Unavailable)";
             this.lblTopArtist10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblTopArtist10.Click += new System.EventHandler(this.ChartArtistClick);
+            this.lblTopArtist10.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartArtistClick);
             // 
             // Label128
             // 
@@ -3117,7 +3117,7 @@ namespace Audiograph
             this.lblTopArtist9.TabIndex = 66;
             this.lblTopArtist9.Text = "(Unavailable)";
             this.lblTopArtist9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblTopArtist9.Click += new System.EventHandler(this.ChartArtistClick);
+            this.lblTopArtist9.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartArtistClick);
             // 
             // Label126
             // 
@@ -3140,7 +3140,7 @@ namespace Audiograph
             this.lblTopArtist8.TabIndex = 63;
             this.lblTopArtist8.Text = "(Unavailable)";
             this.lblTopArtist8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblTopArtist8.Click += new System.EventHandler(this.ChartArtistClick);
+            this.lblTopArtist8.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartArtistClick);
             // 
             // Label124
             // 
@@ -3163,7 +3163,7 @@ namespace Audiograph
             this.lblTopArtist7.TabIndex = 60;
             this.lblTopArtist7.Text = "(Unavailable)";
             this.lblTopArtist7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblTopArtist7.Click += new System.EventHandler(this.ChartArtistClick);
+            this.lblTopArtist7.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartArtistClick);
             // 
             // Label122
             // 
@@ -3186,7 +3186,7 @@ namespace Audiograph
             this.lblTopArtist6.TabIndex = 57;
             this.lblTopArtist6.Text = "(Unavailable)";
             this.lblTopArtist6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblTopArtist6.Click += new System.EventHandler(this.ChartArtistClick);
+            this.lblTopArtist6.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartArtistClick);
             // 
             // Label120
             // 
@@ -3209,7 +3209,7 @@ namespace Audiograph
             this.lblTopArtist5.TabIndex = 54;
             this.lblTopArtist5.Text = "(Unavailable)";
             this.lblTopArtist5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblTopArtist5.Click += new System.EventHandler(this.ChartArtistClick);
+            this.lblTopArtist5.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartArtistClick);
             // 
             // Label118
             // 
@@ -3232,7 +3232,7 @@ namespace Audiograph
             this.lblTopArtist4.TabIndex = 51;
             this.lblTopArtist4.Text = "(Unavailable)";
             this.lblTopArtist4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblTopArtist4.Click += new System.EventHandler(this.ChartArtistClick);
+            this.lblTopArtist4.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartArtistClick);
             // 
             // Label116
             // 
@@ -3255,7 +3255,7 @@ namespace Audiograph
             this.lblTopArtist3.TabIndex = 48;
             this.lblTopArtist3.Text = "(Unavailable)";
             this.lblTopArtist3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblTopArtist3.Click += new System.EventHandler(this.ChartArtistClick);
+            this.lblTopArtist3.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartArtistClick);
             // 
             // Label114
             // 
@@ -3278,7 +3278,7 @@ namespace Audiograph
             this.lblTopArtist2.TabIndex = 45;
             this.lblTopArtist2.Text = "(Unavailable)";
             this.lblTopArtist2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblTopArtist2.Click += new System.EventHandler(this.ChartArtistClick);
+            this.lblTopArtist2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartArtistClick);
             // 
             // Label19
             // 
@@ -3301,7 +3301,7 @@ namespace Audiograph
             this.lblTopArtist1.TabIndex = 40;
             this.lblTopArtist1.Text = "(Unavailable)";
             this.lblTopArtist1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblTopArtist1.Click += new System.EventHandler(this.ChartArtistClick);
+            this.lblTopArtist1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartArtistClick);
             // 
             // Label17
             // 
@@ -3815,7 +3815,7 @@ namespace Audiograph
             this.lblTopTrackAlbum20.TabIndex = 135;
             this.lblTopTrackAlbum20.Text = "(Unavailable)";
             this.lblTopTrackAlbum20.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblTopTrackAlbum20.Click += new System.EventHandler(this.ChartTrackAlbumClick);
+            this.lblTopTrackAlbum20.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartTrackAlbumClick);
             // 
             // lblTopTrackArtist20
             // 
@@ -3828,7 +3828,7 @@ namespace Audiograph
             this.lblTopTrackArtist20.TabIndex = 134;
             this.lblTopTrackArtist20.Text = "(Unavailable)";
             this.lblTopTrackArtist20.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblTopTrackArtist20.Click += new System.EventHandler(this.ChartTrackArtistClick);
+            this.lblTopTrackArtist20.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartTrackArtistClick);
             // 
             // lblTopTrackTitle20
             // 
@@ -3841,7 +3841,7 @@ namespace Audiograph
             this.lblTopTrackTitle20.TabIndex = 133;
             this.lblTopTrackTitle20.Text = "(Unavailable)";
             this.lblTopTrackTitle20.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblTopTrackTitle20.Click += new System.EventHandler(this.ChartTrackTrackClick);
+            this.lblTopTrackTitle20.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartTrackTrackClick);
             // 
             // picTrack20
             // 
@@ -3919,7 +3919,7 @@ namespace Audiograph
             this.lblTopTrackAlbum19.TabIndex = 130;
             this.lblTopTrackAlbum19.Text = "(Unavailable)";
             this.lblTopTrackAlbum19.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblTopTrackAlbum19.Click += new System.EventHandler(this.ChartTrackAlbumClick);
+            this.lblTopTrackAlbum19.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartTrackAlbumClick);
             // 
             // lblTopTrackArtist19
             // 
@@ -3932,7 +3932,7 @@ namespace Audiograph
             this.lblTopTrackArtist19.TabIndex = 129;
             this.lblTopTrackArtist19.Text = "(Unavailable)";
             this.lblTopTrackArtist19.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblTopTrackArtist19.Click += new System.EventHandler(this.ChartTrackArtistClick);
+            this.lblTopTrackArtist19.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartTrackArtistClick);
             // 
             // lblTopTrackTitle19
             // 
@@ -3945,7 +3945,7 @@ namespace Audiograph
             this.lblTopTrackTitle19.TabIndex = 128;
             this.lblTopTrackTitle19.Text = "(Unavailable)";
             this.lblTopTrackTitle19.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblTopTrackTitle19.Click += new System.EventHandler(this.ChartTrackTrackClick);
+            this.lblTopTrackTitle19.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartTrackTrackClick);
             // 
             // picTrack19
             // 
@@ -3983,7 +3983,7 @@ namespace Audiograph
             this.lblTopTrackAlbum18.TabIndex = 125;
             this.lblTopTrackAlbum18.Text = "(Unavailable)";
             this.lblTopTrackAlbum18.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblTopTrackAlbum18.Click += new System.EventHandler(this.ChartTrackAlbumClick);
+            this.lblTopTrackAlbum18.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartTrackAlbumClick);
             // 
             // lblTopTrackArtist18
             // 
@@ -3996,7 +3996,7 @@ namespace Audiograph
             this.lblTopTrackArtist18.TabIndex = 124;
             this.lblTopTrackArtist18.Text = "(Unavailable)";
             this.lblTopTrackArtist18.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblTopTrackArtist18.Click += new System.EventHandler(this.ChartTrackArtistClick);
+            this.lblTopTrackArtist18.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartTrackArtistClick);
             // 
             // lblTopTrackTitle18
             // 
@@ -4009,7 +4009,7 @@ namespace Audiograph
             this.lblTopTrackTitle18.TabIndex = 123;
             this.lblTopTrackTitle18.Text = "(Unavailable)";
             this.lblTopTrackTitle18.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblTopTrackTitle18.Click += new System.EventHandler(this.ChartTrackTrackClick);
+            this.lblTopTrackTitle18.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartTrackTrackClick);
             // 
             // picTrack18
             // 
@@ -4047,7 +4047,7 @@ namespace Audiograph
             this.lblTopTrackAlbum17.TabIndex = 120;
             this.lblTopTrackAlbum17.Text = "(Unavailable)";
             this.lblTopTrackAlbum17.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblTopTrackAlbum17.Click += new System.EventHandler(this.ChartTrackAlbumClick);
+            this.lblTopTrackAlbum17.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartTrackAlbumClick);
             // 
             // lblTopTrackArtist17
             // 
@@ -4060,7 +4060,7 @@ namespace Audiograph
             this.lblTopTrackArtist17.TabIndex = 119;
             this.lblTopTrackArtist17.Text = "(Unavailable)";
             this.lblTopTrackArtist17.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblTopTrackArtist17.Click += new System.EventHandler(this.ChartTrackArtistClick);
+            this.lblTopTrackArtist17.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartTrackArtistClick);
             // 
             // lblTopTrackTitle17
             // 
@@ -4073,7 +4073,7 @@ namespace Audiograph
             this.lblTopTrackTitle17.TabIndex = 118;
             this.lblTopTrackTitle17.Text = "(Unavailable)";
             this.lblTopTrackTitle17.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblTopTrackTitle17.Click += new System.EventHandler(this.ChartTrackTrackClick);
+            this.lblTopTrackTitle17.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartTrackTrackClick);
             // 
             // picTrack17
             // 
@@ -4111,7 +4111,7 @@ namespace Audiograph
             this.lblTopTrackAlbum16.TabIndex = 115;
             this.lblTopTrackAlbum16.Text = "(Unavailable)";
             this.lblTopTrackAlbum16.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblTopTrackAlbum16.Click += new System.EventHandler(this.ChartTrackAlbumClick);
+            this.lblTopTrackAlbum16.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartTrackAlbumClick);
             // 
             // lblTopTrackArtist16
             // 
@@ -4124,7 +4124,7 @@ namespace Audiograph
             this.lblTopTrackArtist16.TabIndex = 114;
             this.lblTopTrackArtist16.Text = "(Unavailable)";
             this.lblTopTrackArtist16.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblTopTrackArtist16.Click += new System.EventHandler(this.ChartTrackArtistClick);
+            this.lblTopTrackArtist16.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartTrackArtistClick);
             // 
             // lblTopTrackTitle16
             // 
@@ -4137,7 +4137,7 @@ namespace Audiograph
             this.lblTopTrackTitle16.TabIndex = 113;
             this.lblTopTrackTitle16.Text = "(Unavailable)";
             this.lblTopTrackTitle16.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblTopTrackTitle16.Click += new System.EventHandler(this.ChartTrackTrackClick);
+            this.lblTopTrackTitle16.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartTrackTrackClick);
             // 
             // picTrack16
             // 
@@ -4175,7 +4175,7 @@ namespace Audiograph
             this.lblTopTrackAlbum15.TabIndex = 110;
             this.lblTopTrackAlbum15.Text = "(Unavailable)";
             this.lblTopTrackAlbum15.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblTopTrackAlbum15.Click += new System.EventHandler(this.ChartTrackAlbumClick);
+            this.lblTopTrackAlbum15.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartTrackAlbumClick);
             // 
             // lblTopTrackArtist15
             // 
@@ -4188,7 +4188,7 @@ namespace Audiograph
             this.lblTopTrackArtist15.TabIndex = 109;
             this.lblTopTrackArtist15.Text = "(Unavailable)";
             this.lblTopTrackArtist15.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblTopTrackArtist15.Click += new System.EventHandler(this.ChartTrackArtistClick);
+            this.lblTopTrackArtist15.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartTrackArtistClick);
             // 
             // lblTopTrackTitle15
             // 
@@ -4201,7 +4201,7 @@ namespace Audiograph
             this.lblTopTrackTitle15.TabIndex = 108;
             this.lblTopTrackTitle15.Text = "(Unavailable)";
             this.lblTopTrackTitle15.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblTopTrackTitle15.Click += new System.EventHandler(this.ChartTrackTrackClick);
+            this.lblTopTrackTitle15.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartTrackTrackClick);
             // 
             // picTrack15
             // 
@@ -4239,7 +4239,7 @@ namespace Audiograph
             this.lblTopTrackAlbum14.TabIndex = 105;
             this.lblTopTrackAlbum14.Text = "(Unavailable)";
             this.lblTopTrackAlbum14.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblTopTrackAlbum14.Click += new System.EventHandler(this.ChartTrackAlbumClick);
+            this.lblTopTrackAlbum14.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartTrackAlbumClick);
             // 
             // lblTopTrackArtist14
             // 
@@ -4252,7 +4252,7 @@ namespace Audiograph
             this.lblTopTrackArtist14.TabIndex = 104;
             this.lblTopTrackArtist14.Text = "(Unavailable)";
             this.lblTopTrackArtist14.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblTopTrackArtist14.Click += new System.EventHandler(this.ChartTrackArtistClick);
+            this.lblTopTrackArtist14.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartTrackArtistClick);
             // 
             // lblTopTrackTitle14
             // 
@@ -4265,7 +4265,7 @@ namespace Audiograph
             this.lblTopTrackTitle14.TabIndex = 103;
             this.lblTopTrackTitle14.Text = "(Unavailable)";
             this.lblTopTrackTitle14.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblTopTrackTitle14.Click += new System.EventHandler(this.ChartTrackTrackClick);
+            this.lblTopTrackTitle14.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartTrackTrackClick);
             // 
             // picTrack14
             // 
@@ -4303,7 +4303,7 @@ namespace Audiograph
             this.lblTopTrackAlbum13.TabIndex = 100;
             this.lblTopTrackAlbum13.Text = "(Unavailable)";
             this.lblTopTrackAlbum13.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblTopTrackAlbum13.Click += new System.EventHandler(this.ChartTrackAlbumClick);
+            this.lblTopTrackAlbum13.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartTrackAlbumClick);
             // 
             // lblTopTrackArtist13
             // 
@@ -4316,7 +4316,7 @@ namespace Audiograph
             this.lblTopTrackArtist13.TabIndex = 99;
             this.lblTopTrackArtist13.Text = "(Unavailable)";
             this.lblTopTrackArtist13.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblTopTrackArtist13.Click += new System.EventHandler(this.ChartTrackArtistClick);
+            this.lblTopTrackArtist13.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartTrackArtistClick);
             // 
             // lblTopTrackTitle13
             // 
@@ -4329,7 +4329,7 @@ namespace Audiograph
             this.lblTopTrackTitle13.TabIndex = 98;
             this.lblTopTrackTitle13.Text = "(Unavailable)";
             this.lblTopTrackTitle13.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblTopTrackTitle13.Click += new System.EventHandler(this.ChartTrackTrackClick);
+            this.lblTopTrackTitle13.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartTrackTrackClick);
             // 
             // picTrack13
             // 
@@ -4367,7 +4367,7 @@ namespace Audiograph
             this.lblTopTrackAlbum12.TabIndex = 95;
             this.lblTopTrackAlbum12.Text = "(Unavailable)";
             this.lblTopTrackAlbum12.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblTopTrackAlbum12.Click += new System.EventHandler(this.ChartTrackAlbumClick);
+            this.lblTopTrackAlbum12.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartTrackAlbumClick);
             // 
             // lblTopTrackArtist12
             // 
@@ -4380,7 +4380,7 @@ namespace Audiograph
             this.lblTopTrackArtist12.TabIndex = 94;
             this.lblTopTrackArtist12.Text = "(Unavailable)";
             this.lblTopTrackArtist12.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblTopTrackArtist12.Click += new System.EventHandler(this.ChartTrackArtistClick);
+            this.lblTopTrackArtist12.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartTrackArtistClick);
             // 
             // lblTopTrackTitle12
             // 
@@ -4393,7 +4393,7 @@ namespace Audiograph
             this.lblTopTrackTitle12.TabIndex = 93;
             this.lblTopTrackTitle12.Text = "(Unavailable)";
             this.lblTopTrackTitle12.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblTopTrackTitle12.Click += new System.EventHandler(this.ChartTrackTrackClick);
+            this.lblTopTrackTitle12.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartTrackTrackClick);
             // 
             // picTrack12
             // 
@@ -4431,7 +4431,7 @@ namespace Audiograph
             this.lblTopTrackAlbum11.TabIndex = 90;
             this.lblTopTrackAlbum11.Text = "(Unavailable)";
             this.lblTopTrackAlbum11.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblTopTrackAlbum11.Click += new System.EventHandler(this.ChartTrackAlbumClick);
+            this.lblTopTrackAlbum11.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartTrackAlbumClick);
             // 
             // lblTopTrackArtist11
             // 
@@ -4444,7 +4444,7 @@ namespace Audiograph
             this.lblTopTrackArtist11.TabIndex = 89;
             this.lblTopTrackArtist11.Text = "(Unavailable)";
             this.lblTopTrackArtist11.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblTopTrackArtist11.Click += new System.EventHandler(this.ChartTrackArtistClick);
+            this.lblTopTrackArtist11.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartTrackArtistClick);
             // 
             // lblTopTrackTitle11
             // 
@@ -4457,7 +4457,7 @@ namespace Audiograph
             this.lblTopTrackTitle11.TabIndex = 88;
             this.lblTopTrackTitle11.Text = "(Unavailable)";
             this.lblTopTrackTitle11.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblTopTrackTitle11.Click += new System.EventHandler(this.ChartTrackTrackClick);
+            this.lblTopTrackTitle11.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartTrackTrackClick);
             // 
             // picTrack11
             // 
@@ -4495,7 +4495,7 @@ namespace Audiograph
             this.lblTopTrackAlbum10.TabIndex = 85;
             this.lblTopTrackAlbum10.Text = "(Unavailable)";
             this.lblTopTrackAlbum10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblTopTrackAlbum10.Click += new System.EventHandler(this.ChartTrackAlbumClick);
+            this.lblTopTrackAlbum10.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartTrackAlbumClick);
             // 
             // lblTopTrackArtist10
             // 
@@ -4508,7 +4508,7 @@ namespace Audiograph
             this.lblTopTrackArtist10.TabIndex = 84;
             this.lblTopTrackArtist10.Text = "(Unavailable)";
             this.lblTopTrackArtist10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblTopTrackArtist10.Click += new System.EventHandler(this.ChartTrackArtistClick);
+            this.lblTopTrackArtist10.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartTrackArtistClick);
             // 
             // lblTopTrackTitle10
             // 
@@ -4521,7 +4521,7 @@ namespace Audiograph
             this.lblTopTrackTitle10.TabIndex = 83;
             this.lblTopTrackTitle10.Text = "(Unavailable)";
             this.lblTopTrackTitle10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblTopTrackTitle10.Click += new System.EventHandler(this.ChartTrackTrackClick);
+            this.lblTopTrackTitle10.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartTrackTrackClick);
             // 
             // picTrack10
             // 
@@ -4559,7 +4559,7 @@ namespace Audiograph
             this.lblTopTrackAlbum9.TabIndex = 80;
             this.lblTopTrackAlbum9.Text = "(Unavailable)";
             this.lblTopTrackAlbum9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblTopTrackAlbum9.Click += new System.EventHandler(this.ChartTrackAlbumClick);
+            this.lblTopTrackAlbum9.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartTrackAlbumClick);
             // 
             // lblTopTrackArtist9
             // 
@@ -4572,7 +4572,7 @@ namespace Audiograph
             this.lblTopTrackArtist9.TabIndex = 79;
             this.lblTopTrackArtist9.Text = "(Unavailable)";
             this.lblTopTrackArtist9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblTopTrackArtist9.Click += new System.EventHandler(this.ChartTrackArtistClick);
+            this.lblTopTrackArtist9.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartTrackArtistClick);
             // 
             // lblTopTrackTitle9
             // 
@@ -4585,7 +4585,7 @@ namespace Audiograph
             this.lblTopTrackTitle9.TabIndex = 78;
             this.lblTopTrackTitle9.Text = "(Unavailable)";
             this.lblTopTrackTitle9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblTopTrackTitle9.Click += new System.EventHandler(this.ChartTrackTrackClick);
+            this.lblTopTrackTitle9.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartTrackTrackClick);
             // 
             // picTrack9
             // 
@@ -4623,7 +4623,7 @@ namespace Audiograph
             this.lblTopTrackAlbum8.TabIndex = 75;
             this.lblTopTrackAlbum8.Text = "(Unavailable)";
             this.lblTopTrackAlbum8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblTopTrackAlbum8.Click += new System.EventHandler(this.ChartTrackAlbumClick);
+            this.lblTopTrackAlbum8.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartTrackAlbumClick);
             // 
             // lblTopTrackArtist8
             // 
@@ -4636,7 +4636,7 @@ namespace Audiograph
             this.lblTopTrackArtist8.TabIndex = 74;
             this.lblTopTrackArtist8.Text = "(Unavailable)";
             this.lblTopTrackArtist8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblTopTrackArtist8.Click += new System.EventHandler(this.ChartTrackArtistClick);
+            this.lblTopTrackArtist8.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartTrackArtistClick);
             // 
             // lblTopTrackTitle8
             // 
@@ -4649,7 +4649,7 @@ namespace Audiograph
             this.lblTopTrackTitle8.TabIndex = 73;
             this.lblTopTrackTitle8.Text = "(Unavailable)";
             this.lblTopTrackTitle8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblTopTrackTitle8.Click += new System.EventHandler(this.ChartTrackTrackClick);
+            this.lblTopTrackTitle8.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartTrackTrackClick);
             // 
             // picTrack8
             // 
@@ -4687,7 +4687,7 @@ namespace Audiograph
             this.lblTopTrackAlbum7.TabIndex = 70;
             this.lblTopTrackAlbum7.Text = "(Unavailable)";
             this.lblTopTrackAlbum7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblTopTrackAlbum7.Click += new System.EventHandler(this.ChartTrackAlbumClick);
+            this.lblTopTrackAlbum7.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartTrackAlbumClick);
             // 
             // lblTopTrackArtist7
             // 
@@ -4700,7 +4700,7 @@ namespace Audiograph
             this.lblTopTrackArtist7.TabIndex = 69;
             this.lblTopTrackArtist7.Text = "(Unavailable)";
             this.lblTopTrackArtist7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblTopTrackArtist7.Click += new System.EventHandler(this.ChartTrackArtistClick);
+            this.lblTopTrackArtist7.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartTrackArtistClick);
             // 
             // lblTopTrackTitle7
             // 
@@ -4713,7 +4713,7 @@ namespace Audiograph
             this.lblTopTrackTitle7.TabIndex = 68;
             this.lblTopTrackTitle7.Text = "(Unavailable)";
             this.lblTopTrackTitle7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblTopTrackTitle7.Click += new System.EventHandler(this.ChartTrackTrackClick);
+            this.lblTopTrackTitle7.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartTrackTrackClick);
             // 
             // picTrack7
             // 
@@ -4751,7 +4751,7 @@ namespace Audiograph
             this.lblTopTrackAlbum6.TabIndex = 65;
             this.lblTopTrackAlbum6.Text = "(Unavailable)";
             this.lblTopTrackAlbum6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblTopTrackAlbum6.Click += new System.EventHandler(this.ChartTrackAlbumClick);
+            this.lblTopTrackAlbum6.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartTrackAlbumClick);
             // 
             // lblTopTrackArtist6
             // 
@@ -4764,7 +4764,7 @@ namespace Audiograph
             this.lblTopTrackArtist6.TabIndex = 64;
             this.lblTopTrackArtist6.Text = "(Unavailable)";
             this.lblTopTrackArtist6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblTopTrackArtist6.Click += new System.EventHandler(this.ChartTrackArtistClick);
+            this.lblTopTrackArtist6.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartTrackArtistClick);
             // 
             // lblTopTrackTitle6
             // 
@@ -4777,7 +4777,7 @@ namespace Audiograph
             this.lblTopTrackTitle6.TabIndex = 63;
             this.lblTopTrackTitle6.Text = "(Unavailable)";
             this.lblTopTrackTitle6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblTopTrackTitle6.Click += new System.EventHandler(this.ChartTrackTrackClick);
+            this.lblTopTrackTitle6.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartTrackTrackClick);
             // 
             // picTrack6
             // 
@@ -4815,7 +4815,7 @@ namespace Audiograph
             this.lblTopTrackAlbum5.TabIndex = 60;
             this.lblTopTrackAlbum5.Text = "(Unavailable)";
             this.lblTopTrackAlbum5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblTopTrackAlbum5.Click += new System.EventHandler(this.ChartTrackAlbumClick);
+            this.lblTopTrackAlbum5.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartTrackAlbumClick);
             // 
             // lblTopTrackArtist5
             // 
@@ -4828,7 +4828,7 @@ namespace Audiograph
             this.lblTopTrackArtist5.TabIndex = 59;
             this.lblTopTrackArtist5.Text = "(Unavailable)";
             this.lblTopTrackArtist5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblTopTrackArtist5.Click += new System.EventHandler(this.ChartTrackArtistClick);
+            this.lblTopTrackArtist5.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartTrackArtistClick);
             // 
             // lblTopTrackTitle5
             // 
@@ -4841,7 +4841,7 @@ namespace Audiograph
             this.lblTopTrackTitle5.TabIndex = 58;
             this.lblTopTrackTitle5.Text = "(Unavailable)";
             this.lblTopTrackTitle5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblTopTrackTitle5.Click += new System.EventHandler(this.ChartTrackTrackClick);
+            this.lblTopTrackTitle5.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartTrackTrackClick);
             // 
             // picTrack5
             // 
@@ -4879,7 +4879,7 @@ namespace Audiograph
             this.lblTopTrackAlbum4.TabIndex = 55;
             this.lblTopTrackAlbum4.Text = "(Unavailable)";
             this.lblTopTrackAlbum4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblTopTrackAlbum4.Click += new System.EventHandler(this.ChartTrackAlbumClick);
+            this.lblTopTrackAlbum4.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartTrackAlbumClick);
             // 
             // lblTopTrackArtist4
             // 
@@ -4892,7 +4892,7 @@ namespace Audiograph
             this.lblTopTrackArtist4.TabIndex = 54;
             this.lblTopTrackArtist4.Text = "(Unavailable)";
             this.lblTopTrackArtist4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblTopTrackArtist4.Click += new System.EventHandler(this.ChartTrackArtistClick);
+            this.lblTopTrackArtist4.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartTrackArtistClick);
             // 
             // lblTopTrackTitle4
             // 
@@ -4905,7 +4905,7 @@ namespace Audiograph
             this.lblTopTrackTitle4.TabIndex = 53;
             this.lblTopTrackTitle4.Text = "(Unavailable)";
             this.lblTopTrackTitle4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblTopTrackTitle4.Click += new System.EventHandler(this.ChartTrackTrackClick);
+            this.lblTopTrackTitle4.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartTrackTrackClick);
             // 
             // picTrack4
             // 
@@ -4943,7 +4943,7 @@ namespace Audiograph
             this.lblTopTrackAlbum3.TabIndex = 50;
             this.lblTopTrackAlbum3.Text = "(Unavailable)";
             this.lblTopTrackAlbum3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblTopTrackAlbum3.Click += new System.EventHandler(this.ChartTrackAlbumClick);
+            this.lblTopTrackAlbum3.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartTrackAlbumClick);
             // 
             // lblTopTrackArtist3
             // 
@@ -4956,7 +4956,7 @@ namespace Audiograph
             this.lblTopTrackArtist3.TabIndex = 49;
             this.lblTopTrackArtist3.Text = "(Unavailable)";
             this.lblTopTrackArtist3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblTopTrackArtist3.Click += new System.EventHandler(this.ChartTrackArtistClick);
+            this.lblTopTrackArtist3.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartTrackArtistClick);
             // 
             // lblTopTrackTitle3
             // 
@@ -4969,7 +4969,7 @@ namespace Audiograph
             this.lblTopTrackTitle3.TabIndex = 48;
             this.lblTopTrackTitle3.Text = "(Unavailable)";
             this.lblTopTrackTitle3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblTopTrackTitle3.Click += new System.EventHandler(this.ChartTrackTrackClick);
+            this.lblTopTrackTitle3.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartTrackTrackClick);
             // 
             // picTrack3
             // 
@@ -5007,7 +5007,7 @@ namespace Audiograph
             this.lblTopTrackAlbum2.TabIndex = 45;
             this.lblTopTrackAlbum2.Text = "(Unavailable)";
             this.lblTopTrackAlbum2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblTopTrackAlbum2.Click += new System.EventHandler(this.ChartTrackAlbumClick);
+            this.lblTopTrackAlbum2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartTrackAlbumClick);
             // 
             // lblTopTrackArtist2
             // 
@@ -5020,7 +5020,7 @@ namespace Audiograph
             this.lblTopTrackArtist2.TabIndex = 44;
             this.lblTopTrackArtist2.Text = "(Unavailable)";
             this.lblTopTrackArtist2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblTopTrackArtist2.Click += new System.EventHandler(this.ChartTrackArtistClick);
+            this.lblTopTrackArtist2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartTrackArtistClick);
             // 
             // lblTopTrackTitle2
             // 
@@ -5033,7 +5033,7 @@ namespace Audiograph
             this.lblTopTrackTitle2.TabIndex = 43;
             this.lblTopTrackTitle2.Text = "(Unavailable)";
             this.lblTopTrackTitle2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblTopTrackTitle2.Click += new System.EventHandler(this.ChartTrackTrackClick);
+            this.lblTopTrackTitle2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartTrackTrackClick);
             // 
             // picTrack2
             // 
@@ -5071,7 +5071,7 @@ namespace Audiograph
             this.lblTopTrackAlbum1.TabIndex = 40;
             this.lblTopTrackAlbum1.Text = "(Unavailable)";
             this.lblTopTrackAlbum1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblTopTrackAlbum1.Click += new System.EventHandler(this.ChartTrackAlbumClick);
+            this.lblTopTrackAlbum1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartTrackAlbumClick);
             // 
             // lblTopTrackArtist1
             // 
@@ -5084,7 +5084,7 @@ namespace Audiograph
             this.lblTopTrackArtist1.TabIndex = 39;
             this.lblTopTrackArtist1.Text = "(Unavailable)";
             this.lblTopTrackArtist1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblTopTrackArtist1.Click += new System.EventHandler(this.ChartTrackArtistClick);
+            this.lblTopTrackArtist1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartTrackArtistClick);
             // 
             // lblTopTrackTitle1
             // 
@@ -5097,7 +5097,7 @@ namespace Audiograph
             this.lblTopTrackTitle1.TabIndex = 38;
             this.lblTopTrackTitle1.Text = "(Unavailable)";
             this.lblTopTrackTitle1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblTopTrackTitle1.Click += new System.EventHandler(this.ChartTrackTrackClick);
+            this.lblTopTrackTitle1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartTrackTrackClick);
             // 
             // Label6
             // 
@@ -5476,7 +5476,7 @@ namespace Audiograph
             this.btnSearchGo.TabIndex = 22;
             this.btnSearchGo.Text = "&Go";
             this.btnSearchGo.UseVisualStyleBackColor = true;
-            this.btnSearchGo.Click += new System.EventHandler(this.GoSearch);
+            this.btnSearchGo.MouseClick += new System.Windows.Forms.MouseEventHandler(this.GoSearch);
             // 
             // txtSearch
             // 
@@ -5521,7 +5521,7 @@ namespace Audiograph
             this.btnTrackAdvanced.TabIndex = 15;
             this.btnTrackAdvanced.Text = "&Advanced";
             this.btnTrackAdvanced.UseVisualStyleBackColor = true;
-            this.btnTrackAdvanced.Click += new System.EventHandler(this.TrackAdvancedSearch);
+            this.btnTrackAdvanced.MouseClick += new System.Windows.Forms.MouseEventHandler(this.TrackAdvancedSearch);
             // 
             // btnTrackGo
             // 
@@ -5532,7 +5532,7 @@ namespace Audiograph
             this.btnTrackGo.TabIndex = 14;
             this.btnTrackGo.Text = "&Go";
             this.btnTrackGo.UseVisualStyleBackColor = true;
-            this.btnTrackGo.Click += new System.EventHandler(this.TrackGo);
+            this.btnTrackGo.MouseClick += new System.Windows.Forms.MouseEventHandler(this.TrackGo);
             // 
             // txtTrackArtist
             // 
@@ -5584,7 +5584,7 @@ namespace Audiograph
             this.btnTrackGoAlbum.TabIndex = 3;
             this.btnTrackGoAlbum.Text = "Go To Al&bum";
             this.btnTrackGoAlbum.UseVisualStyleBackColor = true;
-            this.btnTrackGoAlbum.Click += new System.EventHandler(this.TrackGoAlbum);
+            this.btnTrackGoAlbum.MouseClick += new System.Windows.Forms.MouseEventHandler(this.TrackGoAlbum);
             // 
             // btnTrackGoArtist
             // 
@@ -5594,7 +5594,7 @@ namespace Audiograph
             this.btnTrackGoArtist.TabIndex = 2;
             this.btnTrackGoArtist.Text = "Go To A&rtist";
             this.btnTrackGoArtist.UseVisualStyleBackColor = true;
-            this.btnTrackGoArtist.Click += new System.EventHandler(this.TrackGoArtist);
+            this.btnTrackGoArtist.MouseClick += new System.Windows.Forms.MouseEventHandler(this.TrackGoArtist);
             // 
             // tlpTrack
             // 
@@ -5779,7 +5779,7 @@ namespace Audiograph
             this.btnTrackLove.TabIndex = 1;
             this.btnTrackLove.Text = "&Love";
             this.btnTrackLove.UseVisualStyleBackColor = true;
-            this.btnTrackLove.Click += new System.EventHandler(this.TrackLove);
+            this.btnTrackLove.MouseClick += new System.Windows.Forms.MouseEventHandler(this.TrackLove);
             // 
             // lblTrackLove
             // 
@@ -5818,7 +5818,7 @@ namespace Audiograph
             this.btnTrackTagRemove.TabIndex = 2;
             this.btnTrackTagRemove.Text = "R&emove";
             this.btnTrackTagRemove.UseVisualStyleBackColor = true;
-            this.btnTrackTagRemove.Click += new System.EventHandler(this.TrackRemoveTag);
+            this.btnTrackTagRemove.MouseClick += new System.Windows.Forms.MouseEventHandler(this.TrackRemoveTag);
             // 
             // btnTrackTagAdd
             // 
@@ -5828,7 +5828,7 @@ namespace Audiograph
             this.btnTrackTagAdd.TabIndex = 1;
             this.btnTrackTagAdd.Text = "A&dd";
             this.btnTrackTagAdd.UseVisualStyleBackColor = true;
-            this.btnTrackTagAdd.Click += new System.EventHandler(this.TrackAddTag);
+            this.btnTrackTagAdd.MouseClick += new System.Windows.Forms.MouseEventHandler(this.TrackAddTag);
             // 
             // lblTrackTags
             // 
@@ -6054,7 +6054,7 @@ namespace Audiograph
             this.btnArtistTagRemove.TabIndex = 2;
             this.btnArtistTagRemove.Text = "&Remove";
             this.btnArtistTagRemove.UseVisualStyleBackColor = true;
-            this.btnArtistTagRemove.Click += new System.EventHandler(this.ArtistRemoveTag);
+            this.btnArtistTagRemove.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ArtistRemoveTag);
             // 
             // btnArtistTagAdd
             // 
@@ -6064,7 +6064,7 @@ namespace Audiograph
             this.btnArtistTagAdd.TabIndex = 1;
             this.btnArtistTagAdd.Text = "A&dd";
             this.btnArtistTagAdd.UseVisualStyleBackColor = true;
-            this.btnArtistTagAdd.Click += new System.EventHandler(this.ArtistAddTag);
+            this.btnArtistTagAdd.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ArtistAddTag);
             // 
             // lblArtistTags
             // 
@@ -6258,7 +6258,7 @@ namespace Audiograph
             this.lblArtistTopTrackTitle20.TabIndex = 62;
             this.lblArtistTopTrackTitle20.Text = "(Unavailable)";
             this.lblArtistTopTrackTitle20.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblArtistTopTrackTitle20.Click += new System.EventHandler(this.ArtistTopTrackClick);
+            this.lblArtistTopTrackTitle20.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ArtistTopTrackClick);
             // 
             // lblArtistTopTrackListeners20
             // 
@@ -6293,7 +6293,7 @@ namespace Audiograph
             this.lblArtistTopTrackTitle19.TabIndex = 59;
             this.lblArtistTopTrackTitle19.Text = "(Unavailable)";
             this.lblArtistTopTrackTitle19.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblArtistTopTrackTitle19.Click += new System.EventHandler(this.ArtistTopTrackClick);
+            this.lblArtistTopTrackTitle19.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ArtistTopTrackClick);
             // 
             // lblArtistTopTrackListeners19
             // 
@@ -6328,7 +6328,7 @@ namespace Audiograph
             this.lblArtistTopTrackTitle18.TabIndex = 56;
             this.lblArtistTopTrackTitle18.Text = "(Unavailable)";
             this.lblArtistTopTrackTitle18.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblArtistTopTrackTitle18.Click += new System.EventHandler(this.ArtistTopTrackClick);
+            this.lblArtistTopTrackTitle18.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ArtistTopTrackClick);
             // 
             // lblArtistTopTrackListeners18
             // 
@@ -6363,7 +6363,7 @@ namespace Audiograph
             this.lblArtistTopTrackTitle17.TabIndex = 53;
             this.lblArtistTopTrackTitle17.Text = "(Unavailable)";
             this.lblArtistTopTrackTitle17.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblArtistTopTrackTitle17.Click += new System.EventHandler(this.ArtistTopTrackClick);
+            this.lblArtistTopTrackTitle17.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ArtistTopTrackClick);
             // 
             // lblArtistTopTrackListeners17
             // 
@@ -6398,7 +6398,7 @@ namespace Audiograph
             this.lblArtistTopTrackTitle16.TabIndex = 50;
             this.lblArtistTopTrackTitle16.Text = "(Unavailable)";
             this.lblArtistTopTrackTitle16.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblArtistTopTrackTitle16.Click += new System.EventHandler(this.ArtistTopTrackClick);
+            this.lblArtistTopTrackTitle16.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ArtistTopTrackClick);
             // 
             // lblArtistTopTrackListeners16
             // 
@@ -6433,7 +6433,7 @@ namespace Audiograph
             this.lblArtistTopTrackTitle15.TabIndex = 47;
             this.lblArtistTopTrackTitle15.Text = "(Unavailable)";
             this.lblArtistTopTrackTitle15.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblArtistTopTrackTitle15.Click += new System.EventHandler(this.ArtistTopTrackClick);
+            this.lblArtistTopTrackTitle15.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ArtistTopTrackClick);
             // 
             // lblArtistTopTrackListeners15
             // 
@@ -6468,7 +6468,7 @@ namespace Audiograph
             this.lblArtistTopTrackTitle14.TabIndex = 44;
             this.lblArtistTopTrackTitle14.Text = "(Unavailable)";
             this.lblArtistTopTrackTitle14.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblArtistTopTrackTitle14.Click += new System.EventHandler(this.ArtistTopTrackClick);
+            this.lblArtistTopTrackTitle14.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ArtistTopTrackClick);
             // 
             // lblArtistTopTrackListeners14
             // 
@@ -6503,7 +6503,7 @@ namespace Audiograph
             this.lblArtistTopTrackTitle13.TabIndex = 41;
             this.lblArtistTopTrackTitle13.Text = "(Unavailable)";
             this.lblArtistTopTrackTitle13.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblArtistTopTrackTitle13.Click += new System.EventHandler(this.ArtistTopTrackClick);
+            this.lblArtistTopTrackTitle13.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ArtistTopTrackClick);
             // 
             // lblArtistTopTrackListeners13
             // 
@@ -6538,7 +6538,7 @@ namespace Audiograph
             this.lblArtistTopTrackTitle12.TabIndex = 38;
             this.lblArtistTopTrackTitle12.Text = "(Unavailable)";
             this.lblArtistTopTrackTitle12.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblArtistTopTrackTitle12.Click += new System.EventHandler(this.ArtistTopTrackClick);
+            this.lblArtistTopTrackTitle12.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ArtistTopTrackClick);
             // 
             // lblArtistTopTrackListeners12
             // 
@@ -6573,7 +6573,7 @@ namespace Audiograph
             this.lblArtistTopTrackTitle11.TabIndex = 35;
             this.lblArtistTopTrackTitle11.Text = "(Unavailable)";
             this.lblArtistTopTrackTitle11.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblArtistTopTrackTitle11.Click += new System.EventHandler(this.ArtistTopTrackClick);
+            this.lblArtistTopTrackTitle11.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ArtistTopTrackClick);
             // 
             // lblArtistTopTrackListeners11
             // 
@@ -6608,7 +6608,7 @@ namespace Audiograph
             this.lblArtistTopTrackTitle10.TabIndex = 32;
             this.lblArtistTopTrackTitle10.Text = "(Unavailable)";
             this.lblArtistTopTrackTitle10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblArtistTopTrackTitle10.Click += new System.EventHandler(this.ArtistTopTrackClick);
+            this.lblArtistTopTrackTitle10.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ArtistTopTrackClick);
             // 
             // lblArtistTopTrackListeners10
             // 
@@ -6643,7 +6643,7 @@ namespace Audiograph
             this.lblArtistTopTrackTitle9.TabIndex = 29;
             this.lblArtistTopTrackTitle9.Text = "(Unavailable)";
             this.lblArtistTopTrackTitle9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblArtistTopTrackTitle9.Click += new System.EventHandler(this.ArtistTopTrackClick);
+            this.lblArtistTopTrackTitle9.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ArtistTopTrackClick);
             // 
             // lblArtistTopTrackListeners9
             // 
@@ -6678,7 +6678,7 @@ namespace Audiograph
             this.lblArtistTopTrackTitle8.TabIndex = 26;
             this.lblArtistTopTrackTitle8.Text = "(Unavailable)";
             this.lblArtistTopTrackTitle8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblArtistTopTrackTitle8.Click += new System.EventHandler(this.ArtistTopTrackClick);
+            this.lblArtistTopTrackTitle8.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ArtistTopTrackClick);
             // 
             // lblArtistTopTrackListeners8
             // 
@@ -6713,7 +6713,7 @@ namespace Audiograph
             this.lblArtistTopTrackTitle7.TabIndex = 23;
             this.lblArtistTopTrackTitle7.Text = "(Unavailable)";
             this.lblArtistTopTrackTitle7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblArtistTopTrackTitle7.Click += new System.EventHandler(this.ArtistTopTrackClick);
+            this.lblArtistTopTrackTitle7.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ArtistTopTrackClick);
             // 
             // lblArtistTopTrackListeners7
             // 
@@ -6748,7 +6748,7 @@ namespace Audiograph
             this.lblArtistTopTrackTitle6.TabIndex = 20;
             this.lblArtistTopTrackTitle6.Text = "(Unavailable)";
             this.lblArtistTopTrackTitle6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblArtistTopTrackTitle6.Click += new System.EventHandler(this.ArtistTopTrackClick);
+            this.lblArtistTopTrackTitle6.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ArtistTopTrackClick);
             // 
             // lblArtistTopTrackListeners6
             // 
@@ -6783,7 +6783,7 @@ namespace Audiograph
             this.lblArtistTopTrackTitle5.TabIndex = 17;
             this.lblArtistTopTrackTitle5.Text = "(Unavailable)";
             this.lblArtistTopTrackTitle5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblArtistTopTrackTitle5.Click += new System.EventHandler(this.ArtistTopTrackClick);
+            this.lblArtistTopTrackTitle5.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ArtistTopTrackClick);
             // 
             // lblArtistTopTrackListeners5
             // 
@@ -6818,7 +6818,7 @@ namespace Audiograph
             this.lblArtistTopTrackTitle4.TabIndex = 14;
             this.lblArtistTopTrackTitle4.Text = "(Unavailable)";
             this.lblArtistTopTrackTitle4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblArtistTopTrackTitle4.Click += new System.EventHandler(this.ArtistTopTrackClick);
+            this.lblArtistTopTrackTitle4.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ArtistTopTrackClick);
             // 
             // lblArtistTopTrackListeners4
             // 
@@ -6853,7 +6853,7 @@ namespace Audiograph
             this.lblArtistTopTrackTitle3.TabIndex = 11;
             this.lblArtistTopTrackTitle3.Text = "(Unavailable)";
             this.lblArtistTopTrackTitle3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblArtistTopTrackTitle3.Click += new System.EventHandler(this.ArtistTopTrackClick);
+            this.lblArtistTopTrackTitle3.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ArtistTopTrackClick);
             // 
             // lblArtistTopTrackListeners3
             // 
@@ -6888,7 +6888,7 @@ namespace Audiograph
             this.lblArtistTopTrackTitle2.TabIndex = 8;
             this.lblArtistTopTrackTitle2.Text = "(Unavailable)";
             this.lblArtistTopTrackTitle2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblArtistTopTrackTitle2.Click += new System.EventHandler(this.ArtistTopTrackClick);
+            this.lblArtistTopTrackTitle2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ArtistTopTrackClick);
             // 
             // lblArtistTopTrackListeners2
             // 
@@ -6934,7 +6934,7 @@ namespace Audiograph
             this.lblArtistTopTrackTitle1.TabIndex = 4;
             this.lblArtistTopTrackTitle1.Text = "(Unavailable)";
             this.lblArtistTopTrackTitle1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblArtistTopTrackTitle1.Click += new System.EventHandler(this.ArtistTopTrackClick);
+            this.lblArtistTopTrackTitle1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ArtistTopTrackClick);
             // 
             // Label31
             // 
@@ -7063,7 +7063,7 @@ namespace Audiograph
             this.lblArtistTopAlbum10.TabIndex = 60;
             this.lblArtistTopAlbum10.Text = "(Unavailable)";
             this.lblArtistTopAlbum10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblArtistTopAlbum10.Click += new System.EventHandler(this.ArtistTopAlbumClick);
+            this.lblArtistTopAlbum10.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ArtistTopAlbumClick);
             // 
             // picArtistTopAlbum10
             // 
@@ -7101,7 +7101,7 @@ namespace Audiograph
             this.lblArtistTopAlbum9.TabIndex = 57;
             this.lblArtistTopAlbum9.Text = "(Unavailable)";
             this.lblArtistTopAlbum9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblArtistTopAlbum9.Click += new System.EventHandler(this.ArtistTopAlbumClick);
+            this.lblArtistTopAlbum9.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ArtistTopAlbumClick);
             // 
             // picArtistTopAlbum9
             // 
@@ -7139,7 +7139,7 @@ namespace Audiograph
             this.lblArtistTopAlbum8.TabIndex = 54;
             this.lblArtistTopAlbum8.Text = "(Unavailable)";
             this.lblArtistTopAlbum8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblArtistTopAlbum8.Click += new System.EventHandler(this.ArtistTopAlbumClick);
+            this.lblArtistTopAlbum8.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ArtistTopAlbumClick);
             // 
             // picArtistTopAlbum8
             // 
@@ -7177,7 +7177,7 @@ namespace Audiograph
             this.lblArtistTopAlbum7.TabIndex = 51;
             this.lblArtistTopAlbum7.Text = "(Unavailable)";
             this.lblArtistTopAlbum7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblArtistTopAlbum7.Click += new System.EventHandler(this.ArtistTopAlbumClick);
+            this.lblArtistTopAlbum7.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ArtistTopAlbumClick);
             // 
             // picArtistTopAlbum7
             // 
@@ -7215,7 +7215,7 @@ namespace Audiograph
             this.lblArtistTopAlbum6.TabIndex = 48;
             this.lblArtistTopAlbum6.Text = "(Unavailable)";
             this.lblArtistTopAlbum6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblArtistTopAlbum6.Click += new System.EventHandler(this.ArtistTopAlbumClick);
+            this.lblArtistTopAlbum6.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ArtistTopAlbumClick);
             // 
             // picArtistTopAlbum6
             // 
@@ -7253,7 +7253,7 @@ namespace Audiograph
             this.lblArtistTopAlbum5.TabIndex = 45;
             this.lblArtistTopAlbum5.Text = "(Unavailable)";
             this.lblArtistTopAlbum5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblArtistTopAlbum5.Click += new System.EventHandler(this.ArtistTopAlbumClick);
+            this.lblArtistTopAlbum5.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ArtistTopAlbumClick);
             // 
             // picArtistTopAlbum5
             // 
@@ -7291,7 +7291,7 @@ namespace Audiograph
             this.lblArtistTopAlbum4.TabIndex = 42;
             this.lblArtistTopAlbum4.Text = "(Unavailable)";
             this.lblArtistTopAlbum4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblArtistTopAlbum4.Click += new System.EventHandler(this.ArtistTopAlbumClick);
+            this.lblArtistTopAlbum4.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ArtistTopAlbumClick);
             // 
             // picArtistTopAlbum4
             // 
@@ -7329,7 +7329,7 @@ namespace Audiograph
             this.lblArtistTopAlbum3.TabIndex = 39;
             this.lblArtistTopAlbum3.Text = "(Unavailable)";
             this.lblArtistTopAlbum3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblArtistTopAlbum3.Click += new System.EventHandler(this.ArtistTopAlbumClick);
+            this.lblArtistTopAlbum3.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ArtistTopAlbumClick);
             // 
             // picArtistTopAlbum3
             // 
@@ -7367,7 +7367,7 @@ namespace Audiograph
             this.lblArtistTopAlbum2.TabIndex = 36;
             this.lblArtistTopAlbum2.Text = "(Unavailable)";
             this.lblArtistTopAlbum2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblArtistTopAlbum2.Click += new System.EventHandler(this.ArtistTopAlbumClick);
+            this.lblArtistTopAlbum2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ArtistTopAlbumClick);
             // 
             // picArtistTopAlbum2
             // 
@@ -7405,7 +7405,7 @@ namespace Audiograph
             this.lblArtistTopAlbum1.TabIndex = 33;
             this.lblArtistTopAlbum1.Text = "(Unavailable)";
             this.lblArtistTopAlbum1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblArtistTopAlbum1.Click += new System.EventHandler(this.ArtistTopAlbumClick);
+            this.lblArtistTopAlbum1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ArtistTopAlbumClick);
             // 
             // picArtistTopAlbum1
             // 
@@ -7527,7 +7527,7 @@ namespace Audiograph
             this.btnArtistAdvanced.TabIndex = 20;
             this.btnArtistAdvanced.Text = "&Advanced";
             this.btnArtistAdvanced.UseVisualStyleBackColor = true;
-            this.btnArtistAdvanced.Click += new System.EventHandler(this.ArtistAdvancedSearch);
+            this.btnArtistAdvanced.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ArtistAdvancedSearch);
             // 
             // btnArtistGo
             // 
@@ -7538,7 +7538,7 @@ namespace Audiograph
             this.btnArtistGo.TabIndex = 19;
             this.btnArtistGo.Text = "&Go";
             this.btnArtistGo.UseVisualStyleBackColor = true;
-            this.btnArtistGo.Click += new System.EventHandler(this.ArtistGo);
+            this.btnArtistGo.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ArtistGo);
             // 
             // txtArtistName
             // 
@@ -7583,7 +7583,7 @@ namespace Audiograph
             this.btnAlbumGoArtist.TabIndex = 23;
             this.btnAlbumGoArtist.Text = "Go To A&rtist";
             this.btnAlbumGoArtist.UseVisualStyleBackColor = true;
-            this.btnAlbumGoArtist.Click += new System.EventHandler(this.AlbumGoArtist);
+            this.btnAlbumGoArtist.MouseClick += new System.Windows.Forms.MouseEventHandler(this.AlbumGoArtist);
             // 
             // btnAlbumAdvanced
             // 
@@ -7594,7 +7594,7 @@ namespace Audiograph
             this.btnAlbumAdvanced.TabIndex = 21;
             this.btnAlbumAdvanced.Text = "&Advanced";
             this.btnAlbumAdvanced.UseVisualStyleBackColor = true;
-            this.btnAlbumAdvanced.Click += new System.EventHandler(this.AlbumAdvancedClicked);
+            this.btnAlbumAdvanced.MouseClick += new System.Windows.Forms.MouseEventHandler(this.AlbumAdvancedClicked);
             // 
             // btnAlbumGo
             // 
@@ -7605,7 +7605,7 @@ namespace Audiograph
             this.btnAlbumGo.TabIndex = 20;
             this.btnAlbumGo.Text = "&Go";
             this.btnAlbumGo.UseVisualStyleBackColor = true;
-            this.btnAlbumGo.Click += new System.EventHandler(this.AlbumGo);
+            this.btnAlbumGo.MouseClick += new System.Windows.Forms.MouseEventHandler(this.AlbumGo);
             // 
             // txtAlbumArtist
             // 
@@ -7777,7 +7777,7 @@ namespace Audiograph
             this.btnAlbumTagRemove.TabIndex = 2;
             this.btnAlbumTagRemove.Text = "R&emove";
             this.btnAlbumTagRemove.UseVisualStyleBackColor = true;
-            this.btnAlbumTagRemove.Click += new System.EventHandler(this.AlbumRemoveTag);
+            this.btnAlbumTagRemove.MouseClick += new System.Windows.Forms.MouseEventHandler(this.AlbumRemoveTag);
             // 
             // btnAlbumTagAdd
             // 
@@ -7787,7 +7787,7 @@ namespace Audiograph
             this.btnAlbumTagAdd.TabIndex = 1;
             this.btnAlbumTagAdd.Text = "A&dd";
             this.btnAlbumTagAdd.UseVisualStyleBackColor = true;
-            this.btnAlbumTagAdd.Click += new System.EventHandler(this.AlbumAddTag);
+            this.btnAlbumTagAdd.MouseClick += new System.Windows.Forms.MouseEventHandler(this.AlbumAddTag);
             // 
             // lblAlbumTags
             // 
@@ -7928,7 +7928,7 @@ namespace Audiograph
             this.btnUserAuthenticate.TabIndex = 12;
             this.btnUserAuthenticate.Text = "&Authenticate";
             this.btnUserAuthenticate.UseVisualStyleBackColor = true;
-            this.btnUserAuthenticate.Click += new System.EventHandler(this.UserAuthenticate);
+            this.btnUserAuthenticate.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserAuthenticate);
             // 
             // btnUserSet
             // 
@@ -7939,7 +7939,7 @@ namespace Audiograph
             this.btnUserSet.TabIndex = 10;
             this.btnUserSet.Text = "&Set";
             this.btnUserSet.UseVisualStyleBackColor = true;
-            this.btnUserSet.Click += new System.EventHandler(this.SetUser);
+            this.btnUserSet.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SetUser);
             // 
             // txtUser
             // 
@@ -8008,7 +8008,7 @@ namespace Audiograph
             this.btnUserChartGo.TabIndex = 6;
             this.btnUserChartGo.Text = "&Go";
             this.btnUserChartGo.UseVisualStyleBackColor = true;
-            this.btnUserChartGo.Click += new System.EventHandler(this.UserChartGo);
+            this.btnUserChartGo.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserChartGo);
             // 
             // dtpUserTo
             // 
@@ -8474,7 +8474,7 @@ namespace Audiograph
             this.lblUserTopTrackAlbum20.TabIndex = 135;
             this.lblUserTopTrackAlbum20.Text = "(Unavailable)";
             this.lblUserTopTrackAlbum20.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserTopTrackAlbum20.Click += new System.EventHandler(this.UserTopTrackAlbumClicked);
+            this.lblUserTopTrackAlbum20.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopTrackAlbumClicked);
             // 
             // cmsUserTopTracks
             // 
@@ -8548,7 +8548,7 @@ namespace Audiograph
             this.lblUserTopTrackArtist20.TabIndex = 134;
             this.lblUserTopTrackArtist20.Text = "(Unavailable)";
             this.lblUserTopTrackArtist20.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserTopTrackArtist20.Click += new System.EventHandler(this.UserTopTrackArtistClicked);
+            this.lblUserTopTrackArtist20.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopTrackArtistClicked);
             // 
             // lblUserTopTrackTitle20
             // 
@@ -8561,7 +8561,7 @@ namespace Audiograph
             this.lblUserTopTrackTitle20.TabIndex = 133;
             this.lblUserTopTrackTitle20.Text = "(Unavailable)";
             this.lblUserTopTrackTitle20.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserTopTrackTitle20.Click += new System.EventHandler(this.UserTopTrackTrackClicked);
+            this.lblUserTopTrackTitle20.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopTrackTrackClicked);
             // 
             // picUserTopTrackArt20
             // 
@@ -8600,7 +8600,7 @@ namespace Audiograph
             this.lblUserTopTrackAlbum19.TabIndex = 130;
             this.lblUserTopTrackAlbum19.Text = "(Unavailable)";
             this.lblUserTopTrackAlbum19.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserTopTrackAlbum19.Click += new System.EventHandler(this.UserTopTrackAlbumClicked);
+            this.lblUserTopTrackAlbum19.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopTrackAlbumClicked);
             // 
             // lblUserTopTrackArtist19
             // 
@@ -8613,7 +8613,7 @@ namespace Audiograph
             this.lblUserTopTrackArtist19.TabIndex = 129;
             this.lblUserTopTrackArtist19.Text = "(Unavailable)";
             this.lblUserTopTrackArtist19.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserTopTrackArtist19.Click += new System.EventHandler(this.UserTopTrackArtistClicked);
+            this.lblUserTopTrackArtist19.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopTrackArtistClicked);
             // 
             // lblUserTopTrackTitle19
             // 
@@ -8626,7 +8626,7 @@ namespace Audiograph
             this.lblUserTopTrackTitle19.TabIndex = 128;
             this.lblUserTopTrackTitle19.Text = "(Unavailable)";
             this.lblUserTopTrackTitle19.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserTopTrackTitle19.Click += new System.EventHandler(this.UserTopTrackTrackClicked);
+            this.lblUserTopTrackTitle19.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopTrackTrackClicked);
             // 
             // picUserTopTrackArt19
             // 
@@ -8665,7 +8665,7 @@ namespace Audiograph
             this.lblUserTopTrackAlbum18.TabIndex = 125;
             this.lblUserTopTrackAlbum18.Text = "(Unavailable)";
             this.lblUserTopTrackAlbum18.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserTopTrackAlbum18.Click += new System.EventHandler(this.UserTopTrackAlbumClicked);
+            this.lblUserTopTrackAlbum18.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopTrackAlbumClicked);
             // 
             // lblUserTopTrackArtist18
             // 
@@ -8678,7 +8678,7 @@ namespace Audiograph
             this.lblUserTopTrackArtist18.TabIndex = 124;
             this.lblUserTopTrackArtist18.Text = "(Unavailable)";
             this.lblUserTopTrackArtist18.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserTopTrackArtist18.Click += new System.EventHandler(this.UserTopTrackArtistClicked);
+            this.lblUserTopTrackArtist18.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopTrackArtistClicked);
             // 
             // lblUserTopTrackTitle18
             // 
@@ -8691,7 +8691,7 @@ namespace Audiograph
             this.lblUserTopTrackTitle18.TabIndex = 123;
             this.lblUserTopTrackTitle18.Text = "(Unavailable)";
             this.lblUserTopTrackTitle18.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserTopTrackTitle18.Click += new System.EventHandler(this.UserTopTrackTrackClicked);
+            this.lblUserTopTrackTitle18.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopTrackTrackClicked);
             // 
             // picUserTopTrackArt18
             // 
@@ -8730,7 +8730,7 @@ namespace Audiograph
             this.lblUserTopTrackAlbum17.TabIndex = 120;
             this.lblUserTopTrackAlbum17.Text = "(Unavailable)";
             this.lblUserTopTrackAlbum17.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserTopTrackAlbum17.Click += new System.EventHandler(this.UserTopTrackAlbumClicked);
+            this.lblUserTopTrackAlbum17.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopTrackAlbumClicked);
             // 
             // lblUserTopTrackArtist17
             // 
@@ -8743,7 +8743,7 @@ namespace Audiograph
             this.lblUserTopTrackArtist17.TabIndex = 119;
             this.lblUserTopTrackArtist17.Text = "(Unavailable)";
             this.lblUserTopTrackArtist17.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserTopTrackArtist17.Click += new System.EventHandler(this.UserTopTrackArtistClicked);
+            this.lblUserTopTrackArtist17.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopTrackArtistClicked);
             // 
             // lblUserTopTrackTitle17
             // 
@@ -8756,7 +8756,7 @@ namespace Audiograph
             this.lblUserTopTrackTitle17.TabIndex = 118;
             this.lblUserTopTrackTitle17.Text = "(Unavailable)";
             this.lblUserTopTrackTitle17.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserTopTrackTitle17.Click += new System.EventHandler(this.UserTopTrackTrackClicked);
+            this.lblUserTopTrackTitle17.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopTrackTrackClicked);
             // 
             // picUserTopTrackArt17
             // 
@@ -8794,7 +8794,7 @@ namespace Audiograph
             this.lblUserTopTrackAlbum16.TabIndex = 115;
             this.lblUserTopTrackAlbum16.Text = "(Unavailable)";
             this.lblUserTopTrackAlbum16.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserTopTrackAlbum16.Click += new System.EventHandler(this.UserTopTrackAlbumClicked);
+            this.lblUserTopTrackAlbum16.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopTrackAlbumClicked);
             // 
             // lblUserTopTrackArtist16
             // 
@@ -8807,7 +8807,7 @@ namespace Audiograph
             this.lblUserTopTrackArtist16.TabIndex = 114;
             this.lblUserTopTrackArtist16.Text = "(Unavailable)";
             this.lblUserTopTrackArtist16.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserTopTrackArtist16.Click += new System.EventHandler(this.UserTopTrackArtistClicked);
+            this.lblUserTopTrackArtist16.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopTrackArtistClicked);
             // 
             // lblUserTopTrackTitle16
             // 
@@ -8820,7 +8820,7 @@ namespace Audiograph
             this.lblUserTopTrackTitle16.TabIndex = 113;
             this.lblUserTopTrackTitle16.Text = "(Unavailable)";
             this.lblUserTopTrackTitle16.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserTopTrackTitle16.Click += new System.EventHandler(this.UserTopTrackTrackClicked);
+            this.lblUserTopTrackTitle16.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopTrackTrackClicked);
             // 
             // picUserTopTrackArt16
             // 
@@ -8859,7 +8859,7 @@ namespace Audiograph
             this.lblUserTopTrackAlbum15.TabIndex = 110;
             this.lblUserTopTrackAlbum15.Text = "(Unavailable)";
             this.lblUserTopTrackAlbum15.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserTopTrackAlbum15.Click += new System.EventHandler(this.UserTopTrackAlbumClicked);
+            this.lblUserTopTrackAlbum15.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopTrackAlbumClicked);
             // 
             // lblUserTopTrackArtist15
             // 
@@ -8872,7 +8872,7 @@ namespace Audiograph
             this.lblUserTopTrackArtist15.TabIndex = 109;
             this.lblUserTopTrackArtist15.Text = "(Unavailable)";
             this.lblUserTopTrackArtist15.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserTopTrackArtist15.Click += new System.EventHandler(this.UserTopTrackArtistClicked);
+            this.lblUserTopTrackArtist15.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopTrackArtistClicked);
             // 
             // lblUserTopTrackTitle15
             // 
@@ -8885,7 +8885,7 @@ namespace Audiograph
             this.lblUserTopTrackTitle15.TabIndex = 108;
             this.lblUserTopTrackTitle15.Text = "(Unavailable)";
             this.lblUserTopTrackTitle15.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserTopTrackTitle15.Click += new System.EventHandler(this.UserTopTrackTrackClicked);
+            this.lblUserTopTrackTitle15.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopTrackTrackClicked);
             // 
             // picUserTopTrackArt15
             // 
@@ -8924,7 +8924,7 @@ namespace Audiograph
             this.lblUserTopTrackAlbum14.TabIndex = 105;
             this.lblUserTopTrackAlbum14.Text = "(Unavailable)";
             this.lblUserTopTrackAlbum14.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserTopTrackAlbum14.Click += new System.EventHandler(this.UserTopTrackAlbumClicked);
+            this.lblUserTopTrackAlbum14.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopTrackAlbumClicked);
             // 
             // lblUserTopTrackArtist14
             // 
@@ -8937,7 +8937,7 @@ namespace Audiograph
             this.lblUserTopTrackArtist14.TabIndex = 104;
             this.lblUserTopTrackArtist14.Text = "(Unavailable)";
             this.lblUserTopTrackArtist14.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserTopTrackArtist14.Click += new System.EventHandler(this.UserTopTrackArtistClicked);
+            this.lblUserTopTrackArtist14.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopTrackArtistClicked);
             // 
             // lblUserTopTrackTitle14
             // 
@@ -8950,7 +8950,7 @@ namespace Audiograph
             this.lblUserTopTrackTitle14.TabIndex = 103;
             this.lblUserTopTrackTitle14.Text = "(Unavailable)";
             this.lblUserTopTrackTitle14.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserTopTrackTitle14.Click += new System.EventHandler(this.UserTopTrackTrackClicked);
+            this.lblUserTopTrackTitle14.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopTrackTrackClicked);
             // 
             // picUserTopTrackArt14
             // 
@@ -8989,7 +8989,7 @@ namespace Audiograph
             this.lblUserTopTrackAlbum13.TabIndex = 100;
             this.lblUserTopTrackAlbum13.Text = "(Unavailable)";
             this.lblUserTopTrackAlbum13.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserTopTrackAlbum13.Click += new System.EventHandler(this.UserTopTrackAlbumClicked);
+            this.lblUserTopTrackAlbum13.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopTrackAlbumClicked);
             // 
             // lblUserTopTrackArtist13
             // 
@@ -9002,7 +9002,7 @@ namespace Audiograph
             this.lblUserTopTrackArtist13.TabIndex = 99;
             this.lblUserTopTrackArtist13.Text = "(Unavailable)";
             this.lblUserTopTrackArtist13.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserTopTrackArtist13.Click += new System.EventHandler(this.UserTopTrackArtistClicked);
+            this.lblUserTopTrackArtist13.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopTrackArtistClicked);
             // 
             // lblUserTopTrackTitle13
             // 
@@ -9015,7 +9015,7 @@ namespace Audiograph
             this.lblUserTopTrackTitle13.TabIndex = 98;
             this.lblUserTopTrackTitle13.Text = "(Unavailable)";
             this.lblUserTopTrackTitle13.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserTopTrackTitle13.Click += new System.EventHandler(this.UserTopTrackTrackClicked);
+            this.lblUserTopTrackTitle13.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopTrackTrackClicked);
             // 
             // picUserTopTrackArt13
             // 
@@ -9054,7 +9054,7 @@ namespace Audiograph
             this.lblUserTopTrackAlbum12.TabIndex = 95;
             this.lblUserTopTrackAlbum12.Text = "(Unavailable)";
             this.lblUserTopTrackAlbum12.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserTopTrackAlbum12.Click += new System.EventHandler(this.UserTopTrackAlbumClicked);
+            this.lblUserTopTrackAlbum12.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopTrackAlbumClicked);
             // 
             // lblUserTopTrackArtist12
             // 
@@ -9067,7 +9067,7 @@ namespace Audiograph
             this.lblUserTopTrackArtist12.TabIndex = 94;
             this.lblUserTopTrackArtist12.Text = "(Unavailable)";
             this.lblUserTopTrackArtist12.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserTopTrackArtist12.Click += new System.EventHandler(this.UserTopTrackArtistClicked);
+            this.lblUserTopTrackArtist12.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopTrackArtistClicked);
             // 
             // lblUserTopTrackTitle12
             // 
@@ -9080,7 +9080,7 @@ namespace Audiograph
             this.lblUserTopTrackTitle12.TabIndex = 93;
             this.lblUserTopTrackTitle12.Text = "(Unavailable)";
             this.lblUserTopTrackTitle12.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserTopTrackTitle12.Click += new System.EventHandler(this.UserTopTrackTrackClicked);
+            this.lblUserTopTrackTitle12.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopTrackTrackClicked);
             // 
             // picUserTopTrackArt12
             // 
@@ -9119,7 +9119,7 @@ namespace Audiograph
             this.lblUserTopTrackAlbum11.TabIndex = 90;
             this.lblUserTopTrackAlbum11.Text = "(Unavailable)";
             this.lblUserTopTrackAlbum11.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserTopTrackAlbum11.Click += new System.EventHandler(this.UserTopTrackAlbumClicked);
+            this.lblUserTopTrackAlbum11.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopTrackAlbumClicked);
             // 
             // lblUserTopTrackArtist11
             // 
@@ -9132,7 +9132,7 @@ namespace Audiograph
             this.lblUserTopTrackArtist11.TabIndex = 89;
             this.lblUserTopTrackArtist11.Text = "(Unavailable)";
             this.lblUserTopTrackArtist11.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserTopTrackArtist11.Click += new System.EventHandler(this.UserTopTrackArtistClicked);
+            this.lblUserTopTrackArtist11.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopTrackArtistClicked);
             // 
             // lblUserTopTrackTitle11
             // 
@@ -9145,7 +9145,7 @@ namespace Audiograph
             this.lblUserTopTrackTitle11.TabIndex = 88;
             this.lblUserTopTrackTitle11.Text = "(Unavailable)";
             this.lblUserTopTrackTitle11.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserTopTrackTitle11.Click += new System.EventHandler(this.UserTopTrackTrackClicked);
+            this.lblUserTopTrackTitle11.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopTrackTrackClicked);
             // 
             // picUserTopTrackArt11
             // 
@@ -9184,7 +9184,7 @@ namespace Audiograph
             this.lblUserTopTrackAlbum10.TabIndex = 85;
             this.lblUserTopTrackAlbum10.Text = "(Unavailable)";
             this.lblUserTopTrackAlbum10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserTopTrackAlbum10.Click += new System.EventHandler(this.UserTopTrackAlbumClicked);
+            this.lblUserTopTrackAlbum10.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopTrackAlbumClicked);
             // 
             // lblUserTopTrackArtist10
             // 
@@ -9197,7 +9197,7 @@ namespace Audiograph
             this.lblUserTopTrackArtist10.TabIndex = 84;
             this.lblUserTopTrackArtist10.Text = "(Unavailable)";
             this.lblUserTopTrackArtist10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserTopTrackArtist10.Click += new System.EventHandler(this.UserTopTrackArtistClicked);
+            this.lblUserTopTrackArtist10.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopTrackArtistClicked);
             // 
             // lblUserTopTrackTitle10
             // 
@@ -9210,7 +9210,7 @@ namespace Audiograph
             this.lblUserTopTrackTitle10.TabIndex = 83;
             this.lblUserTopTrackTitle10.Text = "(Unavailable)";
             this.lblUserTopTrackTitle10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserTopTrackTitle10.Click += new System.EventHandler(this.UserTopTrackTrackClicked);
+            this.lblUserTopTrackTitle10.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopTrackTrackClicked);
             // 
             // picUserTopTrackArt10
             // 
@@ -9249,7 +9249,7 @@ namespace Audiograph
             this.lblUserTopTrackAlbum9.TabIndex = 80;
             this.lblUserTopTrackAlbum9.Text = "(Unavailable)";
             this.lblUserTopTrackAlbum9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserTopTrackAlbum9.Click += new System.EventHandler(this.UserTopTrackAlbumClicked);
+            this.lblUserTopTrackAlbum9.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopTrackAlbumClicked);
             // 
             // lblUserTopTrackArtist9
             // 
@@ -9262,7 +9262,7 @@ namespace Audiograph
             this.lblUserTopTrackArtist9.TabIndex = 79;
             this.lblUserTopTrackArtist9.Text = "(Unavailable)";
             this.lblUserTopTrackArtist9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserTopTrackArtist9.Click += new System.EventHandler(this.UserTopTrackArtistClicked);
+            this.lblUserTopTrackArtist9.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopTrackArtistClicked);
             // 
             // lblUserTopTrackTitle9
             // 
@@ -9275,7 +9275,7 @@ namespace Audiograph
             this.lblUserTopTrackTitle9.TabIndex = 78;
             this.lblUserTopTrackTitle9.Text = "(Unavailable)";
             this.lblUserTopTrackTitle9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserTopTrackTitle9.Click += new System.EventHandler(this.UserTopTrackTrackClicked);
+            this.lblUserTopTrackTitle9.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopTrackTrackClicked);
             // 
             // picUserTopTrackArt9
             // 
@@ -9314,7 +9314,7 @@ namespace Audiograph
             this.lblUserTopTrackAlbum8.TabIndex = 75;
             this.lblUserTopTrackAlbum8.Text = "(Unavailable)";
             this.lblUserTopTrackAlbum8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserTopTrackAlbum8.Click += new System.EventHandler(this.UserTopTrackAlbumClicked);
+            this.lblUserTopTrackAlbum8.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopTrackAlbumClicked);
             // 
             // lblUserTopTrackArtist8
             // 
@@ -9327,7 +9327,7 @@ namespace Audiograph
             this.lblUserTopTrackArtist8.TabIndex = 74;
             this.lblUserTopTrackArtist8.Text = "(Unavailable)";
             this.lblUserTopTrackArtist8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserTopTrackArtist8.Click += new System.EventHandler(this.UserTopTrackArtistClicked);
+            this.lblUserTopTrackArtist8.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopTrackArtistClicked);
             // 
             // lblUserTopTrackTitle8
             // 
@@ -9340,7 +9340,7 @@ namespace Audiograph
             this.lblUserTopTrackTitle8.TabIndex = 73;
             this.lblUserTopTrackTitle8.Text = "(Unavailable)";
             this.lblUserTopTrackTitle8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserTopTrackTitle8.Click += new System.EventHandler(this.UserTopTrackTrackClicked);
+            this.lblUserTopTrackTitle8.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopTrackTrackClicked);
             // 
             // picUserTopTrackArt8
             // 
@@ -9379,7 +9379,7 @@ namespace Audiograph
             this.lblUserTopTrackAlbum7.TabIndex = 70;
             this.lblUserTopTrackAlbum7.Text = "(Unavailable)";
             this.lblUserTopTrackAlbum7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserTopTrackAlbum7.Click += new System.EventHandler(this.UserTopTrackAlbumClicked);
+            this.lblUserTopTrackAlbum7.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopTrackAlbumClicked);
             // 
             // lblUserTopTrackArtist7
             // 
@@ -9392,7 +9392,7 @@ namespace Audiograph
             this.lblUserTopTrackArtist7.TabIndex = 69;
             this.lblUserTopTrackArtist7.Text = "(Unavailable)";
             this.lblUserTopTrackArtist7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserTopTrackArtist7.Click += new System.EventHandler(this.UserTopTrackArtistClicked);
+            this.lblUserTopTrackArtist7.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopTrackArtistClicked);
             // 
             // lblUserTopTrackTitle7
             // 
@@ -9405,7 +9405,7 @@ namespace Audiograph
             this.lblUserTopTrackTitle7.TabIndex = 68;
             this.lblUserTopTrackTitle7.Text = "(Unavailable)";
             this.lblUserTopTrackTitle7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserTopTrackTitle7.Click += new System.EventHandler(this.UserTopTrackTrackClicked);
+            this.lblUserTopTrackTitle7.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopTrackTrackClicked);
             // 
             // picUserTopTrackArt7
             // 
@@ -9444,7 +9444,7 @@ namespace Audiograph
             this.lblUserTopTrackAlbum6.TabIndex = 65;
             this.lblUserTopTrackAlbum6.Text = "(Unavailable)";
             this.lblUserTopTrackAlbum6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserTopTrackAlbum6.Click += new System.EventHandler(this.UserTopTrackAlbumClicked);
+            this.lblUserTopTrackAlbum6.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopTrackAlbumClicked);
             // 
             // lblUserTopTrackArtist6
             // 
@@ -9457,7 +9457,7 @@ namespace Audiograph
             this.lblUserTopTrackArtist6.TabIndex = 64;
             this.lblUserTopTrackArtist6.Text = "(Unavailable)";
             this.lblUserTopTrackArtist6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserTopTrackArtist6.Click += new System.EventHandler(this.UserTopTrackArtistClicked);
+            this.lblUserTopTrackArtist6.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopTrackArtistClicked);
             // 
             // lblUserTopTrackTitle6
             // 
@@ -9470,7 +9470,7 @@ namespace Audiograph
             this.lblUserTopTrackTitle6.TabIndex = 63;
             this.lblUserTopTrackTitle6.Text = "(Unavailable)";
             this.lblUserTopTrackTitle6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserTopTrackTitle6.Click += new System.EventHandler(this.UserTopTrackTrackClicked);
+            this.lblUserTopTrackTitle6.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopTrackTrackClicked);
             // 
             // picUserTopTrackArt6
             // 
@@ -9509,7 +9509,7 @@ namespace Audiograph
             this.lblUserTopTrackAlbum5.TabIndex = 60;
             this.lblUserTopTrackAlbum5.Text = "(Unavailable)";
             this.lblUserTopTrackAlbum5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserTopTrackAlbum5.Click += new System.EventHandler(this.UserTopTrackAlbumClicked);
+            this.lblUserTopTrackAlbum5.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopTrackAlbumClicked);
             // 
             // lblUserTopTrackArtist5
             // 
@@ -9522,7 +9522,7 @@ namespace Audiograph
             this.lblUserTopTrackArtist5.TabIndex = 59;
             this.lblUserTopTrackArtist5.Text = "(Unavailable)";
             this.lblUserTopTrackArtist5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserTopTrackArtist5.Click += new System.EventHandler(this.UserTopTrackArtistClicked);
+            this.lblUserTopTrackArtist5.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopTrackArtistClicked);
             // 
             // lblUserTopTrackTitle5
             // 
@@ -9535,7 +9535,7 @@ namespace Audiograph
             this.lblUserTopTrackTitle5.TabIndex = 58;
             this.lblUserTopTrackTitle5.Text = "(Unavailable)";
             this.lblUserTopTrackTitle5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserTopTrackTitle5.Click += new System.EventHandler(this.UserTopTrackTrackClicked);
+            this.lblUserTopTrackTitle5.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopTrackTrackClicked);
             // 
             // picUserTopTrackArt5
             // 
@@ -9574,7 +9574,7 @@ namespace Audiograph
             this.lblUserTopTrackAlbum4.TabIndex = 55;
             this.lblUserTopTrackAlbum4.Text = "(Unavailable)";
             this.lblUserTopTrackAlbum4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserTopTrackAlbum4.Click += new System.EventHandler(this.UserTopTrackAlbumClicked);
+            this.lblUserTopTrackAlbum4.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopTrackAlbumClicked);
             // 
             // lblUserTopTrackArtist4
             // 
@@ -9587,7 +9587,7 @@ namespace Audiograph
             this.lblUserTopTrackArtist4.TabIndex = 54;
             this.lblUserTopTrackArtist4.Text = "(Unavailable)";
             this.lblUserTopTrackArtist4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserTopTrackArtist4.Click += new System.EventHandler(this.UserTopTrackArtistClicked);
+            this.lblUserTopTrackArtist4.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopTrackArtistClicked);
             // 
             // lblUserTopTrackTitle4
             // 
@@ -9600,7 +9600,7 @@ namespace Audiograph
             this.lblUserTopTrackTitle4.TabIndex = 53;
             this.lblUserTopTrackTitle4.Text = "(Unavailable)";
             this.lblUserTopTrackTitle4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserTopTrackTitle4.Click += new System.EventHandler(this.UserTopTrackTrackClicked);
+            this.lblUserTopTrackTitle4.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopTrackTrackClicked);
             // 
             // picUserTopTrackArt4
             // 
@@ -9639,7 +9639,7 @@ namespace Audiograph
             this.lblUserTopTrackAlbum3.TabIndex = 50;
             this.lblUserTopTrackAlbum3.Text = "(Unavailable)";
             this.lblUserTopTrackAlbum3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserTopTrackAlbum3.Click += new System.EventHandler(this.UserTopTrackAlbumClicked);
+            this.lblUserTopTrackAlbum3.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopTrackAlbumClicked);
             // 
             // lblUserTopTrackArtist3
             // 
@@ -9652,7 +9652,7 @@ namespace Audiograph
             this.lblUserTopTrackArtist3.TabIndex = 49;
             this.lblUserTopTrackArtist3.Text = "(Unavailable)";
             this.lblUserTopTrackArtist3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserTopTrackArtist3.Click += new System.EventHandler(this.UserTopTrackArtistClicked);
+            this.lblUserTopTrackArtist3.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopTrackArtistClicked);
             // 
             // lblUserTopTrackTitle3
             // 
@@ -9665,7 +9665,7 @@ namespace Audiograph
             this.lblUserTopTrackTitle3.TabIndex = 48;
             this.lblUserTopTrackTitle3.Text = "(Unavailable)";
             this.lblUserTopTrackTitle3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserTopTrackTitle3.Click += new System.EventHandler(this.UserTopTrackTrackClicked);
+            this.lblUserTopTrackTitle3.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopTrackTrackClicked);
             // 
             // picUserTopTrackArt3
             // 
@@ -9704,7 +9704,7 @@ namespace Audiograph
             this.lblUserTopTrackAlbum2.TabIndex = 45;
             this.lblUserTopTrackAlbum2.Text = "(Unavailable)";
             this.lblUserTopTrackAlbum2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserTopTrackAlbum2.Click += new System.EventHandler(this.UserTopTrackAlbumClicked);
+            this.lblUserTopTrackAlbum2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopTrackAlbumClicked);
             // 
             // lblUserTopTrackArtist2
             // 
@@ -9717,7 +9717,7 @@ namespace Audiograph
             this.lblUserTopTrackArtist2.TabIndex = 44;
             this.lblUserTopTrackArtist2.Text = "(Unavailable)";
             this.lblUserTopTrackArtist2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserTopTrackArtist2.Click += new System.EventHandler(this.UserTopTrackArtistClicked);
+            this.lblUserTopTrackArtist2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopTrackArtistClicked);
             // 
             // lblUserTopTrackTitle2
             // 
@@ -9730,7 +9730,7 @@ namespace Audiograph
             this.lblUserTopTrackTitle2.TabIndex = 43;
             this.lblUserTopTrackTitle2.Text = "(Unavailable)";
             this.lblUserTopTrackTitle2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserTopTrackTitle2.Click += new System.EventHandler(this.UserTopTrackTrackClicked);
+            this.lblUserTopTrackTitle2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopTrackTrackClicked);
             // 
             // picUserTopTrackArt2
             // 
@@ -9769,7 +9769,7 @@ namespace Audiograph
             this.lblUserTopTrackAlbum1.TabIndex = 40;
             this.lblUserTopTrackAlbum1.Text = "(Unavailable)";
             this.lblUserTopTrackAlbum1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserTopTrackAlbum1.Click += new System.EventHandler(this.UserTopTrackAlbumClicked);
+            this.lblUserTopTrackAlbum1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopTrackAlbumClicked);
             // 
             // lblUserTopTrackArtist1
             // 
@@ -9782,7 +9782,7 @@ namespace Audiograph
             this.lblUserTopTrackArtist1.TabIndex = 39;
             this.lblUserTopTrackArtist1.Text = "(Unavailable)";
             this.lblUserTopTrackArtist1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserTopTrackArtist1.Click += new System.EventHandler(this.UserTopTrackArtistClicked);
+            this.lblUserTopTrackArtist1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopTrackArtistClicked);
             // 
             // lblUserTopTrackTitle1
             // 
@@ -9795,7 +9795,7 @@ namespace Audiograph
             this.lblUserTopTrackTitle1.TabIndex = 38;
             this.lblUserTopTrackTitle1.Text = "(Unavailable)";
             this.lblUserTopTrackTitle1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserTopTrackTitle1.Click += new System.EventHandler(this.UserTopTrackTrackClicked);
+            this.lblUserTopTrackTitle1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopTrackTrackClicked);
             // 
             // Label158
             // 
@@ -10206,7 +10206,7 @@ namespace Audiograph
             this.lblUserTopArtist20.TabIndex = 134;
             this.lblUserTopArtist20.Text = "(Unavailable)";
             this.lblUserTopArtist20.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserTopArtist20.Click += new System.EventHandler(this.UserTopArtistClicked);
+            this.lblUserTopArtist20.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopArtistClicked);
             // 
             // cmsUserTopArtists
             // 
@@ -10253,7 +10253,7 @@ namespace Audiograph
             this.lblUserTopArtist19.TabIndex = 129;
             this.lblUserTopArtist19.Text = "(Unavailable)";
             this.lblUserTopArtist19.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserTopArtist19.Click += new System.EventHandler(this.UserTopArtistClicked);
+            this.lblUserTopArtist19.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopArtistClicked);
             // 
             // Label192
             // 
@@ -10276,7 +10276,7 @@ namespace Audiograph
             this.lblUserTopArtist18.TabIndex = 124;
             this.lblUserTopArtist18.Text = "(Unavailable)";
             this.lblUserTopArtist18.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserTopArtist18.Click += new System.EventHandler(this.UserTopArtistClicked);
+            this.lblUserTopArtist18.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopArtistClicked);
             // 
             // Label196
             // 
@@ -10299,7 +10299,7 @@ namespace Audiograph
             this.lblUserTopArtist17.TabIndex = 119;
             this.lblUserTopArtist17.Text = "(Unavailable)";
             this.lblUserTopArtist17.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserTopArtist17.Click += new System.EventHandler(this.UserTopArtistClicked);
+            this.lblUserTopArtist17.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopArtistClicked);
             // 
             // Label200
             // 
@@ -10322,7 +10322,7 @@ namespace Audiograph
             this.lblUserTopArtist16.TabIndex = 114;
             this.lblUserTopArtist16.Text = "(Unavailable)";
             this.lblUserTopArtist16.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserTopArtist16.Click += new System.EventHandler(this.UserTopArtistClicked);
+            this.lblUserTopArtist16.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopArtistClicked);
             // 
             // Label204
             // 
@@ -10345,7 +10345,7 @@ namespace Audiograph
             this.lblUserTopArtist15.TabIndex = 109;
             this.lblUserTopArtist15.Text = "(Unavailable)";
             this.lblUserTopArtist15.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserTopArtist15.Click += new System.EventHandler(this.UserTopArtistClicked);
+            this.lblUserTopArtist15.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopArtistClicked);
             // 
             // Label208
             // 
@@ -10368,7 +10368,7 @@ namespace Audiograph
             this.lblUserTopArtist14.TabIndex = 104;
             this.lblUserTopArtist14.Text = "(Unavailable)";
             this.lblUserTopArtist14.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserTopArtist14.Click += new System.EventHandler(this.UserTopArtistClicked);
+            this.lblUserTopArtist14.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopArtistClicked);
             // 
             // Label212
             // 
@@ -10391,7 +10391,7 @@ namespace Audiograph
             this.lblUserTopArtist13.TabIndex = 99;
             this.lblUserTopArtist13.Text = "(Unavailable)";
             this.lblUserTopArtist13.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserTopArtist13.Click += new System.EventHandler(this.UserTopArtistClicked);
+            this.lblUserTopArtist13.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopArtistClicked);
             // 
             // Label216
             // 
@@ -10414,7 +10414,7 @@ namespace Audiograph
             this.lblUserTopArtist12.TabIndex = 94;
             this.lblUserTopArtist12.Text = "(Unavailable)";
             this.lblUserTopArtist12.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserTopArtist12.Click += new System.EventHandler(this.UserTopArtistClicked);
+            this.lblUserTopArtist12.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopArtistClicked);
             // 
             // Label220
             // 
@@ -10437,7 +10437,7 @@ namespace Audiograph
             this.lblUserTopArtist11.TabIndex = 89;
             this.lblUserTopArtist11.Text = "(Unavailable)";
             this.lblUserTopArtist11.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserTopArtist11.Click += new System.EventHandler(this.UserTopArtistClicked);
+            this.lblUserTopArtist11.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopArtistClicked);
             // 
             // Label224
             // 
@@ -10460,7 +10460,7 @@ namespace Audiograph
             this.lblUserTopArtist10.TabIndex = 84;
             this.lblUserTopArtist10.Text = "(Unavailable)";
             this.lblUserTopArtist10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserTopArtist10.Click += new System.EventHandler(this.UserTopArtistClicked);
+            this.lblUserTopArtist10.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopArtistClicked);
             // 
             // Label228
             // 
@@ -10483,7 +10483,7 @@ namespace Audiograph
             this.lblUserTopArtist9.TabIndex = 79;
             this.lblUserTopArtist9.Text = "(Unavailable)";
             this.lblUserTopArtist9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserTopArtist9.Click += new System.EventHandler(this.UserTopArtistClicked);
+            this.lblUserTopArtist9.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopArtistClicked);
             // 
             // Label232
             // 
@@ -10506,7 +10506,7 @@ namespace Audiograph
             this.lblUserTopArtist8.TabIndex = 74;
             this.lblUserTopArtist8.Text = "(Unavailable)";
             this.lblUserTopArtist8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserTopArtist8.Click += new System.EventHandler(this.UserTopArtistClicked);
+            this.lblUserTopArtist8.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopArtistClicked);
             // 
             // Label236
             // 
@@ -10529,7 +10529,7 @@ namespace Audiograph
             this.lblUserTopArtist7.TabIndex = 69;
             this.lblUserTopArtist7.Text = "(Unavailable)";
             this.lblUserTopArtist7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserTopArtist7.Click += new System.EventHandler(this.UserTopArtistClicked);
+            this.lblUserTopArtist7.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopArtistClicked);
             // 
             // Label240
             // 
@@ -10552,7 +10552,7 @@ namespace Audiograph
             this.lblUserTopArtist6.TabIndex = 64;
             this.lblUserTopArtist6.Text = "(Unavailable)";
             this.lblUserTopArtist6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserTopArtist6.Click += new System.EventHandler(this.UserTopArtistClicked);
+            this.lblUserTopArtist6.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopArtistClicked);
             // 
             // Label244
             // 
@@ -10575,7 +10575,7 @@ namespace Audiograph
             this.lblUserTopArtist5.TabIndex = 59;
             this.lblUserTopArtist5.Text = "(Unavailable)";
             this.lblUserTopArtist5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserTopArtist5.Click += new System.EventHandler(this.UserTopArtistClicked);
+            this.lblUserTopArtist5.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopArtistClicked);
             // 
             // Label248
             // 
@@ -10598,7 +10598,7 @@ namespace Audiograph
             this.lblUserTopArtist4.TabIndex = 54;
             this.lblUserTopArtist4.Text = "(Unavailable)";
             this.lblUserTopArtist4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserTopArtist4.Click += new System.EventHandler(this.UserTopArtistClicked);
+            this.lblUserTopArtist4.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopArtistClicked);
             // 
             // Label252
             // 
@@ -10621,7 +10621,7 @@ namespace Audiograph
             this.lblUserTopArtist3.TabIndex = 49;
             this.lblUserTopArtist3.Text = "(Unavailable)";
             this.lblUserTopArtist3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserTopArtist3.Click += new System.EventHandler(this.UserTopArtistClicked);
+            this.lblUserTopArtist3.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopArtistClicked);
             // 
             // Label256
             // 
@@ -10644,7 +10644,7 @@ namespace Audiograph
             this.lblUserTopArtist2.TabIndex = 44;
             this.lblUserTopArtist2.Text = "(Unavailable)";
             this.lblUserTopArtist2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserTopArtist2.Click += new System.EventHandler(this.UserTopArtistClicked);
+            this.lblUserTopArtist2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopArtistClicked);
             // 
             // Label260
             // 
@@ -10667,7 +10667,7 @@ namespace Audiograph
             this.lblUserTopArtist1.TabIndex = 39;
             this.lblUserTopArtist1.Text = "(Unavailable)";
             this.lblUserTopArtist1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserTopArtist1.Click += new System.EventHandler(this.UserTopArtistClicked);
+            this.lblUserTopArtist1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopArtistClicked);
             // 
             // Label264
             // 
@@ -11133,7 +11133,7 @@ namespace Audiograph
             this.lblUserTopAlbum20.TabIndex = 133;
             this.lblUserTopAlbum20.Text = "(Unavailable)";
             this.lblUserTopAlbum20.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserTopAlbum20.Click += new System.EventHandler(this.UserTopAlbumAlbumClicked);
+            this.lblUserTopAlbum20.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopAlbumAlbumClicked);
             // 
             // picUserTopAlbumArt20
             // 
@@ -11184,7 +11184,7 @@ namespace Audiograph
             this.lblUserTopAlbum19.TabIndex = 128;
             this.lblUserTopAlbum19.Text = "(Unavailable)";
             this.lblUserTopAlbum19.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserTopAlbum19.Click += new System.EventHandler(this.UserTopAlbumAlbumClicked);
+            this.lblUserTopAlbum19.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopAlbumAlbumClicked);
             // 
             // picUserTopAlbumArt19
             // 
@@ -11235,7 +11235,7 @@ namespace Audiograph
             this.lblUserTopAlbum18.TabIndex = 123;
             this.lblUserTopAlbum18.Text = "(Unavailable)";
             this.lblUserTopAlbum18.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserTopAlbum18.Click += new System.EventHandler(this.UserTopAlbumAlbumClicked);
+            this.lblUserTopAlbum18.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopAlbumAlbumClicked);
             // 
             // picUserTopAlbumArt18
             // 
@@ -11286,7 +11286,7 @@ namespace Audiograph
             this.lblUserTopAlbum17.TabIndex = 118;
             this.lblUserTopAlbum17.Text = "(Unavailable)";
             this.lblUserTopAlbum17.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserTopAlbum17.Click += new System.EventHandler(this.UserTopAlbumAlbumClicked);
+            this.lblUserTopAlbum17.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopAlbumAlbumClicked);
             // 
             // picUserTopAlbumArt17
             // 
@@ -11337,7 +11337,7 @@ namespace Audiograph
             this.lblUserTopAlbum16.TabIndex = 113;
             this.lblUserTopAlbum16.Text = "(Unavailable)";
             this.lblUserTopAlbum16.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserTopAlbum16.Click += new System.EventHandler(this.UserTopAlbumAlbumClicked);
+            this.lblUserTopAlbum16.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopAlbumAlbumClicked);
             // 
             // picUserTopAlbumArt16
             // 
@@ -11388,7 +11388,7 @@ namespace Audiograph
             this.lblUserTopAlbum15.TabIndex = 108;
             this.lblUserTopAlbum15.Text = "(Unavailable)";
             this.lblUserTopAlbum15.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserTopAlbum15.Click += new System.EventHandler(this.UserTopAlbumAlbumClicked);
+            this.lblUserTopAlbum15.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopAlbumAlbumClicked);
             // 
             // picUserTopAlbumArt15
             // 
@@ -11439,7 +11439,7 @@ namespace Audiograph
             this.lblUserTopAlbum14.TabIndex = 103;
             this.lblUserTopAlbum14.Text = "(Unavailable)";
             this.lblUserTopAlbum14.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserTopAlbum14.Click += new System.EventHandler(this.UserTopAlbumAlbumClicked);
+            this.lblUserTopAlbum14.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopAlbumAlbumClicked);
             // 
             // picUserTopAlbumArt14
             // 
@@ -11490,7 +11490,7 @@ namespace Audiograph
             this.lblUserTopAlbum13.TabIndex = 98;
             this.lblUserTopAlbum13.Text = "(Unavailable)";
             this.lblUserTopAlbum13.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserTopAlbum13.Click += new System.EventHandler(this.UserTopAlbumAlbumClicked);
+            this.lblUserTopAlbum13.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopAlbumAlbumClicked);
             // 
             // picUserTopAlbumArt13
             // 
@@ -11541,7 +11541,7 @@ namespace Audiograph
             this.lblUserTopAlbum12.TabIndex = 93;
             this.lblUserTopAlbum12.Text = "(Unavailable)";
             this.lblUserTopAlbum12.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserTopAlbum12.Click += new System.EventHandler(this.UserTopAlbumAlbumClicked);
+            this.lblUserTopAlbum12.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopAlbumAlbumClicked);
             // 
             // picUserTopAlbumArt12
             // 
@@ -11592,7 +11592,7 @@ namespace Audiograph
             this.lblUserTopAlbum11.TabIndex = 88;
             this.lblUserTopAlbum11.Text = "(Unavailable)";
             this.lblUserTopAlbum11.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserTopAlbum11.Click += new System.EventHandler(this.UserTopAlbumAlbumClicked);
+            this.lblUserTopAlbum11.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopAlbumAlbumClicked);
             // 
             // picUserTopAlbumArt11
             // 
@@ -11641,7 +11641,7 @@ namespace Audiograph
             this.lblUserTopAlbum10.TabIndex = 83;
             this.lblUserTopAlbum10.Text = "(Unavailable)";
             this.lblUserTopAlbum10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserTopAlbum10.Click += new System.EventHandler(this.UserTopAlbumAlbumClicked);
+            this.lblUserTopAlbum10.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopAlbumAlbumClicked);
             // 
             // picUserTopAlbumArt10
             // 
@@ -11692,7 +11692,7 @@ namespace Audiograph
             this.lblUserTopAlbum9.TabIndex = 78;
             this.lblUserTopAlbum9.Text = "(Unavailable)";
             this.lblUserTopAlbum9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserTopAlbum9.Click += new System.EventHandler(this.UserTopAlbumAlbumClicked);
+            this.lblUserTopAlbum9.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopAlbumAlbumClicked);
             // 
             // picUserTopAlbumArt9
             // 
@@ -11731,7 +11731,7 @@ namespace Audiograph
             this.lblUserTopAlbumArtist8.TabIndex = 74;
             this.lblUserTopAlbumArtist8.Text = "(Unavailable)";
             this.lblUserTopAlbumArtist8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserTopAlbumArtist8.Click += new System.EventHandler(this.UserTopAlbumArtistClicked);
+            this.lblUserTopAlbumArtist8.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopAlbumArtistClicked);
             // 
             // lblUserTopAlbum8
             // 
@@ -11744,7 +11744,7 @@ namespace Audiograph
             this.lblUserTopAlbum8.TabIndex = 73;
             this.lblUserTopAlbum8.Text = "(Unavailable)";
             this.lblUserTopAlbum8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserTopAlbum8.Click += new System.EventHandler(this.UserTopAlbumAlbumClicked);
+            this.lblUserTopAlbum8.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopAlbumAlbumClicked);
             // 
             // picUserTopAlbumArt8
             // 
@@ -11783,7 +11783,7 @@ namespace Audiograph
             this.lblUserTopAlbumArtist7.TabIndex = 69;
             this.lblUserTopAlbumArtist7.Text = "(Unavailable)";
             this.lblUserTopAlbumArtist7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserTopAlbumArtist7.Click += new System.EventHandler(this.UserTopAlbumArtistClicked);
+            this.lblUserTopAlbumArtist7.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopAlbumArtistClicked);
             // 
             // lblUserTopAlbum7
             // 
@@ -11796,7 +11796,7 @@ namespace Audiograph
             this.lblUserTopAlbum7.TabIndex = 68;
             this.lblUserTopAlbum7.Text = "(Unavailable)";
             this.lblUserTopAlbum7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserTopAlbum7.Click += new System.EventHandler(this.UserTopAlbumAlbumClicked);
+            this.lblUserTopAlbum7.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopAlbumAlbumClicked);
             // 
             // picUserTopAlbumArt7
             // 
@@ -11835,7 +11835,7 @@ namespace Audiograph
             this.lblUserTopAlbumArtist6.TabIndex = 64;
             this.lblUserTopAlbumArtist6.Text = "(Unavailable)";
             this.lblUserTopAlbumArtist6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserTopAlbumArtist6.Click += new System.EventHandler(this.UserTopAlbumArtistClicked);
+            this.lblUserTopAlbumArtist6.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopAlbumArtistClicked);
             // 
             // lblUserTopAlbum6
             // 
@@ -11848,7 +11848,7 @@ namespace Audiograph
             this.lblUserTopAlbum6.TabIndex = 63;
             this.lblUserTopAlbum6.Text = "(Unavailable)";
             this.lblUserTopAlbum6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserTopAlbum6.Click += new System.EventHandler(this.UserTopAlbumAlbumClicked);
+            this.lblUserTopAlbum6.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopAlbumAlbumClicked);
             // 
             // picUserTopAlbumArt6
             // 
@@ -11887,7 +11887,7 @@ namespace Audiograph
             this.lblUserTopAlbumArtist5.TabIndex = 59;
             this.lblUserTopAlbumArtist5.Text = "(Unavailable)";
             this.lblUserTopAlbumArtist5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserTopAlbumArtist5.Click += new System.EventHandler(this.UserTopAlbumArtistClicked);
+            this.lblUserTopAlbumArtist5.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopAlbumArtistClicked);
             // 
             // lblUserTopAlbum5
             // 
@@ -11900,7 +11900,7 @@ namespace Audiograph
             this.lblUserTopAlbum5.TabIndex = 58;
             this.lblUserTopAlbum5.Text = "(Unavailable)";
             this.lblUserTopAlbum5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserTopAlbum5.Click += new System.EventHandler(this.UserTopAlbumAlbumClicked);
+            this.lblUserTopAlbum5.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopAlbumAlbumClicked);
             // 
             // picUserTopAlbumArt5
             // 
@@ -11939,7 +11939,7 @@ namespace Audiograph
             this.lblUserTopAlbumArtist4.TabIndex = 54;
             this.lblUserTopAlbumArtist4.Text = "(Unavailable)";
             this.lblUserTopAlbumArtist4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserTopAlbumArtist4.Click += new System.EventHandler(this.UserTopAlbumArtistClicked);
+            this.lblUserTopAlbumArtist4.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopAlbumArtistClicked);
             // 
             // lblUserTopAlbum4
             // 
@@ -11952,7 +11952,7 @@ namespace Audiograph
             this.lblUserTopAlbum4.TabIndex = 53;
             this.lblUserTopAlbum4.Text = "(Unavailable)";
             this.lblUserTopAlbum4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserTopAlbum4.Click += new System.EventHandler(this.UserTopAlbumAlbumClicked);
+            this.lblUserTopAlbum4.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopAlbumAlbumClicked);
             // 
             // picUserTopAlbumArt4
             // 
@@ -11991,7 +11991,7 @@ namespace Audiograph
             this.lblUserTopAlbumArtist3.TabIndex = 49;
             this.lblUserTopAlbumArtist3.Text = "(Unavailable)";
             this.lblUserTopAlbumArtist3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserTopAlbumArtist3.Click += new System.EventHandler(this.UserTopAlbumArtistClicked);
+            this.lblUserTopAlbumArtist3.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopAlbumArtistClicked);
             // 
             // lblUserTopAlbum3
             // 
@@ -12004,7 +12004,7 @@ namespace Audiograph
             this.lblUserTopAlbum3.TabIndex = 48;
             this.lblUserTopAlbum3.Text = "(Unavailable)";
             this.lblUserTopAlbum3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserTopAlbum3.Click += new System.EventHandler(this.UserTopAlbumAlbumClicked);
+            this.lblUserTopAlbum3.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopAlbumAlbumClicked);
             // 
             // picUserTopAlbumArt3
             // 
@@ -12043,7 +12043,7 @@ namespace Audiograph
             this.lblUserTopAlbumArtist2.TabIndex = 44;
             this.lblUserTopAlbumArtist2.Text = "(Unavailable)";
             this.lblUserTopAlbumArtist2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserTopAlbumArtist2.Click += new System.EventHandler(this.UserTopAlbumArtistClicked);
+            this.lblUserTopAlbumArtist2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopAlbumArtistClicked);
             // 
             // lblUserTopAlbum2
             // 
@@ -12056,7 +12056,7 @@ namespace Audiograph
             this.lblUserTopAlbum2.TabIndex = 43;
             this.lblUserTopAlbum2.Text = "(Unavailable)";
             this.lblUserTopAlbum2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserTopAlbum2.Click += new System.EventHandler(this.UserTopAlbumAlbumClicked);
+            this.lblUserTopAlbum2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopAlbumAlbumClicked);
             // 
             // picUserTopAlbumArt2
             // 
@@ -12095,7 +12095,7 @@ namespace Audiograph
             this.lblUserTopAlbumArtist1.TabIndex = 39;
             this.lblUserTopAlbumArtist1.Text = "(Unavailable)";
             this.lblUserTopAlbumArtist1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserTopAlbumArtist1.Click += new System.EventHandler(this.UserTopAlbumArtistClicked);
+            this.lblUserTopAlbumArtist1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopAlbumArtistClicked);
             // 
             // lblUserTopAlbum1
             // 
@@ -12108,7 +12108,7 @@ namespace Audiograph
             this.lblUserTopAlbum1.TabIndex = 38;
             this.lblUserTopAlbum1.Text = "(Unavailable)";
             this.lblUserTopAlbum1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserTopAlbum1.Click += new System.EventHandler(this.UserTopAlbumAlbumClicked);
+            this.lblUserTopAlbum1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopAlbumAlbumClicked);
             // 
             // Label327
             // 
@@ -12856,7 +12856,7 @@ namespace Audiograph
             this.lblUserRecentAlbum20.TabIndex = 117;
             this.lblUserRecentAlbum20.Text = "(Unavailable)";
             this.lblUserRecentAlbum20.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserRecentAlbum20.Click += new System.EventHandler(this.UserRecentAlbumClick);
+            this.lblUserRecentAlbum20.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserRecentAlbumClick);
             // 
             // cmsUserRecent
             // 
@@ -12931,7 +12931,7 @@ namespace Audiograph
             this.lblUserRecentArtist20.TabIndex = 116;
             this.lblUserRecentArtist20.Text = "(Unavailable)";
             this.lblUserRecentArtist20.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserRecentArtist20.Click += new System.EventHandler(this.UserRecentArtistClick);
+            this.lblUserRecentArtist20.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserRecentArtistClick);
             // 
             // lblUserRecentTitle20
             // 
@@ -12945,7 +12945,7 @@ namespace Audiograph
             this.lblUserRecentTitle20.TabIndex = 115;
             this.lblUserRecentTitle20.Text = "(Unavailable)";
             this.lblUserRecentTitle20.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserRecentTitle20.Click += new System.EventHandler(this.UserRecentTrackClick);
+            this.lblUserRecentTitle20.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserRecentTrackClick);
             // 
             // picUserRecentArt20
             // 
@@ -12974,7 +12974,7 @@ namespace Audiograph
             this.lblUserRecentAlbum19.TabIndex = 113;
             this.lblUserRecentAlbum19.Text = "(Unavailable)";
             this.lblUserRecentAlbum19.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserRecentAlbum19.Click += new System.EventHandler(this.UserRecentAlbumClick);
+            this.lblUserRecentAlbum19.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserRecentAlbumClick);
             // 
             // lblUserRecentArtist19
             // 
@@ -12988,7 +12988,7 @@ namespace Audiograph
             this.lblUserRecentArtist19.TabIndex = 112;
             this.lblUserRecentArtist19.Text = "(Unavailable)";
             this.lblUserRecentArtist19.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserRecentArtist19.Click += new System.EventHandler(this.UserRecentArtistClick);
+            this.lblUserRecentArtist19.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserRecentArtistClick);
             // 
             // lblUserRecentTitle19
             // 
@@ -13002,7 +13002,7 @@ namespace Audiograph
             this.lblUserRecentTitle19.TabIndex = 111;
             this.lblUserRecentTitle19.Text = "(Unavailable)";
             this.lblUserRecentTitle19.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserRecentTitle19.Click += new System.EventHandler(this.UserRecentTrackClick);
+            this.lblUserRecentTitle19.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserRecentTrackClick);
             // 
             // picUserRecentArt19
             // 
@@ -13031,7 +13031,7 @@ namespace Audiograph
             this.lblUserRecentAlbum18.TabIndex = 109;
             this.lblUserRecentAlbum18.Text = "(Unavailable)";
             this.lblUserRecentAlbum18.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserRecentAlbum18.Click += new System.EventHandler(this.UserRecentAlbumClick);
+            this.lblUserRecentAlbum18.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserRecentAlbumClick);
             // 
             // lblUserRecentArtist18
             // 
@@ -13045,7 +13045,7 @@ namespace Audiograph
             this.lblUserRecentArtist18.TabIndex = 108;
             this.lblUserRecentArtist18.Text = "(Unavailable)";
             this.lblUserRecentArtist18.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserRecentArtist18.Click += new System.EventHandler(this.UserRecentArtistClick);
+            this.lblUserRecentArtist18.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserRecentArtistClick);
             // 
             // lblUserRecentTitle18
             // 
@@ -13059,7 +13059,7 @@ namespace Audiograph
             this.lblUserRecentTitle18.TabIndex = 107;
             this.lblUserRecentTitle18.Text = "(Unavailable)";
             this.lblUserRecentTitle18.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserRecentTitle18.Click += new System.EventHandler(this.UserRecentTrackClick);
+            this.lblUserRecentTitle18.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserRecentTrackClick);
             // 
             // picUserRecentArt18
             // 
@@ -13088,7 +13088,7 @@ namespace Audiograph
             this.lblUserRecentAlbum17.TabIndex = 105;
             this.lblUserRecentAlbum17.Text = "(Unavailable)";
             this.lblUserRecentAlbum17.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserRecentAlbum17.Click += new System.EventHandler(this.UserRecentAlbumClick);
+            this.lblUserRecentAlbum17.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserRecentAlbumClick);
             // 
             // lblUserRecentArtist17
             // 
@@ -13102,7 +13102,7 @@ namespace Audiograph
             this.lblUserRecentArtist17.TabIndex = 104;
             this.lblUserRecentArtist17.Text = "(Unavailable)";
             this.lblUserRecentArtist17.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserRecentArtist17.Click += new System.EventHandler(this.UserRecentArtistClick);
+            this.lblUserRecentArtist17.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserRecentArtistClick);
             // 
             // lblUserRecentTitle17
             // 
@@ -13116,7 +13116,7 @@ namespace Audiograph
             this.lblUserRecentTitle17.TabIndex = 103;
             this.lblUserRecentTitle17.Text = "(Unavailable)";
             this.lblUserRecentTitle17.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserRecentTitle17.Click += new System.EventHandler(this.UserRecentTrackClick);
+            this.lblUserRecentTitle17.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserRecentTrackClick);
             // 
             // picUserRecentArt17
             // 
@@ -13145,7 +13145,7 @@ namespace Audiograph
             this.lblUserRecentAlbum16.TabIndex = 101;
             this.lblUserRecentAlbum16.Text = "(Unavailable)";
             this.lblUserRecentAlbum16.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserRecentAlbum16.Click += new System.EventHandler(this.UserRecentAlbumClick);
+            this.lblUserRecentAlbum16.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserRecentAlbumClick);
             // 
             // lblUserRecentArtist16
             // 
@@ -13159,7 +13159,7 @@ namespace Audiograph
             this.lblUserRecentArtist16.TabIndex = 100;
             this.lblUserRecentArtist16.Text = "(Unavailable)";
             this.lblUserRecentArtist16.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserRecentArtist16.Click += new System.EventHandler(this.UserRecentArtistClick);
+            this.lblUserRecentArtist16.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserRecentArtistClick);
             // 
             // lblUserRecentTitle16
             // 
@@ -13173,7 +13173,7 @@ namespace Audiograph
             this.lblUserRecentTitle16.TabIndex = 99;
             this.lblUserRecentTitle16.Text = "(Unavailable)";
             this.lblUserRecentTitle16.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserRecentTitle16.Click += new System.EventHandler(this.UserRecentTrackClick);
+            this.lblUserRecentTitle16.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserRecentTrackClick);
             // 
             // picUserRecentArt16
             // 
@@ -13202,7 +13202,7 @@ namespace Audiograph
             this.lblUserRecentAlbum15.TabIndex = 97;
             this.lblUserRecentAlbum15.Text = "(Unavailable)";
             this.lblUserRecentAlbum15.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserRecentAlbum15.Click += new System.EventHandler(this.UserRecentAlbumClick);
+            this.lblUserRecentAlbum15.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserRecentAlbumClick);
             // 
             // lblUserRecentArtist15
             // 
@@ -13216,7 +13216,7 @@ namespace Audiograph
             this.lblUserRecentArtist15.TabIndex = 96;
             this.lblUserRecentArtist15.Text = "(Unavailable)";
             this.lblUserRecentArtist15.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserRecentArtist15.Click += new System.EventHandler(this.UserRecentArtistClick);
+            this.lblUserRecentArtist15.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserRecentArtistClick);
             // 
             // lblUserRecentTitle15
             // 
@@ -13230,7 +13230,7 @@ namespace Audiograph
             this.lblUserRecentTitle15.TabIndex = 95;
             this.lblUserRecentTitle15.Text = "(Unavailable)";
             this.lblUserRecentTitle15.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserRecentTitle15.Click += new System.EventHandler(this.UserRecentTrackClick);
+            this.lblUserRecentTitle15.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserRecentTrackClick);
             // 
             // picUserRecentArt15
             // 
@@ -13259,7 +13259,7 @@ namespace Audiograph
             this.lblUserRecentAlbum14.TabIndex = 93;
             this.lblUserRecentAlbum14.Text = "(Unavailable)";
             this.lblUserRecentAlbum14.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserRecentAlbum14.Click += new System.EventHandler(this.UserRecentAlbumClick);
+            this.lblUserRecentAlbum14.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserRecentAlbumClick);
             // 
             // lblUserRecentArtist14
             // 
@@ -13273,7 +13273,7 @@ namespace Audiograph
             this.lblUserRecentArtist14.TabIndex = 92;
             this.lblUserRecentArtist14.Text = "(Unavailable)";
             this.lblUserRecentArtist14.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserRecentArtist14.Click += new System.EventHandler(this.UserRecentArtistClick);
+            this.lblUserRecentArtist14.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserRecentArtistClick);
             // 
             // lblUserRecentTitle14
             // 
@@ -13287,7 +13287,7 @@ namespace Audiograph
             this.lblUserRecentTitle14.TabIndex = 91;
             this.lblUserRecentTitle14.Text = "(Unavailable)";
             this.lblUserRecentTitle14.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserRecentTitle14.Click += new System.EventHandler(this.UserRecentTrackClick);
+            this.lblUserRecentTitle14.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserRecentTrackClick);
             // 
             // picUserRecentArt14
             // 
@@ -13316,7 +13316,7 @@ namespace Audiograph
             this.lblUserRecentAlbum13.TabIndex = 89;
             this.lblUserRecentAlbum13.Text = "(Unavailable)";
             this.lblUserRecentAlbum13.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserRecentAlbum13.Click += new System.EventHandler(this.UserRecentAlbumClick);
+            this.lblUserRecentAlbum13.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserRecentAlbumClick);
             // 
             // lblUserRecentArtist13
             // 
@@ -13330,7 +13330,7 @@ namespace Audiograph
             this.lblUserRecentArtist13.TabIndex = 88;
             this.lblUserRecentArtist13.Text = "(Unavailable)";
             this.lblUserRecentArtist13.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserRecentArtist13.Click += new System.EventHandler(this.UserRecentArtistClick);
+            this.lblUserRecentArtist13.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserRecentArtistClick);
             // 
             // lblUserRecentTitle13
             // 
@@ -13344,7 +13344,7 @@ namespace Audiograph
             this.lblUserRecentTitle13.TabIndex = 87;
             this.lblUserRecentTitle13.Text = "(Unavailable)";
             this.lblUserRecentTitle13.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserRecentTitle13.Click += new System.EventHandler(this.UserRecentTrackClick);
+            this.lblUserRecentTitle13.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserRecentTrackClick);
             // 
             // picUserRecentArt13
             // 
@@ -13373,7 +13373,7 @@ namespace Audiograph
             this.lblUserRecentAlbum12.TabIndex = 85;
             this.lblUserRecentAlbum12.Text = "(Unavailable)";
             this.lblUserRecentAlbum12.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserRecentAlbum12.Click += new System.EventHandler(this.UserRecentAlbumClick);
+            this.lblUserRecentAlbum12.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserRecentAlbumClick);
             // 
             // lblUserRecentArtist12
             // 
@@ -13387,7 +13387,7 @@ namespace Audiograph
             this.lblUserRecentArtist12.TabIndex = 84;
             this.lblUserRecentArtist12.Text = "(Unavailable)";
             this.lblUserRecentArtist12.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserRecentArtist12.Click += new System.EventHandler(this.UserRecentArtistClick);
+            this.lblUserRecentArtist12.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserRecentArtistClick);
             // 
             // lblUserRecentTitle12
             // 
@@ -13401,7 +13401,7 @@ namespace Audiograph
             this.lblUserRecentTitle12.TabIndex = 83;
             this.lblUserRecentTitle12.Text = "(Unavailable)";
             this.lblUserRecentTitle12.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserRecentTitle12.Click += new System.EventHandler(this.UserRecentTrackClick);
+            this.lblUserRecentTitle12.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserRecentTrackClick);
             // 
             // picUserRecentArt12
             // 
@@ -13430,7 +13430,7 @@ namespace Audiograph
             this.lblUserRecentAlbum11.TabIndex = 81;
             this.lblUserRecentAlbum11.Text = "(Unavailable)";
             this.lblUserRecentAlbum11.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserRecentAlbum11.Click += new System.EventHandler(this.UserRecentAlbumClick);
+            this.lblUserRecentAlbum11.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserRecentAlbumClick);
             // 
             // lblUserRecentArtist11
             // 
@@ -13444,7 +13444,7 @@ namespace Audiograph
             this.lblUserRecentArtist11.TabIndex = 80;
             this.lblUserRecentArtist11.Text = "(Unavailable)";
             this.lblUserRecentArtist11.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserRecentArtist11.Click += new System.EventHandler(this.UserRecentArtistClick);
+            this.lblUserRecentArtist11.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserRecentArtistClick);
             // 
             // lblUserRecentTitle11
             // 
@@ -13458,7 +13458,7 @@ namespace Audiograph
             this.lblUserRecentTitle11.TabIndex = 79;
             this.lblUserRecentTitle11.Text = "(Unavailable)";
             this.lblUserRecentTitle11.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserRecentTitle11.Click += new System.EventHandler(this.UserRecentTrackClick);
+            this.lblUserRecentTitle11.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserRecentTrackClick);
             // 
             // picUserRecentArt11
             // 
@@ -13487,7 +13487,7 @@ namespace Audiograph
             this.lblUserRecentAlbum10.TabIndex = 77;
             this.lblUserRecentAlbum10.Text = "(Unavailable)";
             this.lblUserRecentAlbum10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserRecentAlbum10.Click += new System.EventHandler(this.UserRecentAlbumClick);
+            this.lblUserRecentAlbum10.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserRecentAlbumClick);
             // 
             // lblUserRecentArtist10
             // 
@@ -13501,7 +13501,7 @@ namespace Audiograph
             this.lblUserRecentArtist10.TabIndex = 76;
             this.lblUserRecentArtist10.Text = "(Unavailable)";
             this.lblUserRecentArtist10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserRecentArtist10.Click += new System.EventHandler(this.UserRecentArtistClick);
+            this.lblUserRecentArtist10.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserRecentArtistClick);
             // 
             // lblUserRecentTitle10
             // 
@@ -13515,7 +13515,7 @@ namespace Audiograph
             this.lblUserRecentTitle10.TabIndex = 75;
             this.lblUserRecentTitle10.Text = "(Unavailable)";
             this.lblUserRecentTitle10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserRecentTitle10.Click += new System.EventHandler(this.UserRecentTrackClick);
+            this.lblUserRecentTitle10.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserRecentTrackClick);
             // 
             // picUserRecentArt10
             // 
@@ -13544,7 +13544,7 @@ namespace Audiograph
             this.lblUserRecentAlbum9.TabIndex = 73;
             this.lblUserRecentAlbum9.Text = "(Unavailable)";
             this.lblUserRecentAlbum9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserRecentAlbum9.Click += new System.EventHandler(this.UserRecentAlbumClick);
+            this.lblUserRecentAlbum9.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserRecentAlbumClick);
             // 
             // lblUserRecentArtist9
             // 
@@ -13558,7 +13558,7 @@ namespace Audiograph
             this.lblUserRecentArtist9.TabIndex = 72;
             this.lblUserRecentArtist9.Text = "(Unavailable)";
             this.lblUserRecentArtist9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserRecentArtist9.Click += new System.EventHandler(this.UserRecentArtistClick);
+            this.lblUserRecentArtist9.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserRecentArtistClick);
             // 
             // lblUserRecentTitle9
             // 
@@ -13572,7 +13572,7 @@ namespace Audiograph
             this.lblUserRecentTitle9.TabIndex = 71;
             this.lblUserRecentTitle9.Text = "(Unavailable)";
             this.lblUserRecentTitle9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserRecentTitle9.Click += new System.EventHandler(this.UserRecentTrackClick);
+            this.lblUserRecentTitle9.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserRecentTrackClick);
             // 
             // picUserRecentArt9
             // 
@@ -13601,7 +13601,7 @@ namespace Audiograph
             this.lblUserRecentAlbum8.TabIndex = 69;
             this.lblUserRecentAlbum8.Text = "(Unavailable)";
             this.lblUserRecentAlbum8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserRecentAlbum8.Click += new System.EventHandler(this.UserRecentAlbumClick);
+            this.lblUserRecentAlbum8.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserRecentAlbumClick);
             // 
             // lblUserRecentArtist8
             // 
@@ -13615,7 +13615,7 @@ namespace Audiograph
             this.lblUserRecentArtist8.TabIndex = 68;
             this.lblUserRecentArtist8.Text = "(Unavailable)";
             this.lblUserRecentArtist8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserRecentArtist8.Click += new System.EventHandler(this.UserRecentArtistClick);
+            this.lblUserRecentArtist8.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserRecentArtistClick);
             // 
             // lblUserRecentTitle8
             // 
@@ -13629,7 +13629,7 @@ namespace Audiograph
             this.lblUserRecentTitle8.TabIndex = 67;
             this.lblUserRecentTitle8.Text = "(Unavailable)";
             this.lblUserRecentTitle8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserRecentTitle8.Click += new System.EventHandler(this.UserRecentTrackClick);
+            this.lblUserRecentTitle8.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserRecentTrackClick);
             // 
             // picUserRecentArt8
             // 
@@ -13658,7 +13658,7 @@ namespace Audiograph
             this.lblUserRecentAlbum7.TabIndex = 65;
             this.lblUserRecentAlbum7.Text = "(Unavailable)";
             this.lblUserRecentAlbum7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserRecentAlbum7.Click += new System.EventHandler(this.UserRecentAlbumClick);
+            this.lblUserRecentAlbum7.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserRecentAlbumClick);
             // 
             // lblUserRecentArtist7
             // 
@@ -13672,7 +13672,7 @@ namespace Audiograph
             this.lblUserRecentArtist7.TabIndex = 64;
             this.lblUserRecentArtist7.Text = "(Unavailable)";
             this.lblUserRecentArtist7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserRecentArtist7.Click += new System.EventHandler(this.UserRecentArtistClick);
+            this.lblUserRecentArtist7.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserRecentArtistClick);
             // 
             // lblUserRecentTitle7
             // 
@@ -13686,7 +13686,7 @@ namespace Audiograph
             this.lblUserRecentTitle7.TabIndex = 63;
             this.lblUserRecentTitle7.Text = "(Unavailable)";
             this.lblUserRecentTitle7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserRecentTitle7.Click += new System.EventHandler(this.UserRecentTrackClick);
+            this.lblUserRecentTitle7.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserRecentTrackClick);
             // 
             // picUserRecentArt7
             // 
@@ -13715,7 +13715,7 @@ namespace Audiograph
             this.lblUserRecentAlbum6.TabIndex = 61;
             this.lblUserRecentAlbum6.Text = "(Unavailable)";
             this.lblUserRecentAlbum6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserRecentAlbum6.Click += new System.EventHandler(this.UserRecentAlbumClick);
+            this.lblUserRecentAlbum6.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserRecentAlbumClick);
             // 
             // lblUserRecentArtist6
             // 
@@ -13729,7 +13729,7 @@ namespace Audiograph
             this.lblUserRecentArtist6.TabIndex = 60;
             this.lblUserRecentArtist6.Text = "(Unavailable)";
             this.lblUserRecentArtist6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserRecentArtist6.Click += new System.EventHandler(this.UserRecentArtistClick);
+            this.lblUserRecentArtist6.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserRecentArtistClick);
             // 
             // lblUserRecentTitle6
             // 
@@ -13743,7 +13743,7 @@ namespace Audiograph
             this.lblUserRecentTitle6.TabIndex = 59;
             this.lblUserRecentTitle6.Text = "(Unavailable)";
             this.lblUserRecentTitle6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserRecentTitle6.Click += new System.EventHandler(this.UserRecentTrackClick);
+            this.lblUserRecentTitle6.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserRecentTrackClick);
             // 
             // picUserRecentArt6
             // 
@@ -13772,7 +13772,7 @@ namespace Audiograph
             this.lblUserRecentAlbum5.TabIndex = 57;
             this.lblUserRecentAlbum5.Text = "(Unavailable)";
             this.lblUserRecentAlbum5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserRecentAlbum5.Click += new System.EventHandler(this.UserRecentAlbumClick);
+            this.lblUserRecentAlbum5.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserRecentAlbumClick);
             // 
             // lblUserRecentArtist5
             // 
@@ -13786,7 +13786,7 @@ namespace Audiograph
             this.lblUserRecentArtist5.TabIndex = 56;
             this.lblUserRecentArtist5.Text = "(Unavailable)";
             this.lblUserRecentArtist5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserRecentArtist5.Click += new System.EventHandler(this.UserRecentArtistClick);
+            this.lblUserRecentArtist5.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserRecentArtistClick);
             // 
             // lblUserRecentTitle5
             // 
@@ -13800,7 +13800,7 @@ namespace Audiograph
             this.lblUserRecentTitle5.TabIndex = 55;
             this.lblUserRecentTitle5.Text = "(Unavailable)";
             this.lblUserRecentTitle5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserRecentTitle5.Click += new System.EventHandler(this.UserRecentTrackClick);
+            this.lblUserRecentTitle5.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserRecentTrackClick);
             // 
             // picUserRecentArt5
             // 
@@ -13829,7 +13829,7 @@ namespace Audiograph
             this.lblUserRecentAlbum4.TabIndex = 53;
             this.lblUserRecentAlbum4.Text = "(Unavailable)";
             this.lblUserRecentAlbum4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserRecentAlbum4.Click += new System.EventHandler(this.UserRecentAlbumClick);
+            this.lblUserRecentAlbum4.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserRecentAlbumClick);
             // 
             // lblUserRecentArtist4
             // 
@@ -13843,7 +13843,7 @@ namespace Audiograph
             this.lblUserRecentArtist4.TabIndex = 52;
             this.lblUserRecentArtist4.Text = "(Unavailable)";
             this.lblUserRecentArtist4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserRecentArtist4.Click += new System.EventHandler(this.UserRecentArtistClick);
+            this.lblUserRecentArtist4.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserRecentArtistClick);
             // 
             // lblUserRecentTitle4
             // 
@@ -13857,7 +13857,7 @@ namespace Audiograph
             this.lblUserRecentTitle4.TabIndex = 51;
             this.lblUserRecentTitle4.Text = "(Unavailable)";
             this.lblUserRecentTitle4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserRecentTitle4.Click += new System.EventHandler(this.UserRecentTrackClick);
+            this.lblUserRecentTitle4.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserRecentTrackClick);
             // 
             // picUserRecentArt4
             // 
@@ -13886,7 +13886,7 @@ namespace Audiograph
             this.lblUserRecentAlbum3.TabIndex = 49;
             this.lblUserRecentAlbum3.Text = "(Unavailable)";
             this.lblUserRecentAlbum3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserRecentAlbum3.Click += new System.EventHandler(this.UserRecentAlbumClick);
+            this.lblUserRecentAlbum3.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserRecentAlbumClick);
             // 
             // lblUserRecentArtist3
             // 
@@ -13900,7 +13900,7 @@ namespace Audiograph
             this.lblUserRecentArtist3.TabIndex = 48;
             this.lblUserRecentArtist3.Text = "(Unavailable)";
             this.lblUserRecentArtist3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserRecentArtist3.Click += new System.EventHandler(this.UserRecentArtistClick);
+            this.lblUserRecentArtist3.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserRecentArtistClick);
             // 
             // lblUserRecentTitle3
             // 
@@ -13914,7 +13914,7 @@ namespace Audiograph
             this.lblUserRecentTitle3.TabIndex = 47;
             this.lblUserRecentTitle3.Text = "(Unavailable)";
             this.lblUserRecentTitle3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserRecentTitle3.Click += new System.EventHandler(this.UserRecentTrackClick);
+            this.lblUserRecentTitle3.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserRecentTrackClick);
             // 
             // picUserRecentArt3
             // 
@@ -13943,7 +13943,7 @@ namespace Audiograph
             this.lblUserRecentAlbum2.TabIndex = 45;
             this.lblUserRecentAlbum2.Text = "(Unavailable)";
             this.lblUserRecentAlbum2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserRecentAlbum2.Click += new System.EventHandler(this.UserRecentAlbumClick);
+            this.lblUserRecentAlbum2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserRecentAlbumClick);
             // 
             // lblUserRecentArtist2
             // 
@@ -13957,7 +13957,7 @@ namespace Audiograph
             this.lblUserRecentArtist2.TabIndex = 44;
             this.lblUserRecentArtist2.Text = "(Unavailable)";
             this.lblUserRecentArtist2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserRecentArtist2.Click += new System.EventHandler(this.UserRecentArtistClick);
+            this.lblUserRecentArtist2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserRecentArtistClick);
             // 
             // lblUserRecentTitle2
             // 
@@ -13971,7 +13971,7 @@ namespace Audiograph
             this.lblUserRecentTitle2.TabIndex = 43;
             this.lblUserRecentTitle2.Text = "(Unavailable)";
             this.lblUserRecentTitle2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserRecentTitle2.Click += new System.EventHandler(this.UserRecentTrackClick);
+            this.lblUserRecentTitle2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserRecentTrackClick);
             // 
             // picUserRecentArt2
             // 
@@ -14000,7 +14000,7 @@ namespace Audiograph
             this.lblUserRecentAlbum1.TabIndex = 41;
             this.lblUserRecentAlbum1.Text = "(Unavailable)";
             this.lblUserRecentAlbum1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserRecentAlbum1.Click += new System.EventHandler(this.UserRecentAlbumClick);
+            this.lblUserRecentAlbum1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserRecentAlbumClick);
             // 
             // lblUserRecentArtist1
             // 
@@ -14014,7 +14014,7 @@ namespace Audiograph
             this.lblUserRecentArtist1.TabIndex = 40;
             this.lblUserRecentArtist1.Text = "(Unavailable)";
             this.lblUserRecentArtist1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserRecentArtist1.Click += new System.EventHandler(this.UserRecentArtistClick);
+            this.lblUserRecentArtist1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserRecentArtistClick);
             // 
             // Label13
             // 
@@ -14083,7 +14083,7 @@ namespace Audiograph
             this.lblUserRecentTitle1.TabIndex = 39;
             this.lblUserRecentTitle1.Text = "(Unavailable)";
             this.lblUserRecentTitle1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserRecentTitle1.Click += new System.EventHandler(this.UserRecentTrackClick);
+            this.lblUserRecentTitle1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserRecentTrackClick);
             // 
             // pgUserLookup
             // 
@@ -14109,7 +14109,7 @@ namespace Audiograph
             this.btnUserLSet.TabIndex = 14;
             this.btnUserLSet.Text = "&Set";
             this.btnUserLSet.UseVisualStyleBackColor = true;
-            this.btnUserLSet.Click += new System.EventHandler(this.SetUserL);
+            this.btnUserLSet.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SetUserL);
             // 
             // txtUserL
             // 
@@ -14178,7 +14178,7 @@ namespace Audiograph
             this.btnUserLChartGo.TabIndex = 6;
             this.btnUserLChartGo.Text = "&Go";
             this.btnUserLChartGo.UseVisualStyleBackColor = true;
-            this.btnUserLChartGo.Click += new System.EventHandler(this.UserLChartGo);
+            this.btnUserLChartGo.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLChartGo);
             // 
             // dtpUserLTo
             // 
@@ -14644,7 +14644,7 @@ namespace Audiograph
             this.lblUserLTopTrackAlbum20.TabIndex = 135;
             this.lblUserLTopTrackAlbum20.Text = "(Unavailable)";
             this.lblUserLTopTrackAlbum20.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLTopTrackAlbum20.Click += new System.EventHandler(this.UserLTopTrackAlbumClicked);
+            this.lblUserLTopTrackAlbum20.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopTrackAlbumClicked);
             // 
             // cmsUserLTopTracks
             // 
@@ -14718,7 +14718,7 @@ namespace Audiograph
             this.lblUserLTopTrackArtist20.TabIndex = 134;
             this.lblUserLTopTrackArtist20.Text = "(Unavailable)";
             this.lblUserLTopTrackArtist20.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLTopTrackArtist20.Click += new System.EventHandler(this.UserLTopTrackArtistClicked);
+            this.lblUserLTopTrackArtist20.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopTrackArtistClicked);
             // 
             // lblUserLTopTrackTitle20
             // 
@@ -14731,7 +14731,7 @@ namespace Audiograph
             this.lblUserLTopTrackTitle20.TabIndex = 133;
             this.lblUserLTopTrackTitle20.Text = "(Unavailable)";
             this.lblUserLTopTrackTitle20.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLTopTrackTitle20.Click += new System.EventHandler(this.UserLTopTrackTrackClicked);
+            this.lblUserLTopTrackTitle20.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopTrackTrackClicked);
             // 
             // picUserLTopTrackArt20
             // 
@@ -14770,7 +14770,7 @@ namespace Audiograph
             this.lblUserLTopTrackAlbum19.TabIndex = 130;
             this.lblUserLTopTrackAlbum19.Text = "(Unavailable)";
             this.lblUserLTopTrackAlbum19.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLTopTrackAlbum19.Click += new System.EventHandler(this.UserLTopTrackAlbumClicked);
+            this.lblUserLTopTrackAlbum19.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopTrackAlbumClicked);
             // 
             // lblUserLTopTrackArtist19
             // 
@@ -14783,7 +14783,7 @@ namespace Audiograph
             this.lblUserLTopTrackArtist19.TabIndex = 129;
             this.lblUserLTopTrackArtist19.Text = "(Unavailable)";
             this.lblUserLTopTrackArtist19.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLTopTrackArtist19.Click += new System.EventHandler(this.UserLTopTrackArtistClicked);
+            this.lblUserLTopTrackArtist19.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopTrackArtistClicked);
             // 
             // lblUserLTopTrackTitle19
             // 
@@ -14796,7 +14796,7 @@ namespace Audiograph
             this.lblUserLTopTrackTitle19.TabIndex = 128;
             this.lblUserLTopTrackTitle19.Text = "(Unavailable)";
             this.lblUserLTopTrackTitle19.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLTopTrackTitle19.Click += new System.EventHandler(this.UserLTopTrackTrackClicked);
+            this.lblUserLTopTrackTitle19.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopTrackTrackClicked);
             // 
             // picUserLTopTrackArt19
             // 
@@ -14835,7 +14835,7 @@ namespace Audiograph
             this.lblUserLTopTrackAlbum18.TabIndex = 125;
             this.lblUserLTopTrackAlbum18.Text = "(Unavailable)";
             this.lblUserLTopTrackAlbum18.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLTopTrackAlbum18.Click += new System.EventHandler(this.UserLTopTrackAlbumClicked);
+            this.lblUserLTopTrackAlbum18.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopTrackAlbumClicked);
             // 
             // lblUserLTopTrackArtist18
             // 
@@ -14848,7 +14848,7 @@ namespace Audiograph
             this.lblUserLTopTrackArtist18.TabIndex = 124;
             this.lblUserLTopTrackArtist18.Text = "(Unavailable)";
             this.lblUserLTopTrackArtist18.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLTopTrackArtist18.Click += new System.EventHandler(this.UserLTopTrackArtistClicked);
+            this.lblUserLTopTrackArtist18.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopTrackArtistClicked);
             // 
             // lblUserLTopTrackTitle18
             // 
@@ -14861,7 +14861,7 @@ namespace Audiograph
             this.lblUserLTopTrackTitle18.TabIndex = 123;
             this.lblUserLTopTrackTitle18.Text = "(Unavailable)";
             this.lblUserLTopTrackTitle18.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLTopTrackTitle18.Click += new System.EventHandler(this.UserLTopTrackTrackClicked);
+            this.lblUserLTopTrackTitle18.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopTrackTrackClicked);
             // 
             // picUserLTopTrackArt18
             // 
@@ -14900,7 +14900,7 @@ namespace Audiograph
             this.lblUserLTopTrackAlbum17.TabIndex = 120;
             this.lblUserLTopTrackAlbum17.Text = "(Unavailable)";
             this.lblUserLTopTrackAlbum17.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLTopTrackAlbum17.Click += new System.EventHandler(this.UserLTopTrackAlbumClicked);
+            this.lblUserLTopTrackAlbum17.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopTrackAlbumClicked);
             // 
             // lblUserLTopTrackArtist17
             // 
@@ -14913,7 +14913,7 @@ namespace Audiograph
             this.lblUserLTopTrackArtist17.TabIndex = 119;
             this.lblUserLTopTrackArtist17.Text = "(Unavailable)";
             this.lblUserLTopTrackArtist17.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLTopTrackArtist17.Click += new System.EventHandler(this.UserLTopTrackArtistClicked);
+            this.lblUserLTopTrackArtist17.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopTrackArtistClicked);
             // 
             // lblUserLTopTrackTitle17
             // 
@@ -14926,7 +14926,7 @@ namespace Audiograph
             this.lblUserLTopTrackTitle17.TabIndex = 118;
             this.lblUserLTopTrackTitle17.Text = "(Unavailable)";
             this.lblUserLTopTrackTitle17.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLTopTrackTitle17.Click += new System.EventHandler(this.UserLTopTrackTrackClicked);
+            this.lblUserLTopTrackTitle17.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopTrackTrackClicked);
             // 
             // picUserLTopTrackArt17
             // 
@@ -14965,7 +14965,7 @@ namespace Audiograph
             this.lblUserLTopTrackAlbum16.TabIndex = 115;
             this.lblUserLTopTrackAlbum16.Text = "(Unavailable)";
             this.lblUserLTopTrackAlbum16.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLTopTrackAlbum16.Click += new System.EventHandler(this.UserLTopTrackAlbumClicked);
+            this.lblUserLTopTrackAlbum16.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopTrackAlbumClicked);
             // 
             // lblUserLTopTrackArtist16
             // 
@@ -14978,7 +14978,7 @@ namespace Audiograph
             this.lblUserLTopTrackArtist16.TabIndex = 114;
             this.lblUserLTopTrackArtist16.Text = "(Unavailable)";
             this.lblUserLTopTrackArtist16.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLTopTrackArtist16.Click += new System.EventHandler(this.UserLTopTrackArtistClicked);
+            this.lblUserLTopTrackArtist16.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopTrackArtistClicked);
             // 
             // lblUserLTopTrackTitle16
             // 
@@ -14991,7 +14991,7 @@ namespace Audiograph
             this.lblUserLTopTrackTitle16.TabIndex = 113;
             this.lblUserLTopTrackTitle16.Text = "(Unavailable)";
             this.lblUserLTopTrackTitle16.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLTopTrackTitle16.Click += new System.EventHandler(this.UserLTopTrackTrackClicked);
+            this.lblUserLTopTrackTitle16.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopTrackTrackClicked);
             // 
             // picUserLTopTrackArt16
             // 
@@ -15030,7 +15030,7 @@ namespace Audiograph
             this.lblUserLTopTrackAlbum15.TabIndex = 110;
             this.lblUserLTopTrackAlbum15.Text = "(Unavailable)";
             this.lblUserLTopTrackAlbum15.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLTopTrackAlbum15.Click += new System.EventHandler(this.UserLTopTrackAlbumClicked);
+            this.lblUserLTopTrackAlbum15.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopTrackAlbumClicked);
             // 
             // lblUserLTopTrackArtist15
             // 
@@ -15043,7 +15043,7 @@ namespace Audiograph
             this.lblUserLTopTrackArtist15.TabIndex = 109;
             this.lblUserLTopTrackArtist15.Text = "(Unavailable)";
             this.lblUserLTopTrackArtist15.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLTopTrackArtist15.Click += new System.EventHandler(this.UserLTopTrackArtistClicked);
+            this.lblUserLTopTrackArtist15.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopTrackArtistClicked);
             // 
             // lblUserLTopTrackTitle15
             // 
@@ -15056,7 +15056,7 @@ namespace Audiograph
             this.lblUserLTopTrackTitle15.TabIndex = 108;
             this.lblUserLTopTrackTitle15.Text = "(Unavailable)";
             this.lblUserLTopTrackTitle15.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLTopTrackTitle15.Click += new System.EventHandler(this.UserLTopTrackTrackClicked);
+            this.lblUserLTopTrackTitle15.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopTrackTrackClicked);
             // 
             // picUserLTopTrackArt15
             // 
@@ -15095,7 +15095,7 @@ namespace Audiograph
             this.lblUserLTopTrackAlbum14.TabIndex = 105;
             this.lblUserLTopTrackAlbum14.Text = "(Unavailable)";
             this.lblUserLTopTrackAlbum14.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLTopTrackAlbum14.Click += new System.EventHandler(this.UserLTopTrackAlbumClicked);
+            this.lblUserLTopTrackAlbum14.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopTrackAlbumClicked);
             // 
             // lblUserLTopTrackArtist14
             // 
@@ -15108,7 +15108,7 @@ namespace Audiograph
             this.lblUserLTopTrackArtist14.TabIndex = 104;
             this.lblUserLTopTrackArtist14.Text = "(Unavailable)";
             this.lblUserLTopTrackArtist14.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLTopTrackArtist14.Click += new System.EventHandler(this.UserLTopTrackArtistClicked);
+            this.lblUserLTopTrackArtist14.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopTrackArtistClicked);
             // 
             // lblUserLTopTrackTitle14
             // 
@@ -15121,7 +15121,7 @@ namespace Audiograph
             this.lblUserLTopTrackTitle14.TabIndex = 103;
             this.lblUserLTopTrackTitle14.Text = "(Unavailable)";
             this.lblUserLTopTrackTitle14.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLTopTrackTitle14.Click += new System.EventHandler(this.UserLTopTrackTrackClicked);
+            this.lblUserLTopTrackTitle14.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopTrackTrackClicked);
             // 
             // picUserLTopTrackArt14
             // 
@@ -15160,7 +15160,7 @@ namespace Audiograph
             this.lblUserLTopTrackAlbum13.TabIndex = 100;
             this.lblUserLTopTrackAlbum13.Text = "(Unavailable)";
             this.lblUserLTopTrackAlbum13.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLTopTrackAlbum13.Click += new System.EventHandler(this.UserLTopTrackAlbumClicked);
+            this.lblUserLTopTrackAlbum13.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopTrackAlbumClicked);
             // 
             // lblUserLTopTrackArtist13
             // 
@@ -15173,7 +15173,7 @@ namespace Audiograph
             this.lblUserLTopTrackArtist13.TabIndex = 99;
             this.lblUserLTopTrackArtist13.Text = "(Unavailable)";
             this.lblUserLTopTrackArtist13.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLTopTrackArtist13.Click += new System.EventHandler(this.UserLTopTrackArtistClicked);
+            this.lblUserLTopTrackArtist13.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopTrackArtistClicked);
             // 
             // lblUserLTopTrackTitle13
             // 
@@ -15186,7 +15186,7 @@ namespace Audiograph
             this.lblUserLTopTrackTitle13.TabIndex = 98;
             this.lblUserLTopTrackTitle13.Text = "(Unavailable)";
             this.lblUserLTopTrackTitle13.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLTopTrackTitle13.Click += new System.EventHandler(this.UserLTopTrackTrackClicked);
+            this.lblUserLTopTrackTitle13.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopTrackTrackClicked);
             // 
             // picUserLTopTrackArt13
             // 
@@ -15225,7 +15225,7 @@ namespace Audiograph
             this.lblUserLTopTrackAlbum12.TabIndex = 95;
             this.lblUserLTopTrackAlbum12.Text = "(Unavailable)";
             this.lblUserLTopTrackAlbum12.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLTopTrackAlbum12.Click += new System.EventHandler(this.UserLTopTrackAlbumClicked);
+            this.lblUserLTopTrackAlbum12.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopTrackAlbumClicked);
             // 
             // lblUserLTopTrackArtist12
             // 
@@ -15238,7 +15238,7 @@ namespace Audiograph
             this.lblUserLTopTrackArtist12.TabIndex = 94;
             this.lblUserLTopTrackArtist12.Text = "(Unavailable)";
             this.lblUserLTopTrackArtist12.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLTopTrackArtist12.Click += new System.EventHandler(this.UserLTopTrackArtistClicked);
+            this.lblUserLTopTrackArtist12.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopTrackArtistClicked);
             // 
             // lblUserLTopTrackTitle12
             // 
@@ -15251,7 +15251,7 @@ namespace Audiograph
             this.lblUserLTopTrackTitle12.TabIndex = 93;
             this.lblUserLTopTrackTitle12.Text = "(Unavailable)";
             this.lblUserLTopTrackTitle12.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLTopTrackTitle12.Click += new System.EventHandler(this.UserLTopTrackTrackClicked);
+            this.lblUserLTopTrackTitle12.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopTrackTrackClicked);
             // 
             // picUserLTopTrackArt12
             // 
@@ -15290,7 +15290,7 @@ namespace Audiograph
             this.lblUserLTopTrackAlbum11.TabIndex = 90;
             this.lblUserLTopTrackAlbum11.Text = "(Unavailable)";
             this.lblUserLTopTrackAlbum11.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLTopTrackAlbum11.Click += new System.EventHandler(this.UserLTopTrackAlbumClicked);
+            this.lblUserLTopTrackAlbum11.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopTrackAlbumClicked);
             // 
             // lblUserLTopTrackArtist11
             // 
@@ -15303,7 +15303,7 @@ namespace Audiograph
             this.lblUserLTopTrackArtist11.TabIndex = 89;
             this.lblUserLTopTrackArtist11.Text = "(Unavailable)";
             this.lblUserLTopTrackArtist11.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLTopTrackArtist11.Click += new System.EventHandler(this.UserLTopTrackArtistClicked);
+            this.lblUserLTopTrackArtist11.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopTrackArtistClicked);
             // 
             // lblUserLTopTrackTitle11
             // 
@@ -15316,7 +15316,7 @@ namespace Audiograph
             this.lblUserLTopTrackTitle11.TabIndex = 88;
             this.lblUserLTopTrackTitle11.Text = "(Unavailable)";
             this.lblUserLTopTrackTitle11.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLTopTrackTitle11.Click += new System.EventHandler(this.UserLTopTrackTrackClicked);
+            this.lblUserLTopTrackTitle11.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopTrackTrackClicked);
             // 
             // picUserLTopTrackArt11
             // 
@@ -15355,7 +15355,7 @@ namespace Audiograph
             this.lblUserLTopTrackAlbum10.TabIndex = 85;
             this.lblUserLTopTrackAlbum10.Text = "(Unavailable)";
             this.lblUserLTopTrackAlbum10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLTopTrackAlbum10.Click += new System.EventHandler(this.UserLTopTrackAlbumClicked);
+            this.lblUserLTopTrackAlbum10.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopTrackAlbumClicked);
             // 
             // lblUserLTopTrackArtist10
             // 
@@ -15368,7 +15368,7 @@ namespace Audiograph
             this.lblUserLTopTrackArtist10.TabIndex = 84;
             this.lblUserLTopTrackArtist10.Text = "(Unavailable)";
             this.lblUserLTopTrackArtist10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLTopTrackArtist10.Click += new System.EventHandler(this.UserLTopTrackArtistClicked);
+            this.lblUserLTopTrackArtist10.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopTrackArtistClicked);
             // 
             // lblUserLTopTrackTitle10
             // 
@@ -15381,7 +15381,7 @@ namespace Audiograph
             this.lblUserLTopTrackTitle10.TabIndex = 83;
             this.lblUserLTopTrackTitle10.Text = "(Unavailable)";
             this.lblUserLTopTrackTitle10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLTopTrackTitle10.Click += new System.EventHandler(this.UserLTopTrackTrackClicked);
+            this.lblUserLTopTrackTitle10.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopTrackTrackClicked);
             // 
             // picUserLTopTrackArt10
             // 
@@ -15420,7 +15420,7 @@ namespace Audiograph
             this.lblUserLTopTrackAlbum9.TabIndex = 80;
             this.lblUserLTopTrackAlbum9.Text = "(Unavailable)";
             this.lblUserLTopTrackAlbum9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLTopTrackAlbum9.Click += new System.EventHandler(this.UserLTopTrackAlbumClicked);
+            this.lblUserLTopTrackAlbum9.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopTrackAlbumClicked);
             // 
             // lblUserLTopTrackArtist9
             // 
@@ -15433,7 +15433,7 @@ namespace Audiograph
             this.lblUserLTopTrackArtist9.TabIndex = 79;
             this.lblUserLTopTrackArtist9.Text = "(Unavailable)";
             this.lblUserLTopTrackArtist9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLTopTrackArtist9.Click += new System.EventHandler(this.UserLTopTrackArtistClicked);
+            this.lblUserLTopTrackArtist9.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopTrackArtistClicked);
             // 
             // lblUserLTopTrackTitle9
             // 
@@ -15446,7 +15446,7 @@ namespace Audiograph
             this.lblUserLTopTrackTitle9.TabIndex = 78;
             this.lblUserLTopTrackTitle9.Text = "(Unavailable)";
             this.lblUserLTopTrackTitle9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLTopTrackTitle9.Click += new System.EventHandler(this.UserLTopTrackTrackClicked);
+            this.lblUserLTopTrackTitle9.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopTrackTrackClicked);
             // 
             // picUserLTopTrackArt9
             // 
@@ -15485,7 +15485,7 @@ namespace Audiograph
             this.lblUserLTopTrackAlbum8.TabIndex = 75;
             this.lblUserLTopTrackAlbum8.Text = "(Unavailable)";
             this.lblUserLTopTrackAlbum8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLTopTrackAlbum8.Click += new System.EventHandler(this.UserLTopTrackAlbumClicked);
+            this.lblUserLTopTrackAlbum8.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopTrackAlbumClicked);
             // 
             // lblUserLTopTrackArtist8
             // 
@@ -15498,7 +15498,7 @@ namespace Audiograph
             this.lblUserLTopTrackArtist8.TabIndex = 74;
             this.lblUserLTopTrackArtist8.Text = "(Unavailable)";
             this.lblUserLTopTrackArtist8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLTopTrackArtist8.Click += new System.EventHandler(this.UserLTopTrackArtistClicked);
+            this.lblUserLTopTrackArtist8.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopTrackArtistClicked);
             // 
             // lblUserLTopTrackTitle8
             // 
@@ -15511,7 +15511,7 @@ namespace Audiograph
             this.lblUserLTopTrackTitle8.TabIndex = 73;
             this.lblUserLTopTrackTitle8.Text = "(Unavailable)";
             this.lblUserLTopTrackTitle8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLTopTrackTitle8.Click += new System.EventHandler(this.UserLTopTrackTrackClicked);
+            this.lblUserLTopTrackTitle8.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopTrackTrackClicked);
             // 
             // picUserLTopTrackArt8
             // 
@@ -15550,7 +15550,7 @@ namespace Audiograph
             this.lblUserLTopTrackAlbum7.TabIndex = 70;
             this.lblUserLTopTrackAlbum7.Text = "(Unavailable)";
             this.lblUserLTopTrackAlbum7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLTopTrackAlbum7.Click += new System.EventHandler(this.UserLTopTrackAlbumClicked);
+            this.lblUserLTopTrackAlbum7.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopTrackAlbumClicked);
             // 
             // lblUserLTopTrackArtist7
             // 
@@ -15563,7 +15563,7 @@ namespace Audiograph
             this.lblUserLTopTrackArtist7.TabIndex = 69;
             this.lblUserLTopTrackArtist7.Text = "(Unavailable)";
             this.lblUserLTopTrackArtist7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLTopTrackArtist7.Click += new System.EventHandler(this.UserLTopTrackArtistClicked);
+            this.lblUserLTopTrackArtist7.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopTrackArtistClicked);
             // 
             // lblUserLTopTrackTitle7
             // 
@@ -15576,7 +15576,7 @@ namespace Audiograph
             this.lblUserLTopTrackTitle7.TabIndex = 68;
             this.lblUserLTopTrackTitle7.Text = "(Unavailable)";
             this.lblUserLTopTrackTitle7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLTopTrackTitle7.Click += new System.EventHandler(this.UserLTopTrackTrackClicked);
+            this.lblUserLTopTrackTitle7.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopTrackTrackClicked);
             // 
             // picUserLTopTrackArt7
             // 
@@ -15615,7 +15615,7 @@ namespace Audiograph
             this.lblUserLTopTrackAlbum6.TabIndex = 65;
             this.lblUserLTopTrackAlbum6.Text = "(Unavailable)";
             this.lblUserLTopTrackAlbum6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLTopTrackAlbum6.Click += new System.EventHandler(this.UserLTopTrackAlbumClicked);
+            this.lblUserLTopTrackAlbum6.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopTrackAlbumClicked);
             // 
             // lblUserLTopTrackArtist6
             // 
@@ -15628,7 +15628,7 @@ namespace Audiograph
             this.lblUserLTopTrackArtist6.TabIndex = 64;
             this.lblUserLTopTrackArtist6.Text = "(Unavailable)";
             this.lblUserLTopTrackArtist6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLTopTrackArtist6.Click += new System.EventHandler(this.UserLTopTrackArtistClicked);
+            this.lblUserLTopTrackArtist6.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopTrackArtistClicked);
             // 
             // lblUserLTopTrackTitle6
             // 
@@ -15641,7 +15641,7 @@ namespace Audiograph
             this.lblUserLTopTrackTitle6.TabIndex = 63;
             this.lblUserLTopTrackTitle6.Text = "(Unavailable)";
             this.lblUserLTopTrackTitle6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLTopTrackTitle6.Click += new System.EventHandler(this.UserLTopTrackTrackClicked);
+            this.lblUserLTopTrackTitle6.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopTrackTrackClicked);
             // 
             // picUserLTopTrackArt6
             // 
@@ -15680,7 +15680,7 @@ namespace Audiograph
             this.lblUserLTopTrackAlbum5.TabIndex = 60;
             this.lblUserLTopTrackAlbum5.Text = "(Unavailable)";
             this.lblUserLTopTrackAlbum5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLTopTrackAlbum5.Click += new System.EventHandler(this.UserLTopTrackAlbumClicked);
+            this.lblUserLTopTrackAlbum5.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopTrackAlbumClicked);
             // 
             // lblUserLTopTrackArtist5
             // 
@@ -15693,7 +15693,7 @@ namespace Audiograph
             this.lblUserLTopTrackArtist5.TabIndex = 59;
             this.lblUserLTopTrackArtist5.Text = "(Unavailable)";
             this.lblUserLTopTrackArtist5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLTopTrackArtist5.Click += new System.EventHandler(this.UserLTopTrackArtistClicked);
+            this.lblUserLTopTrackArtist5.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopTrackArtistClicked);
             // 
             // lblUserLTopTrackTitle5
             // 
@@ -15706,7 +15706,7 @@ namespace Audiograph
             this.lblUserLTopTrackTitle5.TabIndex = 58;
             this.lblUserLTopTrackTitle5.Text = "(Unavailable)";
             this.lblUserLTopTrackTitle5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLTopTrackTitle5.Click += new System.EventHandler(this.UserLTopTrackTrackClicked);
+            this.lblUserLTopTrackTitle5.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopTrackTrackClicked);
             // 
             // picUserLTopTrackArt5
             // 
@@ -15745,7 +15745,7 @@ namespace Audiograph
             this.lblUserLTopTrackAlbum4.TabIndex = 55;
             this.lblUserLTopTrackAlbum4.Text = "(Unavailable)";
             this.lblUserLTopTrackAlbum4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLTopTrackAlbum4.Click += new System.EventHandler(this.UserLTopTrackAlbumClicked);
+            this.lblUserLTopTrackAlbum4.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopTrackAlbumClicked);
             // 
             // lblUserLTopTrackArtist4
             // 
@@ -15758,7 +15758,7 @@ namespace Audiograph
             this.lblUserLTopTrackArtist4.TabIndex = 54;
             this.lblUserLTopTrackArtist4.Text = "(Unavailable)";
             this.lblUserLTopTrackArtist4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLTopTrackArtist4.Click += new System.EventHandler(this.UserLTopTrackArtistClicked);
+            this.lblUserLTopTrackArtist4.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopTrackArtistClicked);
             // 
             // lblUserLTopTrackTitle4
             // 
@@ -15771,7 +15771,7 @@ namespace Audiograph
             this.lblUserLTopTrackTitle4.TabIndex = 53;
             this.lblUserLTopTrackTitle4.Text = "(Unavailable)";
             this.lblUserLTopTrackTitle4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLTopTrackTitle4.Click += new System.EventHandler(this.UserLTopTrackTrackClicked);
+            this.lblUserLTopTrackTitle4.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopTrackTrackClicked);
             // 
             // picUserLTopTrackArt4
             // 
@@ -15810,7 +15810,7 @@ namespace Audiograph
             this.lblUserLTopTrackAlbum3.TabIndex = 50;
             this.lblUserLTopTrackAlbum3.Text = "(Unavailable)";
             this.lblUserLTopTrackAlbum3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLTopTrackAlbum3.Click += new System.EventHandler(this.UserLTopTrackAlbumClicked);
+            this.lblUserLTopTrackAlbum3.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopTrackAlbumClicked);
             // 
             // lblUserLTopTrackArtist3
             // 
@@ -15823,7 +15823,7 @@ namespace Audiograph
             this.lblUserLTopTrackArtist3.TabIndex = 49;
             this.lblUserLTopTrackArtist3.Text = "(Unavailable)";
             this.lblUserLTopTrackArtist3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLTopTrackArtist3.Click += new System.EventHandler(this.UserLTopTrackArtistClicked);
+            this.lblUserLTopTrackArtist3.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopTrackArtistClicked);
             // 
             // lblUserLTopTrackTitle3
             // 
@@ -15836,7 +15836,7 @@ namespace Audiograph
             this.lblUserLTopTrackTitle3.TabIndex = 48;
             this.lblUserLTopTrackTitle3.Text = "(Unavailable)";
             this.lblUserLTopTrackTitle3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLTopTrackTitle3.Click += new System.EventHandler(this.UserLTopTrackTrackClicked);
+            this.lblUserLTopTrackTitle3.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopTrackTrackClicked);
             // 
             // picUserLTopTrackArt3
             // 
@@ -15875,7 +15875,7 @@ namespace Audiograph
             this.lblUserLTopTrackAlbum2.TabIndex = 45;
             this.lblUserLTopTrackAlbum2.Text = "(Unavailable)";
             this.lblUserLTopTrackAlbum2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLTopTrackAlbum2.Click += new System.EventHandler(this.UserLTopTrackAlbumClicked);
+            this.lblUserLTopTrackAlbum2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopTrackAlbumClicked);
             // 
             // lblUserLTopTrackArtist2
             // 
@@ -15888,7 +15888,7 @@ namespace Audiograph
             this.lblUserLTopTrackArtist2.TabIndex = 44;
             this.lblUserLTopTrackArtist2.Text = "(Unavailable)";
             this.lblUserLTopTrackArtist2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLTopTrackArtist2.Click += new System.EventHandler(this.UserLTopTrackArtistClicked);
+            this.lblUserLTopTrackArtist2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopTrackArtistClicked);
             // 
             // lblUserLTopTrackTitle2
             // 
@@ -15901,7 +15901,7 @@ namespace Audiograph
             this.lblUserLTopTrackTitle2.TabIndex = 43;
             this.lblUserLTopTrackTitle2.Text = "(Unavailable)";
             this.lblUserLTopTrackTitle2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLTopTrackTitle2.Click += new System.EventHandler(this.UserLTopTrackTrackClicked);
+            this.lblUserLTopTrackTitle2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopTrackTrackClicked);
             // 
             // picUserLTopTrackArt2
             // 
@@ -15940,7 +15940,7 @@ namespace Audiograph
             this.lblUserLTopTrackAlbum1.TabIndex = 40;
             this.lblUserLTopTrackAlbum1.Text = "(Unavailable)";
             this.lblUserLTopTrackAlbum1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLTopTrackAlbum1.Click += new System.EventHandler(this.UserLTopTrackAlbumClicked);
+            this.lblUserLTopTrackAlbum1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopTrackAlbumClicked);
             // 
             // lblUserLTopTrackArtist1
             // 
@@ -15953,7 +15953,7 @@ namespace Audiograph
             this.lblUserLTopTrackArtist1.TabIndex = 39;
             this.lblUserLTopTrackArtist1.Text = "(Unavailable)";
             this.lblUserLTopTrackArtist1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLTopTrackArtist1.Click += new System.EventHandler(this.UserLTopTrackArtistClicked);
+            this.lblUserLTopTrackArtist1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopTrackArtistClicked);
             // 
             // lblUserLTopTrackTitle1
             // 
@@ -15966,7 +15966,7 @@ namespace Audiograph
             this.lblUserLTopTrackTitle1.TabIndex = 38;
             this.lblUserLTopTrackTitle1.Text = "(Unavailable)";
             this.lblUserLTopTrackTitle1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLTopTrackTitle1.Click += new System.EventHandler(this.UserLTopTrackTrackClicked);
+            this.lblUserLTopTrackTitle1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopTrackTrackClicked);
             // 
             // Label187
             // 
@@ -16377,7 +16377,7 @@ namespace Audiograph
             this.lblUserLTopArtist20.TabIndex = 134;
             this.lblUserLTopArtist20.Text = "(Unavailable)";
             this.lblUserLTopArtist20.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLTopArtist20.Click += new System.EventHandler(this.UserLTopArtistClicked);
+            this.lblUserLTopArtist20.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopArtistClicked);
             // 
             // cmsUserLTopArtists
             // 
@@ -16423,7 +16423,7 @@ namespace Audiograph
             this.lblUserLTopArtist19.TabIndex = 129;
             this.lblUserLTopArtist19.Text = "(Unavailable)";
             this.lblUserLTopArtist19.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLTopArtist19.Click += new System.EventHandler(this.UserLTopArtistClicked);
+            this.lblUserLTopArtist19.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopArtistClicked);
             // 
             // Label227
             // 
@@ -16446,7 +16446,7 @@ namespace Audiograph
             this.lblUserLTopArtist18.TabIndex = 124;
             this.lblUserLTopArtist18.Text = "(Unavailable)";
             this.lblUserLTopArtist18.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLTopArtist18.Click += new System.EventHandler(this.UserLTopArtistClicked);
+            this.lblUserLTopArtist18.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopArtistClicked);
             // 
             // Label230
             // 
@@ -16469,7 +16469,7 @@ namespace Audiograph
             this.lblUserLTopArtist17.TabIndex = 119;
             this.lblUserLTopArtist17.Text = "(Unavailable)";
             this.lblUserLTopArtist17.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLTopArtist17.Click += new System.EventHandler(this.UserLTopArtistClicked);
+            this.lblUserLTopArtist17.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopArtistClicked);
             // 
             // Label234
             // 
@@ -16492,7 +16492,7 @@ namespace Audiograph
             this.lblUserLTopArtist16.TabIndex = 114;
             this.lblUserLTopArtist16.Text = "(Unavailable)";
             this.lblUserLTopArtist16.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLTopArtist16.Click += new System.EventHandler(this.UserLTopArtistClicked);
+            this.lblUserLTopArtist16.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopArtistClicked);
             // 
             // Label237
             // 
@@ -16515,7 +16515,7 @@ namespace Audiograph
             this.lblUserLTopArtist15.TabIndex = 109;
             this.lblUserLTopArtist15.Text = "(Unavailable)";
             this.lblUserLTopArtist15.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLTopArtist15.Click += new System.EventHandler(this.UserLTopArtistClicked);
+            this.lblUserLTopArtist15.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopArtistClicked);
             // 
             // Label239
             // 
@@ -16538,7 +16538,7 @@ namespace Audiograph
             this.lblUserLTopArtist14.TabIndex = 104;
             this.lblUserLTopArtist14.Text = "(Unavailable)";
             this.lblUserLTopArtist14.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLTopArtist14.Click += new System.EventHandler(this.UserLTopArtistClicked);
+            this.lblUserLTopArtist14.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopArtistClicked);
             // 
             // Label243
             // 
@@ -16561,7 +16561,7 @@ namespace Audiograph
             this.lblUserLTopArtist13.TabIndex = 99;
             this.lblUserLTopArtist13.Text = "(Unavailable)";
             this.lblUserLTopArtist13.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLTopArtist13.Click += new System.EventHandler(this.UserLTopArtistClicked);
+            this.lblUserLTopArtist13.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopArtistClicked);
             // 
             // Label246
             // 
@@ -16584,7 +16584,7 @@ namespace Audiograph
             this.lblUserLTopArtist12.TabIndex = 94;
             this.lblUserLTopArtist12.Text = "(Unavailable)";
             this.lblUserLTopArtist12.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLTopArtist12.Click += new System.EventHandler(this.UserLTopArtistClicked);
+            this.lblUserLTopArtist12.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopArtistClicked);
             // 
             // Label250
             // 
@@ -16607,7 +16607,7 @@ namespace Audiograph
             this.lblUserLTopArtist11.TabIndex = 89;
             this.lblUserLTopArtist11.Text = "(Unavailable)";
             this.lblUserLTopArtist11.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLTopArtist11.Click += new System.EventHandler(this.UserLTopArtistClicked);
+            this.lblUserLTopArtist11.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopArtistClicked);
             // 
             // Label253
             // 
@@ -16630,7 +16630,7 @@ namespace Audiograph
             this.lblUserLTopArtist10.TabIndex = 84;
             this.lblUserLTopArtist10.Text = "(Unavailable)";
             this.lblUserLTopArtist10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLTopArtist10.Click += new System.EventHandler(this.UserLTopArtistClicked);
+            this.lblUserLTopArtist10.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopArtistClicked);
             // 
             // Label255
             // 
@@ -16653,7 +16653,7 @@ namespace Audiograph
             this.lblUserLTopArtist9.TabIndex = 79;
             this.lblUserLTopArtist9.Text = "(Unavailable)";
             this.lblUserLTopArtist9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLTopArtist9.Click += new System.EventHandler(this.UserLTopArtistClicked);
+            this.lblUserLTopArtist9.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopArtistClicked);
             // 
             // Label259
             // 
@@ -16676,7 +16676,7 @@ namespace Audiograph
             this.lblUserLTopArtist8.TabIndex = 74;
             this.lblUserLTopArtist8.Text = "(Unavailable)";
             this.lblUserLTopArtist8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLTopArtist8.Click += new System.EventHandler(this.UserLTopArtistClicked);
+            this.lblUserLTopArtist8.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopArtistClicked);
             // 
             // Label262
             // 
@@ -16699,7 +16699,7 @@ namespace Audiograph
             this.lblUserLTopArtist7.TabIndex = 69;
             this.lblUserLTopArtist7.Text = "(Unavailable)";
             this.lblUserLTopArtist7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLTopArtist7.Click += new System.EventHandler(this.UserLTopArtistClicked);
+            this.lblUserLTopArtist7.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopArtistClicked);
             // 
             // Label267
             // 
@@ -16722,7 +16722,7 @@ namespace Audiograph
             this.lblUserLTopArtist6.TabIndex = 64;
             this.lblUserLTopArtist6.Text = "(Unavailable)";
             this.lblUserLTopArtist6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLTopArtist6.Click += new System.EventHandler(this.UserLTopArtistClicked);
+            this.lblUserLTopArtist6.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopArtistClicked);
             // 
             // Label270
             // 
@@ -16745,7 +16745,7 @@ namespace Audiograph
             this.lblUserLTopArtist5.TabIndex = 59;
             this.lblUserLTopArtist5.Text = "(Unavailable)";
             this.lblUserLTopArtist5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLTopArtist5.Click += new System.EventHandler(this.UserLTopArtistClicked);
+            this.lblUserLTopArtist5.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopArtistClicked);
             // 
             // Label273
             // 
@@ -16768,7 +16768,7 @@ namespace Audiograph
             this.lblUserLTopArtist4.TabIndex = 54;
             this.lblUserLTopArtist4.Text = "(Unavailable)";
             this.lblUserLTopArtist4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLTopArtist4.Click += new System.EventHandler(this.UserLTopArtistClicked);
+            this.lblUserLTopArtist4.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopArtistClicked);
             // 
             // Label276
             // 
@@ -16791,7 +16791,7 @@ namespace Audiograph
             this.lblUserLTopArtist3.TabIndex = 49;
             this.lblUserLTopArtist3.Text = "(Unavailable)";
             this.lblUserLTopArtist3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLTopArtist3.Click += new System.EventHandler(this.UserLTopArtistClicked);
+            this.lblUserLTopArtist3.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopArtistClicked);
             // 
             // Label278
             // 
@@ -16814,7 +16814,7 @@ namespace Audiograph
             this.lblUserLTopArtist2.TabIndex = 44;
             this.lblUserLTopArtist2.Text = "(Unavailable)";
             this.lblUserLTopArtist2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLTopArtist2.Click += new System.EventHandler(this.UserLTopArtistClicked);
+            this.lblUserLTopArtist2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopArtistClicked);
             // 
             // Label281
             // 
@@ -16837,7 +16837,7 @@ namespace Audiograph
             this.lblUserLTopArtist1.TabIndex = 39;
             this.lblUserLTopArtist1.Text = "(Unavailable)";
             this.lblUserLTopArtist1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLTopArtist1.Click += new System.EventHandler(this.UserLTopArtistClicked);
+            this.lblUserLTopArtist1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopArtistClicked);
             // 
             // Label284
             // 
@@ -17303,7 +17303,7 @@ namespace Audiograph
             this.lblUserLTopAlbum20.TabIndex = 133;
             this.lblUserLTopAlbum20.Text = "(Unavailable)";
             this.lblUserLTopAlbum20.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLTopAlbum20.Click += new System.EventHandler(this.UserLTopAlbumAlbumClicked);
+            this.lblUserLTopAlbum20.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopAlbumAlbumClicked);
             // 
             // picUserLTopAlbumArt20
             // 
@@ -17354,7 +17354,7 @@ namespace Audiograph
             this.lblUserLTopAlbum19.TabIndex = 128;
             this.lblUserLTopAlbum19.Text = "(Unavailable)";
             this.lblUserLTopAlbum19.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLTopAlbum19.Click += new System.EventHandler(this.UserLTopAlbumAlbumClicked);
+            this.lblUserLTopAlbum19.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopAlbumAlbumClicked);
             // 
             // picUserLTopAlbumArt19
             // 
@@ -17405,7 +17405,7 @@ namespace Audiograph
             this.lblUserLTopAlbum18.TabIndex = 123;
             this.lblUserLTopAlbum18.Text = "(Unavailable)";
             this.lblUserLTopAlbum18.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLTopAlbum18.Click += new System.EventHandler(this.UserLTopAlbumAlbumClicked);
+            this.lblUserLTopAlbum18.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopAlbumAlbumClicked);
             // 
             // picUserLTopAlbumArt18
             // 
@@ -17456,7 +17456,7 @@ namespace Audiograph
             this.lblUserLTopAlbum17.TabIndex = 118;
             this.lblUserLTopAlbum17.Text = "(Unavailable)";
             this.lblUserLTopAlbum17.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLTopAlbum17.Click += new System.EventHandler(this.UserLTopAlbumAlbumClicked);
+            this.lblUserLTopAlbum17.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopAlbumAlbumClicked);
             // 
             // picUserLTopAlbumArt17
             // 
@@ -17507,7 +17507,7 @@ namespace Audiograph
             this.lblUserLTopAlbum16.TabIndex = 113;
             this.lblUserLTopAlbum16.Text = "(Unavailable)";
             this.lblUserLTopAlbum16.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLTopAlbum16.Click += new System.EventHandler(this.UserLTopAlbumAlbumClicked);
+            this.lblUserLTopAlbum16.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopAlbumAlbumClicked);
             // 
             // picUserLTopAlbumArt16
             // 
@@ -17558,7 +17558,7 @@ namespace Audiograph
             this.lblUserLTopAlbum15.TabIndex = 108;
             this.lblUserLTopAlbum15.Text = "(Unavailable)";
             this.lblUserLTopAlbum15.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLTopAlbum15.Click += new System.EventHandler(this.UserLTopAlbumAlbumClicked);
+            this.lblUserLTopAlbum15.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopAlbumAlbumClicked);
             // 
             // picUserLTopAlbumArt15
             // 
@@ -17609,7 +17609,7 @@ namespace Audiograph
             this.lblUserLTopAlbum14.TabIndex = 103;
             this.lblUserLTopAlbum14.Text = "(Unavailable)";
             this.lblUserLTopAlbum14.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLTopAlbum14.Click += new System.EventHandler(this.UserLTopAlbumAlbumClicked);
+            this.lblUserLTopAlbum14.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopAlbumAlbumClicked);
             // 
             // picUserLTopAlbumArt14
             // 
@@ -17660,7 +17660,7 @@ namespace Audiograph
             this.lblUserLTopAlbum13.TabIndex = 98;
             this.lblUserLTopAlbum13.Text = "(Unavailable)";
             this.lblUserLTopAlbum13.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLTopAlbum13.Click += new System.EventHandler(this.UserLTopAlbumAlbumClicked);
+            this.lblUserLTopAlbum13.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopAlbumAlbumClicked);
             // 
             // picUserLTopAlbumArt13
             // 
@@ -17711,7 +17711,7 @@ namespace Audiograph
             this.lblUserLTopAlbum12.TabIndex = 93;
             this.lblUserLTopAlbum12.Text = "(Unavailable)";
             this.lblUserLTopAlbum12.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLTopAlbum12.Click += new System.EventHandler(this.UserLTopAlbumAlbumClicked);
+            this.lblUserLTopAlbum12.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopAlbumAlbumClicked);
             // 
             // picUserLTopAlbumArt12
             // 
@@ -17762,7 +17762,7 @@ namespace Audiograph
             this.lblUserLTopAlbum11.TabIndex = 88;
             this.lblUserLTopAlbum11.Text = "(Unavailable)";
             this.lblUserLTopAlbum11.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLTopAlbum11.Click += new System.EventHandler(this.UserLTopAlbumAlbumClicked);
+            this.lblUserLTopAlbum11.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopAlbumAlbumClicked);
             // 
             // picUserLTopAlbumArt11
             // 
@@ -17813,7 +17813,7 @@ namespace Audiograph
             this.lblUserLTopAlbum10.TabIndex = 83;
             this.lblUserLTopAlbum10.Text = "(Unavailable)";
             this.lblUserLTopAlbum10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLTopAlbum10.Click += new System.EventHandler(this.UserLTopAlbumAlbumClicked);
+            this.lblUserLTopAlbum10.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopAlbumAlbumClicked);
             // 
             // picUserLTopAlbumArt10
             // 
@@ -17864,7 +17864,7 @@ namespace Audiograph
             this.lblUserLTopAlbum9.TabIndex = 78;
             this.lblUserLTopAlbum9.Text = "(Unavailable)";
             this.lblUserLTopAlbum9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLTopAlbum9.Click += new System.EventHandler(this.UserLTopAlbumAlbumClicked);
+            this.lblUserLTopAlbum9.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopAlbumAlbumClicked);
             // 
             // picUserLTopAlbumArt9
             // 
@@ -17903,7 +17903,7 @@ namespace Audiograph
             this.lblUserLTopAlbumArtist8.TabIndex = 74;
             this.lblUserLTopAlbumArtist8.Text = "(Unavailable)";
             this.lblUserLTopAlbumArtist8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLTopAlbumArtist8.Click += new System.EventHandler(this.UserLTopAlbumArtistClicked);
+            this.lblUserLTopAlbumArtist8.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopAlbumArtistClicked);
             // 
             // lblUserLTopAlbum8
             // 
@@ -17916,7 +17916,7 @@ namespace Audiograph
             this.lblUserLTopAlbum8.TabIndex = 73;
             this.lblUserLTopAlbum8.Text = "(Unavailable)";
             this.lblUserLTopAlbum8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLTopAlbum8.Click += new System.EventHandler(this.UserLTopAlbumAlbumClicked);
+            this.lblUserLTopAlbum8.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopAlbumAlbumClicked);
             // 
             // picUserLTopAlbumArt8
             // 
@@ -17955,7 +17955,7 @@ namespace Audiograph
             this.lblUserLTopAlbumArtist7.TabIndex = 69;
             this.lblUserLTopAlbumArtist7.Text = "(Unavailable)";
             this.lblUserLTopAlbumArtist7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLTopAlbumArtist7.Click += new System.EventHandler(this.UserLTopAlbumArtistClicked);
+            this.lblUserLTopAlbumArtist7.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopAlbumArtistClicked);
             // 
             // lblUserLTopAlbum7
             // 
@@ -17968,7 +17968,7 @@ namespace Audiograph
             this.lblUserLTopAlbum7.TabIndex = 68;
             this.lblUserLTopAlbum7.Text = "(Unavailable)";
             this.lblUserLTopAlbum7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLTopAlbum7.Click += new System.EventHandler(this.UserLTopAlbumAlbumClicked);
+            this.lblUserLTopAlbum7.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopAlbumAlbumClicked);
             // 
             // picUserLTopAlbumArt7
             // 
@@ -18007,7 +18007,7 @@ namespace Audiograph
             this.lblUserLTopAlbumArtist6.TabIndex = 64;
             this.lblUserLTopAlbumArtist6.Text = "(Unavailable)";
             this.lblUserLTopAlbumArtist6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLTopAlbumArtist6.Click += new System.EventHandler(this.UserLTopAlbumArtistClicked);
+            this.lblUserLTopAlbumArtist6.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopAlbumArtistClicked);
             // 
             // lblUserLTopAlbum6
             // 
@@ -18020,7 +18020,7 @@ namespace Audiograph
             this.lblUserLTopAlbum6.TabIndex = 63;
             this.lblUserLTopAlbum6.Text = "(Unavailable)";
             this.lblUserLTopAlbum6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLTopAlbum6.Click += new System.EventHandler(this.UserLTopAlbumAlbumClicked);
+            this.lblUserLTopAlbum6.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopAlbumAlbumClicked);
             // 
             // picUserLTopAlbumArt6
             // 
@@ -18059,7 +18059,7 @@ namespace Audiograph
             this.lblUserLTopAlbumArtist5.TabIndex = 59;
             this.lblUserLTopAlbumArtist5.Text = "(Unavailable)";
             this.lblUserLTopAlbumArtist5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLTopAlbumArtist5.Click += new System.EventHandler(this.UserLTopAlbumArtistClicked);
+            this.lblUserLTopAlbumArtist5.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopAlbumArtistClicked);
             // 
             // lblUserLTopAlbum5
             // 
@@ -18072,7 +18072,7 @@ namespace Audiograph
             this.lblUserLTopAlbum5.TabIndex = 58;
             this.lblUserLTopAlbum5.Text = "(Unavailable)";
             this.lblUserLTopAlbum5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLTopAlbum5.Click += new System.EventHandler(this.UserLTopAlbumAlbumClicked);
+            this.lblUserLTopAlbum5.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopAlbumAlbumClicked);
             // 
             // picUserLTopAlbumArt5
             // 
@@ -18111,7 +18111,7 @@ namespace Audiograph
             this.lblUserLTopAlbumArtist4.TabIndex = 54;
             this.lblUserLTopAlbumArtist4.Text = "(Unavailable)";
             this.lblUserLTopAlbumArtist4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLTopAlbumArtist4.Click += new System.EventHandler(this.UserLTopAlbumArtistClicked);
+            this.lblUserLTopAlbumArtist4.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopAlbumArtistClicked);
             // 
             // lblUserLTopAlbum4
             // 
@@ -18124,7 +18124,7 @@ namespace Audiograph
             this.lblUserLTopAlbum4.TabIndex = 53;
             this.lblUserLTopAlbum4.Text = "(Unavailable)";
             this.lblUserLTopAlbum4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLTopAlbum4.Click += new System.EventHandler(this.UserLTopAlbumAlbumClicked);
+            this.lblUserLTopAlbum4.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopAlbumAlbumClicked);
             // 
             // picUserLTopAlbumArt4
             // 
@@ -18163,7 +18163,7 @@ namespace Audiograph
             this.lblUserLTopAlbumArtist3.TabIndex = 49;
             this.lblUserLTopAlbumArtist3.Text = "(Unavailable)";
             this.lblUserLTopAlbumArtist3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLTopAlbumArtist3.Click += new System.EventHandler(this.UserLTopAlbumArtistClicked);
+            this.lblUserLTopAlbumArtist3.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopAlbumArtistClicked);
             // 
             // lblUserLTopAlbum3
             // 
@@ -18176,7 +18176,7 @@ namespace Audiograph
             this.lblUserLTopAlbum3.TabIndex = 48;
             this.lblUserLTopAlbum3.Text = "(Unavailable)";
             this.lblUserLTopAlbum3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLTopAlbum3.Click += new System.EventHandler(this.UserLTopAlbumAlbumClicked);
+            this.lblUserLTopAlbum3.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopAlbumAlbumClicked);
             // 
             // picUserLTopAlbumArt3
             // 
@@ -18215,7 +18215,7 @@ namespace Audiograph
             this.lblUserLTopAlbumArtist2.TabIndex = 44;
             this.lblUserLTopAlbumArtist2.Text = "(Unavailable)";
             this.lblUserLTopAlbumArtist2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLTopAlbumArtist2.Click += new System.EventHandler(this.UserLTopAlbumArtistClicked);
+            this.lblUserLTopAlbumArtist2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopAlbumArtistClicked);
             // 
             // lblUserLTopAlbum2
             // 
@@ -18228,7 +18228,7 @@ namespace Audiograph
             this.lblUserLTopAlbum2.TabIndex = 43;
             this.lblUserLTopAlbum2.Text = "(Unavailable)";
             this.lblUserLTopAlbum2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLTopAlbum2.Click += new System.EventHandler(this.UserLTopAlbumAlbumClicked);
+            this.lblUserLTopAlbum2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopAlbumAlbumClicked);
             // 
             // picUserLTopAlbumArt2
             // 
@@ -18267,7 +18267,7 @@ namespace Audiograph
             this.lblUserLTopAlbumArtist1.TabIndex = 39;
             this.lblUserLTopAlbumArtist1.Text = "(Unavailable)";
             this.lblUserLTopAlbumArtist1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLTopAlbumArtist1.Click += new System.EventHandler(this.UserLTopAlbumArtistClicked);
+            this.lblUserLTopAlbumArtist1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopAlbumArtistClicked);
             // 
             // lblUserLTopAlbum1
             // 
@@ -18280,7 +18280,7 @@ namespace Audiograph
             this.lblUserLTopAlbum1.TabIndex = 38;
             this.lblUserLTopAlbum1.Text = "(Unavailable)";
             this.lblUserLTopAlbum1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLTopAlbum1.Click += new System.EventHandler(this.UserLTopAlbumAlbumClicked);
+            this.lblUserLTopAlbum1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopAlbumAlbumClicked);
             // 
             // Label382
             // 
@@ -19090,7 +19090,7 @@ namespace Audiograph
             this.lblUserLRecentAlbum20.TabIndex = 117;
             this.lblUserLRecentAlbum20.Text = "(Unavailable)";
             this.lblUserLRecentAlbum20.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLRecentAlbum20.Click += new System.EventHandler(this.UserLRecentAlbumClick);
+            this.lblUserLRecentAlbum20.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLRecentAlbumClick);
             // 
             // lblUserLRecentArtist20
             // 
@@ -19104,7 +19104,7 @@ namespace Audiograph
             this.lblUserLRecentArtist20.TabIndex = 116;
             this.lblUserLRecentArtist20.Text = "(Unavailable)";
             this.lblUserLRecentArtist20.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLRecentArtist20.Click += new System.EventHandler(this.UserLRecentArtistClick);
+            this.lblUserLRecentArtist20.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLRecentArtistClick);
             // 
             // lblUserLRecentTitle20
             // 
@@ -19118,7 +19118,7 @@ namespace Audiograph
             this.lblUserLRecentTitle20.TabIndex = 115;
             this.lblUserLRecentTitle20.Text = "(Unavailable)";
             this.lblUserLRecentTitle20.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLRecentTitle20.Click += new System.EventHandler(this.UserLRecentTrackClick);
+            this.lblUserLRecentTitle20.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLRecentTrackClick);
             // 
             // picUserLRecentArt20
             // 
@@ -19147,7 +19147,7 @@ namespace Audiograph
             this.lblUserLRecentAlbum19.TabIndex = 113;
             this.lblUserLRecentAlbum19.Text = "(Unavailable)";
             this.lblUserLRecentAlbum19.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLRecentAlbum19.Click += new System.EventHandler(this.UserLRecentAlbumClick);
+            this.lblUserLRecentAlbum19.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLRecentAlbumClick);
             // 
             // lblUserLRecentArtist19
             // 
@@ -19161,7 +19161,7 @@ namespace Audiograph
             this.lblUserLRecentArtist19.TabIndex = 112;
             this.lblUserLRecentArtist19.Text = "(Unavailable)";
             this.lblUserLRecentArtist19.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLRecentArtist19.Click += new System.EventHandler(this.UserLRecentArtistClick);
+            this.lblUserLRecentArtist19.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLRecentArtistClick);
             // 
             // lblUserLRecentTitle19
             // 
@@ -19175,7 +19175,7 @@ namespace Audiograph
             this.lblUserLRecentTitle19.TabIndex = 111;
             this.lblUserLRecentTitle19.Text = "(Unavailable)";
             this.lblUserLRecentTitle19.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLRecentTitle19.Click += new System.EventHandler(this.UserLRecentTrackClick);
+            this.lblUserLRecentTitle19.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLRecentTrackClick);
             // 
             // picUserLRecentArt19
             // 
@@ -19204,7 +19204,7 @@ namespace Audiograph
             this.lblUserLRecentAlbum18.TabIndex = 109;
             this.lblUserLRecentAlbum18.Text = "(Unavailable)";
             this.lblUserLRecentAlbum18.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLRecentAlbum18.Click += new System.EventHandler(this.UserLRecentAlbumClick);
+            this.lblUserLRecentAlbum18.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLRecentAlbumClick);
             // 
             // lblUserLRecentArtist18
             // 
@@ -19218,7 +19218,7 @@ namespace Audiograph
             this.lblUserLRecentArtist18.TabIndex = 108;
             this.lblUserLRecentArtist18.Text = "(Unavailable)";
             this.lblUserLRecentArtist18.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLRecentArtist18.Click += new System.EventHandler(this.UserLRecentArtistClick);
+            this.lblUserLRecentArtist18.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLRecentArtistClick);
             // 
             // lblUserLRecentTitle18
             // 
@@ -19232,7 +19232,7 @@ namespace Audiograph
             this.lblUserLRecentTitle18.TabIndex = 107;
             this.lblUserLRecentTitle18.Text = "(Unavailable)";
             this.lblUserLRecentTitle18.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLRecentTitle18.Click += new System.EventHandler(this.UserLRecentTrackClick);
+            this.lblUserLRecentTitle18.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLRecentTrackClick);
             // 
             // picUserLRecentArt18
             // 
@@ -19261,7 +19261,7 @@ namespace Audiograph
             this.lblUserLRecentAlbum17.TabIndex = 105;
             this.lblUserLRecentAlbum17.Text = "(Unavailable)";
             this.lblUserLRecentAlbum17.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLRecentAlbum17.Click += new System.EventHandler(this.UserLRecentAlbumClick);
+            this.lblUserLRecentAlbum17.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLRecentAlbumClick);
             // 
             // lblUserLRecentArtist17
             // 
@@ -19275,7 +19275,7 @@ namespace Audiograph
             this.lblUserLRecentArtist17.TabIndex = 104;
             this.lblUserLRecentArtist17.Text = "(Unavailable)";
             this.lblUserLRecentArtist17.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLRecentArtist17.Click += new System.EventHandler(this.UserLRecentArtistClick);
+            this.lblUserLRecentArtist17.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLRecentArtistClick);
             // 
             // lblUserLRecentTitle17
             // 
@@ -19289,7 +19289,7 @@ namespace Audiograph
             this.lblUserLRecentTitle17.TabIndex = 103;
             this.lblUserLRecentTitle17.Text = "(Unavailable)";
             this.lblUserLRecentTitle17.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLRecentTitle17.Click += new System.EventHandler(this.UserLRecentTrackClick);
+            this.lblUserLRecentTitle17.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLRecentTrackClick);
             // 
             // picUserLRecentArt17
             // 
@@ -19318,7 +19318,7 @@ namespace Audiograph
             this.lblUserLRecentAlbum16.TabIndex = 101;
             this.lblUserLRecentAlbum16.Text = "(Unavailable)";
             this.lblUserLRecentAlbum16.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLRecentAlbum16.Click += new System.EventHandler(this.UserLRecentAlbumClick);
+            this.lblUserLRecentAlbum16.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLRecentAlbumClick);
             // 
             // lblUserLRecentArtist16
             // 
@@ -19332,7 +19332,7 @@ namespace Audiograph
             this.lblUserLRecentArtist16.TabIndex = 100;
             this.lblUserLRecentArtist16.Text = "(Unavailable)";
             this.lblUserLRecentArtist16.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLRecentArtist16.Click += new System.EventHandler(this.UserLRecentArtistClick);
+            this.lblUserLRecentArtist16.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLRecentArtistClick);
             // 
             // lblUserLRecentTitle16
             // 
@@ -19346,7 +19346,7 @@ namespace Audiograph
             this.lblUserLRecentTitle16.TabIndex = 99;
             this.lblUserLRecentTitle16.Text = "(Unavailable)";
             this.lblUserLRecentTitle16.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLRecentTitle16.Click += new System.EventHandler(this.UserLRecentTrackClick);
+            this.lblUserLRecentTitle16.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLRecentTrackClick);
             // 
             // picUserLRecentArt16
             // 
@@ -19375,7 +19375,7 @@ namespace Audiograph
             this.lblUserLRecentAlbum15.TabIndex = 97;
             this.lblUserLRecentAlbum15.Text = "(Unavailable)";
             this.lblUserLRecentAlbum15.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLRecentAlbum15.Click += new System.EventHandler(this.UserLRecentAlbumClick);
+            this.lblUserLRecentAlbum15.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLRecentAlbumClick);
             // 
             // lblUserLRecentArtist15
             // 
@@ -19389,7 +19389,7 @@ namespace Audiograph
             this.lblUserLRecentArtist15.TabIndex = 96;
             this.lblUserLRecentArtist15.Text = "(Unavailable)";
             this.lblUserLRecentArtist15.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLRecentArtist15.Click += new System.EventHandler(this.UserLRecentArtistClick);
+            this.lblUserLRecentArtist15.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLRecentArtistClick);
             // 
             // lblUserLRecentTitle15
             // 
@@ -19403,7 +19403,7 @@ namespace Audiograph
             this.lblUserLRecentTitle15.TabIndex = 95;
             this.lblUserLRecentTitle15.Text = "(Unavailable)";
             this.lblUserLRecentTitle15.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLRecentTitle15.Click += new System.EventHandler(this.UserLRecentTrackClick);
+            this.lblUserLRecentTitle15.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLRecentTrackClick);
             // 
             // picUserLRecentArt15
             // 
@@ -19432,7 +19432,7 @@ namespace Audiograph
             this.lblUserLRecentAlbum14.TabIndex = 93;
             this.lblUserLRecentAlbum14.Text = "(Unavailable)";
             this.lblUserLRecentAlbum14.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLRecentAlbum14.Click += new System.EventHandler(this.UserLRecentAlbumClick);
+            this.lblUserLRecentAlbum14.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLRecentAlbumClick);
             // 
             // lblUserLRecentArtist14
             // 
@@ -19446,7 +19446,7 @@ namespace Audiograph
             this.lblUserLRecentArtist14.TabIndex = 92;
             this.lblUserLRecentArtist14.Text = "(Unavailable)";
             this.lblUserLRecentArtist14.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLRecentArtist14.Click += new System.EventHandler(this.UserLRecentArtistClick);
+            this.lblUserLRecentArtist14.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLRecentArtistClick);
             // 
             // lblUserLRecentTitle14
             // 
@@ -19460,7 +19460,7 @@ namespace Audiograph
             this.lblUserLRecentTitle14.TabIndex = 91;
             this.lblUserLRecentTitle14.Text = "(Unavailable)";
             this.lblUserLRecentTitle14.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLRecentTitle14.Click += new System.EventHandler(this.UserLRecentTrackClick);
+            this.lblUserLRecentTitle14.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLRecentTrackClick);
             // 
             // picUserLRecentArt14
             // 
@@ -19489,7 +19489,7 @@ namespace Audiograph
             this.lblUserLRecentAlbum13.TabIndex = 89;
             this.lblUserLRecentAlbum13.Text = "(Unavailable)";
             this.lblUserLRecentAlbum13.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLRecentAlbum13.Click += new System.EventHandler(this.UserLRecentAlbumClick);
+            this.lblUserLRecentAlbum13.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLRecentAlbumClick);
             // 
             // lblUserLRecentArtist13
             // 
@@ -19503,7 +19503,7 @@ namespace Audiograph
             this.lblUserLRecentArtist13.TabIndex = 88;
             this.lblUserLRecentArtist13.Text = "(Unavailable)";
             this.lblUserLRecentArtist13.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLRecentArtist13.Click += new System.EventHandler(this.UserLRecentArtistClick);
+            this.lblUserLRecentArtist13.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLRecentArtistClick);
             // 
             // lblUserLRecentTitle13
             // 
@@ -19517,7 +19517,7 @@ namespace Audiograph
             this.lblUserLRecentTitle13.TabIndex = 87;
             this.lblUserLRecentTitle13.Text = "(Unavailable)";
             this.lblUserLRecentTitle13.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLRecentTitle13.Click += new System.EventHandler(this.UserLRecentTrackClick);
+            this.lblUserLRecentTitle13.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLRecentTrackClick);
             // 
             // picUserLRecentArt13
             // 
@@ -19546,7 +19546,7 @@ namespace Audiograph
             this.lblUserLRecentAlbum12.TabIndex = 85;
             this.lblUserLRecentAlbum12.Text = "(Unavailable)";
             this.lblUserLRecentAlbum12.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLRecentAlbum12.Click += new System.EventHandler(this.UserLRecentAlbumClick);
+            this.lblUserLRecentAlbum12.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLRecentAlbumClick);
             // 
             // lblUserLRecentArtist12
             // 
@@ -19560,7 +19560,7 @@ namespace Audiograph
             this.lblUserLRecentArtist12.TabIndex = 84;
             this.lblUserLRecentArtist12.Text = "(Unavailable)";
             this.lblUserLRecentArtist12.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLRecentArtist12.Click += new System.EventHandler(this.UserLRecentArtistClick);
+            this.lblUserLRecentArtist12.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLRecentArtistClick);
             // 
             // lblUserLRecentTitle12
             // 
@@ -19574,7 +19574,7 @@ namespace Audiograph
             this.lblUserLRecentTitle12.TabIndex = 83;
             this.lblUserLRecentTitle12.Text = "(Unavailable)";
             this.lblUserLRecentTitle12.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLRecentTitle12.Click += new System.EventHandler(this.UserLRecentTrackClick);
+            this.lblUserLRecentTitle12.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLRecentTrackClick);
             // 
             // picUserLRecentArt12
             // 
@@ -19603,7 +19603,7 @@ namespace Audiograph
             this.lblUserLRecentAlbum11.TabIndex = 81;
             this.lblUserLRecentAlbum11.Text = "(Unavailable)";
             this.lblUserLRecentAlbum11.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLRecentAlbum11.Click += new System.EventHandler(this.UserLRecentAlbumClick);
+            this.lblUserLRecentAlbum11.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLRecentAlbumClick);
             // 
             // lblUserLRecentArtist11
             // 
@@ -19617,7 +19617,7 @@ namespace Audiograph
             this.lblUserLRecentArtist11.TabIndex = 80;
             this.lblUserLRecentArtist11.Text = "(Unavailable)";
             this.lblUserLRecentArtist11.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLRecentArtist11.Click += new System.EventHandler(this.UserLRecentArtistClick);
+            this.lblUserLRecentArtist11.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLRecentArtistClick);
             // 
             // lblUserLRecentTitle11
             // 
@@ -19631,7 +19631,7 @@ namespace Audiograph
             this.lblUserLRecentTitle11.TabIndex = 79;
             this.lblUserLRecentTitle11.Text = "(Unavailable)";
             this.lblUserLRecentTitle11.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLRecentTitle11.Click += new System.EventHandler(this.UserLRecentTrackClick);
+            this.lblUserLRecentTitle11.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLRecentTrackClick);
             // 
             // picUserLRecentArt11
             // 
@@ -19660,7 +19660,7 @@ namespace Audiograph
             this.lblUserLRecentAlbum10.TabIndex = 77;
             this.lblUserLRecentAlbum10.Text = "(Unavailable)";
             this.lblUserLRecentAlbum10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLRecentAlbum10.Click += new System.EventHandler(this.UserLRecentAlbumClick);
+            this.lblUserLRecentAlbum10.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLRecentAlbumClick);
             // 
             // lblUserLRecentArtist10
             // 
@@ -19674,7 +19674,7 @@ namespace Audiograph
             this.lblUserLRecentArtist10.TabIndex = 76;
             this.lblUserLRecentArtist10.Text = "(Unavailable)";
             this.lblUserLRecentArtist10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLRecentArtist10.Click += new System.EventHandler(this.UserLRecentArtistClick);
+            this.lblUserLRecentArtist10.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLRecentArtistClick);
             // 
             // lblUserLRecentTitle10
             // 
@@ -19688,7 +19688,7 @@ namespace Audiograph
             this.lblUserLRecentTitle10.TabIndex = 75;
             this.lblUserLRecentTitle10.Text = "(Unavailable)";
             this.lblUserLRecentTitle10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLRecentTitle10.Click += new System.EventHandler(this.UserLRecentTrackClick);
+            this.lblUserLRecentTitle10.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLRecentTrackClick);
             // 
             // picUserLRecentArt10
             // 
@@ -19717,7 +19717,7 @@ namespace Audiograph
             this.lblUserLRecentAlbum9.TabIndex = 73;
             this.lblUserLRecentAlbum9.Text = "(Unavailable)";
             this.lblUserLRecentAlbum9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLRecentAlbum9.Click += new System.EventHandler(this.UserLRecentAlbumClick);
+            this.lblUserLRecentAlbum9.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLRecentAlbumClick);
             // 
             // lblUserLRecentArtist9
             // 
@@ -19731,7 +19731,7 @@ namespace Audiograph
             this.lblUserLRecentArtist9.TabIndex = 72;
             this.lblUserLRecentArtist9.Text = "(Unavailable)";
             this.lblUserLRecentArtist9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLRecentArtist9.Click += new System.EventHandler(this.UserLRecentArtistClick);
+            this.lblUserLRecentArtist9.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLRecentArtistClick);
             // 
             // lblUserLRecentTitle9
             // 
@@ -19745,7 +19745,7 @@ namespace Audiograph
             this.lblUserLRecentTitle9.TabIndex = 71;
             this.lblUserLRecentTitle9.Text = "(Unavailable)";
             this.lblUserLRecentTitle9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLRecentTitle9.Click += new System.EventHandler(this.UserLRecentTrackClick);
+            this.lblUserLRecentTitle9.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLRecentTrackClick);
             // 
             // picUserLRecentArt9
             // 
@@ -19774,7 +19774,7 @@ namespace Audiograph
             this.lblUserLRecentAlbum8.TabIndex = 69;
             this.lblUserLRecentAlbum8.Text = "(Unavailable)";
             this.lblUserLRecentAlbum8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLRecentAlbum8.Click += new System.EventHandler(this.UserLRecentAlbumClick);
+            this.lblUserLRecentAlbum8.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLRecentAlbumClick);
             // 
             // lblUserLRecentArtist8
             // 
@@ -19788,7 +19788,7 @@ namespace Audiograph
             this.lblUserLRecentArtist8.TabIndex = 68;
             this.lblUserLRecentArtist8.Text = "(Unavailable)";
             this.lblUserLRecentArtist8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLRecentArtist8.Click += new System.EventHandler(this.UserLRecentArtistClick);
+            this.lblUserLRecentArtist8.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLRecentArtistClick);
             // 
             // lblUserLRecentTitle8
             // 
@@ -19802,7 +19802,7 @@ namespace Audiograph
             this.lblUserLRecentTitle8.TabIndex = 67;
             this.lblUserLRecentTitle8.Text = "(Unavailable)";
             this.lblUserLRecentTitle8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLRecentTitle8.Click += new System.EventHandler(this.UserLRecentTrackClick);
+            this.lblUserLRecentTitle8.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLRecentTrackClick);
             // 
             // picUserLRecentArt8
             // 
@@ -19830,7 +19830,7 @@ namespace Audiograph
             this.lblUserLRecentAlbum7.TabIndex = 65;
             this.lblUserLRecentAlbum7.Text = "(Unavailable)";
             this.lblUserLRecentAlbum7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLRecentAlbum7.Click += new System.EventHandler(this.UserLRecentAlbumClick);
+            this.lblUserLRecentAlbum7.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLRecentAlbumClick);
             // 
             // lblUserLRecentArtist7
             // 
@@ -19844,7 +19844,7 @@ namespace Audiograph
             this.lblUserLRecentArtist7.TabIndex = 64;
             this.lblUserLRecentArtist7.Text = "(Unavailable)";
             this.lblUserLRecentArtist7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLRecentArtist7.Click += new System.EventHandler(this.UserLRecentArtistClick);
+            this.lblUserLRecentArtist7.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLRecentArtistClick);
             // 
             // lblUserLRecentTitle7
             // 
@@ -19858,7 +19858,7 @@ namespace Audiograph
             this.lblUserLRecentTitle7.TabIndex = 63;
             this.lblUserLRecentTitle7.Text = "(Unavailable)";
             this.lblUserLRecentTitle7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLRecentTitle7.Click += new System.EventHandler(this.UserLRecentTrackClick);
+            this.lblUserLRecentTitle7.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLRecentTrackClick);
             // 
             // picUserLRecentArt7
             // 
@@ -19886,7 +19886,7 @@ namespace Audiograph
             this.lblUserLRecentAlbum6.TabIndex = 61;
             this.lblUserLRecentAlbum6.Text = "(Unavailable)";
             this.lblUserLRecentAlbum6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLRecentAlbum6.Click += new System.EventHandler(this.UserLRecentAlbumClick);
+            this.lblUserLRecentAlbum6.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLRecentAlbumClick);
             // 
             // lblUserLRecentArtist6
             // 
@@ -19900,7 +19900,7 @@ namespace Audiograph
             this.lblUserLRecentArtist6.TabIndex = 60;
             this.lblUserLRecentArtist6.Text = "(Unavailable)";
             this.lblUserLRecentArtist6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLRecentArtist6.Click += new System.EventHandler(this.UserLRecentArtistClick);
+            this.lblUserLRecentArtist6.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLRecentArtistClick);
             // 
             // lblUserLRecentTitle6
             // 
@@ -19914,7 +19914,7 @@ namespace Audiograph
             this.lblUserLRecentTitle6.TabIndex = 59;
             this.lblUserLRecentTitle6.Text = "(Unavailable)";
             this.lblUserLRecentTitle6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLRecentTitle6.Click += new System.EventHandler(this.UserLRecentTrackClick);
+            this.lblUserLRecentTitle6.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLRecentTrackClick);
             // 
             // picUserLRecentArt6
             // 
@@ -19942,7 +19942,7 @@ namespace Audiograph
             this.lblUserLRecentAlbum5.TabIndex = 57;
             this.lblUserLRecentAlbum5.Text = "(Unavailable)";
             this.lblUserLRecentAlbum5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLRecentAlbum5.Click += new System.EventHandler(this.UserLRecentAlbumClick);
+            this.lblUserLRecentAlbum5.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLRecentAlbumClick);
             // 
             // lblUserLRecentArtist5
             // 
@@ -19956,7 +19956,7 @@ namespace Audiograph
             this.lblUserLRecentArtist5.TabIndex = 56;
             this.lblUserLRecentArtist5.Text = "(Unavailable)";
             this.lblUserLRecentArtist5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLRecentArtist5.Click += new System.EventHandler(this.UserLRecentArtistClick);
+            this.lblUserLRecentArtist5.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLRecentArtistClick);
             // 
             // lblUserLRecentTitle5
             // 
@@ -19970,7 +19970,7 @@ namespace Audiograph
             this.lblUserLRecentTitle5.TabIndex = 55;
             this.lblUserLRecentTitle5.Text = "(Unavailable)";
             this.lblUserLRecentTitle5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLRecentTitle5.Click += new System.EventHandler(this.UserLRecentTrackClick);
+            this.lblUserLRecentTitle5.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLRecentTrackClick);
             // 
             // picUserLRecentArt5
             // 
@@ -19998,7 +19998,7 @@ namespace Audiograph
             this.lblUserLRecentAlbum4.TabIndex = 53;
             this.lblUserLRecentAlbum4.Text = "(Unavailable)";
             this.lblUserLRecentAlbum4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLRecentAlbum4.Click += new System.EventHandler(this.UserLRecentAlbumClick);
+            this.lblUserLRecentAlbum4.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLRecentAlbumClick);
             // 
             // lblUserLRecentArtist4
             // 
@@ -20012,7 +20012,7 @@ namespace Audiograph
             this.lblUserLRecentArtist4.TabIndex = 52;
             this.lblUserLRecentArtist4.Text = "(Unavailable)";
             this.lblUserLRecentArtist4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLRecentArtist4.Click += new System.EventHandler(this.UserLRecentArtistClick);
+            this.lblUserLRecentArtist4.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLRecentArtistClick);
             // 
             // lblUserLRecentTitle4
             // 
@@ -20026,7 +20026,7 @@ namespace Audiograph
             this.lblUserLRecentTitle4.TabIndex = 51;
             this.lblUserLRecentTitle4.Text = "(Unavailable)";
             this.lblUserLRecentTitle4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLRecentTitle4.Click += new System.EventHandler(this.UserLRecentTrackClick);
+            this.lblUserLRecentTitle4.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLRecentTrackClick);
             // 
             // picUserLRecentArt4
             // 
@@ -20054,7 +20054,7 @@ namespace Audiograph
             this.lblUserLRecentAlbum3.TabIndex = 49;
             this.lblUserLRecentAlbum3.Text = "(Unavailable)";
             this.lblUserLRecentAlbum3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLRecentAlbum3.Click += new System.EventHandler(this.UserLRecentAlbumClick);
+            this.lblUserLRecentAlbum3.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLRecentAlbumClick);
             // 
             // lblUserLRecentArtist3
             // 
@@ -20068,7 +20068,7 @@ namespace Audiograph
             this.lblUserLRecentArtist3.TabIndex = 48;
             this.lblUserLRecentArtist3.Text = "(Unavailable)";
             this.lblUserLRecentArtist3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLRecentArtist3.Click += new System.EventHandler(this.UserLRecentArtistClick);
+            this.lblUserLRecentArtist3.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLRecentArtistClick);
             // 
             // lblUserLRecentTitle3
             // 
@@ -20082,7 +20082,7 @@ namespace Audiograph
             this.lblUserLRecentTitle3.TabIndex = 47;
             this.lblUserLRecentTitle3.Text = "(Unavailable)";
             this.lblUserLRecentTitle3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLRecentTitle3.Click += new System.EventHandler(this.UserLRecentTrackClick);
+            this.lblUserLRecentTitle3.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLRecentTrackClick);
             // 
             // picUserLRecentArt3
             // 
@@ -20110,7 +20110,7 @@ namespace Audiograph
             this.lblUserLRecentAlbum2.TabIndex = 45;
             this.lblUserLRecentAlbum2.Text = "(Unavailable)";
             this.lblUserLRecentAlbum2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLRecentAlbum2.Click += new System.EventHandler(this.UserLRecentAlbumClick);
+            this.lblUserLRecentAlbum2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLRecentAlbumClick);
             // 
             // lblUserLRecentArtist2
             // 
@@ -20124,7 +20124,7 @@ namespace Audiograph
             this.lblUserLRecentArtist2.TabIndex = 44;
             this.lblUserLRecentArtist2.Text = "(Unavailable)";
             this.lblUserLRecentArtist2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLRecentArtist2.Click += new System.EventHandler(this.UserLRecentArtistClick);
+            this.lblUserLRecentArtist2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLRecentArtistClick);
             // 
             // lblUserLRecentTitle2
             // 
@@ -20138,7 +20138,7 @@ namespace Audiograph
             this.lblUserLRecentTitle2.TabIndex = 43;
             this.lblUserLRecentTitle2.Text = "(Unavailable)";
             this.lblUserLRecentTitle2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLRecentTitle2.Click += new System.EventHandler(this.UserLRecentTrackClick);
+            this.lblUserLRecentTitle2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLRecentTrackClick);
             // 
             // picUserLRecentArt2
             // 
@@ -20166,7 +20166,7 @@ namespace Audiograph
             this.lblUserLRecentAlbum1.TabIndex = 41;
             this.lblUserLRecentAlbum1.Text = "(Unavailable)";
             this.lblUserLRecentAlbum1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLRecentAlbum1.Click += new System.EventHandler(this.UserLRecentAlbumClick);
+            this.lblUserLRecentAlbum1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLRecentAlbumClick);
             // 
             // lblUserLRecentArtist1
             // 
@@ -20180,7 +20180,7 @@ namespace Audiograph
             this.lblUserLRecentArtist1.TabIndex = 40;
             this.lblUserLRecentArtist1.Text = "(Unavailable)";
             this.lblUserLRecentArtist1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLRecentArtist1.Click += new System.EventHandler(this.UserLRecentArtistClick);
+            this.lblUserLRecentArtist1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLRecentArtistClick);
             // 
             // Label451
             // 
@@ -20248,7 +20248,7 @@ namespace Audiograph
             this.lblUserLRecentTitle1.TabIndex = 39;
             this.lblUserLRecentTitle1.Text = "(Unavailable)";
             this.lblUserLRecentTitle1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUserLRecentTitle1.Click += new System.EventHandler(this.UserLRecentTrackClick);
+            this.lblUserLRecentTitle1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLRecentTrackClick);
             // 
             // pgMedia
             // 
@@ -20402,7 +20402,7 @@ namespace Audiograph
             this.btnMediaExpand.TabIndex = 29;
             this.btnMediaExpand.Text = "E&xpand";
             this.btnMediaExpand.UseVisualStyleBackColor = true;
-            this.btnMediaExpand.Click += new System.EventHandler(this.ExpandScrobbleHistory);
+            this.btnMediaExpand.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ExpandScrobbleHistory);
             // 
             // ltvMediaHistory
             // 
@@ -20442,7 +20442,7 @@ namespace Audiograph
             this.btnMediaEditIndex.TabIndex = 26;
             this.btnMediaEditIndex.Text = "&Edit Index...";
             this.btnMediaEditIndex.UseVisualStyleBackColor = true;
-            this.btnMediaEditIndex.Click += new System.EventHandler(this.ScrobbleIndexEditorMediaButton);
+            this.btnMediaEditIndex.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ScrobbleIndexEditorMediaButton);
             // 
             // lblMediaIndex
             // 
@@ -20492,7 +20492,7 @@ namespace Audiograph
             this.btnMediaCreate.TabIndex = 20;
             this.btnMediaCreate.Text = "&Create...";
             this.btnMediaCreate.UseVisualStyleBackColor = true;
-            this.btnMediaCreate.Click += new System.EventHandler(this.IndexCreateClick);
+            this.btnMediaCreate.MouseClick += new System.Windows.Forms.MouseEventHandler(this.IndexCreateClick);
             // 
             // btnMediaLoad
             // 
@@ -20502,7 +20502,7 @@ namespace Audiograph
             this.btnMediaLoad.TabIndex = 19;
             this.btnMediaLoad.Text = "&Load...";
             this.btnMediaLoad.UseVisualStyleBackColor = true;
-            this.btnMediaLoad.Click += new System.EventHandler(this.IndexLoadClick);
+            this.btnMediaLoad.MouseClick += new System.Windows.Forms.MouseEventHandler(this.IndexLoadClick);
             // 
             // Label42
             // 
@@ -20522,7 +20522,7 @@ namespace Audiograph
             this.btnMediaSearch.TabIndex = 17;
             this.btnMediaSearch.Text = "S&earch";
             this.btnMediaSearch.UseVisualStyleBackColor = true;
-            this.btnMediaSearch.Click += new System.EventHandler(this.ScrobbleSearchButton);
+            this.btnMediaSearch.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ScrobbleSearchButton);
             // 
             // btnMediaVerify
             // 
@@ -20533,7 +20533,7 @@ namespace Audiograph
             this.btnMediaVerify.TabIndex = 16;
             this.btnMediaVerify.Text = "&Verify";
             this.btnMediaVerify.UseVisualStyleBackColor = true;
-            this.btnMediaVerify.Click += new System.EventHandler(this.ButtonVerifyTrack);
+            this.btnMediaVerify.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ButtonVerifyTrack);
             // 
             // lblMediaScrobble
             // 
@@ -20552,7 +20552,7 @@ namespace Audiograph
             this.btnMediaScrobble.TabIndex = 14;
             this.btnMediaScrobble.Text = "&Scrobble";
             this.btnMediaScrobble.UseVisualStyleBackColor = true;
-            this.btnMediaScrobble.Click += new System.EventHandler(this.ClickScrobble);
+            this.btnMediaScrobble.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ClickScrobble);
             // 
             // txtMediaAlbum
             // 
@@ -20681,7 +20681,7 @@ namespace Audiograph
             this.btnMediaNext.TabIndex = 8;
             this.btnMediaNext.Text = "&Next";
             this.btnMediaNext.UseVisualStyleBackColor = true;
-            this.btnMediaNext.Click += new System.EventHandler(this.NextQueue);
+            this.btnMediaNext.MouseClick += new System.Windows.Forms.MouseEventHandler(this.NextQueue);
             // 
             // chkMediaShuffle
             // 
@@ -20702,7 +20702,7 @@ namespace Audiograph
             this.btnMediaRemoveQ.TabIndex = 4;
             this.btnMediaRemoveQ.Text = "&Remove";
             this.btnMediaRemoveQ.UseVisualStyleBackColor = true;
-            this.btnMediaRemoveQ.Click += new System.EventHandler(this.RemoveQueueBtn);
+            this.btnMediaRemoveQ.MouseClick += new System.Windows.Forms.MouseEventHandler(this.RemoveQueueBtn);
             // 
             // btnMediaAddQ
             // 
@@ -20712,7 +20712,7 @@ namespace Audiograph
             this.btnMediaAddQ.TabIndex = 1;
             this.btnMediaAddQ.Text = "&Add...";
             this.btnMediaAddQ.UseVisualStyleBackColor = true;
-            this.btnMediaAddQ.Click += new System.EventHandler(this.AddQueue);
+            this.btnMediaAddQ.MouseClick += new System.Windows.Forms.MouseEventHandler(this.AddQueue);
             // 
             // ltvMediaQueue
             // 

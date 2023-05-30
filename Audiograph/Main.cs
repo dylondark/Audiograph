@@ -3376,6 +3376,9 @@ namespace Audiograph
             // set scrobble time
             cmbMediaTime.SelectedIndex = 0;
 
+            // get version of wmp
+            lblMediaVersion.Text = "v." + MediaPlayer.versionInfo;
+
             // set auto refresh time
             switch (My.MySettingsProperty.Settings.AutoRefresh)
             {
@@ -6031,10 +6034,6 @@ namespace Audiograph
         #endregion
 
         #region Media UI
-        private void MediaFrmLoad(object sender, EventArgs e)
-        {
-            lblMediaVersion.Text = "v." + MediaPlayer.versionInfo;
-        }
 
         private void AddQueue(object sender, EventArgs e)
         {

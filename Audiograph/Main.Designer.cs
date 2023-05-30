@@ -2372,7 +2372,7 @@ namespace Audiograph
             // 
             this.lblTopArtistPlaycount20.ContextMenuStrip = this.cmsChartArtist;
             this.lblTopArtistPlaycount20.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopArtistPlaycount20.Location = new System.Drawing.Point(522, 953);
+            this.lblTopArtistPlaycount20.Location = new System.Drawing.Point(523, 953);
             this.lblTopArtistPlaycount20.Name = "lblTopArtistPlaycount20";
             this.lblTopArtistPlaycount20.Size = new System.Drawing.Size(78, 48);
             this.lblTopArtistPlaycount20.TabIndex = 141;
@@ -2407,7 +2407,7 @@ namespace Audiograph
             // 
             this.lblTopArtistPlaycount19.ContextMenuStrip = this.cmsChartArtist;
             this.lblTopArtistPlaycount19.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopArtistPlaycount19.Location = new System.Drawing.Point(522, 904);
+            this.lblTopArtistPlaycount19.Location = new System.Drawing.Point(523, 904);
             this.lblTopArtistPlaycount19.Name = "lblTopArtistPlaycount19";
             this.lblTopArtistPlaycount19.Size = new System.Drawing.Size(78, 48);
             this.lblTopArtistPlaycount19.TabIndex = 140;
@@ -2418,7 +2418,7 @@ namespace Audiograph
             // 
             this.lblTopArtistPlaycount18.ContextMenuStrip = this.cmsChartArtist;
             this.lblTopArtistPlaycount18.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopArtistPlaycount18.Location = new System.Drawing.Point(522, 855);
+            this.lblTopArtistPlaycount18.Location = new System.Drawing.Point(523, 855);
             this.lblTopArtistPlaycount18.Name = "lblTopArtistPlaycount18";
             this.lblTopArtistPlaycount18.Size = new System.Drawing.Size(78, 48);
             this.lblTopArtistPlaycount18.TabIndex = 139;
@@ -2429,7 +2429,7 @@ namespace Audiograph
             // 
             this.lblTopArtistPlaycount17.ContextMenuStrip = this.cmsChartArtist;
             this.lblTopArtistPlaycount17.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopArtistPlaycount17.Location = new System.Drawing.Point(522, 806);
+            this.lblTopArtistPlaycount17.Location = new System.Drawing.Point(523, 806);
             this.lblTopArtistPlaycount17.Name = "lblTopArtistPlaycount17";
             this.lblTopArtistPlaycount17.Size = new System.Drawing.Size(78, 48);
             this.lblTopArtistPlaycount17.TabIndex = 138;
@@ -2440,7 +2440,7 @@ namespace Audiograph
             // 
             this.lblTopArtistPlaycount16.ContextMenuStrip = this.cmsChartArtist;
             this.lblTopArtistPlaycount16.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopArtistPlaycount16.Location = new System.Drawing.Point(522, 757);
+            this.lblTopArtistPlaycount16.Location = new System.Drawing.Point(523, 757);
             this.lblTopArtistPlaycount16.Name = "lblTopArtistPlaycount16";
             this.lblTopArtistPlaycount16.Size = new System.Drawing.Size(78, 48);
             this.lblTopArtistPlaycount16.TabIndex = 137;
@@ -2451,7 +2451,7 @@ namespace Audiograph
             // 
             this.lblTopArtistPlaycount15.ContextMenuStrip = this.cmsChartArtist;
             this.lblTopArtistPlaycount15.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopArtistPlaycount15.Location = new System.Drawing.Point(522, 708);
+            this.lblTopArtistPlaycount15.Location = new System.Drawing.Point(523, 708);
             this.lblTopArtistPlaycount15.Name = "lblTopArtistPlaycount15";
             this.lblTopArtistPlaycount15.Size = new System.Drawing.Size(78, 48);
             this.lblTopArtistPlaycount15.TabIndex = 136;
@@ -2462,7 +2462,7 @@ namespace Audiograph
             // 
             this.lblTopArtistPlaycount14.ContextMenuStrip = this.cmsChartArtist;
             this.lblTopArtistPlaycount14.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopArtistPlaycount14.Location = new System.Drawing.Point(522, 659);
+            this.lblTopArtistPlaycount14.Location = new System.Drawing.Point(523, 659);
             this.lblTopArtistPlaycount14.Name = "lblTopArtistPlaycount14";
             this.lblTopArtistPlaycount14.Size = new System.Drawing.Size(78, 48);
             this.lblTopArtistPlaycount14.TabIndex = 135;
@@ -2473,7 +2473,7 @@ namespace Audiograph
             // 
             this.lblTopArtistPlaycount13.ContextMenuStrip = this.cmsChartArtist;
             this.lblTopArtistPlaycount13.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopArtistPlaycount13.Location = new System.Drawing.Point(522, 610);
+            this.lblTopArtistPlaycount13.Location = new System.Drawing.Point(523, 610);
             this.lblTopArtistPlaycount13.Name = "lblTopArtistPlaycount13";
             this.lblTopArtistPlaycount13.Size = new System.Drawing.Size(78, 48);
             this.lblTopArtistPlaycount13.TabIndex = 134;
@@ -2484,7 +2484,7 @@ namespace Audiograph
             // 
             this.lblTopArtistPlaycount12.ContextMenuStrip = this.cmsChartArtist;
             this.lblTopArtistPlaycount12.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopArtistPlaycount12.Location = new System.Drawing.Point(522, 561);
+            this.lblTopArtistPlaycount12.Location = new System.Drawing.Point(523, 561);
             this.lblTopArtistPlaycount12.Name = "lblTopArtistPlaycount12";
             this.lblTopArtistPlaycount12.Size = new System.Drawing.Size(78, 48);
             this.lblTopArtistPlaycount12.TabIndex = 133;
@@ -2495,7 +2495,7 @@ namespace Audiograph
             // 
             this.lblTopArtistPlaycount11.ContextMenuStrip = this.cmsChartArtist;
             this.lblTopArtistPlaycount11.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopArtistPlaycount11.Location = new System.Drawing.Point(522, 512);
+            this.lblTopArtistPlaycount11.Location = new System.Drawing.Point(523, 512);
             this.lblTopArtistPlaycount11.Name = "lblTopArtistPlaycount11";
             this.lblTopArtistPlaycount11.Size = new System.Drawing.Size(78, 48);
             this.lblTopArtistPlaycount11.TabIndex = 132;
@@ -2506,7 +2506,7 @@ namespace Audiograph
             // 
             this.lblTopArtistPlaycount10.ContextMenuStrip = this.cmsChartArtist;
             this.lblTopArtistPlaycount10.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopArtistPlaycount10.Location = new System.Drawing.Point(522, 463);
+            this.lblTopArtistPlaycount10.Location = new System.Drawing.Point(523, 463);
             this.lblTopArtistPlaycount10.Name = "lblTopArtistPlaycount10";
             this.lblTopArtistPlaycount10.Size = new System.Drawing.Size(78, 48);
             this.lblTopArtistPlaycount10.TabIndex = 131;
@@ -2517,7 +2517,7 @@ namespace Audiograph
             // 
             this.lblTopArtistPlaycount9.ContextMenuStrip = this.cmsChartArtist;
             this.lblTopArtistPlaycount9.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopArtistPlaycount9.Location = new System.Drawing.Point(522, 414);
+            this.lblTopArtistPlaycount9.Location = new System.Drawing.Point(523, 414);
             this.lblTopArtistPlaycount9.Name = "lblTopArtistPlaycount9";
             this.lblTopArtistPlaycount9.Size = new System.Drawing.Size(78, 48);
             this.lblTopArtistPlaycount9.TabIndex = 130;
@@ -2528,7 +2528,7 @@ namespace Audiograph
             // 
             this.lblTopArtistPlaycount8.ContextMenuStrip = this.cmsChartArtist;
             this.lblTopArtistPlaycount8.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopArtistPlaycount8.Location = new System.Drawing.Point(522, 365);
+            this.lblTopArtistPlaycount8.Location = new System.Drawing.Point(523, 365);
             this.lblTopArtistPlaycount8.Name = "lblTopArtistPlaycount8";
             this.lblTopArtistPlaycount8.Size = new System.Drawing.Size(78, 48);
             this.lblTopArtistPlaycount8.TabIndex = 129;
@@ -2539,7 +2539,7 @@ namespace Audiograph
             // 
             this.lblTopArtistPlaycount7.ContextMenuStrip = this.cmsChartArtist;
             this.lblTopArtistPlaycount7.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopArtistPlaycount7.Location = new System.Drawing.Point(522, 316);
+            this.lblTopArtistPlaycount7.Location = new System.Drawing.Point(523, 316);
             this.lblTopArtistPlaycount7.Name = "lblTopArtistPlaycount7";
             this.lblTopArtistPlaycount7.Size = new System.Drawing.Size(78, 48);
             this.lblTopArtistPlaycount7.TabIndex = 128;
@@ -2550,7 +2550,7 @@ namespace Audiograph
             // 
             this.lblTopArtistPlaycount6.ContextMenuStrip = this.cmsChartArtist;
             this.lblTopArtistPlaycount6.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopArtistPlaycount6.Location = new System.Drawing.Point(522, 267);
+            this.lblTopArtistPlaycount6.Location = new System.Drawing.Point(523, 267);
             this.lblTopArtistPlaycount6.Name = "lblTopArtistPlaycount6";
             this.lblTopArtistPlaycount6.Size = new System.Drawing.Size(78, 48);
             this.lblTopArtistPlaycount6.TabIndex = 127;
@@ -2561,7 +2561,7 @@ namespace Audiograph
             // 
             this.lblTopArtistPlaycount5.ContextMenuStrip = this.cmsChartArtist;
             this.lblTopArtistPlaycount5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopArtistPlaycount5.Location = new System.Drawing.Point(522, 218);
+            this.lblTopArtistPlaycount5.Location = new System.Drawing.Point(523, 218);
             this.lblTopArtistPlaycount5.Name = "lblTopArtistPlaycount5";
             this.lblTopArtistPlaycount5.Size = new System.Drawing.Size(78, 48);
             this.lblTopArtistPlaycount5.TabIndex = 126;
@@ -2572,7 +2572,7 @@ namespace Audiograph
             // 
             this.lblTopArtistPlaycount4.ContextMenuStrip = this.cmsChartArtist;
             this.lblTopArtistPlaycount4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopArtistPlaycount4.Location = new System.Drawing.Point(522, 169);
+            this.lblTopArtistPlaycount4.Location = new System.Drawing.Point(523, 169);
             this.lblTopArtistPlaycount4.Name = "lblTopArtistPlaycount4";
             this.lblTopArtistPlaycount4.Size = new System.Drawing.Size(78, 48);
             this.lblTopArtistPlaycount4.TabIndex = 125;
@@ -2583,7 +2583,7 @@ namespace Audiograph
             // 
             this.lblTopArtistPlaycount3.ContextMenuStrip = this.cmsChartArtist;
             this.lblTopArtistPlaycount3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopArtistPlaycount3.Location = new System.Drawing.Point(522, 120);
+            this.lblTopArtistPlaycount3.Location = new System.Drawing.Point(523, 120);
             this.lblTopArtistPlaycount3.Name = "lblTopArtistPlaycount3";
             this.lblTopArtistPlaycount3.Size = new System.Drawing.Size(78, 48);
             this.lblTopArtistPlaycount3.TabIndex = 124;
@@ -2594,7 +2594,7 @@ namespace Audiograph
             // 
             this.lblTopArtistPlaycount2.ContextMenuStrip = this.cmsChartArtist;
             this.lblTopArtistPlaycount2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopArtistPlaycount2.Location = new System.Drawing.Point(522, 71);
+            this.lblTopArtistPlaycount2.Location = new System.Drawing.Point(523, 71);
             this.lblTopArtistPlaycount2.Name = "lblTopArtistPlaycount2";
             this.lblTopArtistPlaycount2.Size = new System.Drawing.Size(78, 48);
             this.lblTopArtistPlaycount2.TabIndex = 123;
@@ -2605,7 +2605,7 @@ namespace Audiograph
             // 
             this.lblTopArtistPlaycount1.ContextMenuStrip = this.cmsChartArtist;
             this.lblTopArtistPlaycount1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopArtistPlaycount1.Location = new System.Drawing.Point(522, 22);
+            this.lblTopArtistPlaycount1.Location = new System.Drawing.Point(523, 22);
             this.lblTopArtistPlaycount1.Name = "lblTopArtistPlaycount1";
             this.lblTopArtistPlaycount1.Size = new System.Drawing.Size(78, 48);
             this.lblTopArtistPlaycount1.TabIndex = 122;
@@ -2615,7 +2615,7 @@ namespace Audiograph
             // Label8
             // 
             this.Label8.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Label8.Location = new System.Drawing.Point(522, 1);
+            this.Label8.Location = new System.Drawing.Point(523, 1);
             this.Label8.Name = "Label8";
             this.Label8.Size = new System.Drawing.Size(78, 20);
             this.Label8.TabIndex = 121;
@@ -2628,7 +2628,7 @@ namespace Audiograph
             this.lblTopArtistListeners20.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblTopArtistListeners20.Location = new System.Drawing.Point(439, 953);
             this.lblTopArtistListeners20.Name = "lblTopArtistListeners20";
-            this.lblTopArtistListeners20.Size = new System.Drawing.Size(76, 48);
+            this.lblTopArtistListeners20.Size = new System.Drawing.Size(77, 48);
             this.lblTopArtistListeners20.TabIndex = 120;
             this.lblTopArtistListeners20.Text = "(Unavailable)";
             this.lblTopArtistListeners20.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -2639,7 +2639,7 @@ namespace Audiograph
             this.lblTopArtistListeners19.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblTopArtistListeners19.Location = new System.Drawing.Point(439, 904);
             this.lblTopArtistListeners19.Name = "lblTopArtistListeners19";
-            this.lblTopArtistListeners19.Size = new System.Drawing.Size(76, 48);
+            this.lblTopArtistListeners19.Size = new System.Drawing.Size(77, 48);
             this.lblTopArtistListeners19.TabIndex = 119;
             this.lblTopArtistListeners19.Text = "(Unavailable)";
             this.lblTopArtistListeners19.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -2650,7 +2650,7 @@ namespace Audiograph
             this.lblTopArtistListeners18.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblTopArtistListeners18.Location = new System.Drawing.Point(439, 855);
             this.lblTopArtistListeners18.Name = "lblTopArtistListeners18";
-            this.lblTopArtistListeners18.Size = new System.Drawing.Size(76, 48);
+            this.lblTopArtistListeners18.Size = new System.Drawing.Size(77, 48);
             this.lblTopArtistListeners18.TabIndex = 118;
             this.lblTopArtistListeners18.Text = "(Unavailable)";
             this.lblTopArtistListeners18.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -2661,7 +2661,7 @@ namespace Audiograph
             this.lblTopArtistListeners17.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblTopArtistListeners17.Location = new System.Drawing.Point(439, 806);
             this.lblTopArtistListeners17.Name = "lblTopArtistListeners17";
-            this.lblTopArtistListeners17.Size = new System.Drawing.Size(76, 48);
+            this.lblTopArtistListeners17.Size = new System.Drawing.Size(77, 48);
             this.lblTopArtistListeners17.TabIndex = 117;
             this.lblTopArtistListeners17.Text = "(Unavailable)";
             this.lblTopArtistListeners17.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -2672,7 +2672,7 @@ namespace Audiograph
             this.lblTopArtistListeners16.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblTopArtistListeners16.Location = new System.Drawing.Point(439, 757);
             this.lblTopArtistListeners16.Name = "lblTopArtistListeners16";
-            this.lblTopArtistListeners16.Size = new System.Drawing.Size(76, 48);
+            this.lblTopArtistListeners16.Size = new System.Drawing.Size(77, 48);
             this.lblTopArtistListeners16.TabIndex = 116;
             this.lblTopArtistListeners16.Text = "(Unavailable)";
             this.lblTopArtistListeners16.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -2683,7 +2683,7 @@ namespace Audiograph
             this.lblTopArtistListeners15.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblTopArtistListeners15.Location = new System.Drawing.Point(439, 708);
             this.lblTopArtistListeners15.Name = "lblTopArtistListeners15";
-            this.lblTopArtistListeners15.Size = new System.Drawing.Size(76, 48);
+            this.lblTopArtistListeners15.Size = new System.Drawing.Size(77, 48);
             this.lblTopArtistListeners15.TabIndex = 115;
             this.lblTopArtistListeners15.Text = "(Unavailable)";
             this.lblTopArtistListeners15.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -2694,7 +2694,7 @@ namespace Audiograph
             this.lblTopArtistListeners14.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblTopArtistListeners14.Location = new System.Drawing.Point(439, 659);
             this.lblTopArtistListeners14.Name = "lblTopArtistListeners14";
-            this.lblTopArtistListeners14.Size = new System.Drawing.Size(76, 48);
+            this.lblTopArtistListeners14.Size = new System.Drawing.Size(77, 48);
             this.lblTopArtistListeners14.TabIndex = 114;
             this.lblTopArtistListeners14.Text = "(Unavailable)";
             this.lblTopArtistListeners14.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -2705,7 +2705,7 @@ namespace Audiograph
             this.lblTopArtistListeners13.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblTopArtistListeners13.Location = new System.Drawing.Point(439, 610);
             this.lblTopArtistListeners13.Name = "lblTopArtistListeners13";
-            this.lblTopArtistListeners13.Size = new System.Drawing.Size(76, 48);
+            this.lblTopArtistListeners13.Size = new System.Drawing.Size(77, 48);
             this.lblTopArtistListeners13.TabIndex = 113;
             this.lblTopArtistListeners13.Text = "(Unavailable)";
             this.lblTopArtistListeners13.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -2716,7 +2716,7 @@ namespace Audiograph
             this.lblTopArtistListeners12.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblTopArtistListeners12.Location = new System.Drawing.Point(439, 561);
             this.lblTopArtistListeners12.Name = "lblTopArtistListeners12";
-            this.lblTopArtistListeners12.Size = new System.Drawing.Size(76, 48);
+            this.lblTopArtistListeners12.Size = new System.Drawing.Size(77, 48);
             this.lblTopArtistListeners12.TabIndex = 112;
             this.lblTopArtistListeners12.Text = "(Unavailable)";
             this.lblTopArtistListeners12.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -2727,7 +2727,7 @@ namespace Audiograph
             this.lblTopArtistListeners11.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblTopArtistListeners11.Location = new System.Drawing.Point(439, 512);
             this.lblTopArtistListeners11.Name = "lblTopArtistListeners11";
-            this.lblTopArtistListeners11.Size = new System.Drawing.Size(76, 48);
+            this.lblTopArtistListeners11.Size = new System.Drawing.Size(77, 48);
             this.lblTopArtistListeners11.TabIndex = 111;
             this.lblTopArtistListeners11.Text = "(Unavailable)";
             this.lblTopArtistListeners11.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -2738,7 +2738,7 @@ namespace Audiograph
             this.lblTopArtistListeners10.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblTopArtistListeners10.Location = new System.Drawing.Point(439, 463);
             this.lblTopArtistListeners10.Name = "lblTopArtistListeners10";
-            this.lblTopArtistListeners10.Size = new System.Drawing.Size(76, 48);
+            this.lblTopArtistListeners10.Size = new System.Drawing.Size(77, 48);
             this.lblTopArtistListeners10.TabIndex = 110;
             this.lblTopArtistListeners10.Text = "(Unavailable)";
             this.lblTopArtistListeners10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -2749,7 +2749,7 @@ namespace Audiograph
             this.lblTopArtistListeners9.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblTopArtistListeners9.Location = new System.Drawing.Point(439, 414);
             this.lblTopArtistListeners9.Name = "lblTopArtistListeners9";
-            this.lblTopArtistListeners9.Size = new System.Drawing.Size(76, 48);
+            this.lblTopArtistListeners9.Size = new System.Drawing.Size(77, 48);
             this.lblTopArtistListeners9.TabIndex = 109;
             this.lblTopArtistListeners9.Text = "(Unavailable)";
             this.lblTopArtistListeners9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -2760,7 +2760,7 @@ namespace Audiograph
             this.lblTopArtistListeners8.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblTopArtistListeners8.Location = new System.Drawing.Point(439, 365);
             this.lblTopArtistListeners8.Name = "lblTopArtistListeners8";
-            this.lblTopArtistListeners8.Size = new System.Drawing.Size(76, 48);
+            this.lblTopArtistListeners8.Size = new System.Drawing.Size(77, 48);
             this.lblTopArtistListeners8.TabIndex = 108;
             this.lblTopArtistListeners8.Text = "(Unavailable)";
             this.lblTopArtistListeners8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -2771,7 +2771,7 @@ namespace Audiograph
             this.lblTopArtistListeners7.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblTopArtistListeners7.Location = new System.Drawing.Point(439, 316);
             this.lblTopArtistListeners7.Name = "lblTopArtistListeners7";
-            this.lblTopArtistListeners7.Size = new System.Drawing.Size(76, 48);
+            this.lblTopArtistListeners7.Size = new System.Drawing.Size(77, 48);
             this.lblTopArtistListeners7.TabIndex = 107;
             this.lblTopArtistListeners7.Text = "(Unavailable)";
             this.lblTopArtistListeners7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -2782,7 +2782,7 @@ namespace Audiograph
             this.lblTopArtistListeners6.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblTopArtistListeners6.Location = new System.Drawing.Point(439, 267);
             this.lblTopArtistListeners6.Name = "lblTopArtistListeners6";
-            this.lblTopArtistListeners6.Size = new System.Drawing.Size(76, 48);
+            this.lblTopArtistListeners6.Size = new System.Drawing.Size(77, 48);
             this.lblTopArtistListeners6.TabIndex = 106;
             this.lblTopArtistListeners6.Text = "(Unavailable)";
             this.lblTopArtistListeners6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -2793,7 +2793,7 @@ namespace Audiograph
             this.lblTopArtistListeners5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblTopArtistListeners5.Location = new System.Drawing.Point(439, 218);
             this.lblTopArtistListeners5.Name = "lblTopArtistListeners5";
-            this.lblTopArtistListeners5.Size = new System.Drawing.Size(76, 48);
+            this.lblTopArtistListeners5.Size = new System.Drawing.Size(77, 48);
             this.lblTopArtistListeners5.TabIndex = 105;
             this.lblTopArtistListeners5.Text = "(Unavailable)";
             this.lblTopArtistListeners5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -2804,7 +2804,7 @@ namespace Audiograph
             this.lblTopArtistListeners4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblTopArtistListeners4.Location = new System.Drawing.Point(439, 169);
             this.lblTopArtistListeners4.Name = "lblTopArtistListeners4";
-            this.lblTopArtistListeners4.Size = new System.Drawing.Size(76, 48);
+            this.lblTopArtistListeners4.Size = new System.Drawing.Size(77, 48);
             this.lblTopArtistListeners4.TabIndex = 104;
             this.lblTopArtistListeners4.Text = "(Unavailable)";
             this.lblTopArtistListeners4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -2815,7 +2815,7 @@ namespace Audiograph
             this.lblTopArtistListeners3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblTopArtistListeners3.Location = new System.Drawing.Point(439, 120);
             this.lblTopArtistListeners3.Name = "lblTopArtistListeners3";
-            this.lblTopArtistListeners3.Size = new System.Drawing.Size(76, 48);
+            this.lblTopArtistListeners3.Size = new System.Drawing.Size(77, 48);
             this.lblTopArtistListeners3.TabIndex = 103;
             this.lblTopArtistListeners3.Tag = "";
             this.lblTopArtistListeners3.Text = "(Unavailable)";
@@ -2827,7 +2827,7 @@ namespace Audiograph
             this.lblTopArtistListeners2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblTopArtistListeners2.Location = new System.Drawing.Point(439, 71);
             this.lblTopArtistListeners2.Name = "lblTopArtistListeners2";
-            this.lblTopArtistListeners2.Size = new System.Drawing.Size(76, 48);
+            this.lblTopArtistListeners2.Size = new System.Drawing.Size(77, 48);
             this.lblTopArtistListeners2.TabIndex = 102;
             this.lblTopArtistListeners2.Text = "(Unavailable)";
             this.lblTopArtistListeners2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -2838,7 +2838,7 @@ namespace Audiograph
             this.lblTopArtistListeners1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblTopArtistListeners1.Location = new System.Drawing.Point(439, 22);
             this.lblTopArtistListeners1.Name = "lblTopArtistListeners1";
-            this.lblTopArtistListeners1.Size = new System.Drawing.Size(76, 48);
+            this.lblTopArtistListeners1.Size = new System.Drawing.Size(77, 48);
             this.lblTopArtistListeners1.TabIndex = 101;
             this.lblTopArtistListeners1.Text = "(Unavailable)";
             this.lblTopArtistListeners1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -2848,7 +2848,7 @@ namespace Audiograph
             this.Label7.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Label7.Location = new System.Drawing.Point(439, 1);
             this.Label7.Name = "Label7";
-            this.Label7.Size = new System.Drawing.Size(76, 20);
+            this.Label7.Size = new System.Drawing.Size(77, 20);
             this.Label7.TabIndex = 100;
             this.Label7.Text = "Listeners";
             this.Label7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -3516,9 +3516,9 @@ namespace Audiograph
             // 
             this.lblTopTracksListeners20.ContextMenuStrip = this.cmsChartTrack;
             this.lblTopTracksListeners20.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopTracksListeners20.Location = new System.Drawing.Point(529, 953);
+            this.lblTopTracksListeners20.Location = new System.Drawing.Point(532, 953);
             this.lblTopTracksListeners20.Name = "lblTopTracksListeners20";
-            this.lblTopTracksListeners20.Size = new System.Drawing.Size(72, 48);
+            this.lblTopTracksListeners20.Size = new System.Drawing.Size(70, 48);
             this.lblTopTracksListeners20.TabIndex = 156;
             this.lblTopTracksListeners20.Text = "(Unavailable)";
             this.lblTopTracksListeners20.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -3589,9 +3589,9 @@ namespace Audiograph
             // 
             this.lblTopTracksListeners19.ContextMenuStrip = this.cmsChartTrack;
             this.lblTopTracksListeners19.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopTracksListeners19.Location = new System.Drawing.Point(529, 904);
+            this.lblTopTracksListeners19.Location = new System.Drawing.Point(532, 904);
             this.lblTopTracksListeners19.Name = "lblTopTracksListeners19";
-            this.lblTopTracksListeners19.Size = new System.Drawing.Size(72, 48);
+            this.lblTopTracksListeners19.Size = new System.Drawing.Size(70, 48);
             this.lblTopTracksListeners19.TabIndex = 155;
             this.lblTopTracksListeners19.Text = "(Unavailable)";
             this.lblTopTracksListeners19.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -3600,9 +3600,9 @@ namespace Audiograph
             // 
             this.lblTopTracksListeners18.ContextMenuStrip = this.cmsChartTrack;
             this.lblTopTracksListeners18.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopTracksListeners18.Location = new System.Drawing.Point(529, 855);
+            this.lblTopTracksListeners18.Location = new System.Drawing.Point(532, 855);
             this.lblTopTracksListeners18.Name = "lblTopTracksListeners18";
-            this.lblTopTracksListeners18.Size = new System.Drawing.Size(72, 48);
+            this.lblTopTracksListeners18.Size = new System.Drawing.Size(70, 48);
             this.lblTopTracksListeners18.TabIndex = 154;
             this.lblTopTracksListeners18.Text = "(Unavailable)";
             this.lblTopTracksListeners18.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -3611,9 +3611,9 @@ namespace Audiograph
             // 
             this.lblTopTracksListeners17.ContextMenuStrip = this.cmsChartTrack;
             this.lblTopTracksListeners17.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopTracksListeners17.Location = new System.Drawing.Point(529, 806);
+            this.lblTopTracksListeners17.Location = new System.Drawing.Point(532, 806);
             this.lblTopTracksListeners17.Name = "lblTopTracksListeners17";
-            this.lblTopTracksListeners17.Size = new System.Drawing.Size(72, 48);
+            this.lblTopTracksListeners17.Size = new System.Drawing.Size(70, 48);
             this.lblTopTracksListeners17.TabIndex = 153;
             this.lblTopTracksListeners17.Text = "(Unavailable)";
             this.lblTopTracksListeners17.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -3622,9 +3622,9 @@ namespace Audiograph
             // 
             this.lblTopTracksListeners16.ContextMenuStrip = this.cmsChartTrack;
             this.lblTopTracksListeners16.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopTracksListeners16.Location = new System.Drawing.Point(529, 757);
+            this.lblTopTracksListeners16.Location = new System.Drawing.Point(532, 757);
             this.lblTopTracksListeners16.Name = "lblTopTracksListeners16";
-            this.lblTopTracksListeners16.Size = new System.Drawing.Size(72, 48);
+            this.lblTopTracksListeners16.Size = new System.Drawing.Size(70, 48);
             this.lblTopTracksListeners16.TabIndex = 152;
             this.lblTopTracksListeners16.Text = "(Unavailable)";
             this.lblTopTracksListeners16.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -3633,9 +3633,9 @@ namespace Audiograph
             // 
             this.lblTopTracksListeners15.ContextMenuStrip = this.cmsChartTrack;
             this.lblTopTracksListeners15.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopTracksListeners15.Location = new System.Drawing.Point(529, 708);
+            this.lblTopTracksListeners15.Location = new System.Drawing.Point(532, 708);
             this.lblTopTracksListeners15.Name = "lblTopTracksListeners15";
-            this.lblTopTracksListeners15.Size = new System.Drawing.Size(72, 48);
+            this.lblTopTracksListeners15.Size = new System.Drawing.Size(70, 48);
             this.lblTopTracksListeners15.TabIndex = 151;
             this.lblTopTracksListeners15.Text = "(Unavailable)";
             this.lblTopTracksListeners15.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -3644,9 +3644,9 @@ namespace Audiograph
             // 
             this.lblTopTracksListeners14.ContextMenuStrip = this.cmsChartTrack;
             this.lblTopTracksListeners14.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopTracksListeners14.Location = new System.Drawing.Point(529, 659);
+            this.lblTopTracksListeners14.Location = new System.Drawing.Point(532, 659);
             this.lblTopTracksListeners14.Name = "lblTopTracksListeners14";
-            this.lblTopTracksListeners14.Size = new System.Drawing.Size(72, 48);
+            this.lblTopTracksListeners14.Size = new System.Drawing.Size(70, 48);
             this.lblTopTracksListeners14.TabIndex = 150;
             this.lblTopTracksListeners14.Text = "(Unavailable)";
             this.lblTopTracksListeners14.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -3655,9 +3655,9 @@ namespace Audiograph
             // 
             this.lblTopTracksListeners13.ContextMenuStrip = this.cmsChartTrack;
             this.lblTopTracksListeners13.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopTracksListeners13.Location = new System.Drawing.Point(529, 610);
+            this.lblTopTracksListeners13.Location = new System.Drawing.Point(532, 610);
             this.lblTopTracksListeners13.Name = "lblTopTracksListeners13";
-            this.lblTopTracksListeners13.Size = new System.Drawing.Size(72, 48);
+            this.lblTopTracksListeners13.Size = new System.Drawing.Size(70, 48);
             this.lblTopTracksListeners13.TabIndex = 149;
             this.lblTopTracksListeners13.Text = "(Unavailable)";
             this.lblTopTracksListeners13.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -3666,9 +3666,9 @@ namespace Audiograph
             // 
             this.lblTopTracksListeners12.ContextMenuStrip = this.cmsChartTrack;
             this.lblTopTracksListeners12.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopTracksListeners12.Location = new System.Drawing.Point(529, 561);
+            this.lblTopTracksListeners12.Location = new System.Drawing.Point(532, 561);
             this.lblTopTracksListeners12.Name = "lblTopTracksListeners12";
-            this.lblTopTracksListeners12.Size = new System.Drawing.Size(72, 48);
+            this.lblTopTracksListeners12.Size = new System.Drawing.Size(70, 48);
             this.lblTopTracksListeners12.TabIndex = 148;
             this.lblTopTracksListeners12.Text = "(Unavailable)";
             this.lblTopTracksListeners12.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -3677,9 +3677,9 @@ namespace Audiograph
             // 
             this.lblTopTracksListeners11.ContextMenuStrip = this.cmsChartTrack;
             this.lblTopTracksListeners11.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopTracksListeners11.Location = new System.Drawing.Point(529, 512);
+            this.lblTopTracksListeners11.Location = new System.Drawing.Point(532, 512);
             this.lblTopTracksListeners11.Name = "lblTopTracksListeners11";
-            this.lblTopTracksListeners11.Size = new System.Drawing.Size(72, 48);
+            this.lblTopTracksListeners11.Size = new System.Drawing.Size(70, 48);
             this.lblTopTracksListeners11.TabIndex = 147;
             this.lblTopTracksListeners11.Text = "(Unavailable)";
             this.lblTopTracksListeners11.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -3688,9 +3688,9 @@ namespace Audiograph
             // 
             this.lblTopTracksListeners10.ContextMenuStrip = this.cmsChartTrack;
             this.lblTopTracksListeners10.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopTracksListeners10.Location = new System.Drawing.Point(529, 463);
+            this.lblTopTracksListeners10.Location = new System.Drawing.Point(532, 463);
             this.lblTopTracksListeners10.Name = "lblTopTracksListeners10";
-            this.lblTopTracksListeners10.Size = new System.Drawing.Size(72, 48);
+            this.lblTopTracksListeners10.Size = new System.Drawing.Size(70, 48);
             this.lblTopTracksListeners10.TabIndex = 146;
             this.lblTopTracksListeners10.Text = "(Unavailable)";
             this.lblTopTracksListeners10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -3699,9 +3699,9 @@ namespace Audiograph
             // 
             this.lblTopTracksListeners9.ContextMenuStrip = this.cmsChartTrack;
             this.lblTopTracksListeners9.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopTracksListeners9.Location = new System.Drawing.Point(529, 414);
+            this.lblTopTracksListeners9.Location = new System.Drawing.Point(532, 414);
             this.lblTopTracksListeners9.Name = "lblTopTracksListeners9";
-            this.lblTopTracksListeners9.Size = new System.Drawing.Size(72, 48);
+            this.lblTopTracksListeners9.Size = new System.Drawing.Size(70, 48);
             this.lblTopTracksListeners9.TabIndex = 145;
             this.lblTopTracksListeners9.Text = "(Unavailable)";
             this.lblTopTracksListeners9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -3710,9 +3710,9 @@ namespace Audiograph
             // 
             this.lblTopTracksListeners8.ContextMenuStrip = this.cmsChartTrack;
             this.lblTopTracksListeners8.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopTracksListeners8.Location = new System.Drawing.Point(529, 365);
+            this.lblTopTracksListeners8.Location = new System.Drawing.Point(532, 365);
             this.lblTopTracksListeners8.Name = "lblTopTracksListeners8";
-            this.lblTopTracksListeners8.Size = new System.Drawing.Size(72, 48);
+            this.lblTopTracksListeners8.Size = new System.Drawing.Size(70, 48);
             this.lblTopTracksListeners8.TabIndex = 144;
             this.lblTopTracksListeners8.Text = "(Unavailable)";
             this.lblTopTracksListeners8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -3721,9 +3721,9 @@ namespace Audiograph
             // 
             this.lblTopTracksListeners7.ContextMenuStrip = this.cmsChartTrack;
             this.lblTopTracksListeners7.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopTracksListeners7.Location = new System.Drawing.Point(529, 316);
+            this.lblTopTracksListeners7.Location = new System.Drawing.Point(532, 316);
             this.lblTopTracksListeners7.Name = "lblTopTracksListeners7";
-            this.lblTopTracksListeners7.Size = new System.Drawing.Size(72, 48);
+            this.lblTopTracksListeners7.Size = new System.Drawing.Size(70, 48);
             this.lblTopTracksListeners7.TabIndex = 143;
             this.lblTopTracksListeners7.Text = "(Unavailable)";
             this.lblTopTracksListeners7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -3732,9 +3732,9 @@ namespace Audiograph
             // 
             this.lblTopTracksListeners6.ContextMenuStrip = this.cmsChartTrack;
             this.lblTopTracksListeners6.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopTracksListeners6.Location = new System.Drawing.Point(529, 267);
+            this.lblTopTracksListeners6.Location = new System.Drawing.Point(532, 267);
             this.lblTopTracksListeners6.Name = "lblTopTracksListeners6";
-            this.lblTopTracksListeners6.Size = new System.Drawing.Size(72, 48);
+            this.lblTopTracksListeners6.Size = new System.Drawing.Size(70, 48);
             this.lblTopTracksListeners6.TabIndex = 142;
             this.lblTopTracksListeners6.Text = "(Unavailable)";
             this.lblTopTracksListeners6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -3743,9 +3743,9 @@ namespace Audiograph
             // 
             this.lblTopTracksListeners5.ContextMenuStrip = this.cmsChartTrack;
             this.lblTopTracksListeners5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopTracksListeners5.Location = new System.Drawing.Point(529, 218);
+            this.lblTopTracksListeners5.Location = new System.Drawing.Point(532, 218);
             this.lblTopTracksListeners5.Name = "lblTopTracksListeners5";
-            this.lblTopTracksListeners5.Size = new System.Drawing.Size(72, 48);
+            this.lblTopTracksListeners5.Size = new System.Drawing.Size(70, 48);
             this.lblTopTracksListeners5.TabIndex = 141;
             this.lblTopTracksListeners5.Text = "(Unavailable)";
             this.lblTopTracksListeners5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -3754,9 +3754,9 @@ namespace Audiograph
             // 
             this.lblTopTracksListeners4.ContextMenuStrip = this.cmsChartTrack;
             this.lblTopTracksListeners4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopTracksListeners4.Location = new System.Drawing.Point(529, 169);
+            this.lblTopTracksListeners4.Location = new System.Drawing.Point(532, 169);
             this.lblTopTracksListeners4.Name = "lblTopTracksListeners4";
-            this.lblTopTracksListeners4.Size = new System.Drawing.Size(72, 48);
+            this.lblTopTracksListeners4.Size = new System.Drawing.Size(70, 48);
             this.lblTopTracksListeners4.TabIndex = 140;
             this.lblTopTracksListeners4.Text = "(Unavailable)";
             this.lblTopTracksListeners4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -3765,9 +3765,9 @@ namespace Audiograph
             // 
             this.lblTopTracksListeners3.ContextMenuStrip = this.cmsChartTrack;
             this.lblTopTracksListeners3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopTracksListeners3.Location = new System.Drawing.Point(529, 120);
+            this.lblTopTracksListeners3.Location = new System.Drawing.Point(532, 120);
             this.lblTopTracksListeners3.Name = "lblTopTracksListeners3";
-            this.lblTopTracksListeners3.Size = new System.Drawing.Size(72, 48);
+            this.lblTopTracksListeners3.Size = new System.Drawing.Size(70, 48);
             this.lblTopTracksListeners3.TabIndex = 139;
             this.lblTopTracksListeners3.Text = "(Unavailable)";
             this.lblTopTracksListeners3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -3776,9 +3776,9 @@ namespace Audiograph
             // 
             this.lblTopTracksListeners2.ContextMenuStrip = this.cmsChartTrack;
             this.lblTopTracksListeners2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopTracksListeners2.Location = new System.Drawing.Point(529, 71);
+            this.lblTopTracksListeners2.Location = new System.Drawing.Point(532, 71);
             this.lblTopTracksListeners2.Name = "lblTopTracksListeners2";
-            this.lblTopTracksListeners2.Size = new System.Drawing.Size(72, 48);
+            this.lblTopTracksListeners2.Size = new System.Drawing.Size(70, 48);
             this.lblTopTracksListeners2.TabIndex = 138;
             this.lblTopTracksListeners2.Text = "(Unavailable)";
             this.lblTopTracksListeners2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -3787,9 +3787,9 @@ namespace Audiograph
             // 
             this.lblTopTracksListeners1.ContextMenuStrip = this.cmsChartTrack;
             this.lblTopTracksListeners1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopTracksListeners1.Location = new System.Drawing.Point(529, 22);
+            this.lblTopTracksListeners1.Location = new System.Drawing.Point(532, 22);
             this.lblTopTracksListeners1.Name = "lblTopTracksListeners1";
-            this.lblTopTracksListeners1.Size = new System.Drawing.Size(72, 48);
+            this.lblTopTracksListeners1.Size = new System.Drawing.Size(70, 48);
             this.lblTopTracksListeners1.TabIndex = 137;
             this.lblTopTracksListeners1.Text = "(Unavailable)";
             this.lblTopTracksListeners1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -3797,9 +3797,9 @@ namespace Audiograph
             // Label93
             // 
             this.Label93.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Label93.Location = new System.Drawing.Point(529, 1);
+            this.Label93.Location = new System.Drawing.Point(532, 1);
             this.Label93.Name = "Label93";
-            this.Label93.Size = new System.Drawing.Size(72, 20);
+            this.Label93.Size = new System.Drawing.Size(70, 20);
             this.Label93.TabIndex = 136;
             this.Label93.Text = "Listeners";
             this.Label93.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -3809,9 +3809,9 @@ namespace Audiograph
             this.lblTopTrackAlbum20.ContextMenuStrip = this.cmsChartTrack;
             this.lblTopTrackAlbum20.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblTopTrackAlbum20.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopTrackAlbum20.Location = new System.Drawing.Point(379, 953);
+            this.lblTopTrackAlbum20.Location = new System.Drawing.Point(381, 953);
             this.lblTopTrackAlbum20.Name = "lblTopTrackAlbum20";
-            this.lblTopTrackAlbum20.Size = new System.Drawing.Size(143, 48);
+            this.lblTopTrackAlbum20.Size = new System.Drawing.Size(144, 48);
             this.lblTopTrackAlbum20.TabIndex = 135;
             this.lblTopTrackAlbum20.Text = "(Unavailable)";
             this.lblTopTrackAlbum20.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -3822,9 +3822,9 @@ namespace Audiograph
             this.lblTopTrackArtist20.ContextMenuStrip = this.cmsChartTrack;
             this.lblTopTrackArtist20.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblTopTrackArtist20.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopTrackArtist20.Location = new System.Drawing.Point(229, 953);
+            this.lblTopTrackArtist20.Location = new System.Drawing.Point(230, 953);
             this.lblTopTrackArtist20.Name = "lblTopTrackArtist20";
-            this.lblTopTrackArtist20.Size = new System.Drawing.Size(143, 48);
+            this.lblTopTrackArtist20.Size = new System.Drawing.Size(144, 48);
             this.lblTopTrackArtist20.TabIndex = 134;
             this.lblTopTrackArtist20.Text = "(Unavailable)";
             this.lblTopTrackArtist20.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -3837,7 +3837,7 @@ namespace Audiograph
             this.lblTopTrackTitle20.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblTopTrackTitle20.Location = new System.Drawing.Point(79, 953);
             this.lblTopTrackTitle20.Name = "lblTopTrackTitle20";
-            this.lblTopTrackTitle20.Size = new System.Drawing.Size(143, 48);
+            this.lblTopTrackTitle20.Size = new System.Drawing.Size(144, 48);
             this.lblTopTrackTitle20.TabIndex = 133;
             this.lblTopTrackTitle20.Text = "(Unavailable)";
             this.lblTopTrackTitle20.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -3913,9 +3913,9 @@ namespace Audiograph
             this.lblTopTrackAlbum19.ContextMenuStrip = this.cmsChartTrack;
             this.lblTopTrackAlbum19.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblTopTrackAlbum19.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopTrackAlbum19.Location = new System.Drawing.Point(379, 904);
+            this.lblTopTrackAlbum19.Location = new System.Drawing.Point(381, 904);
             this.lblTopTrackAlbum19.Name = "lblTopTrackAlbum19";
-            this.lblTopTrackAlbum19.Size = new System.Drawing.Size(143, 48);
+            this.lblTopTrackAlbum19.Size = new System.Drawing.Size(144, 48);
             this.lblTopTrackAlbum19.TabIndex = 130;
             this.lblTopTrackAlbum19.Text = "(Unavailable)";
             this.lblTopTrackAlbum19.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -3926,9 +3926,9 @@ namespace Audiograph
             this.lblTopTrackArtist19.ContextMenuStrip = this.cmsChartTrack;
             this.lblTopTrackArtist19.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblTopTrackArtist19.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopTrackArtist19.Location = new System.Drawing.Point(229, 904);
+            this.lblTopTrackArtist19.Location = new System.Drawing.Point(230, 904);
             this.lblTopTrackArtist19.Name = "lblTopTrackArtist19";
-            this.lblTopTrackArtist19.Size = new System.Drawing.Size(143, 48);
+            this.lblTopTrackArtist19.Size = new System.Drawing.Size(144, 48);
             this.lblTopTrackArtist19.TabIndex = 129;
             this.lblTopTrackArtist19.Text = "(Unavailable)";
             this.lblTopTrackArtist19.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -3941,7 +3941,7 @@ namespace Audiograph
             this.lblTopTrackTitle19.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblTopTrackTitle19.Location = new System.Drawing.Point(79, 904);
             this.lblTopTrackTitle19.Name = "lblTopTrackTitle19";
-            this.lblTopTrackTitle19.Size = new System.Drawing.Size(143, 48);
+            this.lblTopTrackTitle19.Size = new System.Drawing.Size(144, 48);
             this.lblTopTrackTitle19.TabIndex = 128;
             this.lblTopTrackTitle19.Text = "(Unavailable)";
             this.lblTopTrackTitle19.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -3977,9 +3977,9 @@ namespace Audiograph
             this.lblTopTrackAlbum18.ContextMenuStrip = this.cmsChartTrack;
             this.lblTopTrackAlbum18.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblTopTrackAlbum18.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopTrackAlbum18.Location = new System.Drawing.Point(379, 855);
+            this.lblTopTrackAlbum18.Location = new System.Drawing.Point(381, 855);
             this.lblTopTrackAlbum18.Name = "lblTopTrackAlbum18";
-            this.lblTopTrackAlbum18.Size = new System.Drawing.Size(143, 48);
+            this.lblTopTrackAlbum18.Size = new System.Drawing.Size(144, 48);
             this.lblTopTrackAlbum18.TabIndex = 125;
             this.lblTopTrackAlbum18.Text = "(Unavailable)";
             this.lblTopTrackAlbum18.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -3990,9 +3990,9 @@ namespace Audiograph
             this.lblTopTrackArtist18.ContextMenuStrip = this.cmsChartTrack;
             this.lblTopTrackArtist18.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblTopTrackArtist18.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopTrackArtist18.Location = new System.Drawing.Point(229, 855);
+            this.lblTopTrackArtist18.Location = new System.Drawing.Point(230, 855);
             this.lblTopTrackArtist18.Name = "lblTopTrackArtist18";
-            this.lblTopTrackArtist18.Size = new System.Drawing.Size(143, 48);
+            this.lblTopTrackArtist18.Size = new System.Drawing.Size(144, 48);
             this.lblTopTrackArtist18.TabIndex = 124;
             this.lblTopTrackArtist18.Text = "(Unavailable)";
             this.lblTopTrackArtist18.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -4005,7 +4005,7 @@ namespace Audiograph
             this.lblTopTrackTitle18.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblTopTrackTitle18.Location = new System.Drawing.Point(79, 855);
             this.lblTopTrackTitle18.Name = "lblTopTrackTitle18";
-            this.lblTopTrackTitle18.Size = new System.Drawing.Size(143, 48);
+            this.lblTopTrackTitle18.Size = new System.Drawing.Size(144, 48);
             this.lblTopTrackTitle18.TabIndex = 123;
             this.lblTopTrackTitle18.Text = "(Unavailable)";
             this.lblTopTrackTitle18.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -4041,9 +4041,9 @@ namespace Audiograph
             this.lblTopTrackAlbum17.ContextMenuStrip = this.cmsChartTrack;
             this.lblTopTrackAlbum17.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblTopTrackAlbum17.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopTrackAlbum17.Location = new System.Drawing.Point(379, 806);
+            this.lblTopTrackAlbum17.Location = new System.Drawing.Point(381, 806);
             this.lblTopTrackAlbum17.Name = "lblTopTrackAlbum17";
-            this.lblTopTrackAlbum17.Size = new System.Drawing.Size(143, 48);
+            this.lblTopTrackAlbum17.Size = new System.Drawing.Size(144, 48);
             this.lblTopTrackAlbum17.TabIndex = 120;
             this.lblTopTrackAlbum17.Text = "(Unavailable)";
             this.lblTopTrackAlbum17.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -4054,9 +4054,9 @@ namespace Audiograph
             this.lblTopTrackArtist17.ContextMenuStrip = this.cmsChartTrack;
             this.lblTopTrackArtist17.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblTopTrackArtist17.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopTrackArtist17.Location = new System.Drawing.Point(229, 806);
+            this.lblTopTrackArtist17.Location = new System.Drawing.Point(230, 806);
             this.lblTopTrackArtist17.Name = "lblTopTrackArtist17";
-            this.lblTopTrackArtist17.Size = new System.Drawing.Size(143, 48);
+            this.lblTopTrackArtist17.Size = new System.Drawing.Size(144, 48);
             this.lblTopTrackArtist17.TabIndex = 119;
             this.lblTopTrackArtist17.Text = "(Unavailable)";
             this.lblTopTrackArtist17.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -4069,7 +4069,7 @@ namespace Audiograph
             this.lblTopTrackTitle17.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblTopTrackTitle17.Location = new System.Drawing.Point(79, 806);
             this.lblTopTrackTitle17.Name = "lblTopTrackTitle17";
-            this.lblTopTrackTitle17.Size = new System.Drawing.Size(143, 48);
+            this.lblTopTrackTitle17.Size = new System.Drawing.Size(144, 48);
             this.lblTopTrackTitle17.TabIndex = 118;
             this.lblTopTrackTitle17.Text = "(Unavailable)";
             this.lblTopTrackTitle17.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -4105,9 +4105,9 @@ namespace Audiograph
             this.lblTopTrackAlbum16.ContextMenuStrip = this.cmsChartTrack;
             this.lblTopTrackAlbum16.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblTopTrackAlbum16.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopTrackAlbum16.Location = new System.Drawing.Point(379, 757);
+            this.lblTopTrackAlbum16.Location = new System.Drawing.Point(381, 757);
             this.lblTopTrackAlbum16.Name = "lblTopTrackAlbum16";
-            this.lblTopTrackAlbum16.Size = new System.Drawing.Size(143, 48);
+            this.lblTopTrackAlbum16.Size = new System.Drawing.Size(144, 48);
             this.lblTopTrackAlbum16.TabIndex = 115;
             this.lblTopTrackAlbum16.Text = "(Unavailable)";
             this.lblTopTrackAlbum16.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -4118,9 +4118,9 @@ namespace Audiograph
             this.lblTopTrackArtist16.ContextMenuStrip = this.cmsChartTrack;
             this.lblTopTrackArtist16.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblTopTrackArtist16.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopTrackArtist16.Location = new System.Drawing.Point(229, 757);
+            this.lblTopTrackArtist16.Location = new System.Drawing.Point(230, 757);
             this.lblTopTrackArtist16.Name = "lblTopTrackArtist16";
-            this.lblTopTrackArtist16.Size = new System.Drawing.Size(143, 48);
+            this.lblTopTrackArtist16.Size = new System.Drawing.Size(144, 48);
             this.lblTopTrackArtist16.TabIndex = 114;
             this.lblTopTrackArtist16.Text = "(Unavailable)";
             this.lblTopTrackArtist16.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -4133,7 +4133,7 @@ namespace Audiograph
             this.lblTopTrackTitle16.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblTopTrackTitle16.Location = new System.Drawing.Point(79, 757);
             this.lblTopTrackTitle16.Name = "lblTopTrackTitle16";
-            this.lblTopTrackTitle16.Size = new System.Drawing.Size(143, 48);
+            this.lblTopTrackTitle16.Size = new System.Drawing.Size(144, 48);
             this.lblTopTrackTitle16.TabIndex = 113;
             this.lblTopTrackTitle16.Text = "(Unavailable)";
             this.lblTopTrackTitle16.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -4169,9 +4169,9 @@ namespace Audiograph
             this.lblTopTrackAlbum15.ContextMenuStrip = this.cmsChartTrack;
             this.lblTopTrackAlbum15.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblTopTrackAlbum15.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopTrackAlbum15.Location = new System.Drawing.Point(379, 708);
+            this.lblTopTrackAlbum15.Location = new System.Drawing.Point(381, 708);
             this.lblTopTrackAlbum15.Name = "lblTopTrackAlbum15";
-            this.lblTopTrackAlbum15.Size = new System.Drawing.Size(143, 48);
+            this.lblTopTrackAlbum15.Size = new System.Drawing.Size(144, 48);
             this.lblTopTrackAlbum15.TabIndex = 110;
             this.lblTopTrackAlbum15.Text = "(Unavailable)";
             this.lblTopTrackAlbum15.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -4182,9 +4182,9 @@ namespace Audiograph
             this.lblTopTrackArtist15.ContextMenuStrip = this.cmsChartTrack;
             this.lblTopTrackArtist15.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblTopTrackArtist15.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopTrackArtist15.Location = new System.Drawing.Point(229, 708);
+            this.lblTopTrackArtist15.Location = new System.Drawing.Point(230, 708);
             this.lblTopTrackArtist15.Name = "lblTopTrackArtist15";
-            this.lblTopTrackArtist15.Size = new System.Drawing.Size(143, 48);
+            this.lblTopTrackArtist15.Size = new System.Drawing.Size(144, 48);
             this.lblTopTrackArtist15.TabIndex = 109;
             this.lblTopTrackArtist15.Text = "(Unavailable)";
             this.lblTopTrackArtist15.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -4197,7 +4197,7 @@ namespace Audiograph
             this.lblTopTrackTitle15.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblTopTrackTitle15.Location = new System.Drawing.Point(79, 708);
             this.lblTopTrackTitle15.Name = "lblTopTrackTitle15";
-            this.lblTopTrackTitle15.Size = new System.Drawing.Size(143, 48);
+            this.lblTopTrackTitle15.Size = new System.Drawing.Size(144, 48);
             this.lblTopTrackTitle15.TabIndex = 108;
             this.lblTopTrackTitle15.Text = "(Unavailable)";
             this.lblTopTrackTitle15.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -4233,9 +4233,9 @@ namespace Audiograph
             this.lblTopTrackAlbum14.ContextMenuStrip = this.cmsChartTrack;
             this.lblTopTrackAlbum14.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblTopTrackAlbum14.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopTrackAlbum14.Location = new System.Drawing.Point(379, 659);
+            this.lblTopTrackAlbum14.Location = new System.Drawing.Point(381, 659);
             this.lblTopTrackAlbum14.Name = "lblTopTrackAlbum14";
-            this.lblTopTrackAlbum14.Size = new System.Drawing.Size(143, 48);
+            this.lblTopTrackAlbum14.Size = new System.Drawing.Size(144, 48);
             this.lblTopTrackAlbum14.TabIndex = 105;
             this.lblTopTrackAlbum14.Text = "(Unavailable)";
             this.lblTopTrackAlbum14.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -4246,9 +4246,9 @@ namespace Audiograph
             this.lblTopTrackArtist14.ContextMenuStrip = this.cmsChartTrack;
             this.lblTopTrackArtist14.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblTopTrackArtist14.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopTrackArtist14.Location = new System.Drawing.Point(229, 659);
+            this.lblTopTrackArtist14.Location = new System.Drawing.Point(230, 659);
             this.lblTopTrackArtist14.Name = "lblTopTrackArtist14";
-            this.lblTopTrackArtist14.Size = new System.Drawing.Size(143, 48);
+            this.lblTopTrackArtist14.Size = new System.Drawing.Size(144, 48);
             this.lblTopTrackArtist14.TabIndex = 104;
             this.lblTopTrackArtist14.Text = "(Unavailable)";
             this.lblTopTrackArtist14.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -4261,7 +4261,7 @@ namespace Audiograph
             this.lblTopTrackTitle14.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblTopTrackTitle14.Location = new System.Drawing.Point(79, 659);
             this.lblTopTrackTitle14.Name = "lblTopTrackTitle14";
-            this.lblTopTrackTitle14.Size = new System.Drawing.Size(143, 48);
+            this.lblTopTrackTitle14.Size = new System.Drawing.Size(144, 48);
             this.lblTopTrackTitle14.TabIndex = 103;
             this.lblTopTrackTitle14.Text = "(Unavailable)";
             this.lblTopTrackTitle14.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -4297,9 +4297,9 @@ namespace Audiograph
             this.lblTopTrackAlbum13.ContextMenuStrip = this.cmsChartTrack;
             this.lblTopTrackAlbum13.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblTopTrackAlbum13.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopTrackAlbum13.Location = new System.Drawing.Point(379, 610);
+            this.lblTopTrackAlbum13.Location = new System.Drawing.Point(381, 610);
             this.lblTopTrackAlbum13.Name = "lblTopTrackAlbum13";
-            this.lblTopTrackAlbum13.Size = new System.Drawing.Size(143, 48);
+            this.lblTopTrackAlbum13.Size = new System.Drawing.Size(144, 48);
             this.lblTopTrackAlbum13.TabIndex = 100;
             this.lblTopTrackAlbum13.Text = "(Unavailable)";
             this.lblTopTrackAlbum13.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -4310,9 +4310,9 @@ namespace Audiograph
             this.lblTopTrackArtist13.ContextMenuStrip = this.cmsChartTrack;
             this.lblTopTrackArtist13.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblTopTrackArtist13.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopTrackArtist13.Location = new System.Drawing.Point(229, 610);
+            this.lblTopTrackArtist13.Location = new System.Drawing.Point(230, 610);
             this.lblTopTrackArtist13.Name = "lblTopTrackArtist13";
-            this.lblTopTrackArtist13.Size = new System.Drawing.Size(143, 48);
+            this.lblTopTrackArtist13.Size = new System.Drawing.Size(144, 48);
             this.lblTopTrackArtist13.TabIndex = 99;
             this.lblTopTrackArtist13.Text = "(Unavailable)";
             this.lblTopTrackArtist13.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -4325,7 +4325,7 @@ namespace Audiograph
             this.lblTopTrackTitle13.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblTopTrackTitle13.Location = new System.Drawing.Point(79, 610);
             this.lblTopTrackTitle13.Name = "lblTopTrackTitle13";
-            this.lblTopTrackTitle13.Size = new System.Drawing.Size(143, 48);
+            this.lblTopTrackTitle13.Size = new System.Drawing.Size(144, 48);
             this.lblTopTrackTitle13.TabIndex = 98;
             this.lblTopTrackTitle13.Text = "(Unavailable)";
             this.lblTopTrackTitle13.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -4361,9 +4361,9 @@ namespace Audiograph
             this.lblTopTrackAlbum12.ContextMenuStrip = this.cmsChartTrack;
             this.lblTopTrackAlbum12.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblTopTrackAlbum12.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopTrackAlbum12.Location = new System.Drawing.Point(379, 561);
+            this.lblTopTrackAlbum12.Location = new System.Drawing.Point(381, 561);
             this.lblTopTrackAlbum12.Name = "lblTopTrackAlbum12";
-            this.lblTopTrackAlbum12.Size = new System.Drawing.Size(143, 48);
+            this.lblTopTrackAlbum12.Size = new System.Drawing.Size(144, 48);
             this.lblTopTrackAlbum12.TabIndex = 95;
             this.lblTopTrackAlbum12.Text = "(Unavailable)";
             this.lblTopTrackAlbum12.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -4374,9 +4374,9 @@ namespace Audiograph
             this.lblTopTrackArtist12.ContextMenuStrip = this.cmsChartTrack;
             this.lblTopTrackArtist12.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblTopTrackArtist12.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopTrackArtist12.Location = new System.Drawing.Point(229, 561);
+            this.lblTopTrackArtist12.Location = new System.Drawing.Point(230, 561);
             this.lblTopTrackArtist12.Name = "lblTopTrackArtist12";
-            this.lblTopTrackArtist12.Size = new System.Drawing.Size(143, 48);
+            this.lblTopTrackArtist12.Size = new System.Drawing.Size(144, 48);
             this.lblTopTrackArtist12.TabIndex = 94;
             this.lblTopTrackArtist12.Text = "(Unavailable)";
             this.lblTopTrackArtist12.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -4389,7 +4389,7 @@ namespace Audiograph
             this.lblTopTrackTitle12.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblTopTrackTitle12.Location = new System.Drawing.Point(79, 561);
             this.lblTopTrackTitle12.Name = "lblTopTrackTitle12";
-            this.lblTopTrackTitle12.Size = new System.Drawing.Size(143, 48);
+            this.lblTopTrackTitle12.Size = new System.Drawing.Size(144, 48);
             this.lblTopTrackTitle12.TabIndex = 93;
             this.lblTopTrackTitle12.Text = "(Unavailable)";
             this.lblTopTrackTitle12.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -4425,9 +4425,9 @@ namespace Audiograph
             this.lblTopTrackAlbum11.ContextMenuStrip = this.cmsChartTrack;
             this.lblTopTrackAlbum11.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblTopTrackAlbum11.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopTrackAlbum11.Location = new System.Drawing.Point(379, 512);
+            this.lblTopTrackAlbum11.Location = new System.Drawing.Point(381, 512);
             this.lblTopTrackAlbum11.Name = "lblTopTrackAlbum11";
-            this.lblTopTrackAlbum11.Size = new System.Drawing.Size(143, 48);
+            this.lblTopTrackAlbum11.Size = new System.Drawing.Size(144, 48);
             this.lblTopTrackAlbum11.TabIndex = 90;
             this.lblTopTrackAlbum11.Text = "(Unavailable)";
             this.lblTopTrackAlbum11.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -4438,9 +4438,9 @@ namespace Audiograph
             this.lblTopTrackArtist11.ContextMenuStrip = this.cmsChartTrack;
             this.lblTopTrackArtist11.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblTopTrackArtist11.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopTrackArtist11.Location = new System.Drawing.Point(229, 512);
+            this.lblTopTrackArtist11.Location = new System.Drawing.Point(230, 512);
             this.lblTopTrackArtist11.Name = "lblTopTrackArtist11";
-            this.lblTopTrackArtist11.Size = new System.Drawing.Size(143, 48);
+            this.lblTopTrackArtist11.Size = new System.Drawing.Size(144, 48);
             this.lblTopTrackArtist11.TabIndex = 89;
             this.lblTopTrackArtist11.Text = "(Unavailable)";
             this.lblTopTrackArtist11.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -4453,7 +4453,7 @@ namespace Audiograph
             this.lblTopTrackTitle11.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblTopTrackTitle11.Location = new System.Drawing.Point(79, 512);
             this.lblTopTrackTitle11.Name = "lblTopTrackTitle11";
-            this.lblTopTrackTitle11.Size = new System.Drawing.Size(143, 48);
+            this.lblTopTrackTitle11.Size = new System.Drawing.Size(144, 48);
             this.lblTopTrackTitle11.TabIndex = 88;
             this.lblTopTrackTitle11.Text = "(Unavailable)";
             this.lblTopTrackTitle11.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -4489,9 +4489,9 @@ namespace Audiograph
             this.lblTopTrackAlbum10.ContextMenuStrip = this.cmsChartTrack;
             this.lblTopTrackAlbum10.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblTopTrackAlbum10.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopTrackAlbum10.Location = new System.Drawing.Point(379, 463);
+            this.lblTopTrackAlbum10.Location = new System.Drawing.Point(381, 463);
             this.lblTopTrackAlbum10.Name = "lblTopTrackAlbum10";
-            this.lblTopTrackAlbum10.Size = new System.Drawing.Size(143, 48);
+            this.lblTopTrackAlbum10.Size = new System.Drawing.Size(144, 48);
             this.lblTopTrackAlbum10.TabIndex = 85;
             this.lblTopTrackAlbum10.Text = "(Unavailable)";
             this.lblTopTrackAlbum10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -4502,9 +4502,9 @@ namespace Audiograph
             this.lblTopTrackArtist10.ContextMenuStrip = this.cmsChartTrack;
             this.lblTopTrackArtist10.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblTopTrackArtist10.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopTrackArtist10.Location = new System.Drawing.Point(229, 463);
+            this.lblTopTrackArtist10.Location = new System.Drawing.Point(230, 463);
             this.lblTopTrackArtist10.Name = "lblTopTrackArtist10";
-            this.lblTopTrackArtist10.Size = new System.Drawing.Size(143, 48);
+            this.lblTopTrackArtist10.Size = new System.Drawing.Size(144, 48);
             this.lblTopTrackArtist10.TabIndex = 84;
             this.lblTopTrackArtist10.Text = "(Unavailable)";
             this.lblTopTrackArtist10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -4517,7 +4517,7 @@ namespace Audiograph
             this.lblTopTrackTitle10.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblTopTrackTitle10.Location = new System.Drawing.Point(79, 463);
             this.lblTopTrackTitle10.Name = "lblTopTrackTitle10";
-            this.lblTopTrackTitle10.Size = new System.Drawing.Size(143, 48);
+            this.lblTopTrackTitle10.Size = new System.Drawing.Size(144, 48);
             this.lblTopTrackTitle10.TabIndex = 83;
             this.lblTopTrackTitle10.Text = "(Unavailable)";
             this.lblTopTrackTitle10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -4553,9 +4553,9 @@ namespace Audiograph
             this.lblTopTrackAlbum9.ContextMenuStrip = this.cmsChartTrack;
             this.lblTopTrackAlbum9.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblTopTrackAlbum9.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopTrackAlbum9.Location = new System.Drawing.Point(379, 414);
+            this.lblTopTrackAlbum9.Location = new System.Drawing.Point(381, 414);
             this.lblTopTrackAlbum9.Name = "lblTopTrackAlbum9";
-            this.lblTopTrackAlbum9.Size = new System.Drawing.Size(143, 48);
+            this.lblTopTrackAlbum9.Size = new System.Drawing.Size(144, 48);
             this.lblTopTrackAlbum9.TabIndex = 80;
             this.lblTopTrackAlbum9.Text = "(Unavailable)";
             this.lblTopTrackAlbum9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -4566,9 +4566,9 @@ namespace Audiograph
             this.lblTopTrackArtist9.ContextMenuStrip = this.cmsChartTrack;
             this.lblTopTrackArtist9.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblTopTrackArtist9.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopTrackArtist9.Location = new System.Drawing.Point(229, 414);
+            this.lblTopTrackArtist9.Location = new System.Drawing.Point(230, 414);
             this.lblTopTrackArtist9.Name = "lblTopTrackArtist9";
-            this.lblTopTrackArtist9.Size = new System.Drawing.Size(143, 48);
+            this.lblTopTrackArtist9.Size = new System.Drawing.Size(144, 48);
             this.lblTopTrackArtist9.TabIndex = 79;
             this.lblTopTrackArtist9.Text = "(Unavailable)";
             this.lblTopTrackArtist9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -4581,7 +4581,7 @@ namespace Audiograph
             this.lblTopTrackTitle9.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblTopTrackTitle9.Location = new System.Drawing.Point(79, 414);
             this.lblTopTrackTitle9.Name = "lblTopTrackTitle9";
-            this.lblTopTrackTitle9.Size = new System.Drawing.Size(143, 48);
+            this.lblTopTrackTitle9.Size = new System.Drawing.Size(144, 48);
             this.lblTopTrackTitle9.TabIndex = 78;
             this.lblTopTrackTitle9.Text = "(Unavailable)";
             this.lblTopTrackTitle9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -4617,9 +4617,9 @@ namespace Audiograph
             this.lblTopTrackAlbum8.ContextMenuStrip = this.cmsChartTrack;
             this.lblTopTrackAlbum8.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblTopTrackAlbum8.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopTrackAlbum8.Location = new System.Drawing.Point(379, 365);
+            this.lblTopTrackAlbum8.Location = new System.Drawing.Point(381, 365);
             this.lblTopTrackAlbum8.Name = "lblTopTrackAlbum8";
-            this.lblTopTrackAlbum8.Size = new System.Drawing.Size(143, 48);
+            this.lblTopTrackAlbum8.Size = new System.Drawing.Size(144, 48);
             this.lblTopTrackAlbum8.TabIndex = 75;
             this.lblTopTrackAlbum8.Text = "(Unavailable)";
             this.lblTopTrackAlbum8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -4630,9 +4630,9 @@ namespace Audiograph
             this.lblTopTrackArtist8.ContextMenuStrip = this.cmsChartTrack;
             this.lblTopTrackArtist8.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblTopTrackArtist8.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopTrackArtist8.Location = new System.Drawing.Point(229, 365);
+            this.lblTopTrackArtist8.Location = new System.Drawing.Point(230, 365);
             this.lblTopTrackArtist8.Name = "lblTopTrackArtist8";
-            this.lblTopTrackArtist8.Size = new System.Drawing.Size(143, 48);
+            this.lblTopTrackArtist8.Size = new System.Drawing.Size(144, 48);
             this.lblTopTrackArtist8.TabIndex = 74;
             this.lblTopTrackArtist8.Text = "(Unavailable)";
             this.lblTopTrackArtist8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -4645,7 +4645,7 @@ namespace Audiograph
             this.lblTopTrackTitle8.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblTopTrackTitle8.Location = new System.Drawing.Point(79, 365);
             this.lblTopTrackTitle8.Name = "lblTopTrackTitle8";
-            this.lblTopTrackTitle8.Size = new System.Drawing.Size(143, 48);
+            this.lblTopTrackTitle8.Size = new System.Drawing.Size(144, 48);
             this.lblTopTrackTitle8.TabIndex = 73;
             this.lblTopTrackTitle8.Text = "(Unavailable)";
             this.lblTopTrackTitle8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -4681,9 +4681,9 @@ namespace Audiograph
             this.lblTopTrackAlbum7.ContextMenuStrip = this.cmsChartTrack;
             this.lblTopTrackAlbum7.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblTopTrackAlbum7.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopTrackAlbum7.Location = new System.Drawing.Point(379, 316);
+            this.lblTopTrackAlbum7.Location = new System.Drawing.Point(381, 316);
             this.lblTopTrackAlbum7.Name = "lblTopTrackAlbum7";
-            this.lblTopTrackAlbum7.Size = new System.Drawing.Size(143, 48);
+            this.lblTopTrackAlbum7.Size = new System.Drawing.Size(144, 48);
             this.lblTopTrackAlbum7.TabIndex = 70;
             this.lblTopTrackAlbum7.Text = "(Unavailable)";
             this.lblTopTrackAlbum7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -4694,9 +4694,9 @@ namespace Audiograph
             this.lblTopTrackArtist7.ContextMenuStrip = this.cmsChartTrack;
             this.lblTopTrackArtist7.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblTopTrackArtist7.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopTrackArtist7.Location = new System.Drawing.Point(229, 316);
+            this.lblTopTrackArtist7.Location = new System.Drawing.Point(230, 316);
             this.lblTopTrackArtist7.Name = "lblTopTrackArtist7";
-            this.lblTopTrackArtist7.Size = new System.Drawing.Size(143, 48);
+            this.lblTopTrackArtist7.Size = new System.Drawing.Size(144, 48);
             this.lblTopTrackArtist7.TabIndex = 69;
             this.lblTopTrackArtist7.Text = "(Unavailable)";
             this.lblTopTrackArtist7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -4709,7 +4709,7 @@ namespace Audiograph
             this.lblTopTrackTitle7.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblTopTrackTitle7.Location = new System.Drawing.Point(79, 316);
             this.lblTopTrackTitle7.Name = "lblTopTrackTitle7";
-            this.lblTopTrackTitle7.Size = new System.Drawing.Size(143, 48);
+            this.lblTopTrackTitle7.Size = new System.Drawing.Size(144, 48);
             this.lblTopTrackTitle7.TabIndex = 68;
             this.lblTopTrackTitle7.Text = "(Unavailable)";
             this.lblTopTrackTitle7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -4745,9 +4745,9 @@ namespace Audiograph
             this.lblTopTrackAlbum6.ContextMenuStrip = this.cmsChartTrack;
             this.lblTopTrackAlbum6.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblTopTrackAlbum6.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopTrackAlbum6.Location = new System.Drawing.Point(379, 267);
+            this.lblTopTrackAlbum6.Location = new System.Drawing.Point(381, 267);
             this.lblTopTrackAlbum6.Name = "lblTopTrackAlbum6";
-            this.lblTopTrackAlbum6.Size = new System.Drawing.Size(143, 48);
+            this.lblTopTrackAlbum6.Size = new System.Drawing.Size(144, 48);
             this.lblTopTrackAlbum6.TabIndex = 65;
             this.lblTopTrackAlbum6.Text = "(Unavailable)";
             this.lblTopTrackAlbum6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -4758,9 +4758,9 @@ namespace Audiograph
             this.lblTopTrackArtist6.ContextMenuStrip = this.cmsChartTrack;
             this.lblTopTrackArtist6.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblTopTrackArtist6.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopTrackArtist6.Location = new System.Drawing.Point(229, 267);
+            this.lblTopTrackArtist6.Location = new System.Drawing.Point(230, 267);
             this.lblTopTrackArtist6.Name = "lblTopTrackArtist6";
-            this.lblTopTrackArtist6.Size = new System.Drawing.Size(143, 48);
+            this.lblTopTrackArtist6.Size = new System.Drawing.Size(144, 48);
             this.lblTopTrackArtist6.TabIndex = 64;
             this.lblTopTrackArtist6.Text = "(Unavailable)";
             this.lblTopTrackArtist6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -4773,7 +4773,7 @@ namespace Audiograph
             this.lblTopTrackTitle6.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblTopTrackTitle6.Location = new System.Drawing.Point(79, 267);
             this.lblTopTrackTitle6.Name = "lblTopTrackTitle6";
-            this.lblTopTrackTitle6.Size = new System.Drawing.Size(143, 48);
+            this.lblTopTrackTitle6.Size = new System.Drawing.Size(144, 48);
             this.lblTopTrackTitle6.TabIndex = 63;
             this.lblTopTrackTitle6.Text = "(Unavailable)";
             this.lblTopTrackTitle6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -4809,9 +4809,9 @@ namespace Audiograph
             this.lblTopTrackAlbum5.ContextMenuStrip = this.cmsChartTrack;
             this.lblTopTrackAlbum5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblTopTrackAlbum5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopTrackAlbum5.Location = new System.Drawing.Point(379, 218);
+            this.lblTopTrackAlbum5.Location = new System.Drawing.Point(381, 218);
             this.lblTopTrackAlbum5.Name = "lblTopTrackAlbum5";
-            this.lblTopTrackAlbum5.Size = new System.Drawing.Size(143, 48);
+            this.lblTopTrackAlbum5.Size = new System.Drawing.Size(144, 48);
             this.lblTopTrackAlbum5.TabIndex = 60;
             this.lblTopTrackAlbum5.Text = "(Unavailable)";
             this.lblTopTrackAlbum5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -4822,9 +4822,9 @@ namespace Audiograph
             this.lblTopTrackArtist5.ContextMenuStrip = this.cmsChartTrack;
             this.lblTopTrackArtist5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblTopTrackArtist5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopTrackArtist5.Location = new System.Drawing.Point(229, 218);
+            this.lblTopTrackArtist5.Location = new System.Drawing.Point(230, 218);
             this.lblTopTrackArtist5.Name = "lblTopTrackArtist5";
-            this.lblTopTrackArtist5.Size = new System.Drawing.Size(143, 48);
+            this.lblTopTrackArtist5.Size = new System.Drawing.Size(144, 48);
             this.lblTopTrackArtist5.TabIndex = 59;
             this.lblTopTrackArtist5.Text = "(Unavailable)";
             this.lblTopTrackArtist5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -4837,7 +4837,7 @@ namespace Audiograph
             this.lblTopTrackTitle5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblTopTrackTitle5.Location = new System.Drawing.Point(79, 218);
             this.lblTopTrackTitle5.Name = "lblTopTrackTitle5";
-            this.lblTopTrackTitle5.Size = new System.Drawing.Size(143, 48);
+            this.lblTopTrackTitle5.Size = new System.Drawing.Size(144, 48);
             this.lblTopTrackTitle5.TabIndex = 58;
             this.lblTopTrackTitle5.Text = "(Unavailable)";
             this.lblTopTrackTitle5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -4873,9 +4873,9 @@ namespace Audiograph
             this.lblTopTrackAlbum4.ContextMenuStrip = this.cmsChartTrack;
             this.lblTopTrackAlbum4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblTopTrackAlbum4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopTrackAlbum4.Location = new System.Drawing.Point(379, 169);
+            this.lblTopTrackAlbum4.Location = new System.Drawing.Point(381, 169);
             this.lblTopTrackAlbum4.Name = "lblTopTrackAlbum4";
-            this.lblTopTrackAlbum4.Size = new System.Drawing.Size(143, 48);
+            this.lblTopTrackAlbum4.Size = new System.Drawing.Size(144, 48);
             this.lblTopTrackAlbum4.TabIndex = 55;
             this.lblTopTrackAlbum4.Text = "(Unavailable)";
             this.lblTopTrackAlbum4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -4886,9 +4886,9 @@ namespace Audiograph
             this.lblTopTrackArtist4.ContextMenuStrip = this.cmsChartTrack;
             this.lblTopTrackArtist4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblTopTrackArtist4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopTrackArtist4.Location = new System.Drawing.Point(229, 169);
+            this.lblTopTrackArtist4.Location = new System.Drawing.Point(230, 169);
             this.lblTopTrackArtist4.Name = "lblTopTrackArtist4";
-            this.lblTopTrackArtist4.Size = new System.Drawing.Size(143, 48);
+            this.lblTopTrackArtist4.Size = new System.Drawing.Size(144, 48);
             this.lblTopTrackArtist4.TabIndex = 54;
             this.lblTopTrackArtist4.Text = "(Unavailable)";
             this.lblTopTrackArtist4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -4901,7 +4901,7 @@ namespace Audiograph
             this.lblTopTrackTitle4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblTopTrackTitle4.Location = new System.Drawing.Point(79, 169);
             this.lblTopTrackTitle4.Name = "lblTopTrackTitle4";
-            this.lblTopTrackTitle4.Size = new System.Drawing.Size(143, 48);
+            this.lblTopTrackTitle4.Size = new System.Drawing.Size(144, 48);
             this.lblTopTrackTitle4.TabIndex = 53;
             this.lblTopTrackTitle4.Text = "(Unavailable)";
             this.lblTopTrackTitle4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -4937,9 +4937,9 @@ namespace Audiograph
             this.lblTopTrackAlbum3.ContextMenuStrip = this.cmsChartTrack;
             this.lblTopTrackAlbum3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblTopTrackAlbum3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopTrackAlbum3.Location = new System.Drawing.Point(379, 120);
+            this.lblTopTrackAlbum3.Location = new System.Drawing.Point(381, 120);
             this.lblTopTrackAlbum3.Name = "lblTopTrackAlbum3";
-            this.lblTopTrackAlbum3.Size = new System.Drawing.Size(143, 48);
+            this.lblTopTrackAlbum3.Size = new System.Drawing.Size(144, 48);
             this.lblTopTrackAlbum3.TabIndex = 50;
             this.lblTopTrackAlbum3.Text = "(Unavailable)";
             this.lblTopTrackAlbum3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -4950,9 +4950,9 @@ namespace Audiograph
             this.lblTopTrackArtist3.ContextMenuStrip = this.cmsChartTrack;
             this.lblTopTrackArtist3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblTopTrackArtist3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopTrackArtist3.Location = new System.Drawing.Point(229, 120);
+            this.lblTopTrackArtist3.Location = new System.Drawing.Point(230, 120);
             this.lblTopTrackArtist3.Name = "lblTopTrackArtist3";
-            this.lblTopTrackArtist3.Size = new System.Drawing.Size(143, 48);
+            this.lblTopTrackArtist3.Size = new System.Drawing.Size(144, 48);
             this.lblTopTrackArtist3.TabIndex = 49;
             this.lblTopTrackArtist3.Text = "(Unavailable)";
             this.lblTopTrackArtist3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -4965,7 +4965,7 @@ namespace Audiograph
             this.lblTopTrackTitle3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblTopTrackTitle3.Location = new System.Drawing.Point(79, 120);
             this.lblTopTrackTitle3.Name = "lblTopTrackTitle3";
-            this.lblTopTrackTitle3.Size = new System.Drawing.Size(143, 48);
+            this.lblTopTrackTitle3.Size = new System.Drawing.Size(144, 48);
             this.lblTopTrackTitle3.TabIndex = 48;
             this.lblTopTrackTitle3.Text = "(Unavailable)";
             this.lblTopTrackTitle3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -5001,9 +5001,9 @@ namespace Audiograph
             this.lblTopTrackAlbum2.ContextMenuStrip = this.cmsChartTrack;
             this.lblTopTrackAlbum2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblTopTrackAlbum2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopTrackAlbum2.Location = new System.Drawing.Point(379, 71);
+            this.lblTopTrackAlbum2.Location = new System.Drawing.Point(381, 71);
             this.lblTopTrackAlbum2.Name = "lblTopTrackAlbum2";
-            this.lblTopTrackAlbum2.Size = new System.Drawing.Size(143, 48);
+            this.lblTopTrackAlbum2.Size = new System.Drawing.Size(144, 48);
             this.lblTopTrackAlbum2.TabIndex = 45;
             this.lblTopTrackAlbum2.Text = "(Unavailable)";
             this.lblTopTrackAlbum2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -5014,9 +5014,9 @@ namespace Audiograph
             this.lblTopTrackArtist2.ContextMenuStrip = this.cmsChartTrack;
             this.lblTopTrackArtist2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblTopTrackArtist2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopTrackArtist2.Location = new System.Drawing.Point(229, 71);
+            this.lblTopTrackArtist2.Location = new System.Drawing.Point(230, 71);
             this.lblTopTrackArtist2.Name = "lblTopTrackArtist2";
-            this.lblTopTrackArtist2.Size = new System.Drawing.Size(143, 48);
+            this.lblTopTrackArtist2.Size = new System.Drawing.Size(144, 48);
             this.lblTopTrackArtist2.TabIndex = 44;
             this.lblTopTrackArtist2.Text = "(Unavailable)";
             this.lblTopTrackArtist2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -5029,7 +5029,7 @@ namespace Audiograph
             this.lblTopTrackTitle2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblTopTrackTitle2.Location = new System.Drawing.Point(79, 71);
             this.lblTopTrackTitle2.Name = "lblTopTrackTitle2";
-            this.lblTopTrackTitle2.Size = new System.Drawing.Size(143, 48);
+            this.lblTopTrackTitle2.Size = new System.Drawing.Size(144, 48);
             this.lblTopTrackTitle2.TabIndex = 43;
             this.lblTopTrackTitle2.Text = "(Unavailable)";
             this.lblTopTrackTitle2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -5065,9 +5065,9 @@ namespace Audiograph
             this.lblTopTrackAlbum1.ContextMenuStrip = this.cmsChartTrack;
             this.lblTopTrackAlbum1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblTopTrackAlbum1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopTrackAlbum1.Location = new System.Drawing.Point(379, 22);
+            this.lblTopTrackAlbum1.Location = new System.Drawing.Point(381, 22);
             this.lblTopTrackAlbum1.Name = "lblTopTrackAlbum1";
-            this.lblTopTrackAlbum1.Size = new System.Drawing.Size(143, 48);
+            this.lblTopTrackAlbum1.Size = new System.Drawing.Size(144, 48);
             this.lblTopTrackAlbum1.TabIndex = 40;
             this.lblTopTrackAlbum1.Text = "(Unavailable)";
             this.lblTopTrackAlbum1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -5078,9 +5078,9 @@ namespace Audiograph
             this.lblTopTrackArtist1.ContextMenuStrip = this.cmsChartTrack;
             this.lblTopTrackArtist1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblTopTrackArtist1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopTrackArtist1.Location = new System.Drawing.Point(229, 22);
+            this.lblTopTrackArtist1.Location = new System.Drawing.Point(230, 22);
             this.lblTopTrackArtist1.Name = "lblTopTrackArtist1";
-            this.lblTopTrackArtist1.Size = new System.Drawing.Size(143, 48);
+            this.lblTopTrackArtist1.Size = new System.Drawing.Size(144, 48);
             this.lblTopTrackArtist1.TabIndex = 39;
             this.lblTopTrackArtist1.Text = "(Unavailable)";
             this.lblTopTrackArtist1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -5093,7 +5093,7 @@ namespace Audiograph
             this.lblTopTrackTitle1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblTopTrackTitle1.Location = new System.Drawing.Point(79, 22);
             this.lblTopTrackTitle1.Name = "lblTopTrackTitle1";
-            this.lblTopTrackTitle1.Size = new System.Drawing.Size(143, 48);
+            this.lblTopTrackTitle1.Size = new System.Drawing.Size(144, 48);
             this.lblTopTrackTitle1.TabIndex = 38;
             this.lblTopTrackTitle1.Text = "(Unavailable)";
             this.lblTopTrackTitle1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -5149,7 +5149,7 @@ namespace Audiograph
             this.Label5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Label5.Location = new System.Drawing.Point(79, 1);
             this.Label5.Name = "Label5";
-            this.Label5.Size = new System.Drawing.Size(143, 20);
+            this.Label5.Size = new System.Drawing.Size(144, 20);
             this.Label5.TabIndex = 34;
             this.Label5.Text = "Title";
             this.Label5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -5157,9 +5157,9 @@ namespace Audiograph
             // Label20
             // 
             this.Label20.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Label20.Location = new System.Drawing.Point(229, 1);
+            this.Label20.Location = new System.Drawing.Point(230, 1);
             this.Label20.Name = "Label20";
-            this.Label20.Size = new System.Drawing.Size(143, 20);
+            this.Label20.Size = new System.Drawing.Size(144, 20);
             this.Label20.TabIndex = 35;
             this.Label20.Text = "Artist";
             this.Label20.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -5167,9 +5167,9 @@ namespace Audiograph
             // Label22
             // 
             this.Label22.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Label22.Location = new System.Drawing.Point(379, 1);
+            this.Label22.Location = new System.Drawing.Point(381, 1);
             this.Label22.Name = "Label22";
-            this.Label22.Size = new System.Drawing.Size(143, 20);
+            this.Label22.Size = new System.Drawing.Size(144, 20);
             this.Label22.TabIndex = 36;
             this.Label22.Text = "Album";
             this.Label22.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -21241,7 +21241,7 @@ namespace Audiograph
             this.Name = "frmMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Audiograph";
-            this.Load += new System.EventHandler(this.MediaFrmLoad);
+            this.Load += new System.EventHandler(this.FormLoad);
             this.ResizeBegin += new System.EventHandler(this.LayoutSuspend);
             this.ResizeEnd += new System.EventHandler(this.LayoutResume);
             this.Resize += new System.EventHandler(this.CustomScaling);

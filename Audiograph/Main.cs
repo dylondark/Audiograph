@@ -2023,7 +2023,7 @@ namespace Audiograph
             // set max numeric box value
             ushort totalpages;
             ushort.TryParse(Utilities.ParseMetadata(xml, "totalPages="), out totalpages);
-            nudUserLovedPage.Maximum = totalpages;
+            Invoke(new Action(() => nudUserLLovedPage.Maximum = totalpages));
 
             // report 40% progress
             Utilities.progress = (ushort)(Utilities.progress + 10);

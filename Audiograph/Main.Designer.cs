@@ -1933,7 +1933,7 @@ namespace Audiograph
             this.btnChartGo.TabIndex = 3;
             this.btnChartGo.Text = "&Go";
             this.btnChartGo.UseVisualStyleBackColor = true;
-            this.btnChartGo.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartGo);
+            this.btnChartGo.Click += new System.EventHandler(this.ChartGo);
             // 
             // cmbChartCountry
             // 
@@ -5476,7 +5476,7 @@ namespace Audiograph
             this.btnSearchGo.TabIndex = 22;
             this.btnSearchGo.Text = "&Go";
             this.btnSearchGo.UseVisualStyleBackColor = true;
-            this.btnSearchGo.MouseClick += new System.Windows.Forms.MouseEventHandler(this.GoSearch);
+            this.btnSearchGo.Click += new System.EventHandler(this.GoSearch);
             // 
             // txtSearch
             // 
@@ -5521,7 +5521,7 @@ namespace Audiograph
             this.btnTrackAdvanced.TabIndex = 15;
             this.btnTrackAdvanced.Text = "&Advanced";
             this.btnTrackAdvanced.UseVisualStyleBackColor = true;
-            this.btnTrackAdvanced.MouseClick += new System.Windows.Forms.MouseEventHandler(this.TrackAdvancedSearch);
+            this.btnTrackAdvanced.Click += new System.EventHandler(this.TrackAdvancedSearch);
             // 
             // btnTrackGo
             // 
@@ -5532,7 +5532,7 @@ namespace Audiograph
             this.btnTrackGo.TabIndex = 14;
             this.btnTrackGo.Text = "&Go";
             this.btnTrackGo.UseVisualStyleBackColor = true;
-            this.btnTrackGo.MouseClick += new System.Windows.Forms.MouseEventHandler(this.TrackGo);
+            this.btnTrackGo.Click += new System.EventHandler(this.TrackGo);
             // 
             // txtTrackArtist
             // 
@@ -5584,7 +5584,7 @@ namespace Audiograph
             this.btnTrackGoAlbum.TabIndex = 3;
             this.btnTrackGoAlbum.Text = "Go To Al&bum";
             this.btnTrackGoAlbum.UseVisualStyleBackColor = true;
-            this.btnTrackGoAlbum.MouseClick += new System.Windows.Forms.MouseEventHandler(this.TrackGoAlbum);
+            this.btnTrackGoAlbum.Click += new System.EventHandler(this.TrackGoAlbum);
             // 
             // btnTrackGoArtist
             // 
@@ -5594,7 +5594,7 @@ namespace Audiograph
             this.btnTrackGoArtist.TabIndex = 2;
             this.btnTrackGoArtist.Text = "Go To A&rtist";
             this.btnTrackGoArtist.UseVisualStyleBackColor = true;
-            this.btnTrackGoArtist.MouseClick += new System.Windows.Forms.MouseEventHandler(this.TrackGoArtist);
+            this.btnTrackGoArtist.Click += new System.EventHandler(this.TrackGoArtist);
             // 
             // tlpTrack
             // 
@@ -5779,7 +5779,7 @@ namespace Audiograph
             this.btnTrackLove.TabIndex = 1;
             this.btnTrackLove.Text = "&Love";
             this.btnTrackLove.UseVisualStyleBackColor = true;
-            this.btnTrackLove.MouseClick += new System.Windows.Forms.MouseEventHandler(this.TrackLove);
+            this.btnTrackLove.Click += new System.EventHandler(this.TrackLove);
             // 
             // lblTrackLove
             // 
@@ -5818,7 +5818,7 @@ namespace Audiograph
             this.btnTrackTagRemove.TabIndex = 2;
             this.btnTrackTagRemove.Text = "R&emove";
             this.btnTrackTagRemove.UseVisualStyleBackColor = true;
-            this.btnTrackTagRemove.MouseClick += new System.Windows.Forms.MouseEventHandler(this.TrackRemoveTag);
+            this.btnTrackTagRemove.Click += new System.EventHandler(this.TrackRemoveTag);
             // 
             // btnTrackTagAdd
             // 
@@ -5828,7 +5828,7 @@ namespace Audiograph
             this.btnTrackTagAdd.TabIndex = 1;
             this.btnTrackTagAdd.Text = "A&dd";
             this.btnTrackTagAdd.UseVisualStyleBackColor = true;
-            this.btnTrackTagAdd.MouseClick += new System.Windows.Forms.MouseEventHandler(this.TrackAddTag);
+            this.btnTrackTagAdd.Click += new System.EventHandler(this.TrackAddTag);
             // 
             // lblTrackTags
             // 
@@ -6054,7 +6054,7 @@ namespace Audiograph
             this.btnArtistTagRemove.TabIndex = 2;
             this.btnArtistTagRemove.Text = "&Remove";
             this.btnArtistTagRemove.UseVisualStyleBackColor = true;
-            this.btnArtistTagRemove.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ArtistRemoveTag);
+            this.btnArtistTagRemove.Click += new System.EventHandler(this.ArtistRemoveTag);
             // 
             // btnArtistTagAdd
             // 
@@ -6064,7 +6064,7 @@ namespace Audiograph
             this.btnArtistTagAdd.TabIndex = 1;
             this.btnArtistTagAdd.Text = "A&dd";
             this.btnArtistTagAdd.UseVisualStyleBackColor = true;
-            this.btnArtistTagAdd.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ArtistAddTag);
+            this.btnArtistTagAdd.Click += new System.EventHandler(this.ArtistAddTag);
             // 
             // lblArtistTags
             // 
@@ -7527,7 +7527,7 @@ namespace Audiograph
             this.btnArtistAdvanced.TabIndex = 20;
             this.btnArtistAdvanced.Text = "&Advanced";
             this.btnArtistAdvanced.UseVisualStyleBackColor = true;
-            this.btnArtistAdvanced.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ArtistAdvancedSearch);
+            this.btnArtistAdvanced.Click += new System.EventHandler(this.ArtistAdvancedSearch);
             // 
             // btnArtistGo
             // 
@@ -7538,7 +7538,7 @@ namespace Audiograph
             this.btnArtistGo.TabIndex = 19;
             this.btnArtistGo.Text = "&Go";
             this.btnArtistGo.UseVisualStyleBackColor = true;
-            this.btnArtistGo.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ArtistGo);
+            this.btnArtistGo.Click += new System.EventHandler(this.ArtistGo);
             // 
             // txtArtistName
             // 
@@ -7583,7 +7583,7 @@ namespace Audiograph
             this.btnAlbumGoArtist.TabIndex = 23;
             this.btnAlbumGoArtist.Text = "Go To A&rtist";
             this.btnAlbumGoArtist.UseVisualStyleBackColor = true;
-            this.btnAlbumGoArtist.MouseClick += new System.Windows.Forms.MouseEventHandler(this.AlbumGoArtist);
+            this.btnAlbumGoArtist.Click += new System.EventHandler(this.AlbumGoArtist);
             // 
             // btnAlbumAdvanced
             // 
@@ -7594,7 +7594,7 @@ namespace Audiograph
             this.btnAlbumAdvanced.TabIndex = 21;
             this.btnAlbumAdvanced.Text = "&Advanced";
             this.btnAlbumAdvanced.UseVisualStyleBackColor = true;
-            this.btnAlbumAdvanced.MouseClick += new System.Windows.Forms.MouseEventHandler(this.AlbumAdvancedClicked);
+            this.btnAlbumAdvanced.Click += new System.EventHandler(this.AlbumAdvancedClicked);
             // 
             // btnAlbumGo
             // 
@@ -7605,7 +7605,7 @@ namespace Audiograph
             this.btnAlbumGo.TabIndex = 20;
             this.btnAlbumGo.Text = "&Go";
             this.btnAlbumGo.UseVisualStyleBackColor = true;
-            this.btnAlbumGo.MouseClick += new System.Windows.Forms.MouseEventHandler(this.AlbumGo);
+            this.btnAlbumGo.Click += new System.EventHandler(this.AlbumGo);
             // 
             // txtAlbumArtist
             // 
@@ -7777,7 +7777,7 @@ namespace Audiograph
             this.btnAlbumTagRemove.TabIndex = 2;
             this.btnAlbumTagRemove.Text = "R&emove";
             this.btnAlbumTagRemove.UseVisualStyleBackColor = true;
-            this.btnAlbumTagRemove.MouseClick += new System.Windows.Forms.MouseEventHandler(this.AlbumRemoveTag);
+            this.btnAlbumTagRemove.Click += new System.EventHandler(this.AlbumRemoveTag);
             // 
             // btnAlbumTagAdd
             // 
@@ -7787,7 +7787,7 @@ namespace Audiograph
             this.btnAlbumTagAdd.TabIndex = 1;
             this.btnAlbumTagAdd.Text = "A&dd";
             this.btnAlbumTagAdd.UseVisualStyleBackColor = true;
-            this.btnAlbumTagAdd.MouseClick += new System.Windows.Forms.MouseEventHandler(this.AlbumAddTag);
+            this.btnAlbumTagAdd.Click += new System.EventHandler(this.AlbumAddTag);
             // 
             // lblAlbumTags
             // 
@@ -7928,7 +7928,7 @@ namespace Audiograph
             this.btnUserAuthenticate.TabIndex = 12;
             this.btnUserAuthenticate.Text = "&Authenticate";
             this.btnUserAuthenticate.UseVisualStyleBackColor = true;
-            this.btnUserAuthenticate.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserAuthenticate);
+            this.btnUserAuthenticate.Click += new System.EventHandler(this.UserAuthenticate);
             // 
             // btnUserSet
             // 
@@ -7939,7 +7939,7 @@ namespace Audiograph
             this.btnUserSet.TabIndex = 10;
             this.btnUserSet.Text = "&Set";
             this.btnUserSet.UseVisualStyleBackColor = true;
-            this.btnUserSet.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SetUser);
+            this.btnUserSet.Click += new System.EventHandler(this.SetUser);
             // 
             // txtUser
             // 
@@ -8008,7 +8008,7 @@ namespace Audiograph
             this.btnUserChartGo.TabIndex = 6;
             this.btnUserChartGo.Text = "&Go";
             this.btnUserChartGo.UseVisualStyleBackColor = true;
-            this.btnUserChartGo.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserChartGo);
+            this.btnUserChartGo.Click += new System.EventHandler(this.UserChartGo);
             // 
             // dtpUserTo
             // 
@@ -14109,7 +14109,7 @@ namespace Audiograph
             this.btnUserLSet.TabIndex = 14;
             this.btnUserLSet.Text = "&Set";
             this.btnUserLSet.UseVisualStyleBackColor = true;
-            this.btnUserLSet.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SetUserL);
+            this.btnUserLSet.Click += new System.EventHandler(this.SetUserL);
             // 
             // txtUserL
             // 
@@ -14178,7 +14178,7 @@ namespace Audiograph
             this.btnUserLChartGo.TabIndex = 6;
             this.btnUserLChartGo.Text = "&Go";
             this.btnUserLChartGo.UseVisualStyleBackColor = true;
-            this.btnUserLChartGo.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLChartGo);
+            this.btnUserLChartGo.Click += new System.EventHandler(this.UserLChartGo);
             // 
             // dtpUserLTo
             // 
@@ -20402,7 +20402,7 @@ namespace Audiograph
             this.btnMediaExpand.TabIndex = 29;
             this.btnMediaExpand.Text = "E&xpand";
             this.btnMediaExpand.UseVisualStyleBackColor = true;
-            this.btnMediaExpand.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ExpandScrobbleHistory);
+            this.btnMediaExpand.Click += new System.EventHandler(this.ExpandScrobbleHistory);
             // 
             // ltvMediaHistory
             // 
@@ -20442,7 +20442,7 @@ namespace Audiograph
             this.btnMediaEditIndex.TabIndex = 26;
             this.btnMediaEditIndex.Text = "&Edit Index...";
             this.btnMediaEditIndex.UseVisualStyleBackColor = true;
-            this.btnMediaEditIndex.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ScrobbleIndexEditorMediaButton);
+            this.btnMediaEditIndex.Click += new System.EventHandler(this.ScrobbleIndexEditorMediaButton);
             // 
             // lblMediaIndex
             // 
@@ -20492,7 +20492,7 @@ namespace Audiograph
             this.btnMediaCreate.TabIndex = 20;
             this.btnMediaCreate.Text = "&Create...";
             this.btnMediaCreate.UseVisualStyleBackColor = true;
-            this.btnMediaCreate.MouseClick += new System.Windows.Forms.MouseEventHandler(this.IndexCreateClick);
+            this.btnMediaCreate.Click += new System.EventHandler(this.IndexCreateClick);
             // 
             // btnMediaLoad
             // 
@@ -20502,7 +20502,7 @@ namespace Audiograph
             this.btnMediaLoad.TabIndex = 19;
             this.btnMediaLoad.Text = "&Load...";
             this.btnMediaLoad.UseVisualStyleBackColor = true;
-            this.btnMediaLoad.MouseClick += new System.Windows.Forms.MouseEventHandler(this.IndexLoadClick);
+            this.btnMediaLoad.Click += new System.EventHandler(this.IndexLoadClick);
             // 
             // Label42
             // 
@@ -20522,7 +20522,7 @@ namespace Audiograph
             this.btnMediaSearch.TabIndex = 17;
             this.btnMediaSearch.Text = "S&earch";
             this.btnMediaSearch.UseVisualStyleBackColor = true;
-            this.btnMediaSearch.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ScrobbleSearchButton);
+            this.btnMediaSearch.Click += new System.EventHandler(this.ScrobbleSearchButton);
             // 
             // btnMediaVerify
             // 
@@ -20533,7 +20533,7 @@ namespace Audiograph
             this.btnMediaVerify.TabIndex = 16;
             this.btnMediaVerify.Text = "&Verify";
             this.btnMediaVerify.UseVisualStyleBackColor = true;
-            this.btnMediaVerify.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ButtonVerifyTrack);
+            this.btnMediaVerify.Click += new System.EventHandler(this.ButtonVerifyTrack);
             // 
             // lblMediaScrobble
             // 
@@ -20552,7 +20552,7 @@ namespace Audiograph
             this.btnMediaScrobble.TabIndex = 14;
             this.btnMediaScrobble.Text = "&Scrobble";
             this.btnMediaScrobble.UseVisualStyleBackColor = true;
-            this.btnMediaScrobble.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ClickScrobble);
+            this.btnMediaScrobble.Click += new System.EventHandler(this.ClickScrobble);
             // 
             // txtMediaAlbum
             // 
@@ -20681,7 +20681,7 @@ namespace Audiograph
             this.btnMediaNext.TabIndex = 8;
             this.btnMediaNext.Text = "&Next";
             this.btnMediaNext.UseVisualStyleBackColor = true;
-            this.btnMediaNext.MouseClick += new System.Windows.Forms.MouseEventHandler(this.NextQueue);
+            this.btnMediaNext.Click += new System.EventHandler(this.NextQueue);
             // 
             // chkMediaShuffle
             // 
@@ -20702,7 +20702,7 @@ namespace Audiograph
             this.btnMediaRemoveQ.TabIndex = 4;
             this.btnMediaRemoveQ.Text = "&Remove";
             this.btnMediaRemoveQ.UseVisualStyleBackColor = true;
-            this.btnMediaRemoveQ.MouseClick += new System.Windows.Forms.MouseEventHandler(this.RemoveQueueBtn);
+            this.btnMediaRemoveQ.Click += new System.EventHandler(this.RemoveQueueBtn);
             // 
             // btnMediaAddQ
             // 
@@ -20712,7 +20712,7 @@ namespace Audiograph
             this.btnMediaAddQ.TabIndex = 1;
             this.btnMediaAddQ.Text = "&Add...";
             this.btnMediaAddQ.UseVisualStyleBackColor = true;
-            this.btnMediaAddQ.MouseClick += new System.Windows.Forms.MouseEventHandler(this.AddQueue);
+            this.btnMediaAddQ.Click += new System.EventHandler(this.AddQueue);
             // 
             // ltvMediaQueue
             // 

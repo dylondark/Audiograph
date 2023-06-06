@@ -3461,6 +3461,8 @@ namespace Audiograph
                     lblUserStatus.Text = "User Not Set";
                 }
             }
+
+            CustomScaling(null, null);
         }
 
         // opens clicked image in browser

@@ -471,7 +471,10 @@ namespace Audiograph
             for (int selectedRow = dgvData.SelectedRows.Count - 1; selectedRow >= 0; selectedRow -= 1)
             {
                 currentRow = dgvData.SelectedRows[selectedRow].Index;
-                dgvData.Rows.RemoveAt(currentRow);
+                if (currentRow < dgvData.Rows.Count - 1) // check that we are not trying to delete an uncommitted row
+                {
+                    dgvData.Rows.RemoveAt(currentRow);
+                }
             }
             Saved(false);
         }

@@ -35,358 +35,392 @@ namespace Audiograph
         [DebuggerStepThrough()]
         private void InitializeComponent()
         {
-            var resources = new System.ComponentModel.ComponentResourceManager(typeof(frmScrobbleIndexEditor));
-            dgvData = new DataGridView();
-            dgvData.CellEndEdit += new DataGridViewCellEventHandler(Modified);
-            dgvData.SelectionChanged += new EventHandler(Enable);
-            dgvData.Click += new EventHandler(DisableFind);
-            Filename = new DataGridViewTextBoxColumn();
-            Title = new DataGridViewTextBoxColumn();
-            Artist = new DataGridViewTextBoxColumn();
-            Album = new DataGridViewTextBoxColumn();
-            ToolStrip = new ToolStrip();
-            btnNew = new ToolStripButton();
-            btnNew.Click += new EventHandler(ClickNew);
-            btnOpen = new ToolStripButton();
-            btnOpen.Click += new EventHandler(ClickOpen);
-            btnSave = new ToolStripButton();
-            btnSave.Click += new EventHandler(ClickSave);
-            btnSaveAs = new ToolStripButton();
-            btnSaveAs.Click += new EventHandler(ClickSaveAs);
-            btnSetIndex = new ToolStripButton();
-            btnSetIndex.Click += new EventHandler(SetIndexClick);
-            ToolStripSeparator1 = new ToolStripSeparator();
-            btnAddRow = new ToolStripButton();
-            btnAddRow.Click += new EventHandler(ClickAddRow);
-            ToolStripSeparator7 = new ToolStripSeparator();
-            btnReload = new ToolStripButton();
-            btnReload.Click += new EventHandler(ClickReload);
-            btnEdit = new ToolStripDropDownButton();
-            btnCopyCell = new ToolStripMenuItem();
-            btnCopyCell.Click += new EventHandler(ClickCopyCell);
-            btnCopyRow = new ToolStripMenuItem();
-            btnCopyRow.Click += new EventHandler(ClickCopyRow);
-            ToolStripSeparator8 = new ToolStripSeparator();
-            btnCutCell = new ToolStripMenuItem();
-            btnCutCell.Click += new EventHandler(ClickCutCell);
-            btnCutRow = new ToolStripMenuItem();
-            btnCutRow.Click += new EventHandler(ClickCutRow);
-            ToolStripSeparator9 = new ToolStripSeparator();
-            btnPasteCell = new ToolStripMenuItem();
-            btnPasteCell.Click += new EventHandler(ClickPasteCell);
-            ToolStripSeparator10 = new ToolStripSeparator();
-            btnDeleteCell = new ToolStripMenuItem();
-            btnDeleteCell.Click += new EventHandler(ClickDeleteCell);
-            btnDeleteRow = new ToolStripMenuItem();
-            btnDeleteRow.Click += new EventHandler(ClickDeleteRow);
-            ToolStripSeparator3 = new ToolStripSeparator();
-            btnFind = new ToolStripButton();
-            btnFind.Click += new EventHandler(ClickFind);
-            txtFind = new ToolStripTextBox();
-            lblFind = new ToolStripLabel();
-            ToolStripSeparator2 = new ToolStripSeparator();
-            btnVerifyRow = new ToolStripButton();
-            btnVerifyRow.Click += new EventHandler(ClickVerifyRow);
-            btnVerifyFile = new ToolStripButton();
-            btnVerifyFile.Click += new EventHandler(ClickVerifyFile);
-            prgVerify = new ToolStripProgressBar();
-            lblVerify = new ToolStripLabel();
-            ofdOpen = new OpenFileDialog();
-            sfdSaveAs = new SaveFileDialog();
-            ((System.ComponentModel.ISupportInitialize)dgvData).BeginInit();
-            ToolStrip.SuspendLayout();
-            SuspendLayout();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmScrobbleIndexEditor));
+            this.dgvData = new System.Windows.Forms.DataGridView();
+            this.Filename = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Title = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Artist = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Album = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ToolStrip = new System.Windows.Forms.ToolStrip();
+            this.btnNew = new System.Windows.Forms.ToolStripButton();
+            this.btnOpen = new System.Windows.Forms.ToolStripButton();
+            this.btnSave = new System.Windows.Forms.ToolStripButton();
+            this.btnSaveAs = new System.Windows.Forms.ToolStripButton();
+            this.btnSetIndex = new System.Windows.Forms.ToolStripButton();
+            this.ToolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
+            this.btnAddRow = new System.Windows.Forms.ToolStripButton();
+            this.ToolStripSeparator7 = new System.Windows.Forms.ToolStripSeparator();
+            this.btnReload = new System.Windows.Forms.ToolStripButton();
+            this.btnEdit = new System.Windows.Forms.ToolStripDropDownButton();
+            this.btnCopyCell = new System.Windows.Forms.ToolStripMenuItem();
+            this.btnCopyRow = new System.Windows.Forms.ToolStripMenuItem();
+            this.ToolStripSeparator8 = new System.Windows.Forms.ToolStripSeparator();
+            this.btnCutCell = new System.Windows.Forms.ToolStripMenuItem();
+            this.btnCutRow = new System.Windows.Forms.ToolStripMenuItem();
+            this.ToolStripSeparator9 = new System.Windows.Forms.ToolStripSeparator();
+            this.btnPasteCell = new System.Windows.Forms.ToolStripMenuItem();
+            this.ToolStripSeparator10 = new System.Windows.Forms.ToolStripSeparator();
+            this.btnDeleteCell = new System.Windows.Forms.ToolStripMenuItem();
+            this.btnDeleteRow = new System.Windows.Forms.ToolStripMenuItem();
+            this.ToolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
+            this.btnFind = new System.Windows.Forms.ToolStripButton();
+            this.txtFind = new System.Windows.Forms.ToolStripTextBox();
+            this.lblFind = new System.Windows.Forms.ToolStripLabel();
+            this.ToolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
+            this.btnVerifyRow = new System.Windows.Forms.ToolStripButton();
+            this.btnVerifyFile = new System.Windows.Forms.ToolStripButton();
+            this.prgVerify = new System.Windows.Forms.ToolStripProgressBar();
+            this.lblVerify = new System.Windows.Forms.ToolStripLabel();
+            this.ofdOpen = new System.Windows.Forms.OpenFileDialog();
+            this.sfdSaveAs = new System.Windows.Forms.SaveFileDialog();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvData)).BeginInit();
+            this.ToolStrip.SuspendLayout();
+            this.SuspendLayout();
             // 
             // dgvData
             // 
-            dgvData.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.AllCells;
-            dgvData.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvData.Columns.AddRange(new DataGridViewColumn[] { Filename, Title, Artist, Album });
-            dgvData.Location = new Point(0, 28);
-            dgvData.Name = "dgvData";
-            dgvData.Size = new Size(800, 422);
-            dgvData.TabIndex = 0;
+            this.dgvData.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
+            this.dgvData.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvData.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Filename,
+            this.Title,
+            this.Artist,
+            this.Album});
+            this.dgvData.Location = new System.Drawing.Point(0, 28);
+            this.dgvData.Name = "dgvData";
+            this.dgvData.Size = new System.Drawing.Size(800, 422);
+            this.dgvData.TabIndex = 0;
+            this.dgvData.CellEndEdit += new System.Windows.Forms.DataGridViewCellEventHandler(this.Modified);
+            this.dgvData.SelectionChanged += new System.EventHandler(this.Enable);
+            this.dgvData.Click += new System.EventHandler(this.DisableFind);
             // 
             // Filename
             // 
-            Filename.HeaderText = "Filename";
-            Filename.Name = "Filename";
-            Filename.Width = 74;
+            this.Filename.HeaderText = "Filename";
+            this.Filename.Name = "Filename";
+            this.Filename.Width = 74;
             // 
             // Title
             // 
-            Title.HeaderText = "Title";
-            Title.Name = "Title";
-            Title.Width = 52;
+            this.Title.HeaderText = "Title";
+            this.Title.Name = "Title";
+            this.Title.Width = 52;
             // 
             // Artist
             // 
-            Artist.HeaderText = "Artist";
-            Artist.Name = "Artist";
-            Artist.Width = 55;
+            this.Artist.HeaderText = "Artist";
+            this.Artist.Name = "Artist";
+            this.Artist.Width = 55;
             // 
             // Album
             // 
-            Album.HeaderText = "Album";
-            Album.Name = "Album";
-            Album.Width = 61;
+            this.Album.HeaderText = "Album";
+            this.Album.Name = "Album";
+            this.Album.Width = 61;
             // 
             // ToolStrip
             // 
-            ToolStrip.GripStyle = ToolStripGripStyle.Hidden;
-            ToolStrip.Items.AddRange(new ToolStripItem[] { btnNew, btnOpen, btnSave, btnSaveAs, btnSetIndex, ToolStripSeparator1, btnAddRow, ToolStripSeparator7, btnReload, btnEdit, ToolStripSeparator3, btnFind, txtFind, lblFind, ToolStripSeparator2, btnVerifyRow, btnVerifyFile, prgVerify, lblVerify });
-            ToolStrip.Location = new Point(0, 0);
-            ToolStrip.Name = "ToolStrip";
-            ToolStrip.Size = new Size(800, 25);
-            ToolStrip.TabIndex = 1;
-            ToolStrip.Text = "ToolStrip1";
+            this.ToolStrip.GripStyle = System.Windows.Forms.ToolStripGripStyle.Hidden;
+            this.ToolStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.btnNew,
+            this.btnOpen,
+            this.btnSave,
+            this.btnSaveAs,
+            this.btnSetIndex,
+            this.ToolStripSeparator1,
+            this.btnAddRow,
+            this.ToolStripSeparator7,
+            this.btnReload,
+            this.btnEdit,
+            this.ToolStripSeparator3,
+            this.btnFind,
+            this.txtFind,
+            this.lblFind,
+            this.ToolStripSeparator2,
+            this.btnVerifyRow,
+            this.btnVerifyFile,
+            this.prgVerify,
+            this.lblVerify});
+            this.ToolStrip.Location = new System.Drawing.Point(0, 0);
+            this.ToolStrip.Name = "ToolStrip";
+            this.ToolStrip.Size = new System.Drawing.Size(800, 25);
+            this.ToolStrip.TabIndex = 1;
+            this.ToolStrip.Text = "ToolStrip1";
             // 
             // btnNew
             // 
-            btnNew.DisplayStyle = ToolStripItemDisplayStyle.Image;
-            btnNew.Image = My.Resources.Resources.New_File;
-            btnNew.ImageTransparentColor = Color.Magenta;
-            btnNew.Name = "btnNew";
-            btnNew.Size = new Size(23, 22);
-            btnNew.Text = "ToolStripButton1";
-            btnNew.ToolTipText = "New File (Ctrl+N)";
+            this.btnNew.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.btnNew.Image = global::Audiograph.My.Resources.Resources.New_File;
+            this.btnNew.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.btnNew.Name = "btnNew";
+            this.btnNew.Size = new System.Drawing.Size(23, 22);
+            this.btnNew.Text = "ToolStripButton1";
+            this.btnNew.ToolTipText = "New File (Ctrl+N)";
+            this.btnNew.Click += new System.EventHandler(this.ClickNew);
             // 
             // btnOpen
             // 
-            btnOpen.DisplayStyle = ToolStripItemDisplayStyle.Image;
-            btnOpen.Image = My.Resources.Resources.Open_File;
-            btnOpen.ImageTransparentColor = Color.Magenta;
-            btnOpen.Name = "btnOpen";
-            btnOpen.Size = new Size(23, 22);
-            btnOpen.Text = "ToolStripButton1";
-            btnOpen.ToolTipText = "Open File (Ctrl+O)";
+            this.btnOpen.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.btnOpen.Image = global::Audiograph.My.Resources.Resources.Open_File;
+            this.btnOpen.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.btnOpen.Name = "btnOpen";
+            this.btnOpen.Size = new System.Drawing.Size(23, 22);
+            this.btnOpen.Text = "ToolStripButton1";
+            this.btnOpen.ToolTipText = "Open File (Ctrl+O)";
+            this.btnOpen.Click += new System.EventHandler(this.ClickOpen);
             // 
             // btnSave
             // 
-            btnSave.DisplayStyle = ToolStripItemDisplayStyle.Image;
-            btnSave.Enabled = false;
-            btnSave.Image = My.Resources.Resources.Save_File;
-            btnSave.ImageTransparentColor = Color.Magenta;
-            btnSave.Name = "btnSave";
-            btnSave.Size = new Size(23, 22);
-            btnSave.Text = "ToolStripButton1";
-            btnSave.ToolTipText = "Save File (Ctrl+S)";
+            this.btnSave.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.btnSave.Enabled = false;
+            this.btnSave.Image = global::Audiograph.My.Resources.Resources.Save_File;
+            this.btnSave.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.btnSave.Name = "btnSave";
+            this.btnSave.Size = new System.Drawing.Size(23, 22);
+            this.btnSave.Text = "ToolStripButton1";
+            this.btnSave.ToolTipText = "Save File (Ctrl+S)";
+            this.btnSave.Click += new System.EventHandler(this.ClickSave);
             // 
             // btnSaveAs
             // 
-            btnSaveAs.DisplayStyle = ToolStripItemDisplayStyle.Image;
-            btnSaveAs.Image = My.Resources.Resources.Save_As;
-            btnSaveAs.ImageTransparentColor = Color.Magenta;
-            btnSaveAs.Name = "btnSaveAs";
-            btnSaveAs.Size = new Size(23, 22);
-            btnSaveAs.Text = "ToolStripButton1";
-            btnSaveAs.ToolTipText = "Save File As (Ctrl+Shift+S)";
+            this.btnSaveAs.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.btnSaveAs.Image = global::Audiograph.My.Resources.Resources.Save_As;
+            this.btnSaveAs.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.btnSaveAs.Name = "btnSaveAs";
+            this.btnSaveAs.Size = new System.Drawing.Size(23, 22);
+            this.btnSaveAs.Text = "ToolStripButton1";
+            this.btnSaveAs.ToolTipText = "Save File As (Ctrl+Shift+S)";
+            this.btnSaveAs.Click += new System.EventHandler(this.ClickSaveAs);
             // 
             // btnSetIndex
             // 
-            btnSetIndex.DisplayStyle = ToolStripItemDisplayStyle.Image;
-            btnSetIndex.Image = My.Resources.Resources.Set_Index;
-            btnSetIndex.ImageTransparentColor = Color.Magenta;
-            btnSetIndex.Name = "btnSetIndex";
-            btnSetIndex.Size = new Size(23, 22);
-            btnSetIndex.Text = "ToolStripButton1";
-            btnSetIndex.ToolTipText = "Set As Current Scrobble Index";
+            this.btnSetIndex.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.btnSetIndex.Image = global::Audiograph.My.Resources.Resources.Set_Index;
+            this.btnSetIndex.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.btnSetIndex.Name = "btnSetIndex";
+            this.btnSetIndex.Size = new System.Drawing.Size(23, 22);
+            this.btnSetIndex.Text = "ToolStripButton1";
+            this.btnSetIndex.ToolTipText = "Set As Current Scrobble Index";
+            this.btnSetIndex.Click += new System.EventHandler(this.SetIndexClick);
             // 
             // ToolStripSeparator1
             // 
-            ToolStripSeparator1.Name = "ToolStripSeparator1";
-            ToolStripSeparator1.Size = new Size(6, 25);
+            this.ToolStripSeparator1.Name = "ToolStripSeparator1";
+            this.ToolStripSeparator1.Size = new System.Drawing.Size(6, 25);
             // 
             // btnAddRow
             // 
-            btnAddRow.DisplayStyle = ToolStripItemDisplayStyle.Image;
-            btnAddRow.Image = My.Resources.Resources.Add_Row;
-            btnAddRow.ImageTransparentColor = Color.Magenta;
-            btnAddRow.Name = "btnAddRow";
-            btnAddRow.Size = new Size(23, 22);
-            btnAddRow.Text = "ToolStripButton1";
-            btnAddRow.ToolTipText = "Add Row From File (Ctrl+Shift+A)";
+            this.btnAddRow.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.btnAddRow.Image = global::Audiograph.My.Resources.Resources.Add_Row;
+            this.btnAddRow.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.btnAddRow.Name = "btnAddRow";
+            this.btnAddRow.Size = new System.Drawing.Size(23, 22);
+            this.btnAddRow.Text = "ToolStripButton1";
+            this.btnAddRow.ToolTipText = "Add Row From File (Ctrl+Shift+A)";
+            this.btnAddRow.Click += new System.EventHandler(this.ClickAddRow);
             // 
             // ToolStripSeparator7
             // 
-            ToolStripSeparator7.Name = "ToolStripSeparator7";
-            ToolStripSeparator7.Size = new Size(6, 25);
+            this.ToolStripSeparator7.Name = "ToolStripSeparator7";
+            this.ToolStripSeparator7.Size = new System.Drawing.Size(6, 25);
             // 
             // btnReload
             // 
-            btnReload.DisplayStyle = ToolStripItemDisplayStyle.Image;
-            btnReload.Image = My.Resources.Resources.reload;
-            btnReload.ImageTransparentColor = Color.Magenta;
-            btnReload.Name = "btnReload";
-            btnReload.Size = new Size(23, 22);
-            btnReload.Text = "ToolStripButton1";
-            btnReload.ToolTipText = "Reload From File (Ctrl+R)";
+            this.btnReload.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.btnReload.Image = global::Audiograph.My.Resources.Resources.reload;
+            this.btnReload.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.btnReload.Name = "btnReload";
+            this.btnReload.Size = new System.Drawing.Size(23, 22);
+            this.btnReload.Text = "ToolStripButton1";
+            this.btnReload.ToolTipText = "Reload From File (Ctrl+R)";
+            this.btnReload.Click += new System.EventHandler(this.ClickReload);
             // 
             // btnEdit
             // 
-            btnEdit.DisplayStyle = ToolStripItemDisplayStyle.Image;
-            btnEdit.DropDownItems.AddRange(new ToolStripItem[] { btnCopyCell, btnCopyRow, ToolStripSeparator8, btnCutCell, btnCutRow, ToolStripSeparator9, btnPasteCell, ToolStripSeparator10, btnDeleteCell, btnDeleteRow });
-            btnEdit.Image = My.Resources.Resources.Pencil;
-            btnEdit.ImageTransparentColor = Color.Magenta;
-            btnEdit.Name = "btnEdit";
-            btnEdit.Size = new Size(29, 22);
-            btnEdit.Text = "ToolStripDropDownButton4";
-            btnEdit.ToolTipText = "Edit";
+            this.btnEdit.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.btnEdit.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.btnCopyCell,
+            this.btnCopyRow,
+            this.ToolStripSeparator8,
+            this.btnCutCell,
+            this.btnCutRow,
+            this.ToolStripSeparator9,
+            this.btnPasteCell,
+            this.ToolStripSeparator10,
+            this.btnDeleteCell,
+            this.btnDeleteRow});
+            this.btnEdit.Image = global::Audiograph.My.Resources.Resources.Pencil;
+            this.btnEdit.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.btnEdit.Name = "btnEdit";
+            this.btnEdit.Size = new System.Drawing.Size(29, 22);
+            this.btnEdit.Text = "ToolStripDropDownButton4";
+            this.btnEdit.ToolTipText = "Edit";
             // 
             // btnCopyCell
             // 
-            btnCopyCell.Name = "btnCopyCell";
-            btnCopyCell.Size = new Size(149, 22);
-            btnCopyCell.Text = "Copy Cell(s)";
+            this.btnCopyCell.Name = "btnCopyCell";
+            this.btnCopyCell.Size = new System.Drawing.Size(149, 22);
+            this.btnCopyCell.Text = "Copy Cell(s)";
+            this.btnCopyCell.Click += new System.EventHandler(this.ClickCopyCell);
             // 
             // btnCopyRow
             // 
-            btnCopyRow.Name = "btnCopyRow";
-            btnCopyRow.Size = new Size(149, 22);
-            btnCopyRow.Text = "Copy Row(s)";
+            this.btnCopyRow.Name = "btnCopyRow";
+            this.btnCopyRow.Size = new System.Drawing.Size(149, 22);
+            this.btnCopyRow.Text = "Copy Row(s)";
+            this.btnCopyRow.Click += new System.EventHandler(this.ClickCopyRow);
             // 
             // ToolStripSeparator8
             // 
-            ToolStripSeparator8.Name = "ToolStripSeparator8";
-            ToolStripSeparator8.Size = new Size(146, 6);
+            this.ToolStripSeparator8.Name = "ToolStripSeparator8";
+            this.ToolStripSeparator8.Size = new System.Drawing.Size(146, 6);
             // 
             // btnCutCell
             // 
-            btnCutCell.Name = "btnCutCell";
-            btnCutCell.Size = new Size(149, 22);
-            btnCutCell.Text = "Cut Cell(s)";
+            this.btnCutCell.Name = "btnCutCell";
+            this.btnCutCell.Size = new System.Drawing.Size(149, 22);
+            this.btnCutCell.Text = "Cut Cell(s)";
+            this.btnCutCell.Click += new System.EventHandler(this.ClickCutCell);
             // 
             // btnCutRow
             // 
-            btnCutRow.Name = "btnCutRow";
-            btnCutRow.Size = new Size(149, 22);
-            btnCutRow.Text = "Cut Row(s)";
+            this.btnCutRow.Name = "btnCutRow";
+            this.btnCutRow.Size = new System.Drawing.Size(149, 22);
+            this.btnCutRow.Text = "Cut Row(s)";
+            this.btnCutRow.Click += new System.EventHandler(this.ClickCutRow);
             // 
             // ToolStripSeparator9
             // 
-            ToolStripSeparator9.Name = "ToolStripSeparator9";
-            ToolStripSeparator9.Size = new Size(146, 6);
+            this.ToolStripSeparator9.Name = "ToolStripSeparator9";
+            this.ToolStripSeparator9.Size = new System.Drawing.Size(146, 6);
             // 
             // btnPasteCell
             // 
-            btnPasteCell.Name = "btnPasteCell";
-            btnPasteCell.Size = new Size(149, 22);
-            btnPasteCell.Text = "Paste Into Cell";
+            this.btnPasteCell.Name = "btnPasteCell";
+            this.btnPasteCell.Size = new System.Drawing.Size(149, 22);
+            this.btnPasteCell.Text = "Paste Into Cell";
+            this.btnPasteCell.Click += new System.EventHandler(this.ClickPasteCell);
             // 
             // ToolStripSeparator10
             // 
-            ToolStripSeparator10.Name = "ToolStripSeparator10";
-            ToolStripSeparator10.Size = new Size(146, 6);
+            this.ToolStripSeparator10.Name = "ToolStripSeparator10";
+            this.ToolStripSeparator10.Size = new System.Drawing.Size(146, 6);
             // 
             // btnDeleteCell
             // 
-            btnDeleteCell.Name = "btnDeleteCell";
-            btnDeleteCell.Size = new Size(149, 22);
-            btnDeleteCell.Text = "Delete Cell(s)";
+            this.btnDeleteCell.Name = "btnDeleteCell";
+            this.btnDeleteCell.Size = new System.Drawing.Size(149, 22);
+            this.btnDeleteCell.Text = "Delete Cell(s)";
+            this.btnDeleteCell.Click += new System.EventHandler(this.ClickDeleteCell);
             // 
             // btnDeleteRow
             // 
-            btnDeleteRow.Name = "btnDeleteRow";
-            btnDeleteRow.Size = new Size(149, 22);
-            btnDeleteRow.Text = "Delete Row(s)";
+            this.btnDeleteRow.Name = "btnDeleteRow";
+            this.btnDeleteRow.Size = new System.Drawing.Size(149, 22);
+            this.btnDeleteRow.Text = "Delete Row(s)";
+            this.btnDeleteRow.Click += new System.EventHandler(this.ClickDeleteRow);
             // 
             // ToolStripSeparator3
             // 
-            ToolStripSeparator3.Name = "ToolStripSeparator3";
-            ToolStripSeparator3.Size = new Size(6, 25);
+            this.ToolStripSeparator3.Name = "ToolStripSeparator3";
+            this.ToolStripSeparator3.Size = new System.Drawing.Size(6, 25);
             // 
             // btnFind
             // 
-            btnFind.DisplayStyle = ToolStripItemDisplayStyle.Image;
-            btnFind.Image = My.Resources.Resources.Find;
-            btnFind.ImageTransparentColor = Color.Magenta;
-            btnFind.Name = "btnFind";
-            btnFind.Size = new Size(23, 22);
-            btnFind.Text = "ToolStripButton1";
-            btnFind.ToolTipText = "Find (Ctrl+F)";
+            this.btnFind.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.btnFind.Image = global::Audiograph.My.Resources.Resources.Find;
+            this.btnFind.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.btnFind.Name = "btnFind";
+            this.btnFind.Size = new System.Drawing.Size(23, 22);
+            this.btnFind.Text = "ToolStripButton1";
+            this.btnFind.ToolTipText = "Find (Ctrl+F)";
+            this.btnFind.Click += new System.EventHandler(this.ClickFind);
             // 
             // txtFind
             // 
-            txtFind.Name = "txtFind";
-            txtFind.Size = new Size(100, 25);
-            txtFind.ToolTipText = "Type text to find...";
-            txtFind.Visible = false;
+            this.txtFind.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txtFind.Name = "txtFind";
+            this.txtFind.Size = new System.Drawing.Size(100, 25);
+            this.txtFind.ToolTipText = "Type text to find...";
+            this.txtFind.Visible = false;
             // 
             // lblFind
             // 
-            lblFind.Name = "lblFind";
-            lblFind.Size = new Size(30, 22);
-            lblFind.Text = "Find";
-            lblFind.Visible = false;
+            this.lblFind.Name = "lblFind";
+            this.lblFind.Size = new System.Drawing.Size(30, 22);
+            this.lblFind.Text = "Find";
+            this.lblFind.Visible = false;
             // 
             // ToolStripSeparator2
             // 
-            ToolStripSeparator2.Name = "ToolStripSeparator2";
-            ToolStripSeparator2.Size = new Size(6, 25);
+            this.ToolStripSeparator2.Name = "ToolStripSeparator2";
+            this.ToolStripSeparator2.Size = new System.Drawing.Size(6, 25);
             // 
             // btnVerifyRow
             // 
-            btnVerifyRow.DisplayStyle = ToolStripItemDisplayStyle.Image;
-            btnVerifyRow.Image = (Image)resources.GetObject("btnVerifyRow.Image");
-            btnVerifyRow.ImageTransparentColor = Color.Magenta;
-            btnVerifyRow.Name = "btnVerifyRow";
-            btnVerifyRow.Size = new Size(23, 22);
-            btnVerifyRow.Text = "ToolStripButton1";
-            btnVerifyRow.ToolTipText = "Verify Selected Row With LFM";
+            this.btnVerifyRow.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.btnVerifyRow.Image = ((System.Drawing.Image)(resources.GetObject("btnVerifyRow.Image")));
+            this.btnVerifyRow.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.btnVerifyRow.Name = "btnVerifyRow";
+            this.btnVerifyRow.Size = new System.Drawing.Size(23, 22);
+            this.btnVerifyRow.Text = "ToolStripButton1";
+            this.btnVerifyRow.ToolTipText = "Verify Selected Row With LFM";
+            this.btnVerifyRow.Click += new System.EventHandler(this.ClickVerifyRow);
             // 
             // btnVerifyFile
             // 
-            btnVerifyFile.DisplayStyle = ToolStripItemDisplayStyle.Image;
-            btnVerifyFile.Image = My.Resources.Resources.Verify_All;
-            btnVerifyFile.ImageTransparentColor = Color.Magenta;
-            btnVerifyFile.Name = "btnVerifyFile";
-            btnVerifyFile.Size = new Size(23, 22);
-            btnVerifyFile.ToolTipText = "Verify Entire File With LFM";
+            this.btnVerifyFile.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.btnVerifyFile.Image = global::Audiograph.My.Resources.Resources.Verify_All;
+            this.btnVerifyFile.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.btnVerifyFile.Name = "btnVerifyFile";
+            this.btnVerifyFile.Size = new System.Drawing.Size(23, 22);
+            this.btnVerifyFile.ToolTipText = "Verify Entire File With LFM";
+            this.btnVerifyFile.Click += new System.EventHandler(this.ClickVerifyFile);
             // 
             // prgVerify
             // 
-            prgVerify.Name = "prgVerify";
-            prgVerify.Size = new Size(100, 22);
-            prgVerify.Style = ProgressBarStyle.Continuous;
-            prgVerify.Visible = false;
+            this.prgVerify.Name = "prgVerify";
+            this.prgVerify.Size = new System.Drawing.Size(100, 22);
+            this.prgVerify.Style = System.Windows.Forms.ProgressBarStyle.Continuous;
+            this.prgVerify.Visible = false;
             // 
             // lblVerify
             // 
-            lblVerify.Name = "lblVerify";
-            lblVerify.Size = new Size(53, 22);
-            lblVerify.Text = "Verifying";
-            lblVerify.Visible = false;
+            this.lblVerify.Name = "lblVerify";
+            this.lblVerify.Size = new System.Drawing.Size(53, 22);
+            this.lblVerify.Text = "Verifying";
+            this.lblVerify.Visible = false;
             // 
             // ofdOpen
             // 
-            ofdOpen.Filter = "Audiograph Scrobble Index|*.agsi";
-            ofdOpen.Title = "Select file...";
+            this.ofdOpen.Filter = "Audiograph Scrobble Index|*.agsi";
+            this.ofdOpen.Title = "Select file...";
             // 
             // sfdSaveAs
             // 
-            sfdSaveAs.Filter = "Audiograph Scrobble Index|*.agsi";
-            sfdSaveAs.Title = "Save file as...";
+            this.sfdSaveAs.Filter = "Audiograph Scrobble Index|*.agsi";
+            this.sfdSaveAs.Title = "Save file as...";
             // 
             // frmScrobbleIndexEditor
             // 
-            AutoScaleDimensions = new SizeF(6.0f, 13.0f);
-            AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
-            Controls.Add(ToolStrip);
-            Controls.Add(dgvData);
-            Icon = (Icon)resources.GetObject("$this.Icon");
-            Name = "frmScrobbleIndexEditor";
-            StartPosition = FormStartPosition.CenterScreen;
-            Text = "Scrobble Index Editor";
-            ((System.ComponentModel.ISupportInitialize)dgvData).EndInit();
-            ToolStrip.ResumeLayout(false);
-            ToolStrip.PerformLayout();
-            Resize += new EventHandler(ResizeOps);
-            Load += new EventHandler(FrmLoad);
-            KeyDown += new KeyEventHandler(ShortcutKeys);
-            Closing += new System.ComponentModel.CancelEventHandler(FormClose);
-            ResumeLayout(false);
-            PerformLayout();
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.ToolStrip);
+            this.Controls.Add(this.dgvData);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Name = "frmScrobbleIndexEditor";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Scrobble Index Editor";
+            this.Closing += new System.ComponentModel.CancelEventHandler(this.FormClose);
+            this.Load += new System.EventHandler(this.FrmLoad);
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.ShortcutKeys);
+            this.Resize += new System.EventHandler(this.ResizeOps);
+            ((System.ComponentModel.ISupportInitialize)(this.dgvData)).EndInit();
+            this.ToolStrip.ResumeLayout(false);
+            this.ToolStrip.PerformLayout();
+            this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 

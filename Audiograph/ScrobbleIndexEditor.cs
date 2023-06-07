@@ -647,6 +647,37 @@ namespace Audiograph
 
             My.MyProject.Forms.frmScrobbleIndexAddRow.Close();
         }
+
+        // parses cells out of clipboard text
+        private List<string> ParseClipboard(string str)
+        {
+            List<string> cells = new List<string>();
+            if (str.Trim().StartsWith("\"") && str.Trim().EndsWith("\""))
+            {
+                int firstPos = 0, lastPos = 0;
+                bool end = false;
+                while (!end)
+                {
+                    firstPos = str.IndexOf("\"", firstPos);
+                    lastPos = str.IndexOf("\"", firstPos + 1);
+                    cells.Add(str.Substring(firstPos + 1, lastPos - firstPos - 1));
+                    if (str.Length > lastPos + 1 && str[lastPos + 1] == ',')
+                    {
+                        firstPos = lastPos + 1;
+                    }
+                    else
+                    {
+                        end = true;
+                    }
+                }
+            }
+            else
+            {
+                cells.Add(str);
+            }
+
+            return cells;
+        }
         #endregion
     }
 }

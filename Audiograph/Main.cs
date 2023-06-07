@@ -4370,7 +4370,16 @@ namespace Audiograph
 
         private void CmsUserRecentOpen(object sender, CancelEventArgs e)
         {
-            byte row = CMSLists.GetUserRecentRowIndex((Label)((ContextMenuStrip)sender).SourceControl);
+            byte row;
+            try
+            {
+                row = CMSLists.GetUserRecentRowIndex((Label)((ContextMenuStrip)sender).SourceControl);
+
+            }
+            catch (InvalidCastException)
+            {
+                return;
+            }
 
             // disable track if needed
             if (CMSLists.UserRecentLabel[row, 0].Text.Contains("(Unavailable)") == true || CMSLists.UserRecentLabel[row, 0].Text.Contains("ERROR: ") == true || CMSLists.UserRecentLabel[row, 1].Text.Contains("(Unavailable)") == true || CMSLists.UserRecentLabel[row, 1].Text.Contains("ERROR: ") == true)
@@ -4782,7 +4791,16 @@ namespace Audiograph
 
         private void CmsUserLRecentOpen(object sender, CancelEventArgs e)
         {
-            byte row = CMSLists.GetUserRecentRowIndex((Label)((ContextMenuStrip)sender).SourceControl);
+            byte row;
+            try
+            {
+                row = CMSLists.GetUserRecentRowIndex((Label)((ContextMenuStrip)sender).SourceControl);
+
+            }
+            catch (InvalidCastException)
+            {
+                return;
+            }
 
             // disable track if needed
             if (CMSLists.UserLRecentLabel[row, 0].Text.Contains("(Unavailable)") == true || CMSLists.UserLRecentLabel[row, 0].Text.Contains("ERROR: ") == true || CMSLists.UserLRecentLabel[row, 1].Text.Contains("(Unavailable)") == true || CMSLists.UserLRecentLabel[row, 1].Text.Contains("ERROR: ") == true)

@@ -1,7 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.Data.Common;
+using System.Diagnostics.Eventing.Reader;
 using System.IO;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Windows.Forms;
 using Microsoft.VisualBasic;
@@ -455,6 +458,30 @@ namespace Audiograph
         {
             for (int selectedCell = dgvData.SelectedCells.Count - 1; selectedCell >= 0; selectedCell -= 1)
                 dgvData.SelectedCells[selectedCell].Value = My.MyProject.Computer.Clipboard.GetText();
+        }
+
+        private void ClickPasteRow(object sender, EventArgs e)
+        {
+            string clipboard = My.MyProject.Computer.Clipboard.GetText();
+            List<string> cells = ParseClipboard(clipboard);
+            List<string[]> rows = new List<string[]>();
+            List<string> currentRow = new List<string>();
+            for (int x = 0; x < cells.Count; x++)
+            {
+                currentRow.Add(cells[x]);
+                if (currentRow.Count >= 4) 
+                {
+                    rows.Add(currentRow.ToArray());
+                    currentRow.Clear();
+                }
+            }
+
+            if (dgvData.SelectedRows.Count > 0) // insert at selected row
+                dgvData.Rows.Insert(dgvData.SelectedRows[dgvData.SelectedRows.Count - 1].Index + 1, cells.ToArray());
+            else if (dgvData.SelectedCells.Count > 0) // insert at row of last selected cell
+                dgvData.Rows.Insert(dgvData.SelectedCells[dgvData.SelectedCells.Count - 1].RowIndex + 1, cells.ToArray());
+            else // insert at end of file
+                dgvData.Rows.Insert(dgvData.Rows.Count - 1, cells.ToArray());
         }
 
         private void ClickDeleteCell(object sender, EventArgs e)

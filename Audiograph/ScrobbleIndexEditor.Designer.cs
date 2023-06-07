@@ -73,6 +73,7 @@ namespace Audiograph
             this.lblVerify = new System.Windows.Forms.ToolStripLabel();
             this.ofdOpen = new System.Windows.Forms.OpenFileDialog();
             this.sfdSaveAs = new System.Windows.Forms.SaveFileDialog();
+            this.btnPasteRow = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.dgvData)).BeginInit();
             this.ToolStrip.SuspendLayout();
             this.SuspendLayout();
@@ -246,6 +247,7 @@ namespace Audiograph
             this.btnCutRow,
             this.ToolStripSeparator9,
             this.btnPasteCell,
+            this.btnPasteRow,
             this.ToolStripSeparator10,
             this.btnDeleteCell,
             this.btnDeleteRow});
@@ -259,64 +261,64 @@ namespace Audiograph
             // btnCopyCell
             // 
             this.btnCopyCell.Name = "btnCopyCell";
-            this.btnCopyCell.Size = new System.Drawing.Size(149, 22);
+            this.btnCopyCell.Size = new System.Drawing.Size(180, 22);
             this.btnCopyCell.Text = "Copy Cell(s)";
             this.btnCopyCell.Click += new System.EventHandler(this.ClickCopyCell);
             // 
             // btnCopyRow
             // 
             this.btnCopyRow.Name = "btnCopyRow";
-            this.btnCopyRow.Size = new System.Drawing.Size(149, 22);
+            this.btnCopyRow.Size = new System.Drawing.Size(180, 22);
             this.btnCopyRow.Text = "Copy Row(s)";
             this.btnCopyRow.Click += new System.EventHandler(this.ClickCopyRow);
             // 
             // ToolStripSeparator8
             // 
             this.ToolStripSeparator8.Name = "ToolStripSeparator8";
-            this.ToolStripSeparator8.Size = new System.Drawing.Size(146, 6);
+            this.ToolStripSeparator8.Size = new System.Drawing.Size(177, 6);
             // 
             // btnCutCell
             // 
             this.btnCutCell.Name = "btnCutCell";
-            this.btnCutCell.Size = new System.Drawing.Size(149, 22);
+            this.btnCutCell.Size = new System.Drawing.Size(180, 22);
             this.btnCutCell.Text = "Cut Cell(s)";
             this.btnCutCell.Click += new System.EventHandler(this.ClickCutCell);
             // 
             // btnCutRow
             // 
             this.btnCutRow.Name = "btnCutRow";
-            this.btnCutRow.Size = new System.Drawing.Size(149, 22);
+            this.btnCutRow.Size = new System.Drawing.Size(180, 22);
             this.btnCutRow.Text = "Cut Row(s)";
             this.btnCutRow.Click += new System.EventHandler(this.ClickCutRow);
             // 
             // ToolStripSeparator9
             // 
             this.ToolStripSeparator9.Name = "ToolStripSeparator9";
-            this.ToolStripSeparator9.Size = new System.Drawing.Size(146, 6);
+            this.ToolStripSeparator9.Size = new System.Drawing.Size(177, 6);
             // 
             // btnPasteCell
             // 
             this.btnPasteCell.Name = "btnPasteCell";
-            this.btnPasteCell.Size = new System.Drawing.Size(149, 22);
+            this.btnPasteCell.Size = new System.Drawing.Size(180, 22);
             this.btnPasteCell.Text = "Paste Into Cell";
             this.btnPasteCell.Click += new System.EventHandler(this.ClickPasteCell);
             // 
             // ToolStripSeparator10
             // 
             this.ToolStripSeparator10.Name = "ToolStripSeparator10";
-            this.ToolStripSeparator10.Size = new System.Drawing.Size(146, 6);
+            this.ToolStripSeparator10.Size = new System.Drawing.Size(177, 6);
             // 
             // btnDeleteCell
             // 
             this.btnDeleteCell.Name = "btnDeleteCell";
-            this.btnDeleteCell.Size = new System.Drawing.Size(149, 22);
+            this.btnDeleteCell.Size = new System.Drawing.Size(180, 22);
             this.btnDeleteCell.Text = "Delete Cell(s)";
             this.btnDeleteCell.Click += new System.EventHandler(this.ClickDeleteCell);
             // 
             // btnDeleteRow
             // 
             this.btnDeleteRow.Name = "btnDeleteRow";
-            this.btnDeleteRow.Size = new System.Drawing.Size(149, 22);
+            this.btnDeleteRow.Size = new System.Drawing.Size(180, 22);
             this.btnDeleteRow.Text = "Delete Row(s)";
             this.btnDeleteRow.Click += new System.EventHandler(this.ClickDeleteRow);
             // 
@@ -401,6 +403,13 @@ namespace Audiograph
             this.sfdSaveAs.Filter = "Audiograph Scrobble Index|*.agsi";
             this.sfdSaveAs.Title = "Save file as...";
             // 
+            // btnPasteRow
+            // 
+            this.btnPasteRow.Name = "btnPasteRow";
+            this.btnPasteRow.Size = new System.Drawing.Size(180, 22);
+            this.btnPasteRow.Text = "Paste Into Row";
+            this.btnPasteRow.Click += new System.EventHandler(this.ClickPasteRow);
+            // 
             // frmScrobbleIndexEditor
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -461,5 +470,6 @@ namespace Audiograph
         internal ToolStripLabel lblVerify;
         internal ToolStripButton btnSetIndex;
         internal ToolStripSeparator ToolStripSeparator1;
+        private ToolStripMenuItem btnPasteRow;
     }
 }

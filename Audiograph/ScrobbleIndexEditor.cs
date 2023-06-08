@@ -476,9 +476,9 @@ namespace Audiograph
                 }
             }
 
-            if (dgvData.SelectedRows.Count > 0) // insert at selected row
+            if (dgvData.SelectedRows.Count > 0 && dgvData.SelectedRows[dgvData.SelectedRows.Count - 1].Index < dgvData.Rows.Count - 1) // insert at selected row
                 dgvData.Rows.Insert(dgvData.SelectedRows[dgvData.SelectedRows.Count - 1].Index + 1, cells.ToArray());
-            else if (dgvData.SelectedCells.Count > 0) // insert at row of last selected cell
+            else if (dgvData.SelectedCells.Count > 0 && dgvData.SelectedCells[dgvData.SelectedCells.Count - 1].RowIndex < dgvData.Rows.Count - 1) // insert at row of last selected cell
                 dgvData.Rows.Insert(dgvData.SelectedCells[dgvData.SelectedCells.Count - 1].RowIndex + 1, cells.ToArray());
             else // insert at end of file
                 dgvData.Rows.Insert(dgvData.Rows.Count - 1, cells.ToArray());

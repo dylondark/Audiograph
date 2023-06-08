@@ -456,8 +456,22 @@ namespace Audiograph
 
         private void ClickPasteCell(object sender, EventArgs e)
         {
-            for (int selectedCell = dgvData.SelectedCells.Count - 1; selectedCell >= 0; selectedCell -= 1)
-                dgvData.SelectedCells[selectedCell].Value = My.MyProject.Computer.Clipboard.GetText();
+            List<string> cells = ParseClipboard(Clipboard.GetText());
+            if (cells.Count <= 1)
+            {
+                // paste the same text into every selected cell
+                for (int selectedCell = dgvData.SelectedCells.Count - 1; selectedCell >= 0; selectedCell -= 1)
+                    dgvData.SelectedCells[selectedCell].Value = cells[0];
+            }
+            else
+            {
+                // copy each cell into each selected cell
+                for (int selectedCell = dgvData.SelectedCells.Count - 1; selectedCell >= 0; selectedCell -= 1)
+                {
+                    if ((dgvData.SelectedCells.Count - 1 - selectedCell) < cells.Count)
+                        dgvData.SelectedCells[selectedCell].Value = cells[dgvData.SelectedCells.Count - 1 - selectedCell];
+                }
+            }
         }
 
         private void ClickPasteRow(object sender, EventArgs e)

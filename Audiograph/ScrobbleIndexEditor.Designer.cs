@@ -59,6 +59,7 @@ namespace Audiograph
             this.btnCutRow = new System.Windows.Forms.ToolStripMenuItem();
             this.ToolStripSeparator9 = new System.Windows.Forms.ToolStripSeparator();
             this.btnPasteCell = new System.Windows.Forms.ToolStripMenuItem();
+            this.btnPasteRow = new System.Windows.Forms.ToolStripMenuItem();
             this.ToolStripSeparator10 = new System.Windows.Forms.ToolStripSeparator();
             this.btnDeleteCell = new System.Windows.Forms.ToolStripMenuItem();
             this.btnDeleteRow = new System.Windows.Forms.ToolStripMenuItem();
@@ -73,7 +74,6 @@ namespace Audiograph
             this.lblVerify = new System.Windows.Forms.ToolStripLabel();
             this.ofdOpen = new System.Windows.Forms.OpenFileDialog();
             this.sfdSaveAs = new System.Windows.Forms.SaveFileDialog();
-            this.btnPasteRow = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.dgvData)).BeginInit();
             this.ToolStrip.SuspendLayout();
             this.SuspendLayout();
@@ -300,8 +300,15 @@ namespace Audiograph
             // 
             this.btnPasteCell.Name = "btnPasteCell";
             this.btnPasteCell.Size = new System.Drawing.Size(180, 22);
-            this.btnPasteCell.Text = "Paste Into Cell";
+            this.btnPasteCell.Text = "Paste Into Cell(s)";
             this.btnPasteCell.Click += new System.EventHandler(this.ClickPasteCell);
+            // 
+            // btnPasteRow
+            // 
+            this.btnPasteRow.Name = "btnPasteRow";
+            this.btnPasteRow.Size = new System.Drawing.Size(180, 22);
+            this.btnPasteRow.Text = "Paste Into Row";
+            this.btnPasteRow.Click += new System.EventHandler(this.ClickPasteRow);
             // 
             // ToolStripSeparator10
             // 
@@ -402,13 +409,6 @@ namespace Audiograph
             // 
             this.sfdSaveAs.Filter = "Audiograph Scrobble Index|*.agsi";
             this.sfdSaveAs.Title = "Save file as...";
-            // 
-            // btnPasteRow
-            // 
-            this.btnPasteRow.Name = "btnPasteRow";
-            this.btnPasteRow.Size = new System.Drawing.Size(180, 22);
-            this.btnPasteRow.Text = "Paste Into Row";
-            this.btnPasteRow.Click += new System.EventHandler(this.ClickPasteRow);
             // 
             // frmScrobbleIndexEditor
             // 

@@ -6074,6 +6074,7 @@ namespace Audiograph
                 return;
             }
 
+            Utilities.newsong = true;
             MediaPlayer.URL = ltvMediaQueue.Items[item].SubItems[1].Text;
             QueueRemove(new[] { item });
             // check if player is playing, if its not then turn on the timer

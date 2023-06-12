@@ -457,11 +457,18 @@ namespace Audiograph
         private void ClickPasteCell(object sender, EventArgs e)
         {
             List<string> cells = ParseClipboard(Clipboard.GetText());
+            string[] newRow = { "", "", "", "" };
             if (cells.Count <= 1)
             {
                 // paste the same text into every selected cell
                 for (int selectedCell = dgvData.SelectedCells.Count - 1; selectedCell >= 0; selectedCell -= 1)
-                    dgvData.SelectedCells[selectedCell].Value = cells[0];
+                {
+                    if (dgvData.Rows[dgvData.SelectedCells[selectedCell].RowIndex].IsNewRow)
+                        newRow[dgvData.SelectedCells[selectedCell].OwningColumn.Index] = cells[0];
+                    else
+                        dgvData.SelectedCells[selectedCell].Value = cells[0];
+                }
+                
             }
             else
             {
@@ -469,8 +476,19 @@ namespace Audiograph
                 for (int selectedCell = dgvData.SelectedCells.Count - 1; selectedCell >= 0; selectedCell -= 1)
                 {
                     if ((dgvData.SelectedCells.Count - 1 - selectedCell) < cells.Count)
-                        dgvData.SelectedCells[selectedCell].Value = cells[dgvData.SelectedCells.Count - 1 - selectedCell];
+                    {
+                        if (dgvData.Rows[dgvData.SelectedCells[selectedCell].RowIndex].IsNewRow)
+                            newRow[dgvData.SelectedCells[selectedCell].OwningColumn.Index] = cells[dgvData.SelectedCells.Count - 1 - selectedCell];
+                        else
+                            dgvData.SelectedCells[selectedCell].Value = cells[dgvData.SelectedCells.Count - 1 - selectedCell];
+                    }
                 }
+            }
+
+            if (!System.Linq.Enumerable.SequenceEqual(newRow, new[] { "", "", "", "" }))
+            {
+                dgvData.Rows.Add(newRow);
+                Saved(false);
             }
         }
 

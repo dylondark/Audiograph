@@ -544,8 +544,8 @@ namespace Audiograph
         #region Ops
         public void NewFile()
         {
-            Saved(false);
-            Text = "Scrobble Index Editor - *Untitled";
+            Saved(true);
+            Text = "Scrobble Index Editor - Untitled";
             newState = true;
             btnSetIndex.Enabled = false;
             btnReload.Enabled = false;

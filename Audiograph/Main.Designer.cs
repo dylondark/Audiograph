@@ -54,96 +54,96 @@ namespace Audiograph
             this.tlpCharts = new Audiograph.DBLayoutPanel();
             this.GroupBox2 = new System.Windows.Forms.GroupBox();
             this.tlpTopArtists = new Audiograph.DBLayoutPanel();
-            this.lblTopArtistPlaycount20 = new System.Windows.Forms.Label();
+            this.lblTopArtistPlaycount20 = new Audiograph.Label();
             this.cmsChartArtist = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.mnuChartArtistGoToArtist = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuChartArtistBackupArtist = new System.Windows.Forms.ToolStripMenuItem();
-            this.lblTopArtistPlaycount19 = new System.Windows.Forms.Label();
-            this.lblTopArtistPlaycount18 = new System.Windows.Forms.Label();
-            this.lblTopArtistPlaycount17 = new System.Windows.Forms.Label();
-            this.lblTopArtistPlaycount16 = new System.Windows.Forms.Label();
-            this.lblTopArtistPlaycount15 = new System.Windows.Forms.Label();
-            this.lblTopArtistPlaycount14 = new System.Windows.Forms.Label();
-            this.lblTopArtistPlaycount13 = new System.Windows.Forms.Label();
-            this.lblTopArtistPlaycount12 = new System.Windows.Forms.Label();
-            this.lblTopArtistPlaycount11 = new System.Windows.Forms.Label();
-            this.lblTopArtistPlaycount10 = new System.Windows.Forms.Label();
-            this.lblTopArtistPlaycount9 = new System.Windows.Forms.Label();
-            this.lblTopArtistPlaycount8 = new System.Windows.Forms.Label();
-            this.lblTopArtistPlaycount7 = new System.Windows.Forms.Label();
-            this.lblTopArtistPlaycount6 = new System.Windows.Forms.Label();
-            this.lblTopArtistPlaycount5 = new System.Windows.Forms.Label();
-            this.lblTopArtistPlaycount4 = new System.Windows.Forms.Label();
-            this.lblTopArtistPlaycount3 = new System.Windows.Forms.Label();
-            this.lblTopArtistPlaycount2 = new System.Windows.Forms.Label();
-            this.lblTopArtistPlaycount1 = new System.Windows.Forms.Label();
-            this.Label8 = new System.Windows.Forms.Label();
-            this.lblTopArtistListeners20 = new System.Windows.Forms.Label();
-            this.lblTopArtistListeners19 = new System.Windows.Forms.Label();
-            this.lblTopArtistListeners18 = new System.Windows.Forms.Label();
-            this.lblTopArtistListeners17 = new System.Windows.Forms.Label();
-            this.lblTopArtistListeners16 = new System.Windows.Forms.Label();
-            this.lblTopArtistListeners15 = new System.Windows.Forms.Label();
-            this.lblTopArtistListeners14 = new System.Windows.Forms.Label();
-            this.lblTopArtistListeners13 = new System.Windows.Forms.Label();
-            this.lblTopArtistListeners12 = new System.Windows.Forms.Label();
-            this.lblTopArtistListeners11 = new System.Windows.Forms.Label();
-            this.lblTopArtistListeners10 = new System.Windows.Forms.Label();
-            this.lblTopArtistListeners9 = new System.Windows.Forms.Label();
-            this.lblTopArtistListeners8 = new System.Windows.Forms.Label();
-            this.lblTopArtistListeners7 = new System.Windows.Forms.Label();
-            this.lblTopArtistListeners6 = new System.Windows.Forms.Label();
-            this.lblTopArtistListeners5 = new System.Windows.Forms.Label();
-            this.lblTopArtistListeners4 = new System.Windows.Forms.Label();
-            this.lblTopArtistListeners3 = new System.Windows.Forms.Label();
-            this.lblTopArtistListeners2 = new System.Windows.Forms.Label();
-            this.lblTopArtistListeners1 = new System.Windows.Forms.Label();
-            this.Label7 = new System.Windows.Forms.Label();
-            this.lblTopArtist20 = new System.Windows.Forms.Label();
-            this.Label148 = new System.Windows.Forms.Label();
-            this.lblTopArtist19 = new System.Windows.Forms.Label();
-            this.Label146 = new System.Windows.Forms.Label();
-            this.lblTopArtist18 = new System.Windows.Forms.Label();
-            this.Label144 = new System.Windows.Forms.Label();
-            this.lblTopArtist17 = new System.Windows.Forms.Label();
-            this.Label142 = new System.Windows.Forms.Label();
-            this.lblTopArtist16 = new System.Windows.Forms.Label();
-            this.Label140 = new System.Windows.Forms.Label();
-            this.lblTopArtist15 = new System.Windows.Forms.Label();
-            this.Label138 = new System.Windows.Forms.Label();
-            this.lblTopArtist14 = new System.Windows.Forms.Label();
-            this.Label136 = new System.Windows.Forms.Label();
-            this.lblTopArtist13 = new System.Windows.Forms.Label();
-            this.Label134 = new System.Windows.Forms.Label();
-            this.lblTopArtist12 = new System.Windows.Forms.Label();
-            this.Label132 = new System.Windows.Forms.Label();
-            this.lblTopArtist11 = new System.Windows.Forms.Label();
-            this.Label130 = new System.Windows.Forms.Label();
-            this.lblTopArtist10 = new System.Windows.Forms.Label();
-            this.Label128 = new System.Windows.Forms.Label();
-            this.lblTopArtist9 = new System.Windows.Forms.Label();
-            this.Label126 = new System.Windows.Forms.Label();
-            this.lblTopArtist8 = new System.Windows.Forms.Label();
-            this.Label124 = new System.Windows.Forms.Label();
-            this.lblTopArtist7 = new System.Windows.Forms.Label();
-            this.Label122 = new System.Windows.Forms.Label();
-            this.lblTopArtist6 = new System.Windows.Forms.Label();
-            this.Label120 = new System.Windows.Forms.Label();
-            this.lblTopArtist5 = new System.Windows.Forms.Label();
-            this.Label118 = new System.Windows.Forms.Label();
-            this.lblTopArtist4 = new System.Windows.Forms.Label();
-            this.Label116 = new System.Windows.Forms.Label();
-            this.lblTopArtist3 = new System.Windows.Forms.Label();
-            this.Label114 = new System.Windows.Forms.Label();
-            this.lblTopArtist2 = new System.Windows.Forms.Label();
-            this.Label19 = new System.Windows.Forms.Label();
-            this.lblTopArtist1 = new System.Windows.Forms.Label();
-            this.Label17 = new System.Windows.Forms.Label();
-            this.Label16 = new System.Windows.Forms.Label();
-            this.Label14 = new System.Windows.Forms.Label();
+            this.lblTopArtistPlaycount19 = new Audiograph.Label();
+            this.lblTopArtistPlaycount18 = new Audiograph.Label();
+            this.lblTopArtistPlaycount17 = new Audiograph.Label();
+            this.lblTopArtistPlaycount16 = new Audiograph.Label();
+            this.lblTopArtistPlaycount15 = new Audiograph.Label();
+            this.lblTopArtistPlaycount14 = new Audiograph.Label();
+            this.lblTopArtistPlaycount13 = new Audiograph.Label();
+            this.lblTopArtistPlaycount12 = new Audiograph.Label();
+            this.lblTopArtistPlaycount11 = new Audiograph.Label();
+            this.lblTopArtistPlaycount10 = new Audiograph.Label();
+            this.lblTopArtistPlaycount9 = new Audiograph.Label();
+            this.lblTopArtistPlaycount8 = new Audiograph.Label();
+            this.lblTopArtistPlaycount7 = new Audiograph.Label();
+            this.lblTopArtistPlaycount6 = new Audiograph.Label();
+            this.lblTopArtistPlaycount5 = new Audiograph.Label();
+            this.lblTopArtistPlaycount4 = new Audiograph.Label();
+            this.lblTopArtistPlaycount3 = new Audiograph.Label();
+            this.lblTopArtistPlaycount2 = new Audiograph.Label();
+            this.lblTopArtistPlaycount1 = new Audiograph.Label();
+            this.Label8 = new Audiograph.Label();
+            this.lblTopArtistListeners20 = new Audiograph.Label();
+            this.lblTopArtistListeners19 = new Audiograph.Label();
+            this.lblTopArtistListeners18 = new Audiograph.Label();
+            this.lblTopArtistListeners17 = new Audiograph.Label();
+            this.lblTopArtistListeners16 = new Audiograph.Label();
+            this.lblTopArtistListeners15 = new Audiograph.Label();
+            this.lblTopArtistListeners14 = new Audiograph.Label();
+            this.lblTopArtistListeners13 = new Audiograph.Label();
+            this.lblTopArtistListeners12 = new Audiograph.Label();
+            this.lblTopArtistListeners11 = new Audiograph.Label();
+            this.lblTopArtistListeners10 = new Audiograph.Label();
+            this.lblTopArtistListeners9 = new Audiograph.Label();
+            this.lblTopArtistListeners8 = new Audiograph.Label();
+            this.lblTopArtistListeners7 = new Audiograph.Label();
+            this.lblTopArtistListeners6 = new Audiograph.Label();
+            this.lblTopArtistListeners5 = new Audiograph.Label();
+            this.lblTopArtistListeners4 = new Audiograph.Label();
+            this.lblTopArtistListeners3 = new Audiograph.Label();
+            this.lblTopArtistListeners2 = new Audiograph.Label();
+            this.lblTopArtistListeners1 = new Audiograph.Label();
+            this.Label7 = new Audiograph.Label();
+            this.lblTopArtist20 = new Audiograph.Label();
+            this.Label148 = new Audiograph.Label();
+            this.lblTopArtist19 = new Audiograph.Label();
+            this.Label146 = new Audiograph.Label();
+            this.lblTopArtist18 = new Audiograph.Label();
+            this.Label144 = new Audiograph.Label();
+            this.lblTopArtist17 = new Audiograph.Label();
+            this.Label142 = new Audiograph.Label();
+            this.lblTopArtist16 = new Audiograph.Label();
+            this.Label140 = new Audiograph.Label();
+            this.lblTopArtist15 = new Audiograph.Label();
+            this.Label138 = new Audiograph.Label();
+            this.lblTopArtist14 = new Audiograph.Label();
+            this.Label136 = new Audiograph.Label();
+            this.lblTopArtist13 = new Audiograph.Label();
+            this.Label134 = new Audiograph.Label();
+            this.lblTopArtist12 = new Audiograph.Label();
+            this.Label132 = new Audiograph.Label();
+            this.lblTopArtist11 = new Audiograph.Label();
+            this.Label130 = new Audiograph.Label();
+            this.lblTopArtist10 = new Audiograph.Label();
+            this.Label128 = new Audiograph.Label();
+            this.lblTopArtist9 = new Audiograph.Label();
+            this.Label126 = new Audiograph.Label();
+            this.lblTopArtist8 = new Audiograph.Label();
+            this.Label124 = new Audiograph.Label();
+            this.lblTopArtist7 = new Audiograph.Label();
+            this.Label122 = new Audiograph.Label();
+            this.lblTopArtist6 = new Audiograph.Label();
+            this.Label120 = new Audiograph.Label();
+            this.lblTopArtist5 = new Audiograph.Label();
+            this.Label118 = new Audiograph.Label();
+            this.lblTopArtist4 = new Audiograph.Label();
+            this.Label116 = new Audiograph.Label();
+            this.lblTopArtist3 = new Audiograph.Label();
+            this.Label114 = new Audiograph.Label();
+            this.lblTopArtist2 = new Audiograph.Label();
+            this.Label19 = new Audiograph.Label();
+            this.lblTopArtist1 = new Audiograph.Label();
+            this.Label17 = new Audiograph.Label();
+            this.Label16 = new Audiograph.Label();
+            this.Label14 = new Audiograph.Label();
             this.GroupBox1 = new System.Windows.Forms.GroupBox();
             this.tlpTopTracks = new Audiograph.DBLayoutPanel();
-            this.lblTopTracksListeners20 = new System.Windows.Forms.Label();
+            this.lblTopTracksListeners20 = new Audiograph.Label();
             this.cmsChartTrack = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.mnuChartTrackGoToTrack = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuChartTrackGoToArtist = new System.Windows.Forms.ToolStripMenuItem();
@@ -152,136 +152,136 @@ namespace Audiograph
             this.mnuChartTrackBackupTrack = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuChartTrackBackupArtist = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuChartTrackBackupAlbum = new System.Windows.Forms.ToolStripMenuItem();
-            this.lblTopTracksListeners19 = new System.Windows.Forms.Label();
-            this.lblTopTracksListeners18 = new System.Windows.Forms.Label();
-            this.lblTopTracksListeners17 = new System.Windows.Forms.Label();
-            this.lblTopTracksListeners16 = new System.Windows.Forms.Label();
-            this.lblTopTracksListeners15 = new System.Windows.Forms.Label();
-            this.lblTopTracksListeners14 = new System.Windows.Forms.Label();
-            this.lblTopTracksListeners13 = new System.Windows.Forms.Label();
-            this.lblTopTracksListeners12 = new System.Windows.Forms.Label();
-            this.lblTopTracksListeners11 = new System.Windows.Forms.Label();
-            this.lblTopTracksListeners10 = new System.Windows.Forms.Label();
-            this.lblTopTracksListeners9 = new System.Windows.Forms.Label();
-            this.lblTopTracksListeners8 = new System.Windows.Forms.Label();
-            this.lblTopTracksListeners7 = new System.Windows.Forms.Label();
-            this.lblTopTracksListeners6 = new System.Windows.Forms.Label();
-            this.lblTopTracksListeners5 = new System.Windows.Forms.Label();
-            this.lblTopTracksListeners4 = new System.Windows.Forms.Label();
-            this.lblTopTracksListeners3 = new System.Windows.Forms.Label();
-            this.lblTopTracksListeners2 = new System.Windows.Forms.Label();
-            this.lblTopTracksListeners1 = new System.Windows.Forms.Label();
-            this.Label93 = new System.Windows.Forms.Label();
-            this.lblTopTrackAlbum20 = new System.Windows.Forms.Label();
-            this.lblTopTrackArtist20 = new System.Windows.Forms.Label();
-            this.lblTopTrackTitle20 = new System.Windows.Forms.Label();
+            this.lblTopTracksListeners19 = new Audiograph.Label();
+            this.lblTopTracksListeners18 = new Audiograph.Label();
+            this.lblTopTracksListeners17 = new Audiograph.Label();
+            this.lblTopTracksListeners16 = new Audiograph.Label();
+            this.lblTopTracksListeners15 = new Audiograph.Label();
+            this.lblTopTracksListeners14 = new Audiograph.Label();
+            this.lblTopTracksListeners13 = new Audiograph.Label();
+            this.lblTopTracksListeners12 = new Audiograph.Label();
+            this.lblTopTracksListeners11 = new Audiograph.Label();
+            this.lblTopTracksListeners10 = new Audiograph.Label();
+            this.lblTopTracksListeners9 = new Audiograph.Label();
+            this.lblTopTracksListeners8 = new Audiograph.Label();
+            this.lblTopTracksListeners7 = new Audiograph.Label();
+            this.lblTopTracksListeners6 = new Audiograph.Label();
+            this.lblTopTracksListeners5 = new Audiograph.Label();
+            this.lblTopTracksListeners4 = new Audiograph.Label();
+            this.lblTopTracksListeners3 = new Audiograph.Label();
+            this.lblTopTracksListeners2 = new Audiograph.Label();
+            this.lblTopTracksListeners1 = new Audiograph.Label();
+            this.Label93 = new Audiograph.Label();
+            this.lblTopTrackAlbum20 = new Audiograph.Label();
+            this.lblTopTrackArtist20 = new Audiograph.Label();
+            this.lblTopTrackTitle20 = new Audiograph.Label();
             this.picTrack20 = new System.Windows.Forms.PictureBox();
             this.cmsArt = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.mnuArtOpenImage = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuArtCopyImage = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuArtCopyImageLink = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuArtSaveImage = new System.Windows.Forms.ToolStripMenuItem();
-            this.Label89 = new System.Windows.Forms.Label();
-            this.lblTopTrackAlbum19 = new System.Windows.Forms.Label();
-            this.lblTopTrackArtist19 = new System.Windows.Forms.Label();
-            this.lblTopTrackTitle19 = new System.Windows.Forms.Label();
+            this.Label89 = new Audiograph.Label();
+            this.lblTopTrackAlbum19 = new Audiograph.Label();
+            this.lblTopTrackArtist19 = new Audiograph.Label();
+            this.lblTopTrackTitle19 = new Audiograph.Label();
             this.picTrack19 = new System.Windows.Forms.PictureBox();
-            this.Label85 = new System.Windows.Forms.Label();
-            this.lblTopTrackAlbum18 = new System.Windows.Forms.Label();
-            this.lblTopTrackArtist18 = new System.Windows.Forms.Label();
-            this.lblTopTrackTitle18 = new System.Windows.Forms.Label();
+            this.Label85 = new Audiograph.Label();
+            this.lblTopTrackAlbum18 = new Audiograph.Label();
+            this.lblTopTrackArtist18 = new Audiograph.Label();
+            this.lblTopTrackTitle18 = new Audiograph.Label();
             this.picTrack18 = new System.Windows.Forms.PictureBox();
-            this.Label81 = new System.Windows.Forms.Label();
-            this.lblTopTrackAlbum17 = new System.Windows.Forms.Label();
-            this.lblTopTrackArtist17 = new System.Windows.Forms.Label();
-            this.lblTopTrackTitle17 = new System.Windows.Forms.Label();
+            this.Label81 = new Audiograph.Label();
+            this.lblTopTrackAlbum17 = new Audiograph.Label();
+            this.lblTopTrackArtist17 = new Audiograph.Label();
+            this.lblTopTrackTitle17 = new Audiograph.Label();
             this.picTrack17 = new System.Windows.Forms.PictureBox();
-            this.Label77 = new System.Windows.Forms.Label();
-            this.lblTopTrackAlbum16 = new System.Windows.Forms.Label();
-            this.lblTopTrackArtist16 = new System.Windows.Forms.Label();
-            this.lblTopTrackTitle16 = new System.Windows.Forms.Label();
+            this.Label77 = new Audiograph.Label();
+            this.lblTopTrackAlbum16 = new Audiograph.Label();
+            this.lblTopTrackArtist16 = new Audiograph.Label();
+            this.lblTopTrackTitle16 = new Audiograph.Label();
             this.picTrack16 = new System.Windows.Forms.PictureBox();
-            this.Label73 = new System.Windows.Forms.Label();
-            this.lblTopTrackAlbum15 = new System.Windows.Forms.Label();
-            this.lblTopTrackArtist15 = new System.Windows.Forms.Label();
-            this.lblTopTrackTitle15 = new System.Windows.Forms.Label();
+            this.Label73 = new Audiograph.Label();
+            this.lblTopTrackAlbum15 = new Audiograph.Label();
+            this.lblTopTrackArtist15 = new Audiograph.Label();
+            this.lblTopTrackTitle15 = new Audiograph.Label();
             this.picTrack15 = new System.Windows.Forms.PictureBox();
-            this.Label69 = new System.Windows.Forms.Label();
-            this.lblTopTrackAlbum14 = new System.Windows.Forms.Label();
-            this.lblTopTrackArtist14 = new System.Windows.Forms.Label();
-            this.lblTopTrackTitle14 = new System.Windows.Forms.Label();
+            this.Label69 = new Audiograph.Label();
+            this.lblTopTrackAlbum14 = new Audiograph.Label();
+            this.lblTopTrackArtist14 = new Audiograph.Label();
+            this.lblTopTrackTitle14 = new Audiograph.Label();
             this.picTrack14 = new System.Windows.Forms.PictureBox();
-            this.Label65 = new System.Windows.Forms.Label();
-            this.lblTopTrackAlbum13 = new System.Windows.Forms.Label();
-            this.lblTopTrackArtist13 = new System.Windows.Forms.Label();
-            this.lblTopTrackTitle13 = new System.Windows.Forms.Label();
+            this.Label65 = new Audiograph.Label();
+            this.lblTopTrackAlbum13 = new Audiograph.Label();
+            this.lblTopTrackArtist13 = new Audiograph.Label();
+            this.lblTopTrackTitle13 = new Audiograph.Label();
             this.picTrack13 = new System.Windows.Forms.PictureBox();
-            this.Label61 = new System.Windows.Forms.Label();
-            this.lblTopTrackAlbum12 = new System.Windows.Forms.Label();
-            this.lblTopTrackArtist12 = new System.Windows.Forms.Label();
-            this.lblTopTrackTitle12 = new System.Windows.Forms.Label();
+            this.Label61 = new Audiograph.Label();
+            this.lblTopTrackAlbum12 = new Audiograph.Label();
+            this.lblTopTrackArtist12 = new Audiograph.Label();
+            this.lblTopTrackTitle12 = new Audiograph.Label();
             this.picTrack12 = new System.Windows.Forms.PictureBox();
-            this.Label57 = new System.Windows.Forms.Label();
-            this.lblTopTrackAlbum11 = new System.Windows.Forms.Label();
-            this.lblTopTrackArtist11 = new System.Windows.Forms.Label();
-            this.lblTopTrackTitle11 = new System.Windows.Forms.Label();
+            this.Label57 = new Audiograph.Label();
+            this.lblTopTrackAlbum11 = new Audiograph.Label();
+            this.lblTopTrackArtist11 = new Audiograph.Label();
+            this.lblTopTrackTitle11 = new Audiograph.Label();
             this.picTrack11 = new System.Windows.Forms.PictureBox();
-            this.Label53 = new System.Windows.Forms.Label();
-            this.lblTopTrackAlbum10 = new System.Windows.Forms.Label();
-            this.lblTopTrackArtist10 = new System.Windows.Forms.Label();
-            this.lblTopTrackTitle10 = new System.Windows.Forms.Label();
+            this.Label53 = new Audiograph.Label();
+            this.lblTopTrackAlbum10 = new Audiograph.Label();
+            this.lblTopTrackArtist10 = new Audiograph.Label();
+            this.lblTopTrackTitle10 = new Audiograph.Label();
             this.picTrack10 = new System.Windows.Forms.PictureBox();
-            this.Label49 = new System.Windows.Forms.Label();
-            this.lblTopTrackAlbum9 = new System.Windows.Forms.Label();
-            this.lblTopTrackArtist9 = new System.Windows.Forms.Label();
-            this.lblTopTrackTitle9 = new System.Windows.Forms.Label();
+            this.Label49 = new Audiograph.Label();
+            this.lblTopTrackAlbum9 = new Audiograph.Label();
+            this.lblTopTrackArtist9 = new Audiograph.Label();
+            this.lblTopTrackTitle9 = new Audiograph.Label();
             this.picTrack9 = new System.Windows.Forms.PictureBox();
-            this.Label45 = new System.Windows.Forms.Label();
-            this.lblTopTrackAlbum8 = new System.Windows.Forms.Label();
-            this.lblTopTrackArtist8 = new System.Windows.Forms.Label();
-            this.lblTopTrackTitle8 = new System.Windows.Forms.Label();
+            this.Label45 = new Audiograph.Label();
+            this.lblTopTrackAlbum8 = new Audiograph.Label();
+            this.lblTopTrackArtist8 = new Audiograph.Label();
+            this.lblTopTrackTitle8 = new Audiograph.Label();
             this.picTrack8 = new System.Windows.Forms.PictureBox();
-            this.Label41 = new System.Windows.Forms.Label();
-            this.lblTopTrackAlbum7 = new System.Windows.Forms.Label();
-            this.lblTopTrackArtist7 = new System.Windows.Forms.Label();
-            this.lblTopTrackTitle7 = new System.Windows.Forms.Label();
+            this.Label41 = new Audiograph.Label();
+            this.lblTopTrackAlbum7 = new Audiograph.Label();
+            this.lblTopTrackArtist7 = new Audiograph.Label();
+            this.lblTopTrackTitle7 = new Audiograph.Label();
             this.picTrack7 = new System.Windows.Forms.PictureBox();
-            this.Label37 = new System.Windows.Forms.Label();
-            this.lblTopTrackAlbum6 = new System.Windows.Forms.Label();
-            this.lblTopTrackArtist6 = new System.Windows.Forms.Label();
-            this.lblTopTrackTitle6 = new System.Windows.Forms.Label();
+            this.Label37 = new Audiograph.Label();
+            this.lblTopTrackAlbum6 = new Audiograph.Label();
+            this.lblTopTrackArtist6 = new Audiograph.Label();
+            this.lblTopTrackTitle6 = new Audiograph.Label();
             this.picTrack6 = new System.Windows.Forms.PictureBox();
-            this.Label33 = new System.Windows.Forms.Label();
-            this.lblTopTrackAlbum5 = new System.Windows.Forms.Label();
-            this.lblTopTrackArtist5 = new System.Windows.Forms.Label();
-            this.lblTopTrackTitle5 = new System.Windows.Forms.Label();
+            this.Label33 = new Audiograph.Label();
+            this.lblTopTrackAlbum5 = new Audiograph.Label();
+            this.lblTopTrackArtist5 = new Audiograph.Label();
+            this.lblTopTrackTitle5 = new Audiograph.Label();
             this.picTrack5 = new System.Windows.Forms.PictureBox();
-            this.Label29 = new System.Windows.Forms.Label();
-            this.lblTopTrackAlbum4 = new System.Windows.Forms.Label();
-            this.lblTopTrackArtist4 = new System.Windows.Forms.Label();
-            this.lblTopTrackTitle4 = new System.Windows.Forms.Label();
+            this.Label29 = new Audiograph.Label();
+            this.lblTopTrackAlbum4 = new Audiograph.Label();
+            this.lblTopTrackArtist4 = new Audiograph.Label();
+            this.lblTopTrackTitle4 = new Audiograph.Label();
             this.picTrack4 = new System.Windows.Forms.PictureBox();
-            this.Label25 = new System.Windows.Forms.Label();
-            this.lblTopTrackAlbum3 = new System.Windows.Forms.Label();
-            this.lblTopTrackArtist3 = new System.Windows.Forms.Label();
-            this.lblTopTrackTitle3 = new System.Windows.Forms.Label();
+            this.Label25 = new Audiograph.Label();
+            this.lblTopTrackAlbum3 = new Audiograph.Label();
+            this.lblTopTrackArtist3 = new Audiograph.Label();
+            this.lblTopTrackTitle3 = new Audiograph.Label();
             this.picTrack3 = new System.Windows.Forms.PictureBox();
-            this.Label21 = new System.Windows.Forms.Label();
-            this.lblTopTrackAlbum2 = new System.Windows.Forms.Label();
-            this.lblTopTrackArtist2 = new System.Windows.Forms.Label();
-            this.lblTopTrackTitle2 = new System.Windows.Forms.Label();
+            this.Label21 = new Audiograph.Label();
+            this.lblTopTrackAlbum2 = new Audiograph.Label();
+            this.lblTopTrackArtist2 = new Audiograph.Label();
+            this.lblTopTrackTitle2 = new Audiograph.Label();
             this.picTrack2 = new System.Windows.Forms.PictureBox();
-            this.Label10 = new System.Windows.Forms.Label();
-            this.lblTopTrackAlbum1 = new System.Windows.Forms.Label();
-            this.lblTopTrackArtist1 = new System.Windows.Forms.Label();
-            this.lblTopTrackTitle1 = new System.Windows.Forms.Label();
-            this.Label6 = new System.Windows.Forms.Label();
-            this.Label3 = new System.Windows.Forms.Label();
+            this.Label10 = new Audiograph.Label();
+            this.lblTopTrackAlbum1 = new Audiograph.Label();
+            this.lblTopTrackArtist1 = new Audiograph.Label();
+            this.lblTopTrackTitle1 = new Audiograph.Label();
+            this.Label6 = new Audiograph.Label();
+            this.Label3 = new Audiograph.Label();
             this.picTrack1 = new System.Windows.Forms.PictureBox();
-            this.Label4 = new System.Windows.Forms.Label();
-            this.Label5 = new System.Windows.Forms.Label();
-            this.Label20 = new System.Windows.Forms.Label();
-            this.Label22 = new System.Windows.Forms.Label();
+            this.Label4 = new Audiograph.Label();
+            this.Label5 = new Audiograph.Label();
+            this.Label20 = new Audiograph.Label();
+            this.Label22 = new Audiograph.Label();
             this.pgSearch = new System.Windows.Forms.TabPage();
             this.tlpSearch = new Audiograph.DBLayoutPanel();
             this.gpbSearchInfo = new System.Windows.Forms.GroupBox();
@@ -316,14 +316,14 @@ namespace Audiograph
             this.mnuSearchBackupAlbum = new System.Windows.Forms.ToolStripMenuItem();
             this.btnSearchGo = new System.Windows.Forms.Button();
             this.txtSearch = new System.Windows.Forms.TextBox();
-            this.Label32 = new System.Windows.Forms.Label();
+            this.Label32 = new Audiograph.Label();
             this.pgTrack = new System.Windows.Forms.TabPage();
             this.btnTrackAdvanced = new System.Windows.Forms.Button();
             this.btnTrackGo = new System.Windows.Forms.Button();
             this.txtTrackArtist = new System.Windows.Forms.TextBox();
-            this.lblTrackArtist = new System.Windows.Forms.Label();
+            this.lblTrackArtist = new Audiograph.Label();
             this.txtTrackTitle = new System.Windows.Forms.TextBox();
-            this.lblTrackTitle = new System.Windows.Forms.Label();
+            this.lblTrackTitle = new Audiograph.Label();
             this.Panel5 = new System.Windows.Forms.Panel();
             this.btnTrackGoAlbum = new System.Windows.Forms.Button();
             this.btnTrackGoArtist = new System.Windows.Forms.Button();
@@ -338,16 +338,16 @@ namespace Audiograph
             this.picTrackArt = new System.Windows.Forms.PictureBox();
             this.gpbTrackUserActions = new System.Windows.Forms.GroupBox();
             this.spcTrack2 = new System.Windows.Forms.SplitContainer();
-            this.lblTrackAuthWarning = new System.Windows.Forms.Label();
+            this.lblTrackAuthWarning = new Audiograph.Label();
             this.tlpTrackUser = new Audiograph.DBLayoutPanel();
             this.Panel2 = new System.Windows.Forms.Panel();
             this.btnTrackLove = new System.Windows.Forms.Button();
-            this.lblTrackLove = new System.Windows.Forms.Label();
+            this.lblTrackLove = new Audiograph.Label();
             this.Panel3 = new System.Windows.Forms.Panel();
             this.Panel4 = new System.Windows.Forms.Panel();
             this.btnTrackTagRemove = new System.Windows.Forms.Button();
             this.btnTrackTagAdd = new System.Windows.Forms.Button();
-            this.lblTrackTags = new System.Windows.Forms.Label();
+            this.lblTrackTags = new Audiograph.Label();
             this.lstTrackUserTags = new System.Windows.Forms.ListBox();
             this.txtTrackInfo = new System.Windows.Forms.RichTextBox();
             this.cmsTrack = new System.Windows.Forms.ContextMenuStrip(this.components);
@@ -361,13 +361,13 @@ namespace Audiograph
             this.picArtistArt = new System.Windows.Forms.PictureBox();
             this.gpbArtistUser = new System.Windows.Forms.GroupBox();
             this.spcArtist2 = new System.Windows.Forms.SplitContainer();
-            this.lblArtistAuthWarning = new System.Windows.Forms.Label();
+            this.lblArtistAuthWarning = new Audiograph.Label();
             this.DbLayoutPanel10 = new Audiograph.DBLayoutPanel();
             this.Panel7 = new System.Windows.Forms.Panel();
             this.Panel8 = new System.Windows.Forms.Panel();
             this.btnArtistTagRemove = new System.Windows.Forms.Button();
             this.btnArtistTagAdd = new System.Windows.Forms.Button();
-            this.lblArtistTags = new System.Windows.Forms.Label();
+            this.lblArtistTags = new Audiograph.Label();
             this.lstArtistUserTags = new System.Windows.Forms.ListBox();
             this.TabControl1 = new System.Windows.Forms.TabControl();
             this.pgArtistSimilar = new System.Windows.Forms.TabPage();
@@ -376,104 +376,104 @@ namespace Audiograph
             this.ColumnHeader21 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.pgArtistTopTracks = new System.Windows.Forms.TabPage();
             this.DbLayoutPanel4 = new Audiograph.DBLayoutPanel();
-            this.lblArtistTopTrackTitle20 = new System.Windows.Forms.Label();
-            this.lblArtistTopTrackListeners20 = new System.Windows.Forms.Label();
-            this.Label157 = new System.Windows.Forms.Label();
-            this.lblArtistTopTrackTitle19 = new System.Windows.Forms.Label();
-            this.lblArtistTopTrackListeners19 = new System.Windows.Forms.Label();
-            this.Label152 = new System.Windows.Forms.Label();
-            this.lblArtistTopTrackTitle18 = new System.Windows.Forms.Label();
-            this.lblArtistTopTrackListeners18 = new System.Windows.Forms.Label();
-            this.Label145 = new System.Windows.Forms.Label();
-            this.lblArtistTopTrackTitle17 = new System.Windows.Forms.Label();
-            this.lblArtistTopTrackListeners17 = new System.Windows.Forms.Label();
-            this.Label133 = new System.Windows.Forms.Label();
-            this.lblArtistTopTrackTitle16 = new System.Windows.Forms.Label();
-            this.lblArtistTopTrackListeners16 = new System.Windows.Forms.Label();
-            this.Label123 = new System.Windows.Forms.Label();
-            this.lblArtistTopTrackTitle15 = new System.Windows.Forms.Label();
-            this.lblArtistTopTrackListeners15 = new System.Windows.Forms.Label();
-            this.Label113 = new System.Windows.Forms.Label();
-            this.lblArtistTopTrackTitle14 = new System.Windows.Forms.Label();
-            this.lblArtistTopTrackListeners14 = new System.Windows.Forms.Label();
-            this.Label107 = new System.Windows.Forms.Label();
-            this.lblArtistTopTrackTitle13 = new System.Windows.Forms.Label();
-            this.lblArtistTopTrackListeners13 = new System.Windows.Forms.Label();
-            this.Label102 = new System.Windows.Forms.Label();
-            this.lblArtistTopTrackTitle12 = new System.Windows.Forms.Label();
-            this.lblArtistTopTrackListeners12 = new System.Windows.Forms.Label();
-            this.Label97 = new System.Windows.Forms.Label();
-            this.lblArtistTopTrackTitle11 = new System.Windows.Forms.Label();
-            this.lblArtistTopTrackListeners11 = new System.Windows.Forms.Label();
-            this.Label90 = new System.Windows.Forms.Label();
-            this.lblArtistTopTrackTitle10 = new System.Windows.Forms.Label();
-            this.lblArtistTopTrackListeners10 = new System.Windows.Forms.Label();
-            this.Label83 = new System.Windows.Forms.Label();
-            this.lblArtistTopTrackTitle9 = new System.Windows.Forms.Label();
-            this.lblArtistTopTrackListeners9 = new System.Windows.Forms.Label();
-            this.Label76 = new System.Windows.Forms.Label();
-            this.lblArtistTopTrackTitle8 = new System.Windows.Forms.Label();
-            this.lblArtistTopTrackListeners8 = new System.Windows.Forms.Label();
-            this.Label68 = new System.Windows.Forms.Label();
-            this.lblArtistTopTrackTitle7 = new System.Windows.Forms.Label();
-            this.lblArtistTopTrackListeners7 = new System.Windows.Forms.Label();
-            this.Label62 = new System.Windows.Forms.Label();
-            this.lblArtistTopTrackTitle6 = new System.Windows.Forms.Label();
-            this.lblArtistTopTrackListeners6 = new System.Windows.Forms.Label();
-            this.Label55 = new System.Windows.Forms.Label();
-            this.lblArtistTopTrackTitle5 = new System.Windows.Forms.Label();
-            this.lblArtistTopTrackListeners5 = new System.Windows.Forms.Label();
-            this.Label47 = new System.Windows.Forms.Label();
-            this.lblArtistTopTrackTitle4 = new System.Windows.Forms.Label();
-            this.lblArtistTopTrackListeners4 = new System.Windows.Forms.Label();
-            this.Label43 = new System.Windows.Forms.Label();
-            this.lblArtistTopTrackTitle3 = new System.Windows.Forms.Label();
-            this.lblArtistTopTrackListeners3 = new System.Windows.Forms.Label();
-            this.Label39 = new System.Windows.Forms.Label();
-            this.lblArtistTopTrackTitle2 = new System.Windows.Forms.Label();
-            this.lblArtistTopTrackListeners2 = new System.Windows.Forms.Label();
-            this.Label35 = new System.Windows.Forms.Label();
-            this.lblArtistTopTrackListeners1 = new System.Windows.Forms.Label();
-            this.lblArtistTopTrackTitle1 = new System.Windows.Forms.Label();
-            this.Label31 = new System.Windows.Forms.Label();
-            this.Label30 = new System.Windows.Forms.Label();
-            this.Label28 = new System.Windows.Forms.Label();
-            this.Label27 = new System.Windows.Forms.Label();
+            this.lblArtistTopTrackTitle20 = new Audiograph.Label();
+            this.lblArtistTopTrackListeners20 = new Audiograph.Label();
+            this.Label157 = new Audiograph.Label();
+            this.lblArtistTopTrackTitle19 = new Audiograph.Label();
+            this.lblArtistTopTrackListeners19 = new Audiograph.Label();
+            this.Label152 = new Audiograph.Label();
+            this.lblArtistTopTrackTitle18 = new Audiograph.Label();
+            this.lblArtistTopTrackListeners18 = new Audiograph.Label();
+            this.Label145 = new Audiograph.Label();
+            this.lblArtistTopTrackTitle17 = new Audiograph.Label();
+            this.lblArtistTopTrackListeners17 = new Audiograph.Label();
+            this.Label133 = new Audiograph.Label();
+            this.lblArtistTopTrackTitle16 = new Audiograph.Label();
+            this.lblArtistTopTrackListeners16 = new Audiograph.Label();
+            this.Label123 = new Audiograph.Label();
+            this.lblArtistTopTrackTitle15 = new Audiograph.Label();
+            this.lblArtistTopTrackListeners15 = new Audiograph.Label();
+            this.Label113 = new Audiograph.Label();
+            this.lblArtistTopTrackTitle14 = new Audiograph.Label();
+            this.lblArtistTopTrackListeners14 = new Audiograph.Label();
+            this.Label107 = new Audiograph.Label();
+            this.lblArtistTopTrackTitle13 = new Audiograph.Label();
+            this.lblArtistTopTrackListeners13 = new Audiograph.Label();
+            this.Label102 = new Audiograph.Label();
+            this.lblArtistTopTrackTitle12 = new Audiograph.Label();
+            this.lblArtistTopTrackListeners12 = new Audiograph.Label();
+            this.Label97 = new Audiograph.Label();
+            this.lblArtistTopTrackTitle11 = new Audiograph.Label();
+            this.lblArtistTopTrackListeners11 = new Audiograph.Label();
+            this.Label90 = new Audiograph.Label();
+            this.lblArtistTopTrackTitle10 = new Audiograph.Label();
+            this.lblArtistTopTrackListeners10 = new Audiograph.Label();
+            this.Label83 = new Audiograph.Label();
+            this.lblArtistTopTrackTitle9 = new Audiograph.Label();
+            this.lblArtistTopTrackListeners9 = new Audiograph.Label();
+            this.Label76 = new Audiograph.Label();
+            this.lblArtistTopTrackTitle8 = new Audiograph.Label();
+            this.lblArtistTopTrackListeners8 = new Audiograph.Label();
+            this.Label68 = new Audiograph.Label();
+            this.lblArtistTopTrackTitle7 = new Audiograph.Label();
+            this.lblArtistTopTrackListeners7 = new Audiograph.Label();
+            this.Label62 = new Audiograph.Label();
+            this.lblArtistTopTrackTitle6 = new Audiograph.Label();
+            this.lblArtistTopTrackListeners6 = new Audiograph.Label();
+            this.Label55 = new Audiograph.Label();
+            this.lblArtistTopTrackTitle5 = new Audiograph.Label();
+            this.lblArtistTopTrackListeners5 = new Audiograph.Label();
+            this.Label47 = new Audiograph.Label();
+            this.lblArtistTopTrackTitle4 = new Audiograph.Label();
+            this.lblArtistTopTrackListeners4 = new Audiograph.Label();
+            this.Label43 = new Audiograph.Label();
+            this.lblArtistTopTrackTitle3 = new Audiograph.Label();
+            this.lblArtistTopTrackListeners3 = new Audiograph.Label();
+            this.Label39 = new Audiograph.Label();
+            this.lblArtistTopTrackTitle2 = new Audiograph.Label();
+            this.lblArtistTopTrackListeners2 = new Audiograph.Label();
+            this.Label35 = new Audiograph.Label();
+            this.lblArtistTopTrackListeners1 = new Audiograph.Label();
+            this.lblArtistTopTrackTitle1 = new Audiograph.Label();
+            this.Label31 = new Audiograph.Label();
+            this.Label30 = new Audiograph.Label();
+            this.Label28 = new Audiograph.Label();
+            this.Label27 = new Audiograph.Label();
             this.pgArtistTopAlbums = new System.Windows.Forms.TabPage();
             this.DbLayoutPanel9 = new Audiograph.DBLayoutPanel();
-            this.lblArtistTopAlbum10 = new System.Windows.Forms.Label();
+            this.lblArtistTopAlbum10 = new Audiograph.Label();
             this.picArtistTopAlbum10 = new System.Windows.Forms.PictureBox();
-            this.Label203 = new System.Windows.Forms.Label();
-            this.lblArtistTopAlbum9 = new System.Windows.Forms.Label();
+            this.Label203 = new Audiograph.Label();
+            this.lblArtistTopAlbum9 = new Audiograph.Label();
             this.picArtistTopAlbum9 = new System.Windows.Forms.PictureBox();
-            this.Label201 = new System.Windows.Forms.Label();
-            this.lblArtistTopAlbum8 = new System.Windows.Forms.Label();
+            this.Label201 = new Audiograph.Label();
+            this.lblArtistTopAlbum8 = new Audiograph.Label();
             this.picArtistTopAlbum8 = new System.Windows.Forms.PictureBox();
-            this.Label198 = new System.Windows.Forms.Label();
-            this.lblArtistTopAlbum7 = new System.Windows.Forms.Label();
+            this.Label198 = new Audiograph.Label();
+            this.lblArtistTopAlbum7 = new Audiograph.Label();
             this.picArtistTopAlbum7 = new System.Windows.Forms.PictureBox();
-            this.Label195 = new System.Windows.Forms.Label();
-            this.lblArtistTopAlbum6 = new System.Windows.Forms.Label();
+            this.Label195 = new Audiograph.Label();
+            this.lblArtistTopAlbum6 = new Audiograph.Label();
             this.picArtistTopAlbum6 = new System.Windows.Forms.PictureBox();
-            this.Label185 = new System.Windows.Forms.Label();
-            this.lblArtistTopAlbum5 = new System.Windows.Forms.Label();
+            this.Label185 = new Audiograph.Label();
+            this.lblArtistTopAlbum5 = new Audiograph.Label();
             this.picArtistTopAlbum5 = new System.Windows.Forms.PictureBox();
-            this.Label181 = new System.Windows.Forms.Label();
-            this.lblArtistTopAlbum4 = new System.Windows.Forms.Label();
+            this.Label181 = new Audiograph.Label();
+            this.lblArtistTopAlbum4 = new Audiograph.Label();
             this.picArtistTopAlbum4 = new System.Windows.Forms.PictureBox();
-            this.Label179 = new System.Windows.Forms.Label();
-            this.lblArtistTopAlbum3 = new System.Windows.Forms.Label();
+            this.Label179 = new Audiograph.Label();
+            this.lblArtistTopAlbum3 = new Audiograph.Label();
             this.picArtistTopAlbum3 = new System.Windows.Forms.PictureBox();
-            this.Label176 = new System.Windows.Forms.Label();
-            this.lblArtistTopAlbum2 = new System.Windows.Forms.Label();
+            this.Label176 = new Audiograph.Label();
+            this.lblArtistTopAlbum2 = new Audiograph.Label();
             this.picArtistTopAlbum2 = new System.Windows.Forms.PictureBox();
-            this.Label173 = new System.Windows.Forms.Label();
-            this.lblArtistTopAlbum1 = new System.Windows.Forms.Label();
+            this.Label173 = new Audiograph.Label();
+            this.lblArtistTopAlbum1 = new Audiograph.Label();
             this.picArtistTopAlbum1 = new System.Windows.Forms.PictureBox();
-            this.Label171 = new System.Windows.Forms.Label();
-            this.Label169 = new System.Windows.Forms.Label();
-            this.Label168 = new System.Windows.Forms.Label();
-            this.Label167 = new System.Windows.Forms.Label();
+            this.Label171 = new Audiograph.Label();
+            this.Label169 = new Audiograph.Label();
+            this.Label168 = new Audiograph.Label();
+            this.Label167 = new Audiograph.Label();
             this.txtArtistInfo = new System.Windows.Forms.RichTextBox();
             this.cmsArtist = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.mnuArtistBackupArtist = new System.Windows.Forms.ToolStripMenuItem();
@@ -483,27 +483,27 @@ namespace Audiograph
             this.btnArtistAdvanced = new System.Windows.Forms.Button();
             this.btnArtistGo = new System.Windows.Forms.Button();
             this.txtArtistName = new System.Windows.Forms.TextBox();
-            this.Label1 = new System.Windows.Forms.Label();
+            this.Label1 = new Audiograph.Label();
             this.pgAlbum = new System.Windows.Forms.TabPage();
             this.btnAlbumGoArtist = new System.Windows.Forms.Button();
             this.btnAlbumAdvanced = new System.Windows.Forms.Button();
             this.btnAlbumGo = new System.Windows.Forms.Button();
             this.txtAlbumArtist = new System.Windows.Forms.TextBox();
-            this.Label24 = new System.Windows.Forms.Label();
+            this.Label24 = new Audiograph.Label();
             this.txtAlbumTitle = new System.Windows.Forms.TextBox();
-            this.Label26 = new System.Windows.Forms.Label();
+            this.Label26 = new Audiograph.Label();
             this.tlpAlbum = new Audiograph.DBLayoutPanel();
             this.spcAlbum = new System.Windows.Forms.SplitContainer();
             this.picAlbumArt = new System.Windows.Forms.PictureBox();
             this.gpbAlbumUser = new System.Windows.Forms.GroupBox();
             this.spcAlbum2 = new System.Windows.Forms.SplitContainer();
-            this.lblAlbumAuthWarning = new System.Windows.Forms.Label();
+            this.lblAlbumAuthWarning = new Audiograph.Label();
             this.tlpAlbum2 = new Audiograph.DBLayoutPanel();
             this.Panel6 = new System.Windows.Forms.Panel();
             this.Panel9 = new System.Windows.Forms.Panel();
             this.btnAlbumTagRemove = new System.Windows.Forms.Button();
             this.btnAlbumTagAdd = new System.Windows.Forms.Button();
-            this.lblAlbumTags = new System.Windows.Forms.Label();
+            this.lblAlbumTags = new Audiograph.Label();
             this.lstAlbumUserTags = new System.Windows.Forms.ListBox();
             this.txtAlbumInfo = new System.Windows.Forms.RichTextBox();
             this.cmsAlbum = new System.Windows.Forms.ContextMenuStrip(this.components);
@@ -520,41 +520,41 @@ namespace Audiograph
             this.btnUserAuthenticate = new System.Windows.Forms.Button();
             this.btnUserSet = new System.Windows.Forms.Button();
             this.txtUser = new System.Windows.Forms.TextBox();
-            this.lblUserTextBox = new System.Windows.Forms.Label();
-            this.lblUserStatus = new System.Windows.Forms.Label();
+            this.lblUserTextBox = new Audiograph.Label();
+            this.lblUserStatus = new Audiograph.Label();
             this.tlpUser = new Audiograph.DBLayoutPanel();
             this.gpbUserCharts = new System.Windows.Forms.GroupBox();
             this.btnUserChartGo = new System.Windows.Forms.Button();
             this.dtpUserTo = new System.Windows.Forms.DateTimePicker();
-            this.lblUserTo = new System.Windows.Forms.Label();
+            this.lblUserTo = new Audiograph.Label();
             this.dtpUserFrom = new System.Windows.Forms.DateTimePicker();
             this.radUserDate = new System.Windows.Forms.RadioButton();
             this.radUserAllTime = new System.Windows.Forms.RadioButton();
             this.tbcUserCharts = new System.Windows.Forms.TabControl();
             this.pgUserTopTracks = new System.Windows.Forms.TabPage();
             this.DbLayoutPanel1 = new Audiograph.DBLayoutPanel();
-            this.lblUserTopTrackPlaycount20 = new System.Windows.Forms.Label();
-            this.lblUserTopTrackPlaycount19 = new System.Windows.Forms.Label();
-            this.lblUserTopTrackPlaycount18 = new System.Windows.Forms.Label();
-            this.lblUserTopTrackPlaycount17 = new System.Windows.Forms.Label();
-            this.lblUserTopTrackPlaycount16 = new System.Windows.Forms.Label();
-            this.lblUserTopTrackPlaycount15 = new System.Windows.Forms.Label();
-            this.lblUserTopTrackPlaycount14 = new System.Windows.Forms.Label();
-            this.lblUserTopTrackPlaycount13 = new System.Windows.Forms.Label();
-            this.lblUserTopTrackPlaycount12 = new System.Windows.Forms.Label();
-            this.lblUserTopTrackPlaycount11 = new System.Windows.Forms.Label();
-            this.lblUserTopTrackPlaycount10 = new System.Windows.Forms.Label();
-            this.lblUserTopTrackPlaycount9 = new System.Windows.Forms.Label();
-            this.lblUserTopTrackPlaycount8 = new System.Windows.Forms.Label();
-            this.lblUserTopTrackPlaycount7 = new System.Windows.Forms.Label();
-            this.lblUserTopTrackPlaycount6 = new System.Windows.Forms.Label();
-            this.lblUserTopTrackPlaycount5 = new System.Windows.Forms.Label();
-            this.lblUserTopTrackPlaycount4 = new System.Windows.Forms.Label();
-            this.lblUserTopTrackPlaycount3 = new System.Windows.Forms.Label();
-            this.lblUserTopTrackPlaycount2 = new System.Windows.Forms.Label();
-            this.lblUserTopTrackPlaycount1 = new System.Windows.Forms.Label();
-            this.Label48 = new System.Windows.Forms.Label();
-            this.lblUserTopTrackAlbum20 = new System.Windows.Forms.Label();
+            this.lblUserTopTrackPlaycount20 = new Audiograph.Label();
+            this.lblUserTopTrackPlaycount19 = new Audiograph.Label();
+            this.lblUserTopTrackPlaycount18 = new Audiograph.Label();
+            this.lblUserTopTrackPlaycount17 = new Audiograph.Label();
+            this.lblUserTopTrackPlaycount16 = new Audiograph.Label();
+            this.lblUserTopTrackPlaycount15 = new Audiograph.Label();
+            this.lblUserTopTrackPlaycount14 = new Audiograph.Label();
+            this.lblUserTopTrackPlaycount13 = new Audiograph.Label();
+            this.lblUserTopTrackPlaycount12 = new Audiograph.Label();
+            this.lblUserTopTrackPlaycount11 = new Audiograph.Label();
+            this.lblUserTopTrackPlaycount10 = new Audiograph.Label();
+            this.lblUserTopTrackPlaycount9 = new Audiograph.Label();
+            this.lblUserTopTrackPlaycount8 = new Audiograph.Label();
+            this.lblUserTopTrackPlaycount7 = new Audiograph.Label();
+            this.lblUserTopTrackPlaycount6 = new Audiograph.Label();
+            this.lblUserTopTrackPlaycount5 = new Audiograph.Label();
+            this.lblUserTopTrackPlaycount4 = new Audiograph.Label();
+            this.lblUserTopTrackPlaycount3 = new Audiograph.Label();
+            this.lblUserTopTrackPlaycount2 = new Audiograph.Label();
+            this.lblUserTopTrackPlaycount1 = new Audiograph.Label();
+            this.Label48 = new Audiograph.Label();
+            this.lblUserTopTrackAlbum20 = new Audiograph.Label();
             this.cmsUserTopTracks = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.mnuUserTopTrackGoToTrack = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuUserTopTrackGoToArtist = new System.Windows.Forms.ToolStripMenuItem();
@@ -563,296 +563,296 @@ namespace Audiograph
             this.mnuUserTopTrackBackupTrack = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuUserTopTrackBackupArtist = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuUserTopTrackBackupAlbum = new System.Windows.Forms.ToolStripMenuItem();
-            this.lblUserTopTrackArtist20 = new System.Windows.Forms.Label();
-            this.lblUserTopTrackTitle20 = new System.Windows.Forms.Label();
+            this.lblUserTopTrackArtist20 = new Audiograph.Label();
+            this.lblUserTopTrackTitle20 = new Audiograph.Label();
             this.picUserTopTrackArt20 = new System.Windows.Forms.PictureBox();
-            this.Label54 = new System.Windows.Forms.Label();
-            this.lblUserTopTrackAlbum19 = new System.Windows.Forms.Label();
-            this.lblUserTopTrackArtist19 = new System.Windows.Forms.Label();
-            this.lblUserTopTrackTitle19 = new System.Windows.Forms.Label();
+            this.Label54 = new Audiograph.Label();
+            this.lblUserTopTrackAlbum19 = new Audiograph.Label();
+            this.lblUserTopTrackArtist19 = new Audiograph.Label();
+            this.lblUserTopTrackTitle19 = new Audiograph.Label();
             this.picUserTopTrackArt19 = new System.Windows.Forms.PictureBox();
-            this.Label59 = new System.Windows.Forms.Label();
-            this.lblUserTopTrackAlbum18 = new System.Windows.Forms.Label();
-            this.lblUserTopTrackArtist18 = new System.Windows.Forms.Label();
-            this.lblUserTopTrackTitle18 = new System.Windows.Forms.Label();
+            this.Label59 = new Audiograph.Label();
+            this.lblUserTopTrackAlbum18 = new Audiograph.Label();
+            this.lblUserTopTrackArtist18 = new Audiograph.Label();
+            this.lblUserTopTrackTitle18 = new Audiograph.Label();
             this.picUserTopTrackArt18 = new System.Windows.Forms.PictureBox();
-            this.Label64 = new System.Windows.Forms.Label();
-            this.lblUserTopTrackAlbum17 = new System.Windows.Forms.Label();
-            this.lblUserTopTrackArtist17 = new System.Windows.Forms.Label();
-            this.lblUserTopTrackTitle17 = new System.Windows.Forms.Label();
+            this.Label64 = new Audiograph.Label();
+            this.lblUserTopTrackAlbum17 = new Audiograph.Label();
+            this.lblUserTopTrackArtist17 = new Audiograph.Label();
+            this.lblUserTopTrackTitle17 = new Audiograph.Label();
             this.picUserTopTrackArt17 = new System.Windows.Forms.PictureBox();
-            this.Label70 = new System.Windows.Forms.Label();
-            this.lblUserTopTrackAlbum16 = new System.Windows.Forms.Label();
-            this.lblUserTopTrackArtist16 = new System.Windows.Forms.Label();
-            this.lblUserTopTrackTitle16 = new System.Windows.Forms.Label();
+            this.Label70 = new Audiograph.Label();
+            this.lblUserTopTrackAlbum16 = new Audiograph.Label();
+            this.lblUserTopTrackArtist16 = new Audiograph.Label();
+            this.lblUserTopTrackTitle16 = new Audiograph.Label();
             this.picUserTopTrackArt16 = new System.Windows.Forms.PictureBox();
-            this.Label75 = new System.Windows.Forms.Label();
-            this.lblUserTopTrackAlbum15 = new System.Windows.Forms.Label();
-            this.lblUserTopTrackArtist15 = new System.Windows.Forms.Label();
-            this.lblUserTopTrackTitle15 = new System.Windows.Forms.Label();
+            this.Label75 = new Audiograph.Label();
+            this.lblUserTopTrackAlbum15 = new Audiograph.Label();
+            this.lblUserTopTrackArtist15 = new Audiograph.Label();
+            this.lblUserTopTrackTitle15 = new Audiograph.Label();
             this.picUserTopTrackArt15 = new System.Windows.Forms.PictureBox();
-            this.Label80 = new System.Windows.Forms.Label();
-            this.lblUserTopTrackAlbum14 = new System.Windows.Forms.Label();
-            this.lblUserTopTrackArtist14 = new System.Windows.Forms.Label();
-            this.lblUserTopTrackTitle14 = new System.Windows.Forms.Label();
+            this.Label80 = new Audiograph.Label();
+            this.lblUserTopTrackAlbum14 = new Audiograph.Label();
+            this.lblUserTopTrackArtist14 = new Audiograph.Label();
+            this.lblUserTopTrackTitle14 = new Audiograph.Label();
             this.picUserTopTrackArt14 = new System.Windows.Forms.PictureBox();
-            this.Label86 = new System.Windows.Forms.Label();
-            this.lblUserTopTrackAlbum13 = new System.Windows.Forms.Label();
-            this.lblUserTopTrackArtist13 = new System.Windows.Forms.Label();
-            this.lblUserTopTrackTitle13 = new System.Windows.Forms.Label();
+            this.Label86 = new Audiograph.Label();
+            this.lblUserTopTrackAlbum13 = new Audiograph.Label();
+            this.lblUserTopTrackArtist13 = new Audiograph.Label();
+            this.lblUserTopTrackTitle13 = new Audiograph.Label();
             this.picUserTopTrackArt13 = new System.Windows.Forms.PictureBox();
-            this.Label91 = new System.Windows.Forms.Label();
-            this.lblUserTopTrackAlbum12 = new System.Windows.Forms.Label();
-            this.lblUserTopTrackArtist12 = new System.Windows.Forms.Label();
-            this.lblUserTopTrackTitle12 = new System.Windows.Forms.Label();
+            this.Label91 = new Audiograph.Label();
+            this.lblUserTopTrackAlbum12 = new Audiograph.Label();
+            this.lblUserTopTrackArtist12 = new Audiograph.Label();
+            this.lblUserTopTrackTitle12 = new Audiograph.Label();
             this.picUserTopTrackArt12 = new System.Windows.Forms.PictureBox();
-            this.Label96 = new System.Windows.Forms.Label();
-            this.lblUserTopTrackAlbum11 = new System.Windows.Forms.Label();
-            this.lblUserTopTrackArtist11 = new System.Windows.Forms.Label();
-            this.lblUserTopTrackTitle11 = new System.Windows.Forms.Label();
+            this.Label96 = new Audiograph.Label();
+            this.lblUserTopTrackAlbum11 = new Audiograph.Label();
+            this.lblUserTopTrackArtist11 = new Audiograph.Label();
+            this.lblUserTopTrackTitle11 = new Audiograph.Label();
             this.picUserTopTrackArt11 = new System.Windows.Forms.PictureBox();
-            this.Label100 = new System.Windows.Forms.Label();
-            this.lblUserTopTrackAlbum10 = new System.Windows.Forms.Label();
-            this.lblUserTopTrackArtist10 = new System.Windows.Forms.Label();
-            this.lblUserTopTrackTitle10 = new System.Windows.Forms.Label();
+            this.Label100 = new Audiograph.Label();
+            this.lblUserTopTrackAlbum10 = new Audiograph.Label();
+            this.lblUserTopTrackArtist10 = new Audiograph.Label();
+            this.lblUserTopTrackTitle10 = new Audiograph.Label();
             this.picUserTopTrackArt10 = new System.Windows.Forms.PictureBox();
-            this.Label104 = new System.Windows.Forms.Label();
-            this.lblUserTopTrackAlbum9 = new System.Windows.Forms.Label();
-            this.lblUserTopTrackArtist9 = new System.Windows.Forms.Label();
-            this.lblUserTopTrackTitle9 = new System.Windows.Forms.Label();
+            this.Label104 = new Audiograph.Label();
+            this.lblUserTopTrackAlbum9 = new Audiograph.Label();
+            this.lblUserTopTrackArtist9 = new Audiograph.Label();
+            this.lblUserTopTrackTitle9 = new Audiograph.Label();
             this.picUserTopTrackArt9 = new System.Windows.Forms.PictureBox();
-            this.Label108 = new System.Windows.Forms.Label();
-            this.lblUserTopTrackAlbum8 = new System.Windows.Forms.Label();
-            this.lblUserTopTrackArtist8 = new System.Windows.Forms.Label();
-            this.lblUserTopTrackTitle8 = new System.Windows.Forms.Label();
+            this.Label108 = new Audiograph.Label();
+            this.lblUserTopTrackAlbum8 = new Audiograph.Label();
+            this.lblUserTopTrackArtist8 = new Audiograph.Label();
+            this.lblUserTopTrackTitle8 = new Audiograph.Label();
             this.picUserTopTrackArt8 = new System.Windows.Forms.PictureBox();
-            this.Label112 = new System.Windows.Forms.Label();
-            this.lblUserTopTrackAlbum7 = new System.Windows.Forms.Label();
-            this.lblUserTopTrackArtist7 = new System.Windows.Forms.Label();
-            this.lblUserTopTrackTitle7 = new System.Windows.Forms.Label();
+            this.Label112 = new Audiograph.Label();
+            this.lblUserTopTrackAlbum7 = new Audiograph.Label();
+            this.lblUserTopTrackArtist7 = new Audiograph.Label();
+            this.lblUserTopTrackTitle7 = new Audiograph.Label();
             this.picUserTopTrackArt7 = new System.Windows.Forms.PictureBox();
-            this.Label119 = new System.Windows.Forms.Label();
-            this.lblUserTopTrackAlbum6 = new System.Windows.Forms.Label();
-            this.lblUserTopTrackArtist6 = new System.Windows.Forms.Label();
-            this.lblUserTopTrackTitle6 = new System.Windows.Forms.Label();
+            this.Label119 = new Audiograph.Label();
+            this.lblUserTopTrackAlbum6 = new Audiograph.Label();
+            this.lblUserTopTrackArtist6 = new Audiograph.Label();
+            this.lblUserTopTrackTitle6 = new Audiograph.Label();
             this.picUserTopTrackArt6 = new System.Windows.Forms.PictureBox();
-            this.Label127 = new System.Windows.Forms.Label();
-            this.lblUserTopTrackAlbum5 = new System.Windows.Forms.Label();
-            this.lblUserTopTrackArtist5 = new System.Windows.Forms.Label();
-            this.lblUserTopTrackTitle5 = new System.Windows.Forms.Label();
+            this.Label127 = new Audiograph.Label();
+            this.lblUserTopTrackAlbum5 = new Audiograph.Label();
+            this.lblUserTopTrackArtist5 = new Audiograph.Label();
+            this.lblUserTopTrackTitle5 = new Audiograph.Label();
             this.picUserTopTrackArt5 = new System.Windows.Forms.PictureBox();
-            this.Label135 = new System.Windows.Forms.Label();
-            this.lblUserTopTrackAlbum4 = new System.Windows.Forms.Label();
-            this.lblUserTopTrackArtist4 = new System.Windows.Forms.Label();
-            this.lblUserTopTrackTitle4 = new System.Windows.Forms.Label();
+            this.Label135 = new Audiograph.Label();
+            this.lblUserTopTrackAlbum4 = new Audiograph.Label();
+            this.lblUserTopTrackArtist4 = new Audiograph.Label();
+            this.lblUserTopTrackTitle4 = new Audiograph.Label();
             this.picUserTopTrackArt4 = new System.Windows.Forms.PictureBox();
-            this.Label143 = new System.Windows.Forms.Label();
-            this.lblUserTopTrackAlbum3 = new System.Windows.Forms.Label();
-            this.lblUserTopTrackArtist3 = new System.Windows.Forms.Label();
-            this.lblUserTopTrackTitle3 = new System.Windows.Forms.Label();
+            this.Label143 = new Audiograph.Label();
+            this.lblUserTopTrackAlbum3 = new Audiograph.Label();
+            this.lblUserTopTrackArtist3 = new Audiograph.Label();
+            this.lblUserTopTrackTitle3 = new Audiograph.Label();
             this.picUserTopTrackArt3 = new System.Windows.Forms.PictureBox();
-            this.Label150 = new System.Windows.Forms.Label();
-            this.lblUserTopTrackAlbum2 = new System.Windows.Forms.Label();
-            this.lblUserTopTrackArtist2 = new System.Windows.Forms.Label();
-            this.lblUserTopTrackTitle2 = new System.Windows.Forms.Label();
+            this.Label150 = new Audiograph.Label();
+            this.lblUserTopTrackAlbum2 = new Audiograph.Label();
+            this.lblUserTopTrackArtist2 = new Audiograph.Label();
+            this.lblUserTopTrackTitle2 = new Audiograph.Label();
             this.picUserTopTrackArt2 = new System.Windows.Forms.PictureBox();
-            this.Label154 = new System.Windows.Forms.Label();
-            this.lblUserTopTrackAlbum1 = new System.Windows.Forms.Label();
-            this.lblUserTopTrackArtist1 = new System.Windows.Forms.Label();
-            this.lblUserTopTrackTitle1 = new System.Windows.Forms.Label();
-            this.Label158 = new System.Windows.Forms.Label();
-            this.Label159 = new System.Windows.Forms.Label();
+            this.Label154 = new Audiograph.Label();
+            this.lblUserTopTrackAlbum1 = new Audiograph.Label();
+            this.lblUserTopTrackArtist1 = new Audiograph.Label();
+            this.lblUserTopTrackTitle1 = new Audiograph.Label();
+            this.Label158 = new Audiograph.Label();
+            this.Label159 = new Audiograph.Label();
             this.picUserTopTrackArt1 = new System.Windows.Forms.PictureBox();
-            this.Label160 = new System.Windows.Forms.Label();
-            this.Label161 = new System.Windows.Forms.Label();
-            this.Label162 = new System.Windows.Forms.Label();
-            this.Label163 = new System.Windows.Forms.Label();
+            this.Label160 = new Audiograph.Label();
+            this.Label161 = new Audiograph.Label();
+            this.Label162 = new Audiograph.Label();
+            this.Label163 = new Audiograph.Label();
             this.pgUserTopArtists = new System.Windows.Forms.TabPage();
             this.DbLayoutPanel2 = new Audiograph.DBLayoutPanel();
-            this.lblUserTopArtistPlaycount20 = new System.Windows.Forms.Label();
-            this.lblUserTopArtistPlaycount19 = new System.Windows.Forms.Label();
-            this.lblUserTopArtistPlaycount18 = new System.Windows.Forms.Label();
-            this.lblUserTopArtistPlaycount17 = new System.Windows.Forms.Label();
-            this.lblUserTopArtistPlaycount16 = new System.Windows.Forms.Label();
-            this.lblUserTopArtistPlaycount15 = new System.Windows.Forms.Label();
-            this.lblUserTopArtistPlaycount14 = new System.Windows.Forms.Label();
-            this.lblUserTopArtistPlaycount13 = new System.Windows.Forms.Label();
-            this.lblUserTopArtistPlaycount12 = new System.Windows.Forms.Label();
-            this.lblUserTopArtistPlaycount11 = new System.Windows.Forms.Label();
-            this.lblUserTopArtistPlaycount10 = new System.Windows.Forms.Label();
-            this.lblUserTopArtistPlaycount9 = new System.Windows.Forms.Label();
-            this.lblUserTopArtistPlaycount8 = new System.Windows.Forms.Label();
-            this.lblUserTopArtistPlaycount7 = new System.Windows.Forms.Label();
-            this.lblUserTopArtistPlaycount6 = new System.Windows.Forms.Label();
-            this.lblUserTopArtistPlaycount5 = new System.Windows.Forms.Label();
-            this.lblUserTopArtistPlaycount4 = new System.Windows.Forms.Label();
-            this.lblUserTopArtistPlaycount3 = new System.Windows.Forms.Label();
-            this.lblUserTopArtistPlaycount2 = new System.Windows.Forms.Label();
-            this.lblUserTopArtistPlaycount1 = new System.Windows.Forms.Label();
-            this.Label184 = new System.Windows.Forms.Label();
-            this.lblUserTopArtist20 = new System.Windows.Forms.Label();
+            this.lblUserTopArtistPlaycount20 = new Audiograph.Label();
+            this.lblUserTopArtistPlaycount19 = new Audiograph.Label();
+            this.lblUserTopArtistPlaycount18 = new Audiograph.Label();
+            this.lblUserTopArtistPlaycount17 = new Audiograph.Label();
+            this.lblUserTopArtistPlaycount16 = new Audiograph.Label();
+            this.lblUserTopArtistPlaycount15 = new Audiograph.Label();
+            this.lblUserTopArtistPlaycount14 = new Audiograph.Label();
+            this.lblUserTopArtistPlaycount13 = new Audiograph.Label();
+            this.lblUserTopArtistPlaycount12 = new Audiograph.Label();
+            this.lblUserTopArtistPlaycount11 = new Audiograph.Label();
+            this.lblUserTopArtistPlaycount10 = new Audiograph.Label();
+            this.lblUserTopArtistPlaycount9 = new Audiograph.Label();
+            this.lblUserTopArtistPlaycount8 = new Audiograph.Label();
+            this.lblUserTopArtistPlaycount7 = new Audiograph.Label();
+            this.lblUserTopArtistPlaycount6 = new Audiograph.Label();
+            this.lblUserTopArtistPlaycount5 = new Audiograph.Label();
+            this.lblUserTopArtistPlaycount4 = new Audiograph.Label();
+            this.lblUserTopArtistPlaycount3 = new Audiograph.Label();
+            this.lblUserTopArtistPlaycount2 = new Audiograph.Label();
+            this.lblUserTopArtistPlaycount1 = new Audiograph.Label();
+            this.Label184 = new Audiograph.Label();
+            this.lblUserTopArtist20 = new Audiograph.Label();
             this.cmsUserTopArtists = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.mnuUserTopArtistGoToArtist = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuUserTopArtistBackupArtist = new System.Windows.Forms.ToolStripMenuItem();
-            this.Label188 = new System.Windows.Forms.Label();
-            this.lblUserTopArtist19 = new System.Windows.Forms.Label();
-            this.Label192 = new System.Windows.Forms.Label();
-            this.lblUserTopArtist18 = new System.Windows.Forms.Label();
-            this.Label196 = new System.Windows.Forms.Label();
-            this.lblUserTopArtist17 = new System.Windows.Forms.Label();
-            this.Label200 = new System.Windows.Forms.Label();
-            this.lblUserTopArtist16 = new System.Windows.Forms.Label();
-            this.Label204 = new System.Windows.Forms.Label();
-            this.lblUserTopArtist15 = new System.Windows.Forms.Label();
-            this.Label208 = new System.Windows.Forms.Label();
-            this.lblUserTopArtist14 = new System.Windows.Forms.Label();
-            this.Label212 = new System.Windows.Forms.Label();
-            this.lblUserTopArtist13 = new System.Windows.Forms.Label();
-            this.Label216 = new System.Windows.Forms.Label();
-            this.lblUserTopArtist12 = new System.Windows.Forms.Label();
-            this.Label220 = new System.Windows.Forms.Label();
-            this.lblUserTopArtist11 = new System.Windows.Forms.Label();
-            this.Label224 = new System.Windows.Forms.Label();
-            this.lblUserTopArtist10 = new System.Windows.Forms.Label();
-            this.Label228 = new System.Windows.Forms.Label();
-            this.lblUserTopArtist9 = new System.Windows.Forms.Label();
-            this.Label232 = new System.Windows.Forms.Label();
-            this.lblUserTopArtist8 = new System.Windows.Forms.Label();
-            this.Label236 = new System.Windows.Forms.Label();
-            this.lblUserTopArtist7 = new System.Windows.Forms.Label();
-            this.Label240 = new System.Windows.Forms.Label();
-            this.lblUserTopArtist6 = new System.Windows.Forms.Label();
-            this.Label244 = new System.Windows.Forms.Label();
-            this.lblUserTopArtist5 = new System.Windows.Forms.Label();
-            this.Label248 = new System.Windows.Forms.Label();
-            this.lblUserTopArtist4 = new System.Windows.Forms.Label();
-            this.Label252 = new System.Windows.Forms.Label();
-            this.lblUserTopArtist3 = new System.Windows.Forms.Label();
-            this.Label256 = new System.Windows.Forms.Label();
-            this.lblUserTopArtist2 = new System.Windows.Forms.Label();
-            this.Label260 = new System.Windows.Forms.Label();
-            this.lblUserTopArtist1 = new System.Windows.Forms.Label();
-            this.Label264 = new System.Windows.Forms.Label();
-            this.Label266 = new System.Windows.Forms.Label();
-            this.Label268 = new System.Windows.Forms.Label();
+            this.Label188 = new Audiograph.Label();
+            this.lblUserTopArtist19 = new Audiograph.Label();
+            this.Label192 = new Audiograph.Label();
+            this.lblUserTopArtist18 = new Audiograph.Label();
+            this.Label196 = new Audiograph.Label();
+            this.lblUserTopArtist17 = new Audiograph.Label();
+            this.Label200 = new Audiograph.Label();
+            this.lblUserTopArtist16 = new Audiograph.Label();
+            this.Label204 = new Audiograph.Label();
+            this.lblUserTopArtist15 = new Audiograph.Label();
+            this.Label208 = new Audiograph.Label();
+            this.lblUserTopArtist14 = new Audiograph.Label();
+            this.Label212 = new Audiograph.Label();
+            this.lblUserTopArtist13 = new Audiograph.Label();
+            this.Label216 = new Audiograph.Label();
+            this.lblUserTopArtist12 = new Audiograph.Label();
+            this.Label220 = new Audiograph.Label();
+            this.lblUserTopArtist11 = new Audiograph.Label();
+            this.Label224 = new Audiograph.Label();
+            this.lblUserTopArtist10 = new Audiograph.Label();
+            this.Label228 = new Audiograph.Label();
+            this.lblUserTopArtist9 = new Audiograph.Label();
+            this.Label232 = new Audiograph.Label();
+            this.lblUserTopArtist8 = new Audiograph.Label();
+            this.Label236 = new Audiograph.Label();
+            this.lblUserTopArtist7 = new Audiograph.Label();
+            this.Label240 = new Audiograph.Label();
+            this.lblUserTopArtist6 = new Audiograph.Label();
+            this.Label244 = new Audiograph.Label();
+            this.lblUserTopArtist5 = new Audiograph.Label();
+            this.Label248 = new Audiograph.Label();
+            this.lblUserTopArtist4 = new Audiograph.Label();
+            this.Label252 = new Audiograph.Label();
+            this.lblUserTopArtist3 = new Audiograph.Label();
+            this.Label256 = new Audiograph.Label();
+            this.lblUserTopArtist2 = new Audiograph.Label();
+            this.Label260 = new Audiograph.Label();
+            this.lblUserTopArtist1 = new Audiograph.Label();
+            this.Label264 = new Audiograph.Label();
+            this.Label266 = new Audiograph.Label();
+            this.Label268 = new Audiograph.Label();
             this.pgTopAlbums = new System.Windows.Forms.TabPage();
             this.DbLayoutPanel3 = new Audiograph.DBLayoutPanel();
-            this.lblUserTopAlbumPlaycount20 = new System.Windows.Forms.Label();
-            this.lblUserTopAlbumPlaycount19 = new System.Windows.Forms.Label();
-            this.lblUserTopAlbumPlaycount18 = new System.Windows.Forms.Label();
-            this.lblUserTopAlbumPlaycount17 = new System.Windows.Forms.Label();
-            this.lblUserTopAlbumPlaycount16 = new System.Windows.Forms.Label();
-            this.lblUserTopAlbumPlaycount15 = new System.Windows.Forms.Label();
-            this.lblUserTopAlbumPlaycount14 = new System.Windows.Forms.Label();
-            this.lblUserTopAlbumPlaycount13 = new System.Windows.Forms.Label();
-            this.lblUserTopAlbumPlaycount12 = new System.Windows.Forms.Label();
-            this.lblUserTopAlbumPlaycount11 = new System.Windows.Forms.Label();
-            this.lblUserTopAlbumPlaycount10 = new System.Windows.Forms.Label();
-            this.lblUserTopAlbumPlaycount9 = new System.Windows.Forms.Label();
-            this.lblUserTopAlbumPlaycount8 = new System.Windows.Forms.Label();
-            this.lblUserTopAlbumPlaycount7 = new System.Windows.Forms.Label();
-            this.lblUserTopAlbumPlaycount6 = new System.Windows.Forms.Label();
-            this.lblUserTopAlbumPlaycount5 = new System.Windows.Forms.Label();
-            this.lblUserTopAlbumPlaycount4 = new System.Windows.Forms.Label();
-            this.lblUserTopAlbumPlaycount3 = new System.Windows.Forms.Label();
-            this.lblUserTopAlbumPlaycount2 = new System.Windows.Forms.Label();
-            this.lblUserTopAlbumPlaycount1 = new System.Windows.Forms.Label();
-            this.Label18 = new System.Windows.Forms.Label();
-            this.lblUserTopAlbumArtist20 = new System.Windows.Forms.Label();
+            this.lblUserTopAlbumPlaycount20 = new Audiograph.Label();
+            this.lblUserTopAlbumPlaycount19 = new Audiograph.Label();
+            this.lblUserTopAlbumPlaycount18 = new Audiograph.Label();
+            this.lblUserTopAlbumPlaycount17 = new Audiograph.Label();
+            this.lblUserTopAlbumPlaycount16 = new Audiograph.Label();
+            this.lblUserTopAlbumPlaycount15 = new Audiograph.Label();
+            this.lblUserTopAlbumPlaycount14 = new Audiograph.Label();
+            this.lblUserTopAlbumPlaycount13 = new Audiograph.Label();
+            this.lblUserTopAlbumPlaycount12 = new Audiograph.Label();
+            this.lblUserTopAlbumPlaycount11 = new Audiograph.Label();
+            this.lblUserTopAlbumPlaycount10 = new Audiograph.Label();
+            this.lblUserTopAlbumPlaycount9 = new Audiograph.Label();
+            this.lblUserTopAlbumPlaycount8 = new Audiograph.Label();
+            this.lblUserTopAlbumPlaycount7 = new Audiograph.Label();
+            this.lblUserTopAlbumPlaycount6 = new Audiograph.Label();
+            this.lblUserTopAlbumPlaycount5 = new Audiograph.Label();
+            this.lblUserTopAlbumPlaycount4 = new Audiograph.Label();
+            this.lblUserTopAlbumPlaycount3 = new Audiograph.Label();
+            this.lblUserTopAlbumPlaycount2 = new Audiograph.Label();
+            this.lblUserTopAlbumPlaycount1 = new Audiograph.Label();
+            this.Label18 = new Audiograph.Label();
+            this.lblUserTopAlbumArtist20 = new Audiograph.Label();
             this.cmsUserTopAlbums = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.mnuUserTopAlbumGoToAlbum = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuUserTopAlbumGoToArtist = new System.Windows.Forms.ToolStripMenuItem();
             this.ToolStripSeparator9 = new System.Windows.Forms.ToolStripSeparator();
             this.mnuUserTopAlbumBackupAlbum = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuUserTopAlbumBackupArtist = new System.Windows.Forms.ToolStripMenuItem();
-            this.lblUserTopAlbum20 = new System.Windows.Forms.Label();
+            this.lblUserTopAlbum20 = new Audiograph.Label();
             this.picUserTopAlbumArt20 = new System.Windows.Forms.PictureBox();
-            this.Label233 = new System.Windows.Forms.Label();
-            this.lblUserTopAlbumArtist19 = new System.Windows.Forms.Label();
-            this.lblUserTopAlbum19 = new System.Windows.Forms.Label();
+            this.Label233 = new Audiograph.Label();
+            this.lblUserTopAlbumArtist19 = new Audiograph.Label();
+            this.lblUserTopAlbum19 = new Audiograph.Label();
             this.picUserTopAlbumArt19 = new System.Windows.Forms.PictureBox();
-            this.Label241 = new System.Windows.Forms.Label();
-            this.lblUserTopAlbumArtist18 = new System.Windows.Forms.Label();
-            this.lblUserTopAlbum18 = new System.Windows.Forms.Label();
+            this.Label241 = new Audiograph.Label();
+            this.lblUserTopAlbumArtist18 = new Audiograph.Label();
+            this.lblUserTopAlbum18 = new Audiograph.Label();
             this.picUserTopAlbumArt18 = new System.Windows.Forms.PictureBox();
-            this.Label249 = new System.Windows.Forms.Label();
-            this.lblUserTopAlbumArtist17 = new System.Windows.Forms.Label();
-            this.lblUserTopAlbum17 = new System.Windows.Forms.Label();
+            this.Label249 = new Audiograph.Label();
+            this.lblUserTopAlbumArtist17 = new Audiograph.Label();
+            this.lblUserTopAlbum17 = new Audiograph.Label();
             this.picUserTopAlbumArt17 = new System.Windows.Forms.PictureBox();
-            this.Label257 = new System.Windows.Forms.Label();
-            this.lblUserTopAlbumArtist16 = new System.Windows.Forms.Label();
-            this.lblUserTopAlbum16 = new System.Windows.Forms.Label();
+            this.Label257 = new Audiograph.Label();
+            this.lblUserTopAlbumArtist16 = new Audiograph.Label();
+            this.lblUserTopAlbum16 = new Audiograph.Label();
             this.picUserTopAlbumArt16 = new System.Windows.Forms.PictureBox();
-            this.Label265 = new System.Windows.Forms.Label();
-            this.lblUserTopAlbumArtist15 = new System.Windows.Forms.Label();
-            this.lblUserTopAlbum15 = new System.Windows.Forms.Label();
+            this.Label265 = new Audiograph.Label();
+            this.lblUserTopAlbumArtist15 = new Audiograph.Label();
+            this.lblUserTopAlbum15 = new Audiograph.Label();
             this.picUserTopAlbumArt15 = new System.Windows.Forms.PictureBox();
-            this.Label271 = new System.Windows.Forms.Label();
-            this.lblUserTopAlbumArtist14 = new System.Windows.Forms.Label();
-            this.lblUserTopAlbum14 = new System.Windows.Forms.Label();
+            this.Label271 = new Audiograph.Label();
+            this.lblUserTopAlbumArtist14 = new Audiograph.Label();
+            this.lblUserTopAlbum14 = new Audiograph.Label();
             this.picUserTopAlbumArt14 = new System.Windows.Forms.PictureBox();
-            this.Label275 = new System.Windows.Forms.Label();
-            this.lblUserTopAlbumArtist13 = new System.Windows.Forms.Label();
-            this.lblUserTopAlbum13 = new System.Windows.Forms.Label();
+            this.Label275 = new Audiograph.Label();
+            this.lblUserTopAlbumArtist13 = new Audiograph.Label();
+            this.lblUserTopAlbum13 = new Audiograph.Label();
             this.picUserTopAlbumArt13 = new System.Windows.Forms.PictureBox();
-            this.Label279 = new System.Windows.Forms.Label();
-            this.lblUserTopAlbumArtist12 = new System.Windows.Forms.Label();
-            this.lblUserTopAlbum12 = new System.Windows.Forms.Label();
+            this.Label279 = new Audiograph.Label();
+            this.lblUserTopAlbumArtist12 = new Audiograph.Label();
+            this.lblUserTopAlbum12 = new Audiograph.Label();
             this.picUserTopAlbumArt12 = new System.Windows.Forms.PictureBox();
-            this.Label283 = new System.Windows.Forms.Label();
-            this.lblUserTopAlbumArtist11 = new System.Windows.Forms.Label();
-            this.lblUserTopAlbum11 = new System.Windows.Forms.Label();
+            this.Label283 = new Audiograph.Label();
+            this.lblUserTopAlbumArtist11 = new Audiograph.Label();
+            this.lblUserTopAlbum11 = new Audiograph.Label();
             this.picUserTopAlbumArt11 = new System.Windows.Forms.PictureBox();
-            this.Label287 = new System.Windows.Forms.Label();
-            this.lblUserTopAlbumArtist10 = new System.Windows.Forms.Label();
-            this.lblUserTopAlbum10 = new System.Windows.Forms.Label();
+            this.Label287 = new Audiograph.Label();
+            this.lblUserTopAlbumArtist10 = new Audiograph.Label();
+            this.lblUserTopAlbum10 = new Audiograph.Label();
             this.picUserTopAlbumArt10 = new System.Windows.Forms.PictureBox();
-            this.Label291 = new System.Windows.Forms.Label();
-            this.lblUserTopAlbumArtist9 = new System.Windows.Forms.Label();
-            this.lblUserTopAlbum9 = new System.Windows.Forms.Label();
+            this.Label291 = new Audiograph.Label();
+            this.lblUserTopAlbumArtist9 = new Audiograph.Label();
+            this.lblUserTopAlbum9 = new Audiograph.Label();
             this.picUserTopAlbumArt9 = new System.Windows.Forms.PictureBox();
-            this.Label295 = new System.Windows.Forms.Label();
-            this.lblUserTopAlbumArtist8 = new System.Windows.Forms.Label();
-            this.lblUserTopAlbum8 = new System.Windows.Forms.Label();
+            this.Label295 = new Audiograph.Label();
+            this.lblUserTopAlbumArtist8 = new Audiograph.Label();
+            this.lblUserTopAlbum8 = new Audiograph.Label();
             this.picUserTopAlbumArt8 = new System.Windows.Forms.PictureBox();
-            this.Label299 = new System.Windows.Forms.Label();
-            this.lblUserTopAlbumArtist7 = new System.Windows.Forms.Label();
-            this.lblUserTopAlbum7 = new System.Windows.Forms.Label();
+            this.Label299 = new Audiograph.Label();
+            this.lblUserTopAlbumArtist7 = new Audiograph.Label();
+            this.lblUserTopAlbum7 = new Audiograph.Label();
             this.picUserTopAlbumArt7 = new System.Windows.Forms.PictureBox();
-            this.Label303 = new System.Windows.Forms.Label();
-            this.lblUserTopAlbumArtist6 = new System.Windows.Forms.Label();
-            this.lblUserTopAlbum6 = new System.Windows.Forms.Label();
+            this.Label303 = new Audiograph.Label();
+            this.lblUserTopAlbumArtist6 = new Audiograph.Label();
+            this.lblUserTopAlbum6 = new Audiograph.Label();
             this.picUserTopAlbumArt6 = new System.Windows.Forms.PictureBox();
-            this.Label307 = new System.Windows.Forms.Label();
-            this.lblUserTopAlbumArtist5 = new System.Windows.Forms.Label();
-            this.lblUserTopAlbum5 = new System.Windows.Forms.Label();
+            this.Label307 = new Audiograph.Label();
+            this.lblUserTopAlbumArtist5 = new Audiograph.Label();
+            this.lblUserTopAlbum5 = new Audiograph.Label();
             this.picUserTopAlbumArt5 = new System.Windows.Forms.PictureBox();
-            this.Label311 = new System.Windows.Forms.Label();
-            this.lblUserTopAlbumArtist4 = new System.Windows.Forms.Label();
-            this.lblUserTopAlbum4 = new System.Windows.Forms.Label();
+            this.Label311 = new Audiograph.Label();
+            this.lblUserTopAlbumArtist4 = new Audiograph.Label();
+            this.lblUserTopAlbum4 = new Audiograph.Label();
             this.picUserTopAlbumArt4 = new System.Windows.Forms.PictureBox();
-            this.Label315 = new System.Windows.Forms.Label();
-            this.lblUserTopAlbumArtist3 = new System.Windows.Forms.Label();
-            this.lblUserTopAlbum3 = new System.Windows.Forms.Label();
+            this.Label315 = new Audiograph.Label();
+            this.lblUserTopAlbumArtist3 = new Audiograph.Label();
+            this.lblUserTopAlbum3 = new Audiograph.Label();
             this.picUserTopAlbumArt3 = new System.Windows.Forms.PictureBox();
-            this.Label319 = new System.Windows.Forms.Label();
-            this.lblUserTopAlbumArtist2 = new System.Windows.Forms.Label();
-            this.lblUserTopAlbum2 = new System.Windows.Forms.Label();
+            this.Label319 = new Audiograph.Label();
+            this.lblUserTopAlbumArtist2 = new Audiograph.Label();
+            this.lblUserTopAlbum2 = new Audiograph.Label();
             this.picUserTopAlbumArt2 = new System.Windows.Forms.PictureBox();
-            this.Label323 = new System.Windows.Forms.Label();
-            this.lblUserTopAlbumArtist1 = new System.Windows.Forms.Label();
-            this.lblUserTopAlbum1 = new System.Windows.Forms.Label();
-            this.Label327 = new System.Windows.Forms.Label();
-            this.Label328 = new System.Windows.Forms.Label();
+            this.Label323 = new Audiograph.Label();
+            this.lblUserTopAlbumArtist1 = new Audiograph.Label();
+            this.lblUserTopAlbum1 = new Audiograph.Label();
+            this.Label327 = new Audiograph.Label();
+            this.Label328 = new Audiograph.Label();
             this.picUserTopAlbumArt1 = new System.Windows.Forms.PictureBox();
-            this.Label329 = new System.Windows.Forms.Label();
-            this.Label330 = new System.Windows.Forms.Label();
-            this.Label331 = new System.Windows.Forms.Label();
+            this.Label329 = new Audiograph.Label();
+            this.Label330 = new Audiograph.Label();
+            this.Label331 = new Audiograph.Label();
             this.pgUserHistory = new System.Windows.Forms.TabPage();
-            this.lblUserHistoryTotalTracks = new System.Windows.Forms.Label();
+            this.lblUserHistoryTotalTracks = new Audiograph.Label();
             this.nudUserHistoryPage = new System.Windows.Forms.NumericUpDown();
-            this.Label2 = new System.Windows.Forms.Label();
-            this.lblUserHistoryTotalPages = new System.Windows.Forms.Label();
+            this.Label2 = new Audiograph.Label();
+            this.lblUserHistoryTotalPages = new Audiograph.Label();
             this.ltvUserHistory = new System.Windows.Forms.ListView();
             this.ColumnHeader8 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.ColumnHeader9 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
@@ -866,7 +866,7 @@ namespace Audiograph
             this.mnuUserHistoryBackupTrack = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuUserHistoryBackupArtist = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuUserHistoryBackupAlbum = new System.Windows.Forms.ToolStripMenuItem();
-            this.lblUserFrom = new System.Windows.Forms.Label();
+            this.lblUserFrom = new Audiograph.Label();
             this.gpbUserInfo = new System.Windows.Forms.GroupBox();
             this.tbcUserInfo = new System.Windows.Forms.TabControl();
             this.pgUserInfo = new System.Windows.Forms.TabPage();
@@ -879,7 +879,7 @@ namespace Audiograph
             this.mnuUserCopy = new System.Windows.Forms.ToolStripMenuItem();
             this.picUser = new System.Windows.Forms.PictureBox();
             this.pgUserFriends = new System.Windows.Forms.TabPage();
-            this.lblUserFriendTotal = new System.Windows.Forms.Label();
+            this.lblUserFriendTotal = new Audiograph.Label();
             this.ltvUserFriends = new System.Windows.Forms.ListView();
             this.clmUserFriendName = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.clmUserFriendRealName = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
@@ -891,7 +891,7 @@ namespace Audiograph
             this.mnuUserBackupFriend = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuUserCopyFriendName = new System.Windows.Forms.ToolStripMenuItem();
             this.pgUserLovedTracks = new System.Windows.Forms.TabPage();
-            this.lblUserLovedTotalTracks = new System.Windows.Forms.Label();
+            this.lblUserLovedTotalTracks = new Audiograph.Label();
             this.nudUserLovedPage = new System.Windows.Forms.NumericUpDown();
             this.ltvUserLovedTracks = new System.Windows.Forms.ListView();
             this.clmUserLovedTitle = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
@@ -903,11 +903,11 @@ namespace Audiograph
             this.ToolStripSeparator6 = new System.Windows.Forms.ToolStripSeparator();
             this.mnuUserBackupLovedTrack = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuUserBackupLovedArtist = new System.Windows.Forms.ToolStripMenuItem();
-            this.Label15 = new System.Windows.Forms.Label();
-            this.lblUserLovedTotalPages = new System.Windows.Forms.Label();
+            this.Label15 = new Audiograph.Label();
+            this.lblUserLovedTotalPages = new Audiograph.Label();
             this.pgUserRecentTracks = new System.Windows.Forms.TabPage();
             this.tlpUserRecent = new Audiograph.DBLayoutPanel();
-            this.lblUserRecentAlbum20 = new System.Windows.Forms.Label();
+            this.lblUserRecentAlbum20 = new Audiograph.Label();
             this.cmsUserRecent = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.mnuUserGoToRecentTrack = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuUserGoToRecentArtist = new System.Windows.Forms.ToolStripMenuItem();
@@ -916,127 +916,127 @@ namespace Audiograph
             this.mnuUserBackupRecentTrack = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuUserBackupRecentArtist = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuUserBackupRecentAlbum = new System.Windows.Forms.ToolStripMenuItem();
-            this.lblUserRecentArtist20 = new System.Windows.Forms.Label();
-            this.lblUserRecentTitle20 = new System.Windows.Forms.Label();
+            this.lblUserRecentArtist20 = new Audiograph.Label();
+            this.lblUserRecentTitle20 = new Audiograph.Label();
             this.picUserRecentArt20 = new System.Windows.Forms.PictureBox();
-            this.lblUserRecentAlbum19 = new System.Windows.Forms.Label();
-            this.lblUserRecentArtist19 = new System.Windows.Forms.Label();
-            this.lblUserRecentTitle19 = new System.Windows.Forms.Label();
+            this.lblUserRecentAlbum19 = new Audiograph.Label();
+            this.lblUserRecentArtist19 = new Audiograph.Label();
+            this.lblUserRecentTitle19 = new Audiograph.Label();
             this.picUserRecentArt19 = new System.Windows.Forms.PictureBox();
-            this.lblUserRecentAlbum18 = new System.Windows.Forms.Label();
-            this.lblUserRecentArtist18 = new System.Windows.Forms.Label();
-            this.lblUserRecentTitle18 = new System.Windows.Forms.Label();
+            this.lblUserRecentAlbum18 = new Audiograph.Label();
+            this.lblUserRecentArtist18 = new Audiograph.Label();
+            this.lblUserRecentTitle18 = new Audiograph.Label();
             this.picUserRecentArt18 = new System.Windows.Forms.PictureBox();
-            this.lblUserRecentAlbum17 = new System.Windows.Forms.Label();
-            this.lblUserRecentArtist17 = new System.Windows.Forms.Label();
-            this.lblUserRecentTitle17 = new System.Windows.Forms.Label();
+            this.lblUserRecentAlbum17 = new Audiograph.Label();
+            this.lblUserRecentArtist17 = new Audiograph.Label();
+            this.lblUserRecentTitle17 = new Audiograph.Label();
             this.picUserRecentArt17 = new System.Windows.Forms.PictureBox();
-            this.lblUserRecentAlbum16 = new System.Windows.Forms.Label();
-            this.lblUserRecentArtist16 = new System.Windows.Forms.Label();
-            this.lblUserRecentTitle16 = new System.Windows.Forms.Label();
+            this.lblUserRecentAlbum16 = new Audiograph.Label();
+            this.lblUserRecentArtist16 = new Audiograph.Label();
+            this.lblUserRecentTitle16 = new Audiograph.Label();
             this.picUserRecentArt16 = new System.Windows.Forms.PictureBox();
-            this.lblUserRecentAlbum15 = new System.Windows.Forms.Label();
-            this.lblUserRecentArtist15 = new System.Windows.Forms.Label();
-            this.lblUserRecentTitle15 = new System.Windows.Forms.Label();
+            this.lblUserRecentAlbum15 = new Audiograph.Label();
+            this.lblUserRecentArtist15 = new Audiograph.Label();
+            this.lblUserRecentTitle15 = new Audiograph.Label();
             this.picUserRecentArt15 = new System.Windows.Forms.PictureBox();
-            this.lblUserRecentAlbum14 = new System.Windows.Forms.Label();
-            this.lblUserRecentArtist14 = new System.Windows.Forms.Label();
-            this.lblUserRecentTitle14 = new System.Windows.Forms.Label();
+            this.lblUserRecentAlbum14 = new Audiograph.Label();
+            this.lblUserRecentArtist14 = new Audiograph.Label();
+            this.lblUserRecentTitle14 = new Audiograph.Label();
             this.picUserRecentArt14 = new System.Windows.Forms.PictureBox();
-            this.lblUserRecentAlbum13 = new System.Windows.Forms.Label();
-            this.lblUserRecentArtist13 = new System.Windows.Forms.Label();
-            this.lblUserRecentTitle13 = new System.Windows.Forms.Label();
+            this.lblUserRecentAlbum13 = new Audiograph.Label();
+            this.lblUserRecentArtist13 = new Audiograph.Label();
+            this.lblUserRecentTitle13 = new Audiograph.Label();
             this.picUserRecentArt13 = new System.Windows.Forms.PictureBox();
-            this.lblUserRecentAlbum12 = new System.Windows.Forms.Label();
-            this.lblUserRecentArtist12 = new System.Windows.Forms.Label();
-            this.lblUserRecentTitle12 = new System.Windows.Forms.Label();
+            this.lblUserRecentAlbum12 = new Audiograph.Label();
+            this.lblUserRecentArtist12 = new Audiograph.Label();
+            this.lblUserRecentTitle12 = new Audiograph.Label();
             this.picUserRecentArt12 = new System.Windows.Forms.PictureBox();
-            this.lblUserRecentAlbum11 = new System.Windows.Forms.Label();
-            this.lblUserRecentArtist11 = new System.Windows.Forms.Label();
-            this.lblUserRecentTitle11 = new System.Windows.Forms.Label();
+            this.lblUserRecentAlbum11 = new Audiograph.Label();
+            this.lblUserRecentArtist11 = new Audiograph.Label();
+            this.lblUserRecentTitle11 = new Audiograph.Label();
             this.picUserRecentArt11 = new System.Windows.Forms.PictureBox();
-            this.lblUserRecentAlbum10 = new System.Windows.Forms.Label();
-            this.lblUserRecentArtist10 = new System.Windows.Forms.Label();
-            this.lblUserRecentTitle10 = new System.Windows.Forms.Label();
+            this.lblUserRecentAlbum10 = new Audiograph.Label();
+            this.lblUserRecentArtist10 = new Audiograph.Label();
+            this.lblUserRecentTitle10 = new Audiograph.Label();
             this.picUserRecentArt10 = new System.Windows.Forms.PictureBox();
-            this.lblUserRecentAlbum9 = new System.Windows.Forms.Label();
-            this.lblUserRecentArtist9 = new System.Windows.Forms.Label();
-            this.lblUserRecentTitle9 = new System.Windows.Forms.Label();
+            this.lblUserRecentAlbum9 = new Audiograph.Label();
+            this.lblUserRecentArtist9 = new Audiograph.Label();
+            this.lblUserRecentTitle9 = new Audiograph.Label();
             this.picUserRecentArt9 = new System.Windows.Forms.PictureBox();
-            this.lblUserRecentAlbum8 = new System.Windows.Forms.Label();
-            this.lblUserRecentArtist8 = new System.Windows.Forms.Label();
-            this.lblUserRecentTitle8 = new System.Windows.Forms.Label();
+            this.lblUserRecentAlbum8 = new Audiograph.Label();
+            this.lblUserRecentArtist8 = new Audiograph.Label();
+            this.lblUserRecentTitle8 = new Audiograph.Label();
             this.picUserRecentArt8 = new System.Windows.Forms.PictureBox();
-            this.lblUserRecentAlbum7 = new System.Windows.Forms.Label();
-            this.lblUserRecentArtist7 = new System.Windows.Forms.Label();
-            this.lblUserRecentTitle7 = new System.Windows.Forms.Label();
+            this.lblUserRecentAlbum7 = new Audiograph.Label();
+            this.lblUserRecentArtist7 = new Audiograph.Label();
+            this.lblUserRecentTitle7 = new Audiograph.Label();
             this.picUserRecentArt7 = new System.Windows.Forms.PictureBox();
-            this.lblUserRecentAlbum6 = new System.Windows.Forms.Label();
-            this.lblUserRecentArtist6 = new System.Windows.Forms.Label();
-            this.lblUserRecentTitle6 = new System.Windows.Forms.Label();
+            this.lblUserRecentAlbum6 = new Audiograph.Label();
+            this.lblUserRecentArtist6 = new Audiograph.Label();
+            this.lblUserRecentTitle6 = new Audiograph.Label();
             this.picUserRecentArt6 = new System.Windows.Forms.PictureBox();
-            this.lblUserRecentAlbum5 = new System.Windows.Forms.Label();
-            this.lblUserRecentArtist5 = new System.Windows.Forms.Label();
-            this.lblUserRecentTitle5 = new System.Windows.Forms.Label();
+            this.lblUserRecentAlbum5 = new Audiograph.Label();
+            this.lblUserRecentArtist5 = new Audiograph.Label();
+            this.lblUserRecentTitle5 = new Audiograph.Label();
             this.picUserRecentArt5 = new System.Windows.Forms.PictureBox();
-            this.lblUserRecentAlbum4 = new System.Windows.Forms.Label();
-            this.lblUserRecentArtist4 = new System.Windows.Forms.Label();
-            this.lblUserRecentTitle4 = new System.Windows.Forms.Label();
+            this.lblUserRecentAlbum4 = new Audiograph.Label();
+            this.lblUserRecentArtist4 = new Audiograph.Label();
+            this.lblUserRecentTitle4 = new Audiograph.Label();
             this.picUserRecentArt4 = new System.Windows.Forms.PictureBox();
-            this.lblUserRecentAlbum3 = new System.Windows.Forms.Label();
-            this.lblUserRecentArtist3 = new System.Windows.Forms.Label();
-            this.lblUserRecentTitle3 = new System.Windows.Forms.Label();
+            this.lblUserRecentAlbum3 = new Audiograph.Label();
+            this.lblUserRecentArtist3 = new Audiograph.Label();
+            this.lblUserRecentTitle3 = new Audiograph.Label();
             this.picUserRecentArt3 = new System.Windows.Forms.PictureBox();
-            this.lblUserRecentAlbum2 = new System.Windows.Forms.Label();
-            this.lblUserRecentArtist2 = new System.Windows.Forms.Label();
-            this.lblUserRecentTitle2 = new System.Windows.Forms.Label();
+            this.lblUserRecentAlbum2 = new Audiograph.Label();
+            this.lblUserRecentArtist2 = new Audiograph.Label();
+            this.lblUserRecentTitle2 = new Audiograph.Label();
             this.picUserRecentArt2 = new System.Windows.Forms.PictureBox();
-            this.lblUserRecentAlbum1 = new System.Windows.Forms.Label();
-            this.lblUserRecentArtist1 = new System.Windows.Forms.Label();
-            this.Label13 = new System.Windows.Forms.Label();
-            this.Label12 = new System.Windows.Forms.Label();
-            this.Label11 = new System.Windows.Forms.Label();
-            this.Label9 = new System.Windows.Forms.Label();
+            this.lblUserRecentAlbum1 = new Audiograph.Label();
+            this.lblUserRecentArtist1 = new Audiograph.Label();
+            this.Label13 = new Audiograph.Label();
+            this.Label12 = new Audiograph.Label();
+            this.Label11 = new Audiograph.Label();
+            this.Label9 = new Audiograph.Label();
             this.picUserRecentArt1 = new System.Windows.Forms.PictureBox();
-            this.lblUserRecentTitle1 = new System.Windows.Forms.Label();
+            this.lblUserRecentTitle1 = new Audiograph.Label();
             this.pgUserLookup = new System.Windows.Forms.TabPage();
             this.btnUserLSet = new System.Windows.Forms.Button();
             this.txtUserL = new System.Windows.Forms.TextBox();
-            this.Label456 = new System.Windows.Forms.Label();
-            this.lblUserLStatus = new System.Windows.Forms.Label();
+            this.Label456 = new Audiograph.Label();
+            this.lblUserLStatus = new Audiograph.Label();
             this.tlpUserL = new Audiograph.DBLayoutPanel();
             this.gpbUserLCharts = new System.Windows.Forms.GroupBox();
             this.btnUserLChartGo = new System.Windows.Forms.Button();
             this.dtpUserLTo = new System.Windows.Forms.DateTimePicker();
-            this.lblUserLTo = new System.Windows.Forms.Label();
+            this.lblUserLTo = new Audiograph.Label();
             this.dtpUserLFrom = new System.Windows.Forms.DateTimePicker();
             this.radUserLDate = new System.Windows.Forms.RadioButton();
             this.radUserLAllTime = new System.Windows.Forms.RadioButton();
             this.tbcUserLCharts = new System.Windows.Forms.TabControl();
             this.pgUserLTopTracks = new System.Windows.Forms.TabPage();
             this.DbLayoutPanel5 = new Audiograph.DBLayoutPanel();
-            this.lblUserLTopTrackPlaycount20 = new System.Windows.Forms.Label();
-            this.lblUserLTopTrackPlaycount19 = new System.Windows.Forms.Label();
-            this.lblUserLTopTrackPlaycount18 = new System.Windows.Forms.Label();
-            this.lblUserLTopTrackPlaycount17 = new System.Windows.Forms.Label();
-            this.lblUserLTopTrackPlaycount16 = new System.Windows.Forms.Label();
-            this.lblUserLTopTrackPlaycount15 = new System.Windows.Forms.Label();
-            this.lblUserLTopTrackPlaycount14 = new System.Windows.Forms.Label();
-            this.lblUserLTopTrackPlaycount13 = new System.Windows.Forms.Label();
-            this.lblUserLTopTrackPlaycount12 = new System.Windows.Forms.Label();
-            this.lblUserLTopTrackPlaycount11 = new System.Windows.Forms.Label();
-            this.lblUserLTopTrackPlaycount10 = new System.Windows.Forms.Label();
-            this.lblUserLTopTrackPlaycount9 = new System.Windows.Forms.Label();
-            this.lblUserLTopTrackPlaycount8 = new System.Windows.Forms.Label();
-            this.lblUserLTopTrackPlaycount7 = new System.Windows.Forms.Label();
-            this.lblUserLTopTrackPlaycount6 = new System.Windows.Forms.Label();
-            this.lblUserLTopTrackPlaycount5 = new System.Windows.Forms.Label();
-            this.lblUserLTopTrackPlaycount4 = new System.Windows.Forms.Label();
-            this.lblUserLTopTrackPlaycount3 = new System.Windows.Forms.Label();
-            this.lblUserLTopTrackPlaycount2 = new System.Windows.Forms.Label();
-            this.lblUserLTopTrackPlaycount1 = new System.Windows.Forms.Label();
-            this.Label52 = new System.Windows.Forms.Label();
-            this.lblUserLTopTrackAlbum20 = new System.Windows.Forms.Label();
+            this.lblUserLTopTrackPlaycount20 = new Audiograph.Label();
+            this.lblUserLTopTrackPlaycount19 = new Audiograph.Label();
+            this.lblUserLTopTrackPlaycount18 = new Audiograph.Label();
+            this.lblUserLTopTrackPlaycount17 = new Audiograph.Label();
+            this.lblUserLTopTrackPlaycount16 = new Audiograph.Label();
+            this.lblUserLTopTrackPlaycount15 = new Audiograph.Label();
+            this.lblUserLTopTrackPlaycount14 = new Audiograph.Label();
+            this.lblUserLTopTrackPlaycount13 = new Audiograph.Label();
+            this.lblUserLTopTrackPlaycount12 = new Audiograph.Label();
+            this.lblUserLTopTrackPlaycount11 = new Audiograph.Label();
+            this.lblUserLTopTrackPlaycount10 = new Audiograph.Label();
+            this.lblUserLTopTrackPlaycount9 = new Audiograph.Label();
+            this.lblUserLTopTrackPlaycount8 = new Audiograph.Label();
+            this.lblUserLTopTrackPlaycount7 = new Audiograph.Label();
+            this.lblUserLTopTrackPlaycount6 = new Audiograph.Label();
+            this.lblUserLTopTrackPlaycount5 = new Audiograph.Label();
+            this.lblUserLTopTrackPlaycount4 = new Audiograph.Label();
+            this.lblUserLTopTrackPlaycount3 = new Audiograph.Label();
+            this.lblUserLTopTrackPlaycount2 = new Audiograph.Label();
+            this.lblUserLTopTrackPlaycount1 = new Audiograph.Label();
+            this.Label52 = new Audiograph.Label();
+            this.lblUserLTopTrackAlbum20 = new Audiograph.Label();
             this.cmsUserLTopTracks = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.mnuUserLTopTrackGoToTrack = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuUserLTopTrackGoToArtist = new System.Windows.Forms.ToolStripMenuItem();
@@ -1045,296 +1045,296 @@ namespace Audiograph
             this.mnuUserLTopTrackBackupTrack = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuUserLTopTrackBackupArtist = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuUserLTopTrackBackupAlbum = new System.Windows.Forms.ToolStripMenuItem();
-            this.lblUserLTopTrackArtist20 = new System.Windows.Forms.Label();
-            this.lblUserLTopTrackTitle20 = new System.Windows.Forms.Label();
+            this.lblUserLTopTrackArtist20 = new Audiograph.Label();
+            this.lblUserLTopTrackTitle20 = new Audiograph.Label();
             this.picUserLTopTrackArt20 = new System.Windows.Forms.PictureBox();
-            this.Label60 = new System.Windows.Forms.Label();
-            this.lblUserLTopTrackAlbum19 = new System.Windows.Forms.Label();
-            this.lblUserLTopTrackArtist19 = new System.Windows.Forms.Label();
-            this.lblUserLTopTrackTitle19 = new System.Windows.Forms.Label();
+            this.Label60 = new Audiograph.Label();
+            this.lblUserLTopTrackAlbum19 = new Audiograph.Label();
+            this.lblUserLTopTrackArtist19 = new Audiograph.Label();
+            this.lblUserLTopTrackTitle19 = new Audiograph.Label();
             this.picUserLTopTrackArt19 = new System.Windows.Forms.PictureBox();
-            this.Label67 = new System.Windows.Forms.Label();
-            this.lblUserLTopTrackAlbum18 = new System.Windows.Forms.Label();
-            this.lblUserLTopTrackArtist18 = new System.Windows.Forms.Label();
-            this.lblUserLTopTrackTitle18 = new System.Windows.Forms.Label();
+            this.Label67 = new Audiograph.Label();
+            this.lblUserLTopTrackAlbum18 = new Audiograph.Label();
+            this.lblUserLTopTrackArtist18 = new Audiograph.Label();
+            this.lblUserLTopTrackTitle18 = new Audiograph.Label();
             this.picUserLTopTrackArt18 = new System.Windows.Forms.PictureBox();
-            this.Label74 = new System.Windows.Forms.Label();
-            this.lblUserLTopTrackAlbum17 = new System.Windows.Forms.Label();
-            this.lblUserLTopTrackArtist17 = new System.Windows.Forms.Label();
-            this.lblUserLTopTrackTitle17 = new System.Windows.Forms.Label();
+            this.Label74 = new Audiograph.Label();
+            this.lblUserLTopTrackAlbum17 = new Audiograph.Label();
+            this.lblUserLTopTrackArtist17 = new Audiograph.Label();
+            this.lblUserLTopTrackTitle17 = new Audiograph.Label();
             this.picUserLTopTrackArt17 = new System.Windows.Forms.PictureBox();
-            this.Label82 = new System.Windows.Forms.Label();
-            this.lblUserLTopTrackAlbum16 = new System.Windows.Forms.Label();
-            this.lblUserLTopTrackArtist16 = new System.Windows.Forms.Label();
-            this.lblUserLTopTrackTitle16 = new System.Windows.Forms.Label();
+            this.Label82 = new Audiograph.Label();
+            this.lblUserLTopTrackAlbum16 = new Audiograph.Label();
+            this.lblUserLTopTrackArtist16 = new Audiograph.Label();
+            this.lblUserLTopTrackTitle16 = new Audiograph.Label();
             this.picUserLTopTrackArt16 = new System.Windows.Forms.PictureBox();
-            this.Label88 = new System.Windows.Forms.Label();
-            this.lblUserLTopTrackAlbum15 = new System.Windows.Forms.Label();
-            this.lblUserLTopTrackArtist15 = new System.Windows.Forms.Label();
-            this.lblUserLTopTrackTitle15 = new System.Windows.Forms.Label();
+            this.Label88 = new Audiograph.Label();
+            this.lblUserLTopTrackAlbum15 = new Audiograph.Label();
+            this.lblUserLTopTrackArtist15 = new Audiograph.Label();
+            this.lblUserLTopTrackTitle15 = new Audiograph.Label();
             this.picUserLTopTrackArt15 = new System.Windows.Forms.PictureBox();
-            this.Label95 = new System.Windows.Forms.Label();
-            this.lblUserLTopTrackAlbum14 = new System.Windows.Forms.Label();
-            this.lblUserLTopTrackArtist14 = new System.Windows.Forms.Label();
-            this.lblUserLTopTrackTitle14 = new System.Windows.Forms.Label();
+            this.Label95 = new Audiograph.Label();
+            this.lblUserLTopTrackAlbum14 = new Audiograph.Label();
+            this.lblUserLTopTrackArtist14 = new Audiograph.Label();
+            this.lblUserLTopTrackTitle14 = new Audiograph.Label();
             this.picUserLTopTrackArt14 = new System.Windows.Forms.PictureBox();
-            this.Label101 = new System.Windows.Forms.Label();
-            this.lblUserLTopTrackAlbum13 = new System.Windows.Forms.Label();
-            this.lblUserLTopTrackArtist13 = new System.Windows.Forms.Label();
-            this.lblUserLTopTrackTitle13 = new System.Windows.Forms.Label();
+            this.Label101 = new Audiograph.Label();
+            this.lblUserLTopTrackAlbum13 = new Audiograph.Label();
+            this.lblUserLTopTrackArtist13 = new Audiograph.Label();
+            this.lblUserLTopTrackTitle13 = new Audiograph.Label();
             this.picUserLTopTrackArt13 = new System.Windows.Forms.PictureBox();
-            this.Label106 = new System.Windows.Forms.Label();
-            this.lblUserLTopTrackAlbum12 = new System.Windows.Forms.Label();
-            this.lblUserLTopTrackArtist12 = new System.Windows.Forms.Label();
-            this.lblUserLTopTrackTitle12 = new System.Windows.Forms.Label();
+            this.Label106 = new Audiograph.Label();
+            this.lblUserLTopTrackAlbum12 = new Audiograph.Label();
+            this.lblUserLTopTrackArtist12 = new Audiograph.Label();
+            this.lblUserLTopTrackTitle12 = new Audiograph.Label();
             this.picUserLTopTrackArt12 = new System.Windows.Forms.PictureBox();
-            this.Label111 = new System.Windows.Forms.Label();
-            this.lblUserLTopTrackAlbum11 = new System.Windows.Forms.Label();
-            this.lblUserLTopTrackArtist11 = new System.Windows.Forms.Label();
-            this.lblUserLTopTrackTitle11 = new System.Windows.Forms.Label();
+            this.Label111 = new Audiograph.Label();
+            this.lblUserLTopTrackAlbum11 = new Audiograph.Label();
+            this.lblUserLTopTrackArtist11 = new Audiograph.Label();
+            this.lblUserLTopTrackTitle11 = new Audiograph.Label();
             this.picUserLTopTrackArt11 = new System.Windows.Forms.PictureBox();
-            this.Label121 = new System.Windows.Forms.Label();
-            this.lblUserLTopTrackAlbum10 = new System.Windows.Forms.Label();
-            this.lblUserLTopTrackArtist10 = new System.Windows.Forms.Label();
-            this.lblUserLTopTrackTitle10 = new System.Windows.Forms.Label();
+            this.Label121 = new Audiograph.Label();
+            this.lblUserLTopTrackAlbum10 = new Audiograph.Label();
+            this.lblUserLTopTrackArtist10 = new Audiograph.Label();
+            this.lblUserLTopTrackTitle10 = new Audiograph.Label();
             this.picUserLTopTrackArt10 = new System.Windows.Forms.PictureBox();
-            this.Label131 = new System.Windows.Forms.Label();
-            this.lblUserLTopTrackAlbum9 = new System.Windows.Forms.Label();
-            this.lblUserLTopTrackArtist9 = new System.Windows.Forms.Label();
-            this.lblUserLTopTrackTitle9 = new System.Windows.Forms.Label();
+            this.Label131 = new Audiograph.Label();
+            this.lblUserLTopTrackAlbum9 = new Audiograph.Label();
+            this.lblUserLTopTrackArtist9 = new Audiograph.Label();
+            this.lblUserLTopTrackTitle9 = new Audiograph.Label();
             this.picUserLTopTrackArt9 = new System.Windows.Forms.PictureBox();
-            this.Label141 = new System.Windows.Forms.Label();
-            this.lblUserLTopTrackAlbum8 = new System.Windows.Forms.Label();
-            this.lblUserLTopTrackArtist8 = new System.Windows.Forms.Label();
-            this.lblUserLTopTrackTitle8 = new System.Windows.Forms.Label();
+            this.Label141 = new Audiograph.Label();
+            this.lblUserLTopTrackAlbum8 = new Audiograph.Label();
+            this.lblUserLTopTrackArtist8 = new Audiograph.Label();
+            this.lblUserLTopTrackTitle8 = new Audiograph.Label();
             this.picUserLTopTrackArt8 = new System.Windows.Forms.PictureBox();
-            this.Label151 = new System.Windows.Forms.Label();
-            this.lblUserLTopTrackAlbum7 = new System.Windows.Forms.Label();
-            this.lblUserLTopTrackArtist7 = new System.Windows.Forms.Label();
-            this.lblUserLTopTrackTitle7 = new System.Windows.Forms.Label();
+            this.Label151 = new Audiograph.Label();
+            this.lblUserLTopTrackAlbum7 = new Audiograph.Label();
+            this.lblUserLTopTrackArtist7 = new Audiograph.Label();
+            this.lblUserLTopTrackTitle7 = new Audiograph.Label();
             this.picUserLTopTrackArt7 = new System.Windows.Forms.PictureBox();
-            this.Label156 = new System.Windows.Forms.Label();
-            this.lblUserLTopTrackAlbum6 = new System.Windows.Forms.Label();
-            this.lblUserLTopTrackArtist6 = new System.Windows.Forms.Label();
-            this.lblUserLTopTrackTitle6 = new System.Windows.Forms.Label();
+            this.Label156 = new Audiograph.Label();
+            this.lblUserLTopTrackAlbum6 = new Audiograph.Label();
+            this.lblUserLTopTrackArtist6 = new Audiograph.Label();
+            this.lblUserLTopTrackTitle6 = new Audiograph.Label();
             this.picUserLTopTrackArt6 = new System.Windows.Forms.PictureBox();
-            this.Label166 = new System.Windows.Forms.Label();
-            this.lblUserLTopTrackAlbum5 = new System.Windows.Forms.Label();
-            this.lblUserLTopTrackArtist5 = new System.Windows.Forms.Label();
-            this.lblUserLTopTrackTitle5 = new System.Windows.Forms.Label();
+            this.Label166 = new Audiograph.Label();
+            this.lblUserLTopTrackAlbum5 = new Audiograph.Label();
+            this.lblUserLTopTrackArtist5 = new Audiograph.Label();
+            this.lblUserLTopTrackTitle5 = new Audiograph.Label();
             this.picUserLTopTrackArt5 = new System.Windows.Forms.PictureBox();
-            this.Label170 = new System.Windows.Forms.Label();
-            this.lblUserLTopTrackAlbum4 = new System.Windows.Forms.Label();
-            this.lblUserLTopTrackArtist4 = new System.Windows.Forms.Label();
-            this.lblUserLTopTrackTitle4 = new System.Windows.Forms.Label();
+            this.Label170 = new Audiograph.Label();
+            this.lblUserLTopTrackAlbum4 = new Audiograph.Label();
+            this.lblUserLTopTrackArtist4 = new Audiograph.Label();
+            this.lblUserLTopTrackTitle4 = new Audiograph.Label();
             this.picUserLTopTrackArt4 = new System.Windows.Forms.PictureBox();
-            this.Label174 = new System.Windows.Forms.Label();
-            this.lblUserLTopTrackAlbum3 = new System.Windows.Forms.Label();
-            this.lblUserLTopTrackArtist3 = new System.Windows.Forms.Label();
-            this.lblUserLTopTrackTitle3 = new System.Windows.Forms.Label();
+            this.Label174 = new Audiograph.Label();
+            this.lblUserLTopTrackAlbum3 = new Audiograph.Label();
+            this.lblUserLTopTrackArtist3 = new Audiograph.Label();
+            this.lblUserLTopTrackTitle3 = new Audiograph.Label();
             this.picUserLTopTrackArt3 = new System.Windows.Forms.PictureBox();
-            this.Label178 = new System.Windows.Forms.Label();
-            this.lblUserLTopTrackAlbum2 = new System.Windows.Forms.Label();
-            this.lblUserLTopTrackArtist2 = new System.Windows.Forms.Label();
-            this.lblUserLTopTrackTitle2 = new System.Windows.Forms.Label();
+            this.Label178 = new Audiograph.Label();
+            this.lblUserLTopTrackAlbum2 = new Audiograph.Label();
+            this.lblUserLTopTrackArtist2 = new Audiograph.Label();
+            this.lblUserLTopTrackTitle2 = new Audiograph.Label();
             this.picUserLTopTrackArt2 = new System.Windows.Forms.PictureBox();
-            this.Label182 = new System.Windows.Forms.Label();
-            this.lblUserLTopTrackAlbum1 = new System.Windows.Forms.Label();
-            this.lblUserLTopTrackArtist1 = new System.Windows.Forms.Label();
-            this.lblUserLTopTrackTitle1 = new System.Windows.Forms.Label();
-            this.Label187 = new System.Windows.Forms.Label();
-            this.Label189 = new System.Windows.Forms.Label();
+            this.Label182 = new Audiograph.Label();
+            this.lblUserLTopTrackAlbum1 = new Audiograph.Label();
+            this.lblUserLTopTrackArtist1 = new Audiograph.Label();
+            this.lblUserLTopTrackTitle1 = new Audiograph.Label();
+            this.Label187 = new Audiograph.Label();
+            this.Label189 = new Audiograph.Label();
             this.picUserLTopTrackArt1 = new System.Windows.Forms.PictureBox();
-            this.Label190 = new System.Windows.Forms.Label();
-            this.Label191 = new System.Windows.Forms.Label();
-            this.Label193 = new System.Windows.Forms.Label();
-            this.Label194 = new System.Windows.Forms.Label();
+            this.Label190 = new Audiograph.Label();
+            this.Label191 = new Audiograph.Label();
+            this.Label193 = new Audiograph.Label();
+            this.Label194 = new Audiograph.Label();
             this.pgUserLTopArtists = new System.Windows.Forms.TabPage();
             this.DbLayoutPanel6 = new Audiograph.DBLayoutPanel();
-            this.lblUserLTopArtistPlaycount20 = new System.Windows.Forms.Label();
-            this.lblUserLTopArtistPlaycount19 = new System.Windows.Forms.Label();
-            this.lblUserLTopArtistPlaycount18 = new System.Windows.Forms.Label();
-            this.lblUserLTopArtistPlaycount17 = new System.Windows.Forms.Label();
-            this.lblUserLTopArtistPlaycount16 = new System.Windows.Forms.Label();
-            this.lblUserLTopArtistPlaycount15 = new System.Windows.Forms.Label();
-            this.lblUserLTopArtistPlaycount14 = new System.Windows.Forms.Label();
-            this.lblUserLTopArtistPlaycount13 = new System.Windows.Forms.Label();
-            this.lblUserLTopArtistPlaycount12 = new System.Windows.Forms.Label();
-            this.lblUserLTopArtistPlaycount11 = new System.Windows.Forms.Label();
-            this.lblUserLTopArtistPlaycount10 = new System.Windows.Forms.Label();
-            this.lblUserLTopArtistPlaycount9 = new System.Windows.Forms.Label();
-            this.lblUserLTopArtistPlaycount8 = new System.Windows.Forms.Label();
-            this.lblUserLTopArtistPlaycount7 = new System.Windows.Forms.Label();
-            this.lblUserLTopArtistPlaycount6 = new System.Windows.Forms.Label();
-            this.lblUserLTopArtistPlaycount5 = new System.Windows.Forms.Label();
-            this.lblUserLTopArtistPlaycount4 = new System.Windows.Forms.Label();
-            this.lblUserLTopArtistPlaycount3 = new System.Windows.Forms.Label();
-            this.lblUserLTopArtistPlaycount2 = new System.Windows.Forms.Label();
-            this.lblUserLTopArtistPlaycount1 = new System.Windows.Forms.Label();
-            this.Label222 = new System.Windows.Forms.Label();
-            this.lblUserLTopArtist20 = new System.Windows.Forms.Label();
+            this.lblUserLTopArtistPlaycount20 = new Audiograph.Label();
+            this.lblUserLTopArtistPlaycount19 = new Audiograph.Label();
+            this.lblUserLTopArtistPlaycount18 = new Audiograph.Label();
+            this.lblUserLTopArtistPlaycount17 = new Audiograph.Label();
+            this.lblUserLTopArtistPlaycount16 = new Audiograph.Label();
+            this.lblUserLTopArtistPlaycount15 = new Audiograph.Label();
+            this.lblUserLTopArtistPlaycount14 = new Audiograph.Label();
+            this.lblUserLTopArtistPlaycount13 = new Audiograph.Label();
+            this.lblUserLTopArtistPlaycount12 = new Audiograph.Label();
+            this.lblUserLTopArtistPlaycount11 = new Audiograph.Label();
+            this.lblUserLTopArtistPlaycount10 = new Audiograph.Label();
+            this.lblUserLTopArtistPlaycount9 = new Audiograph.Label();
+            this.lblUserLTopArtistPlaycount8 = new Audiograph.Label();
+            this.lblUserLTopArtistPlaycount7 = new Audiograph.Label();
+            this.lblUserLTopArtistPlaycount6 = new Audiograph.Label();
+            this.lblUserLTopArtistPlaycount5 = new Audiograph.Label();
+            this.lblUserLTopArtistPlaycount4 = new Audiograph.Label();
+            this.lblUserLTopArtistPlaycount3 = new Audiograph.Label();
+            this.lblUserLTopArtistPlaycount2 = new Audiograph.Label();
+            this.lblUserLTopArtistPlaycount1 = new Audiograph.Label();
+            this.Label222 = new Audiograph.Label();
+            this.lblUserLTopArtist20 = new Audiograph.Label();
             this.cmsUserLTopArtists = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.mnuUserLTopArtistGoToArtist = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuUserLTopArtistBackupArtist = new System.Windows.Forms.ToolStripMenuItem();
-            this.Label225 = new System.Windows.Forms.Label();
-            this.lblUserLTopArtist19 = new System.Windows.Forms.Label();
-            this.Label227 = new System.Windows.Forms.Label();
-            this.lblUserLTopArtist18 = new System.Windows.Forms.Label();
-            this.Label230 = new System.Windows.Forms.Label();
-            this.lblUserLTopArtist17 = new System.Windows.Forms.Label();
-            this.Label234 = new System.Windows.Forms.Label();
-            this.lblUserLTopArtist16 = new System.Windows.Forms.Label();
-            this.Label237 = new System.Windows.Forms.Label();
-            this.lblUserLTopArtist15 = new System.Windows.Forms.Label();
-            this.Label239 = new System.Windows.Forms.Label();
-            this.lblUserLTopArtist14 = new System.Windows.Forms.Label();
-            this.Label243 = new System.Windows.Forms.Label();
-            this.lblUserLTopArtist13 = new System.Windows.Forms.Label();
-            this.Label246 = new System.Windows.Forms.Label();
-            this.lblUserLTopArtist12 = new System.Windows.Forms.Label();
-            this.Label250 = new System.Windows.Forms.Label();
-            this.lblUserLTopArtist11 = new System.Windows.Forms.Label();
-            this.Label253 = new System.Windows.Forms.Label();
-            this.lblUserLTopArtist10 = new System.Windows.Forms.Label();
-            this.Label255 = new System.Windows.Forms.Label();
-            this.lblUserLTopArtist9 = new System.Windows.Forms.Label();
-            this.Label259 = new System.Windows.Forms.Label();
-            this.lblUserLTopArtist8 = new System.Windows.Forms.Label();
-            this.Label262 = new System.Windows.Forms.Label();
-            this.lblUserLTopArtist7 = new System.Windows.Forms.Label();
-            this.Label267 = new System.Windows.Forms.Label();
-            this.lblUserLTopArtist6 = new System.Windows.Forms.Label();
-            this.Label270 = new System.Windows.Forms.Label();
-            this.lblUserLTopArtist5 = new System.Windows.Forms.Label();
-            this.Label273 = new System.Windows.Forms.Label();
-            this.lblUserLTopArtist4 = new System.Windows.Forms.Label();
-            this.Label276 = new System.Windows.Forms.Label();
-            this.lblUserLTopArtist3 = new System.Windows.Forms.Label();
-            this.Label278 = new System.Windows.Forms.Label();
-            this.lblUserLTopArtist2 = new System.Windows.Forms.Label();
-            this.Label281 = new System.Windows.Forms.Label();
-            this.lblUserLTopArtist1 = new System.Windows.Forms.Label();
-            this.Label284 = new System.Windows.Forms.Label();
-            this.Label285 = new System.Windows.Forms.Label();
-            this.Label286 = new System.Windows.Forms.Label();
+            this.Label225 = new Audiograph.Label();
+            this.lblUserLTopArtist19 = new Audiograph.Label();
+            this.Label227 = new Audiograph.Label();
+            this.lblUserLTopArtist18 = new Audiograph.Label();
+            this.Label230 = new Audiograph.Label();
+            this.lblUserLTopArtist17 = new Audiograph.Label();
+            this.Label234 = new Audiograph.Label();
+            this.lblUserLTopArtist16 = new Audiograph.Label();
+            this.Label237 = new Audiograph.Label();
+            this.lblUserLTopArtist15 = new Audiograph.Label();
+            this.Label239 = new Audiograph.Label();
+            this.lblUserLTopArtist14 = new Audiograph.Label();
+            this.Label243 = new Audiograph.Label();
+            this.lblUserLTopArtist13 = new Audiograph.Label();
+            this.Label246 = new Audiograph.Label();
+            this.lblUserLTopArtist12 = new Audiograph.Label();
+            this.Label250 = new Audiograph.Label();
+            this.lblUserLTopArtist11 = new Audiograph.Label();
+            this.Label253 = new Audiograph.Label();
+            this.lblUserLTopArtist10 = new Audiograph.Label();
+            this.Label255 = new Audiograph.Label();
+            this.lblUserLTopArtist9 = new Audiograph.Label();
+            this.Label259 = new Audiograph.Label();
+            this.lblUserLTopArtist8 = new Audiograph.Label();
+            this.Label262 = new Audiograph.Label();
+            this.lblUserLTopArtist7 = new Audiograph.Label();
+            this.Label267 = new Audiograph.Label();
+            this.lblUserLTopArtist6 = new Audiograph.Label();
+            this.Label270 = new Audiograph.Label();
+            this.lblUserLTopArtist5 = new Audiograph.Label();
+            this.Label273 = new Audiograph.Label();
+            this.lblUserLTopArtist4 = new Audiograph.Label();
+            this.Label276 = new Audiograph.Label();
+            this.lblUserLTopArtist3 = new Audiograph.Label();
+            this.Label278 = new Audiograph.Label();
+            this.lblUserLTopArtist2 = new Audiograph.Label();
+            this.Label281 = new Audiograph.Label();
+            this.lblUserLTopArtist1 = new Audiograph.Label();
+            this.Label284 = new Audiograph.Label();
+            this.Label285 = new Audiograph.Label();
+            this.Label286 = new Audiograph.Label();
             this.pgUserLTopAlbums = new System.Windows.Forms.TabPage();
             this.DbLayoutPanel7 = new Audiograph.DBLayoutPanel();
-            this.lblUserLTopAlbumPlaycount20 = new System.Windows.Forms.Label();
-            this.lblUserLTopAlbumPlaycount19 = new System.Windows.Forms.Label();
-            this.lblUserLTopAlbumPlaycount18 = new System.Windows.Forms.Label();
-            this.lblUserLTopAlbumPlaycount17 = new System.Windows.Forms.Label();
-            this.lblUserLTopAlbumPlaycount16 = new System.Windows.Forms.Label();
-            this.lblUserLTopAlbumPlaycount15 = new System.Windows.Forms.Label();
-            this.lblUserLTopAlbumPlaycount14 = new System.Windows.Forms.Label();
-            this.lblUserLTopAlbumPlaycount13 = new System.Windows.Forms.Label();
-            this.lblUserLTopAlbumPlaycount12 = new System.Windows.Forms.Label();
-            this.lblUserLTopAlbumPlaycount11 = new System.Windows.Forms.Label();
-            this.lblUserLTopAlbumPlaycount10 = new System.Windows.Forms.Label();
-            this.lblUserLTopAlbumPlaycount9 = new System.Windows.Forms.Label();
-            this.lblUserLTopAlbumPlaycount8 = new System.Windows.Forms.Label();
-            this.lblUserLTopAlbumPlaycount7 = new System.Windows.Forms.Label();
-            this.lblUserLTopAlbumPlaycount6 = new System.Windows.Forms.Label();
-            this.lblUserLTopAlbumPlaycount5 = new System.Windows.Forms.Label();
-            this.lblUserLTopAlbumPlaycount4 = new System.Windows.Forms.Label();
-            this.lblUserLTopAlbumPlaycount3 = new System.Windows.Forms.Label();
-            this.lblUserLTopAlbumPlaycount2 = new System.Windows.Forms.Label();
-            this.lblUserLTopAlbumPlaycount1 = new System.Windows.Forms.Label();
-            this.Label314 = new System.Windows.Forms.Label();
-            this.lblUserLTopAlbumArtist20 = new System.Windows.Forms.Label();
+            this.lblUserLTopAlbumPlaycount20 = new Audiograph.Label();
+            this.lblUserLTopAlbumPlaycount19 = new Audiograph.Label();
+            this.lblUserLTopAlbumPlaycount18 = new Audiograph.Label();
+            this.lblUserLTopAlbumPlaycount17 = new Audiograph.Label();
+            this.lblUserLTopAlbumPlaycount16 = new Audiograph.Label();
+            this.lblUserLTopAlbumPlaycount15 = new Audiograph.Label();
+            this.lblUserLTopAlbumPlaycount14 = new Audiograph.Label();
+            this.lblUserLTopAlbumPlaycount13 = new Audiograph.Label();
+            this.lblUserLTopAlbumPlaycount12 = new Audiograph.Label();
+            this.lblUserLTopAlbumPlaycount11 = new Audiograph.Label();
+            this.lblUserLTopAlbumPlaycount10 = new Audiograph.Label();
+            this.lblUserLTopAlbumPlaycount9 = new Audiograph.Label();
+            this.lblUserLTopAlbumPlaycount8 = new Audiograph.Label();
+            this.lblUserLTopAlbumPlaycount7 = new Audiograph.Label();
+            this.lblUserLTopAlbumPlaycount6 = new Audiograph.Label();
+            this.lblUserLTopAlbumPlaycount5 = new Audiograph.Label();
+            this.lblUserLTopAlbumPlaycount4 = new Audiograph.Label();
+            this.lblUserLTopAlbumPlaycount3 = new Audiograph.Label();
+            this.lblUserLTopAlbumPlaycount2 = new Audiograph.Label();
+            this.lblUserLTopAlbumPlaycount1 = new Audiograph.Label();
+            this.Label314 = new Audiograph.Label();
+            this.lblUserLTopAlbumArtist20 = new Audiograph.Label();
             this.cmsUserLTopAlbums = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.mnuUserLTopAlbumGoToAlbum = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuUserLTopAlbumGoToArtist = new System.Windows.Forms.ToolStripMenuItem();
             this.ToolStripSeparator13 = new System.Windows.Forms.ToolStripSeparator();
             this.mnuUserLTopAlbumBackupAlbum = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuUserLTopAlbumBackupArtist = new System.Windows.Forms.ToolStripMenuItem();
-            this.lblUserLTopAlbum20 = new System.Windows.Forms.Label();
+            this.lblUserLTopAlbum20 = new Audiograph.Label();
             this.picUserLTopAlbumArt20 = new System.Windows.Forms.PictureBox();
-            this.Label318 = new System.Windows.Forms.Label();
-            this.lblUserLTopAlbumArtist19 = new System.Windows.Forms.Label();
-            this.lblUserLTopAlbum19 = new System.Windows.Forms.Label();
+            this.Label318 = new Audiograph.Label();
+            this.lblUserLTopAlbumArtist19 = new Audiograph.Label();
+            this.lblUserLTopAlbum19 = new Audiograph.Label();
             this.picUserLTopAlbumArt19 = new System.Windows.Forms.PictureBox();
-            this.Label322 = new System.Windows.Forms.Label();
-            this.lblUserLTopAlbumArtist18 = new System.Windows.Forms.Label();
-            this.lblUserLTopAlbum18 = new System.Windows.Forms.Label();
+            this.Label322 = new Audiograph.Label();
+            this.lblUserLTopAlbumArtist18 = new Audiograph.Label();
+            this.lblUserLTopAlbum18 = new Audiograph.Label();
             this.picUserLTopAlbumArt18 = new System.Windows.Forms.PictureBox();
-            this.Label326 = new System.Windows.Forms.Label();
-            this.lblUserLTopAlbumArtist17 = new System.Windows.Forms.Label();
-            this.lblUserLTopAlbum17 = new System.Windows.Forms.Label();
+            this.Label326 = new Audiograph.Label();
+            this.lblUserLTopAlbumArtist17 = new Audiograph.Label();
+            this.lblUserLTopAlbum17 = new Audiograph.Label();
             this.picUserLTopAlbumArt17 = new System.Windows.Forms.PictureBox();
-            this.Label334 = new System.Windows.Forms.Label();
-            this.lblUserLTopAlbumArtist16 = new System.Windows.Forms.Label();
-            this.lblUserLTopAlbum16 = new System.Windows.Forms.Label();
+            this.Label334 = new Audiograph.Label();
+            this.lblUserLTopAlbumArtist16 = new Audiograph.Label();
+            this.lblUserLTopAlbum16 = new Audiograph.Label();
             this.picUserLTopAlbumArt16 = new System.Windows.Forms.PictureBox();
-            this.Label337 = new System.Windows.Forms.Label();
-            this.lblUserLTopAlbumArtist15 = new System.Windows.Forms.Label();
-            this.lblUserLTopAlbum15 = new System.Windows.Forms.Label();
+            this.Label337 = new Audiograph.Label();
+            this.lblUserLTopAlbumArtist15 = new Audiograph.Label();
+            this.lblUserLTopAlbum15 = new Audiograph.Label();
             this.picUserLTopAlbumArt15 = new System.Windows.Forms.PictureBox();
-            this.Label340 = new System.Windows.Forms.Label();
-            this.lblUserLTopAlbumArtist14 = new System.Windows.Forms.Label();
-            this.lblUserLTopAlbum14 = new System.Windows.Forms.Label();
+            this.Label340 = new Audiograph.Label();
+            this.lblUserLTopAlbumArtist14 = new Audiograph.Label();
+            this.lblUserLTopAlbum14 = new Audiograph.Label();
             this.picUserLTopAlbumArt14 = new System.Windows.Forms.PictureBox();
-            this.Label343 = new System.Windows.Forms.Label();
-            this.lblUserLTopAlbumArtist13 = new System.Windows.Forms.Label();
-            this.lblUserLTopAlbum13 = new System.Windows.Forms.Label();
+            this.Label343 = new Audiograph.Label();
+            this.lblUserLTopAlbumArtist13 = new Audiograph.Label();
+            this.lblUserLTopAlbum13 = new Audiograph.Label();
             this.picUserLTopAlbumArt13 = new System.Windows.Forms.PictureBox();
-            this.Label346 = new System.Windows.Forms.Label();
-            this.lblUserLTopAlbumArtist12 = new System.Windows.Forms.Label();
-            this.lblUserLTopAlbum12 = new System.Windows.Forms.Label();
+            this.Label346 = new Audiograph.Label();
+            this.lblUserLTopAlbumArtist12 = new Audiograph.Label();
+            this.lblUserLTopAlbum12 = new Audiograph.Label();
             this.picUserLTopAlbumArt12 = new System.Windows.Forms.PictureBox();
-            this.Label349 = new System.Windows.Forms.Label();
-            this.lblUserLTopAlbumArtist11 = new System.Windows.Forms.Label();
-            this.lblUserLTopAlbum11 = new System.Windows.Forms.Label();
+            this.Label349 = new Audiograph.Label();
+            this.lblUserLTopAlbumArtist11 = new Audiograph.Label();
+            this.lblUserLTopAlbum11 = new Audiograph.Label();
             this.picUserLTopAlbumArt11 = new System.Windows.Forms.PictureBox();
-            this.Label352 = new System.Windows.Forms.Label();
-            this.lblUserLTopAlbumArtist10 = new System.Windows.Forms.Label();
-            this.lblUserLTopAlbum10 = new System.Windows.Forms.Label();
+            this.Label352 = new Audiograph.Label();
+            this.lblUserLTopAlbumArtist10 = new Audiograph.Label();
+            this.lblUserLTopAlbum10 = new Audiograph.Label();
             this.picUserLTopAlbumArt10 = new System.Windows.Forms.PictureBox();
-            this.Label355 = new System.Windows.Forms.Label();
-            this.lblUserLTopAlbumArtist9 = new System.Windows.Forms.Label();
-            this.lblUserLTopAlbum9 = new System.Windows.Forms.Label();
+            this.Label355 = new Audiograph.Label();
+            this.lblUserLTopAlbumArtist9 = new Audiograph.Label();
+            this.lblUserLTopAlbum9 = new Audiograph.Label();
             this.picUserLTopAlbumArt9 = new System.Windows.Forms.PictureBox();
-            this.Label358 = new System.Windows.Forms.Label();
-            this.lblUserLTopAlbumArtist8 = new System.Windows.Forms.Label();
-            this.lblUserLTopAlbum8 = new System.Windows.Forms.Label();
+            this.Label358 = new Audiograph.Label();
+            this.lblUserLTopAlbumArtist8 = new Audiograph.Label();
+            this.lblUserLTopAlbum8 = new Audiograph.Label();
             this.picUserLTopAlbumArt8 = new System.Windows.Forms.PictureBox();
-            this.Label361 = new System.Windows.Forms.Label();
-            this.lblUserLTopAlbumArtist7 = new System.Windows.Forms.Label();
-            this.lblUserLTopAlbum7 = new System.Windows.Forms.Label();
+            this.Label361 = new Audiograph.Label();
+            this.lblUserLTopAlbumArtist7 = new Audiograph.Label();
+            this.lblUserLTopAlbum7 = new Audiograph.Label();
             this.picUserLTopAlbumArt7 = new System.Windows.Forms.PictureBox();
-            this.Label364 = new System.Windows.Forms.Label();
-            this.lblUserLTopAlbumArtist6 = new System.Windows.Forms.Label();
-            this.lblUserLTopAlbum6 = new System.Windows.Forms.Label();
+            this.Label364 = new Audiograph.Label();
+            this.lblUserLTopAlbumArtist6 = new Audiograph.Label();
+            this.lblUserLTopAlbum6 = new Audiograph.Label();
             this.picUserLTopAlbumArt6 = new System.Windows.Forms.PictureBox();
-            this.Label367 = new System.Windows.Forms.Label();
-            this.lblUserLTopAlbumArtist5 = new System.Windows.Forms.Label();
-            this.lblUserLTopAlbum5 = new System.Windows.Forms.Label();
+            this.Label367 = new Audiograph.Label();
+            this.lblUserLTopAlbumArtist5 = new Audiograph.Label();
+            this.lblUserLTopAlbum5 = new Audiograph.Label();
             this.picUserLTopAlbumArt5 = new System.Windows.Forms.PictureBox();
-            this.Label370 = new System.Windows.Forms.Label();
-            this.lblUserLTopAlbumArtist4 = new System.Windows.Forms.Label();
-            this.lblUserLTopAlbum4 = new System.Windows.Forms.Label();
+            this.Label370 = new Audiograph.Label();
+            this.lblUserLTopAlbumArtist4 = new Audiograph.Label();
+            this.lblUserLTopAlbum4 = new Audiograph.Label();
             this.picUserLTopAlbumArt4 = new System.Windows.Forms.PictureBox();
-            this.Label373 = new System.Windows.Forms.Label();
-            this.lblUserLTopAlbumArtist3 = new System.Windows.Forms.Label();
-            this.lblUserLTopAlbum3 = new System.Windows.Forms.Label();
+            this.Label373 = new Audiograph.Label();
+            this.lblUserLTopAlbumArtist3 = new Audiograph.Label();
+            this.lblUserLTopAlbum3 = new Audiograph.Label();
             this.picUserLTopAlbumArt3 = new System.Windows.Forms.PictureBox();
-            this.Label376 = new System.Windows.Forms.Label();
-            this.lblUserLTopAlbumArtist2 = new System.Windows.Forms.Label();
-            this.lblUserLTopAlbum2 = new System.Windows.Forms.Label();
+            this.Label376 = new Audiograph.Label();
+            this.lblUserLTopAlbumArtist2 = new Audiograph.Label();
+            this.lblUserLTopAlbum2 = new Audiograph.Label();
             this.picUserLTopAlbumArt2 = new System.Windows.Forms.PictureBox();
-            this.Label379 = new System.Windows.Forms.Label();
-            this.lblUserLTopAlbumArtist1 = new System.Windows.Forms.Label();
-            this.lblUserLTopAlbum1 = new System.Windows.Forms.Label();
-            this.Label382 = new System.Windows.Forms.Label();
-            this.Label383 = new System.Windows.Forms.Label();
+            this.Label379 = new Audiograph.Label();
+            this.lblUserLTopAlbumArtist1 = new Audiograph.Label();
+            this.lblUserLTopAlbum1 = new Audiograph.Label();
+            this.Label382 = new Audiograph.Label();
+            this.Label383 = new Audiograph.Label();
             this.picUserLTopAlbumArt1 = new System.Windows.Forms.PictureBox();
-            this.Label384 = new System.Windows.Forms.Label();
-            this.Label385 = new System.Windows.Forms.Label();
-            this.Label386 = new System.Windows.Forms.Label();
+            this.Label384 = new Audiograph.Label();
+            this.Label385 = new Audiograph.Label();
+            this.Label386 = new Audiograph.Label();
             this.pgUserLHistory = new System.Windows.Forms.TabPage();
-            this.lblUserLHistoryTotalTracks = new System.Windows.Forms.Label();
+            this.lblUserLHistoryTotalTracks = new Audiograph.Label();
             this.nudUserLHistoryPage = new System.Windows.Forms.NumericUpDown();
-            this.Label23 = new System.Windows.Forms.Label();
-            this.lblUserLHistoryTotalPages = new System.Windows.Forms.Label();
+            this.Label23 = new Audiograph.Label();
+            this.lblUserLHistoryTotalPages = new Audiograph.Label();
             this.ltvUserLHistory = new System.Windows.Forms.ListView();
             this.ColumnHeader12 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.ColumnHeader13 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
@@ -1348,7 +1348,7 @@ namespace Audiograph
             this.mnuUserLHistoryBackupTrack = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuUserLHistoryBackupArtist = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuUserLHistoryBackupAlbum = new System.Windows.Forms.ToolStripMenuItem();
-            this.lblUserLFrom = new System.Windows.Forms.Label();
+            this.lblUserLFrom = new Audiograph.Label();
             this.GroupBox4 = new System.Windows.Forms.GroupBox();
             this.tbcUserLInfo = new System.Windows.Forms.TabControl();
             this.pgUserLInfo = new System.Windows.Forms.TabPage();
@@ -1361,7 +1361,7 @@ namespace Audiograph
             this.mnuUserLCopy = new System.Windows.Forms.ToolStripMenuItem();
             this.picUserL = new System.Windows.Forms.PictureBox();
             this.pgUserLFriends = new System.Windows.Forms.TabPage();
-            this.lblUserLFriendTotal = new System.Windows.Forms.Label();
+            this.lblUserLFriendTotal = new Audiograph.Label();
             this.ltvUserLFriends = new System.Windows.Forms.ListView();
             this.ColumnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.ColumnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
@@ -1373,7 +1373,7 @@ namespace Audiograph
             this.mnuUserLBackupFriend = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuUserLCopyFriendName = new System.Windows.Forms.ToolStripMenuItem();
             this.pgUserLLovedTracks = new System.Windows.Forms.TabPage();
-            this.lblUserLLovedTotalTracks = new System.Windows.Forms.Label();
+            this.lblUserLLovedTotalTracks = new Audiograph.Label();
             this.nudUserLLovedPage = new System.Windows.Forms.NumericUpDown();
             this.ltvUserLLovedTracks = new System.Windows.Forms.ListView();
             this.ColumnHeader5 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
@@ -1385,8 +1385,8 @@ namespace Audiograph
             this.ToolStripSeparator11 = new System.Windows.Forms.ToolStripSeparator();
             this.mnuUserLBackupLovedTrack = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuUserLBackupLovedArtist = new System.Windows.Forms.ToolStripMenuItem();
-            this.Label390 = new System.Windows.Forms.Label();
-            this.lblUserLLovedTotalPages = new System.Windows.Forms.Label();
+            this.Label390 = new Audiograph.Label();
+            this.lblUserLLovedTotalPages = new Audiograph.Label();
             this.pgUserLRecentTracks = new System.Windows.Forms.TabPage();
             this.DbLayoutPanel8 = new Audiograph.DBLayoutPanel();
             this.cmsUserLRecent = new System.Windows.Forms.ContextMenuStrip(this.components);
@@ -1397,90 +1397,90 @@ namespace Audiograph
             this.mnuUserLBackupRecentTrack = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuUserLBackupRecentArtist = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuUserLBackupRecentAlbum = new System.Windows.Forms.ToolStripMenuItem();
-            this.lblUserLRecentAlbum20 = new System.Windows.Forms.Label();
-            this.lblUserLRecentArtist20 = new System.Windows.Forms.Label();
-            this.lblUserLRecentTitle20 = new System.Windows.Forms.Label();
+            this.lblUserLRecentAlbum20 = new Audiograph.Label();
+            this.lblUserLRecentArtist20 = new Audiograph.Label();
+            this.lblUserLRecentTitle20 = new Audiograph.Label();
             this.picUserLRecentArt20 = new System.Windows.Forms.PictureBox();
-            this.lblUserLRecentAlbum19 = new System.Windows.Forms.Label();
-            this.lblUserLRecentArtist19 = new System.Windows.Forms.Label();
-            this.lblUserLRecentTitle19 = new System.Windows.Forms.Label();
+            this.lblUserLRecentAlbum19 = new Audiograph.Label();
+            this.lblUserLRecentArtist19 = new Audiograph.Label();
+            this.lblUserLRecentTitle19 = new Audiograph.Label();
             this.picUserLRecentArt19 = new System.Windows.Forms.PictureBox();
-            this.lblUserLRecentAlbum18 = new System.Windows.Forms.Label();
-            this.lblUserLRecentArtist18 = new System.Windows.Forms.Label();
-            this.lblUserLRecentTitle18 = new System.Windows.Forms.Label();
+            this.lblUserLRecentAlbum18 = new Audiograph.Label();
+            this.lblUserLRecentArtist18 = new Audiograph.Label();
+            this.lblUserLRecentTitle18 = new Audiograph.Label();
             this.picUserLRecentArt18 = new System.Windows.Forms.PictureBox();
-            this.lblUserLRecentAlbum17 = new System.Windows.Forms.Label();
-            this.lblUserLRecentArtist17 = new System.Windows.Forms.Label();
-            this.lblUserLRecentTitle17 = new System.Windows.Forms.Label();
+            this.lblUserLRecentAlbum17 = new Audiograph.Label();
+            this.lblUserLRecentArtist17 = new Audiograph.Label();
+            this.lblUserLRecentTitle17 = new Audiograph.Label();
             this.picUserLRecentArt17 = new System.Windows.Forms.PictureBox();
-            this.lblUserLRecentAlbum16 = new System.Windows.Forms.Label();
-            this.lblUserLRecentArtist16 = new System.Windows.Forms.Label();
-            this.lblUserLRecentTitle16 = new System.Windows.Forms.Label();
+            this.lblUserLRecentAlbum16 = new Audiograph.Label();
+            this.lblUserLRecentArtist16 = new Audiograph.Label();
+            this.lblUserLRecentTitle16 = new Audiograph.Label();
             this.picUserLRecentArt16 = new System.Windows.Forms.PictureBox();
-            this.lblUserLRecentAlbum15 = new System.Windows.Forms.Label();
-            this.lblUserLRecentArtist15 = new System.Windows.Forms.Label();
-            this.lblUserLRecentTitle15 = new System.Windows.Forms.Label();
+            this.lblUserLRecentAlbum15 = new Audiograph.Label();
+            this.lblUserLRecentArtist15 = new Audiograph.Label();
+            this.lblUserLRecentTitle15 = new Audiograph.Label();
             this.picUserLRecentArt15 = new System.Windows.Forms.PictureBox();
-            this.lblUserLRecentAlbum14 = new System.Windows.Forms.Label();
-            this.lblUserLRecentArtist14 = new System.Windows.Forms.Label();
-            this.lblUserLRecentTitle14 = new System.Windows.Forms.Label();
+            this.lblUserLRecentAlbum14 = new Audiograph.Label();
+            this.lblUserLRecentArtist14 = new Audiograph.Label();
+            this.lblUserLRecentTitle14 = new Audiograph.Label();
             this.picUserLRecentArt14 = new System.Windows.Forms.PictureBox();
-            this.lblUserLRecentAlbum13 = new System.Windows.Forms.Label();
-            this.lblUserLRecentArtist13 = new System.Windows.Forms.Label();
-            this.lblUserLRecentTitle13 = new System.Windows.Forms.Label();
+            this.lblUserLRecentAlbum13 = new Audiograph.Label();
+            this.lblUserLRecentArtist13 = new Audiograph.Label();
+            this.lblUserLRecentTitle13 = new Audiograph.Label();
             this.picUserLRecentArt13 = new System.Windows.Forms.PictureBox();
-            this.lblUserLRecentAlbum12 = new System.Windows.Forms.Label();
-            this.lblUserLRecentArtist12 = new System.Windows.Forms.Label();
-            this.lblUserLRecentTitle12 = new System.Windows.Forms.Label();
+            this.lblUserLRecentAlbum12 = new Audiograph.Label();
+            this.lblUserLRecentArtist12 = new Audiograph.Label();
+            this.lblUserLRecentTitle12 = new Audiograph.Label();
             this.picUserLRecentArt12 = new System.Windows.Forms.PictureBox();
-            this.lblUserLRecentAlbum11 = new System.Windows.Forms.Label();
-            this.lblUserLRecentArtist11 = new System.Windows.Forms.Label();
-            this.lblUserLRecentTitle11 = new System.Windows.Forms.Label();
+            this.lblUserLRecentAlbum11 = new Audiograph.Label();
+            this.lblUserLRecentArtist11 = new Audiograph.Label();
+            this.lblUserLRecentTitle11 = new Audiograph.Label();
             this.picUserLRecentArt11 = new System.Windows.Forms.PictureBox();
-            this.lblUserLRecentAlbum10 = new System.Windows.Forms.Label();
-            this.lblUserLRecentArtist10 = new System.Windows.Forms.Label();
-            this.lblUserLRecentTitle10 = new System.Windows.Forms.Label();
+            this.lblUserLRecentAlbum10 = new Audiograph.Label();
+            this.lblUserLRecentArtist10 = new Audiograph.Label();
+            this.lblUserLRecentTitle10 = new Audiograph.Label();
             this.picUserLRecentArt10 = new System.Windows.Forms.PictureBox();
-            this.lblUserLRecentAlbum9 = new System.Windows.Forms.Label();
-            this.lblUserLRecentArtist9 = new System.Windows.Forms.Label();
-            this.lblUserLRecentTitle9 = new System.Windows.Forms.Label();
+            this.lblUserLRecentAlbum9 = new Audiograph.Label();
+            this.lblUserLRecentArtist9 = new Audiograph.Label();
+            this.lblUserLRecentTitle9 = new Audiograph.Label();
             this.picUserLRecentArt9 = new System.Windows.Forms.PictureBox();
-            this.lblUserLRecentAlbum8 = new System.Windows.Forms.Label();
-            this.lblUserLRecentArtist8 = new System.Windows.Forms.Label();
-            this.lblUserLRecentTitle8 = new System.Windows.Forms.Label();
+            this.lblUserLRecentAlbum8 = new Audiograph.Label();
+            this.lblUserLRecentArtist8 = new Audiograph.Label();
+            this.lblUserLRecentTitle8 = new Audiograph.Label();
             this.picUserLRecentArt8 = new System.Windows.Forms.PictureBox();
-            this.lblUserLRecentAlbum7 = new System.Windows.Forms.Label();
-            this.lblUserLRecentArtist7 = new System.Windows.Forms.Label();
-            this.lblUserLRecentTitle7 = new System.Windows.Forms.Label();
+            this.lblUserLRecentAlbum7 = new Audiograph.Label();
+            this.lblUserLRecentArtist7 = new Audiograph.Label();
+            this.lblUserLRecentTitle7 = new Audiograph.Label();
             this.picUserLRecentArt7 = new System.Windows.Forms.PictureBox();
-            this.lblUserLRecentAlbum6 = new System.Windows.Forms.Label();
-            this.lblUserLRecentArtist6 = new System.Windows.Forms.Label();
-            this.lblUserLRecentTitle6 = new System.Windows.Forms.Label();
+            this.lblUserLRecentAlbum6 = new Audiograph.Label();
+            this.lblUserLRecentArtist6 = new Audiograph.Label();
+            this.lblUserLRecentTitle6 = new Audiograph.Label();
             this.picUserLRecentArt6 = new System.Windows.Forms.PictureBox();
-            this.lblUserLRecentAlbum5 = new System.Windows.Forms.Label();
-            this.lblUserLRecentArtist5 = new System.Windows.Forms.Label();
-            this.lblUserLRecentTitle5 = new System.Windows.Forms.Label();
+            this.lblUserLRecentAlbum5 = new Audiograph.Label();
+            this.lblUserLRecentArtist5 = new Audiograph.Label();
+            this.lblUserLRecentTitle5 = new Audiograph.Label();
             this.picUserLRecentArt5 = new System.Windows.Forms.PictureBox();
-            this.lblUserLRecentAlbum4 = new System.Windows.Forms.Label();
-            this.lblUserLRecentArtist4 = new System.Windows.Forms.Label();
-            this.lblUserLRecentTitle4 = new System.Windows.Forms.Label();
+            this.lblUserLRecentAlbum4 = new Audiograph.Label();
+            this.lblUserLRecentArtist4 = new Audiograph.Label();
+            this.lblUserLRecentTitle4 = new Audiograph.Label();
             this.picUserLRecentArt4 = new System.Windows.Forms.PictureBox();
-            this.lblUserLRecentAlbum3 = new System.Windows.Forms.Label();
-            this.lblUserLRecentArtist3 = new System.Windows.Forms.Label();
-            this.lblUserLRecentTitle3 = new System.Windows.Forms.Label();
+            this.lblUserLRecentAlbum3 = new Audiograph.Label();
+            this.lblUserLRecentArtist3 = new Audiograph.Label();
+            this.lblUserLRecentTitle3 = new Audiograph.Label();
             this.picUserLRecentArt3 = new System.Windows.Forms.PictureBox();
-            this.lblUserLRecentAlbum2 = new System.Windows.Forms.Label();
-            this.lblUserLRecentArtist2 = new System.Windows.Forms.Label();
-            this.lblUserLRecentTitle2 = new System.Windows.Forms.Label();
+            this.lblUserLRecentAlbum2 = new Audiograph.Label();
+            this.lblUserLRecentArtist2 = new Audiograph.Label();
+            this.lblUserLRecentTitle2 = new Audiograph.Label();
             this.picUserLRecentArt2 = new System.Windows.Forms.PictureBox();
-            this.lblUserLRecentAlbum1 = new System.Windows.Forms.Label();
-            this.lblUserLRecentArtist1 = new System.Windows.Forms.Label();
-            this.Label451 = new System.Windows.Forms.Label();
-            this.Label452 = new System.Windows.Forms.Label();
-            this.Label453 = new System.Windows.Forms.Label();
-            this.Label454 = new System.Windows.Forms.Label();
+            this.lblUserLRecentAlbum1 = new Audiograph.Label();
+            this.lblUserLRecentArtist1 = new Audiograph.Label();
+            this.Label451 = new Audiograph.Label();
+            this.Label452 = new Audiograph.Label();
+            this.Label453 = new Audiograph.Label();
+            this.Label454 = new Audiograph.Label();
             this.picUserLRecentArt1 = new System.Windows.Forms.PictureBox();
-            this.lblUserLRecentTitle1 = new System.Windows.Forms.Label();
+            this.lblUserLRecentTitle1 = new Audiograph.Label();
             this.pgMedia = new System.Windows.Forms.TabPage();
             this.tlpMedia = new Audiograph.DBLayoutPanel();
             this.gpbMediaScrobble = new System.Windows.Forms.GroupBox();
@@ -1489,32 +1489,32 @@ namespace Audiograph
             this.nudMediaMinute = new System.Windows.Forms.NumericUpDown();
             this.nudMediaHour = new System.Windows.Forms.NumericUpDown();
             this.dtpMediaScrobble = new System.Windows.Forms.DateTimePicker();
-            this.lblMediaTime = new System.Windows.Forms.Label();
+            this.lblMediaTime = new Audiograph.Label();
             this.btnMediaExpand = new System.Windows.Forms.Button();
             this.ltvMediaHistory = new System.Windows.Forms.ListView();
             this.ColumnHeader29 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.ColumnHeader30 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.ColumnHeader31 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.btnMediaEditIndex = new System.Windows.Forms.Button();
-            this.lblMediaIndex = new System.Windows.Forms.Label();
+            this.lblMediaIndex = new Audiograph.Label();
             this.radMediaDisable = new System.Windows.Forms.RadioButton();
             this.radMediaEnable = new System.Windows.Forms.RadioButton();
-            this.Label44 = new System.Windows.Forms.Label();
+            this.Label44 = new Audiograph.Label();
             this.btnMediaCreate = new System.Windows.Forms.Button();
             this.btnMediaLoad = new System.Windows.Forms.Button();
-            this.Label42 = new System.Windows.Forms.Label();
+            this.Label42 = new Audiograph.Label();
             this.btnMediaSearch = new System.Windows.Forms.Button();
             this.btnMediaVerify = new System.Windows.Forms.Button();
-            this.lblMediaScrobble = new System.Windows.Forms.Label();
+            this.lblMediaScrobble = new Audiograph.Label();
             this.btnMediaScrobble = new System.Windows.Forms.Button();
             this.txtMediaAlbum = new System.Windows.Forms.TextBox();
-            this.lblMediaAlbum = new System.Windows.Forms.Label();
+            this.lblMediaAlbum = new Audiograph.Label();
             this.txtMediaArtist = new System.Windows.Forms.TextBox();
-            this.lblMediaArtist = new System.Windows.Forms.Label();
+            this.lblMediaArtist = new Audiograph.Label();
             this.txtMediaTitle = new System.Windows.Forms.TextBox();
-            this.lblMediaTitle = new System.Windows.Forms.Label();
-            this.Label46 = new System.Windows.Forms.Label();
-            this.lblMediaDivider = new System.Windows.Forms.Label();
+            this.lblMediaTitle = new Audiograph.Label();
+            this.Label46 = new Audiograph.Label();
+            this.lblMediaDivider = new Audiograph.Label();
             this.tlpMedia2 = new Audiograph.DBLayoutPanel();
             this.MediaPlayer = new AxWMPLib.AxWindowsMediaPlayer();
             this.pnlMedia = new System.Windows.Forms.Panel();
@@ -1525,8 +1525,8 @@ namespace Audiograph
             this.btnMediaAddQ = new System.Windows.Forms.Button();
             this.ltvMediaQueue = new System.Windows.Forms.ListView();
             this.QueueList = new System.Windows.Forms.ImageList(this.components);
-            this.Label34 = new System.Windows.Forms.Label();
-            this.lblMediaVersion = new System.Windows.Forms.Label();
+            this.Label34 = new Audiograph.Label();
+            this.lblMediaVersion = new Audiograph.Label();
             this.tsMenu = new System.Windows.Forms.ToolStrip();
             this.ToolStripDropDownButton2 = new System.Windows.Forms.ToolStripDropDownButton();
             this.mnuSetUser = new System.Windows.Forms.ToolStripMenuItem();
@@ -2372,12 +2372,13 @@ namespace Audiograph
             // 
             this.lblTopArtistPlaycount20.ContextMenuStrip = this.cmsChartArtist;
             this.lblTopArtistPlaycount20.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopArtistPlaycount20.Location = new System.Drawing.Point(523, 953);
+            this.lblTopArtistPlaycount20.Location = new System.Drawing.Point(522, 953);
             this.lblTopArtistPlaycount20.Name = "lblTopArtistPlaycount20";
             this.lblTopArtistPlaycount20.Size = new System.Drawing.Size(78, 48);
             this.lblTopArtistPlaycount20.TabIndex = 141;
             this.lblTopArtistPlaycount20.Text = "(Unavailable)";
             this.lblTopArtistPlaycount20.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopArtistPlaycount20.UseMnemonic = false;
             // 
             // cmsChartArtist
             // 
@@ -2407,220 +2408,240 @@ namespace Audiograph
             // 
             this.lblTopArtistPlaycount19.ContextMenuStrip = this.cmsChartArtist;
             this.lblTopArtistPlaycount19.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopArtistPlaycount19.Location = new System.Drawing.Point(523, 904);
+            this.lblTopArtistPlaycount19.Location = new System.Drawing.Point(522, 904);
             this.lblTopArtistPlaycount19.Name = "lblTopArtistPlaycount19";
             this.lblTopArtistPlaycount19.Size = new System.Drawing.Size(78, 48);
             this.lblTopArtistPlaycount19.TabIndex = 140;
             this.lblTopArtistPlaycount19.Text = "(Unavailable)";
             this.lblTopArtistPlaycount19.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopArtistPlaycount19.UseMnemonic = false;
             // 
             // lblTopArtistPlaycount18
             // 
             this.lblTopArtistPlaycount18.ContextMenuStrip = this.cmsChartArtist;
             this.lblTopArtistPlaycount18.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopArtistPlaycount18.Location = new System.Drawing.Point(523, 855);
+            this.lblTopArtistPlaycount18.Location = new System.Drawing.Point(522, 855);
             this.lblTopArtistPlaycount18.Name = "lblTopArtistPlaycount18";
             this.lblTopArtistPlaycount18.Size = new System.Drawing.Size(78, 48);
             this.lblTopArtistPlaycount18.TabIndex = 139;
             this.lblTopArtistPlaycount18.Text = "(Unavailable)";
             this.lblTopArtistPlaycount18.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopArtistPlaycount18.UseMnemonic = false;
             // 
             // lblTopArtistPlaycount17
             // 
             this.lblTopArtistPlaycount17.ContextMenuStrip = this.cmsChartArtist;
             this.lblTopArtistPlaycount17.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopArtistPlaycount17.Location = new System.Drawing.Point(523, 806);
+            this.lblTopArtistPlaycount17.Location = new System.Drawing.Point(522, 806);
             this.lblTopArtistPlaycount17.Name = "lblTopArtistPlaycount17";
             this.lblTopArtistPlaycount17.Size = new System.Drawing.Size(78, 48);
             this.lblTopArtistPlaycount17.TabIndex = 138;
             this.lblTopArtistPlaycount17.Text = "(Unavailable)";
             this.lblTopArtistPlaycount17.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopArtistPlaycount17.UseMnemonic = false;
             // 
             // lblTopArtistPlaycount16
             // 
             this.lblTopArtistPlaycount16.ContextMenuStrip = this.cmsChartArtist;
             this.lblTopArtistPlaycount16.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopArtistPlaycount16.Location = new System.Drawing.Point(523, 757);
+            this.lblTopArtistPlaycount16.Location = new System.Drawing.Point(522, 757);
             this.lblTopArtistPlaycount16.Name = "lblTopArtistPlaycount16";
             this.lblTopArtistPlaycount16.Size = new System.Drawing.Size(78, 48);
             this.lblTopArtistPlaycount16.TabIndex = 137;
             this.lblTopArtistPlaycount16.Text = "(Unavailable)";
             this.lblTopArtistPlaycount16.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopArtistPlaycount16.UseMnemonic = false;
             // 
             // lblTopArtistPlaycount15
             // 
             this.lblTopArtistPlaycount15.ContextMenuStrip = this.cmsChartArtist;
             this.lblTopArtistPlaycount15.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopArtistPlaycount15.Location = new System.Drawing.Point(523, 708);
+            this.lblTopArtistPlaycount15.Location = new System.Drawing.Point(522, 708);
             this.lblTopArtistPlaycount15.Name = "lblTopArtistPlaycount15";
             this.lblTopArtistPlaycount15.Size = new System.Drawing.Size(78, 48);
             this.lblTopArtistPlaycount15.TabIndex = 136;
             this.lblTopArtistPlaycount15.Text = "(Unavailable)";
             this.lblTopArtistPlaycount15.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopArtistPlaycount15.UseMnemonic = false;
             // 
             // lblTopArtistPlaycount14
             // 
             this.lblTopArtistPlaycount14.ContextMenuStrip = this.cmsChartArtist;
             this.lblTopArtistPlaycount14.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopArtistPlaycount14.Location = new System.Drawing.Point(523, 659);
+            this.lblTopArtistPlaycount14.Location = new System.Drawing.Point(522, 659);
             this.lblTopArtistPlaycount14.Name = "lblTopArtistPlaycount14";
             this.lblTopArtistPlaycount14.Size = new System.Drawing.Size(78, 48);
             this.lblTopArtistPlaycount14.TabIndex = 135;
             this.lblTopArtistPlaycount14.Text = "(Unavailable)";
             this.lblTopArtistPlaycount14.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopArtistPlaycount14.UseMnemonic = false;
             // 
             // lblTopArtistPlaycount13
             // 
             this.lblTopArtistPlaycount13.ContextMenuStrip = this.cmsChartArtist;
             this.lblTopArtistPlaycount13.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopArtistPlaycount13.Location = new System.Drawing.Point(523, 610);
+            this.lblTopArtistPlaycount13.Location = new System.Drawing.Point(522, 610);
             this.lblTopArtistPlaycount13.Name = "lblTopArtistPlaycount13";
             this.lblTopArtistPlaycount13.Size = new System.Drawing.Size(78, 48);
             this.lblTopArtistPlaycount13.TabIndex = 134;
             this.lblTopArtistPlaycount13.Text = "(Unavailable)";
             this.lblTopArtistPlaycount13.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopArtistPlaycount13.UseMnemonic = false;
             // 
             // lblTopArtistPlaycount12
             // 
             this.lblTopArtistPlaycount12.ContextMenuStrip = this.cmsChartArtist;
             this.lblTopArtistPlaycount12.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopArtistPlaycount12.Location = new System.Drawing.Point(523, 561);
+            this.lblTopArtistPlaycount12.Location = new System.Drawing.Point(522, 561);
             this.lblTopArtistPlaycount12.Name = "lblTopArtistPlaycount12";
             this.lblTopArtistPlaycount12.Size = new System.Drawing.Size(78, 48);
             this.lblTopArtistPlaycount12.TabIndex = 133;
             this.lblTopArtistPlaycount12.Text = "(Unavailable)";
             this.lblTopArtistPlaycount12.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopArtistPlaycount12.UseMnemonic = false;
             // 
             // lblTopArtistPlaycount11
             // 
             this.lblTopArtistPlaycount11.ContextMenuStrip = this.cmsChartArtist;
             this.lblTopArtistPlaycount11.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopArtistPlaycount11.Location = new System.Drawing.Point(523, 512);
+            this.lblTopArtistPlaycount11.Location = new System.Drawing.Point(522, 512);
             this.lblTopArtistPlaycount11.Name = "lblTopArtistPlaycount11";
             this.lblTopArtistPlaycount11.Size = new System.Drawing.Size(78, 48);
             this.lblTopArtistPlaycount11.TabIndex = 132;
             this.lblTopArtistPlaycount11.Text = "(Unavailable)";
             this.lblTopArtistPlaycount11.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopArtistPlaycount11.UseMnemonic = false;
             // 
             // lblTopArtistPlaycount10
             // 
             this.lblTopArtistPlaycount10.ContextMenuStrip = this.cmsChartArtist;
             this.lblTopArtistPlaycount10.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopArtistPlaycount10.Location = new System.Drawing.Point(523, 463);
+            this.lblTopArtistPlaycount10.Location = new System.Drawing.Point(522, 463);
             this.lblTopArtistPlaycount10.Name = "lblTopArtistPlaycount10";
             this.lblTopArtistPlaycount10.Size = new System.Drawing.Size(78, 48);
             this.lblTopArtistPlaycount10.TabIndex = 131;
             this.lblTopArtistPlaycount10.Text = "(Unavailable)";
             this.lblTopArtistPlaycount10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopArtistPlaycount10.UseMnemonic = false;
             // 
             // lblTopArtistPlaycount9
             // 
             this.lblTopArtistPlaycount9.ContextMenuStrip = this.cmsChartArtist;
             this.lblTopArtistPlaycount9.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopArtistPlaycount9.Location = new System.Drawing.Point(523, 414);
+            this.lblTopArtistPlaycount9.Location = new System.Drawing.Point(522, 414);
             this.lblTopArtistPlaycount9.Name = "lblTopArtistPlaycount9";
             this.lblTopArtistPlaycount9.Size = new System.Drawing.Size(78, 48);
             this.lblTopArtistPlaycount9.TabIndex = 130;
             this.lblTopArtistPlaycount9.Text = "(Unavailable)";
             this.lblTopArtistPlaycount9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopArtistPlaycount9.UseMnemonic = false;
             // 
             // lblTopArtistPlaycount8
             // 
             this.lblTopArtistPlaycount8.ContextMenuStrip = this.cmsChartArtist;
             this.lblTopArtistPlaycount8.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopArtistPlaycount8.Location = new System.Drawing.Point(523, 365);
+            this.lblTopArtistPlaycount8.Location = new System.Drawing.Point(522, 365);
             this.lblTopArtistPlaycount8.Name = "lblTopArtistPlaycount8";
             this.lblTopArtistPlaycount8.Size = new System.Drawing.Size(78, 48);
             this.lblTopArtistPlaycount8.TabIndex = 129;
             this.lblTopArtistPlaycount8.Text = "(Unavailable)";
             this.lblTopArtistPlaycount8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopArtistPlaycount8.UseMnemonic = false;
             // 
             // lblTopArtistPlaycount7
             // 
             this.lblTopArtistPlaycount7.ContextMenuStrip = this.cmsChartArtist;
             this.lblTopArtistPlaycount7.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopArtistPlaycount7.Location = new System.Drawing.Point(523, 316);
+            this.lblTopArtistPlaycount7.Location = new System.Drawing.Point(522, 316);
             this.lblTopArtistPlaycount7.Name = "lblTopArtistPlaycount7";
             this.lblTopArtistPlaycount7.Size = new System.Drawing.Size(78, 48);
             this.lblTopArtistPlaycount7.TabIndex = 128;
             this.lblTopArtistPlaycount7.Text = "(Unavailable)";
             this.lblTopArtistPlaycount7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopArtistPlaycount7.UseMnemonic = false;
             // 
             // lblTopArtistPlaycount6
             // 
             this.lblTopArtistPlaycount6.ContextMenuStrip = this.cmsChartArtist;
             this.lblTopArtistPlaycount6.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopArtistPlaycount6.Location = new System.Drawing.Point(523, 267);
+            this.lblTopArtistPlaycount6.Location = new System.Drawing.Point(522, 267);
             this.lblTopArtistPlaycount6.Name = "lblTopArtistPlaycount6";
             this.lblTopArtistPlaycount6.Size = new System.Drawing.Size(78, 48);
             this.lblTopArtistPlaycount6.TabIndex = 127;
             this.lblTopArtistPlaycount6.Text = "(Unavailable)";
             this.lblTopArtistPlaycount6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopArtistPlaycount6.UseMnemonic = false;
             // 
             // lblTopArtistPlaycount5
             // 
             this.lblTopArtistPlaycount5.ContextMenuStrip = this.cmsChartArtist;
             this.lblTopArtistPlaycount5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopArtistPlaycount5.Location = new System.Drawing.Point(523, 218);
+            this.lblTopArtistPlaycount5.Location = new System.Drawing.Point(522, 218);
             this.lblTopArtistPlaycount5.Name = "lblTopArtistPlaycount5";
             this.lblTopArtistPlaycount5.Size = new System.Drawing.Size(78, 48);
             this.lblTopArtistPlaycount5.TabIndex = 126;
             this.lblTopArtistPlaycount5.Text = "(Unavailable)";
             this.lblTopArtistPlaycount5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopArtistPlaycount5.UseMnemonic = false;
             // 
             // lblTopArtistPlaycount4
             // 
             this.lblTopArtistPlaycount4.ContextMenuStrip = this.cmsChartArtist;
             this.lblTopArtistPlaycount4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopArtistPlaycount4.Location = new System.Drawing.Point(523, 169);
+            this.lblTopArtistPlaycount4.Location = new System.Drawing.Point(522, 169);
             this.lblTopArtistPlaycount4.Name = "lblTopArtistPlaycount4";
             this.lblTopArtistPlaycount4.Size = new System.Drawing.Size(78, 48);
             this.lblTopArtistPlaycount4.TabIndex = 125;
             this.lblTopArtistPlaycount4.Text = "(Unavailable)";
             this.lblTopArtistPlaycount4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopArtistPlaycount4.UseMnemonic = false;
             // 
             // lblTopArtistPlaycount3
             // 
             this.lblTopArtistPlaycount3.ContextMenuStrip = this.cmsChartArtist;
             this.lblTopArtistPlaycount3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopArtistPlaycount3.Location = new System.Drawing.Point(523, 120);
+            this.lblTopArtistPlaycount3.Location = new System.Drawing.Point(522, 120);
             this.lblTopArtistPlaycount3.Name = "lblTopArtistPlaycount3";
             this.lblTopArtistPlaycount3.Size = new System.Drawing.Size(78, 48);
             this.lblTopArtistPlaycount3.TabIndex = 124;
             this.lblTopArtistPlaycount3.Text = "(Unavailable)";
             this.lblTopArtistPlaycount3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopArtistPlaycount3.UseMnemonic = false;
             // 
             // lblTopArtistPlaycount2
             // 
             this.lblTopArtistPlaycount2.ContextMenuStrip = this.cmsChartArtist;
             this.lblTopArtistPlaycount2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopArtistPlaycount2.Location = new System.Drawing.Point(523, 71);
+            this.lblTopArtistPlaycount2.Location = new System.Drawing.Point(522, 71);
             this.lblTopArtistPlaycount2.Name = "lblTopArtistPlaycount2";
             this.lblTopArtistPlaycount2.Size = new System.Drawing.Size(78, 48);
             this.lblTopArtistPlaycount2.TabIndex = 123;
             this.lblTopArtistPlaycount2.Text = "(Unavailable)";
             this.lblTopArtistPlaycount2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopArtistPlaycount2.UseMnemonic = false;
             // 
             // lblTopArtistPlaycount1
             // 
             this.lblTopArtistPlaycount1.ContextMenuStrip = this.cmsChartArtist;
             this.lblTopArtistPlaycount1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopArtistPlaycount1.Location = new System.Drawing.Point(523, 22);
+            this.lblTopArtistPlaycount1.Location = new System.Drawing.Point(522, 22);
             this.lblTopArtistPlaycount1.Name = "lblTopArtistPlaycount1";
             this.lblTopArtistPlaycount1.Size = new System.Drawing.Size(78, 48);
             this.lblTopArtistPlaycount1.TabIndex = 122;
             this.lblTopArtistPlaycount1.Text = "(Unavailable)";
             this.lblTopArtistPlaycount1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopArtistPlaycount1.UseMnemonic = false;
             // 
             // Label8
             // 
             this.Label8.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Label8.Location = new System.Drawing.Point(523, 1);
+            this.Label8.Location = new System.Drawing.Point(522, 1);
             this.Label8.Name = "Label8";
             this.Label8.Size = new System.Drawing.Size(78, 20);
             this.Label8.TabIndex = 121;
             this.Label8.Text = "Playcount";
             this.Label8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Label8.UseMnemonic = false;
             // 
             // lblTopArtistListeners20
             // 
@@ -2628,10 +2649,11 @@ namespace Audiograph
             this.lblTopArtistListeners20.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblTopArtistListeners20.Location = new System.Drawing.Point(439, 953);
             this.lblTopArtistListeners20.Name = "lblTopArtistListeners20";
-            this.lblTopArtistListeners20.Size = new System.Drawing.Size(77, 48);
+            this.lblTopArtistListeners20.Size = new System.Drawing.Size(76, 48);
             this.lblTopArtistListeners20.TabIndex = 120;
             this.lblTopArtistListeners20.Text = "(Unavailable)";
             this.lblTopArtistListeners20.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopArtistListeners20.UseMnemonic = false;
             // 
             // lblTopArtistListeners19
             // 
@@ -2639,10 +2661,11 @@ namespace Audiograph
             this.lblTopArtistListeners19.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblTopArtistListeners19.Location = new System.Drawing.Point(439, 904);
             this.lblTopArtistListeners19.Name = "lblTopArtistListeners19";
-            this.lblTopArtistListeners19.Size = new System.Drawing.Size(77, 48);
+            this.lblTopArtistListeners19.Size = new System.Drawing.Size(76, 48);
             this.lblTopArtistListeners19.TabIndex = 119;
             this.lblTopArtistListeners19.Text = "(Unavailable)";
             this.lblTopArtistListeners19.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopArtistListeners19.UseMnemonic = false;
             // 
             // lblTopArtistListeners18
             // 
@@ -2650,10 +2673,11 @@ namespace Audiograph
             this.lblTopArtistListeners18.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblTopArtistListeners18.Location = new System.Drawing.Point(439, 855);
             this.lblTopArtistListeners18.Name = "lblTopArtistListeners18";
-            this.lblTopArtistListeners18.Size = new System.Drawing.Size(77, 48);
+            this.lblTopArtistListeners18.Size = new System.Drawing.Size(76, 48);
             this.lblTopArtistListeners18.TabIndex = 118;
             this.lblTopArtistListeners18.Text = "(Unavailable)";
             this.lblTopArtistListeners18.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopArtistListeners18.UseMnemonic = false;
             // 
             // lblTopArtistListeners17
             // 
@@ -2661,10 +2685,11 @@ namespace Audiograph
             this.lblTopArtistListeners17.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblTopArtistListeners17.Location = new System.Drawing.Point(439, 806);
             this.lblTopArtistListeners17.Name = "lblTopArtistListeners17";
-            this.lblTopArtistListeners17.Size = new System.Drawing.Size(77, 48);
+            this.lblTopArtistListeners17.Size = new System.Drawing.Size(76, 48);
             this.lblTopArtistListeners17.TabIndex = 117;
             this.lblTopArtistListeners17.Text = "(Unavailable)";
             this.lblTopArtistListeners17.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopArtistListeners17.UseMnemonic = false;
             // 
             // lblTopArtistListeners16
             // 
@@ -2672,10 +2697,11 @@ namespace Audiograph
             this.lblTopArtistListeners16.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblTopArtistListeners16.Location = new System.Drawing.Point(439, 757);
             this.lblTopArtistListeners16.Name = "lblTopArtistListeners16";
-            this.lblTopArtistListeners16.Size = new System.Drawing.Size(77, 48);
+            this.lblTopArtistListeners16.Size = new System.Drawing.Size(76, 48);
             this.lblTopArtistListeners16.TabIndex = 116;
             this.lblTopArtistListeners16.Text = "(Unavailable)";
             this.lblTopArtistListeners16.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopArtistListeners16.UseMnemonic = false;
             // 
             // lblTopArtistListeners15
             // 
@@ -2683,10 +2709,11 @@ namespace Audiograph
             this.lblTopArtistListeners15.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblTopArtistListeners15.Location = new System.Drawing.Point(439, 708);
             this.lblTopArtistListeners15.Name = "lblTopArtistListeners15";
-            this.lblTopArtistListeners15.Size = new System.Drawing.Size(77, 48);
+            this.lblTopArtistListeners15.Size = new System.Drawing.Size(76, 48);
             this.lblTopArtistListeners15.TabIndex = 115;
             this.lblTopArtistListeners15.Text = "(Unavailable)";
             this.lblTopArtistListeners15.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopArtistListeners15.UseMnemonic = false;
             // 
             // lblTopArtistListeners14
             // 
@@ -2694,10 +2721,11 @@ namespace Audiograph
             this.lblTopArtistListeners14.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblTopArtistListeners14.Location = new System.Drawing.Point(439, 659);
             this.lblTopArtistListeners14.Name = "lblTopArtistListeners14";
-            this.lblTopArtistListeners14.Size = new System.Drawing.Size(77, 48);
+            this.lblTopArtistListeners14.Size = new System.Drawing.Size(76, 48);
             this.lblTopArtistListeners14.TabIndex = 114;
             this.lblTopArtistListeners14.Text = "(Unavailable)";
             this.lblTopArtistListeners14.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopArtistListeners14.UseMnemonic = false;
             // 
             // lblTopArtistListeners13
             // 
@@ -2705,10 +2733,11 @@ namespace Audiograph
             this.lblTopArtistListeners13.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblTopArtistListeners13.Location = new System.Drawing.Point(439, 610);
             this.lblTopArtistListeners13.Name = "lblTopArtistListeners13";
-            this.lblTopArtistListeners13.Size = new System.Drawing.Size(77, 48);
+            this.lblTopArtistListeners13.Size = new System.Drawing.Size(76, 48);
             this.lblTopArtistListeners13.TabIndex = 113;
             this.lblTopArtistListeners13.Text = "(Unavailable)";
             this.lblTopArtistListeners13.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopArtistListeners13.UseMnemonic = false;
             // 
             // lblTopArtistListeners12
             // 
@@ -2716,10 +2745,11 @@ namespace Audiograph
             this.lblTopArtistListeners12.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblTopArtistListeners12.Location = new System.Drawing.Point(439, 561);
             this.lblTopArtistListeners12.Name = "lblTopArtistListeners12";
-            this.lblTopArtistListeners12.Size = new System.Drawing.Size(77, 48);
+            this.lblTopArtistListeners12.Size = new System.Drawing.Size(76, 48);
             this.lblTopArtistListeners12.TabIndex = 112;
             this.lblTopArtistListeners12.Text = "(Unavailable)";
             this.lblTopArtistListeners12.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopArtistListeners12.UseMnemonic = false;
             // 
             // lblTopArtistListeners11
             // 
@@ -2727,10 +2757,11 @@ namespace Audiograph
             this.lblTopArtistListeners11.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblTopArtistListeners11.Location = new System.Drawing.Point(439, 512);
             this.lblTopArtistListeners11.Name = "lblTopArtistListeners11";
-            this.lblTopArtistListeners11.Size = new System.Drawing.Size(77, 48);
+            this.lblTopArtistListeners11.Size = new System.Drawing.Size(76, 48);
             this.lblTopArtistListeners11.TabIndex = 111;
             this.lblTopArtistListeners11.Text = "(Unavailable)";
             this.lblTopArtistListeners11.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopArtistListeners11.UseMnemonic = false;
             // 
             // lblTopArtistListeners10
             // 
@@ -2738,10 +2769,11 @@ namespace Audiograph
             this.lblTopArtistListeners10.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblTopArtistListeners10.Location = new System.Drawing.Point(439, 463);
             this.lblTopArtistListeners10.Name = "lblTopArtistListeners10";
-            this.lblTopArtistListeners10.Size = new System.Drawing.Size(77, 48);
+            this.lblTopArtistListeners10.Size = new System.Drawing.Size(76, 48);
             this.lblTopArtistListeners10.TabIndex = 110;
             this.lblTopArtistListeners10.Text = "(Unavailable)";
             this.lblTopArtistListeners10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopArtistListeners10.UseMnemonic = false;
             // 
             // lblTopArtistListeners9
             // 
@@ -2749,10 +2781,11 @@ namespace Audiograph
             this.lblTopArtistListeners9.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblTopArtistListeners9.Location = new System.Drawing.Point(439, 414);
             this.lblTopArtistListeners9.Name = "lblTopArtistListeners9";
-            this.lblTopArtistListeners9.Size = new System.Drawing.Size(77, 48);
+            this.lblTopArtistListeners9.Size = new System.Drawing.Size(76, 48);
             this.lblTopArtistListeners9.TabIndex = 109;
             this.lblTopArtistListeners9.Text = "(Unavailable)";
             this.lblTopArtistListeners9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopArtistListeners9.UseMnemonic = false;
             // 
             // lblTopArtistListeners8
             // 
@@ -2760,10 +2793,11 @@ namespace Audiograph
             this.lblTopArtistListeners8.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblTopArtistListeners8.Location = new System.Drawing.Point(439, 365);
             this.lblTopArtistListeners8.Name = "lblTopArtistListeners8";
-            this.lblTopArtistListeners8.Size = new System.Drawing.Size(77, 48);
+            this.lblTopArtistListeners8.Size = new System.Drawing.Size(76, 48);
             this.lblTopArtistListeners8.TabIndex = 108;
             this.lblTopArtistListeners8.Text = "(Unavailable)";
             this.lblTopArtistListeners8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopArtistListeners8.UseMnemonic = false;
             // 
             // lblTopArtistListeners7
             // 
@@ -2771,10 +2805,11 @@ namespace Audiograph
             this.lblTopArtistListeners7.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblTopArtistListeners7.Location = new System.Drawing.Point(439, 316);
             this.lblTopArtistListeners7.Name = "lblTopArtistListeners7";
-            this.lblTopArtistListeners7.Size = new System.Drawing.Size(77, 48);
+            this.lblTopArtistListeners7.Size = new System.Drawing.Size(76, 48);
             this.lblTopArtistListeners7.TabIndex = 107;
             this.lblTopArtistListeners7.Text = "(Unavailable)";
             this.lblTopArtistListeners7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopArtistListeners7.UseMnemonic = false;
             // 
             // lblTopArtistListeners6
             // 
@@ -2782,10 +2817,11 @@ namespace Audiograph
             this.lblTopArtistListeners6.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblTopArtistListeners6.Location = new System.Drawing.Point(439, 267);
             this.lblTopArtistListeners6.Name = "lblTopArtistListeners6";
-            this.lblTopArtistListeners6.Size = new System.Drawing.Size(77, 48);
+            this.lblTopArtistListeners6.Size = new System.Drawing.Size(76, 48);
             this.lblTopArtistListeners6.TabIndex = 106;
             this.lblTopArtistListeners6.Text = "(Unavailable)";
             this.lblTopArtistListeners6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopArtistListeners6.UseMnemonic = false;
             // 
             // lblTopArtistListeners5
             // 
@@ -2793,10 +2829,11 @@ namespace Audiograph
             this.lblTopArtistListeners5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblTopArtistListeners5.Location = new System.Drawing.Point(439, 218);
             this.lblTopArtistListeners5.Name = "lblTopArtistListeners5";
-            this.lblTopArtistListeners5.Size = new System.Drawing.Size(77, 48);
+            this.lblTopArtistListeners5.Size = new System.Drawing.Size(76, 48);
             this.lblTopArtistListeners5.TabIndex = 105;
             this.lblTopArtistListeners5.Text = "(Unavailable)";
             this.lblTopArtistListeners5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopArtistListeners5.UseMnemonic = false;
             // 
             // lblTopArtistListeners4
             // 
@@ -2804,10 +2841,11 @@ namespace Audiograph
             this.lblTopArtistListeners4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblTopArtistListeners4.Location = new System.Drawing.Point(439, 169);
             this.lblTopArtistListeners4.Name = "lblTopArtistListeners4";
-            this.lblTopArtistListeners4.Size = new System.Drawing.Size(77, 48);
+            this.lblTopArtistListeners4.Size = new System.Drawing.Size(76, 48);
             this.lblTopArtistListeners4.TabIndex = 104;
             this.lblTopArtistListeners4.Text = "(Unavailable)";
             this.lblTopArtistListeners4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopArtistListeners4.UseMnemonic = false;
             // 
             // lblTopArtistListeners3
             // 
@@ -2815,11 +2853,12 @@ namespace Audiograph
             this.lblTopArtistListeners3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblTopArtistListeners3.Location = new System.Drawing.Point(439, 120);
             this.lblTopArtistListeners3.Name = "lblTopArtistListeners3";
-            this.lblTopArtistListeners3.Size = new System.Drawing.Size(77, 48);
+            this.lblTopArtistListeners3.Size = new System.Drawing.Size(76, 48);
             this.lblTopArtistListeners3.TabIndex = 103;
             this.lblTopArtistListeners3.Tag = "";
             this.lblTopArtistListeners3.Text = "(Unavailable)";
             this.lblTopArtistListeners3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopArtistListeners3.UseMnemonic = false;
             // 
             // lblTopArtistListeners2
             // 
@@ -2827,10 +2866,11 @@ namespace Audiograph
             this.lblTopArtistListeners2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblTopArtistListeners2.Location = new System.Drawing.Point(439, 71);
             this.lblTopArtistListeners2.Name = "lblTopArtistListeners2";
-            this.lblTopArtistListeners2.Size = new System.Drawing.Size(77, 48);
+            this.lblTopArtistListeners2.Size = new System.Drawing.Size(76, 48);
             this.lblTopArtistListeners2.TabIndex = 102;
             this.lblTopArtistListeners2.Text = "(Unavailable)";
             this.lblTopArtistListeners2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopArtistListeners2.UseMnemonic = false;
             // 
             // lblTopArtistListeners1
             // 
@@ -2838,20 +2878,22 @@ namespace Audiograph
             this.lblTopArtistListeners1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblTopArtistListeners1.Location = new System.Drawing.Point(439, 22);
             this.lblTopArtistListeners1.Name = "lblTopArtistListeners1";
-            this.lblTopArtistListeners1.Size = new System.Drawing.Size(77, 48);
+            this.lblTopArtistListeners1.Size = new System.Drawing.Size(76, 48);
             this.lblTopArtistListeners1.TabIndex = 101;
             this.lblTopArtistListeners1.Text = "(Unavailable)";
             this.lblTopArtistListeners1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopArtistListeners1.UseMnemonic = false;
             // 
             // Label7
             // 
             this.Label7.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Label7.Location = new System.Drawing.Point(439, 1);
             this.Label7.Name = "Label7";
-            this.Label7.Size = new System.Drawing.Size(77, 20);
+            this.Label7.Size = new System.Drawing.Size(76, 20);
             this.Label7.TabIndex = 100;
             this.Label7.Text = "Listeners";
             this.Label7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Label7.UseMnemonic = false;
             // 
             // lblTopArtist20
             // 
@@ -2864,6 +2906,7 @@ namespace Audiograph
             this.lblTopArtist20.TabIndex = 99;
             this.lblTopArtist20.Text = "(Unavailable)";
             this.lblTopArtist20.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopArtist20.UseMnemonic = false;
             this.lblTopArtist20.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartArtistClick);
             // 
             // Label148
@@ -2875,6 +2918,7 @@ namespace Audiograph
             this.Label148.TabIndex = 97;
             this.Label148.Text = "20";
             this.Label148.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label148.UseMnemonic = false;
             // 
             // lblTopArtist19
             // 
@@ -2887,6 +2931,7 @@ namespace Audiograph
             this.lblTopArtist19.TabIndex = 96;
             this.lblTopArtist19.Text = "(Unavailable)";
             this.lblTopArtist19.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopArtist19.UseMnemonic = false;
             this.lblTopArtist19.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartArtistClick);
             // 
             // Label146
@@ -2898,6 +2943,7 @@ namespace Audiograph
             this.Label146.TabIndex = 94;
             this.Label146.Text = "19";
             this.Label146.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label146.UseMnemonic = false;
             // 
             // lblTopArtist18
             // 
@@ -2910,6 +2956,7 @@ namespace Audiograph
             this.lblTopArtist18.TabIndex = 93;
             this.lblTopArtist18.Text = "(Unavailable)";
             this.lblTopArtist18.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopArtist18.UseMnemonic = false;
             this.lblTopArtist18.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartArtistClick);
             // 
             // Label144
@@ -2921,6 +2968,7 @@ namespace Audiograph
             this.Label144.TabIndex = 91;
             this.Label144.Text = "18";
             this.Label144.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label144.UseMnemonic = false;
             // 
             // lblTopArtist17
             // 
@@ -2933,6 +2981,7 @@ namespace Audiograph
             this.lblTopArtist17.TabIndex = 90;
             this.lblTopArtist17.Text = "(Unavailable)";
             this.lblTopArtist17.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopArtist17.UseMnemonic = false;
             this.lblTopArtist17.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartArtistClick);
             // 
             // Label142
@@ -2944,6 +2993,7 @@ namespace Audiograph
             this.Label142.TabIndex = 88;
             this.Label142.Text = "17";
             this.Label142.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label142.UseMnemonic = false;
             // 
             // lblTopArtist16
             // 
@@ -2956,6 +3006,7 @@ namespace Audiograph
             this.lblTopArtist16.TabIndex = 87;
             this.lblTopArtist16.Text = "(Unavailable)";
             this.lblTopArtist16.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopArtist16.UseMnemonic = false;
             this.lblTopArtist16.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartArtistClick);
             // 
             // Label140
@@ -2967,6 +3018,7 @@ namespace Audiograph
             this.Label140.TabIndex = 85;
             this.Label140.Text = "16";
             this.Label140.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label140.UseMnemonic = false;
             // 
             // lblTopArtist15
             // 
@@ -2979,6 +3031,7 @@ namespace Audiograph
             this.lblTopArtist15.TabIndex = 84;
             this.lblTopArtist15.Text = "(Unavailable)";
             this.lblTopArtist15.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopArtist15.UseMnemonic = false;
             this.lblTopArtist15.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartArtistClick);
             // 
             // Label138
@@ -2990,6 +3043,7 @@ namespace Audiograph
             this.Label138.TabIndex = 82;
             this.Label138.Text = "15";
             this.Label138.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label138.UseMnemonic = false;
             // 
             // lblTopArtist14
             // 
@@ -3002,6 +3056,7 @@ namespace Audiograph
             this.lblTopArtist14.TabIndex = 81;
             this.lblTopArtist14.Text = "(Unavailable)";
             this.lblTopArtist14.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopArtist14.UseMnemonic = false;
             this.lblTopArtist14.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartArtistClick);
             // 
             // Label136
@@ -3013,6 +3068,7 @@ namespace Audiograph
             this.Label136.TabIndex = 79;
             this.Label136.Text = "14";
             this.Label136.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label136.UseMnemonic = false;
             // 
             // lblTopArtist13
             // 
@@ -3025,6 +3081,7 @@ namespace Audiograph
             this.lblTopArtist13.TabIndex = 78;
             this.lblTopArtist13.Text = "(Unavailable)";
             this.lblTopArtist13.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopArtist13.UseMnemonic = false;
             this.lblTopArtist13.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartArtistClick);
             // 
             // Label134
@@ -3036,6 +3093,7 @@ namespace Audiograph
             this.Label134.TabIndex = 76;
             this.Label134.Text = "13";
             this.Label134.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label134.UseMnemonic = false;
             // 
             // lblTopArtist12
             // 
@@ -3048,6 +3106,7 @@ namespace Audiograph
             this.lblTopArtist12.TabIndex = 75;
             this.lblTopArtist12.Text = "(Unavailable)";
             this.lblTopArtist12.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopArtist12.UseMnemonic = false;
             this.lblTopArtist12.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartArtistClick);
             // 
             // Label132
@@ -3059,6 +3118,7 @@ namespace Audiograph
             this.Label132.TabIndex = 73;
             this.Label132.Text = "12";
             this.Label132.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label132.UseMnemonic = false;
             // 
             // lblTopArtist11
             // 
@@ -3071,6 +3131,7 @@ namespace Audiograph
             this.lblTopArtist11.TabIndex = 72;
             this.lblTopArtist11.Text = "(Unavailable)";
             this.lblTopArtist11.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopArtist11.UseMnemonic = false;
             this.lblTopArtist11.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartArtistClick);
             // 
             // Label130
@@ -3082,6 +3143,7 @@ namespace Audiograph
             this.Label130.TabIndex = 70;
             this.Label130.Text = "11";
             this.Label130.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label130.UseMnemonic = false;
             // 
             // lblTopArtist10
             // 
@@ -3094,6 +3156,7 @@ namespace Audiograph
             this.lblTopArtist10.TabIndex = 69;
             this.lblTopArtist10.Text = "(Unavailable)";
             this.lblTopArtist10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopArtist10.UseMnemonic = false;
             this.lblTopArtist10.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartArtistClick);
             // 
             // Label128
@@ -3105,6 +3168,7 @@ namespace Audiograph
             this.Label128.TabIndex = 67;
             this.Label128.Text = "10";
             this.Label128.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label128.UseMnemonic = false;
             // 
             // lblTopArtist9
             // 
@@ -3117,6 +3181,7 @@ namespace Audiograph
             this.lblTopArtist9.TabIndex = 66;
             this.lblTopArtist9.Text = "(Unavailable)";
             this.lblTopArtist9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopArtist9.UseMnemonic = false;
             this.lblTopArtist9.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartArtistClick);
             // 
             // Label126
@@ -3128,6 +3193,7 @@ namespace Audiograph
             this.Label126.TabIndex = 64;
             this.Label126.Text = "9";
             this.Label126.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label126.UseMnemonic = false;
             // 
             // lblTopArtist8
             // 
@@ -3140,6 +3206,7 @@ namespace Audiograph
             this.lblTopArtist8.TabIndex = 63;
             this.lblTopArtist8.Text = "(Unavailable)";
             this.lblTopArtist8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopArtist8.UseMnemonic = false;
             this.lblTopArtist8.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartArtistClick);
             // 
             // Label124
@@ -3151,6 +3218,7 @@ namespace Audiograph
             this.Label124.TabIndex = 61;
             this.Label124.Text = "8";
             this.Label124.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label124.UseMnemonic = false;
             // 
             // lblTopArtist7
             // 
@@ -3163,6 +3231,7 @@ namespace Audiograph
             this.lblTopArtist7.TabIndex = 60;
             this.lblTopArtist7.Text = "(Unavailable)";
             this.lblTopArtist7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopArtist7.UseMnemonic = false;
             this.lblTopArtist7.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartArtistClick);
             // 
             // Label122
@@ -3174,6 +3243,7 @@ namespace Audiograph
             this.Label122.TabIndex = 58;
             this.Label122.Text = "7";
             this.Label122.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label122.UseMnemonic = false;
             // 
             // lblTopArtist6
             // 
@@ -3186,6 +3256,7 @@ namespace Audiograph
             this.lblTopArtist6.TabIndex = 57;
             this.lblTopArtist6.Text = "(Unavailable)";
             this.lblTopArtist6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopArtist6.UseMnemonic = false;
             this.lblTopArtist6.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartArtistClick);
             // 
             // Label120
@@ -3197,6 +3268,7 @@ namespace Audiograph
             this.Label120.TabIndex = 55;
             this.Label120.Text = "6";
             this.Label120.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label120.UseMnemonic = false;
             // 
             // lblTopArtist5
             // 
@@ -3209,6 +3281,7 @@ namespace Audiograph
             this.lblTopArtist5.TabIndex = 54;
             this.lblTopArtist5.Text = "(Unavailable)";
             this.lblTopArtist5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopArtist5.UseMnemonic = false;
             this.lblTopArtist5.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartArtistClick);
             // 
             // Label118
@@ -3220,6 +3293,7 @@ namespace Audiograph
             this.Label118.TabIndex = 52;
             this.Label118.Text = "5";
             this.Label118.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label118.UseMnemonic = false;
             // 
             // lblTopArtist4
             // 
@@ -3232,6 +3306,7 @@ namespace Audiograph
             this.lblTopArtist4.TabIndex = 51;
             this.lblTopArtist4.Text = "(Unavailable)";
             this.lblTopArtist4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopArtist4.UseMnemonic = false;
             this.lblTopArtist4.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartArtistClick);
             // 
             // Label116
@@ -3243,6 +3318,7 @@ namespace Audiograph
             this.Label116.TabIndex = 49;
             this.Label116.Text = "4";
             this.Label116.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label116.UseMnemonic = false;
             // 
             // lblTopArtist3
             // 
@@ -3255,6 +3331,7 @@ namespace Audiograph
             this.lblTopArtist3.TabIndex = 48;
             this.lblTopArtist3.Text = "(Unavailable)";
             this.lblTopArtist3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopArtist3.UseMnemonic = false;
             this.lblTopArtist3.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartArtistClick);
             // 
             // Label114
@@ -3266,6 +3343,7 @@ namespace Audiograph
             this.Label114.TabIndex = 46;
             this.Label114.Text = "3";
             this.Label114.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label114.UseMnemonic = false;
             // 
             // lblTopArtist2
             // 
@@ -3278,6 +3356,7 @@ namespace Audiograph
             this.lblTopArtist2.TabIndex = 45;
             this.lblTopArtist2.Text = "(Unavailable)";
             this.lblTopArtist2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopArtist2.UseMnemonic = false;
             this.lblTopArtist2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartArtistClick);
             // 
             // Label19
@@ -3289,6 +3368,7 @@ namespace Audiograph
             this.Label19.TabIndex = 41;
             this.Label19.Text = "2";
             this.Label19.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label19.UseMnemonic = false;
             // 
             // lblTopArtist1
             // 
@@ -3301,6 +3381,7 @@ namespace Audiograph
             this.lblTopArtist1.TabIndex = 40;
             this.lblTopArtist1.Text = "(Unavailable)";
             this.lblTopArtist1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopArtist1.UseMnemonic = false;
             this.lblTopArtist1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartArtistClick);
             // 
             // Label17
@@ -3312,6 +3393,7 @@ namespace Audiograph
             this.Label17.TabIndex = 38;
             this.Label17.Text = "1";
             this.Label17.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label17.UseMnemonic = false;
             // 
             // Label16
             // 
@@ -3322,6 +3404,7 @@ namespace Audiograph
             this.Label16.TabIndex = 36;
             this.Label16.Text = "Artist";
             this.Label16.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Label16.UseMnemonic = false;
             // 
             // Label14
             // 
@@ -3332,6 +3415,7 @@ namespace Audiograph
             this.Label14.TabIndex = 33;
             this.Label14.Text = "#";
             this.Label14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label14.UseMnemonic = false;
             // 
             // GroupBox1
             // 
@@ -3516,12 +3600,13 @@ namespace Audiograph
             // 
             this.lblTopTracksListeners20.ContextMenuStrip = this.cmsChartTrack;
             this.lblTopTracksListeners20.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopTracksListeners20.Location = new System.Drawing.Point(532, 953);
+            this.lblTopTracksListeners20.Location = new System.Drawing.Point(529, 953);
             this.lblTopTracksListeners20.Name = "lblTopTracksListeners20";
-            this.lblTopTracksListeners20.Size = new System.Drawing.Size(70, 48);
+            this.lblTopTracksListeners20.Size = new System.Drawing.Size(72, 48);
             this.lblTopTracksListeners20.TabIndex = 156;
             this.lblTopTracksListeners20.Text = "(Unavailable)";
             this.lblTopTracksListeners20.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopTracksListeners20.UseMnemonic = false;
             // 
             // cmsChartTrack
             // 
@@ -3589,232 +3674,253 @@ namespace Audiograph
             // 
             this.lblTopTracksListeners19.ContextMenuStrip = this.cmsChartTrack;
             this.lblTopTracksListeners19.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopTracksListeners19.Location = new System.Drawing.Point(532, 904);
+            this.lblTopTracksListeners19.Location = new System.Drawing.Point(529, 904);
             this.lblTopTracksListeners19.Name = "lblTopTracksListeners19";
-            this.lblTopTracksListeners19.Size = new System.Drawing.Size(70, 48);
+            this.lblTopTracksListeners19.Size = new System.Drawing.Size(72, 48);
             this.lblTopTracksListeners19.TabIndex = 155;
             this.lblTopTracksListeners19.Text = "(Unavailable)";
             this.lblTopTracksListeners19.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopTracksListeners19.UseMnemonic = false;
             // 
             // lblTopTracksListeners18
             // 
             this.lblTopTracksListeners18.ContextMenuStrip = this.cmsChartTrack;
             this.lblTopTracksListeners18.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopTracksListeners18.Location = new System.Drawing.Point(532, 855);
+            this.lblTopTracksListeners18.Location = new System.Drawing.Point(529, 855);
             this.lblTopTracksListeners18.Name = "lblTopTracksListeners18";
-            this.lblTopTracksListeners18.Size = new System.Drawing.Size(70, 48);
+            this.lblTopTracksListeners18.Size = new System.Drawing.Size(72, 48);
             this.lblTopTracksListeners18.TabIndex = 154;
             this.lblTopTracksListeners18.Text = "(Unavailable)";
             this.lblTopTracksListeners18.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopTracksListeners18.UseMnemonic = false;
             // 
             // lblTopTracksListeners17
             // 
             this.lblTopTracksListeners17.ContextMenuStrip = this.cmsChartTrack;
             this.lblTopTracksListeners17.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopTracksListeners17.Location = new System.Drawing.Point(532, 806);
+            this.lblTopTracksListeners17.Location = new System.Drawing.Point(529, 806);
             this.lblTopTracksListeners17.Name = "lblTopTracksListeners17";
-            this.lblTopTracksListeners17.Size = new System.Drawing.Size(70, 48);
+            this.lblTopTracksListeners17.Size = new System.Drawing.Size(72, 48);
             this.lblTopTracksListeners17.TabIndex = 153;
             this.lblTopTracksListeners17.Text = "(Unavailable)";
             this.lblTopTracksListeners17.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopTracksListeners17.UseMnemonic = false;
             // 
             // lblTopTracksListeners16
             // 
             this.lblTopTracksListeners16.ContextMenuStrip = this.cmsChartTrack;
             this.lblTopTracksListeners16.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopTracksListeners16.Location = new System.Drawing.Point(532, 757);
+            this.lblTopTracksListeners16.Location = new System.Drawing.Point(529, 757);
             this.lblTopTracksListeners16.Name = "lblTopTracksListeners16";
-            this.lblTopTracksListeners16.Size = new System.Drawing.Size(70, 48);
+            this.lblTopTracksListeners16.Size = new System.Drawing.Size(72, 48);
             this.lblTopTracksListeners16.TabIndex = 152;
             this.lblTopTracksListeners16.Text = "(Unavailable)";
             this.lblTopTracksListeners16.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopTracksListeners16.UseMnemonic = false;
             // 
             // lblTopTracksListeners15
             // 
             this.lblTopTracksListeners15.ContextMenuStrip = this.cmsChartTrack;
             this.lblTopTracksListeners15.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopTracksListeners15.Location = new System.Drawing.Point(532, 708);
+            this.lblTopTracksListeners15.Location = new System.Drawing.Point(529, 708);
             this.lblTopTracksListeners15.Name = "lblTopTracksListeners15";
-            this.lblTopTracksListeners15.Size = new System.Drawing.Size(70, 48);
+            this.lblTopTracksListeners15.Size = new System.Drawing.Size(72, 48);
             this.lblTopTracksListeners15.TabIndex = 151;
             this.lblTopTracksListeners15.Text = "(Unavailable)";
             this.lblTopTracksListeners15.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopTracksListeners15.UseMnemonic = false;
             // 
             // lblTopTracksListeners14
             // 
             this.lblTopTracksListeners14.ContextMenuStrip = this.cmsChartTrack;
             this.lblTopTracksListeners14.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopTracksListeners14.Location = new System.Drawing.Point(532, 659);
+            this.lblTopTracksListeners14.Location = new System.Drawing.Point(529, 659);
             this.lblTopTracksListeners14.Name = "lblTopTracksListeners14";
-            this.lblTopTracksListeners14.Size = new System.Drawing.Size(70, 48);
+            this.lblTopTracksListeners14.Size = new System.Drawing.Size(72, 48);
             this.lblTopTracksListeners14.TabIndex = 150;
             this.lblTopTracksListeners14.Text = "(Unavailable)";
             this.lblTopTracksListeners14.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopTracksListeners14.UseMnemonic = false;
             // 
             // lblTopTracksListeners13
             // 
             this.lblTopTracksListeners13.ContextMenuStrip = this.cmsChartTrack;
             this.lblTopTracksListeners13.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopTracksListeners13.Location = new System.Drawing.Point(532, 610);
+            this.lblTopTracksListeners13.Location = new System.Drawing.Point(529, 610);
             this.lblTopTracksListeners13.Name = "lblTopTracksListeners13";
-            this.lblTopTracksListeners13.Size = new System.Drawing.Size(70, 48);
+            this.lblTopTracksListeners13.Size = new System.Drawing.Size(72, 48);
             this.lblTopTracksListeners13.TabIndex = 149;
             this.lblTopTracksListeners13.Text = "(Unavailable)";
             this.lblTopTracksListeners13.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopTracksListeners13.UseMnemonic = false;
             // 
             // lblTopTracksListeners12
             // 
             this.lblTopTracksListeners12.ContextMenuStrip = this.cmsChartTrack;
             this.lblTopTracksListeners12.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopTracksListeners12.Location = new System.Drawing.Point(532, 561);
+            this.lblTopTracksListeners12.Location = new System.Drawing.Point(529, 561);
             this.lblTopTracksListeners12.Name = "lblTopTracksListeners12";
-            this.lblTopTracksListeners12.Size = new System.Drawing.Size(70, 48);
+            this.lblTopTracksListeners12.Size = new System.Drawing.Size(72, 48);
             this.lblTopTracksListeners12.TabIndex = 148;
             this.lblTopTracksListeners12.Text = "(Unavailable)";
             this.lblTopTracksListeners12.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopTracksListeners12.UseMnemonic = false;
             // 
             // lblTopTracksListeners11
             // 
             this.lblTopTracksListeners11.ContextMenuStrip = this.cmsChartTrack;
             this.lblTopTracksListeners11.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopTracksListeners11.Location = new System.Drawing.Point(532, 512);
+            this.lblTopTracksListeners11.Location = new System.Drawing.Point(529, 512);
             this.lblTopTracksListeners11.Name = "lblTopTracksListeners11";
-            this.lblTopTracksListeners11.Size = new System.Drawing.Size(70, 48);
+            this.lblTopTracksListeners11.Size = new System.Drawing.Size(72, 48);
             this.lblTopTracksListeners11.TabIndex = 147;
             this.lblTopTracksListeners11.Text = "(Unavailable)";
             this.lblTopTracksListeners11.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopTracksListeners11.UseMnemonic = false;
             // 
             // lblTopTracksListeners10
             // 
             this.lblTopTracksListeners10.ContextMenuStrip = this.cmsChartTrack;
             this.lblTopTracksListeners10.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopTracksListeners10.Location = new System.Drawing.Point(532, 463);
+            this.lblTopTracksListeners10.Location = new System.Drawing.Point(529, 463);
             this.lblTopTracksListeners10.Name = "lblTopTracksListeners10";
-            this.lblTopTracksListeners10.Size = new System.Drawing.Size(70, 48);
+            this.lblTopTracksListeners10.Size = new System.Drawing.Size(72, 48);
             this.lblTopTracksListeners10.TabIndex = 146;
             this.lblTopTracksListeners10.Text = "(Unavailable)";
             this.lblTopTracksListeners10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopTracksListeners10.UseMnemonic = false;
             // 
             // lblTopTracksListeners9
             // 
             this.lblTopTracksListeners9.ContextMenuStrip = this.cmsChartTrack;
             this.lblTopTracksListeners9.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopTracksListeners9.Location = new System.Drawing.Point(532, 414);
+            this.lblTopTracksListeners9.Location = new System.Drawing.Point(529, 414);
             this.lblTopTracksListeners9.Name = "lblTopTracksListeners9";
-            this.lblTopTracksListeners9.Size = new System.Drawing.Size(70, 48);
+            this.lblTopTracksListeners9.Size = new System.Drawing.Size(72, 48);
             this.lblTopTracksListeners9.TabIndex = 145;
             this.lblTopTracksListeners9.Text = "(Unavailable)";
             this.lblTopTracksListeners9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopTracksListeners9.UseMnemonic = false;
             // 
             // lblTopTracksListeners8
             // 
             this.lblTopTracksListeners8.ContextMenuStrip = this.cmsChartTrack;
             this.lblTopTracksListeners8.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopTracksListeners8.Location = new System.Drawing.Point(532, 365);
+            this.lblTopTracksListeners8.Location = new System.Drawing.Point(529, 365);
             this.lblTopTracksListeners8.Name = "lblTopTracksListeners8";
-            this.lblTopTracksListeners8.Size = new System.Drawing.Size(70, 48);
+            this.lblTopTracksListeners8.Size = new System.Drawing.Size(72, 48);
             this.lblTopTracksListeners8.TabIndex = 144;
             this.lblTopTracksListeners8.Text = "(Unavailable)";
             this.lblTopTracksListeners8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopTracksListeners8.UseMnemonic = false;
             // 
             // lblTopTracksListeners7
             // 
             this.lblTopTracksListeners7.ContextMenuStrip = this.cmsChartTrack;
             this.lblTopTracksListeners7.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopTracksListeners7.Location = new System.Drawing.Point(532, 316);
+            this.lblTopTracksListeners7.Location = new System.Drawing.Point(529, 316);
             this.lblTopTracksListeners7.Name = "lblTopTracksListeners7";
-            this.lblTopTracksListeners7.Size = new System.Drawing.Size(70, 48);
+            this.lblTopTracksListeners7.Size = new System.Drawing.Size(72, 48);
             this.lblTopTracksListeners7.TabIndex = 143;
             this.lblTopTracksListeners7.Text = "(Unavailable)";
             this.lblTopTracksListeners7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopTracksListeners7.UseMnemonic = false;
             // 
             // lblTopTracksListeners6
             // 
             this.lblTopTracksListeners6.ContextMenuStrip = this.cmsChartTrack;
             this.lblTopTracksListeners6.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopTracksListeners6.Location = new System.Drawing.Point(532, 267);
+            this.lblTopTracksListeners6.Location = new System.Drawing.Point(529, 267);
             this.lblTopTracksListeners6.Name = "lblTopTracksListeners6";
-            this.lblTopTracksListeners6.Size = new System.Drawing.Size(70, 48);
+            this.lblTopTracksListeners6.Size = new System.Drawing.Size(72, 48);
             this.lblTopTracksListeners6.TabIndex = 142;
             this.lblTopTracksListeners6.Text = "(Unavailable)";
             this.lblTopTracksListeners6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopTracksListeners6.UseMnemonic = false;
             // 
             // lblTopTracksListeners5
             // 
             this.lblTopTracksListeners5.ContextMenuStrip = this.cmsChartTrack;
             this.lblTopTracksListeners5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopTracksListeners5.Location = new System.Drawing.Point(532, 218);
+            this.lblTopTracksListeners5.Location = new System.Drawing.Point(529, 218);
             this.lblTopTracksListeners5.Name = "lblTopTracksListeners5";
-            this.lblTopTracksListeners5.Size = new System.Drawing.Size(70, 48);
+            this.lblTopTracksListeners5.Size = new System.Drawing.Size(72, 48);
             this.lblTopTracksListeners5.TabIndex = 141;
             this.lblTopTracksListeners5.Text = "(Unavailable)";
             this.lblTopTracksListeners5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopTracksListeners5.UseMnemonic = false;
             // 
             // lblTopTracksListeners4
             // 
             this.lblTopTracksListeners4.ContextMenuStrip = this.cmsChartTrack;
             this.lblTopTracksListeners4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopTracksListeners4.Location = new System.Drawing.Point(532, 169);
+            this.lblTopTracksListeners4.Location = new System.Drawing.Point(529, 169);
             this.lblTopTracksListeners4.Name = "lblTopTracksListeners4";
-            this.lblTopTracksListeners4.Size = new System.Drawing.Size(70, 48);
+            this.lblTopTracksListeners4.Size = new System.Drawing.Size(72, 48);
             this.lblTopTracksListeners4.TabIndex = 140;
             this.lblTopTracksListeners4.Text = "(Unavailable)";
             this.lblTopTracksListeners4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopTracksListeners4.UseMnemonic = false;
             // 
             // lblTopTracksListeners3
             // 
             this.lblTopTracksListeners3.ContextMenuStrip = this.cmsChartTrack;
             this.lblTopTracksListeners3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopTracksListeners3.Location = new System.Drawing.Point(532, 120);
+            this.lblTopTracksListeners3.Location = new System.Drawing.Point(529, 120);
             this.lblTopTracksListeners3.Name = "lblTopTracksListeners3";
-            this.lblTopTracksListeners3.Size = new System.Drawing.Size(70, 48);
+            this.lblTopTracksListeners3.Size = new System.Drawing.Size(72, 48);
             this.lblTopTracksListeners3.TabIndex = 139;
             this.lblTopTracksListeners3.Text = "(Unavailable)";
             this.lblTopTracksListeners3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopTracksListeners3.UseMnemonic = false;
             // 
             // lblTopTracksListeners2
             // 
             this.lblTopTracksListeners2.ContextMenuStrip = this.cmsChartTrack;
             this.lblTopTracksListeners2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopTracksListeners2.Location = new System.Drawing.Point(532, 71);
+            this.lblTopTracksListeners2.Location = new System.Drawing.Point(529, 71);
             this.lblTopTracksListeners2.Name = "lblTopTracksListeners2";
-            this.lblTopTracksListeners2.Size = new System.Drawing.Size(70, 48);
+            this.lblTopTracksListeners2.Size = new System.Drawing.Size(72, 48);
             this.lblTopTracksListeners2.TabIndex = 138;
             this.lblTopTracksListeners2.Text = "(Unavailable)";
             this.lblTopTracksListeners2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopTracksListeners2.UseMnemonic = false;
             // 
             // lblTopTracksListeners1
             // 
             this.lblTopTracksListeners1.ContextMenuStrip = this.cmsChartTrack;
             this.lblTopTracksListeners1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopTracksListeners1.Location = new System.Drawing.Point(532, 22);
+            this.lblTopTracksListeners1.Location = new System.Drawing.Point(529, 22);
             this.lblTopTracksListeners1.Name = "lblTopTracksListeners1";
-            this.lblTopTracksListeners1.Size = new System.Drawing.Size(70, 48);
+            this.lblTopTracksListeners1.Size = new System.Drawing.Size(72, 48);
             this.lblTopTracksListeners1.TabIndex = 137;
             this.lblTopTracksListeners1.Text = "(Unavailable)";
             this.lblTopTracksListeners1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopTracksListeners1.UseMnemonic = false;
             // 
             // Label93
             // 
             this.Label93.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Label93.Location = new System.Drawing.Point(532, 1);
+            this.Label93.Location = new System.Drawing.Point(529, 1);
             this.Label93.Name = "Label93";
-            this.Label93.Size = new System.Drawing.Size(70, 20);
+            this.Label93.Size = new System.Drawing.Size(72, 20);
             this.Label93.TabIndex = 136;
             this.Label93.Text = "Listeners";
             this.Label93.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Label93.UseMnemonic = false;
             // 
             // lblTopTrackAlbum20
             // 
             this.lblTopTrackAlbum20.ContextMenuStrip = this.cmsChartTrack;
             this.lblTopTrackAlbum20.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblTopTrackAlbum20.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopTrackAlbum20.Location = new System.Drawing.Point(381, 953);
+            this.lblTopTrackAlbum20.Location = new System.Drawing.Point(379, 953);
             this.lblTopTrackAlbum20.Name = "lblTopTrackAlbum20";
-            this.lblTopTrackAlbum20.Size = new System.Drawing.Size(144, 48);
+            this.lblTopTrackAlbum20.Size = new System.Drawing.Size(143, 48);
             this.lblTopTrackAlbum20.TabIndex = 135;
             this.lblTopTrackAlbum20.Text = "(Unavailable)";
             this.lblTopTrackAlbum20.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopTrackAlbum20.UseMnemonic = false;
             this.lblTopTrackAlbum20.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartTrackAlbumClick);
             // 
             // lblTopTrackArtist20
@@ -3822,12 +3928,13 @@ namespace Audiograph
             this.lblTopTrackArtist20.ContextMenuStrip = this.cmsChartTrack;
             this.lblTopTrackArtist20.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblTopTrackArtist20.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopTrackArtist20.Location = new System.Drawing.Point(230, 953);
+            this.lblTopTrackArtist20.Location = new System.Drawing.Point(229, 953);
             this.lblTopTrackArtist20.Name = "lblTopTrackArtist20";
-            this.lblTopTrackArtist20.Size = new System.Drawing.Size(144, 48);
+            this.lblTopTrackArtist20.Size = new System.Drawing.Size(143, 48);
             this.lblTopTrackArtist20.TabIndex = 134;
             this.lblTopTrackArtist20.Text = "(Unavailable)";
             this.lblTopTrackArtist20.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopTrackArtist20.UseMnemonic = false;
             this.lblTopTrackArtist20.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartTrackArtistClick);
             // 
             // lblTopTrackTitle20
@@ -3837,10 +3944,11 @@ namespace Audiograph
             this.lblTopTrackTitle20.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblTopTrackTitle20.Location = new System.Drawing.Point(79, 953);
             this.lblTopTrackTitle20.Name = "lblTopTrackTitle20";
-            this.lblTopTrackTitle20.Size = new System.Drawing.Size(144, 48);
+            this.lblTopTrackTitle20.Size = new System.Drawing.Size(143, 48);
             this.lblTopTrackTitle20.TabIndex = 133;
             this.lblTopTrackTitle20.Text = "(Unavailable)";
             this.lblTopTrackTitle20.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopTrackTitle20.UseMnemonic = false;
             this.lblTopTrackTitle20.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartTrackTrackClick);
             // 
             // picTrack20
@@ -3907,18 +4015,20 @@ namespace Audiograph
             this.Label89.TabIndex = 131;
             this.Label89.Text = "20";
             this.Label89.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label89.UseMnemonic = false;
             // 
             // lblTopTrackAlbum19
             // 
             this.lblTopTrackAlbum19.ContextMenuStrip = this.cmsChartTrack;
             this.lblTopTrackAlbum19.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblTopTrackAlbum19.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopTrackAlbum19.Location = new System.Drawing.Point(381, 904);
+            this.lblTopTrackAlbum19.Location = new System.Drawing.Point(379, 904);
             this.lblTopTrackAlbum19.Name = "lblTopTrackAlbum19";
-            this.lblTopTrackAlbum19.Size = new System.Drawing.Size(144, 48);
+            this.lblTopTrackAlbum19.Size = new System.Drawing.Size(143, 48);
             this.lblTopTrackAlbum19.TabIndex = 130;
             this.lblTopTrackAlbum19.Text = "(Unavailable)";
             this.lblTopTrackAlbum19.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopTrackAlbum19.UseMnemonic = false;
             this.lblTopTrackAlbum19.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartTrackAlbumClick);
             // 
             // lblTopTrackArtist19
@@ -3926,12 +4036,13 @@ namespace Audiograph
             this.lblTopTrackArtist19.ContextMenuStrip = this.cmsChartTrack;
             this.lblTopTrackArtist19.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblTopTrackArtist19.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopTrackArtist19.Location = new System.Drawing.Point(230, 904);
+            this.lblTopTrackArtist19.Location = new System.Drawing.Point(229, 904);
             this.lblTopTrackArtist19.Name = "lblTopTrackArtist19";
-            this.lblTopTrackArtist19.Size = new System.Drawing.Size(144, 48);
+            this.lblTopTrackArtist19.Size = new System.Drawing.Size(143, 48);
             this.lblTopTrackArtist19.TabIndex = 129;
             this.lblTopTrackArtist19.Text = "(Unavailable)";
             this.lblTopTrackArtist19.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopTrackArtist19.UseMnemonic = false;
             this.lblTopTrackArtist19.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartTrackArtistClick);
             // 
             // lblTopTrackTitle19
@@ -3941,10 +4052,11 @@ namespace Audiograph
             this.lblTopTrackTitle19.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblTopTrackTitle19.Location = new System.Drawing.Point(79, 904);
             this.lblTopTrackTitle19.Name = "lblTopTrackTitle19";
-            this.lblTopTrackTitle19.Size = new System.Drawing.Size(144, 48);
+            this.lblTopTrackTitle19.Size = new System.Drawing.Size(143, 48);
             this.lblTopTrackTitle19.TabIndex = 128;
             this.lblTopTrackTitle19.Text = "(Unavailable)";
             this.lblTopTrackTitle19.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopTrackTitle19.UseMnemonic = false;
             this.lblTopTrackTitle19.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartTrackTrackClick);
             // 
             // picTrack19
@@ -3971,18 +4083,20 @@ namespace Audiograph
             this.Label85.TabIndex = 126;
             this.Label85.Text = "19";
             this.Label85.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label85.UseMnemonic = false;
             // 
             // lblTopTrackAlbum18
             // 
             this.lblTopTrackAlbum18.ContextMenuStrip = this.cmsChartTrack;
             this.lblTopTrackAlbum18.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblTopTrackAlbum18.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopTrackAlbum18.Location = new System.Drawing.Point(381, 855);
+            this.lblTopTrackAlbum18.Location = new System.Drawing.Point(379, 855);
             this.lblTopTrackAlbum18.Name = "lblTopTrackAlbum18";
-            this.lblTopTrackAlbum18.Size = new System.Drawing.Size(144, 48);
+            this.lblTopTrackAlbum18.Size = new System.Drawing.Size(143, 48);
             this.lblTopTrackAlbum18.TabIndex = 125;
             this.lblTopTrackAlbum18.Text = "(Unavailable)";
             this.lblTopTrackAlbum18.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopTrackAlbum18.UseMnemonic = false;
             this.lblTopTrackAlbum18.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartTrackAlbumClick);
             // 
             // lblTopTrackArtist18
@@ -3990,12 +4104,13 @@ namespace Audiograph
             this.lblTopTrackArtist18.ContextMenuStrip = this.cmsChartTrack;
             this.lblTopTrackArtist18.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblTopTrackArtist18.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopTrackArtist18.Location = new System.Drawing.Point(230, 855);
+            this.lblTopTrackArtist18.Location = new System.Drawing.Point(229, 855);
             this.lblTopTrackArtist18.Name = "lblTopTrackArtist18";
-            this.lblTopTrackArtist18.Size = new System.Drawing.Size(144, 48);
+            this.lblTopTrackArtist18.Size = new System.Drawing.Size(143, 48);
             this.lblTopTrackArtist18.TabIndex = 124;
             this.lblTopTrackArtist18.Text = "(Unavailable)";
             this.lblTopTrackArtist18.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopTrackArtist18.UseMnemonic = false;
             this.lblTopTrackArtist18.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartTrackArtistClick);
             // 
             // lblTopTrackTitle18
@@ -4005,10 +4120,11 @@ namespace Audiograph
             this.lblTopTrackTitle18.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblTopTrackTitle18.Location = new System.Drawing.Point(79, 855);
             this.lblTopTrackTitle18.Name = "lblTopTrackTitle18";
-            this.lblTopTrackTitle18.Size = new System.Drawing.Size(144, 48);
+            this.lblTopTrackTitle18.Size = new System.Drawing.Size(143, 48);
             this.lblTopTrackTitle18.TabIndex = 123;
             this.lblTopTrackTitle18.Text = "(Unavailable)";
             this.lblTopTrackTitle18.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopTrackTitle18.UseMnemonic = false;
             this.lblTopTrackTitle18.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartTrackTrackClick);
             // 
             // picTrack18
@@ -4035,18 +4151,20 @@ namespace Audiograph
             this.Label81.TabIndex = 121;
             this.Label81.Text = "18";
             this.Label81.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label81.UseMnemonic = false;
             // 
             // lblTopTrackAlbum17
             // 
             this.lblTopTrackAlbum17.ContextMenuStrip = this.cmsChartTrack;
             this.lblTopTrackAlbum17.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblTopTrackAlbum17.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopTrackAlbum17.Location = new System.Drawing.Point(381, 806);
+            this.lblTopTrackAlbum17.Location = new System.Drawing.Point(379, 806);
             this.lblTopTrackAlbum17.Name = "lblTopTrackAlbum17";
-            this.lblTopTrackAlbum17.Size = new System.Drawing.Size(144, 48);
+            this.lblTopTrackAlbum17.Size = new System.Drawing.Size(143, 48);
             this.lblTopTrackAlbum17.TabIndex = 120;
             this.lblTopTrackAlbum17.Text = "(Unavailable)";
             this.lblTopTrackAlbum17.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopTrackAlbum17.UseMnemonic = false;
             this.lblTopTrackAlbum17.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartTrackAlbumClick);
             // 
             // lblTopTrackArtist17
@@ -4054,12 +4172,13 @@ namespace Audiograph
             this.lblTopTrackArtist17.ContextMenuStrip = this.cmsChartTrack;
             this.lblTopTrackArtist17.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblTopTrackArtist17.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopTrackArtist17.Location = new System.Drawing.Point(230, 806);
+            this.lblTopTrackArtist17.Location = new System.Drawing.Point(229, 806);
             this.lblTopTrackArtist17.Name = "lblTopTrackArtist17";
-            this.lblTopTrackArtist17.Size = new System.Drawing.Size(144, 48);
+            this.lblTopTrackArtist17.Size = new System.Drawing.Size(143, 48);
             this.lblTopTrackArtist17.TabIndex = 119;
             this.lblTopTrackArtist17.Text = "(Unavailable)";
             this.lblTopTrackArtist17.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopTrackArtist17.UseMnemonic = false;
             this.lblTopTrackArtist17.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartTrackArtistClick);
             // 
             // lblTopTrackTitle17
@@ -4069,10 +4188,11 @@ namespace Audiograph
             this.lblTopTrackTitle17.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblTopTrackTitle17.Location = new System.Drawing.Point(79, 806);
             this.lblTopTrackTitle17.Name = "lblTopTrackTitle17";
-            this.lblTopTrackTitle17.Size = new System.Drawing.Size(144, 48);
+            this.lblTopTrackTitle17.Size = new System.Drawing.Size(143, 48);
             this.lblTopTrackTitle17.TabIndex = 118;
             this.lblTopTrackTitle17.Text = "(Unavailable)";
             this.lblTopTrackTitle17.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopTrackTitle17.UseMnemonic = false;
             this.lblTopTrackTitle17.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartTrackTrackClick);
             // 
             // picTrack17
@@ -4099,18 +4219,20 @@ namespace Audiograph
             this.Label77.TabIndex = 116;
             this.Label77.Text = "17";
             this.Label77.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label77.UseMnemonic = false;
             // 
             // lblTopTrackAlbum16
             // 
             this.lblTopTrackAlbum16.ContextMenuStrip = this.cmsChartTrack;
             this.lblTopTrackAlbum16.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblTopTrackAlbum16.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopTrackAlbum16.Location = new System.Drawing.Point(381, 757);
+            this.lblTopTrackAlbum16.Location = new System.Drawing.Point(379, 757);
             this.lblTopTrackAlbum16.Name = "lblTopTrackAlbum16";
-            this.lblTopTrackAlbum16.Size = new System.Drawing.Size(144, 48);
+            this.lblTopTrackAlbum16.Size = new System.Drawing.Size(143, 48);
             this.lblTopTrackAlbum16.TabIndex = 115;
             this.lblTopTrackAlbum16.Text = "(Unavailable)";
             this.lblTopTrackAlbum16.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopTrackAlbum16.UseMnemonic = false;
             this.lblTopTrackAlbum16.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartTrackAlbumClick);
             // 
             // lblTopTrackArtist16
@@ -4118,12 +4240,13 @@ namespace Audiograph
             this.lblTopTrackArtist16.ContextMenuStrip = this.cmsChartTrack;
             this.lblTopTrackArtist16.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblTopTrackArtist16.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopTrackArtist16.Location = new System.Drawing.Point(230, 757);
+            this.lblTopTrackArtist16.Location = new System.Drawing.Point(229, 757);
             this.lblTopTrackArtist16.Name = "lblTopTrackArtist16";
-            this.lblTopTrackArtist16.Size = new System.Drawing.Size(144, 48);
+            this.lblTopTrackArtist16.Size = new System.Drawing.Size(143, 48);
             this.lblTopTrackArtist16.TabIndex = 114;
             this.lblTopTrackArtist16.Text = "(Unavailable)";
             this.lblTopTrackArtist16.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopTrackArtist16.UseMnemonic = false;
             this.lblTopTrackArtist16.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartTrackArtistClick);
             // 
             // lblTopTrackTitle16
@@ -4133,10 +4256,11 @@ namespace Audiograph
             this.lblTopTrackTitle16.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblTopTrackTitle16.Location = new System.Drawing.Point(79, 757);
             this.lblTopTrackTitle16.Name = "lblTopTrackTitle16";
-            this.lblTopTrackTitle16.Size = new System.Drawing.Size(144, 48);
+            this.lblTopTrackTitle16.Size = new System.Drawing.Size(143, 48);
             this.lblTopTrackTitle16.TabIndex = 113;
             this.lblTopTrackTitle16.Text = "(Unavailable)";
             this.lblTopTrackTitle16.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopTrackTitle16.UseMnemonic = false;
             this.lblTopTrackTitle16.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartTrackTrackClick);
             // 
             // picTrack16
@@ -4163,18 +4287,20 @@ namespace Audiograph
             this.Label73.TabIndex = 111;
             this.Label73.Text = "16";
             this.Label73.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label73.UseMnemonic = false;
             // 
             // lblTopTrackAlbum15
             // 
             this.lblTopTrackAlbum15.ContextMenuStrip = this.cmsChartTrack;
             this.lblTopTrackAlbum15.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblTopTrackAlbum15.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopTrackAlbum15.Location = new System.Drawing.Point(381, 708);
+            this.lblTopTrackAlbum15.Location = new System.Drawing.Point(379, 708);
             this.lblTopTrackAlbum15.Name = "lblTopTrackAlbum15";
-            this.lblTopTrackAlbum15.Size = new System.Drawing.Size(144, 48);
+            this.lblTopTrackAlbum15.Size = new System.Drawing.Size(143, 48);
             this.lblTopTrackAlbum15.TabIndex = 110;
             this.lblTopTrackAlbum15.Text = "(Unavailable)";
             this.lblTopTrackAlbum15.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopTrackAlbum15.UseMnemonic = false;
             this.lblTopTrackAlbum15.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartTrackAlbumClick);
             // 
             // lblTopTrackArtist15
@@ -4182,12 +4308,13 @@ namespace Audiograph
             this.lblTopTrackArtist15.ContextMenuStrip = this.cmsChartTrack;
             this.lblTopTrackArtist15.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblTopTrackArtist15.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopTrackArtist15.Location = new System.Drawing.Point(230, 708);
+            this.lblTopTrackArtist15.Location = new System.Drawing.Point(229, 708);
             this.lblTopTrackArtist15.Name = "lblTopTrackArtist15";
-            this.lblTopTrackArtist15.Size = new System.Drawing.Size(144, 48);
+            this.lblTopTrackArtist15.Size = new System.Drawing.Size(143, 48);
             this.lblTopTrackArtist15.TabIndex = 109;
             this.lblTopTrackArtist15.Text = "(Unavailable)";
             this.lblTopTrackArtist15.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopTrackArtist15.UseMnemonic = false;
             this.lblTopTrackArtist15.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartTrackArtistClick);
             // 
             // lblTopTrackTitle15
@@ -4197,10 +4324,11 @@ namespace Audiograph
             this.lblTopTrackTitle15.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblTopTrackTitle15.Location = new System.Drawing.Point(79, 708);
             this.lblTopTrackTitle15.Name = "lblTopTrackTitle15";
-            this.lblTopTrackTitle15.Size = new System.Drawing.Size(144, 48);
+            this.lblTopTrackTitle15.Size = new System.Drawing.Size(143, 48);
             this.lblTopTrackTitle15.TabIndex = 108;
             this.lblTopTrackTitle15.Text = "(Unavailable)";
             this.lblTopTrackTitle15.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopTrackTitle15.UseMnemonic = false;
             this.lblTopTrackTitle15.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartTrackTrackClick);
             // 
             // picTrack15
@@ -4227,18 +4355,20 @@ namespace Audiograph
             this.Label69.TabIndex = 106;
             this.Label69.Text = "15";
             this.Label69.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label69.UseMnemonic = false;
             // 
             // lblTopTrackAlbum14
             // 
             this.lblTopTrackAlbum14.ContextMenuStrip = this.cmsChartTrack;
             this.lblTopTrackAlbum14.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblTopTrackAlbum14.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopTrackAlbum14.Location = new System.Drawing.Point(381, 659);
+            this.lblTopTrackAlbum14.Location = new System.Drawing.Point(379, 659);
             this.lblTopTrackAlbum14.Name = "lblTopTrackAlbum14";
-            this.lblTopTrackAlbum14.Size = new System.Drawing.Size(144, 48);
+            this.lblTopTrackAlbum14.Size = new System.Drawing.Size(143, 48);
             this.lblTopTrackAlbum14.TabIndex = 105;
             this.lblTopTrackAlbum14.Text = "(Unavailable)";
             this.lblTopTrackAlbum14.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopTrackAlbum14.UseMnemonic = false;
             this.lblTopTrackAlbum14.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartTrackAlbumClick);
             // 
             // lblTopTrackArtist14
@@ -4246,12 +4376,13 @@ namespace Audiograph
             this.lblTopTrackArtist14.ContextMenuStrip = this.cmsChartTrack;
             this.lblTopTrackArtist14.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblTopTrackArtist14.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopTrackArtist14.Location = new System.Drawing.Point(230, 659);
+            this.lblTopTrackArtist14.Location = new System.Drawing.Point(229, 659);
             this.lblTopTrackArtist14.Name = "lblTopTrackArtist14";
-            this.lblTopTrackArtist14.Size = new System.Drawing.Size(144, 48);
+            this.lblTopTrackArtist14.Size = new System.Drawing.Size(143, 48);
             this.lblTopTrackArtist14.TabIndex = 104;
             this.lblTopTrackArtist14.Text = "(Unavailable)";
             this.lblTopTrackArtist14.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopTrackArtist14.UseMnemonic = false;
             this.lblTopTrackArtist14.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartTrackArtistClick);
             // 
             // lblTopTrackTitle14
@@ -4261,10 +4392,11 @@ namespace Audiograph
             this.lblTopTrackTitle14.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblTopTrackTitle14.Location = new System.Drawing.Point(79, 659);
             this.lblTopTrackTitle14.Name = "lblTopTrackTitle14";
-            this.lblTopTrackTitle14.Size = new System.Drawing.Size(144, 48);
+            this.lblTopTrackTitle14.Size = new System.Drawing.Size(143, 48);
             this.lblTopTrackTitle14.TabIndex = 103;
             this.lblTopTrackTitle14.Text = "(Unavailable)";
             this.lblTopTrackTitle14.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopTrackTitle14.UseMnemonic = false;
             this.lblTopTrackTitle14.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartTrackTrackClick);
             // 
             // picTrack14
@@ -4291,18 +4423,20 @@ namespace Audiograph
             this.Label65.TabIndex = 101;
             this.Label65.Text = "14";
             this.Label65.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label65.UseMnemonic = false;
             // 
             // lblTopTrackAlbum13
             // 
             this.lblTopTrackAlbum13.ContextMenuStrip = this.cmsChartTrack;
             this.lblTopTrackAlbum13.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblTopTrackAlbum13.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopTrackAlbum13.Location = new System.Drawing.Point(381, 610);
+            this.lblTopTrackAlbum13.Location = new System.Drawing.Point(379, 610);
             this.lblTopTrackAlbum13.Name = "lblTopTrackAlbum13";
-            this.lblTopTrackAlbum13.Size = new System.Drawing.Size(144, 48);
+            this.lblTopTrackAlbum13.Size = new System.Drawing.Size(143, 48);
             this.lblTopTrackAlbum13.TabIndex = 100;
             this.lblTopTrackAlbum13.Text = "(Unavailable)";
             this.lblTopTrackAlbum13.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopTrackAlbum13.UseMnemonic = false;
             this.lblTopTrackAlbum13.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartTrackAlbumClick);
             // 
             // lblTopTrackArtist13
@@ -4310,12 +4444,13 @@ namespace Audiograph
             this.lblTopTrackArtist13.ContextMenuStrip = this.cmsChartTrack;
             this.lblTopTrackArtist13.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblTopTrackArtist13.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopTrackArtist13.Location = new System.Drawing.Point(230, 610);
+            this.lblTopTrackArtist13.Location = new System.Drawing.Point(229, 610);
             this.lblTopTrackArtist13.Name = "lblTopTrackArtist13";
-            this.lblTopTrackArtist13.Size = new System.Drawing.Size(144, 48);
+            this.lblTopTrackArtist13.Size = new System.Drawing.Size(143, 48);
             this.lblTopTrackArtist13.TabIndex = 99;
             this.lblTopTrackArtist13.Text = "(Unavailable)";
             this.lblTopTrackArtist13.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopTrackArtist13.UseMnemonic = false;
             this.lblTopTrackArtist13.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartTrackArtistClick);
             // 
             // lblTopTrackTitle13
@@ -4325,10 +4460,11 @@ namespace Audiograph
             this.lblTopTrackTitle13.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblTopTrackTitle13.Location = new System.Drawing.Point(79, 610);
             this.lblTopTrackTitle13.Name = "lblTopTrackTitle13";
-            this.lblTopTrackTitle13.Size = new System.Drawing.Size(144, 48);
+            this.lblTopTrackTitle13.Size = new System.Drawing.Size(143, 48);
             this.lblTopTrackTitle13.TabIndex = 98;
             this.lblTopTrackTitle13.Text = "(Unavailable)";
             this.lblTopTrackTitle13.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopTrackTitle13.UseMnemonic = false;
             this.lblTopTrackTitle13.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartTrackTrackClick);
             // 
             // picTrack13
@@ -4355,18 +4491,20 @@ namespace Audiograph
             this.Label61.TabIndex = 96;
             this.Label61.Text = "13";
             this.Label61.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label61.UseMnemonic = false;
             // 
             // lblTopTrackAlbum12
             // 
             this.lblTopTrackAlbum12.ContextMenuStrip = this.cmsChartTrack;
             this.lblTopTrackAlbum12.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblTopTrackAlbum12.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopTrackAlbum12.Location = new System.Drawing.Point(381, 561);
+            this.lblTopTrackAlbum12.Location = new System.Drawing.Point(379, 561);
             this.lblTopTrackAlbum12.Name = "lblTopTrackAlbum12";
-            this.lblTopTrackAlbum12.Size = new System.Drawing.Size(144, 48);
+            this.lblTopTrackAlbum12.Size = new System.Drawing.Size(143, 48);
             this.lblTopTrackAlbum12.TabIndex = 95;
             this.lblTopTrackAlbum12.Text = "(Unavailable)";
             this.lblTopTrackAlbum12.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopTrackAlbum12.UseMnemonic = false;
             this.lblTopTrackAlbum12.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartTrackAlbumClick);
             // 
             // lblTopTrackArtist12
@@ -4374,12 +4512,13 @@ namespace Audiograph
             this.lblTopTrackArtist12.ContextMenuStrip = this.cmsChartTrack;
             this.lblTopTrackArtist12.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblTopTrackArtist12.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopTrackArtist12.Location = new System.Drawing.Point(230, 561);
+            this.lblTopTrackArtist12.Location = new System.Drawing.Point(229, 561);
             this.lblTopTrackArtist12.Name = "lblTopTrackArtist12";
-            this.lblTopTrackArtist12.Size = new System.Drawing.Size(144, 48);
+            this.lblTopTrackArtist12.Size = new System.Drawing.Size(143, 48);
             this.lblTopTrackArtist12.TabIndex = 94;
             this.lblTopTrackArtist12.Text = "(Unavailable)";
             this.lblTopTrackArtist12.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopTrackArtist12.UseMnemonic = false;
             this.lblTopTrackArtist12.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartTrackArtistClick);
             // 
             // lblTopTrackTitle12
@@ -4389,10 +4528,11 @@ namespace Audiograph
             this.lblTopTrackTitle12.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblTopTrackTitle12.Location = new System.Drawing.Point(79, 561);
             this.lblTopTrackTitle12.Name = "lblTopTrackTitle12";
-            this.lblTopTrackTitle12.Size = new System.Drawing.Size(144, 48);
+            this.lblTopTrackTitle12.Size = new System.Drawing.Size(143, 48);
             this.lblTopTrackTitle12.TabIndex = 93;
             this.lblTopTrackTitle12.Text = "(Unavailable)";
             this.lblTopTrackTitle12.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopTrackTitle12.UseMnemonic = false;
             this.lblTopTrackTitle12.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartTrackTrackClick);
             // 
             // picTrack12
@@ -4419,18 +4559,20 @@ namespace Audiograph
             this.Label57.TabIndex = 91;
             this.Label57.Text = "12";
             this.Label57.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label57.UseMnemonic = false;
             // 
             // lblTopTrackAlbum11
             // 
             this.lblTopTrackAlbum11.ContextMenuStrip = this.cmsChartTrack;
             this.lblTopTrackAlbum11.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblTopTrackAlbum11.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopTrackAlbum11.Location = new System.Drawing.Point(381, 512);
+            this.lblTopTrackAlbum11.Location = new System.Drawing.Point(379, 512);
             this.lblTopTrackAlbum11.Name = "lblTopTrackAlbum11";
-            this.lblTopTrackAlbum11.Size = new System.Drawing.Size(144, 48);
+            this.lblTopTrackAlbum11.Size = new System.Drawing.Size(143, 48);
             this.lblTopTrackAlbum11.TabIndex = 90;
             this.lblTopTrackAlbum11.Text = "(Unavailable)";
             this.lblTopTrackAlbum11.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopTrackAlbum11.UseMnemonic = false;
             this.lblTopTrackAlbum11.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartTrackAlbumClick);
             // 
             // lblTopTrackArtist11
@@ -4438,12 +4580,13 @@ namespace Audiograph
             this.lblTopTrackArtist11.ContextMenuStrip = this.cmsChartTrack;
             this.lblTopTrackArtist11.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblTopTrackArtist11.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopTrackArtist11.Location = new System.Drawing.Point(230, 512);
+            this.lblTopTrackArtist11.Location = new System.Drawing.Point(229, 512);
             this.lblTopTrackArtist11.Name = "lblTopTrackArtist11";
-            this.lblTopTrackArtist11.Size = new System.Drawing.Size(144, 48);
+            this.lblTopTrackArtist11.Size = new System.Drawing.Size(143, 48);
             this.lblTopTrackArtist11.TabIndex = 89;
             this.lblTopTrackArtist11.Text = "(Unavailable)";
             this.lblTopTrackArtist11.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopTrackArtist11.UseMnemonic = false;
             this.lblTopTrackArtist11.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartTrackArtistClick);
             // 
             // lblTopTrackTitle11
@@ -4453,10 +4596,11 @@ namespace Audiograph
             this.lblTopTrackTitle11.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblTopTrackTitle11.Location = new System.Drawing.Point(79, 512);
             this.lblTopTrackTitle11.Name = "lblTopTrackTitle11";
-            this.lblTopTrackTitle11.Size = new System.Drawing.Size(144, 48);
+            this.lblTopTrackTitle11.Size = new System.Drawing.Size(143, 48);
             this.lblTopTrackTitle11.TabIndex = 88;
             this.lblTopTrackTitle11.Text = "(Unavailable)";
             this.lblTopTrackTitle11.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopTrackTitle11.UseMnemonic = false;
             this.lblTopTrackTitle11.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartTrackTrackClick);
             // 
             // picTrack11
@@ -4483,18 +4627,20 @@ namespace Audiograph
             this.Label53.TabIndex = 86;
             this.Label53.Text = "11";
             this.Label53.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label53.UseMnemonic = false;
             // 
             // lblTopTrackAlbum10
             // 
             this.lblTopTrackAlbum10.ContextMenuStrip = this.cmsChartTrack;
             this.lblTopTrackAlbum10.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblTopTrackAlbum10.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopTrackAlbum10.Location = new System.Drawing.Point(381, 463);
+            this.lblTopTrackAlbum10.Location = new System.Drawing.Point(379, 463);
             this.lblTopTrackAlbum10.Name = "lblTopTrackAlbum10";
-            this.lblTopTrackAlbum10.Size = new System.Drawing.Size(144, 48);
+            this.lblTopTrackAlbum10.Size = new System.Drawing.Size(143, 48);
             this.lblTopTrackAlbum10.TabIndex = 85;
             this.lblTopTrackAlbum10.Text = "(Unavailable)";
             this.lblTopTrackAlbum10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopTrackAlbum10.UseMnemonic = false;
             this.lblTopTrackAlbum10.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartTrackAlbumClick);
             // 
             // lblTopTrackArtist10
@@ -4502,12 +4648,13 @@ namespace Audiograph
             this.lblTopTrackArtist10.ContextMenuStrip = this.cmsChartTrack;
             this.lblTopTrackArtist10.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblTopTrackArtist10.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopTrackArtist10.Location = new System.Drawing.Point(230, 463);
+            this.lblTopTrackArtist10.Location = new System.Drawing.Point(229, 463);
             this.lblTopTrackArtist10.Name = "lblTopTrackArtist10";
-            this.lblTopTrackArtist10.Size = new System.Drawing.Size(144, 48);
+            this.lblTopTrackArtist10.Size = new System.Drawing.Size(143, 48);
             this.lblTopTrackArtist10.TabIndex = 84;
             this.lblTopTrackArtist10.Text = "(Unavailable)";
             this.lblTopTrackArtist10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopTrackArtist10.UseMnemonic = false;
             this.lblTopTrackArtist10.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartTrackArtistClick);
             // 
             // lblTopTrackTitle10
@@ -4517,10 +4664,11 @@ namespace Audiograph
             this.lblTopTrackTitle10.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblTopTrackTitle10.Location = new System.Drawing.Point(79, 463);
             this.lblTopTrackTitle10.Name = "lblTopTrackTitle10";
-            this.lblTopTrackTitle10.Size = new System.Drawing.Size(144, 48);
+            this.lblTopTrackTitle10.Size = new System.Drawing.Size(143, 48);
             this.lblTopTrackTitle10.TabIndex = 83;
             this.lblTopTrackTitle10.Text = "(Unavailable)";
             this.lblTopTrackTitle10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopTrackTitle10.UseMnemonic = false;
             this.lblTopTrackTitle10.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartTrackTrackClick);
             // 
             // picTrack10
@@ -4547,18 +4695,20 @@ namespace Audiograph
             this.Label49.TabIndex = 81;
             this.Label49.Text = "10";
             this.Label49.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label49.UseMnemonic = false;
             // 
             // lblTopTrackAlbum9
             // 
             this.lblTopTrackAlbum9.ContextMenuStrip = this.cmsChartTrack;
             this.lblTopTrackAlbum9.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblTopTrackAlbum9.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopTrackAlbum9.Location = new System.Drawing.Point(381, 414);
+            this.lblTopTrackAlbum9.Location = new System.Drawing.Point(379, 414);
             this.lblTopTrackAlbum9.Name = "lblTopTrackAlbum9";
-            this.lblTopTrackAlbum9.Size = new System.Drawing.Size(144, 48);
+            this.lblTopTrackAlbum9.Size = new System.Drawing.Size(143, 48);
             this.lblTopTrackAlbum9.TabIndex = 80;
             this.lblTopTrackAlbum9.Text = "(Unavailable)";
             this.lblTopTrackAlbum9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopTrackAlbum9.UseMnemonic = false;
             this.lblTopTrackAlbum9.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartTrackAlbumClick);
             // 
             // lblTopTrackArtist9
@@ -4566,12 +4716,13 @@ namespace Audiograph
             this.lblTopTrackArtist9.ContextMenuStrip = this.cmsChartTrack;
             this.lblTopTrackArtist9.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblTopTrackArtist9.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopTrackArtist9.Location = new System.Drawing.Point(230, 414);
+            this.lblTopTrackArtist9.Location = new System.Drawing.Point(229, 414);
             this.lblTopTrackArtist9.Name = "lblTopTrackArtist9";
-            this.lblTopTrackArtist9.Size = new System.Drawing.Size(144, 48);
+            this.lblTopTrackArtist9.Size = new System.Drawing.Size(143, 48);
             this.lblTopTrackArtist9.TabIndex = 79;
             this.lblTopTrackArtist9.Text = "(Unavailable)";
             this.lblTopTrackArtist9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopTrackArtist9.UseMnemonic = false;
             this.lblTopTrackArtist9.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartTrackArtistClick);
             // 
             // lblTopTrackTitle9
@@ -4581,10 +4732,11 @@ namespace Audiograph
             this.lblTopTrackTitle9.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblTopTrackTitle9.Location = new System.Drawing.Point(79, 414);
             this.lblTopTrackTitle9.Name = "lblTopTrackTitle9";
-            this.lblTopTrackTitle9.Size = new System.Drawing.Size(144, 48);
+            this.lblTopTrackTitle9.Size = new System.Drawing.Size(143, 48);
             this.lblTopTrackTitle9.TabIndex = 78;
             this.lblTopTrackTitle9.Text = "(Unavailable)";
             this.lblTopTrackTitle9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopTrackTitle9.UseMnemonic = false;
             this.lblTopTrackTitle9.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartTrackTrackClick);
             // 
             // picTrack9
@@ -4611,18 +4763,20 @@ namespace Audiograph
             this.Label45.TabIndex = 76;
             this.Label45.Text = "9";
             this.Label45.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label45.UseMnemonic = false;
             // 
             // lblTopTrackAlbum8
             // 
             this.lblTopTrackAlbum8.ContextMenuStrip = this.cmsChartTrack;
             this.lblTopTrackAlbum8.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblTopTrackAlbum8.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopTrackAlbum8.Location = new System.Drawing.Point(381, 365);
+            this.lblTopTrackAlbum8.Location = new System.Drawing.Point(379, 365);
             this.lblTopTrackAlbum8.Name = "lblTopTrackAlbum8";
-            this.lblTopTrackAlbum8.Size = new System.Drawing.Size(144, 48);
+            this.lblTopTrackAlbum8.Size = new System.Drawing.Size(143, 48);
             this.lblTopTrackAlbum8.TabIndex = 75;
             this.lblTopTrackAlbum8.Text = "(Unavailable)";
             this.lblTopTrackAlbum8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopTrackAlbum8.UseMnemonic = false;
             this.lblTopTrackAlbum8.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartTrackAlbumClick);
             // 
             // lblTopTrackArtist8
@@ -4630,12 +4784,13 @@ namespace Audiograph
             this.lblTopTrackArtist8.ContextMenuStrip = this.cmsChartTrack;
             this.lblTopTrackArtist8.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblTopTrackArtist8.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopTrackArtist8.Location = new System.Drawing.Point(230, 365);
+            this.lblTopTrackArtist8.Location = new System.Drawing.Point(229, 365);
             this.lblTopTrackArtist8.Name = "lblTopTrackArtist8";
-            this.lblTopTrackArtist8.Size = new System.Drawing.Size(144, 48);
+            this.lblTopTrackArtist8.Size = new System.Drawing.Size(143, 48);
             this.lblTopTrackArtist8.TabIndex = 74;
             this.lblTopTrackArtist8.Text = "(Unavailable)";
             this.lblTopTrackArtist8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopTrackArtist8.UseMnemonic = false;
             this.lblTopTrackArtist8.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartTrackArtistClick);
             // 
             // lblTopTrackTitle8
@@ -4645,10 +4800,11 @@ namespace Audiograph
             this.lblTopTrackTitle8.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblTopTrackTitle8.Location = new System.Drawing.Point(79, 365);
             this.lblTopTrackTitle8.Name = "lblTopTrackTitle8";
-            this.lblTopTrackTitle8.Size = new System.Drawing.Size(144, 48);
+            this.lblTopTrackTitle8.Size = new System.Drawing.Size(143, 48);
             this.lblTopTrackTitle8.TabIndex = 73;
             this.lblTopTrackTitle8.Text = "(Unavailable)";
             this.lblTopTrackTitle8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopTrackTitle8.UseMnemonic = false;
             this.lblTopTrackTitle8.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartTrackTrackClick);
             // 
             // picTrack8
@@ -4675,18 +4831,20 @@ namespace Audiograph
             this.Label41.TabIndex = 71;
             this.Label41.Text = "8";
             this.Label41.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label41.UseMnemonic = false;
             // 
             // lblTopTrackAlbum7
             // 
             this.lblTopTrackAlbum7.ContextMenuStrip = this.cmsChartTrack;
             this.lblTopTrackAlbum7.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblTopTrackAlbum7.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopTrackAlbum7.Location = new System.Drawing.Point(381, 316);
+            this.lblTopTrackAlbum7.Location = new System.Drawing.Point(379, 316);
             this.lblTopTrackAlbum7.Name = "lblTopTrackAlbum7";
-            this.lblTopTrackAlbum7.Size = new System.Drawing.Size(144, 48);
+            this.lblTopTrackAlbum7.Size = new System.Drawing.Size(143, 48);
             this.lblTopTrackAlbum7.TabIndex = 70;
             this.lblTopTrackAlbum7.Text = "(Unavailable)";
             this.lblTopTrackAlbum7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopTrackAlbum7.UseMnemonic = false;
             this.lblTopTrackAlbum7.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartTrackAlbumClick);
             // 
             // lblTopTrackArtist7
@@ -4694,12 +4852,13 @@ namespace Audiograph
             this.lblTopTrackArtist7.ContextMenuStrip = this.cmsChartTrack;
             this.lblTopTrackArtist7.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblTopTrackArtist7.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopTrackArtist7.Location = new System.Drawing.Point(230, 316);
+            this.lblTopTrackArtist7.Location = new System.Drawing.Point(229, 316);
             this.lblTopTrackArtist7.Name = "lblTopTrackArtist7";
-            this.lblTopTrackArtist7.Size = new System.Drawing.Size(144, 48);
+            this.lblTopTrackArtist7.Size = new System.Drawing.Size(143, 48);
             this.lblTopTrackArtist7.TabIndex = 69;
             this.lblTopTrackArtist7.Text = "(Unavailable)";
             this.lblTopTrackArtist7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopTrackArtist7.UseMnemonic = false;
             this.lblTopTrackArtist7.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartTrackArtistClick);
             // 
             // lblTopTrackTitle7
@@ -4709,10 +4868,11 @@ namespace Audiograph
             this.lblTopTrackTitle7.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblTopTrackTitle7.Location = new System.Drawing.Point(79, 316);
             this.lblTopTrackTitle7.Name = "lblTopTrackTitle7";
-            this.lblTopTrackTitle7.Size = new System.Drawing.Size(144, 48);
+            this.lblTopTrackTitle7.Size = new System.Drawing.Size(143, 48);
             this.lblTopTrackTitle7.TabIndex = 68;
             this.lblTopTrackTitle7.Text = "(Unavailable)";
             this.lblTopTrackTitle7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopTrackTitle7.UseMnemonic = false;
             this.lblTopTrackTitle7.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartTrackTrackClick);
             // 
             // picTrack7
@@ -4739,18 +4899,20 @@ namespace Audiograph
             this.Label37.TabIndex = 66;
             this.Label37.Text = "7";
             this.Label37.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label37.UseMnemonic = false;
             // 
             // lblTopTrackAlbum6
             // 
             this.lblTopTrackAlbum6.ContextMenuStrip = this.cmsChartTrack;
             this.lblTopTrackAlbum6.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblTopTrackAlbum6.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopTrackAlbum6.Location = new System.Drawing.Point(381, 267);
+            this.lblTopTrackAlbum6.Location = new System.Drawing.Point(379, 267);
             this.lblTopTrackAlbum6.Name = "lblTopTrackAlbum6";
-            this.lblTopTrackAlbum6.Size = new System.Drawing.Size(144, 48);
+            this.lblTopTrackAlbum6.Size = new System.Drawing.Size(143, 48);
             this.lblTopTrackAlbum6.TabIndex = 65;
             this.lblTopTrackAlbum6.Text = "(Unavailable)";
             this.lblTopTrackAlbum6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopTrackAlbum6.UseMnemonic = false;
             this.lblTopTrackAlbum6.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartTrackAlbumClick);
             // 
             // lblTopTrackArtist6
@@ -4758,12 +4920,13 @@ namespace Audiograph
             this.lblTopTrackArtist6.ContextMenuStrip = this.cmsChartTrack;
             this.lblTopTrackArtist6.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblTopTrackArtist6.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopTrackArtist6.Location = new System.Drawing.Point(230, 267);
+            this.lblTopTrackArtist6.Location = new System.Drawing.Point(229, 267);
             this.lblTopTrackArtist6.Name = "lblTopTrackArtist6";
-            this.lblTopTrackArtist6.Size = new System.Drawing.Size(144, 48);
+            this.lblTopTrackArtist6.Size = new System.Drawing.Size(143, 48);
             this.lblTopTrackArtist6.TabIndex = 64;
             this.lblTopTrackArtist6.Text = "(Unavailable)";
             this.lblTopTrackArtist6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopTrackArtist6.UseMnemonic = false;
             this.lblTopTrackArtist6.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartTrackArtistClick);
             // 
             // lblTopTrackTitle6
@@ -4773,10 +4936,11 @@ namespace Audiograph
             this.lblTopTrackTitle6.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblTopTrackTitle6.Location = new System.Drawing.Point(79, 267);
             this.lblTopTrackTitle6.Name = "lblTopTrackTitle6";
-            this.lblTopTrackTitle6.Size = new System.Drawing.Size(144, 48);
+            this.lblTopTrackTitle6.Size = new System.Drawing.Size(143, 48);
             this.lblTopTrackTitle6.TabIndex = 63;
             this.lblTopTrackTitle6.Text = "(Unavailable)";
             this.lblTopTrackTitle6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopTrackTitle6.UseMnemonic = false;
             this.lblTopTrackTitle6.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartTrackTrackClick);
             // 
             // picTrack6
@@ -4803,18 +4967,20 @@ namespace Audiograph
             this.Label33.TabIndex = 61;
             this.Label33.Text = "6";
             this.Label33.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label33.UseMnemonic = false;
             // 
             // lblTopTrackAlbum5
             // 
             this.lblTopTrackAlbum5.ContextMenuStrip = this.cmsChartTrack;
             this.lblTopTrackAlbum5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblTopTrackAlbum5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopTrackAlbum5.Location = new System.Drawing.Point(381, 218);
+            this.lblTopTrackAlbum5.Location = new System.Drawing.Point(379, 218);
             this.lblTopTrackAlbum5.Name = "lblTopTrackAlbum5";
-            this.lblTopTrackAlbum5.Size = new System.Drawing.Size(144, 48);
+            this.lblTopTrackAlbum5.Size = new System.Drawing.Size(143, 48);
             this.lblTopTrackAlbum5.TabIndex = 60;
             this.lblTopTrackAlbum5.Text = "(Unavailable)";
             this.lblTopTrackAlbum5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopTrackAlbum5.UseMnemonic = false;
             this.lblTopTrackAlbum5.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartTrackAlbumClick);
             // 
             // lblTopTrackArtist5
@@ -4822,12 +4988,13 @@ namespace Audiograph
             this.lblTopTrackArtist5.ContextMenuStrip = this.cmsChartTrack;
             this.lblTopTrackArtist5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblTopTrackArtist5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopTrackArtist5.Location = new System.Drawing.Point(230, 218);
+            this.lblTopTrackArtist5.Location = new System.Drawing.Point(229, 218);
             this.lblTopTrackArtist5.Name = "lblTopTrackArtist5";
-            this.lblTopTrackArtist5.Size = new System.Drawing.Size(144, 48);
+            this.lblTopTrackArtist5.Size = new System.Drawing.Size(143, 48);
             this.lblTopTrackArtist5.TabIndex = 59;
             this.lblTopTrackArtist5.Text = "(Unavailable)";
             this.lblTopTrackArtist5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopTrackArtist5.UseMnemonic = false;
             this.lblTopTrackArtist5.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartTrackArtistClick);
             // 
             // lblTopTrackTitle5
@@ -4837,10 +5004,11 @@ namespace Audiograph
             this.lblTopTrackTitle5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblTopTrackTitle5.Location = new System.Drawing.Point(79, 218);
             this.lblTopTrackTitle5.Name = "lblTopTrackTitle5";
-            this.lblTopTrackTitle5.Size = new System.Drawing.Size(144, 48);
+            this.lblTopTrackTitle5.Size = new System.Drawing.Size(143, 48);
             this.lblTopTrackTitle5.TabIndex = 58;
             this.lblTopTrackTitle5.Text = "(Unavailable)";
             this.lblTopTrackTitle5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopTrackTitle5.UseMnemonic = false;
             this.lblTopTrackTitle5.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartTrackTrackClick);
             // 
             // picTrack5
@@ -4867,18 +5035,20 @@ namespace Audiograph
             this.Label29.TabIndex = 56;
             this.Label29.Text = "5";
             this.Label29.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label29.UseMnemonic = false;
             // 
             // lblTopTrackAlbum4
             // 
             this.lblTopTrackAlbum4.ContextMenuStrip = this.cmsChartTrack;
             this.lblTopTrackAlbum4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblTopTrackAlbum4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopTrackAlbum4.Location = new System.Drawing.Point(381, 169);
+            this.lblTopTrackAlbum4.Location = new System.Drawing.Point(379, 169);
             this.lblTopTrackAlbum4.Name = "lblTopTrackAlbum4";
-            this.lblTopTrackAlbum4.Size = new System.Drawing.Size(144, 48);
+            this.lblTopTrackAlbum4.Size = new System.Drawing.Size(143, 48);
             this.lblTopTrackAlbum4.TabIndex = 55;
             this.lblTopTrackAlbum4.Text = "(Unavailable)";
             this.lblTopTrackAlbum4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopTrackAlbum4.UseMnemonic = false;
             this.lblTopTrackAlbum4.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartTrackAlbumClick);
             // 
             // lblTopTrackArtist4
@@ -4886,12 +5056,13 @@ namespace Audiograph
             this.lblTopTrackArtist4.ContextMenuStrip = this.cmsChartTrack;
             this.lblTopTrackArtist4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblTopTrackArtist4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopTrackArtist4.Location = new System.Drawing.Point(230, 169);
+            this.lblTopTrackArtist4.Location = new System.Drawing.Point(229, 169);
             this.lblTopTrackArtist4.Name = "lblTopTrackArtist4";
-            this.lblTopTrackArtist4.Size = new System.Drawing.Size(144, 48);
+            this.lblTopTrackArtist4.Size = new System.Drawing.Size(143, 48);
             this.lblTopTrackArtist4.TabIndex = 54;
             this.lblTopTrackArtist4.Text = "(Unavailable)";
             this.lblTopTrackArtist4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopTrackArtist4.UseMnemonic = false;
             this.lblTopTrackArtist4.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartTrackArtistClick);
             // 
             // lblTopTrackTitle4
@@ -4901,10 +5072,11 @@ namespace Audiograph
             this.lblTopTrackTitle4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblTopTrackTitle4.Location = new System.Drawing.Point(79, 169);
             this.lblTopTrackTitle4.Name = "lblTopTrackTitle4";
-            this.lblTopTrackTitle4.Size = new System.Drawing.Size(144, 48);
+            this.lblTopTrackTitle4.Size = new System.Drawing.Size(143, 48);
             this.lblTopTrackTitle4.TabIndex = 53;
             this.lblTopTrackTitle4.Text = "(Unavailable)";
             this.lblTopTrackTitle4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopTrackTitle4.UseMnemonic = false;
             this.lblTopTrackTitle4.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartTrackTrackClick);
             // 
             // picTrack4
@@ -4931,18 +5103,20 @@ namespace Audiograph
             this.Label25.TabIndex = 51;
             this.Label25.Text = "4";
             this.Label25.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label25.UseMnemonic = false;
             // 
             // lblTopTrackAlbum3
             // 
             this.lblTopTrackAlbum3.ContextMenuStrip = this.cmsChartTrack;
             this.lblTopTrackAlbum3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblTopTrackAlbum3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopTrackAlbum3.Location = new System.Drawing.Point(381, 120);
+            this.lblTopTrackAlbum3.Location = new System.Drawing.Point(379, 120);
             this.lblTopTrackAlbum3.Name = "lblTopTrackAlbum3";
-            this.lblTopTrackAlbum3.Size = new System.Drawing.Size(144, 48);
+            this.lblTopTrackAlbum3.Size = new System.Drawing.Size(143, 48);
             this.lblTopTrackAlbum3.TabIndex = 50;
             this.lblTopTrackAlbum3.Text = "(Unavailable)";
             this.lblTopTrackAlbum3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopTrackAlbum3.UseMnemonic = false;
             this.lblTopTrackAlbum3.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartTrackAlbumClick);
             // 
             // lblTopTrackArtist3
@@ -4950,12 +5124,13 @@ namespace Audiograph
             this.lblTopTrackArtist3.ContextMenuStrip = this.cmsChartTrack;
             this.lblTopTrackArtist3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblTopTrackArtist3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopTrackArtist3.Location = new System.Drawing.Point(230, 120);
+            this.lblTopTrackArtist3.Location = new System.Drawing.Point(229, 120);
             this.lblTopTrackArtist3.Name = "lblTopTrackArtist3";
-            this.lblTopTrackArtist3.Size = new System.Drawing.Size(144, 48);
+            this.lblTopTrackArtist3.Size = new System.Drawing.Size(143, 48);
             this.lblTopTrackArtist3.TabIndex = 49;
             this.lblTopTrackArtist3.Text = "(Unavailable)";
             this.lblTopTrackArtist3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopTrackArtist3.UseMnemonic = false;
             this.lblTopTrackArtist3.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartTrackArtistClick);
             // 
             // lblTopTrackTitle3
@@ -4965,10 +5140,11 @@ namespace Audiograph
             this.lblTopTrackTitle3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblTopTrackTitle3.Location = new System.Drawing.Point(79, 120);
             this.lblTopTrackTitle3.Name = "lblTopTrackTitle3";
-            this.lblTopTrackTitle3.Size = new System.Drawing.Size(144, 48);
+            this.lblTopTrackTitle3.Size = new System.Drawing.Size(143, 48);
             this.lblTopTrackTitle3.TabIndex = 48;
             this.lblTopTrackTitle3.Text = "(Unavailable)";
             this.lblTopTrackTitle3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopTrackTitle3.UseMnemonic = false;
             this.lblTopTrackTitle3.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartTrackTrackClick);
             // 
             // picTrack3
@@ -4995,18 +5171,20 @@ namespace Audiograph
             this.Label21.TabIndex = 46;
             this.Label21.Text = "3";
             this.Label21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label21.UseMnemonic = false;
             // 
             // lblTopTrackAlbum2
             // 
             this.lblTopTrackAlbum2.ContextMenuStrip = this.cmsChartTrack;
             this.lblTopTrackAlbum2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblTopTrackAlbum2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopTrackAlbum2.Location = new System.Drawing.Point(381, 71);
+            this.lblTopTrackAlbum2.Location = new System.Drawing.Point(379, 71);
             this.lblTopTrackAlbum2.Name = "lblTopTrackAlbum2";
-            this.lblTopTrackAlbum2.Size = new System.Drawing.Size(144, 48);
+            this.lblTopTrackAlbum2.Size = new System.Drawing.Size(143, 48);
             this.lblTopTrackAlbum2.TabIndex = 45;
             this.lblTopTrackAlbum2.Text = "(Unavailable)";
             this.lblTopTrackAlbum2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopTrackAlbum2.UseMnemonic = false;
             this.lblTopTrackAlbum2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartTrackAlbumClick);
             // 
             // lblTopTrackArtist2
@@ -5014,12 +5192,13 @@ namespace Audiograph
             this.lblTopTrackArtist2.ContextMenuStrip = this.cmsChartTrack;
             this.lblTopTrackArtist2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblTopTrackArtist2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopTrackArtist2.Location = new System.Drawing.Point(230, 71);
+            this.lblTopTrackArtist2.Location = new System.Drawing.Point(229, 71);
             this.lblTopTrackArtist2.Name = "lblTopTrackArtist2";
-            this.lblTopTrackArtist2.Size = new System.Drawing.Size(144, 48);
+            this.lblTopTrackArtist2.Size = new System.Drawing.Size(143, 48);
             this.lblTopTrackArtist2.TabIndex = 44;
             this.lblTopTrackArtist2.Text = "(Unavailable)";
             this.lblTopTrackArtist2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopTrackArtist2.UseMnemonic = false;
             this.lblTopTrackArtist2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartTrackArtistClick);
             // 
             // lblTopTrackTitle2
@@ -5029,10 +5208,11 @@ namespace Audiograph
             this.lblTopTrackTitle2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblTopTrackTitle2.Location = new System.Drawing.Point(79, 71);
             this.lblTopTrackTitle2.Name = "lblTopTrackTitle2";
-            this.lblTopTrackTitle2.Size = new System.Drawing.Size(144, 48);
+            this.lblTopTrackTitle2.Size = new System.Drawing.Size(143, 48);
             this.lblTopTrackTitle2.TabIndex = 43;
             this.lblTopTrackTitle2.Text = "(Unavailable)";
             this.lblTopTrackTitle2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopTrackTitle2.UseMnemonic = false;
             this.lblTopTrackTitle2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartTrackTrackClick);
             // 
             // picTrack2
@@ -5059,18 +5239,20 @@ namespace Audiograph
             this.Label10.TabIndex = 41;
             this.Label10.Text = "2";
             this.Label10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label10.UseMnemonic = false;
             // 
             // lblTopTrackAlbum1
             // 
             this.lblTopTrackAlbum1.ContextMenuStrip = this.cmsChartTrack;
             this.lblTopTrackAlbum1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblTopTrackAlbum1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopTrackAlbum1.Location = new System.Drawing.Point(381, 22);
+            this.lblTopTrackAlbum1.Location = new System.Drawing.Point(379, 22);
             this.lblTopTrackAlbum1.Name = "lblTopTrackAlbum1";
-            this.lblTopTrackAlbum1.Size = new System.Drawing.Size(144, 48);
+            this.lblTopTrackAlbum1.Size = new System.Drawing.Size(143, 48);
             this.lblTopTrackAlbum1.TabIndex = 40;
             this.lblTopTrackAlbum1.Text = "(Unavailable)";
             this.lblTopTrackAlbum1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopTrackAlbum1.UseMnemonic = false;
             this.lblTopTrackAlbum1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartTrackAlbumClick);
             // 
             // lblTopTrackArtist1
@@ -5078,12 +5260,13 @@ namespace Audiograph
             this.lblTopTrackArtist1.ContextMenuStrip = this.cmsChartTrack;
             this.lblTopTrackArtist1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblTopTrackArtist1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTopTrackArtist1.Location = new System.Drawing.Point(230, 22);
+            this.lblTopTrackArtist1.Location = new System.Drawing.Point(229, 22);
             this.lblTopTrackArtist1.Name = "lblTopTrackArtist1";
-            this.lblTopTrackArtist1.Size = new System.Drawing.Size(144, 48);
+            this.lblTopTrackArtist1.Size = new System.Drawing.Size(143, 48);
             this.lblTopTrackArtist1.TabIndex = 39;
             this.lblTopTrackArtist1.Text = "(Unavailable)";
             this.lblTopTrackArtist1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopTrackArtist1.UseMnemonic = false;
             this.lblTopTrackArtist1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartTrackArtistClick);
             // 
             // lblTopTrackTitle1
@@ -5093,10 +5276,11 @@ namespace Audiograph
             this.lblTopTrackTitle1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblTopTrackTitle1.Location = new System.Drawing.Point(79, 22);
             this.lblTopTrackTitle1.Name = "lblTopTrackTitle1";
-            this.lblTopTrackTitle1.Size = new System.Drawing.Size(144, 48);
+            this.lblTopTrackTitle1.Size = new System.Drawing.Size(143, 48);
             this.lblTopTrackTitle1.TabIndex = 38;
             this.lblTopTrackTitle1.Text = "(Unavailable)";
             this.lblTopTrackTitle1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTopTrackTitle1.UseMnemonic = false;
             this.lblTopTrackTitle1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChartTrackTrackClick);
             // 
             // Label6
@@ -5108,6 +5292,7 @@ namespace Audiograph
             this.Label6.TabIndex = 37;
             this.Label6.Text = "1";
             this.Label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label6.UseMnemonic = false;
             // 
             // Label3
             // 
@@ -5118,6 +5303,7 @@ namespace Audiograph
             this.Label3.TabIndex = 33;
             this.Label3.Text = "Art";
             this.Label3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Label3.UseMnemonic = false;
             // 
             // picTrack1
             // 
@@ -5143,36 +5329,40 @@ namespace Audiograph
             this.Label4.TabIndex = 32;
             this.Label4.Text = "#";
             this.Label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label4.UseMnemonic = false;
             // 
             // Label5
             // 
             this.Label5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Label5.Location = new System.Drawing.Point(79, 1);
             this.Label5.Name = "Label5";
-            this.Label5.Size = new System.Drawing.Size(144, 20);
+            this.Label5.Size = new System.Drawing.Size(143, 20);
             this.Label5.TabIndex = 34;
             this.Label5.Text = "Title";
             this.Label5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Label5.UseMnemonic = false;
             // 
             // Label20
             // 
             this.Label20.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Label20.Location = new System.Drawing.Point(230, 1);
+            this.Label20.Location = new System.Drawing.Point(229, 1);
             this.Label20.Name = "Label20";
-            this.Label20.Size = new System.Drawing.Size(144, 20);
+            this.Label20.Size = new System.Drawing.Size(143, 20);
             this.Label20.TabIndex = 35;
             this.Label20.Text = "Artist";
             this.Label20.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Label20.UseMnemonic = false;
             // 
             // Label22
             // 
             this.Label22.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Label22.Location = new System.Drawing.Point(381, 1);
+            this.Label22.Location = new System.Drawing.Point(379, 1);
             this.Label22.Name = "Label22";
-            this.Label22.Size = new System.Drawing.Size(144, 20);
+            this.Label22.Size = new System.Drawing.Size(143, 20);
             this.Label22.TabIndex = 36;
             this.Label22.Text = "Album";
             this.Label22.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Label22.UseMnemonic = false;
             // 
             // pgSearch
             // 
@@ -5493,6 +5683,7 @@ namespace Audiograph
             this.Label32.TabIndex = 20;
             this.Label32.Text = "Tag:";
             this.Label32.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Label32.UseMnemonic = false;
             // 
             // pgTrack
             // 
@@ -5549,6 +5740,7 @@ namespace Audiograph
             this.lblTrackArtist.TabIndex = 12;
             this.lblTrackArtist.Text = "Artist:";
             this.lblTrackArtist.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTrackArtist.UseMnemonic = false;
             // 
             // txtTrackTitle
             // 
@@ -5565,6 +5757,7 @@ namespace Audiograph
             this.lblTrackTitle.TabIndex = 10;
             this.lblTrackTitle.Text = "Title:";
             this.lblTrackTitle.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTrackTitle.UseMnemonic = false;
             // 
             // Panel5
             // 
@@ -5742,6 +5935,7 @@ namespace Audiograph
             this.lblTrackAuthWarning.Size = new System.Drawing.Size(199, 26);
             this.lblTrackAuthWarning.TabIndex = 0;
             this.lblTrackAuthWarning.Text = "Your user account must be authenticated to use these features.";
+            this.lblTrackAuthWarning.UseMnemonic = false;
             // 
             // tlpTrackUser
             // 
@@ -5789,6 +5983,7 @@ namespace Audiograph
             this.lblTrackLove.Size = new System.Drawing.Size(34, 13);
             this.lblTrackLove.TabIndex = 0;
             this.lblTrackLove.Text = "Love:";
+            this.lblTrackLove.UseMnemonic = false;
             // 
             // Panel3
             // 
@@ -5838,6 +6033,7 @@ namespace Audiograph
             this.lblTrackTags.Size = new System.Drawing.Size(34, 13);
             this.lblTrackTags.TabIndex = 0;
             this.lblTrackTags.Text = "Tags:";
+            this.lblTrackTags.UseMnemonic = false;
             // 
             // lstTrackUserTags
             // 
@@ -6009,6 +6205,7 @@ namespace Audiograph
             this.lblArtistAuthWarning.Size = new System.Drawing.Size(199, 26);
             this.lblArtistAuthWarning.TabIndex = 0;
             this.lblArtistAuthWarning.Text = "Your user account must be authenticated to use these features.";
+            this.lblArtistAuthWarning.UseMnemonic = false;
             // 
             // DbLayoutPanel10
             // 
@@ -6074,6 +6271,7 @@ namespace Audiograph
             this.lblArtistTags.Size = new System.Drawing.Size(34, 13);
             this.lblArtistTags.TabIndex = 0;
             this.lblArtistTags.Text = "Tags:";
+            this.lblArtistTags.UseMnemonic = false;
             // 
             // lstArtistUserTags
             // 
@@ -6258,6 +6456,7 @@ namespace Audiograph
             this.lblArtistTopTrackTitle20.TabIndex = 62;
             this.lblArtistTopTrackTitle20.Text = "(Unavailable)";
             this.lblArtistTopTrackTitle20.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblArtistTopTrackTitle20.UseMnemonic = false;
             this.lblArtistTopTrackTitle20.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ArtistTopTrackClick);
             // 
             // lblArtistTopTrackListeners20
@@ -6270,6 +6469,7 @@ namespace Audiograph
             this.lblArtistTopTrackListeners20.TabIndex = 61;
             this.lblArtistTopTrackListeners20.Text = "(Unavailable)";
             this.lblArtistTopTrackListeners20.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblArtistTopTrackListeners20.UseMnemonic = false;
             // 
             // Label157
             // 
@@ -6281,6 +6481,7 @@ namespace Audiograph
             this.Label157.TabIndex = 60;
             this.Label157.Text = "20";
             this.Label157.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label157.UseMnemonic = false;
             // 
             // lblArtistTopTrackTitle19
             // 
@@ -6293,6 +6494,7 @@ namespace Audiograph
             this.lblArtistTopTrackTitle19.TabIndex = 59;
             this.lblArtistTopTrackTitle19.Text = "(Unavailable)";
             this.lblArtistTopTrackTitle19.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblArtistTopTrackTitle19.UseMnemonic = false;
             this.lblArtistTopTrackTitle19.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ArtistTopTrackClick);
             // 
             // lblArtistTopTrackListeners19
@@ -6305,6 +6507,7 @@ namespace Audiograph
             this.lblArtistTopTrackListeners19.TabIndex = 58;
             this.lblArtistTopTrackListeners19.Text = "(Unavailable)";
             this.lblArtistTopTrackListeners19.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblArtistTopTrackListeners19.UseMnemonic = false;
             // 
             // Label152
             // 
@@ -6316,6 +6519,7 @@ namespace Audiograph
             this.Label152.TabIndex = 57;
             this.Label152.Text = "19";
             this.Label152.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label152.UseMnemonic = false;
             // 
             // lblArtistTopTrackTitle18
             // 
@@ -6328,6 +6532,7 @@ namespace Audiograph
             this.lblArtistTopTrackTitle18.TabIndex = 56;
             this.lblArtistTopTrackTitle18.Text = "(Unavailable)";
             this.lblArtistTopTrackTitle18.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblArtistTopTrackTitle18.UseMnemonic = false;
             this.lblArtistTopTrackTitle18.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ArtistTopTrackClick);
             // 
             // lblArtistTopTrackListeners18
@@ -6340,6 +6545,7 @@ namespace Audiograph
             this.lblArtistTopTrackListeners18.TabIndex = 55;
             this.lblArtistTopTrackListeners18.Text = "(Unavailable)";
             this.lblArtistTopTrackListeners18.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblArtistTopTrackListeners18.UseMnemonic = false;
             // 
             // Label145
             // 
@@ -6351,6 +6557,7 @@ namespace Audiograph
             this.Label145.TabIndex = 54;
             this.Label145.Text = "18";
             this.Label145.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label145.UseMnemonic = false;
             // 
             // lblArtistTopTrackTitle17
             // 
@@ -6363,6 +6570,7 @@ namespace Audiograph
             this.lblArtistTopTrackTitle17.TabIndex = 53;
             this.lblArtistTopTrackTitle17.Text = "(Unavailable)";
             this.lblArtistTopTrackTitle17.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblArtistTopTrackTitle17.UseMnemonic = false;
             this.lblArtistTopTrackTitle17.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ArtistTopTrackClick);
             // 
             // lblArtistTopTrackListeners17
@@ -6375,6 +6583,7 @@ namespace Audiograph
             this.lblArtistTopTrackListeners17.TabIndex = 52;
             this.lblArtistTopTrackListeners17.Text = "(Unavailable)";
             this.lblArtistTopTrackListeners17.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblArtistTopTrackListeners17.UseMnemonic = false;
             // 
             // Label133
             // 
@@ -6386,6 +6595,7 @@ namespace Audiograph
             this.Label133.TabIndex = 51;
             this.Label133.Text = "17";
             this.Label133.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label133.UseMnemonic = false;
             // 
             // lblArtistTopTrackTitle16
             // 
@@ -6398,6 +6608,7 @@ namespace Audiograph
             this.lblArtistTopTrackTitle16.TabIndex = 50;
             this.lblArtistTopTrackTitle16.Text = "(Unavailable)";
             this.lblArtistTopTrackTitle16.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblArtistTopTrackTitle16.UseMnemonic = false;
             this.lblArtistTopTrackTitle16.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ArtistTopTrackClick);
             // 
             // lblArtistTopTrackListeners16
@@ -6410,6 +6621,7 @@ namespace Audiograph
             this.lblArtistTopTrackListeners16.TabIndex = 49;
             this.lblArtistTopTrackListeners16.Text = "(Unavailable)";
             this.lblArtistTopTrackListeners16.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblArtistTopTrackListeners16.UseMnemonic = false;
             // 
             // Label123
             // 
@@ -6421,6 +6633,7 @@ namespace Audiograph
             this.Label123.TabIndex = 48;
             this.Label123.Text = "16";
             this.Label123.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label123.UseMnemonic = false;
             // 
             // lblArtistTopTrackTitle15
             // 
@@ -6433,6 +6646,7 @@ namespace Audiograph
             this.lblArtistTopTrackTitle15.TabIndex = 47;
             this.lblArtistTopTrackTitle15.Text = "(Unavailable)";
             this.lblArtistTopTrackTitle15.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblArtistTopTrackTitle15.UseMnemonic = false;
             this.lblArtistTopTrackTitle15.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ArtistTopTrackClick);
             // 
             // lblArtistTopTrackListeners15
@@ -6445,6 +6659,7 @@ namespace Audiograph
             this.lblArtistTopTrackListeners15.TabIndex = 46;
             this.lblArtistTopTrackListeners15.Text = "(Unavailable)";
             this.lblArtistTopTrackListeners15.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblArtistTopTrackListeners15.UseMnemonic = false;
             // 
             // Label113
             // 
@@ -6456,6 +6671,7 @@ namespace Audiograph
             this.Label113.TabIndex = 45;
             this.Label113.Text = "15";
             this.Label113.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label113.UseMnemonic = false;
             // 
             // lblArtistTopTrackTitle14
             // 
@@ -6468,6 +6684,7 @@ namespace Audiograph
             this.lblArtistTopTrackTitle14.TabIndex = 44;
             this.lblArtistTopTrackTitle14.Text = "(Unavailable)";
             this.lblArtistTopTrackTitle14.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblArtistTopTrackTitle14.UseMnemonic = false;
             this.lblArtistTopTrackTitle14.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ArtistTopTrackClick);
             // 
             // lblArtistTopTrackListeners14
@@ -6480,6 +6697,7 @@ namespace Audiograph
             this.lblArtistTopTrackListeners14.TabIndex = 43;
             this.lblArtistTopTrackListeners14.Text = "(Unavailable)";
             this.lblArtistTopTrackListeners14.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblArtistTopTrackListeners14.UseMnemonic = false;
             // 
             // Label107
             // 
@@ -6491,6 +6709,7 @@ namespace Audiograph
             this.Label107.TabIndex = 42;
             this.Label107.Text = "14";
             this.Label107.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label107.UseMnemonic = false;
             // 
             // lblArtistTopTrackTitle13
             // 
@@ -6503,6 +6722,7 @@ namespace Audiograph
             this.lblArtistTopTrackTitle13.TabIndex = 41;
             this.lblArtistTopTrackTitle13.Text = "(Unavailable)";
             this.lblArtistTopTrackTitle13.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblArtistTopTrackTitle13.UseMnemonic = false;
             this.lblArtistTopTrackTitle13.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ArtistTopTrackClick);
             // 
             // lblArtistTopTrackListeners13
@@ -6515,6 +6735,7 @@ namespace Audiograph
             this.lblArtistTopTrackListeners13.TabIndex = 40;
             this.lblArtistTopTrackListeners13.Text = "(Unavailable)";
             this.lblArtistTopTrackListeners13.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblArtistTopTrackListeners13.UseMnemonic = false;
             // 
             // Label102
             // 
@@ -6526,6 +6747,7 @@ namespace Audiograph
             this.Label102.TabIndex = 39;
             this.Label102.Text = "13";
             this.Label102.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label102.UseMnemonic = false;
             // 
             // lblArtistTopTrackTitle12
             // 
@@ -6538,6 +6760,7 @@ namespace Audiograph
             this.lblArtistTopTrackTitle12.TabIndex = 38;
             this.lblArtistTopTrackTitle12.Text = "(Unavailable)";
             this.lblArtistTopTrackTitle12.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblArtistTopTrackTitle12.UseMnemonic = false;
             this.lblArtistTopTrackTitle12.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ArtistTopTrackClick);
             // 
             // lblArtistTopTrackListeners12
@@ -6550,6 +6773,7 @@ namespace Audiograph
             this.lblArtistTopTrackListeners12.TabIndex = 37;
             this.lblArtistTopTrackListeners12.Text = "(Unavailable)";
             this.lblArtistTopTrackListeners12.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblArtistTopTrackListeners12.UseMnemonic = false;
             // 
             // Label97
             // 
@@ -6561,6 +6785,7 @@ namespace Audiograph
             this.Label97.TabIndex = 36;
             this.Label97.Text = "12";
             this.Label97.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label97.UseMnemonic = false;
             // 
             // lblArtistTopTrackTitle11
             // 
@@ -6573,6 +6798,7 @@ namespace Audiograph
             this.lblArtistTopTrackTitle11.TabIndex = 35;
             this.lblArtistTopTrackTitle11.Text = "(Unavailable)";
             this.lblArtistTopTrackTitle11.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblArtistTopTrackTitle11.UseMnemonic = false;
             this.lblArtistTopTrackTitle11.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ArtistTopTrackClick);
             // 
             // lblArtistTopTrackListeners11
@@ -6585,6 +6811,7 @@ namespace Audiograph
             this.lblArtistTopTrackListeners11.TabIndex = 34;
             this.lblArtistTopTrackListeners11.Text = "(Unavailable)";
             this.lblArtistTopTrackListeners11.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblArtistTopTrackListeners11.UseMnemonic = false;
             // 
             // Label90
             // 
@@ -6596,6 +6823,7 @@ namespace Audiograph
             this.Label90.TabIndex = 33;
             this.Label90.Text = "11";
             this.Label90.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label90.UseMnemonic = false;
             // 
             // lblArtistTopTrackTitle10
             // 
@@ -6608,6 +6836,7 @@ namespace Audiograph
             this.lblArtistTopTrackTitle10.TabIndex = 32;
             this.lblArtistTopTrackTitle10.Text = "(Unavailable)";
             this.lblArtistTopTrackTitle10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblArtistTopTrackTitle10.UseMnemonic = false;
             this.lblArtistTopTrackTitle10.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ArtistTopTrackClick);
             // 
             // lblArtistTopTrackListeners10
@@ -6620,6 +6849,7 @@ namespace Audiograph
             this.lblArtistTopTrackListeners10.TabIndex = 31;
             this.lblArtistTopTrackListeners10.Text = "(Unavailable)";
             this.lblArtistTopTrackListeners10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblArtistTopTrackListeners10.UseMnemonic = false;
             // 
             // Label83
             // 
@@ -6631,6 +6861,7 @@ namespace Audiograph
             this.Label83.TabIndex = 30;
             this.Label83.Text = "10";
             this.Label83.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label83.UseMnemonic = false;
             // 
             // lblArtistTopTrackTitle9
             // 
@@ -6643,6 +6874,7 @@ namespace Audiograph
             this.lblArtistTopTrackTitle9.TabIndex = 29;
             this.lblArtistTopTrackTitle9.Text = "(Unavailable)";
             this.lblArtistTopTrackTitle9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblArtistTopTrackTitle9.UseMnemonic = false;
             this.lblArtistTopTrackTitle9.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ArtistTopTrackClick);
             // 
             // lblArtistTopTrackListeners9
@@ -6655,6 +6887,7 @@ namespace Audiograph
             this.lblArtistTopTrackListeners9.TabIndex = 28;
             this.lblArtistTopTrackListeners9.Text = "(Unavailable)";
             this.lblArtistTopTrackListeners9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblArtistTopTrackListeners9.UseMnemonic = false;
             // 
             // Label76
             // 
@@ -6666,6 +6899,7 @@ namespace Audiograph
             this.Label76.TabIndex = 27;
             this.Label76.Text = "9";
             this.Label76.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label76.UseMnemonic = false;
             // 
             // lblArtistTopTrackTitle8
             // 
@@ -6678,6 +6912,7 @@ namespace Audiograph
             this.lblArtistTopTrackTitle8.TabIndex = 26;
             this.lblArtistTopTrackTitle8.Text = "(Unavailable)";
             this.lblArtistTopTrackTitle8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblArtistTopTrackTitle8.UseMnemonic = false;
             this.lblArtistTopTrackTitle8.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ArtistTopTrackClick);
             // 
             // lblArtistTopTrackListeners8
@@ -6690,6 +6925,7 @@ namespace Audiograph
             this.lblArtistTopTrackListeners8.TabIndex = 25;
             this.lblArtistTopTrackListeners8.Text = "(Unavailable)";
             this.lblArtistTopTrackListeners8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblArtistTopTrackListeners8.UseMnemonic = false;
             // 
             // Label68
             // 
@@ -6701,6 +6937,7 @@ namespace Audiograph
             this.Label68.TabIndex = 24;
             this.Label68.Text = "8";
             this.Label68.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label68.UseMnemonic = false;
             // 
             // lblArtistTopTrackTitle7
             // 
@@ -6713,6 +6950,7 @@ namespace Audiograph
             this.lblArtistTopTrackTitle7.TabIndex = 23;
             this.lblArtistTopTrackTitle7.Text = "(Unavailable)";
             this.lblArtistTopTrackTitle7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblArtistTopTrackTitle7.UseMnemonic = false;
             this.lblArtistTopTrackTitle7.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ArtistTopTrackClick);
             // 
             // lblArtistTopTrackListeners7
@@ -6725,6 +6963,7 @@ namespace Audiograph
             this.lblArtistTopTrackListeners7.TabIndex = 22;
             this.lblArtistTopTrackListeners7.Text = "(Unavailable)";
             this.lblArtistTopTrackListeners7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblArtistTopTrackListeners7.UseMnemonic = false;
             // 
             // Label62
             // 
@@ -6736,6 +6975,7 @@ namespace Audiograph
             this.Label62.TabIndex = 21;
             this.Label62.Text = "7";
             this.Label62.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label62.UseMnemonic = false;
             // 
             // lblArtistTopTrackTitle6
             // 
@@ -6748,6 +6988,7 @@ namespace Audiograph
             this.lblArtistTopTrackTitle6.TabIndex = 20;
             this.lblArtistTopTrackTitle6.Text = "(Unavailable)";
             this.lblArtistTopTrackTitle6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblArtistTopTrackTitle6.UseMnemonic = false;
             this.lblArtistTopTrackTitle6.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ArtistTopTrackClick);
             // 
             // lblArtistTopTrackListeners6
@@ -6760,6 +7001,7 @@ namespace Audiograph
             this.lblArtistTopTrackListeners6.TabIndex = 19;
             this.lblArtistTopTrackListeners6.Text = "(Unavailable)";
             this.lblArtistTopTrackListeners6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblArtistTopTrackListeners6.UseMnemonic = false;
             // 
             // Label55
             // 
@@ -6771,6 +7013,7 @@ namespace Audiograph
             this.Label55.TabIndex = 18;
             this.Label55.Text = "6";
             this.Label55.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label55.UseMnemonic = false;
             // 
             // lblArtistTopTrackTitle5
             // 
@@ -6783,6 +7026,7 @@ namespace Audiograph
             this.lblArtistTopTrackTitle5.TabIndex = 17;
             this.lblArtistTopTrackTitle5.Text = "(Unavailable)";
             this.lblArtistTopTrackTitle5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblArtistTopTrackTitle5.UseMnemonic = false;
             this.lblArtistTopTrackTitle5.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ArtistTopTrackClick);
             // 
             // lblArtistTopTrackListeners5
@@ -6795,6 +7039,7 @@ namespace Audiograph
             this.lblArtistTopTrackListeners5.TabIndex = 16;
             this.lblArtistTopTrackListeners5.Text = "(Unavailable)";
             this.lblArtistTopTrackListeners5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblArtistTopTrackListeners5.UseMnemonic = false;
             // 
             // Label47
             // 
@@ -6806,6 +7051,7 @@ namespace Audiograph
             this.Label47.TabIndex = 15;
             this.Label47.Text = "5";
             this.Label47.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label47.UseMnemonic = false;
             // 
             // lblArtistTopTrackTitle4
             // 
@@ -6818,6 +7064,7 @@ namespace Audiograph
             this.lblArtistTopTrackTitle4.TabIndex = 14;
             this.lblArtistTopTrackTitle4.Text = "(Unavailable)";
             this.lblArtistTopTrackTitle4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblArtistTopTrackTitle4.UseMnemonic = false;
             this.lblArtistTopTrackTitle4.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ArtistTopTrackClick);
             // 
             // lblArtistTopTrackListeners4
@@ -6830,6 +7077,7 @@ namespace Audiograph
             this.lblArtistTopTrackListeners4.TabIndex = 13;
             this.lblArtistTopTrackListeners4.Text = "(Unavailable)";
             this.lblArtistTopTrackListeners4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblArtistTopTrackListeners4.UseMnemonic = false;
             // 
             // Label43
             // 
@@ -6841,6 +7089,7 @@ namespace Audiograph
             this.Label43.TabIndex = 12;
             this.Label43.Text = "4";
             this.Label43.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label43.UseMnemonic = false;
             // 
             // lblArtistTopTrackTitle3
             // 
@@ -6853,6 +7102,7 @@ namespace Audiograph
             this.lblArtistTopTrackTitle3.TabIndex = 11;
             this.lblArtistTopTrackTitle3.Text = "(Unavailable)";
             this.lblArtistTopTrackTitle3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblArtistTopTrackTitle3.UseMnemonic = false;
             this.lblArtistTopTrackTitle3.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ArtistTopTrackClick);
             // 
             // lblArtistTopTrackListeners3
@@ -6865,6 +7115,7 @@ namespace Audiograph
             this.lblArtistTopTrackListeners3.TabIndex = 10;
             this.lblArtistTopTrackListeners3.Text = "(Unavailable)";
             this.lblArtistTopTrackListeners3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblArtistTopTrackListeners3.UseMnemonic = false;
             // 
             // Label39
             // 
@@ -6876,6 +7127,7 @@ namespace Audiograph
             this.Label39.TabIndex = 9;
             this.Label39.Text = "3";
             this.Label39.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label39.UseMnemonic = false;
             // 
             // lblArtistTopTrackTitle2
             // 
@@ -6888,6 +7140,7 @@ namespace Audiograph
             this.lblArtistTopTrackTitle2.TabIndex = 8;
             this.lblArtistTopTrackTitle2.Text = "(Unavailable)";
             this.lblArtistTopTrackTitle2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblArtistTopTrackTitle2.UseMnemonic = false;
             this.lblArtistTopTrackTitle2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ArtistTopTrackClick);
             // 
             // lblArtistTopTrackListeners2
@@ -6900,6 +7153,7 @@ namespace Audiograph
             this.lblArtistTopTrackListeners2.TabIndex = 7;
             this.lblArtistTopTrackListeners2.Text = "(Unavailable)";
             this.lblArtistTopTrackListeners2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblArtistTopTrackListeners2.UseMnemonic = false;
             // 
             // Label35
             // 
@@ -6911,6 +7165,7 @@ namespace Audiograph
             this.Label35.TabIndex = 6;
             this.Label35.Text = "2";
             this.Label35.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label35.UseMnemonic = false;
             // 
             // lblArtistTopTrackListeners1
             // 
@@ -6922,6 +7177,7 @@ namespace Audiograph
             this.lblArtistTopTrackListeners1.TabIndex = 5;
             this.lblArtistTopTrackListeners1.Text = "(Unavailable)";
             this.lblArtistTopTrackListeners1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblArtistTopTrackListeners1.UseMnemonic = false;
             // 
             // lblArtistTopTrackTitle1
             // 
@@ -6934,6 +7190,7 @@ namespace Audiograph
             this.lblArtistTopTrackTitle1.TabIndex = 4;
             this.lblArtistTopTrackTitle1.Text = "(Unavailable)";
             this.lblArtistTopTrackTitle1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblArtistTopTrackTitle1.UseMnemonic = false;
             this.lblArtistTopTrackTitle1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ArtistTopTrackClick);
             // 
             // Label31
@@ -6946,6 +7203,7 @@ namespace Audiograph
             this.Label31.TabIndex = 3;
             this.Label31.Text = "1";
             this.Label31.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label31.UseMnemonic = false;
             // 
             // Label30
             // 
@@ -6957,6 +7215,7 @@ namespace Audiograph
             this.Label30.TabIndex = 2;
             this.Label30.Text = "Listeners";
             this.Label30.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Label30.UseMnemonic = false;
             // 
             // Label28
             // 
@@ -6968,6 +7227,7 @@ namespace Audiograph
             this.Label28.TabIndex = 1;
             this.Label28.Text = "Title";
             this.Label28.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Label28.UseMnemonic = false;
             // 
             // Label27
             // 
@@ -6979,6 +7239,7 @@ namespace Audiograph
             this.Label27.TabIndex = 0;
             this.Label27.Text = "#";
             this.Label27.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label27.UseMnemonic = false;
             // 
             // pgArtistTopAlbums
             // 
@@ -7063,6 +7324,7 @@ namespace Audiograph
             this.lblArtistTopAlbum10.TabIndex = 60;
             this.lblArtistTopAlbum10.Text = "(Unavailable)";
             this.lblArtistTopAlbum10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblArtistTopAlbum10.UseMnemonic = false;
             this.lblArtistTopAlbum10.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ArtistTopAlbumClick);
             // 
             // picArtistTopAlbum10
@@ -7089,6 +7351,7 @@ namespace Audiograph
             this.Label203.TabIndex = 58;
             this.Label203.Text = "10";
             this.Label203.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label203.UseMnemonic = false;
             // 
             // lblArtistTopAlbum9
             // 
@@ -7101,6 +7364,7 @@ namespace Audiograph
             this.lblArtistTopAlbum9.TabIndex = 57;
             this.lblArtistTopAlbum9.Text = "(Unavailable)";
             this.lblArtistTopAlbum9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblArtistTopAlbum9.UseMnemonic = false;
             this.lblArtistTopAlbum9.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ArtistTopAlbumClick);
             // 
             // picArtistTopAlbum9
@@ -7127,6 +7391,7 @@ namespace Audiograph
             this.Label201.TabIndex = 55;
             this.Label201.Text = "9";
             this.Label201.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label201.UseMnemonic = false;
             // 
             // lblArtistTopAlbum8
             // 
@@ -7139,6 +7404,7 @@ namespace Audiograph
             this.lblArtistTopAlbum8.TabIndex = 54;
             this.lblArtistTopAlbum8.Text = "(Unavailable)";
             this.lblArtistTopAlbum8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblArtistTopAlbum8.UseMnemonic = false;
             this.lblArtistTopAlbum8.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ArtistTopAlbumClick);
             // 
             // picArtistTopAlbum8
@@ -7165,6 +7431,7 @@ namespace Audiograph
             this.Label198.TabIndex = 52;
             this.Label198.Text = "8";
             this.Label198.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label198.UseMnemonic = false;
             // 
             // lblArtistTopAlbum7
             // 
@@ -7177,6 +7444,7 @@ namespace Audiograph
             this.lblArtistTopAlbum7.TabIndex = 51;
             this.lblArtistTopAlbum7.Text = "(Unavailable)";
             this.lblArtistTopAlbum7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblArtistTopAlbum7.UseMnemonic = false;
             this.lblArtistTopAlbum7.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ArtistTopAlbumClick);
             // 
             // picArtistTopAlbum7
@@ -7203,6 +7471,7 @@ namespace Audiograph
             this.Label195.TabIndex = 49;
             this.Label195.Text = "7";
             this.Label195.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label195.UseMnemonic = false;
             // 
             // lblArtistTopAlbum6
             // 
@@ -7215,6 +7484,7 @@ namespace Audiograph
             this.lblArtistTopAlbum6.TabIndex = 48;
             this.lblArtistTopAlbum6.Text = "(Unavailable)";
             this.lblArtistTopAlbum6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblArtistTopAlbum6.UseMnemonic = false;
             this.lblArtistTopAlbum6.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ArtistTopAlbumClick);
             // 
             // picArtistTopAlbum6
@@ -7241,6 +7511,7 @@ namespace Audiograph
             this.Label185.TabIndex = 46;
             this.Label185.Text = "6";
             this.Label185.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label185.UseMnemonic = false;
             // 
             // lblArtistTopAlbum5
             // 
@@ -7253,6 +7524,7 @@ namespace Audiograph
             this.lblArtistTopAlbum5.TabIndex = 45;
             this.lblArtistTopAlbum5.Text = "(Unavailable)";
             this.lblArtistTopAlbum5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblArtistTopAlbum5.UseMnemonic = false;
             this.lblArtistTopAlbum5.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ArtistTopAlbumClick);
             // 
             // picArtistTopAlbum5
@@ -7279,6 +7551,7 @@ namespace Audiograph
             this.Label181.TabIndex = 43;
             this.Label181.Text = "5";
             this.Label181.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label181.UseMnemonic = false;
             // 
             // lblArtistTopAlbum4
             // 
@@ -7291,6 +7564,7 @@ namespace Audiograph
             this.lblArtistTopAlbum4.TabIndex = 42;
             this.lblArtistTopAlbum4.Text = "(Unavailable)";
             this.lblArtistTopAlbum4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblArtistTopAlbum4.UseMnemonic = false;
             this.lblArtistTopAlbum4.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ArtistTopAlbumClick);
             // 
             // picArtistTopAlbum4
@@ -7317,6 +7591,7 @@ namespace Audiograph
             this.Label179.TabIndex = 40;
             this.Label179.Text = "4";
             this.Label179.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label179.UseMnemonic = false;
             // 
             // lblArtistTopAlbum3
             // 
@@ -7329,6 +7604,7 @@ namespace Audiograph
             this.lblArtistTopAlbum3.TabIndex = 39;
             this.lblArtistTopAlbum3.Text = "(Unavailable)";
             this.lblArtistTopAlbum3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblArtistTopAlbum3.UseMnemonic = false;
             this.lblArtistTopAlbum3.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ArtistTopAlbumClick);
             // 
             // picArtistTopAlbum3
@@ -7355,6 +7631,7 @@ namespace Audiograph
             this.Label176.TabIndex = 37;
             this.Label176.Text = "3";
             this.Label176.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label176.UseMnemonic = false;
             // 
             // lblArtistTopAlbum2
             // 
@@ -7367,6 +7644,7 @@ namespace Audiograph
             this.lblArtistTopAlbum2.TabIndex = 36;
             this.lblArtistTopAlbum2.Text = "(Unavailable)";
             this.lblArtistTopAlbum2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblArtistTopAlbum2.UseMnemonic = false;
             this.lblArtistTopAlbum2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ArtistTopAlbumClick);
             // 
             // picArtistTopAlbum2
@@ -7393,6 +7671,7 @@ namespace Audiograph
             this.Label173.TabIndex = 34;
             this.Label173.Text = "2";
             this.Label173.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label173.UseMnemonic = false;
             // 
             // lblArtistTopAlbum1
             // 
@@ -7405,6 +7684,7 @@ namespace Audiograph
             this.lblArtistTopAlbum1.TabIndex = 33;
             this.lblArtistTopAlbum1.Text = "(Unavailable)";
             this.lblArtistTopAlbum1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblArtistTopAlbum1.UseMnemonic = false;
             this.lblArtistTopAlbum1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ArtistTopAlbumClick);
             // 
             // picArtistTopAlbum1
@@ -7431,6 +7711,7 @@ namespace Audiograph
             this.Label171.TabIndex = 4;
             this.Label171.Text = "1";
             this.Label171.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label171.UseMnemonic = false;
             // 
             // Label169
             // 
@@ -7442,6 +7723,7 @@ namespace Audiograph
             this.Label169.TabIndex = 3;
             this.Label169.Text = "Album";
             this.Label169.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Label169.UseMnemonic = false;
             // 
             // Label168
             // 
@@ -7453,6 +7735,7 @@ namespace Audiograph
             this.Label168.TabIndex = 2;
             this.Label168.Text = "Art";
             this.Label168.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Label168.UseMnemonic = false;
             // 
             // Label167
             // 
@@ -7464,6 +7747,7 @@ namespace Audiograph
             this.Label167.TabIndex = 1;
             this.Label167.Text = "#";
             this.Label167.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label167.UseMnemonic = false;
             // 
             // txtArtistInfo
             // 
@@ -7555,6 +7839,7 @@ namespace Audiograph
             this.Label1.TabIndex = 17;
             this.Label1.Text = "Artist:";
             this.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Label1.UseMnemonic = false;
             // 
             // pgAlbum
             // 
@@ -7622,6 +7907,7 @@ namespace Audiograph
             this.Label24.TabIndex = 18;
             this.Label24.Text = "Artist:";
             this.Label24.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Label24.UseMnemonic = false;
             // 
             // txtAlbumTitle
             // 
@@ -7638,6 +7924,7 @@ namespace Audiograph
             this.Label26.TabIndex = 16;
             this.Label26.Text = "Album:";
             this.Label26.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Label26.UseMnemonic = false;
             // 
             // tlpAlbum
             // 
@@ -7732,6 +8019,7 @@ namespace Audiograph
             this.lblAlbumAuthWarning.Size = new System.Drawing.Size(199, 26);
             this.lblAlbumAuthWarning.TabIndex = 0;
             this.lblAlbumAuthWarning.Text = "Your user account must be authenticated to use these features.";
+            this.lblAlbumAuthWarning.UseMnemonic = false;
             // 
             // tlpAlbum2
             // 
@@ -7797,6 +8085,7 @@ namespace Audiograph
             this.lblAlbumTags.Size = new System.Drawing.Size(34, 13);
             this.lblAlbumTags.TabIndex = 0;
             this.lblAlbumTags.Text = "Tags:";
+            this.lblAlbumTags.UseMnemonic = false;
             // 
             // lstAlbumUserTags
             // 
@@ -7956,6 +8245,7 @@ namespace Audiograph
             this.lblUserTextBox.TabIndex = 8;
             this.lblUserTextBox.Text = "User:";
             this.lblUserTextBox.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTextBox.UseMnemonic = false;
             // 
             // lblUserStatus
             // 
@@ -7966,6 +8256,7 @@ namespace Audiograph
             this.lblUserStatus.TabIndex = 11;
             this.lblUserStatus.Text = "No User Set";
             this.lblUserStatus.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserStatus.UseMnemonic = false;
             // 
             // tlpUser
             // 
@@ -8028,6 +8319,7 @@ namespace Audiograph
             this.lblUserTo.Size = new System.Drawing.Size(23, 13);
             this.lblUserTo.TabIndex = 4;
             this.lblUserTo.Text = "To:";
+            this.lblUserTo.UseMnemonic = false;
             // 
             // dtpUserFrom
             // 
@@ -8262,6 +8554,7 @@ namespace Audiograph
             this.lblUserTopTrackPlaycount20.TabIndex = 156;
             this.lblUserTopTrackPlaycount20.Text = "(Unavailable)";
             this.lblUserTopTrackPlaycount20.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopTrackPlaycount20.UseMnemonic = false;
             // 
             // lblUserTopTrackPlaycount19
             // 
@@ -8272,6 +8565,7 @@ namespace Audiograph
             this.lblUserTopTrackPlaycount19.TabIndex = 155;
             this.lblUserTopTrackPlaycount19.Text = "(Unavailable)";
             this.lblUserTopTrackPlaycount19.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopTrackPlaycount19.UseMnemonic = false;
             // 
             // lblUserTopTrackPlaycount18
             // 
@@ -8282,6 +8576,7 @@ namespace Audiograph
             this.lblUserTopTrackPlaycount18.TabIndex = 154;
             this.lblUserTopTrackPlaycount18.Text = "(Unavailable)";
             this.lblUserTopTrackPlaycount18.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopTrackPlaycount18.UseMnemonic = false;
             // 
             // lblUserTopTrackPlaycount17
             // 
@@ -8292,6 +8587,7 @@ namespace Audiograph
             this.lblUserTopTrackPlaycount17.TabIndex = 153;
             this.lblUserTopTrackPlaycount17.Text = "(Unavailable)";
             this.lblUserTopTrackPlaycount17.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopTrackPlaycount17.UseMnemonic = false;
             // 
             // lblUserTopTrackPlaycount16
             // 
@@ -8302,6 +8598,7 @@ namespace Audiograph
             this.lblUserTopTrackPlaycount16.TabIndex = 152;
             this.lblUserTopTrackPlaycount16.Text = "(Unavailable)";
             this.lblUserTopTrackPlaycount16.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopTrackPlaycount16.UseMnemonic = false;
             // 
             // lblUserTopTrackPlaycount15
             // 
@@ -8312,6 +8609,7 @@ namespace Audiograph
             this.lblUserTopTrackPlaycount15.TabIndex = 151;
             this.lblUserTopTrackPlaycount15.Text = "(Unavailable)";
             this.lblUserTopTrackPlaycount15.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopTrackPlaycount15.UseMnemonic = false;
             // 
             // lblUserTopTrackPlaycount14
             // 
@@ -8322,6 +8620,7 @@ namespace Audiograph
             this.lblUserTopTrackPlaycount14.TabIndex = 150;
             this.lblUserTopTrackPlaycount14.Text = "(Unavailable)";
             this.lblUserTopTrackPlaycount14.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopTrackPlaycount14.UseMnemonic = false;
             // 
             // lblUserTopTrackPlaycount13
             // 
@@ -8332,6 +8631,7 @@ namespace Audiograph
             this.lblUserTopTrackPlaycount13.TabIndex = 149;
             this.lblUserTopTrackPlaycount13.Text = "(Unavailable)";
             this.lblUserTopTrackPlaycount13.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopTrackPlaycount13.UseMnemonic = false;
             // 
             // lblUserTopTrackPlaycount12
             // 
@@ -8342,6 +8642,7 @@ namespace Audiograph
             this.lblUserTopTrackPlaycount12.TabIndex = 148;
             this.lblUserTopTrackPlaycount12.Text = "(Unavailable)";
             this.lblUserTopTrackPlaycount12.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopTrackPlaycount12.UseMnemonic = false;
             // 
             // lblUserTopTrackPlaycount11
             // 
@@ -8352,6 +8653,7 @@ namespace Audiograph
             this.lblUserTopTrackPlaycount11.TabIndex = 147;
             this.lblUserTopTrackPlaycount11.Text = "(Unavailable)";
             this.lblUserTopTrackPlaycount11.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopTrackPlaycount11.UseMnemonic = false;
             // 
             // lblUserTopTrackPlaycount10
             // 
@@ -8362,6 +8664,7 @@ namespace Audiograph
             this.lblUserTopTrackPlaycount10.TabIndex = 146;
             this.lblUserTopTrackPlaycount10.Text = "(Unavailable)";
             this.lblUserTopTrackPlaycount10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopTrackPlaycount10.UseMnemonic = false;
             // 
             // lblUserTopTrackPlaycount9
             // 
@@ -8372,6 +8675,7 @@ namespace Audiograph
             this.lblUserTopTrackPlaycount9.TabIndex = 145;
             this.lblUserTopTrackPlaycount9.Text = "(Unavailable)";
             this.lblUserTopTrackPlaycount9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopTrackPlaycount9.UseMnemonic = false;
             // 
             // lblUserTopTrackPlaycount8
             // 
@@ -8382,6 +8686,7 @@ namespace Audiograph
             this.lblUserTopTrackPlaycount8.TabIndex = 144;
             this.lblUserTopTrackPlaycount8.Text = "(Unavailable)";
             this.lblUserTopTrackPlaycount8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopTrackPlaycount8.UseMnemonic = false;
             // 
             // lblUserTopTrackPlaycount7
             // 
@@ -8392,6 +8697,7 @@ namespace Audiograph
             this.lblUserTopTrackPlaycount7.TabIndex = 143;
             this.lblUserTopTrackPlaycount7.Text = "(Unavailable)";
             this.lblUserTopTrackPlaycount7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopTrackPlaycount7.UseMnemonic = false;
             // 
             // lblUserTopTrackPlaycount6
             // 
@@ -8402,6 +8708,7 @@ namespace Audiograph
             this.lblUserTopTrackPlaycount6.TabIndex = 142;
             this.lblUserTopTrackPlaycount6.Text = "(Unavailable)";
             this.lblUserTopTrackPlaycount6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopTrackPlaycount6.UseMnemonic = false;
             // 
             // lblUserTopTrackPlaycount5
             // 
@@ -8412,6 +8719,7 @@ namespace Audiograph
             this.lblUserTopTrackPlaycount5.TabIndex = 141;
             this.lblUserTopTrackPlaycount5.Text = "(Unavailable)";
             this.lblUserTopTrackPlaycount5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopTrackPlaycount5.UseMnemonic = false;
             // 
             // lblUserTopTrackPlaycount4
             // 
@@ -8422,6 +8730,7 @@ namespace Audiograph
             this.lblUserTopTrackPlaycount4.TabIndex = 140;
             this.lblUserTopTrackPlaycount4.Text = "(Unavailable)";
             this.lblUserTopTrackPlaycount4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopTrackPlaycount4.UseMnemonic = false;
             // 
             // lblUserTopTrackPlaycount3
             // 
@@ -8432,6 +8741,7 @@ namespace Audiograph
             this.lblUserTopTrackPlaycount3.TabIndex = 139;
             this.lblUserTopTrackPlaycount3.Text = "(Unavailable)";
             this.lblUserTopTrackPlaycount3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopTrackPlaycount3.UseMnemonic = false;
             // 
             // lblUserTopTrackPlaycount2
             // 
@@ -8442,6 +8752,7 @@ namespace Audiograph
             this.lblUserTopTrackPlaycount2.TabIndex = 138;
             this.lblUserTopTrackPlaycount2.Text = "(Unavailable)";
             this.lblUserTopTrackPlaycount2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopTrackPlaycount2.UseMnemonic = false;
             // 
             // lblUserTopTrackPlaycount1
             // 
@@ -8452,6 +8763,7 @@ namespace Audiograph
             this.lblUserTopTrackPlaycount1.TabIndex = 137;
             this.lblUserTopTrackPlaycount1.Text = "(Unavailable)";
             this.lblUserTopTrackPlaycount1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopTrackPlaycount1.UseMnemonic = false;
             // 
             // Label48
             // 
@@ -8462,6 +8774,7 @@ namespace Audiograph
             this.Label48.TabIndex = 136;
             this.Label48.Text = "Playcount";
             this.Label48.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Label48.UseMnemonic = false;
             // 
             // lblUserTopTrackAlbum20
             // 
@@ -8474,6 +8787,7 @@ namespace Audiograph
             this.lblUserTopTrackAlbum20.TabIndex = 135;
             this.lblUserTopTrackAlbum20.Text = "(Unavailable)";
             this.lblUserTopTrackAlbum20.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopTrackAlbum20.UseMnemonic = false;
             this.lblUserTopTrackAlbum20.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopTrackAlbumClicked);
             // 
             // cmsUserTopTracks
@@ -8548,6 +8862,7 @@ namespace Audiograph
             this.lblUserTopTrackArtist20.TabIndex = 134;
             this.lblUserTopTrackArtist20.Text = "(Unavailable)";
             this.lblUserTopTrackArtist20.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopTrackArtist20.UseMnemonic = false;
             this.lblUserTopTrackArtist20.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopTrackArtistClicked);
             // 
             // lblUserTopTrackTitle20
@@ -8561,6 +8876,7 @@ namespace Audiograph
             this.lblUserTopTrackTitle20.TabIndex = 133;
             this.lblUserTopTrackTitle20.Text = "(Unavailable)";
             this.lblUserTopTrackTitle20.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopTrackTitle20.UseMnemonic = false;
             this.lblUserTopTrackTitle20.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopTrackTrackClicked);
             // 
             // picUserTopTrackArt20
@@ -8588,6 +8904,7 @@ namespace Audiograph
             this.Label54.TabIndex = 131;
             this.Label54.Text = "20";
             this.Label54.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label54.UseMnemonic = false;
             // 
             // lblUserTopTrackAlbum19
             // 
@@ -8600,6 +8917,7 @@ namespace Audiograph
             this.lblUserTopTrackAlbum19.TabIndex = 130;
             this.lblUserTopTrackAlbum19.Text = "(Unavailable)";
             this.lblUserTopTrackAlbum19.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopTrackAlbum19.UseMnemonic = false;
             this.lblUserTopTrackAlbum19.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopTrackAlbumClicked);
             // 
             // lblUserTopTrackArtist19
@@ -8613,6 +8931,7 @@ namespace Audiograph
             this.lblUserTopTrackArtist19.TabIndex = 129;
             this.lblUserTopTrackArtist19.Text = "(Unavailable)";
             this.lblUserTopTrackArtist19.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopTrackArtist19.UseMnemonic = false;
             this.lblUserTopTrackArtist19.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopTrackArtistClicked);
             // 
             // lblUserTopTrackTitle19
@@ -8626,6 +8945,7 @@ namespace Audiograph
             this.lblUserTopTrackTitle19.TabIndex = 128;
             this.lblUserTopTrackTitle19.Text = "(Unavailable)";
             this.lblUserTopTrackTitle19.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopTrackTitle19.UseMnemonic = false;
             this.lblUserTopTrackTitle19.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopTrackTrackClicked);
             // 
             // picUserTopTrackArt19
@@ -8653,6 +8973,7 @@ namespace Audiograph
             this.Label59.TabIndex = 126;
             this.Label59.Text = "19";
             this.Label59.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label59.UseMnemonic = false;
             // 
             // lblUserTopTrackAlbum18
             // 
@@ -8665,6 +8986,7 @@ namespace Audiograph
             this.lblUserTopTrackAlbum18.TabIndex = 125;
             this.lblUserTopTrackAlbum18.Text = "(Unavailable)";
             this.lblUserTopTrackAlbum18.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopTrackAlbum18.UseMnemonic = false;
             this.lblUserTopTrackAlbum18.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopTrackAlbumClicked);
             // 
             // lblUserTopTrackArtist18
@@ -8678,6 +9000,7 @@ namespace Audiograph
             this.lblUserTopTrackArtist18.TabIndex = 124;
             this.lblUserTopTrackArtist18.Text = "(Unavailable)";
             this.lblUserTopTrackArtist18.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopTrackArtist18.UseMnemonic = false;
             this.lblUserTopTrackArtist18.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopTrackArtistClicked);
             // 
             // lblUserTopTrackTitle18
@@ -8691,6 +9014,7 @@ namespace Audiograph
             this.lblUserTopTrackTitle18.TabIndex = 123;
             this.lblUserTopTrackTitle18.Text = "(Unavailable)";
             this.lblUserTopTrackTitle18.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopTrackTitle18.UseMnemonic = false;
             this.lblUserTopTrackTitle18.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopTrackTrackClicked);
             // 
             // picUserTopTrackArt18
@@ -8718,6 +9042,7 @@ namespace Audiograph
             this.Label64.TabIndex = 121;
             this.Label64.Text = "18";
             this.Label64.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label64.UseMnemonic = false;
             // 
             // lblUserTopTrackAlbum17
             // 
@@ -8730,6 +9055,7 @@ namespace Audiograph
             this.lblUserTopTrackAlbum17.TabIndex = 120;
             this.lblUserTopTrackAlbum17.Text = "(Unavailable)";
             this.lblUserTopTrackAlbum17.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopTrackAlbum17.UseMnemonic = false;
             this.lblUserTopTrackAlbum17.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopTrackAlbumClicked);
             // 
             // lblUserTopTrackArtist17
@@ -8743,6 +9069,7 @@ namespace Audiograph
             this.lblUserTopTrackArtist17.TabIndex = 119;
             this.lblUserTopTrackArtist17.Text = "(Unavailable)";
             this.lblUserTopTrackArtist17.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopTrackArtist17.UseMnemonic = false;
             this.lblUserTopTrackArtist17.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopTrackArtistClicked);
             // 
             // lblUserTopTrackTitle17
@@ -8756,6 +9083,7 @@ namespace Audiograph
             this.lblUserTopTrackTitle17.TabIndex = 118;
             this.lblUserTopTrackTitle17.Text = "(Unavailable)";
             this.lblUserTopTrackTitle17.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopTrackTitle17.UseMnemonic = false;
             this.lblUserTopTrackTitle17.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopTrackTrackClicked);
             // 
             // picUserTopTrackArt17
@@ -8782,6 +9110,7 @@ namespace Audiograph
             this.Label70.TabIndex = 116;
             this.Label70.Text = "17";
             this.Label70.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label70.UseMnemonic = false;
             // 
             // lblUserTopTrackAlbum16
             // 
@@ -8794,6 +9123,7 @@ namespace Audiograph
             this.lblUserTopTrackAlbum16.TabIndex = 115;
             this.lblUserTopTrackAlbum16.Text = "(Unavailable)";
             this.lblUserTopTrackAlbum16.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopTrackAlbum16.UseMnemonic = false;
             this.lblUserTopTrackAlbum16.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopTrackAlbumClicked);
             // 
             // lblUserTopTrackArtist16
@@ -8807,6 +9137,7 @@ namespace Audiograph
             this.lblUserTopTrackArtist16.TabIndex = 114;
             this.lblUserTopTrackArtist16.Text = "(Unavailable)";
             this.lblUserTopTrackArtist16.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopTrackArtist16.UseMnemonic = false;
             this.lblUserTopTrackArtist16.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopTrackArtistClicked);
             // 
             // lblUserTopTrackTitle16
@@ -8820,6 +9151,7 @@ namespace Audiograph
             this.lblUserTopTrackTitle16.TabIndex = 113;
             this.lblUserTopTrackTitle16.Text = "(Unavailable)";
             this.lblUserTopTrackTitle16.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopTrackTitle16.UseMnemonic = false;
             this.lblUserTopTrackTitle16.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopTrackTrackClicked);
             // 
             // picUserTopTrackArt16
@@ -8847,6 +9179,7 @@ namespace Audiograph
             this.Label75.TabIndex = 111;
             this.Label75.Text = "16";
             this.Label75.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label75.UseMnemonic = false;
             // 
             // lblUserTopTrackAlbum15
             // 
@@ -8859,6 +9192,7 @@ namespace Audiograph
             this.lblUserTopTrackAlbum15.TabIndex = 110;
             this.lblUserTopTrackAlbum15.Text = "(Unavailable)";
             this.lblUserTopTrackAlbum15.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopTrackAlbum15.UseMnemonic = false;
             this.lblUserTopTrackAlbum15.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopTrackAlbumClicked);
             // 
             // lblUserTopTrackArtist15
@@ -8872,6 +9206,7 @@ namespace Audiograph
             this.lblUserTopTrackArtist15.TabIndex = 109;
             this.lblUserTopTrackArtist15.Text = "(Unavailable)";
             this.lblUserTopTrackArtist15.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopTrackArtist15.UseMnemonic = false;
             this.lblUserTopTrackArtist15.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopTrackArtistClicked);
             // 
             // lblUserTopTrackTitle15
@@ -8885,6 +9220,7 @@ namespace Audiograph
             this.lblUserTopTrackTitle15.TabIndex = 108;
             this.lblUserTopTrackTitle15.Text = "(Unavailable)";
             this.lblUserTopTrackTitle15.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopTrackTitle15.UseMnemonic = false;
             this.lblUserTopTrackTitle15.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopTrackTrackClicked);
             // 
             // picUserTopTrackArt15
@@ -8912,6 +9248,7 @@ namespace Audiograph
             this.Label80.TabIndex = 106;
             this.Label80.Text = "15";
             this.Label80.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label80.UseMnemonic = false;
             // 
             // lblUserTopTrackAlbum14
             // 
@@ -8924,6 +9261,7 @@ namespace Audiograph
             this.lblUserTopTrackAlbum14.TabIndex = 105;
             this.lblUserTopTrackAlbum14.Text = "(Unavailable)";
             this.lblUserTopTrackAlbum14.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopTrackAlbum14.UseMnemonic = false;
             this.lblUserTopTrackAlbum14.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopTrackAlbumClicked);
             // 
             // lblUserTopTrackArtist14
@@ -8937,6 +9275,7 @@ namespace Audiograph
             this.lblUserTopTrackArtist14.TabIndex = 104;
             this.lblUserTopTrackArtist14.Text = "(Unavailable)";
             this.lblUserTopTrackArtist14.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopTrackArtist14.UseMnemonic = false;
             this.lblUserTopTrackArtist14.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopTrackArtistClicked);
             // 
             // lblUserTopTrackTitle14
@@ -8950,6 +9289,7 @@ namespace Audiograph
             this.lblUserTopTrackTitle14.TabIndex = 103;
             this.lblUserTopTrackTitle14.Text = "(Unavailable)";
             this.lblUserTopTrackTitle14.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopTrackTitle14.UseMnemonic = false;
             this.lblUserTopTrackTitle14.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopTrackTrackClicked);
             // 
             // picUserTopTrackArt14
@@ -8977,6 +9317,7 @@ namespace Audiograph
             this.Label86.TabIndex = 101;
             this.Label86.Text = "14";
             this.Label86.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label86.UseMnemonic = false;
             // 
             // lblUserTopTrackAlbum13
             // 
@@ -8989,6 +9330,7 @@ namespace Audiograph
             this.lblUserTopTrackAlbum13.TabIndex = 100;
             this.lblUserTopTrackAlbum13.Text = "(Unavailable)";
             this.lblUserTopTrackAlbum13.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopTrackAlbum13.UseMnemonic = false;
             this.lblUserTopTrackAlbum13.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopTrackAlbumClicked);
             // 
             // lblUserTopTrackArtist13
@@ -9002,6 +9344,7 @@ namespace Audiograph
             this.lblUserTopTrackArtist13.TabIndex = 99;
             this.lblUserTopTrackArtist13.Text = "(Unavailable)";
             this.lblUserTopTrackArtist13.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopTrackArtist13.UseMnemonic = false;
             this.lblUserTopTrackArtist13.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopTrackArtistClicked);
             // 
             // lblUserTopTrackTitle13
@@ -9015,6 +9358,7 @@ namespace Audiograph
             this.lblUserTopTrackTitle13.TabIndex = 98;
             this.lblUserTopTrackTitle13.Text = "(Unavailable)";
             this.lblUserTopTrackTitle13.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopTrackTitle13.UseMnemonic = false;
             this.lblUserTopTrackTitle13.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopTrackTrackClicked);
             // 
             // picUserTopTrackArt13
@@ -9042,6 +9386,7 @@ namespace Audiograph
             this.Label91.TabIndex = 96;
             this.Label91.Text = "13";
             this.Label91.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label91.UseMnemonic = false;
             // 
             // lblUserTopTrackAlbum12
             // 
@@ -9054,6 +9399,7 @@ namespace Audiograph
             this.lblUserTopTrackAlbum12.TabIndex = 95;
             this.lblUserTopTrackAlbum12.Text = "(Unavailable)";
             this.lblUserTopTrackAlbum12.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopTrackAlbum12.UseMnemonic = false;
             this.lblUserTopTrackAlbum12.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopTrackAlbumClicked);
             // 
             // lblUserTopTrackArtist12
@@ -9067,6 +9413,7 @@ namespace Audiograph
             this.lblUserTopTrackArtist12.TabIndex = 94;
             this.lblUserTopTrackArtist12.Text = "(Unavailable)";
             this.lblUserTopTrackArtist12.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopTrackArtist12.UseMnemonic = false;
             this.lblUserTopTrackArtist12.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopTrackArtistClicked);
             // 
             // lblUserTopTrackTitle12
@@ -9080,6 +9427,7 @@ namespace Audiograph
             this.lblUserTopTrackTitle12.TabIndex = 93;
             this.lblUserTopTrackTitle12.Text = "(Unavailable)";
             this.lblUserTopTrackTitle12.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopTrackTitle12.UseMnemonic = false;
             this.lblUserTopTrackTitle12.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopTrackTrackClicked);
             // 
             // picUserTopTrackArt12
@@ -9107,6 +9455,7 @@ namespace Audiograph
             this.Label96.TabIndex = 91;
             this.Label96.Text = "12";
             this.Label96.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label96.UseMnemonic = false;
             // 
             // lblUserTopTrackAlbum11
             // 
@@ -9119,6 +9468,7 @@ namespace Audiograph
             this.lblUserTopTrackAlbum11.TabIndex = 90;
             this.lblUserTopTrackAlbum11.Text = "(Unavailable)";
             this.lblUserTopTrackAlbum11.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopTrackAlbum11.UseMnemonic = false;
             this.lblUserTopTrackAlbum11.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopTrackAlbumClicked);
             // 
             // lblUserTopTrackArtist11
@@ -9132,6 +9482,7 @@ namespace Audiograph
             this.lblUserTopTrackArtist11.TabIndex = 89;
             this.lblUserTopTrackArtist11.Text = "(Unavailable)";
             this.lblUserTopTrackArtist11.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopTrackArtist11.UseMnemonic = false;
             this.lblUserTopTrackArtist11.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopTrackArtistClicked);
             // 
             // lblUserTopTrackTitle11
@@ -9145,6 +9496,7 @@ namespace Audiograph
             this.lblUserTopTrackTitle11.TabIndex = 88;
             this.lblUserTopTrackTitle11.Text = "(Unavailable)";
             this.lblUserTopTrackTitle11.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopTrackTitle11.UseMnemonic = false;
             this.lblUserTopTrackTitle11.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopTrackTrackClicked);
             // 
             // picUserTopTrackArt11
@@ -9172,6 +9524,7 @@ namespace Audiograph
             this.Label100.TabIndex = 86;
             this.Label100.Text = "11";
             this.Label100.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label100.UseMnemonic = false;
             // 
             // lblUserTopTrackAlbum10
             // 
@@ -9184,6 +9537,7 @@ namespace Audiograph
             this.lblUserTopTrackAlbum10.TabIndex = 85;
             this.lblUserTopTrackAlbum10.Text = "(Unavailable)";
             this.lblUserTopTrackAlbum10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopTrackAlbum10.UseMnemonic = false;
             this.lblUserTopTrackAlbum10.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopTrackAlbumClicked);
             // 
             // lblUserTopTrackArtist10
@@ -9197,6 +9551,7 @@ namespace Audiograph
             this.lblUserTopTrackArtist10.TabIndex = 84;
             this.lblUserTopTrackArtist10.Text = "(Unavailable)";
             this.lblUserTopTrackArtist10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopTrackArtist10.UseMnemonic = false;
             this.lblUserTopTrackArtist10.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopTrackArtistClicked);
             // 
             // lblUserTopTrackTitle10
@@ -9210,6 +9565,7 @@ namespace Audiograph
             this.lblUserTopTrackTitle10.TabIndex = 83;
             this.lblUserTopTrackTitle10.Text = "(Unavailable)";
             this.lblUserTopTrackTitle10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopTrackTitle10.UseMnemonic = false;
             this.lblUserTopTrackTitle10.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopTrackTrackClicked);
             // 
             // picUserTopTrackArt10
@@ -9237,6 +9593,7 @@ namespace Audiograph
             this.Label104.TabIndex = 81;
             this.Label104.Text = "10";
             this.Label104.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label104.UseMnemonic = false;
             // 
             // lblUserTopTrackAlbum9
             // 
@@ -9249,6 +9606,7 @@ namespace Audiograph
             this.lblUserTopTrackAlbum9.TabIndex = 80;
             this.lblUserTopTrackAlbum9.Text = "(Unavailable)";
             this.lblUserTopTrackAlbum9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopTrackAlbum9.UseMnemonic = false;
             this.lblUserTopTrackAlbum9.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopTrackAlbumClicked);
             // 
             // lblUserTopTrackArtist9
@@ -9262,6 +9620,7 @@ namespace Audiograph
             this.lblUserTopTrackArtist9.TabIndex = 79;
             this.lblUserTopTrackArtist9.Text = "(Unavailable)";
             this.lblUserTopTrackArtist9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopTrackArtist9.UseMnemonic = false;
             this.lblUserTopTrackArtist9.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopTrackArtistClicked);
             // 
             // lblUserTopTrackTitle9
@@ -9275,6 +9634,7 @@ namespace Audiograph
             this.lblUserTopTrackTitle9.TabIndex = 78;
             this.lblUserTopTrackTitle9.Text = "(Unavailable)";
             this.lblUserTopTrackTitle9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopTrackTitle9.UseMnemonic = false;
             this.lblUserTopTrackTitle9.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopTrackTrackClicked);
             // 
             // picUserTopTrackArt9
@@ -9302,6 +9662,7 @@ namespace Audiograph
             this.Label108.TabIndex = 76;
             this.Label108.Text = "9";
             this.Label108.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label108.UseMnemonic = false;
             // 
             // lblUserTopTrackAlbum8
             // 
@@ -9314,6 +9675,7 @@ namespace Audiograph
             this.lblUserTopTrackAlbum8.TabIndex = 75;
             this.lblUserTopTrackAlbum8.Text = "(Unavailable)";
             this.lblUserTopTrackAlbum8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopTrackAlbum8.UseMnemonic = false;
             this.lblUserTopTrackAlbum8.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopTrackAlbumClicked);
             // 
             // lblUserTopTrackArtist8
@@ -9327,6 +9689,7 @@ namespace Audiograph
             this.lblUserTopTrackArtist8.TabIndex = 74;
             this.lblUserTopTrackArtist8.Text = "(Unavailable)";
             this.lblUserTopTrackArtist8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopTrackArtist8.UseMnemonic = false;
             this.lblUserTopTrackArtist8.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopTrackArtistClicked);
             // 
             // lblUserTopTrackTitle8
@@ -9340,6 +9703,7 @@ namespace Audiograph
             this.lblUserTopTrackTitle8.TabIndex = 73;
             this.lblUserTopTrackTitle8.Text = "(Unavailable)";
             this.lblUserTopTrackTitle8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopTrackTitle8.UseMnemonic = false;
             this.lblUserTopTrackTitle8.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopTrackTrackClicked);
             // 
             // picUserTopTrackArt8
@@ -9367,6 +9731,7 @@ namespace Audiograph
             this.Label112.TabIndex = 71;
             this.Label112.Text = "8";
             this.Label112.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label112.UseMnemonic = false;
             // 
             // lblUserTopTrackAlbum7
             // 
@@ -9379,6 +9744,7 @@ namespace Audiograph
             this.lblUserTopTrackAlbum7.TabIndex = 70;
             this.lblUserTopTrackAlbum7.Text = "(Unavailable)";
             this.lblUserTopTrackAlbum7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopTrackAlbum7.UseMnemonic = false;
             this.lblUserTopTrackAlbum7.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopTrackAlbumClicked);
             // 
             // lblUserTopTrackArtist7
@@ -9392,6 +9758,7 @@ namespace Audiograph
             this.lblUserTopTrackArtist7.TabIndex = 69;
             this.lblUserTopTrackArtist7.Text = "(Unavailable)";
             this.lblUserTopTrackArtist7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopTrackArtist7.UseMnemonic = false;
             this.lblUserTopTrackArtist7.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopTrackArtistClicked);
             // 
             // lblUserTopTrackTitle7
@@ -9405,6 +9772,7 @@ namespace Audiograph
             this.lblUserTopTrackTitle7.TabIndex = 68;
             this.lblUserTopTrackTitle7.Text = "(Unavailable)";
             this.lblUserTopTrackTitle7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopTrackTitle7.UseMnemonic = false;
             this.lblUserTopTrackTitle7.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopTrackTrackClicked);
             // 
             // picUserTopTrackArt7
@@ -9432,6 +9800,7 @@ namespace Audiograph
             this.Label119.TabIndex = 66;
             this.Label119.Text = "7";
             this.Label119.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label119.UseMnemonic = false;
             // 
             // lblUserTopTrackAlbum6
             // 
@@ -9444,6 +9813,7 @@ namespace Audiograph
             this.lblUserTopTrackAlbum6.TabIndex = 65;
             this.lblUserTopTrackAlbum6.Text = "(Unavailable)";
             this.lblUserTopTrackAlbum6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopTrackAlbum6.UseMnemonic = false;
             this.lblUserTopTrackAlbum6.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopTrackAlbumClicked);
             // 
             // lblUserTopTrackArtist6
@@ -9457,6 +9827,7 @@ namespace Audiograph
             this.lblUserTopTrackArtist6.TabIndex = 64;
             this.lblUserTopTrackArtist6.Text = "(Unavailable)";
             this.lblUserTopTrackArtist6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopTrackArtist6.UseMnemonic = false;
             this.lblUserTopTrackArtist6.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopTrackArtistClicked);
             // 
             // lblUserTopTrackTitle6
@@ -9470,6 +9841,7 @@ namespace Audiograph
             this.lblUserTopTrackTitle6.TabIndex = 63;
             this.lblUserTopTrackTitle6.Text = "(Unavailable)";
             this.lblUserTopTrackTitle6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopTrackTitle6.UseMnemonic = false;
             this.lblUserTopTrackTitle6.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopTrackTrackClicked);
             // 
             // picUserTopTrackArt6
@@ -9497,6 +9869,7 @@ namespace Audiograph
             this.Label127.TabIndex = 61;
             this.Label127.Text = "6";
             this.Label127.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label127.UseMnemonic = false;
             // 
             // lblUserTopTrackAlbum5
             // 
@@ -9509,6 +9882,7 @@ namespace Audiograph
             this.lblUserTopTrackAlbum5.TabIndex = 60;
             this.lblUserTopTrackAlbum5.Text = "(Unavailable)";
             this.lblUserTopTrackAlbum5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopTrackAlbum5.UseMnemonic = false;
             this.lblUserTopTrackAlbum5.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopTrackAlbumClicked);
             // 
             // lblUserTopTrackArtist5
@@ -9522,6 +9896,7 @@ namespace Audiograph
             this.lblUserTopTrackArtist5.TabIndex = 59;
             this.lblUserTopTrackArtist5.Text = "(Unavailable)";
             this.lblUserTopTrackArtist5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopTrackArtist5.UseMnemonic = false;
             this.lblUserTopTrackArtist5.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopTrackArtistClicked);
             // 
             // lblUserTopTrackTitle5
@@ -9535,6 +9910,7 @@ namespace Audiograph
             this.lblUserTopTrackTitle5.TabIndex = 58;
             this.lblUserTopTrackTitle5.Text = "(Unavailable)";
             this.lblUserTopTrackTitle5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopTrackTitle5.UseMnemonic = false;
             this.lblUserTopTrackTitle5.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopTrackTrackClicked);
             // 
             // picUserTopTrackArt5
@@ -9562,6 +9938,7 @@ namespace Audiograph
             this.Label135.TabIndex = 56;
             this.Label135.Text = "5";
             this.Label135.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label135.UseMnemonic = false;
             // 
             // lblUserTopTrackAlbum4
             // 
@@ -9574,6 +9951,7 @@ namespace Audiograph
             this.lblUserTopTrackAlbum4.TabIndex = 55;
             this.lblUserTopTrackAlbum4.Text = "(Unavailable)";
             this.lblUserTopTrackAlbum4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopTrackAlbum4.UseMnemonic = false;
             this.lblUserTopTrackAlbum4.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopTrackAlbumClicked);
             // 
             // lblUserTopTrackArtist4
@@ -9587,6 +9965,7 @@ namespace Audiograph
             this.lblUserTopTrackArtist4.TabIndex = 54;
             this.lblUserTopTrackArtist4.Text = "(Unavailable)";
             this.lblUserTopTrackArtist4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopTrackArtist4.UseMnemonic = false;
             this.lblUserTopTrackArtist4.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopTrackArtistClicked);
             // 
             // lblUserTopTrackTitle4
@@ -9600,6 +9979,7 @@ namespace Audiograph
             this.lblUserTopTrackTitle4.TabIndex = 53;
             this.lblUserTopTrackTitle4.Text = "(Unavailable)";
             this.lblUserTopTrackTitle4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopTrackTitle4.UseMnemonic = false;
             this.lblUserTopTrackTitle4.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopTrackTrackClicked);
             // 
             // picUserTopTrackArt4
@@ -9627,6 +10007,7 @@ namespace Audiograph
             this.Label143.TabIndex = 51;
             this.Label143.Text = "4";
             this.Label143.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label143.UseMnemonic = false;
             // 
             // lblUserTopTrackAlbum3
             // 
@@ -9639,6 +10020,7 @@ namespace Audiograph
             this.lblUserTopTrackAlbum3.TabIndex = 50;
             this.lblUserTopTrackAlbum3.Text = "(Unavailable)";
             this.lblUserTopTrackAlbum3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopTrackAlbum3.UseMnemonic = false;
             this.lblUserTopTrackAlbum3.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopTrackAlbumClicked);
             // 
             // lblUserTopTrackArtist3
@@ -9652,6 +10034,7 @@ namespace Audiograph
             this.lblUserTopTrackArtist3.TabIndex = 49;
             this.lblUserTopTrackArtist3.Text = "(Unavailable)";
             this.lblUserTopTrackArtist3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopTrackArtist3.UseMnemonic = false;
             this.lblUserTopTrackArtist3.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopTrackArtistClicked);
             // 
             // lblUserTopTrackTitle3
@@ -9665,6 +10048,7 @@ namespace Audiograph
             this.lblUserTopTrackTitle3.TabIndex = 48;
             this.lblUserTopTrackTitle3.Text = "(Unavailable)";
             this.lblUserTopTrackTitle3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopTrackTitle3.UseMnemonic = false;
             this.lblUserTopTrackTitle3.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopTrackTrackClicked);
             // 
             // picUserTopTrackArt3
@@ -9692,6 +10076,7 @@ namespace Audiograph
             this.Label150.TabIndex = 46;
             this.Label150.Text = "3";
             this.Label150.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label150.UseMnemonic = false;
             // 
             // lblUserTopTrackAlbum2
             // 
@@ -9704,6 +10089,7 @@ namespace Audiograph
             this.lblUserTopTrackAlbum2.TabIndex = 45;
             this.lblUserTopTrackAlbum2.Text = "(Unavailable)";
             this.lblUserTopTrackAlbum2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopTrackAlbum2.UseMnemonic = false;
             this.lblUserTopTrackAlbum2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopTrackAlbumClicked);
             // 
             // lblUserTopTrackArtist2
@@ -9717,6 +10103,7 @@ namespace Audiograph
             this.lblUserTopTrackArtist2.TabIndex = 44;
             this.lblUserTopTrackArtist2.Text = "(Unavailable)";
             this.lblUserTopTrackArtist2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopTrackArtist2.UseMnemonic = false;
             this.lblUserTopTrackArtist2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopTrackArtistClicked);
             // 
             // lblUserTopTrackTitle2
@@ -9730,6 +10117,7 @@ namespace Audiograph
             this.lblUserTopTrackTitle2.TabIndex = 43;
             this.lblUserTopTrackTitle2.Text = "(Unavailable)";
             this.lblUserTopTrackTitle2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopTrackTitle2.UseMnemonic = false;
             this.lblUserTopTrackTitle2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopTrackTrackClicked);
             // 
             // picUserTopTrackArt2
@@ -9757,6 +10145,7 @@ namespace Audiograph
             this.Label154.TabIndex = 41;
             this.Label154.Text = "2";
             this.Label154.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label154.UseMnemonic = false;
             // 
             // lblUserTopTrackAlbum1
             // 
@@ -9769,6 +10158,7 @@ namespace Audiograph
             this.lblUserTopTrackAlbum1.TabIndex = 40;
             this.lblUserTopTrackAlbum1.Text = "(Unavailable)";
             this.lblUserTopTrackAlbum1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopTrackAlbum1.UseMnemonic = false;
             this.lblUserTopTrackAlbum1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopTrackAlbumClicked);
             // 
             // lblUserTopTrackArtist1
@@ -9782,6 +10172,7 @@ namespace Audiograph
             this.lblUserTopTrackArtist1.TabIndex = 39;
             this.lblUserTopTrackArtist1.Text = "(Unavailable)";
             this.lblUserTopTrackArtist1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopTrackArtist1.UseMnemonic = false;
             this.lblUserTopTrackArtist1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopTrackArtistClicked);
             // 
             // lblUserTopTrackTitle1
@@ -9795,6 +10186,7 @@ namespace Audiograph
             this.lblUserTopTrackTitle1.TabIndex = 38;
             this.lblUserTopTrackTitle1.Text = "(Unavailable)";
             this.lblUserTopTrackTitle1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopTrackTitle1.UseMnemonic = false;
             this.lblUserTopTrackTitle1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopTrackTrackClicked);
             // 
             // Label158
@@ -9806,6 +10198,7 @@ namespace Audiograph
             this.Label158.TabIndex = 37;
             this.Label158.Text = "1";
             this.Label158.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label158.UseMnemonic = false;
             // 
             // Label159
             // 
@@ -9816,6 +10209,7 @@ namespace Audiograph
             this.Label159.TabIndex = 33;
             this.Label159.Text = "Art";
             this.Label159.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Label159.UseMnemonic = false;
             // 
             // picUserTopTrackArt1
             // 
@@ -9842,6 +10236,7 @@ namespace Audiograph
             this.Label160.TabIndex = 32;
             this.Label160.Text = "#";
             this.Label160.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label160.UseMnemonic = false;
             // 
             // Label161
             // 
@@ -9852,6 +10247,7 @@ namespace Audiograph
             this.Label161.TabIndex = 34;
             this.Label161.Text = "Title";
             this.Label161.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Label161.UseMnemonic = false;
             // 
             // Label162
             // 
@@ -9862,6 +10258,7 @@ namespace Audiograph
             this.Label162.TabIndex = 35;
             this.Label162.Text = "Artist";
             this.Label162.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Label162.UseMnemonic = false;
             // 
             // Label163
             // 
@@ -9872,6 +10269,7 @@ namespace Audiograph
             this.Label163.TabIndex = 36;
             this.Label163.Text = "Album";
             this.Label163.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Label163.UseMnemonic = false;
             // 
             // pgUserTopArtists
             // 
@@ -9994,6 +10392,7 @@ namespace Audiograph
             this.lblUserTopArtistPlaycount20.TabIndex = 156;
             this.lblUserTopArtistPlaycount20.Text = "(Unavailable)";
             this.lblUserTopArtistPlaycount20.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopArtistPlaycount20.UseMnemonic = false;
             // 
             // lblUserTopArtistPlaycount19
             // 
@@ -10004,6 +10403,7 @@ namespace Audiograph
             this.lblUserTopArtistPlaycount19.TabIndex = 155;
             this.lblUserTopArtistPlaycount19.Text = "(Unavailable)";
             this.lblUserTopArtistPlaycount19.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopArtistPlaycount19.UseMnemonic = false;
             // 
             // lblUserTopArtistPlaycount18
             // 
@@ -10014,6 +10414,7 @@ namespace Audiograph
             this.lblUserTopArtistPlaycount18.TabIndex = 154;
             this.lblUserTopArtistPlaycount18.Text = "(Unavailable)";
             this.lblUserTopArtistPlaycount18.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopArtistPlaycount18.UseMnemonic = false;
             // 
             // lblUserTopArtistPlaycount17
             // 
@@ -10024,6 +10425,7 @@ namespace Audiograph
             this.lblUserTopArtistPlaycount17.TabIndex = 153;
             this.lblUserTopArtistPlaycount17.Text = "(Unavailable)";
             this.lblUserTopArtistPlaycount17.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopArtistPlaycount17.UseMnemonic = false;
             // 
             // lblUserTopArtistPlaycount16
             // 
@@ -10034,6 +10436,7 @@ namespace Audiograph
             this.lblUserTopArtistPlaycount16.TabIndex = 152;
             this.lblUserTopArtistPlaycount16.Text = "(Unavailable)";
             this.lblUserTopArtistPlaycount16.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopArtistPlaycount16.UseMnemonic = false;
             // 
             // lblUserTopArtistPlaycount15
             // 
@@ -10044,6 +10447,7 @@ namespace Audiograph
             this.lblUserTopArtistPlaycount15.TabIndex = 151;
             this.lblUserTopArtistPlaycount15.Text = "(Unavailable)";
             this.lblUserTopArtistPlaycount15.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopArtistPlaycount15.UseMnemonic = false;
             // 
             // lblUserTopArtistPlaycount14
             // 
@@ -10054,6 +10458,7 @@ namespace Audiograph
             this.lblUserTopArtistPlaycount14.TabIndex = 150;
             this.lblUserTopArtistPlaycount14.Text = "(Unavailable)";
             this.lblUserTopArtistPlaycount14.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopArtistPlaycount14.UseMnemonic = false;
             // 
             // lblUserTopArtistPlaycount13
             // 
@@ -10064,6 +10469,7 @@ namespace Audiograph
             this.lblUserTopArtistPlaycount13.TabIndex = 149;
             this.lblUserTopArtistPlaycount13.Text = "(Unavailable)";
             this.lblUserTopArtistPlaycount13.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopArtistPlaycount13.UseMnemonic = false;
             // 
             // lblUserTopArtistPlaycount12
             // 
@@ -10074,6 +10480,7 @@ namespace Audiograph
             this.lblUserTopArtistPlaycount12.TabIndex = 148;
             this.lblUserTopArtistPlaycount12.Text = "(Unavailable)";
             this.lblUserTopArtistPlaycount12.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopArtistPlaycount12.UseMnemonic = false;
             // 
             // lblUserTopArtistPlaycount11
             // 
@@ -10084,6 +10491,7 @@ namespace Audiograph
             this.lblUserTopArtistPlaycount11.TabIndex = 147;
             this.lblUserTopArtistPlaycount11.Text = "(Unavailable)";
             this.lblUserTopArtistPlaycount11.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopArtistPlaycount11.UseMnemonic = false;
             // 
             // lblUserTopArtistPlaycount10
             // 
@@ -10094,6 +10502,7 @@ namespace Audiograph
             this.lblUserTopArtistPlaycount10.TabIndex = 146;
             this.lblUserTopArtistPlaycount10.Text = "(Unavailable)";
             this.lblUserTopArtistPlaycount10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopArtistPlaycount10.UseMnemonic = false;
             // 
             // lblUserTopArtistPlaycount9
             // 
@@ -10104,6 +10513,7 @@ namespace Audiograph
             this.lblUserTopArtistPlaycount9.TabIndex = 145;
             this.lblUserTopArtistPlaycount9.Text = "(Unavailable)";
             this.lblUserTopArtistPlaycount9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopArtistPlaycount9.UseMnemonic = false;
             // 
             // lblUserTopArtistPlaycount8
             // 
@@ -10114,6 +10524,7 @@ namespace Audiograph
             this.lblUserTopArtistPlaycount8.TabIndex = 144;
             this.lblUserTopArtistPlaycount8.Text = "(Unavailable)";
             this.lblUserTopArtistPlaycount8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopArtistPlaycount8.UseMnemonic = false;
             // 
             // lblUserTopArtistPlaycount7
             // 
@@ -10124,6 +10535,7 @@ namespace Audiograph
             this.lblUserTopArtistPlaycount7.TabIndex = 143;
             this.lblUserTopArtistPlaycount7.Text = "(Unavailable)";
             this.lblUserTopArtistPlaycount7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopArtistPlaycount7.UseMnemonic = false;
             // 
             // lblUserTopArtistPlaycount6
             // 
@@ -10134,6 +10546,7 @@ namespace Audiograph
             this.lblUserTopArtistPlaycount6.TabIndex = 142;
             this.lblUserTopArtistPlaycount6.Text = "(Unavailable)";
             this.lblUserTopArtistPlaycount6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopArtistPlaycount6.UseMnemonic = false;
             // 
             // lblUserTopArtistPlaycount5
             // 
@@ -10144,6 +10557,7 @@ namespace Audiograph
             this.lblUserTopArtistPlaycount5.TabIndex = 141;
             this.lblUserTopArtistPlaycount5.Text = "(Unavailable)";
             this.lblUserTopArtistPlaycount5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopArtistPlaycount5.UseMnemonic = false;
             // 
             // lblUserTopArtistPlaycount4
             // 
@@ -10154,6 +10568,7 @@ namespace Audiograph
             this.lblUserTopArtistPlaycount4.TabIndex = 140;
             this.lblUserTopArtistPlaycount4.Text = "(Unavailable)";
             this.lblUserTopArtistPlaycount4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopArtistPlaycount4.UseMnemonic = false;
             // 
             // lblUserTopArtistPlaycount3
             // 
@@ -10164,6 +10579,7 @@ namespace Audiograph
             this.lblUserTopArtistPlaycount3.TabIndex = 139;
             this.lblUserTopArtistPlaycount3.Text = "(Unavailable)";
             this.lblUserTopArtistPlaycount3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopArtistPlaycount3.UseMnemonic = false;
             // 
             // lblUserTopArtistPlaycount2
             // 
@@ -10174,6 +10590,7 @@ namespace Audiograph
             this.lblUserTopArtistPlaycount2.TabIndex = 138;
             this.lblUserTopArtistPlaycount2.Text = "(Unavailable)";
             this.lblUserTopArtistPlaycount2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopArtistPlaycount2.UseMnemonic = false;
             // 
             // lblUserTopArtistPlaycount1
             // 
@@ -10184,6 +10601,7 @@ namespace Audiograph
             this.lblUserTopArtistPlaycount1.TabIndex = 137;
             this.lblUserTopArtistPlaycount1.Text = "(Unavailable)";
             this.lblUserTopArtistPlaycount1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopArtistPlaycount1.UseMnemonic = false;
             // 
             // Label184
             // 
@@ -10194,6 +10612,7 @@ namespace Audiograph
             this.Label184.TabIndex = 136;
             this.Label184.Text = "Playcount";
             this.Label184.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Label184.UseMnemonic = false;
             // 
             // lblUserTopArtist20
             // 
@@ -10206,6 +10625,7 @@ namespace Audiograph
             this.lblUserTopArtist20.TabIndex = 134;
             this.lblUserTopArtist20.Text = "(Unavailable)";
             this.lblUserTopArtist20.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopArtist20.UseMnemonic = false;
             this.lblUserTopArtist20.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopArtistClicked);
             // 
             // cmsUserTopArtists
@@ -10241,6 +10661,7 @@ namespace Audiograph
             this.Label188.TabIndex = 131;
             this.Label188.Text = "20";
             this.Label188.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label188.UseMnemonic = false;
             // 
             // lblUserTopArtist19
             // 
@@ -10253,6 +10674,7 @@ namespace Audiograph
             this.lblUserTopArtist19.TabIndex = 129;
             this.lblUserTopArtist19.Text = "(Unavailable)";
             this.lblUserTopArtist19.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopArtist19.UseMnemonic = false;
             this.lblUserTopArtist19.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopArtistClicked);
             // 
             // Label192
@@ -10264,6 +10686,7 @@ namespace Audiograph
             this.Label192.TabIndex = 126;
             this.Label192.Text = "19";
             this.Label192.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label192.UseMnemonic = false;
             // 
             // lblUserTopArtist18
             // 
@@ -10276,6 +10699,7 @@ namespace Audiograph
             this.lblUserTopArtist18.TabIndex = 124;
             this.lblUserTopArtist18.Text = "(Unavailable)";
             this.lblUserTopArtist18.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopArtist18.UseMnemonic = false;
             this.lblUserTopArtist18.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopArtistClicked);
             // 
             // Label196
@@ -10287,6 +10711,7 @@ namespace Audiograph
             this.Label196.TabIndex = 121;
             this.Label196.Text = "18";
             this.Label196.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label196.UseMnemonic = false;
             // 
             // lblUserTopArtist17
             // 
@@ -10299,6 +10724,7 @@ namespace Audiograph
             this.lblUserTopArtist17.TabIndex = 119;
             this.lblUserTopArtist17.Text = "(Unavailable)";
             this.lblUserTopArtist17.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopArtist17.UseMnemonic = false;
             this.lblUserTopArtist17.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopArtistClicked);
             // 
             // Label200
@@ -10310,6 +10736,7 @@ namespace Audiograph
             this.Label200.TabIndex = 116;
             this.Label200.Text = "17";
             this.Label200.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label200.UseMnemonic = false;
             // 
             // lblUserTopArtist16
             // 
@@ -10322,6 +10749,7 @@ namespace Audiograph
             this.lblUserTopArtist16.TabIndex = 114;
             this.lblUserTopArtist16.Text = "(Unavailable)";
             this.lblUserTopArtist16.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopArtist16.UseMnemonic = false;
             this.lblUserTopArtist16.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopArtistClicked);
             // 
             // Label204
@@ -10333,6 +10761,7 @@ namespace Audiograph
             this.Label204.TabIndex = 111;
             this.Label204.Text = "16";
             this.Label204.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label204.UseMnemonic = false;
             // 
             // lblUserTopArtist15
             // 
@@ -10345,6 +10774,7 @@ namespace Audiograph
             this.lblUserTopArtist15.TabIndex = 109;
             this.lblUserTopArtist15.Text = "(Unavailable)";
             this.lblUserTopArtist15.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopArtist15.UseMnemonic = false;
             this.lblUserTopArtist15.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopArtistClicked);
             // 
             // Label208
@@ -10356,6 +10786,7 @@ namespace Audiograph
             this.Label208.TabIndex = 106;
             this.Label208.Text = "15";
             this.Label208.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label208.UseMnemonic = false;
             // 
             // lblUserTopArtist14
             // 
@@ -10368,6 +10799,7 @@ namespace Audiograph
             this.lblUserTopArtist14.TabIndex = 104;
             this.lblUserTopArtist14.Text = "(Unavailable)";
             this.lblUserTopArtist14.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopArtist14.UseMnemonic = false;
             this.lblUserTopArtist14.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopArtistClicked);
             // 
             // Label212
@@ -10379,6 +10811,7 @@ namespace Audiograph
             this.Label212.TabIndex = 101;
             this.Label212.Text = "14";
             this.Label212.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label212.UseMnemonic = false;
             // 
             // lblUserTopArtist13
             // 
@@ -10391,6 +10824,7 @@ namespace Audiograph
             this.lblUserTopArtist13.TabIndex = 99;
             this.lblUserTopArtist13.Text = "(Unavailable)";
             this.lblUserTopArtist13.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopArtist13.UseMnemonic = false;
             this.lblUserTopArtist13.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopArtistClicked);
             // 
             // Label216
@@ -10402,6 +10836,7 @@ namespace Audiograph
             this.Label216.TabIndex = 96;
             this.Label216.Text = "13";
             this.Label216.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label216.UseMnemonic = false;
             // 
             // lblUserTopArtist12
             // 
@@ -10414,6 +10849,7 @@ namespace Audiograph
             this.lblUserTopArtist12.TabIndex = 94;
             this.lblUserTopArtist12.Text = "(Unavailable)";
             this.lblUserTopArtist12.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopArtist12.UseMnemonic = false;
             this.lblUserTopArtist12.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopArtistClicked);
             // 
             // Label220
@@ -10425,6 +10861,7 @@ namespace Audiograph
             this.Label220.TabIndex = 91;
             this.Label220.Text = "12";
             this.Label220.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label220.UseMnemonic = false;
             // 
             // lblUserTopArtist11
             // 
@@ -10437,6 +10874,7 @@ namespace Audiograph
             this.lblUserTopArtist11.TabIndex = 89;
             this.lblUserTopArtist11.Text = "(Unavailable)";
             this.lblUserTopArtist11.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopArtist11.UseMnemonic = false;
             this.lblUserTopArtist11.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopArtistClicked);
             // 
             // Label224
@@ -10448,6 +10886,7 @@ namespace Audiograph
             this.Label224.TabIndex = 86;
             this.Label224.Text = "11";
             this.Label224.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label224.UseMnemonic = false;
             // 
             // lblUserTopArtist10
             // 
@@ -10460,6 +10899,7 @@ namespace Audiograph
             this.lblUserTopArtist10.TabIndex = 84;
             this.lblUserTopArtist10.Text = "(Unavailable)";
             this.lblUserTopArtist10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopArtist10.UseMnemonic = false;
             this.lblUserTopArtist10.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopArtistClicked);
             // 
             // Label228
@@ -10471,6 +10911,7 @@ namespace Audiograph
             this.Label228.TabIndex = 81;
             this.Label228.Text = "10";
             this.Label228.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label228.UseMnemonic = false;
             // 
             // lblUserTopArtist9
             // 
@@ -10483,6 +10924,7 @@ namespace Audiograph
             this.lblUserTopArtist9.TabIndex = 79;
             this.lblUserTopArtist9.Text = "(Unavailable)";
             this.lblUserTopArtist9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopArtist9.UseMnemonic = false;
             this.lblUserTopArtist9.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopArtistClicked);
             // 
             // Label232
@@ -10494,6 +10936,7 @@ namespace Audiograph
             this.Label232.TabIndex = 76;
             this.Label232.Text = "9";
             this.Label232.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label232.UseMnemonic = false;
             // 
             // lblUserTopArtist8
             // 
@@ -10506,6 +10949,7 @@ namespace Audiograph
             this.lblUserTopArtist8.TabIndex = 74;
             this.lblUserTopArtist8.Text = "(Unavailable)";
             this.lblUserTopArtist8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopArtist8.UseMnemonic = false;
             this.lblUserTopArtist8.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopArtistClicked);
             // 
             // Label236
@@ -10517,6 +10961,7 @@ namespace Audiograph
             this.Label236.TabIndex = 71;
             this.Label236.Text = "8";
             this.Label236.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label236.UseMnemonic = false;
             // 
             // lblUserTopArtist7
             // 
@@ -10529,6 +10974,7 @@ namespace Audiograph
             this.lblUserTopArtist7.TabIndex = 69;
             this.lblUserTopArtist7.Text = "(Unavailable)";
             this.lblUserTopArtist7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopArtist7.UseMnemonic = false;
             this.lblUserTopArtist7.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopArtistClicked);
             // 
             // Label240
@@ -10540,6 +10986,7 @@ namespace Audiograph
             this.Label240.TabIndex = 66;
             this.Label240.Text = "7";
             this.Label240.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label240.UseMnemonic = false;
             // 
             // lblUserTopArtist6
             // 
@@ -10552,6 +10999,7 @@ namespace Audiograph
             this.lblUserTopArtist6.TabIndex = 64;
             this.lblUserTopArtist6.Text = "(Unavailable)";
             this.lblUserTopArtist6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopArtist6.UseMnemonic = false;
             this.lblUserTopArtist6.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopArtistClicked);
             // 
             // Label244
@@ -10563,6 +11011,7 @@ namespace Audiograph
             this.Label244.TabIndex = 61;
             this.Label244.Text = "6";
             this.Label244.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label244.UseMnemonic = false;
             // 
             // lblUserTopArtist5
             // 
@@ -10575,6 +11024,7 @@ namespace Audiograph
             this.lblUserTopArtist5.TabIndex = 59;
             this.lblUserTopArtist5.Text = "(Unavailable)";
             this.lblUserTopArtist5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopArtist5.UseMnemonic = false;
             this.lblUserTopArtist5.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopArtistClicked);
             // 
             // Label248
@@ -10586,6 +11036,7 @@ namespace Audiograph
             this.Label248.TabIndex = 56;
             this.Label248.Text = "5";
             this.Label248.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label248.UseMnemonic = false;
             // 
             // lblUserTopArtist4
             // 
@@ -10598,6 +11049,7 @@ namespace Audiograph
             this.lblUserTopArtist4.TabIndex = 54;
             this.lblUserTopArtist4.Text = "(Unavailable)";
             this.lblUserTopArtist4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopArtist4.UseMnemonic = false;
             this.lblUserTopArtist4.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopArtistClicked);
             // 
             // Label252
@@ -10609,6 +11061,7 @@ namespace Audiograph
             this.Label252.TabIndex = 51;
             this.Label252.Text = "4";
             this.Label252.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label252.UseMnemonic = false;
             // 
             // lblUserTopArtist3
             // 
@@ -10621,6 +11074,7 @@ namespace Audiograph
             this.lblUserTopArtist3.TabIndex = 49;
             this.lblUserTopArtist3.Text = "(Unavailable)";
             this.lblUserTopArtist3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopArtist3.UseMnemonic = false;
             this.lblUserTopArtist3.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopArtistClicked);
             // 
             // Label256
@@ -10632,6 +11086,7 @@ namespace Audiograph
             this.Label256.TabIndex = 46;
             this.Label256.Text = "3";
             this.Label256.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label256.UseMnemonic = false;
             // 
             // lblUserTopArtist2
             // 
@@ -10644,6 +11099,7 @@ namespace Audiograph
             this.lblUserTopArtist2.TabIndex = 44;
             this.lblUserTopArtist2.Text = "(Unavailable)";
             this.lblUserTopArtist2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopArtist2.UseMnemonic = false;
             this.lblUserTopArtist2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopArtistClicked);
             // 
             // Label260
@@ -10655,6 +11111,7 @@ namespace Audiograph
             this.Label260.TabIndex = 41;
             this.Label260.Text = "2";
             this.Label260.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label260.UseMnemonic = false;
             // 
             // lblUserTopArtist1
             // 
@@ -10667,6 +11124,7 @@ namespace Audiograph
             this.lblUserTopArtist1.TabIndex = 39;
             this.lblUserTopArtist1.Text = "(Unavailable)";
             this.lblUserTopArtist1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopArtist1.UseMnemonic = false;
             this.lblUserTopArtist1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopArtistClicked);
             // 
             // Label264
@@ -10678,6 +11136,7 @@ namespace Audiograph
             this.Label264.TabIndex = 37;
             this.Label264.Text = "1";
             this.Label264.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label264.UseMnemonic = false;
             // 
             // Label266
             // 
@@ -10688,6 +11147,7 @@ namespace Audiograph
             this.Label266.TabIndex = 32;
             this.Label266.Text = "#";
             this.Label266.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label266.UseMnemonic = false;
             // 
             // Label268
             // 
@@ -10698,6 +11158,7 @@ namespace Audiograph
             this.Label268.TabIndex = 35;
             this.Label268.Text = "Artist";
             this.Label268.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Label268.UseMnemonic = false;
             // 
             // pgTopAlbums
             // 
@@ -10864,6 +11325,7 @@ namespace Audiograph
             this.lblUserTopAlbumPlaycount20.TabIndex = 155;
             this.lblUserTopAlbumPlaycount20.Text = "(Unavailable)";
             this.lblUserTopAlbumPlaycount20.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopAlbumPlaycount20.UseMnemonic = false;
             // 
             // lblUserTopAlbumPlaycount19
             // 
@@ -10874,6 +11336,7 @@ namespace Audiograph
             this.lblUserTopAlbumPlaycount19.TabIndex = 154;
             this.lblUserTopAlbumPlaycount19.Text = "(Unavailable)";
             this.lblUserTopAlbumPlaycount19.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopAlbumPlaycount19.UseMnemonic = false;
             // 
             // lblUserTopAlbumPlaycount18
             // 
@@ -10884,6 +11347,7 @@ namespace Audiograph
             this.lblUserTopAlbumPlaycount18.TabIndex = 153;
             this.lblUserTopAlbumPlaycount18.Text = "(Unavailable)";
             this.lblUserTopAlbumPlaycount18.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopAlbumPlaycount18.UseMnemonic = false;
             // 
             // lblUserTopAlbumPlaycount17
             // 
@@ -10894,6 +11358,7 @@ namespace Audiograph
             this.lblUserTopAlbumPlaycount17.TabIndex = 152;
             this.lblUserTopAlbumPlaycount17.Text = "(Unavailable)";
             this.lblUserTopAlbumPlaycount17.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopAlbumPlaycount17.UseMnemonic = false;
             // 
             // lblUserTopAlbumPlaycount16
             // 
@@ -10904,6 +11369,7 @@ namespace Audiograph
             this.lblUserTopAlbumPlaycount16.TabIndex = 151;
             this.lblUserTopAlbumPlaycount16.Text = "(Unavailable)";
             this.lblUserTopAlbumPlaycount16.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopAlbumPlaycount16.UseMnemonic = false;
             // 
             // lblUserTopAlbumPlaycount15
             // 
@@ -10914,6 +11380,7 @@ namespace Audiograph
             this.lblUserTopAlbumPlaycount15.TabIndex = 150;
             this.lblUserTopAlbumPlaycount15.Text = "(Unavailable)";
             this.lblUserTopAlbumPlaycount15.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopAlbumPlaycount15.UseMnemonic = false;
             // 
             // lblUserTopAlbumPlaycount14
             // 
@@ -10924,6 +11391,7 @@ namespace Audiograph
             this.lblUserTopAlbumPlaycount14.TabIndex = 149;
             this.lblUserTopAlbumPlaycount14.Text = "(Unavailable)";
             this.lblUserTopAlbumPlaycount14.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopAlbumPlaycount14.UseMnemonic = false;
             // 
             // lblUserTopAlbumPlaycount13
             // 
@@ -10934,6 +11402,7 @@ namespace Audiograph
             this.lblUserTopAlbumPlaycount13.TabIndex = 148;
             this.lblUserTopAlbumPlaycount13.Text = "(Unavailable)";
             this.lblUserTopAlbumPlaycount13.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopAlbumPlaycount13.UseMnemonic = false;
             // 
             // lblUserTopAlbumPlaycount12
             // 
@@ -10944,6 +11413,7 @@ namespace Audiograph
             this.lblUserTopAlbumPlaycount12.TabIndex = 147;
             this.lblUserTopAlbumPlaycount12.Text = "(Unavailable)";
             this.lblUserTopAlbumPlaycount12.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopAlbumPlaycount12.UseMnemonic = false;
             // 
             // lblUserTopAlbumPlaycount11
             // 
@@ -10954,6 +11424,7 @@ namespace Audiograph
             this.lblUserTopAlbumPlaycount11.TabIndex = 146;
             this.lblUserTopAlbumPlaycount11.Text = "(Unavailable)";
             this.lblUserTopAlbumPlaycount11.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopAlbumPlaycount11.UseMnemonic = false;
             // 
             // lblUserTopAlbumPlaycount10
             // 
@@ -10964,6 +11435,7 @@ namespace Audiograph
             this.lblUserTopAlbumPlaycount10.TabIndex = 145;
             this.lblUserTopAlbumPlaycount10.Text = "(Unavailable)";
             this.lblUserTopAlbumPlaycount10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopAlbumPlaycount10.UseMnemonic = false;
             // 
             // lblUserTopAlbumPlaycount9
             // 
@@ -10974,6 +11446,7 @@ namespace Audiograph
             this.lblUserTopAlbumPlaycount9.TabIndex = 144;
             this.lblUserTopAlbumPlaycount9.Text = "(Unavailable)";
             this.lblUserTopAlbumPlaycount9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopAlbumPlaycount9.UseMnemonic = false;
             // 
             // lblUserTopAlbumPlaycount8
             // 
@@ -10984,6 +11457,7 @@ namespace Audiograph
             this.lblUserTopAlbumPlaycount8.TabIndex = 143;
             this.lblUserTopAlbumPlaycount8.Text = "(Unavailable)";
             this.lblUserTopAlbumPlaycount8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopAlbumPlaycount8.UseMnemonic = false;
             // 
             // lblUserTopAlbumPlaycount7
             // 
@@ -10994,6 +11468,7 @@ namespace Audiograph
             this.lblUserTopAlbumPlaycount7.TabIndex = 142;
             this.lblUserTopAlbumPlaycount7.Text = "(Unavailable)";
             this.lblUserTopAlbumPlaycount7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopAlbumPlaycount7.UseMnemonic = false;
             // 
             // lblUserTopAlbumPlaycount6
             // 
@@ -11004,6 +11479,7 @@ namespace Audiograph
             this.lblUserTopAlbumPlaycount6.TabIndex = 141;
             this.lblUserTopAlbumPlaycount6.Text = "(Unavailable)";
             this.lblUserTopAlbumPlaycount6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopAlbumPlaycount6.UseMnemonic = false;
             // 
             // lblUserTopAlbumPlaycount5
             // 
@@ -11014,6 +11490,7 @@ namespace Audiograph
             this.lblUserTopAlbumPlaycount5.TabIndex = 140;
             this.lblUserTopAlbumPlaycount5.Text = "(Unavailable)";
             this.lblUserTopAlbumPlaycount5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopAlbumPlaycount5.UseMnemonic = false;
             // 
             // lblUserTopAlbumPlaycount4
             // 
@@ -11024,6 +11501,7 @@ namespace Audiograph
             this.lblUserTopAlbumPlaycount4.TabIndex = 139;
             this.lblUserTopAlbumPlaycount4.Text = "(Unavailable)";
             this.lblUserTopAlbumPlaycount4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopAlbumPlaycount4.UseMnemonic = false;
             // 
             // lblUserTopAlbumPlaycount3
             // 
@@ -11034,6 +11512,7 @@ namespace Audiograph
             this.lblUserTopAlbumPlaycount3.TabIndex = 138;
             this.lblUserTopAlbumPlaycount3.Text = "(Unavailable)";
             this.lblUserTopAlbumPlaycount3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopAlbumPlaycount3.UseMnemonic = false;
             // 
             // lblUserTopAlbumPlaycount2
             // 
@@ -11044,6 +11523,7 @@ namespace Audiograph
             this.lblUserTopAlbumPlaycount2.TabIndex = 137;
             this.lblUserTopAlbumPlaycount2.Text = "(Unavailable)";
             this.lblUserTopAlbumPlaycount2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopAlbumPlaycount2.UseMnemonic = false;
             // 
             // lblUserTopAlbumPlaycount1
             // 
@@ -11054,6 +11534,7 @@ namespace Audiograph
             this.lblUserTopAlbumPlaycount1.TabIndex = 136;
             this.lblUserTopAlbumPlaycount1.Text = "(Unavailable)";
             this.lblUserTopAlbumPlaycount1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopAlbumPlaycount1.UseMnemonic = false;
             // 
             // Label18
             // 
@@ -11064,6 +11545,7 @@ namespace Audiograph
             this.Label18.TabIndex = 135;
             this.Label18.Text = "Playcount";
             this.Label18.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Label18.UseMnemonic = false;
             // 
             // lblUserTopAlbumArtist20
             // 
@@ -11076,6 +11558,7 @@ namespace Audiograph
             this.lblUserTopAlbumArtist20.TabIndex = 134;
             this.lblUserTopAlbumArtist20.Text = "(Unavailable)";
             this.lblUserTopAlbumArtist20.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopAlbumArtist20.UseMnemonic = false;
             // 
             // cmsUserTopAlbums
             // 
@@ -11133,6 +11616,7 @@ namespace Audiograph
             this.lblUserTopAlbum20.TabIndex = 133;
             this.lblUserTopAlbum20.Text = "(Unavailable)";
             this.lblUserTopAlbum20.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopAlbum20.UseMnemonic = false;
             this.lblUserTopAlbum20.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopAlbumAlbumClicked);
             // 
             // picUserTopAlbumArt20
@@ -11160,6 +11644,7 @@ namespace Audiograph
             this.Label233.TabIndex = 131;
             this.Label233.Text = "20";
             this.Label233.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label233.UseMnemonic = false;
             // 
             // lblUserTopAlbumArtist19
             // 
@@ -11172,6 +11657,7 @@ namespace Audiograph
             this.lblUserTopAlbumArtist19.TabIndex = 129;
             this.lblUserTopAlbumArtist19.Text = "(Unavailable)";
             this.lblUserTopAlbumArtist19.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopAlbumArtist19.UseMnemonic = false;
             // 
             // lblUserTopAlbum19
             // 
@@ -11184,6 +11670,7 @@ namespace Audiograph
             this.lblUserTopAlbum19.TabIndex = 128;
             this.lblUserTopAlbum19.Text = "(Unavailable)";
             this.lblUserTopAlbum19.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopAlbum19.UseMnemonic = false;
             this.lblUserTopAlbum19.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopAlbumAlbumClicked);
             // 
             // picUserTopAlbumArt19
@@ -11211,6 +11698,7 @@ namespace Audiograph
             this.Label241.TabIndex = 126;
             this.Label241.Text = "19";
             this.Label241.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label241.UseMnemonic = false;
             // 
             // lblUserTopAlbumArtist18
             // 
@@ -11223,6 +11711,7 @@ namespace Audiograph
             this.lblUserTopAlbumArtist18.TabIndex = 124;
             this.lblUserTopAlbumArtist18.Text = "(Unavailable)";
             this.lblUserTopAlbumArtist18.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopAlbumArtist18.UseMnemonic = false;
             // 
             // lblUserTopAlbum18
             // 
@@ -11235,6 +11724,7 @@ namespace Audiograph
             this.lblUserTopAlbum18.TabIndex = 123;
             this.lblUserTopAlbum18.Text = "(Unavailable)";
             this.lblUserTopAlbum18.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopAlbum18.UseMnemonic = false;
             this.lblUserTopAlbum18.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopAlbumAlbumClicked);
             // 
             // picUserTopAlbumArt18
@@ -11262,6 +11752,7 @@ namespace Audiograph
             this.Label249.TabIndex = 121;
             this.Label249.Text = "18";
             this.Label249.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label249.UseMnemonic = false;
             // 
             // lblUserTopAlbumArtist17
             // 
@@ -11274,6 +11765,7 @@ namespace Audiograph
             this.lblUserTopAlbumArtist17.TabIndex = 119;
             this.lblUserTopAlbumArtist17.Text = "(Unavailable)";
             this.lblUserTopAlbumArtist17.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopAlbumArtist17.UseMnemonic = false;
             // 
             // lblUserTopAlbum17
             // 
@@ -11286,6 +11778,7 @@ namespace Audiograph
             this.lblUserTopAlbum17.TabIndex = 118;
             this.lblUserTopAlbum17.Text = "(Unavailable)";
             this.lblUserTopAlbum17.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopAlbum17.UseMnemonic = false;
             this.lblUserTopAlbum17.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopAlbumAlbumClicked);
             // 
             // picUserTopAlbumArt17
@@ -11313,6 +11806,7 @@ namespace Audiograph
             this.Label257.TabIndex = 116;
             this.Label257.Text = "17";
             this.Label257.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label257.UseMnemonic = false;
             // 
             // lblUserTopAlbumArtist16
             // 
@@ -11325,6 +11819,7 @@ namespace Audiograph
             this.lblUserTopAlbumArtist16.TabIndex = 114;
             this.lblUserTopAlbumArtist16.Text = "(Unavailable)";
             this.lblUserTopAlbumArtist16.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopAlbumArtist16.UseMnemonic = false;
             // 
             // lblUserTopAlbum16
             // 
@@ -11337,6 +11832,7 @@ namespace Audiograph
             this.lblUserTopAlbum16.TabIndex = 113;
             this.lblUserTopAlbum16.Text = "(Unavailable)";
             this.lblUserTopAlbum16.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopAlbum16.UseMnemonic = false;
             this.lblUserTopAlbum16.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopAlbumAlbumClicked);
             // 
             // picUserTopAlbumArt16
@@ -11364,6 +11860,7 @@ namespace Audiograph
             this.Label265.TabIndex = 111;
             this.Label265.Text = "16";
             this.Label265.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label265.UseMnemonic = false;
             // 
             // lblUserTopAlbumArtist15
             // 
@@ -11376,6 +11873,7 @@ namespace Audiograph
             this.lblUserTopAlbumArtist15.TabIndex = 109;
             this.lblUserTopAlbumArtist15.Text = "(Unavailable)";
             this.lblUserTopAlbumArtist15.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopAlbumArtist15.UseMnemonic = false;
             // 
             // lblUserTopAlbum15
             // 
@@ -11388,6 +11886,7 @@ namespace Audiograph
             this.lblUserTopAlbum15.TabIndex = 108;
             this.lblUserTopAlbum15.Text = "(Unavailable)";
             this.lblUserTopAlbum15.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopAlbum15.UseMnemonic = false;
             this.lblUserTopAlbum15.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopAlbumAlbumClicked);
             // 
             // picUserTopAlbumArt15
@@ -11415,6 +11914,7 @@ namespace Audiograph
             this.Label271.TabIndex = 106;
             this.Label271.Text = "15";
             this.Label271.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label271.UseMnemonic = false;
             // 
             // lblUserTopAlbumArtist14
             // 
@@ -11427,6 +11927,7 @@ namespace Audiograph
             this.lblUserTopAlbumArtist14.TabIndex = 104;
             this.lblUserTopAlbumArtist14.Text = "(Unavailable)";
             this.lblUserTopAlbumArtist14.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopAlbumArtist14.UseMnemonic = false;
             // 
             // lblUserTopAlbum14
             // 
@@ -11439,6 +11940,7 @@ namespace Audiograph
             this.lblUserTopAlbum14.TabIndex = 103;
             this.lblUserTopAlbum14.Text = "(Unavailable)";
             this.lblUserTopAlbum14.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopAlbum14.UseMnemonic = false;
             this.lblUserTopAlbum14.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopAlbumAlbumClicked);
             // 
             // picUserTopAlbumArt14
@@ -11466,6 +11968,7 @@ namespace Audiograph
             this.Label275.TabIndex = 101;
             this.Label275.Text = "14";
             this.Label275.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label275.UseMnemonic = false;
             // 
             // lblUserTopAlbumArtist13
             // 
@@ -11478,6 +11981,7 @@ namespace Audiograph
             this.lblUserTopAlbumArtist13.TabIndex = 99;
             this.lblUserTopAlbumArtist13.Text = "(Unavailable)";
             this.lblUserTopAlbumArtist13.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopAlbumArtist13.UseMnemonic = false;
             // 
             // lblUserTopAlbum13
             // 
@@ -11490,6 +11994,7 @@ namespace Audiograph
             this.lblUserTopAlbum13.TabIndex = 98;
             this.lblUserTopAlbum13.Text = "(Unavailable)";
             this.lblUserTopAlbum13.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopAlbum13.UseMnemonic = false;
             this.lblUserTopAlbum13.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopAlbumAlbumClicked);
             // 
             // picUserTopAlbumArt13
@@ -11517,6 +12022,7 @@ namespace Audiograph
             this.Label279.TabIndex = 96;
             this.Label279.Text = "13";
             this.Label279.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label279.UseMnemonic = false;
             // 
             // lblUserTopAlbumArtist12
             // 
@@ -11529,6 +12035,7 @@ namespace Audiograph
             this.lblUserTopAlbumArtist12.TabIndex = 94;
             this.lblUserTopAlbumArtist12.Text = "(Unavailable)";
             this.lblUserTopAlbumArtist12.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopAlbumArtist12.UseMnemonic = false;
             // 
             // lblUserTopAlbum12
             // 
@@ -11541,6 +12048,7 @@ namespace Audiograph
             this.lblUserTopAlbum12.TabIndex = 93;
             this.lblUserTopAlbum12.Text = "(Unavailable)";
             this.lblUserTopAlbum12.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopAlbum12.UseMnemonic = false;
             this.lblUserTopAlbum12.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopAlbumAlbumClicked);
             // 
             // picUserTopAlbumArt12
@@ -11568,6 +12076,7 @@ namespace Audiograph
             this.Label283.TabIndex = 91;
             this.Label283.Text = "12";
             this.Label283.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label283.UseMnemonic = false;
             // 
             // lblUserTopAlbumArtist11
             // 
@@ -11580,6 +12089,7 @@ namespace Audiograph
             this.lblUserTopAlbumArtist11.TabIndex = 89;
             this.lblUserTopAlbumArtist11.Text = "(Unavailable)";
             this.lblUserTopAlbumArtist11.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopAlbumArtist11.UseMnemonic = false;
             // 
             // lblUserTopAlbum11
             // 
@@ -11592,6 +12102,7 @@ namespace Audiograph
             this.lblUserTopAlbum11.TabIndex = 88;
             this.lblUserTopAlbum11.Text = "(Unavailable)";
             this.lblUserTopAlbum11.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopAlbum11.UseMnemonic = false;
             this.lblUserTopAlbum11.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopAlbumAlbumClicked);
             // 
             // picUserTopAlbumArt11
@@ -11619,6 +12130,7 @@ namespace Audiograph
             this.Label287.TabIndex = 86;
             this.Label287.Text = "11";
             this.Label287.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label287.UseMnemonic = false;
             // 
             // lblUserTopAlbumArtist10
             // 
@@ -11630,6 +12142,7 @@ namespace Audiograph
             this.lblUserTopAlbumArtist10.TabIndex = 84;
             this.lblUserTopAlbumArtist10.Text = "(Unavailable)";
             this.lblUserTopAlbumArtist10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopAlbumArtist10.UseMnemonic = false;
             // 
             // lblUserTopAlbum10
             // 
@@ -11641,6 +12154,7 @@ namespace Audiograph
             this.lblUserTopAlbum10.TabIndex = 83;
             this.lblUserTopAlbum10.Text = "(Unavailable)";
             this.lblUserTopAlbum10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopAlbum10.UseMnemonic = false;
             this.lblUserTopAlbum10.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopAlbumAlbumClicked);
             // 
             // picUserTopAlbumArt10
@@ -11668,6 +12182,7 @@ namespace Audiograph
             this.Label291.TabIndex = 81;
             this.Label291.Text = "10";
             this.Label291.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label291.UseMnemonic = false;
             // 
             // lblUserTopAlbumArtist9
             // 
@@ -11680,6 +12195,7 @@ namespace Audiograph
             this.lblUserTopAlbumArtist9.TabIndex = 79;
             this.lblUserTopAlbumArtist9.Text = "(Unavailable)";
             this.lblUserTopAlbumArtist9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopAlbumArtist9.UseMnemonic = false;
             // 
             // lblUserTopAlbum9
             // 
@@ -11692,6 +12208,7 @@ namespace Audiograph
             this.lblUserTopAlbum9.TabIndex = 78;
             this.lblUserTopAlbum9.Text = "(Unavailable)";
             this.lblUserTopAlbum9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopAlbum9.UseMnemonic = false;
             this.lblUserTopAlbum9.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopAlbumAlbumClicked);
             // 
             // picUserTopAlbumArt9
@@ -11719,6 +12236,7 @@ namespace Audiograph
             this.Label295.TabIndex = 76;
             this.Label295.Text = "9";
             this.Label295.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label295.UseMnemonic = false;
             // 
             // lblUserTopAlbumArtist8
             // 
@@ -11731,6 +12249,7 @@ namespace Audiograph
             this.lblUserTopAlbumArtist8.TabIndex = 74;
             this.lblUserTopAlbumArtist8.Text = "(Unavailable)";
             this.lblUserTopAlbumArtist8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopAlbumArtist8.UseMnemonic = false;
             this.lblUserTopAlbumArtist8.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopAlbumArtistClicked);
             // 
             // lblUserTopAlbum8
@@ -11744,6 +12263,7 @@ namespace Audiograph
             this.lblUserTopAlbum8.TabIndex = 73;
             this.lblUserTopAlbum8.Text = "(Unavailable)";
             this.lblUserTopAlbum8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopAlbum8.UseMnemonic = false;
             this.lblUserTopAlbum8.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopAlbumAlbumClicked);
             // 
             // picUserTopAlbumArt8
@@ -11771,6 +12291,7 @@ namespace Audiograph
             this.Label299.TabIndex = 71;
             this.Label299.Text = "8";
             this.Label299.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label299.UseMnemonic = false;
             // 
             // lblUserTopAlbumArtist7
             // 
@@ -11783,6 +12304,7 @@ namespace Audiograph
             this.lblUserTopAlbumArtist7.TabIndex = 69;
             this.lblUserTopAlbumArtist7.Text = "(Unavailable)";
             this.lblUserTopAlbumArtist7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopAlbumArtist7.UseMnemonic = false;
             this.lblUserTopAlbumArtist7.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopAlbumArtistClicked);
             // 
             // lblUserTopAlbum7
@@ -11796,6 +12318,7 @@ namespace Audiograph
             this.lblUserTopAlbum7.TabIndex = 68;
             this.lblUserTopAlbum7.Text = "(Unavailable)";
             this.lblUserTopAlbum7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopAlbum7.UseMnemonic = false;
             this.lblUserTopAlbum7.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopAlbumAlbumClicked);
             // 
             // picUserTopAlbumArt7
@@ -11823,6 +12346,7 @@ namespace Audiograph
             this.Label303.TabIndex = 66;
             this.Label303.Text = "7";
             this.Label303.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label303.UseMnemonic = false;
             // 
             // lblUserTopAlbumArtist6
             // 
@@ -11835,6 +12359,7 @@ namespace Audiograph
             this.lblUserTopAlbumArtist6.TabIndex = 64;
             this.lblUserTopAlbumArtist6.Text = "(Unavailable)";
             this.lblUserTopAlbumArtist6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopAlbumArtist6.UseMnemonic = false;
             this.lblUserTopAlbumArtist6.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopAlbumArtistClicked);
             // 
             // lblUserTopAlbum6
@@ -11848,6 +12373,7 @@ namespace Audiograph
             this.lblUserTopAlbum6.TabIndex = 63;
             this.lblUserTopAlbum6.Text = "(Unavailable)";
             this.lblUserTopAlbum6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopAlbum6.UseMnemonic = false;
             this.lblUserTopAlbum6.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopAlbumAlbumClicked);
             // 
             // picUserTopAlbumArt6
@@ -11875,6 +12401,7 @@ namespace Audiograph
             this.Label307.TabIndex = 61;
             this.Label307.Text = "6";
             this.Label307.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label307.UseMnemonic = false;
             // 
             // lblUserTopAlbumArtist5
             // 
@@ -11887,6 +12414,7 @@ namespace Audiograph
             this.lblUserTopAlbumArtist5.TabIndex = 59;
             this.lblUserTopAlbumArtist5.Text = "(Unavailable)";
             this.lblUserTopAlbumArtist5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopAlbumArtist5.UseMnemonic = false;
             this.lblUserTopAlbumArtist5.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopAlbumArtistClicked);
             // 
             // lblUserTopAlbum5
@@ -11900,6 +12428,7 @@ namespace Audiograph
             this.lblUserTopAlbum5.TabIndex = 58;
             this.lblUserTopAlbum5.Text = "(Unavailable)";
             this.lblUserTopAlbum5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopAlbum5.UseMnemonic = false;
             this.lblUserTopAlbum5.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopAlbumAlbumClicked);
             // 
             // picUserTopAlbumArt5
@@ -11927,6 +12456,7 @@ namespace Audiograph
             this.Label311.TabIndex = 56;
             this.Label311.Text = "5";
             this.Label311.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label311.UseMnemonic = false;
             // 
             // lblUserTopAlbumArtist4
             // 
@@ -11939,6 +12469,7 @@ namespace Audiograph
             this.lblUserTopAlbumArtist4.TabIndex = 54;
             this.lblUserTopAlbumArtist4.Text = "(Unavailable)";
             this.lblUserTopAlbumArtist4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopAlbumArtist4.UseMnemonic = false;
             this.lblUserTopAlbumArtist4.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopAlbumArtistClicked);
             // 
             // lblUserTopAlbum4
@@ -11952,6 +12483,7 @@ namespace Audiograph
             this.lblUserTopAlbum4.TabIndex = 53;
             this.lblUserTopAlbum4.Text = "(Unavailable)";
             this.lblUserTopAlbum4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopAlbum4.UseMnemonic = false;
             this.lblUserTopAlbum4.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopAlbumAlbumClicked);
             // 
             // picUserTopAlbumArt4
@@ -11979,6 +12511,7 @@ namespace Audiograph
             this.Label315.TabIndex = 51;
             this.Label315.Text = "4";
             this.Label315.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label315.UseMnemonic = false;
             // 
             // lblUserTopAlbumArtist3
             // 
@@ -11991,6 +12524,7 @@ namespace Audiograph
             this.lblUserTopAlbumArtist3.TabIndex = 49;
             this.lblUserTopAlbumArtist3.Text = "(Unavailable)";
             this.lblUserTopAlbumArtist3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopAlbumArtist3.UseMnemonic = false;
             this.lblUserTopAlbumArtist3.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopAlbumArtistClicked);
             // 
             // lblUserTopAlbum3
@@ -12004,6 +12538,7 @@ namespace Audiograph
             this.lblUserTopAlbum3.TabIndex = 48;
             this.lblUserTopAlbum3.Text = "(Unavailable)";
             this.lblUserTopAlbum3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopAlbum3.UseMnemonic = false;
             this.lblUserTopAlbum3.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopAlbumAlbumClicked);
             // 
             // picUserTopAlbumArt3
@@ -12031,6 +12566,7 @@ namespace Audiograph
             this.Label319.TabIndex = 46;
             this.Label319.Text = "3";
             this.Label319.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label319.UseMnemonic = false;
             // 
             // lblUserTopAlbumArtist2
             // 
@@ -12043,6 +12579,7 @@ namespace Audiograph
             this.lblUserTopAlbumArtist2.TabIndex = 44;
             this.lblUserTopAlbumArtist2.Text = "(Unavailable)";
             this.lblUserTopAlbumArtist2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopAlbumArtist2.UseMnemonic = false;
             this.lblUserTopAlbumArtist2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopAlbumArtistClicked);
             // 
             // lblUserTopAlbum2
@@ -12056,6 +12593,7 @@ namespace Audiograph
             this.lblUserTopAlbum2.TabIndex = 43;
             this.lblUserTopAlbum2.Text = "(Unavailable)";
             this.lblUserTopAlbum2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopAlbum2.UseMnemonic = false;
             this.lblUserTopAlbum2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopAlbumAlbumClicked);
             // 
             // picUserTopAlbumArt2
@@ -12083,6 +12621,7 @@ namespace Audiograph
             this.Label323.TabIndex = 41;
             this.Label323.Text = "2";
             this.Label323.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label323.UseMnemonic = false;
             // 
             // lblUserTopAlbumArtist1
             // 
@@ -12095,6 +12634,7 @@ namespace Audiograph
             this.lblUserTopAlbumArtist1.TabIndex = 39;
             this.lblUserTopAlbumArtist1.Text = "(Unavailable)";
             this.lblUserTopAlbumArtist1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopAlbumArtist1.UseMnemonic = false;
             this.lblUserTopAlbumArtist1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopAlbumArtistClicked);
             // 
             // lblUserTopAlbum1
@@ -12108,6 +12648,7 @@ namespace Audiograph
             this.lblUserTopAlbum1.TabIndex = 38;
             this.lblUserTopAlbum1.Text = "(Unavailable)";
             this.lblUserTopAlbum1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserTopAlbum1.UseMnemonic = false;
             this.lblUserTopAlbum1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserTopAlbumAlbumClicked);
             // 
             // Label327
@@ -12119,6 +12660,7 @@ namespace Audiograph
             this.Label327.TabIndex = 37;
             this.Label327.Text = "1";
             this.Label327.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label327.UseMnemonic = false;
             // 
             // Label328
             // 
@@ -12129,6 +12671,7 @@ namespace Audiograph
             this.Label328.TabIndex = 33;
             this.Label328.Text = "Art";
             this.Label328.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Label328.UseMnemonic = false;
             // 
             // picUserTopAlbumArt1
             // 
@@ -12155,6 +12698,7 @@ namespace Audiograph
             this.Label329.TabIndex = 32;
             this.Label329.Text = "#";
             this.Label329.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label329.UseMnemonic = false;
             // 
             // Label330
             // 
@@ -12165,6 +12709,7 @@ namespace Audiograph
             this.Label330.TabIndex = 34;
             this.Label330.Text = "Album";
             this.Label330.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Label330.UseMnemonic = false;
             // 
             // Label331
             // 
@@ -12175,6 +12720,7 @@ namespace Audiograph
             this.Label331.TabIndex = 35;
             this.Label331.Text = "Artist";
             this.Label331.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Label331.UseMnemonic = false;
             // 
             // pgUserHistory
             // 
@@ -12199,6 +12745,7 @@ namespace Audiograph
             this.lblUserHistoryTotalTracks.Size = new System.Drawing.Size(79, 13);
             this.lblUserHistoryTotalTracks.TabIndex = 27;
             this.lblUserHistoryTotalTracks.Text = "Total Tracks: 0";
+            this.lblUserHistoryTotalTracks.UseMnemonic = false;
             // 
             // nudUserHistoryPage
             // 
@@ -12226,6 +12773,7 @@ namespace Audiograph
             this.Label2.Size = new System.Drawing.Size(35, 13);
             this.Label2.TabIndex = 24;
             this.Label2.Text = "Page:";
+            this.Label2.UseMnemonic = false;
             // 
             // lblUserHistoryTotalPages
             // 
@@ -12235,6 +12783,7 @@ namespace Audiograph
             this.lblUserHistoryTotalPages.Size = new System.Drawing.Size(76, 13);
             this.lblUserHistoryTotalPages.TabIndex = 26;
             this.lblUserHistoryTotalPages.Text = "Total Pages: 0";
+            this.lblUserHistoryTotalPages.UseMnemonic = false;
             // 
             // ltvUserHistory
             // 
@@ -12345,6 +12894,7 @@ namespace Audiograph
             this.lblUserFrom.Size = new System.Drawing.Size(33, 13);
             this.lblUserFrom.TabIndex = 2;
             this.lblUserFrom.Text = "From:";
+            this.lblUserFrom.UseMnemonic = false;
             // 
             // gpbUserInfo
             // 
@@ -12491,6 +13041,7 @@ namespace Audiograph
             this.lblUserFriendTotal.Size = new System.Drawing.Size(80, 13);
             this.lblUserFriendTotal.TabIndex = 4;
             this.lblUserFriendTotal.Text = "Total Friends: 0";
+            this.lblUserFriendTotal.UseMnemonic = false;
             // 
             // ltvUserFriends
             // 
@@ -12594,6 +13145,7 @@ namespace Audiograph
             this.lblUserLovedTotalTracks.Size = new System.Drawing.Size(79, 13);
             this.lblUserLovedTotalTracks.TabIndex = 3;
             this.lblUserLovedTotalTracks.Text = "Total Tracks: 0";
+            this.lblUserLovedTotalTracks.UseMnemonic = false;
             // 
             // nudUserLovedPage
             // 
@@ -12700,6 +13252,7 @@ namespace Audiograph
             this.Label15.Size = new System.Drawing.Size(35, 13);
             this.Label15.TabIndex = 0;
             this.Label15.Text = "Page:";
+            this.Label15.UseMnemonic = false;
             // 
             // lblUserLovedTotalPages
             // 
@@ -12709,6 +13262,7 @@ namespace Audiograph
             this.lblUserLovedTotalPages.Size = new System.Drawing.Size(76, 13);
             this.lblUserLovedTotalPages.TabIndex = 2;
             this.lblUserLovedTotalPages.Text = "Total Pages: 0";
+            this.lblUserLovedTotalPages.UseMnemonic = false;
             // 
             // pgUserRecentTracks
             // 
@@ -12856,6 +13410,7 @@ namespace Audiograph
             this.lblUserRecentAlbum20.TabIndex = 117;
             this.lblUserRecentAlbum20.Text = "(Unavailable)";
             this.lblUserRecentAlbum20.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserRecentAlbum20.UseMnemonic = false;
             this.lblUserRecentAlbum20.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserRecentAlbumClick);
             // 
             // cmsUserRecent
@@ -12931,6 +13486,7 @@ namespace Audiograph
             this.lblUserRecentArtist20.TabIndex = 116;
             this.lblUserRecentArtist20.Text = "(Unavailable)";
             this.lblUserRecentArtist20.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserRecentArtist20.UseMnemonic = false;
             this.lblUserRecentArtist20.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserRecentArtistClick);
             // 
             // lblUserRecentTitle20
@@ -12945,6 +13501,7 @@ namespace Audiograph
             this.lblUserRecentTitle20.TabIndex = 115;
             this.lblUserRecentTitle20.Text = "(Unavailable)";
             this.lblUserRecentTitle20.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserRecentTitle20.UseMnemonic = false;
             this.lblUserRecentTitle20.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserRecentTrackClick);
             // 
             // picUserRecentArt20
@@ -12974,6 +13531,7 @@ namespace Audiograph
             this.lblUserRecentAlbum19.TabIndex = 113;
             this.lblUserRecentAlbum19.Text = "(Unavailable)";
             this.lblUserRecentAlbum19.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserRecentAlbum19.UseMnemonic = false;
             this.lblUserRecentAlbum19.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserRecentAlbumClick);
             // 
             // lblUserRecentArtist19
@@ -12988,6 +13546,7 @@ namespace Audiograph
             this.lblUserRecentArtist19.TabIndex = 112;
             this.lblUserRecentArtist19.Text = "(Unavailable)";
             this.lblUserRecentArtist19.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserRecentArtist19.UseMnemonic = false;
             this.lblUserRecentArtist19.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserRecentArtistClick);
             // 
             // lblUserRecentTitle19
@@ -13002,6 +13561,7 @@ namespace Audiograph
             this.lblUserRecentTitle19.TabIndex = 111;
             this.lblUserRecentTitle19.Text = "(Unavailable)";
             this.lblUserRecentTitle19.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserRecentTitle19.UseMnemonic = false;
             this.lblUserRecentTitle19.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserRecentTrackClick);
             // 
             // picUserRecentArt19
@@ -13031,6 +13591,7 @@ namespace Audiograph
             this.lblUserRecentAlbum18.TabIndex = 109;
             this.lblUserRecentAlbum18.Text = "(Unavailable)";
             this.lblUserRecentAlbum18.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserRecentAlbum18.UseMnemonic = false;
             this.lblUserRecentAlbum18.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserRecentAlbumClick);
             // 
             // lblUserRecentArtist18
@@ -13045,6 +13606,7 @@ namespace Audiograph
             this.lblUserRecentArtist18.TabIndex = 108;
             this.lblUserRecentArtist18.Text = "(Unavailable)";
             this.lblUserRecentArtist18.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserRecentArtist18.UseMnemonic = false;
             this.lblUserRecentArtist18.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserRecentArtistClick);
             // 
             // lblUserRecentTitle18
@@ -13059,6 +13621,7 @@ namespace Audiograph
             this.lblUserRecentTitle18.TabIndex = 107;
             this.lblUserRecentTitle18.Text = "(Unavailable)";
             this.lblUserRecentTitle18.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserRecentTitle18.UseMnemonic = false;
             this.lblUserRecentTitle18.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserRecentTrackClick);
             // 
             // picUserRecentArt18
@@ -13088,6 +13651,7 @@ namespace Audiograph
             this.lblUserRecentAlbum17.TabIndex = 105;
             this.lblUserRecentAlbum17.Text = "(Unavailable)";
             this.lblUserRecentAlbum17.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserRecentAlbum17.UseMnemonic = false;
             this.lblUserRecentAlbum17.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserRecentAlbumClick);
             // 
             // lblUserRecentArtist17
@@ -13102,6 +13666,7 @@ namespace Audiograph
             this.lblUserRecentArtist17.TabIndex = 104;
             this.lblUserRecentArtist17.Text = "(Unavailable)";
             this.lblUserRecentArtist17.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserRecentArtist17.UseMnemonic = false;
             this.lblUserRecentArtist17.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserRecentArtistClick);
             // 
             // lblUserRecentTitle17
@@ -13116,6 +13681,7 @@ namespace Audiograph
             this.lblUserRecentTitle17.TabIndex = 103;
             this.lblUserRecentTitle17.Text = "(Unavailable)";
             this.lblUserRecentTitle17.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserRecentTitle17.UseMnemonic = false;
             this.lblUserRecentTitle17.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserRecentTrackClick);
             // 
             // picUserRecentArt17
@@ -13145,6 +13711,7 @@ namespace Audiograph
             this.lblUserRecentAlbum16.TabIndex = 101;
             this.lblUserRecentAlbum16.Text = "(Unavailable)";
             this.lblUserRecentAlbum16.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserRecentAlbum16.UseMnemonic = false;
             this.lblUserRecentAlbum16.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserRecentAlbumClick);
             // 
             // lblUserRecentArtist16
@@ -13159,6 +13726,7 @@ namespace Audiograph
             this.lblUserRecentArtist16.TabIndex = 100;
             this.lblUserRecentArtist16.Text = "(Unavailable)";
             this.lblUserRecentArtist16.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserRecentArtist16.UseMnemonic = false;
             this.lblUserRecentArtist16.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserRecentArtistClick);
             // 
             // lblUserRecentTitle16
@@ -13173,6 +13741,7 @@ namespace Audiograph
             this.lblUserRecentTitle16.TabIndex = 99;
             this.lblUserRecentTitle16.Text = "(Unavailable)";
             this.lblUserRecentTitle16.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserRecentTitle16.UseMnemonic = false;
             this.lblUserRecentTitle16.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserRecentTrackClick);
             // 
             // picUserRecentArt16
@@ -13202,6 +13771,7 @@ namespace Audiograph
             this.lblUserRecentAlbum15.TabIndex = 97;
             this.lblUserRecentAlbum15.Text = "(Unavailable)";
             this.lblUserRecentAlbum15.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserRecentAlbum15.UseMnemonic = false;
             this.lblUserRecentAlbum15.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserRecentAlbumClick);
             // 
             // lblUserRecentArtist15
@@ -13216,6 +13786,7 @@ namespace Audiograph
             this.lblUserRecentArtist15.TabIndex = 96;
             this.lblUserRecentArtist15.Text = "(Unavailable)";
             this.lblUserRecentArtist15.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserRecentArtist15.UseMnemonic = false;
             this.lblUserRecentArtist15.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserRecentArtistClick);
             // 
             // lblUserRecentTitle15
@@ -13230,6 +13801,7 @@ namespace Audiograph
             this.lblUserRecentTitle15.TabIndex = 95;
             this.lblUserRecentTitle15.Text = "(Unavailable)";
             this.lblUserRecentTitle15.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserRecentTitle15.UseMnemonic = false;
             this.lblUserRecentTitle15.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserRecentTrackClick);
             // 
             // picUserRecentArt15
@@ -13259,6 +13831,7 @@ namespace Audiograph
             this.lblUserRecentAlbum14.TabIndex = 93;
             this.lblUserRecentAlbum14.Text = "(Unavailable)";
             this.lblUserRecentAlbum14.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserRecentAlbum14.UseMnemonic = false;
             this.lblUserRecentAlbum14.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserRecentAlbumClick);
             // 
             // lblUserRecentArtist14
@@ -13273,6 +13846,7 @@ namespace Audiograph
             this.lblUserRecentArtist14.TabIndex = 92;
             this.lblUserRecentArtist14.Text = "(Unavailable)";
             this.lblUserRecentArtist14.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserRecentArtist14.UseMnemonic = false;
             this.lblUserRecentArtist14.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserRecentArtistClick);
             // 
             // lblUserRecentTitle14
@@ -13287,6 +13861,7 @@ namespace Audiograph
             this.lblUserRecentTitle14.TabIndex = 91;
             this.lblUserRecentTitle14.Text = "(Unavailable)";
             this.lblUserRecentTitle14.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserRecentTitle14.UseMnemonic = false;
             this.lblUserRecentTitle14.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserRecentTrackClick);
             // 
             // picUserRecentArt14
@@ -13316,6 +13891,7 @@ namespace Audiograph
             this.lblUserRecentAlbum13.TabIndex = 89;
             this.lblUserRecentAlbum13.Text = "(Unavailable)";
             this.lblUserRecentAlbum13.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserRecentAlbum13.UseMnemonic = false;
             this.lblUserRecentAlbum13.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserRecentAlbumClick);
             // 
             // lblUserRecentArtist13
@@ -13330,6 +13906,7 @@ namespace Audiograph
             this.lblUserRecentArtist13.TabIndex = 88;
             this.lblUserRecentArtist13.Text = "(Unavailable)";
             this.lblUserRecentArtist13.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserRecentArtist13.UseMnemonic = false;
             this.lblUserRecentArtist13.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserRecentArtistClick);
             // 
             // lblUserRecentTitle13
@@ -13344,6 +13921,7 @@ namespace Audiograph
             this.lblUserRecentTitle13.TabIndex = 87;
             this.lblUserRecentTitle13.Text = "(Unavailable)";
             this.lblUserRecentTitle13.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserRecentTitle13.UseMnemonic = false;
             this.lblUserRecentTitle13.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserRecentTrackClick);
             // 
             // picUserRecentArt13
@@ -13373,6 +13951,7 @@ namespace Audiograph
             this.lblUserRecentAlbum12.TabIndex = 85;
             this.lblUserRecentAlbum12.Text = "(Unavailable)";
             this.lblUserRecentAlbum12.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserRecentAlbum12.UseMnemonic = false;
             this.lblUserRecentAlbum12.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserRecentAlbumClick);
             // 
             // lblUserRecentArtist12
@@ -13387,6 +13966,7 @@ namespace Audiograph
             this.lblUserRecentArtist12.TabIndex = 84;
             this.lblUserRecentArtist12.Text = "(Unavailable)";
             this.lblUserRecentArtist12.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserRecentArtist12.UseMnemonic = false;
             this.lblUserRecentArtist12.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserRecentArtistClick);
             // 
             // lblUserRecentTitle12
@@ -13401,6 +13981,7 @@ namespace Audiograph
             this.lblUserRecentTitle12.TabIndex = 83;
             this.lblUserRecentTitle12.Text = "(Unavailable)";
             this.lblUserRecentTitle12.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserRecentTitle12.UseMnemonic = false;
             this.lblUserRecentTitle12.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserRecentTrackClick);
             // 
             // picUserRecentArt12
@@ -13430,6 +14011,7 @@ namespace Audiograph
             this.lblUserRecentAlbum11.TabIndex = 81;
             this.lblUserRecentAlbum11.Text = "(Unavailable)";
             this.lblUserRecentAlbum11.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserRecentAlbum11.UseMnemonic = false;
             this.lblUserRecentAlbum11.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserRecentAlbumClick);
             // 
             // lblUserRecentArtist11
@@ -13444,6 +14026,7 @@ namespace Audiograph
             this.lblUserRecentArtist11.TabIndex = 80;
             this.lblUserRecentArtist11.Text = "(Unavailable)";
             this.lblUserRecentArtist11.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserRecentArtist11.UseMnemonic = false;
             this.lblUserRecentArtist11.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserRecentArtistClick);
             // 
             // lblUserRecentTitle11
@@ -13458,6 +14041,7 @@ namespace Audiograph
             this.lblUserRecentTitle11.TabIndex = 79;
             this.lblUserRecentTitle11.Text = "(Unavailable)";
             this.lblUserRecentTitle11.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserRecentTitle11.UseMnemonic = false;
             this.lblUserRecentTitle11.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserRecentTrackClick);
             // 
             // picUserRecentArt11
@@ -13487,6 +14071,7 @@ namespace Audiograph
             this.lblUserRecentAlbum10.TabIndex = 77;
             this.lblUserRecentAlbum10.Text = "(Unavailable)";
             this.lblUserRecentAlbum10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserRecentAlbum10.UseMnemonic = false;
             this.lblUserRecentAlbum10.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserRecentAlbumClick);
             // 
             // lblUserRecentArtist10
@@ -13501,6 +14086,7 @@ namespace Audiograph
             this.lblUserRecentArtist10.TabIndex = 76;
             this.lblUserRecentArtist10.Text = "(Unavailable)";
             this.lblUserRecentArtist10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserRecentArtist10.UseMnemonic = false;
             this.lblUserRecentArtist10.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserRecentArtistClick);
             // 
             // lblUserRecentTitle10
@@ -13515,6 +14101,7 @@ namespace Audiograph
             this.lblUserRecentTitle10.TabIndex = 75;
             this.lblUserRecentTitle10.Text = "(Unavailable)";
             this.lblUserRecentTitle10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserRecentTitle10.UseMnemonic = false;
             this.lblUserRecentTitle10.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserRecentTrackClick);
             // 
             // picUserRecentArt10
@@ -13544,6 +14131,7 @@ namespace Audiograph
             this.lblUserRecentAlbum9.TabIndex = 73;
             this.lblUserRecentAlbum9.Text = "(Unavailable)";
             this.lblUserRecentAlbum9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserRecentAlbum9.UseMnemonic = false;
             this.lblUserRecentAlbum9.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserRecentAlbumClick);
             // 
             // lblUserRecentArtist9
@@ -13558,6 +14146,7 @@ namespace Audiograph
             this.lblUserRecentArtist9.TabIndex = 72;
             this.lblUserRecentArtist9.Text = "(Unavailable)";
             this.lblUserRecentArtist9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserRecentArtist9.UseMnemonic = false;
             this.lblUserRecentArtist9.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserRecentArtistClick);
             // 
             // lblUserRecentTitle9
@@ -13572,6 +14161,7 @@ namespace Audiograph
             this.lblUserRecentTitle9.TabIndex = 71;
             this.lblUserRecentTitle9.Text = "(Unavailable)";
             this.lblUserRecentTitle9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserRecentTitle9.UseMnemonic = false;
             this.lblUserRecentTitle9.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserRecentTrackClick);
             // 
             // picUserRecentArt9
@@ -13601,6 +14191,7 @@ namespace Audiograph
             this.lblUserRecentAlbum8.TabIndex = 69;
             this.lblUserRecentAlbum8.Text = "(Unavailable)";
             this.lblUserRecentAlbum8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserRecentAlbum8.UseMnemonic = false;
             this.lblUserRecentAlbum8.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserRecentAlbumClick);
             // 
             // lblUserRecentArtist8
@@ -13615,6 +14206,7 @@ namespace Audiograph
             this.lblUserRecentArtist8.TabIndex = 68;
             this.lblUserRecentArtist8.Text = "(Unavailable)";
             this.lblUserRecentArtist8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserRecentArtist8.UseMnemonic = false;
             this.lblUserRecentArtist8.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserRecentArtistClick);
             // 
             // lblUserRecentTitle8
@@ -13629,6 +14221,7 @@ namespace Audiograph
             this.lblUserRecentTitle8.TabIndex = 67;
             this.lblUserRecentTitle8.Text = "(Unavailable)";
             this.lblUserRecentTitle8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserRecentTitle8.UseMnemonic = false;
             this.lblUserRecentTitle8.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserRecentTrackClick);
             // 
             // picUserRecentArt8
@@ -13658,6 +14251,7 @@ namespace Audiograph
             this.lblUserRecentAlbum7.TabIndex = 65;
             this.lblUserRecentAlbum7.Text = "(Unavailable)";
             this.lblUserRecentAlbum7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserRecentAlbum7.UseMnemonic = false;
             this.lblUserRecentAlbum7.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserRecentAlbumClick);
             // 
             // lblUserRecentArtist7
@@ -13672,6 +14266,7 @@ namespace Audiograph
             this.lblUserRecentArtist7.TabIndex = 64;
             this.lblUserRecentArtist7.Text = "(Unavailable)";
             this.lblUserRecentArtist7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserRecentArtist7.UseMnemonic = false;
             this.lblUserRecentArtist7.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserRecentArtistClick);
             // 
             // lblUserRecentTitle7
@@ -13686,6 +14281,7 @@ namespace Audiograph
             this.lblUserRecentTitle7.TabIndex = 63;
             this.lblUserRecentTitle7.Text = "(Unavailable)";
             this.lblUserRecentTitle7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserRecentTitle7.UseMnemonic = false;
             this.lblUserRecentTitle7.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserRecentTrackClick);
             // 
             // picUserRecentArt7
@@ -13715,6 +14311,7 @@ namespace Audiograph
             this.lblUserRecentAlbum6.TabIndex = 61;
             this.lblUserRecentAlbum6.Text = "(Unavailable)";
             this.lblUserRecentAlbum6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserRecentAlbum6.UseMnemonic = false;
             this.lblUserRecentAlbum6.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserRecentAlbumClick);
             // 
             // lblUserRecentArtist6
@@ -13729,6 +14326,7 @@ namespace Audiograph
             this.lblUserRecentArtist6.TabIndex = 60;
             this.lblUserRecentArtist6.Text = "(Unavailable)";
             this.lblUserRecentArtist6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserRecentArtist6.UseMnemonic = false;
             this.lblUserRecentArtist6.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserRecentArtistClick);
             // 
             // lblUserRecentTitle6
@@ -13743,6 +14341,7 @@ namespace Audiograph
             this.lblUserRecentTitle6.TabIndex = 59;
             this.lblUserRecentTitle6.Text = "(Unavailable)";
             this.lblUserRecentTitle6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserRecentTitle6.UseMnemonic = false;
             this.lblUserRecentTitle6.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserRecentTrackClick);
             // 
             // picUserRecentArt6
@@ -13772,6 +14371,7 @@ namespace Audiograph
             this.lblUserRecentAlbum5.TabIndex = 57;
             this.lblUserRecentAlbum5.Text = "(Unavailable)";
             this.lblUserRecentAlbum5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserRecentAlbum5.UseMnemonic = false;
             this.lblUserRecentAlbum5.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserRecentAlbumClick);
             // 
             // lblUserRecentArtist5
@@ -13786,6 +14386,7 @@ namespace Audiograph
             this.lblUserRecentArtist5.TabIndex = 56;
             this.lblUserRecentArtist5.Text = "(Unavailable)";
             this.lblUserRecentArtist5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserRecentArtist5.UseMnemonic = false;
             this.lblUserRecentArtist5.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserRecentArtistClick);
             // 
             // lblUserRecentTitle5
@@ -13800,6 +14401,7 @@ namespace Audiograph
             this.lblUserRecentTitle5.TabIndex = 55;
             this.lblUserRecentTitle5.Text = "(Unavailable)";
             this.lblUserRecentTitle5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserRecentTitle5.UseMnemonic = false;
             this.lblUserRecentTitle5.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserRecentTrackClick);
             // 
             // picUserRecentArt5
@@ -13829,6 +14431,7 @@ namespace Audiograph
             this.lblUserRecentAlbum4.TabIndex = 53;
             this.lblUserRecentAlbum4.Text = "(Unavailable)";
             this.lblUserRecentAlbum4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserRecentAlbum4.UseMnemonic = false;
             this.lblUserRecentAlbum4.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserRecentAlbumClick);
             // 
             // lblUserRecentArtist4
@@ -13843,6 +14446,7 @@ namespace Audiograph
             this.lblUserRecentArtist4.TabIndex = 52;
             this.lblUserRecentArtist4.Text = "(Unavailable)";
             this.lblUserRecentArtist4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserRecentArtist4.UseMnemonic = false;
             this.lblUserRecentArtist4.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserRecentArtistClick);
             // 
             // lblUserRecentTitle4
@@ -13857,6 +14461,7 @@ namespace Audiograph
             this.lblUserRecentTitle4.TabIndex = 51;
             this.lblUserRecentTitle4.Text = "(Unavailable)";
             this.lblUserRecentTitle4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserRecentTitle4.UseMnemonic = false;
             this.lblUserRecentTitle4.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserRecentTrackClick);
             // 
             // picUserRecentArt4
@@ -13886,6 +14491,7 @@ namespace Audiograph
             this.lblUserRecentAlbum3.TabIndex = 49;
             this.lblUserRecentAlbum3.Text = "(Unavailable)";
             this.lblUserRecentAlbum3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserRecentAlbum3.UseMnemonic = false;
             this.lblUserRecentAlbum3.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserRecentAlbumClick);
             // 
             // lblUserRecentArtist3
@@ -13900,6 +14506,7 @@ namespace Audiograph
             this.lblUserRecentArtist3.TabIndex = 48;
             this.lblUserRecentArtist3.Text = "(Unavailable)";
             this.lblUserRecentArtist3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserRecentArtist3.UseMnemonic = false;
             this.lblUserRecentArtist3.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserRecentArtistClick);
             // 
             // lblUserRecentTitle3
@@ -13914,6 +14521,7 @@ namespace Audiograph
             this.lblUserRecentTitle3.TabIndex = 47;
             this.lblUserRecentTitle3.Text = "(Unavailable)";
             this.lblUserRecentTitle3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserRecentTitle3.UseMnemonic = false;
             this.lblUserRecentTitle3.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserRecentTrackClick);
             // 
             // picUserRecentArt3
@@ -13943,6 +14551,7 @@ namespace Audiograph
             this.lblUserRecentAlbum2.TabIndex = 45;
             this.lblUserRecentAlbum2.Text = "(Unavailable)";
             this.lblUserRecentAlbum2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserRecentAlbum2.UseMnemonic = false;
             this.lblUserRecentAlbum2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserRecentAlbumClick);
             // 
             // lblUserRecentArtist2
@@ -13957,6 +14566,7 @@ namespace Audiograph
             this.lblUserRecentArtist2.TabIndex = 44;
             this.lblUserRecentArtist2.Text = "(Unavailable)";
             this.lblUserRecentArtist2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserRecentArtist2.UseMnemonic = false;
             this.lblUserRecentArtist2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserRecentArtistClick);
             // 
             // lblUserRecentTitle2
@@ -13971,6 +14581,7 @@ namespace Audiograph
             this.lblUserRecentTitle2.TabIndex = 43;
             this.lblUserRecentTitle2.Text = "(Unavailable)";
             this.lblUserRecentTitle2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserRecentTitle2.UseMnemonic = false;
             this.lblUserRecentTitle2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserRecentTrackClick);
             // 
             // picUserRecentArt2
@@ -14000,6 +14611,7 @@ namespace Audiograph
             this.lblUserRecentAlbum1.TabIndex = 41;
             this.lblUserRecentAlbum1.Text = "(Unavailable)";
             this.lblUserRecentAlbum1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserRecentAlbum1.UseMnemonic = false;
             this.lblUserRecentAlbum1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserRecentAlbumClick);
             // 
             // lblUserRecentArtist1
@@ -14014,6 +14626,7 @@ namespace Audiograph
             this.lblUserRecentArtist1.TabIndex = 40;
             this.lblUserRecentArtist1.Text = "(Unavailable)";
             this.lblUserRecentArtist1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserRecentArtist1.UseMnemonic = false;
             this.lblUserRecentArtist1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserRecentArtistClick);
             // 
             // Label13
@@ -14025,6 +14638,7 @@ namespace Audiograph
             this.Label13.TabIndex = 37;
             this.Label13.Text = "Album";
             this.Label13.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Label13.UseMnemonic = false;
             // 
             // Label12
             // 
@@ -14035,6 +14649,7 @@ namespace Audiograph
             this.Label12.TabIndex = 36;
             this.Label12.Text = "Artist";
             this.Label12.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Label12.UseMnemonic = false;
             // 
             // Label11
             // 
@@ -14045,6 +14660,7 @@ namespace Audiograph
             this.Label11.TabIndex = 35;
             this.Label11.Text = "Title";
             this.Label11.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Label11.UseMnemonic = false;
             // 
             // Label9
             // 
@@ -14055,6 +14671,7 @@ namespace Audiograph
             this.Label9.TabIndex = 34;
             this.Label9.Text = "Art";
             this.Label9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Label9.UseMnemonic = false;
             // 
             // picUserRecentArt1
             // 
@@ -14083,6 +14700,7 @@ namespace Audiograph
             this.lblUserRecentTitle1.TabIndex = 39;
             this.lblUserRecentTitle1.Text = "(Unavailable)";
             this.lblUserRecentTitle1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserRecentTitle1.UseMnemonic = false;
             this.lblUserRecentTitle1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserRecentTrackClick);
             // 
             // pgUserLookup
@@ -14126,6 +14744,7 @@ namespace Audiograph
             this.Label456.TabIndex = 12;
             this.Label456.Text = "User:";
             this.Label456.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Label456.UseMnemonic = false;
             // 
             // lblUserLStatus
             // 
@@ -14136,6 +14755,7 @@ namespace Audiograph
             this.lblUserLStatus.TabIndex = 15;
             this.lblUserLStatus.Text = "No User Set";
             this.lblUserLStatus.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLStatus.UseMnemonic = false;
             // 
             // tlpUserL
             // 
@@ -14198,6 +14818,7 @@ namespace Audiograph
             this.lblUserLTo.Size = new System.Drawing.Size(23, 13);
             this.lblUserLTo.TabIndex = 4;
             this.lblUserLTo.Text = "To:";
+            this.lblUserLTo.UseMnemonic = false;
             // 
             // dtpUserLFrom
             // 
@@ -14432,6 +15053,7 @@ namespace Audiograph
             this.lblUserLTopTrackPlaycount20.TabIndex = 156;
             this.lblUserLTopTrackPlaycount20.Text = "(Unavailable)";
             this.lblUserLTopTrackPlaycount20.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopTrackPlaycount20.UseMnemonic = false;
             // 
             // lblUserLTopTrackPlaycount19
             // 
@@ -14442,6 +15064,7 @@ namespace Audiograph
             this.lblUserLTopTrackPlaycount19.TabIndex = 155;
             this.lblUserLTopTrackPlaycount19.Text = "(Unavailable)";
             this.lblUserLTopTrackPlaycount19.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopTrackPlaycount19.UseMnemonic = false;
             // 
             // lblUserLTopTrackPlaycount18
             // 
@@ -14452,6 +15075,7 @@ namespace Audiograph
             this.lblUserLTopTrackPlaycount18.TabIndex = 154;
             this.lblUserLTopTrackPlaycount18.Text = "(Unavailable)";
             this.lblUserLTopTrackPlaycount18.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopTrackPlaycount18.UseMnemonic = false;
             // 
             // lblUserLTopTrackPlaycount17
             // 
@@ -14462,6 +15086,7 @@ namespace Audiograph
             this.lblUserLTopTrackPlaycount17.TabIndex = 153;
             this.lblUserLTopTrackPlaycount17.Text = "(Unavailable)";
             this.lblUserLTopTrackPlaycount17.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopTrackPlaycount17.UseMnemonic = false;
             // 
             // lblUserLTopTrackPlaycount16
             // 
@@ -14472,6 +15097,7 @@ namespace Audiograph
             this.lblUserLTopTrackPlaycount16.TabIndex = 152;
             this.lblUserLTopTrackPlaycount16.Text = "(Unavailable)";
             this.lblUserLTopTrackPlaycount16.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopTrackPlaycount16.UseMnemonic = false;
             // 
             // lblUserLTopTrackPlaycount15
             // 
@@ -14482,6 +15108,7 @@ namespace Audiograph
             this.lblUserLTopTrackPlaycount15.TabIndex = 151;
             this.lblUserLTopTrackPlaycount15.Text = "(Unavailable)";
             this.lblUserLTopTrackPlaycount15.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopTrackPlaycount15.UseMnemonic = false;
             // 
             // lblUserLTopTrackPlaycount14
             // 
@@ -14492,6 +15119,7 @@ namespace Audiograph
             this.lblUserLTopTrackPlaycount14.TabIndex = 150;
             this.lblUserLTopTrackPlaycount14.Text = "(Unavailable)";
             this.lblUserLTopTrackPlaycount14.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopTrackPlaycount14.UseMnemonic = false;
             // 
             // lblUserLTopTrackPlaycount13
             // 
@@ -14502,6 +15130,7 @@ namespace Audiograph
             this.lblUserLTopTrackPlaycount13.TabIndex = 149;
             this.lblUserLTopTrackPlaycount13.Text = "(Unavailable)";
             this.lblUserLTopTrackPlaycount13.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopTrackPlaycount13.UseMnemonic = false;
             // 
             // lblUserLTopTrackPlaycount12
             // 
@@ -14512,6 +15141,7 @@ namespace Audiograph
             this.lblUserLTopTrackPlaycount12.TabIndex = 148;
             this.lblUserLTopTrackPlaycount12.Text = "(Unavailable)";
             this.lblUserLTopTrackPlaycount12.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopTrackPlaycount12.UseMnemonic = false;
             // 
             // lblUserLTopTrackPlaycount11
             // 
@@ -14522,6 +15152,7 @@ namespace Audiograph
             this.lblUserLTopTrackPlaycount11.TabIndex = 147;
             this.lblUserLTopTrackPlaycount11.Text = "(Unavailable)";
             this.lblUserLTopTrackPlaycount11.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopTrackPlaycount11.UseMnemonic = false;
             // 
             // lblUserLTopTrackPlaycount10
             // 
@@ -14532,6 +15163,7 @@ namespace Audiograph
             this.lblUserLTopTrackPlaycount10.TabIndex = 146;
             this.lblUserLTopTrackPlaycount10.Text = "(Unavailable)";
             this.lblUserLTopTrackPlaycount10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopTrackPlaycount10.UseMnemonic = false;
             // 
             // lblUserLTopTrackPlaycount9
             // 
@@ -14542,6 +15174,7 @@ namespace Audiograph
             this.lblUserLTopTrackPlaycount9.TabIndex = 145;
             this.lblUserLTopTrackPlaycount9.Text = "(Unavailable)";
             this.lblUserLTopTrackPlaycount9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopTrackPlaycount9.UseMnemonic = false;
             // 
             // lblUserLTopTrackPlaycount8
             // 
@@ -14552,6 +15185,7 @@ namespace Audiograph
             this.lblUserLTopTrackPlaycount8.TabIndex = 144;
             this.lblUserLTopTrackPlaycount8.Text = "(Unavailable)";
             this.lblUserLTopTrackPlaycount8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopTrackPlaycount8.UseMnemonic = false;
             // 
             // lblUserLTopTrackPlaycount7
             // 
@@ -14562,6 +15196,7 @@ namespace Audiograph
             this.lblUserLTopTrackPlaycount7.TabIndex = 143;
             this.lblUserLTopTrackPlaycount7.Text = "(Unavailable)";
             this.lblUserLTopTrackPlaycount7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopTrackPlaycount7.UseMnemonic = false;
             // 
             // lblUserLTopTrackPlaycount6
             // 
@@ -14572,6 +15207,7 @@ namespace Audiograph
             this.lblUserLTopTrackPlaycount6.TabIndex = 142;
             this.lblUserLTopTrackPlaycount6.Text = "(Unavailable)";
             this.lblUserLTopTrackPlaycount6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopTrackPlaycount6.UseMnemonic = false;
             // 
             // lblUserLTopTrackPlaycount5
             // 
@@ -14582,6 +15218,7 @@ namespace Audiograph
             this.lblUserLTopTrackPlaycount5.TabIndex = 141;
             this.lblUserLTopTrackPlaycount5.Text = "(Unavailable)";
             this.lblUserLTopTrackPlaycount5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopTrackPlaycount5.UseMnemonic = false;
             // 
             // lblUserLTopTrackPlaycount4
             // 
@@ -14592,6 +15229,7 @@ namespace Audiograph
             this.lblUserLTopTrackPlaycount4.TabIndex = 140;
             this.lblUserLTopTrackPlaycount4.Text = "(Unavailable)";
             this.lblUserLTopTrackPlaycount4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopTrackPlaycount4.UseMnemonic = false;
             // 
             // lblUserLTopTrackPlaycount3
             // 
@@ -14602,6 +15240,7 @@ namespace Audiograph
             this.lblUserLTopTrackPlaycount3.TabIndex = 139;
             this.lblUserLTopTrackPlaycount3.Text = "(Unavailable)";
             this.lblUserLTopTrackPlaycount3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopTrackPlaycount3.UseMnemonic = false;
             // 
             // lblUserLTopTrackPlaycount2
             // 
@@ -14612,6 +15251,7 @@ namespace Audiograph
             this.lblUserLTopTrackPlaycount2.TabIndex = 138;
             this.lblUserLTopTrackPlaycount2.Text = "(Unavailable)";
             this.lblUserLTopTrackPlaycount2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopTrackPlaycount2.UseMnemonic = false;
             // 
             // lblUserLTopTrackPlaycount1
             // 
@@ -14622,6 +15262,7 @@ namespace Audiograph
             this.lblUserLTopTrackPlaycount1.TabIndex = 137;
             this.lblUserLTopTrackPlaycount1.Text = "(Unavailable)";
             this.lblUserLTopTrackPlaycount1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopTrackPlaycount1.UseMnemonic = false;
             // 
             // Label52
             // 
@@ -14632,6 +15273,7 @@ namespace Audiograph
             this.Label52.TabIndex = 136;
             this.Label52.Text = "Playcount";
             this.Label52.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Label52.UseMnemonic = false;
             // 
             // lblUserLTopTrackAlbum20
             // 
@@ -14644,6 +15286,7 @@ namespace Audiograph
             this.lblUserLTopTrackAlbum20.TabIndex = 135;
             this.lblUserLTopTrackAlbum20.Text = "(Unavailable)";
             this.lblUserLTopTrackAlbum20.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopTrackAlbum20.UseMnemonic = false;
             this.lblUserLTopTrackAlbum20.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopTrackAlbumClicked);
             // 
             // cmsUserLTopTracks
@@ -14718,6 +15361,7 @@ namespace Audiograph
             this.lblUserLTopTrackArtist20.TabIndex = 134;
             this.lblUserLTopTrackArtist20.Text = "(Unavailable)";
             this.lblUserLTopTrackArtist20.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopTrackArtist20.UseMnemonic = false;
             this.lblUserLTopTrackArtist20.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopTrackArtistClicked);
             // 
             // lblUserLTopTrackTitle20
@@ -14731,6 +15375,7 @@ namespace Audiograph
             this.lblUserLTopTrackTitle20.TabIndex = 133;
             this.lblUserLTopTrackTitle20.Text = "(Unavailable)";
             this.lblUserLTopTrackTitle20.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopTrackTitle20.UseMnemonic = false;
             this.lblUserLTopTrackTitle20.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopTrackTrackClicked);
             // 
             // picUserLTopTrackArt20
@@ -14758,6 +15403,7 @@ namespace Audiograph
             this.Label60.TabIndex = 131;
             this.Label60.Text = "20";
             this.Label60.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label60.UseMnemonic = false;
             // 
             // lblUserLTopTrackAlbum19
             // 
@@ -14770,6 +15416,7 @@ namespace Audiograph
             this.lblUserLTopTrackAlbum19.TabIndex = 130;
             this.lblUserLTopTrackAlbum19.Text = "(Unavailable)";
             this.lblUserLTopTrackAlbum19.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopTrackAlbum19.UseMnemonic = false;
             this.lblUserLTopTrackAlbum19.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopTrackAlbumClicked);
             // 
             // lblUserLTopTrackArtist19
@@ -14783,6 +15430,7 @@ namespace Audiograph
             this.lblUserLTopTrackArtist19.TabIndex = 129;
             this.lblUserLTopTrackArtist19.Text = "(Unavailable)";
             this.lblUserLTopTrackArtist19.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopTrackArtist19.UseMnemonic = false;
             this.lblUserLTopTrackArtist19.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopTrackArtistClicked);
             // 
             // lblUserLTopTrackTitle19
@@ -14796,6 +15444,7 @@ namespace Audiograph
             this.lblUserLTopTrackTitle19.TabIndex = 128;
             this.lblUserLTopTrackTitle19.Text = "(Unavailable)";
             this.lblUserLTopTrackTitle19.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopTrackTitle19.UseMnemonic = false;
             this.lblUserLTopTrackTitle19.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopTrackTrackClicked);
             // 
             // picUserLTopTrackArt19
@@ -14823,6 +15472,7 @@ namespace Audiograph
             this.Label67.TabIndex = 126;
             this.Label67.Text = "19";
             this.Label67.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label67.UseMnemonic = false;
             // 
             // lblUserLTopTrackAlbum18
             // 
@@ -14835,6 +15485,7 @@ namespace Audiograph
             this.lblUserLTopTrackAlbum18.TabIndex = 125;
             this.lblUserLTopTrackAlbum18.Text = "(Unavailable)";
             this.lblUserLTopTrackAlbum18.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopTrackAlbum18.UseMnemonic = false;
             this.lblUserLTopTrackAlbum18.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopTrackAlbumClicked);
             // 
             // lblUserLTopTrackArtist18
@@ -14848,6 +15499,7 @@ namespace Audiograph
             this.lblUserLTopTrackArtist18.TabIndex = 124;
             this.lblUserLTopTrackArtist18.Text = "(Unavailable)";
             this.lblUserLTopTrackArtist18.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopTrackArtist18.UseMnemonic = false;
             this.lblUserLTopTrackArtist18.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopTrackArtistClicked);
             // 
             // lblUserLTopTrackTitle18
@@ -14861,6 +15513,7 @@ namespace Audiograph
             this.lblUserLTopTrackTitle18.TabIndex = 123;
             this.lblUserLTopTrackTitle18.Text = "(Unavailable)";
             this.lblUserLTopTrackTitle18.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopTrackTitle18.UseMnemonic = false;
             this.lblUserLTopTrackTitle18.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopTrackTrackClicked);
             // 
             // picUserLTopTrackArt18
@@ -14888,6 +15541,7 @@ namespace Audiograph
             this.Label74.TabIndex = 121;
             this.Label74.Text = "18";
             this.Label74.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label74.UseMnemonic = false;
             // 
             // lblUserLTopTrackAlbum17
             // 
@@ -14900,6 +15554,7 @@ namespace Audiograph
             this.lblUserLTopTrackAlbum17.TabIndex = 120;
             this.lblUserLTopTrackAlbum17.Text = "(Unavailable)";
             this.lblUserLTopTrackAlbum17.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopTrackAlbum17.UseMnemonic = false;
             this.lblUserLTopTrackAlbum17.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopTrackAlbumClicked);
             // 
             // lblUserLTopTrackArtist17
@@ -14913,6 +15568,7 @@ namespace Audiograph
             this.lblUserLTopTrackArtist17.TabIndex = 119;
             this.lblUserLTopTrackArtist17.Text = "(Unavailable)";
             this.lblUserLTopTrackArtist17.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopTrackArtist17.UseMnemonic = false;
             this.lblUserLTopTrackArtist17.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopTrackArtistClicked);
             // 
             // lblUserLTopTrackTitle17
@@ -14926,6 +15582,7 @@ namespace Audiograph
             this.lblUserLTopTrackTitle17.TabIndex = 118;
             this.lblUserLTopTrackTitle17.Text = "(Unavailable)";
             this.lblUserLTopTrackTitle17.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopTrackTitle17.UseMnemonic = false;
             this.lblUserLTopTrackTitle17.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopTrackTrackClicked);
             // 
             // picUserLTopTrackArt17
@@ -14953,6 +15610,7 @@ namespace Audiograph
             this.Label82.TabIndex = 116;
             this.Label82.Text = "17";
             this.Label82.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label82.UseMnemonic = false;
             // 
             // lblUserLTopTrackAlbum16
             // 
@@ -14965,6 +15623,7 @@ namespace Audiograph
             this.lblUserLTopTrackAlbum16.TabIndex = 115;
             this.lblUserLTopTrackAlbum16.Text = "(Unavailable)";
             this.lblUserLTopTrackAlbum16.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopTrackAlbum16.UseMnemonic = false;
             this.lblUserLTopTrackAlbum16.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopTrackAlbumClicked);
             // 
             // lblUserLTopTrackArtist16
@@ -14978,6 +15637,7 @@ namespace Audiograph
             this.lblUserLTopTrackArtist16.TabIndex = 114;
             this.lblUserLTopTrackArtist16.Text = "(Unavailable)";
             this.lblUserLTopTrackArtist16.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopTrackArtist16.UseMnemonic = false;
             this.lblUserLTopTrackArtist16.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopTrackArtistClicked);
             // 
             // lblUserLTopTrackTitle16
@@ -14991,6 +15651,7 @@ namespace Audiograph
             this.lblUserLTopTrackTitle16.TabIndex = 113;
             this.lblUserLTopTrackTitle16.Text = "(Unavailable)";
             this.lblUserLTopTrackTitle16.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopTrackTitle16.UseMnemonic = false;
             this.lblUserLTopTrackTitle16.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopTrackTrackClicked);
             // 
             // picUserLTopTrackArt16
@@ -15018,6 +15679,7 @@ namespace Audiograph
             this.Label88.TabIndex = 111;
             this.Label88.Text = "16";
             this.Label88.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label88.UseMnemonic = false;
             // 
             // lblUserLTopTrackAlbum15
             // 
@@ -15030,6 +15692,7 @@ namespace Audiograph
             this.lblUserLTopTrackAlbum15.TabIndex = 110;
             this.lblUserLTopTrackAlbum15.Text = "(Unavailable)";
             this.lblUserLTopTrackAlbum15.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopTrackAlbum15.UseMnemonic = false;
             this.lblUserLTopTrackAlbum15.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopTrackAlbumClicked);
             // 
             // lblUserLTopTrackArtist15
@@ -15043,6 +15706,7 @@ namespace Audiograph
             this.lblUserLTopTrackArtist15.TabIndex = 109;
             this.lblUserLTopTrackArtist15.Text = "(Unavailable)";
             this.lblUserLTopTrackArtist15.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopTrackArtist15.UseMnemonic = false;
             this.lblUserLTopTrackArtist15.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopTrackArtistClicked);
             // 
             // lblUserLTopTrackTitle15
@@ -15056,6 +15720,7 @@ namespace Audiograph
             this.lblUserLTopTrackTitle15.TabIndex = 108;
             this.lblUserLTopTrackTitle15.Text = "(Unavailable)";
             this.lblUserLTopTrackTitle15.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopTrackTitle15.UseMnemonic = false;
             this.lblUserLTopTrackTitle15.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopTrackTrackClicked);
             // 
             // picUserLTopTrackArt15
@@ -15083,6 +15748,7 @@ namespace Audiograph
             this.Label95.TabIndex = 106;
             this.Label95.Text = "15";
             this.Label95.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label95.UseMnemonic = false;
             // 
             // lblUserLTopTrackAlbum14
             // 
@@ -15095,6 +15761,7 @@ namespace Audiograph
             this.lblUserLTopTrackAlbum14.TabIndex = 105;
             this.lblUserLTopTrackAlbum14.Text = "(Unavailable)";
             this.lblUserLTopTrackAlbum14.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopTrackAlbum14.UseMnemonic = false;
             this.lblUserLTopTrackAlbum14.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopTrackAlbumClicked);
             // 
             // lblUserLTopTrackArtist14
@@ -15108,6 +15775,7 @@ namespace Audiograph
             this.lblUserLTopTrackArtist14.TabIndex = 104;
             this.lblUserLTopTrackArtist14.Text = "(Unavailable)";
             this.lblUserLTopTrackArtist14.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopTrackArtist14.UseMnemonic = false;
             this.lblUserLTopTrackArtist14.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopTrackArtistClicked);
             // 
             // lblUserLTopTrackTitle14
@@ -15121,6 +15789,7 @@ namespace Audiograph
             this.lblUserLTopTrackTitle14.TabIndex = 103;
             this.lblUserLTopTrackTitle14.Text = "(Unavailable)";
             this.lblUserLTopTrackTitle14.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopTrackTitle14.UseMnemonic = false;
             this.lblUserLTopTrackTitle14.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopTrackTrackClicked);
             // 
             // picUserLTopTrackArt14
@@ -15148,6 +15817,7 @@ namespace Audiograph
             this.Label101.TabIndex = 101;
             this.Label101.Text = "14";
             this.Label101.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label101.UseMnemonic = false;
             // 
             // lblUserLTopTrackAlbum13
             // 
@@ -15160,6 +15830,7 @@ namespace Audiograph
             this.lblUserLTopTrackAlbum13.TabIndex = 100;
             this.lblUserLTopTrackAlbum13.Text = "(Unavailable)";
             this.lblUserLTopTrackAlbum13.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopTrackAlbum13.UseMnemonic = false;
             this.lblUserLTopTrackAlbum13.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopTrackAlbumClicked);
             // 
             // lblUserLTopTrackArtist13
@@ -15173,6 +15844,7 @@ namespace Audiograph
             this.lblUserLTopTrackArtist13.TabIndex = 99;
             this.lblUserLTopTrackArtist13.Text = "(Unavailable)";
             this.lblUserLTopTrackArtist13.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopTrackArtist13.UseMnemonic = false;
             this.lblUserLTopTrackArtist13.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopTrackArtistClicked);
             // 
             // lblUserLTopTrackTitle13
@@ -15186,6 +15858,7 @@ namespace Audiograph
             this.lblUserLTopTrackTitle13.TabIndex = 98;
             this.lblUserLTopTrackTitle13.Text = "(Unavailable)";
             this.lblUserLTopTrackTitle13.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopTrackTitle13.UseMnemonic = false;
             this.lblUserLTopTrackTitle13.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopTrackTrackClicked);
             // 
             // picUserLTopTrackArt13
@@ -15213,6 +15886,7 @@ namespace Audiograph
             this.Label106.TabIndex = 96;
             this.Label106.Text = "13";
             this.Label106.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label106.UseMnemonic = false;
             // 
             // lblUserLTopTrackAlbum12
             // 
@@ -15225,6 +15899,7 @@ namespace Audiograph
             this.lblUserLTopTrackAlbum12.TabIndex = 95;
             this.lblUserLTopTrackAlbum12.Text = "(Unavailable)";
             this.lblUserLTopTrackAlbum12.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopTrackAlbum12.UseMnemonic = false;
             this.lblUserLTopTrackAlbum12.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopTrackAlbumClicked);
             // 
             // lblUserLTopTrackArtist12
@@ -15238,6 +15913,7 @@ namespace Audiograph
             this.lblUserLTopTrackArtist12.TabIndex = 94;
             this.lblUserLTopTrackArtist12.Text = "(Unavailable)";
             this.lblUserLTopTrackArtist12.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopTrackArtist12.UseMnemonic = false;
             this.lblUserLTopTrackArtist12.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopTrackArtistClicked);
             // 
             // lblUserLTopTrackTitle12
@@ -15251,6 +15927,7 @@ namespace Audiograph
             this.lblUserLTopTrackTitle12.TabIndex = 93;
             this.lblUserLTopTrackTitle12.Text = "(Unavailable)";
             this.lblUserLTopTrackTitle12.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopTrackTitle12.UseMnemonic = false;
             this.lblUserLTopTrackTitle12.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopTrackTrackClicked);
             // 
             // picUserLTopTrackArt12
@@ -15278,6 +15955,7 @@ namespace Audiograph
             this.Label111.TabIndex = 91;
             this.Label111.Text = "12";
             this.Label111.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label111.UseMnemonic = false;
             // 
             // lblUserLTopTrackAlbum11
             // 
@@ -15290,6 +15968,7 @@ namespace Audiograph
             this.lblUserLTopTrackAlbum11.TabIndex = 90;
             this.lblUserLTopTrackAlbum11.Text = "(Unavailable)";
             this.lblUserLTopTrackAlbum11.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopTrackAlbum11.UseMnemonic = false;
             this.lblUserLTopTrackAlbum11.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopTrackAlbumClicked);
             // 
             // lblUserLTopTrackArtist11
@@ -15303,6 +15982,7 @@ namespace Audiograph
             this.lblUserLTopTrackArtist11.TabIndex = 89;
             this.lblUserLTopTrackArtist11.Text = "(Unavailable)";
             this.lblUserLTopTrackArtist11.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopTrackArtist11.UseMnemonic = false;
             this.lblUserLTopTrackArtist11.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopTrackArtistClicked);
             // 
             // lblUserLTopTrackTitle11
@@ -15316,6 +15996,7 @@ namespace Audiograph
             this.lblUserLTopTrackTitle11.TabIndex = 88;
             this.lblUserLTopTrackTitle11.Text = "(Unavailable)";
             this.lblUserLTopTrackTitle11.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopTrackTitle11.UseMnemonic = false;
             this.lblUserLTopTrackTitle11.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopTrackTrackClicked);
             // 
             // picUserLTopTrackArt11
@@ -15343,6 +16024,7 @@ namespace Audiograph
             this.Label121.TabIndex = 86;
             this.Label121.Text = "11";
             this.Label121.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label121.UseMnemonic = false;
             // 
             // lblUserLTopTrackAlbum10
             // 
@@ -15355,6 +16037,7 @@ namespace Audiograph
             this.lblUserLTopTrackAlbum10.TabIndex = 85;
             this.lblUserLTopTrackAlbum10.Text = "(Unavailable)";
             this.lblUserLTopTrackAlbum10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopTrackAlbum10.UseMnemonic = false;
             this.lblUserLTopTrackAlbum10.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopTrackAlbumClicked);
             // 
             // lblUserLTopTrackArtist10
@@ -15368,6 +16051,7 @@ namespace Audiograph
             this.lblUserLTopTrackArtist10.TabIndex = 84;
             this.lblUserLTopTrackArtist10.Text = "(Unavailable)";
             this.lblUserLTopTrackArtist10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopTrackArtist10.UseMnemonic = false;
             this.lblUserLTopTrackArtist10.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopTrackArtistClicked);
             // 
             // lblUserLTopTrackTitle10
@@ -15381,6 +16065,7 @@ namespace Audiograph
             this.lblUserLTopTrackTitle10.TabIndex = 83;
             this.lblUserLTopTrackTitle10.Text = "(Unavailable)";
             this.lblUserLTopTrackTitle10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopTrackTitle10.UseMnemonic = false;
             this.lblUserLTopTrackTitle10.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopTrackTrackClicked);
             // 
             // picUserLTopTrackArt10
@@ -15408,6 +16093,7 @@ namespace Audiograph
             this.Label131.TabIndex = 81;
             this.Label131.Text = "10";
             this.Label131.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label131.UseMnemonic = false;
             // 
             // lblUserLTopTrackAlbum9
             // 
@@ -15420,6 +16106,7 @@ namespace Audiograph
             this.lblUserLTopTrackAlbum9.TabIndex = 80;
             this.lblUserLTopTrackAlbum9.Text = "(Unavailable)";
             this.lblUserLTopTrackAlbum9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopTrackAlbum9.UseMnemonic = false;
             this.lblUserLTopTrackAlbum9.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopTrackAlbumClicked);
             // 
             // lblUserLTopTrackArtist9
@@ -15433,6 +16120,7 @@ namespace Audiograph
             this.lblUserLTopTrackArtist9.TabIndex = 79;
             this.lblUserLTopTrackArtist9.Text = "(Unavailable)";
             this.lblUserLTopTrackArtist9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopTrackArtist9.UseMnemonic = false;
             this.lblUserLTopTrackArtist9.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopTrackArtistClicked);
             // 
             // lblUserLTopTrackTitle9
@@ -15446,6 +16134,7 @@ namespace Audiograph
             this.lblUserLTopTrackTitle9.TabIndex = 78;
             this.lblUserLTopTrackTitle9.Text = "(Unavailable)";
             this.lblUserLTopTrackTitle9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopTrackTitle9.UseMnemonic = false;
             this.lblUserLTopTrackTitle9.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopTrackTrackClicked);
             // 
             // picUserLTopTrackArt9
@@ -15473,6 +16162,7 @@ namespace Audiograph
             this.Label141.TabIndex = 76;
             this.Label141.Text = "9";
             this.Label141.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label141.UseMnemonic = false;
             // 
             // lblUserLTopTrackAlbum8
             // 
@@ -15485,6 +16175,7 @@ namespace Audiograph
             this.lblUserLTopTrackAlbum8.TabIndex = 75;
             this.lblUserLTopTrackAlbum8.Text = "(Unavailable)";
             this.lblUserLTopTrackAlbum8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopTrackAlbum8.UseMnemonic = false;
             this.lblUserLTopTrackAlbum8.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopTrackAlbumClicked);
             // 
             // lblUserLTopTrackArtist8
@@ -15498,6 +16189,7 @@ namespace Audiograph
             this.lblUserLTopTrackArtist8.TabIndex = 74;
             this.lblUserLTopTrackArtist8.Text = "(Unavailable)";
             this.lblUserLTopTrackArtist8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopTrackArtist8.UseMnemonic = false;
             this.lblUserLTopTrackArtist8.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopTrackArtistClicked);
             // 
             // lblUserLTopTrackTitle8
@@ -15511,6 +16203,7 @@ namespace Audiograph
             this.lblUserLTopTrackTitle8.TabIndex = 73;
             this.lblUserLTopTrackTitle8.Text = "(Unavailable)";
             this.lblUserLTopTrackTitle8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopTrackTitle8.UseMnemonic = false;
             this.lblUserLTopTrackTitle8.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopTrackTrackClicked);
             // 
             // picUserLTopTrackArt8
@@ -15538,6 +16231,7 @@ namespace Audiograph
             this.Label151.TabIndex = 71;
             this.Label151.Text = "8";
             this.Label151.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label151.UseMnemonic = false;
             // 
             // lblUserLTopTrackAlbum7
             // 
@@ -15550,6 +16244,7 @@ namespace Audiograph
             this.lblUserLTopTrackAlbum7.TabIndex = 70;
             this.lblUserLTopTrackAlbum7.Text = "(Unavailable)";
             this.lblUserLTopTrackAlbum7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopTrackAlbum7.UseMnemonic = false;
             this.lblUserLTopTrackAlbum7.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopTrackAlbumClicked);
             // 
             // lblUserLTopTrackArtist7
@@ -15563,6 +16258,7 @@ namespace Audiograph
             this.lblUserLTopTrackArtist7.TabIndex = 69;
             this.lblUserLTopTrackArtist7.Text = "(Unavailable)";
             this.lblUserLTopTrackArtist7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopTrackArtist7.UseMnemonic = false;
             this.lblUserLTopTrackArtist7.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopTrackArtistClicked);
             // 
             // lblUserLTopTrackTitle7
@@ -15576,6 +16272,7 @@ namespace Audiograph
             this.lblUserLTopTrackTitle7.TabIndex = 68;
             this.lblUserLTopTrackTitle7.Text = "(Unavailable)";
             this.lblUserLTopTrackTitle7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopTrackTitle7.UseMnemonic = false;
             this.lblUserLTopTrackTitle7.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopTrackTrackClicked);
             // 
             // picUserLTopTrackArt7
@@ -15603,6 +16300,7 @@ namespace Audiograph
             this.Label156.TabIndex = 66;
             this.Label156.Text = "7";
             this.Label156.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label156.UseMnemonic = false;
             // 
             // lblUserLTopTrackAlbum6
             // 
@@ -15615,6 +16313,7 @@ namespace Audiograph
             this.lblUserLTopTrackAlbum6.TabIndex = 65;
             this.lblUserLTopTrackAlbum6.Text = "(Unavailable)";
             this.lblUserLTopTrackAlbum6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopTrackAlbum6.UseMnemonic = false;
             this.lblUserLTopTrackAlbum6.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopTrackAlbumClicked);
             // 
             // lblUserLTopTrackArtist6
@@ -15628,6 +16327,7 @@ namespace Audiograph
             this.lblUserLTopTrackArtist6.TabIndex = 64;
             this.lblUserLTopTrackArtist6.Text = "(Unavailable)";
             this.lblUserLTopTrackArtist6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopTrackArtist6.UseMnemonic = false;
             this.lblUserLTopTrackArtist6.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopTrackArtistClicked);
             // 
             // lblUserLTopTrackTitle6
@@ -15641,6 +16341,7 @@ namespace Audiograph
             this.lblUserLTopTrackTitle6.TabIndex = 63;
             this.lblUserLTopTrackTitle6.Text = "(Unavailable)";
             this.lblUserLTopTrackTitle6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopTrackTitle6.UseMnemonic = false;
             this.lblUserLTopTrackTitle6.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopTrackTrackClicked);
             // 
             // picUserLTopTrackArt6
@@ -15668,6 +16369,7 @@ namespace Audiograph
             this.Label166.TabIndex = 61;
             this.Label166.Text = "6";
             this.Label166.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label166.UseMnemonic = false;
             // 
             // lblUserLTopTrackAlbum5
             // 
@@ -15680,6 +16382,7 @@ namespace Audiograph
             this.lblUserLTopTrackAlbum5.TabIndex = 60;
             this.lblUserLTopTrackAlbum5.Text = "(Unavailable)";
             this.lblUserLTopTrackAlbum5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopTrackAlbum5.UseMnemonic = false;
             this.lblUserLTopTrackAlbum5.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopTrackAlbumClicked);
             // 
             // lblUserLTopTrackArtist5
@@ -15693,6 +16396,7 @@ namespace Audiograph
             this.lblUserLTopTrackArtist5.TabIndex = 59;
             this.lblUserLTopTrackArtist5.Text = "(Unavailable)";
             this.lblUserLTopTrackArtist5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopTrackArtist5.UseMnemonic = false;
             this.lblUserLTopTrackArtist5.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopTrackArtistClicked);
             // 
             // lblUserLTopTrackTitle5
@@ -15706,6 +16410,7 @@ namespace Audiograph
             this.lblUserLTopTrackTitle5.TabIndex = 58;
             this.lblUserLTopTrackTitle5.Text = "(Unavailable)";
             this.lblUserLTopTrackTitle5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopTrackTitle5.UseMnemonic = false;
             this.lblUserLTopTrackTitle5.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopTrackTrackClicked);
             // 
             // picUserLTopTrackArt5
@@ -15733,6 +16438,7 @@ namespace Audiograph
             this.Label170.TabIndex = 56;
             this.Label170.Text = "5";
             this.Label170.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label170.UseMnemonic = false;
             // 
             // lblUserLTopTrackAlbum4
             // 
@@ -15745,6 +16451,7 @@ namespace Audiograph
             this.lblUserLTopTrackAlbum4.TabIndex = 55;
             this.lblUserLTopTrackAlbum4.Text = "(Unavailable)";
             this.lblUserLTopTrackAlbum4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopTrackAlbum4.UseMnemonic = false;
             this.lblUserLTopTrackAlbum4.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopTrackAlbumClicked);
             // 
             // lblUserLTopTrackArtist4
@@ -15758,6 +16465,7 @@ namespace Audiograph
             this.lblUserLTopTrackArtist4.TabIndex = 54;
             this.lblUserLTopTrackArtist4.Text = "(Unavailable)";
             this.lblUserLTopTrackArtist4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopTrackArtist4.UseMnemonic = false;
             this.lblUserLTopTrackArtist4.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopTrackArtistClicked);
             // 
             // lblUserLTopTrackTitle4
@@ -15771,6 +16479,7 @@ namespace Audiograph
             this.lblUserLTopTrackTitle4.TabIndex = 53;
             this.lblUserLTopTrackTitle4.Text = "(Unavailable)";
             this.lblUserLTopTrackTitle4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopTrackTitle4.UseMnemonic = false;
             this.lblUserLTopTrackTitle4.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopTrackTrackClicked);
             // 
             // picUserLTopTrackArt4
@@ -15798,6 +16507,7 @@ namespace Audiograph
             this.Label174.TabIndex = 51;
             this.Label174.Text = "4";
             this.Label174.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label174.UseMnemonic = false;
             // 
             // lblUserLTopTrackAlbum3
             // 
@@ -15810,6 +16520,7 @@ namespace Audiograph
             this.lblUserLTopTrackAlbum3.TabIndex = 50;
             this.lblUserLTopTrackAlbum3.Text = "(Unavailable)";
             this.lblUserLTopTrackAlbum3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopTrackAlbum3.UseMnemonic = false;
             this.lblUserLTopTrackAlbum3.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopTrackAlbumClicked);
             // 
             // lblUserLTopTrackArtist3
@@ -15823,6 +16534,7 @@ namespace Audiograph
             this.lblUserLTopTrackArtist3.TabIndex = 49;
             this.lblUserLTopTrackArtist3.Text = "(Unavailable)";
             this.lblUserLTopTrackArtist3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopTrackArtist3.UseMnemonic = false;
             this.lblUserLTopTrackArtist3.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopTrackArtistClicked);
             // 
             // lblUserLTopTrackTitle3
@@ -15836,6 +16548,7 @@ namespace Audiograph
             this.lblUserLTopTrackTitle3.TabIndex = 48;
             this.lblUserLTopTrackTitle3.Text = "(Unavailable)";
             this.lblUserLTopTrackTitle3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopTrackTitle3.UseMnemonic = false;
             this.lblUserLTopTrackTitle3.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopTrackTrackClicked);
             // 
             // picUserLTopTrackArt3
@@ -15863,6 +16576,7 @@ namespace Audiograph
             this.Label178.TabIndex = 46;
             this.Label178.Text = "3";
             this.Label178.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label178.UseMnemonic = false;
             // 
             // lblUserLTopTrackAlbum2
             // 
@@ -15875,6 +16589,7 @@ namespace Audiograph
             this.lblUserLTopTrackAlbum2.TabIndex = 45;
             this.lblUserLTopTrackAlbum2.Text = "(Unavailable)";
             this.lblUserLTopTrackAlbum2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopTrackAlbum2.UseMnemonic = false;
             this.lblUserLTopTrackAlbum2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopTrackAlbumClicked);
             // 
             // lblUserLTopTrackArtist2
@@ -15888,6 +16603,7 @@ namespace Audiograph
             this.lblUserLTopTrackArtist2.TabIndex = 44;
             this.lblUserLTopTrackArtist2.Text = "(Unavailable)";
             this.lblUserLTopTrackArtist2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopTrackArtist2.UseMnemonic = false;
             this.lblUserLTopTrackArtist2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopTrackArtistClicked);
             // 
             // lblUserLTopTrackTitle2
@@ -15901,6 +16617,7 @@ namespace Audiograph
             this.lblUserLTopTrackTitle2.TabIndex = 43;
             this.lblUserLTopTrackTitle2.Text = "(Unavailable)";
             this.lblUserLTopTrackTitle2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopTrackTitle2.UseMnemonic = false;
             this.lblUserLTopTrackTitle2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopTrackTrackClicked);
             // 
             // picUserLTopTrackArt2
@@ -15928,6 +16645,7 @@ namespace Audiograph
             this.Label182.TabIndex = 41;
             this.Label182.Text = "2";
             this.Label182.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label182.UseMnemonic = false;
             // 
             // lblUserLTopTrackAlbum1
             // 
@@ -15940,6 +16658,7 @@ namespace Audiograph
             this.lblUserLTopTrackAlbum1.TabIndex = 40;
             this.lblUserLTopTrackAlbum1.Text = "(Unavailable)";
             this.lblUserLTopTrackAlbum1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopTrackAlbum1.UseMnemonic = false;
             this.lblUserLTopTrackAlbum1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopTrackAlbumClicked);
             // 
             // lblUserLTopTrackArtist1
@@ -15953,6 +16672,7 @@ namespace Audiograph
             this.lblUserLTopTrackArtist1.TabIndex = 39;
             this.lblUserLTopTrackArtist1.Text = "(Unavailable)";
             this.lblUserLTopTrackArtist1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopTrackArtist1.UseMnemonic = false;
             this.lblUserLTopTrackArtist1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopTrackArtistClicked);
             // 
             // lblUserLTopTrackTitle1
@@ -15966,6 +16686,7 @@ namespace Audiograph
             this.lblUserLTopTrackTitle1.TabIndex = 38;
             this.lblUserLTopTrackTitle1.Text = "(Unavailable)";
             this.lblUserLTopTrackTitle1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopTrackTitle1.UseMnemonic = false;
             this.lblUserLTopTrackTitle1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopTrackTrackClicked);
             // 
             // Label187
@@ -15977,6 +16698,7 @@ namespace Audiograph
             this.Label187.TabIndex = 37;
             this.Label187.Text = "1";
             this.Label187.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label187.UseMnemonic = false;
             // 
             // Label189
             // 
@@ -15987,6 +16709,7 @@ namespace Audiograph
             this.Label189.TabIndex = 33;
             this.Label189.Text = "Art";
             this.Label189.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Label189.UseMnemonic = false;
             // 
             // picUserLTopTrackArt1
             // 
@@ -16013,6 +16736,7 @@ namespace Audiograph
             this.Label190.TabIndex = 32;
             this.Label190.Text = "#";
             this.Label190.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label190.UseMnemonic = false;
             // 
             // Label191
             // 
@@ -16023,6 +16747,7 @@ namespace Audiograph
             this.Label191.TabIndex = 34;
             this.Label191.Text = "Title";
             this.Label191.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Label191.UseMnemonic = false;
             // 
             // Label193
             // 
@@ -16033,6 +16758,7 @@ namespace Audiograph
             this.Label193.TabIndex = 35;
             this.Label193.Text = "Artist";
             this.Label193.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Label193.UseMnemonic = false;
             // 
             // Label194
             // 
@@ -16043,6 +16769,7 @@ namespace Audiograph
             this.Label194.TabIndex = 36;
             this.Label194.Text = "Album";
             this.Label194.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Label194.UseMnemonic = false;
             // 
             // pgUserLTopArtists
             // 
@@ -16165,6 +16892,7 @@ namespace Audiograph
             this.lblUserLTopArtistPlaycount20.TabIndex = 156;
             this.lblUserLTopArtistPlaycount20.Text = "(Unavailable)";
             this.lblUserLTopArtistPlaycount20.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopArtistPlaycount20.UseMnemonic = false;
             // 
             // lblUserLTopArtistPlaycount19
             // 
@@ -16175,6 +16903,7 @@ namespace Audiograph
             this.lblUserLTopArtistPlaycount19.TabIndex = 155;
             this.lblUserLTopArtistPlaycount19.Text = "(Unavailable)";
             this.lblUserLTopArtistPlaycount19.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopArtistPlaycount19.UseMnemonic = false;
             // 
             // lblUserLTopArtistPlaycount18
             // 
@@ -16185,6 +16914,7 @@ namespace Audiograph
             this.lblUserLTopArtistPlaycount18.TabIndex = 154;
             this.lblUserLTopArtistPlaycount18.Text = "(Unavailable)";
             this.lblUserLTopArtistPlaycount18.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopArtistPlaycount18.UseMnemonic = false;
             // 
             // lblUserLTopArtistPlaycount17
             // 
@@ -16195,6 +16925,7 @@ namespace Audiograph
             this.lblUserLTopArtistPlaycount17.TabIndex = 153;
             this.lblUserLTopArtistPlaycount17.Text = "(Unavailable)";
             this.lblUserLTopArtistPlaycount17.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopArtistPlaycount17.UseMnemonic = false;
             // 
             // lblUserLTopArtistPlaycount16
             // 
@@ -16205,6 +16936,7 @@ namespace Audiograph
             this.lblUserLTopArtistPlaycount16.TabIndex = 152;
             this.lblUserLTopArtistPlaycount16.Text = "(Unavailable)";
             this.lblUserLTopArtistPlaycount16.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopArtistPlaycount16.UseMnemonic = false;
             // 
             // lblUserLTopArtistPlaycount15
             // 
@@ -16215,6 +16947,7 @@ namespace Audiograph
             this.lblUserLTopArtistPlaycount15.TabIndex = 151;
             this.lblUserLTopArtistPlaycount15.Text = "(Unavailable)";
             this.lblUserLTopArtistPlaycount15.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopArtistPlaycount15.UseMnemonic = false;
             // 
             // lblUserLTopArtistPlaycount14
             // 
@@ -16225,6 +16958,7 @@ namespace Audiograph
             this.lblUserLTopArtistPlaycount14.TabIndex = 150;
             this.lblUserLTopArtistPlaycount14.Text = "(Unavailable)";
             this.lblUserLTopArtistPlaycount14.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopArtistPlaycount14.UseMnemonic = false;
             // 
             // lblUserLTopArtistPlaycount13
             // 
@@ -16235,6 +16969,7 @@ namespace Audiograph
             this.lblUserLTopArtistPlaycount13.TabIndex = 149;
             this.lblUserLTopArtistPlaycount13.Text = "(Unavailable)";
             this.lblUserLTopArtistPlaycount13.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopArtistPlaycount13.UseMnemonic = false;
             // 
             // lblUserLTopArtistPlaycount12
             // 
@@ -16245,6 +16980,7 @@ namespace Audiograph
             this.lblUserLTopArtistPlaycount12.TabIndex = 148;
             this.lblUserLTopArtistPlaycount12.Text = "(Unavailable)";
             this.lblUserLTopArtistPlaycount12.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopArtistPlaycount12.UseMnemonic = false;
             // 
             // lblUserLTopArtistPlaycount11
             // 
@@ -16255,6 +16991,7 @@ namespace Audiograph
             this.lblUserLTopArtistPlaycount11.TabIndex = 147;
             this.lblUserLTopArtistPlaycount11.Text = "(Unavailable)";
             this.lblUserLTopArtistPlaycount11.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopArtistPlaycount11.UseMnemonic = false;
             // 
             // lblUserLTopArtistPlaycount10
             // 
@@ -16265,6 +17002,7 @@ namespace Audiograph
             this.lblUserLTopArtistPlaycount10.TabIndex = 146;
             this.lblUserLTopArtistPlaycount10.Text = "(Unavailable)";
             this.lblUserLTopArtistPlaycount10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopArtistPlaycount10.UseMnemonic = false;
             // 
             // lblUserLTopArtistPlaycount9
             // 
@@ -16275,6 +17013,7 @@ namespace Audiograph
             this.lblUserLTopArtistPlaycount9.TabIndex = 145;
             this.lblUserLTopArtistPlaycount9.Text = "(Unavailable)";
             this.lblUserLTopArtistPlaycount9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopArtistPlaycount9.UseMnemonic = false;
             // 
             // lblUserLTopArtistPlaycount8
             // 
@@ -16285,6 +17024,7 @@ namespace Audiograph
             this.lblUserLTopArtistPlaycount8.TabIndex = 144;
             this.lblUserLTopArtistPlaycount8.Text = "(Unavailable)";
             this.lblUserLTopArtistPlaycount8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopArtistPlaycount8.UseMnemonic = false;
             // 
             // lblUserLTopArtistPlaycount7
             // 
@@ -16295,6 +17035,7 @@ namespace Audiograph
             this.lblUserLTopArtistPlaycount7.TabIndex = 143;
             this.lblUserLTopArtistPlaycount7.Text = "(Unavailable)";
             this.lblUserLTopArtistPlaycount7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopArtistPlaycount7.UseMnemonic = false;
             // 
             // lblUserLTopArtistPlaycount6
             // 
@@ -16305,6 +17046,7 @@ namespace Audiograph
             this.lblUserLTopArtistPlaycount6.TabIndex = 142;
             this.lblUserLTopArtistPlaycount6.Text = "(Unavailable)";
             this.lblUserLTopArtistPlaycount6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopArtistPlaycount6.UseMnemonic = false;
             // 
             // lblUserLTopArtistPlaycount5
             // 
@@ -16315,6 +17057,7 @@ namespace Audiograph
             this.lblUserLTopArtistPlaycount5.TabIndex = 141;
             this.lblUserLTopArtistPlaycount5.Text = "(Unavailable)";
             this.lblUserLTopArtistPlaycount5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopArtistPlaycount5.UseMnemonic = false;
             // 
             // lblUserLTopArtistPlaycount4
             // 
@@ -16325,6 +17068,7 @@ namespace Audiograph
             this.lblUserLTopArtistPlaycount4.TabIndex = 140;
             this.lblUserLTopArtistPlaycount4.Text = "(Unavailable)";
             this.lblUserLTopArtistPlaycount4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopArtistPlaycount4.UseMnemonic = false;
             // 
             // lblUserLTopArtistPlaycount3
             // 
@@ -16335,6 +17079,7 @@ namespace Audiograph
             this.lblUserLTopArtistPlaycount3.TabIndex = 139;
             this.lblUserLTopArtistPlaycount3.Text = "(Unavailable)";
             this.lblUserLTopArtistPlaycount3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopArtistPlaycount3.UseMnemonic = false;
             // 
             // lblUserLTopArtistPlaycount2
             // 
@@ -16345,6 +17090,7 @@ namespace Audiograph
             this.lblUserLTopArtistPlaycount2.TabIndex = 138;
             this.lblUserLTopArtistPlaycount2.Text = "(Unavailable)";
             this.lblUserLTopArtistPlaycount2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopArtistPlaycount2.UseMnemonic = false;
             // 
             // lblUserLTopArtistPlaycount1
             // 
@@ -16355,6 +17101,7 @@ namespace Audiograph
             this.lblUserLTopArtistPlaycount1.TabIndex = 137;
             this.lblUserLTopArtistPlaycount1.Text = "(Unavailable)";
             this.lblUserLTopArtistPlaycount1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopArtistPlaycount1.UseMnemonic = false;
             // 
             // Label222
             // 
@@ -16365,6 +17112,7 @@ namespace Audiograph
             this.Label222.TabIndex = 136;
             this.Label222.Text = "Playcount";
             this.Label222.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Label222.UseMnemonic = false;
             // 
             // lblUserLTopArtist20
             // 
@@ -16377,6 +17125,7 @@ namespace Audiograph
             this.lblUserLTopArtist20.TabIndex = 134;
             this.lblUserLTopArtist20.Text = "(Unavailable)";
             this.lblUserLTopArtist20.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopArtist20.UseMnemonic = false;
             this.lblUserLTopArtist20.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopArtistClicked);
             // 
             // cmsUserLTopArtists
@@ -16411,6 +17160,7 @@ namespace Audiograph
             this.Label225.TabIndex = 131;
             this.Label225.Text = "20";
             this.Label225.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label225.UseMnemonic = false;
             // 
             // lblUserLTopArtist19
             // 
@@ -16423,6 +17173,7 @@ namespace Audiograph
             this.lblUserLTopArtist19.TabIndex = 129;
             this.lblUserLTopArtist19.Text = "(Unavailable)";
             this.lblUserLTopArtist19.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopArtist19.UseMnemonic = false;
             this.lblUserLTopArtist19.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopArtistClicked);
             // 
             // Label227
@@ -16434,6 +17185,7 @@ namespace Audiograph
             this.Label227.TabIndex = 126;
             this.Label227.Text = "19";
             this.Label227.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label227.UseMnemonic = false;
             // 
             // lblUserLTopArtist18
             // 
@@ -16446,6 +17198,7 @@ namespace Audiograph
             this.lblUserLTopArtist18.TabIndex = 124;
             this.lblUserLTopArtist18.Text = "(Unavailable)";
             this.lblUserLTopArtist18.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopArtist18.UseMnemonic = false;
             this.lblUserLTopArtist18.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopArtistClicked);
             // 
             // Label230
@@ -16457,6 +17210,7 @@ namespace Audiograph
             this.Label230.TabIndex = 121;
             this.Label230.Text = "18";
             this.Label230.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label230.UseMnemonic = false;
             // 
             // lblUserLTopArtist17
             // 
@@ -16469,6 +17223,7 @@ namespace Audiograph
             this.lblUserLTopArtist17.TabIndex = 119;
             this.lblUserLTopArtist17.Text = "(Unavailable)";
             this.lblUserLTopArtist17.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopArtist17.UseMnemonic = false;
             this.lblUserLTopArtist17.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopArtistClicked);
             // 
             // Label234
@@ -16480,6 +17235,7 @@ namespace Audiograph
             this.Label234.TabIndex = 116;
             this.Label234.Text = "17";
             this.Label234.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label234.UseMnemonic = false;
             // 
             // lblUserLTopArtist16
             // 
@@ -16492,6 +17248,7 @@ namespace Audiograph
             this.lblUserLTopArtist16.TabIndex = 114;
             this.lblUserLTopArtist16.Text = "(Unavailable)";
             this.lblUserLTopArtist16.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopArtist16.UseMnemonic = false;
             this.lblUserLTopArtist16.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopArtistClicked);
             // 
             // Label237
@@ -16503,6 +17260,7 @@ namespace Audiograph
             this.Label237.TabIndex = 111;
             this.Label237.Text = "16";
             this.Label237.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label237.UseMnemonic = false;
             // 
             // lblUserLTopArtist15
             // 
@@ -16515,6 +17273,7 @@ namespace Audiograph
             this.lblUserLTopArtist15.TabIndex = 109;
             this.lblUserLTopArtist15.Text = "(Unavailable)";
             this.lblUserLTopArtist15.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopArtist15.UseMnemonic = false;
             this.lblUserLTopArtist15.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopArtistClicked);
             // 
             // Label239
@@ -16526,6 +17285,7 @@ namespace Audiograph
             this.Label239.TabIndex = 106;
             this.Label239.Text = "15";
             this.Label239.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label239.UseMnemonic = false;
             // 
             // lblUserLTopArtist14
             // 
@@ -16538,6 +17298,7 @@ namespace Audiograph
             this.lblUserLTopArtist14.TabIndex = 104;
             this.lblUserLTopArtist14.Text = "(Unavailable)";
             this.lblUserLTopArtist14.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopArtist14.UseMnemonic = false;
             this.lblUserLTopArtist14.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopArtistClicked);
             // 
             // Label243
@@ -16549,6 +17310,7 @@ namespace Audiograph
             this.Label243.TabIndex = 101;
             this.Label243.Text = "14";
             this.Label243.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label243.UseMnemonic = false;
             // 
             // lblUserLTopArtist13
             // 
@@ -16561,6 +17323,7 @@ namespace Audiograph
             this.lblUserLTopArtist13.TabIndex = 99;
             this.lblUserLTopArtist13.Text = "(Unavailable)";
             this.lblUserLTopArtist13.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopArtist13.UseMnemonic = false;
             this.lblUserLTopArtist13.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopArtistClicked);
             // 
             // Label246
@@ -16572,6 +17335,7 @@ namespace Audiograph
             this.Label246.TabIndex = 96;
             this.Label246.Text = "13";
             this.Label246.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label246.UseMnemonic = false;
             // 
             // lblUserLTopArtist12
             // 
@@ -16584,6 +17348,7 @@ namespace Audiograph
             this.lblUserLTopArtist12.TabIndex = 94;
             this.lblUserLTopArtist12.Text = "(Unavailable)";
             this.lblUserLTopArtist12.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopArtist12.UseMnemonic = false;
             this.lblUserLTopArtist12.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopArtistClicked);
             // 
             // Label250
@@ -16595,6 +17360,7 @@ namespace Audiograph
             this.Label250.TabIndex = 91;
             this.Label250.Text = "12";
             this.Label250.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label250.UseMnemonic = false;
             // 
             // lblUserLTopArtist11
             // 
@@ -16607,6 +17373,7 @@ namespace Audiograph
             this.lblUserLTopArtist11.TabIndex = 89;
             this.lblUserLTopArtist11.Text = "(Unavailable)";
             this.lblUserLTopArtist11.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopArtist11.UseMnemonic = false;
             this.lblUserLTopArtist11.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopArtistClicked);
             // 
             // Label253
@@ -16618,6 +17385,7 @@ namespace Audiograph
             this.Label253.TabIndex = 86;
             this.Label253.Text = "11";
             this.Label253.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label253.UseMnemonic = false;
             // 
             // lblUserLTopArtist10
             // 
@@ -16630,6 +17398,7 @@ namespace Audiograph
             this.lblUserLTopArtist10.TabIndex = 84;
             this.lblUserLTopArtist10.Text = "(Unavailable)";
             this.lblUserLTopArtist10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopArtist10.UseMnemonic = false;
             this.lblUserLTopArtist10.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopArtistClicked);
             // 
             // Label255
@@ -16641,6 +17410,7 @@ namespace Audiograph
             this.Label255.TabIndex = 81;
             this.Label255.Text = "10";
             this.Label255.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label255.UseMnemonic = false;
             // 
             // lblUserLTopArtist9
             // 
@@ -16653,6 +17423,7 @@ namespace Audiograph
             this.lblUserLTopArtist9.TabIndex = 79;
             this.lblUserLTopArtist9.Text = "(Unavailable)";
             this.lblUserLTopArtist9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopArtist9.UseMnemonic = false;
             this.lblUserLTopArtist9.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopArtistClicked);
             // 
             // Label259
@@ -16664,6 +17435,7 @@ namespace Audiograph
             this.Label259.TabIndex = 76;
             this.Label259.Text = "9";
             this.Label259.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label259.UseMnemonic = false;
             // 
             // lblUserLTopArtist8
             // 
@@ -16676,6 +17448,7 @@ namespace Audiograph
             this.lblUserLTopArtist8.TabIndex = 74;
             this.lblUserLTopArtist8.Text = "(Unavailable)";
             this.lblUserLTopArtist8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopArtist8.UseMnemonic = false;
             this.lblUserLTopArtist8.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopArtistClicked);
             // 
             // Label262
@@ -16687,6 +17460,7 @@ namespace Audiograph
             this.Label262.TabIndex = 71;
             this.Label262.Text = "8";
             this.Label262.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label262.UseMnemonic = false;
             // 
             // lblUserLTopArtist7
             // 
@@ -16699,6 +17473,7 @@ namespace Audiograph
             this.lblUserLTopArtist7.TabIndex = 69;
             this.lblUserLTopArtist7.Text = "(Unavailable)";
             this.lblUserLTopArtist7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopArtist7.UseMnemonic = false;
             this.lblUserLTopArtist7.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopArtistClicked);
             // 
             // Label267
@@ -16710,6 +17485,7 @@ namespace Audiograph
             this.Label267.TabIndex = 66;
             this.Label267.Text = "7";
             this.Label267.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label267.UseMnemonic = false;
             // 
             // lblUserLTopArtist6
             // 
@@ -16722,6 +17498,7 @@ namespace Audiograph
             this.lblUserLTopArtist6.TabIndex = 64;
             this.lblUserLTopArtist6.Text = "(Unavailable)";
             this.lblUserLTopArtist6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopArtist6.UseMnemonic = false;
             this.lblUserLTopArtist6.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopArtistClicked);
             // 
             // Label270
@@ -16733,6 +17510,7 @@ namespace Audiograph
             this.Label270.TabIndex = 61;
             this.Label270.Text = "6";
             this.Label270.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label270.UseMnemonic = false;
             // 
             // lblUserLTopArtist5
             // 
@@ -16745,6 +17523,7 @@ namespace Audiograph
             this.lblUserLTopArtist5.TabIndex = 59;
             this.lblUserLTopArtist5.Text = "(Unavailable)";
             this.lblUserLTopArtist5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopArtist5.UseMnemonic = false;
             this.lblUserLTopArtist5.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopArtistClicked);
             // 
             // Label273
@@ -16756,6 +17535,7 @@ namespace Audiograph
             this.Label273.TabIndex = 56;
             this.Label273.Text = "5";
             this.Label273.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label273.UseMnemonic = false;
             // 
             // lblUserLTopArtist4
             // 
@@ -16768,6 +17548,7 @@ namespace Audiograph
             this.lblUserLTopArtist4.TabIndex = 54;
             this.lblUserLTopArtist4.Text = "(Unavailable)";
             this.lblUserLTopArtist4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopArtist4.UseMnemonic = false;
             this.lblUserLTopArtist4.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopArtistClicked);
             // 
             // Label276
@@ -16779,6 +17560,7 @@ namespace Audiograph
             this.Label276.TabIndex = 51;
             this.Label276.Text = "4";
             this.Label276.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label276.UseMnemonic = false;
             // 
             // lblUserLTopArtist3
             // 
@@ -16791,6 +17573,7 @@ namespace Audiograph
             this.lblUserLTopArtist3.TabIndex = 49;
             this.lblUserLTopArtist3.Text = "(Unavailable)";
             this.lblUserLTopArtist3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopArtist3.UseMnemonic = false;
             this.lblUserLTopArtist3.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopArtistClicked);
             // 
             // Label278
@@ -16802,6 +17585,7 @@ namespace Audiograph
             this.Label278.TabIndex = 46;
             this.Label278.Text = "3";
             this.Label278.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label278.UseMnemonic = false;
             // 
             // lblUserLTopArtist2
             // 
@@ -16814,6 +17598,7 @@ namespace Audiograph
             this.lblUserLTopArtist2.TabIndex = 44;
             this.lblUserLTopArtist2.Text = "(Unavailable)";
             this.lblUserLTopArtist2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopArtist2.UseMnemonic = false;
             this.lblUserLTopArtist2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopArtistClicked);
             // 
             // Label281
@@ -16825,6 +17610,7 @@ namespace Audiograph
             this.Label281.TabIndex = 41;
             this.Label281.Text = "2";
             this.Label281.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label281.UseMnemonic = false;
             // 
             // lblUserLTopArtist1
             // 
@@ -16837,6 +17623,7 @@ namespace Audiograph
             this.lblUserLTopArtist1.TabIndex = 39;
             this.lblUserLTopArtist1.Text = "(Unavailable)";
             this.lblUserLTopArtist1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopArtist1.UseMnemonic = false;
             this.lblUserLTopArtist1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopArtistClicked);
             // 
             // Label284
@@ -16848,6 +17635,7 @@ namespace Audiograph
             this.Label284.TabIndex = 37;
             this.Label284.Text = "1";
             this.Label284.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label284.UseMnemonic = false;
             // 
             // Label285
             // 
@@ -16858,6 +17646,7 @@ namespace Audiograph
             this.Label285.TabIndex = 32;
             this.Label285.Text = "#";
             this.Label285.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label285.UseMnemonic = false;
             // 
             // Label286
             // 
@@ -16868,6 +17657,7 @@ namespace Audiograph
             this.Label286.TabIndex = 35;
             this.Label286.Text = "Artist";
             this.Label286.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Label286.UseMnemonic = false;
             // 
             // pgUserLTopAlbums
             // 
@@ -17034,6 +17824,7 @@ namespace Audiograph
             this.lblUserLTopAlbumPlaycount20.TabIndex = 155;
             this.lblUserLTopAlbumPlaycount20.Text = "(Unavailable)";
             this.lblUserLTopAlbumPlaycount20.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopAlbumPlaycount20.UseMnemonic = false;
             // 
             // lblUserLTopAlbumPlaycount19
             // 
@@ -17044,6 +17835,7 @@ namespace Audiograph
             this.lblUserLTopAlbumPlaycount19.TabIndex = 154;
             this.lblUserLTopAlbumPlaycount19.Text = "(Unavailable)";
             this.lblUserLTopAlbumPlaycount19.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopAlbumPlaycount19.UseMnemonic = false;
             // 
             // lblUserLTopAlbumPlaycount18
             // 
@@ -17054,6 +17846,7 @@ namespace Audiograph
             this.lblUserLTopAlbumPlaycount18.TabIndex = 153;
             this.lblUserLTopAlbumPlaycount18.Text = "(Unavailable)";
             this.lblUserLTopAlbumPlaycount18.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopAlbumPlaycount18.UseMnemonic = false;
             // 
             // lblUserLTopAlbumPlaycount17
             // 
@@ -17064,6 +17857,7 @@ namespace Audiograph
             this.lblUserLTopAlbumPlaycount17.TabIndex = 152;
             this.lblUserLTopAlbumPlaycount17.Text = "(Unavailable)";
             this.lblUserLTopAlbumPlaycount17.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopAlbumPlaycount17.UseMnemonic = false;
             // 
             // lblUserLTopAlbumPlaycount16
             // 
@@ -17074,6 +17868,7 @@ namespace Audiograph
             this.lblUserLTopAlbumPlaycount16.TabIndex = 151;
             this.lblUserLTopAlbumPlaycount16.Text = "(Unavailable)";
             this.lblUserLTopAlbumPlaycount16.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopAlbumPlaycount16.UseMnemonic = false;
             // 
             // lblUserLTopAlbumPlaycount15
             // 
@@ -17084,6 +17879,7 @@ namespace Audiograph
             this.lblUserLTopAlbumPlaycount15.TabIndex = 150;
             this.lblUserLTopAlbumPlaycount15.Text = "(Unavailable)";
             this.lblUserLTopAlbumPlaycount15.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopAlbumPlaycount15.UseMnemonic = false;
             // 
             // lblUserLTopAlbumPlaycount14
             // 
@@ -17094,6 +17890,7 @@ namespace Audiograph
             this.lblUserLTopAlbumPlaycount14.TabIndex = 149;
             this.lblUserLTopAlbumPlaycount14.Text = "(Unavailable)";
             this.lblUserLTopAlbumPlaycount14.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopAlbumPlaycount14.UseMnemonic = false;
             // 
             // lblUserLTopAlbumPlaycount13
             // 
@@ -17104,6 +17901,7 @@ namespace Audiograph
             this.lblUserLTopAlbumPlaycount13.TabIndex = 148;
             this.lblUserLTopAlbumPlaycount13.Text = "(Unavailable)";
             this.lblUserLTopAlbumPlaycount13.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopAlbumPlaycount13.UseMnemonic = false;
             // 
             // lblUserLTopAlbumPlaycount12
             // 
@@ -17114,6 +17912,7 @@ namespace Audiograph
             this.lblUserLTopAlbumPlaycount12.TabIndex = 147;
             this.lblUserLTopAlbumPlaycount12.Text = "(Unavailable)";
             this.lblUserLTopAlbumPlaycount12.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopAlbumPlaycount12.UseMnemonic = false;
             // 
             // lblUserLTopAlbumPlaycount11
             // 
@@ -17124,6 +17923,7 @@ namespace Audiograph
             this.lblUserLTopAlbumPlaycount11.TabIndex = 146;
             this.lblUserLTopAlbumPlaycount11.Text = "(Unavailable)";
             this.lblUserLTopAlbumPlaycount11.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopAlbumPlaycount11.UseMnemonic = false;
             // 
             // lblUserLTopAlbumPlaycount10
             // 
@@ -17134,6 +17934,7 @@ namespace Audiograph
             this.lblUserLTopAlbumPlaycount10.TabIndex = 145;
             this.lblUserLTopAlbumPlaycount10.Text = "(Unavailable)";
             this.lblUserLTopAlbumPlaycount10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopAlbumPlaycount10.UseMnemonic = false;
             // 
             // lblUserLTopAlbumPlaycount9
             // 
@@ -17144,6 +17945,7 @@ namespace Audiograph
             this.lblUserLTopAlbumPlaycount9.TabIndex = 144;
             this.lblUserLTopAlbumPlaycount9.Text = "(Unavailable)";
             this.lblUserLTopAlbumPlaycount9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopAlbumPlaycount9.UseMnemonic = false;
             // 
             // lblUserLTopAlbumPlaycount8
             // 
@@ -17154,6 +17956,7 @@ namespace Audiograph
             this.lblUserLTopAlbumPlaycount8.TabIndex = 143;
             this.lblUserLTopAlbumPlaycount8.Text = "(Unavailable)";
             this.lblUserLTopAlbumPlaycount8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopAlbumPlaycount8.UseMnemonic = false;
             // 
             // lblUserLTopAlbumPlaycount7
             // 
@@ -17164,6 +17967,7 @@ namespace Audiograph
             this.lblUserLTopAlbumPlaycount7.TabIndex = 142;
             this.lblUserLTopAlbumPlaycount7.Text = "(Unavailable)";
             this.lblUserLTopAlbumPlaycount7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopAlbumPlaycount7.UseMnemonic = false;
             // 
             // lblUserLTopAlbumPlaycount6
             // 
@@ -17174,6 +17978,7 @@ namespace Audiograph
             this.lblUserLTopAlbumPlaycount6.TabIndex = 141;
             this.lblUserLTopAlbumPlaycount6.Text = "(Unavailable)";
             this.lblUserLTopAlbumPlaycount6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopAlbumPlaycount6.UseMnemonic = false;
             // 
             // lblUserLTopAlbumPlaycount5
             // 
@@ -17184,6 +17989,7 @@ namespace Audiograph
             this.lblUserLTopAlbumPlaycount5.TabIndex = 140;
             this.lblUserLTopAlbumPlaycount5.Text = "(Unavailable)";
             this.lblUserLTopAlbumPlaycount5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopAlbumPlaycount5.UseMnemonic = false;
             // 
             // lblUserLTopAlbumPlaycount4
             // 
@@ -17194,6 +18000,7 @@ namespace Audiograph
             this.lblUserLTopAlbumPlaycount4.TabIndex = 139;
             this.lblUserLTopAlbumPlaycount4.Text = "(Unavailable)";
             this.lblUserLTopAlbumPlaycount4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopAlbumPlaycount4.UseMnemonic = false;
             // 
             // lblUserLTopAlbumPlaycount3
             // 
@@ -17204,6 +18011,7 @@ namespace Audiograph
             this.lblUserLTopAlbumPlaycount3.TabIndex = 138;
             this.lblUserLTopAlbumPlaycount3.Text = "(Unavailable)";
             this.lblUserLTopAlbumPlaycount3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopAlbumPlaycount3.UseMnemonic = false;
             // 
             // lblUserLTopAlbumPlaycount2
             // 
@@ -17214,6 +18022,7 @@ namespace Audiograph
             this.lblUserLTopAlbumPlaycount2.TabIndex = 137;
             this.lblUserLTopAlbumPlaycount2.Text = "(Unavailable)";
             this.lblUserLTopAlbumPlaycount2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopAlbumPlaycount2.UseMnemonic = false;
             // 
             // lblUserLTopAlbumPlaycount1
             // 
@@ -17224,6 +18033,7 @@ namespace Audiograph
             this.lblUserLTopAlbumPlaycount1.TabIndex = 136;
             this.lblUserLTopAlbumPlaycount1.Text = "(Unavailable)";
             this.lblUserLTopAlbumPlaycount1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopAlbumPlaycount1.UseMnemonic = false;
             // 
             // Label314
             // 
@@ -17234,6 +18044,7 @@ namespace Audiograph
             this.Label314.TabIndex = 135;
             this.Label314.Text = "Playcount";
             this.Label314.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Label314.UseMnemonic = false;
             // 
             // lblUserLTopAlbumArtist20
             // 
@@ -17246,6 +18057,7 @@ namespace Audiograph
             this.lblUserLTopAlbumArtist20.TabIndex = 134;
             this.lblUserLTopAlbumArtist20.Text = "(Unavailable)";
             this.lblUserLTopAlbumArtist20.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopAlbumArtist20.UseMnemonic = false;
             // 
             // cmsUserLTopAlbums
             // 
@@ -17303,6 +18115,7 @@ namespace Audiograph
             this.lblUserLTopAlbum20.TabIndex = 133;
             this.lblUserLTopAlbum20.Text = "(Unavailable)";
             this.lblUserLTopAlbum20.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopAlbum20.UseMnemonic = false;
             this.lblUserLTopAlbum20.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopAlbumAlbumClicked);
             // 
             // picUserLTopAlbumArt20
@@ -17330,6 +18143,7 @@ namespace Audiograph
             this.Label318.TabIndex = 131;
             this.Label318.Text = "20";
             this.Label318.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label318.UseMnemonic = false;
             // 
             // lblUserLTopAlbumArtist19
             // 
@@ -17342,6 +18156,7 @@ namespace Audiograph
             this.lblUserLTopAlbumArtist19.TabIndex = 129;
             this.lblUserLTopAlbumArtist19.Text = "(Unavailable)";
             this.lblUserLTopAlbumArtist19.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopAlbumArtist19.UseMnemonic = false;
             // 
             // lblUserLTopAlbum19
             // 
@@ -17354,6 +18169,7 @@ namespace Audiograph
             this.lblUserLTopAlbum19.TabIndex = 128;
             this.lblUserLTopAlbum19.Text = "(Unavailable)";
             this.lblUserLTopAlbum19.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopAlbum19.UseMnemonic = false;
             this.lblUserLTopAlbum19.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopAlbumAlbumClicked);
             // 
             // picUserLTopAlbumArt19
@@ -17381,6 +18197,7 @@ namespace Audiograph
             this.Label322.TabIndex = 126;
             this.Label322.Text = "19";
             this.Label322.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label322.UseMnemonic = false;
             // 
             // lblUserLTopAlbumArtist18
             // 
@@ -17393,6 +18210,7 @@ namespace Audiograph
             this.lblUserLTopAlbumArtist18.TabIndex = 124;
             this.lblUserLTopAlbumArtist18.Text = "(Unavailable)";
             this.lblUserLTopAlbumArtist18.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopAlbumArtist18.UseMnemonic = false;
             // 
             // lblUserLTopAlbum18
             // 
@@ -17405,6 +18223,7 @@ namespace Audiograph
             this.lblUserLTopAlbum18.TabIndex = 123;
             this.lblUserLTopAlbum18.Text = "(Unavailable)";
             this.lblUserLTopAlbum18.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopAlbum18.UseMnemonic = false;
             this.lblUserLTopAlbum18.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopAlbumAlbumClicked);
             // 
             // picUserLTopAlbumArt18
@@ -17432,6 +18251,7 @@ namespace Audiograph
             this.Label326.TabIndex = 121;
             this.Label326.Text = "18";
             this.Label326.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label326.UseMnemonic = false;
             // 
             // lblUserLTopAlbumArtist17
             // 
@@ -17444,6 +18264,7 @@ namespace Audiograph
             this.lblUserLTopAlbumArtist17.TabIndex = 119;
             this.lblUserLTopAlbumArtist17.Text = "(Unavailable)";
             this.lblUserLTopAlbumArtist17.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopAlbumArtist17.UseMnemonic = false;
             // 
             // lblUserLTopAlbum17
             // 
@@ -17456,6 +18277,7 @@ namespace Audiograph
             this.lblUserLTopAlbum17.TabIndex = 118;
             this.lblUserLTopAlbum17.Text = "(Unavailable)";
             this.lblUserLTopAlbum17.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopAlbum17.UseMnemonic = false;
             this.lblUserLTopAlbum17.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopAlbumAlbumClicked);
             // 
             // picUserLTopAlbumArt17
@@ -17483,6 +18305,7 @@ namespace Audiograph
             this.Label334.TabIndex = 116;
             this.Label334.Text = "17";
             this.Label334.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label334.UseMnemonic = false;
             // 
             // lblUserLTopAlbumArtist16
             // 
@@ -17495,6 +18318,7 @@ namespace Audiograph
             this.lblUserLTopAlbumArtist16.TabIndex = 114;
             this.lblUserLTopAlbumArtist16.Text = "(Unavailable)";
             this.lblUserLTopAlbumArtist16.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopAlbumArtist16.UseMnemonic = false;
             // 
             // lblUserLTopAlbum16
             // 
@@ -17507,6 +18331,7 @@ namespace Audiograph
             this.lblUserLTopAlbum16.TabIndex = 113;
             this.lblUserLTopAlbum16.Text = "(Unavailable)";
             this.lblUserLTopAlbum16.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopAlbum16.UseMnemonic = false;
             this.lblUserLTopAlbum16.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopAlbumAlbumClicked);
             // 
             // picUserLTopAlbumArt16
@@ -17534,6 +18359,7 @@ namespace Audiograph
             this.Label337.TabIndex = 111;
             this.Label337.Text = "16";
             this.Label337.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label337.UseMnemonic = false;
             // 
             // lblUserLTopAlbumArtist15
             // 
@@ -17546,6 +18372,7 @@ namespace Audiograph
             this.lblUserLTopAlbumArtist15.TabIndex = 109;
             this.lblUserLTopAlbumArtist15.Text = "(Unavailable)";
             this.lblUserLTopAlbumArtist15.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopAlbumArtist15.UseMnemonic = false;
             // 
             // lblUserLTopAlbum15
             // 
@@ -17558,6 +18385,7 @@ namespace Audiograph
             this.lblUserLTopAlbum15.TabIndex = 108;
             this.lblUserLTopAlbum15.Text = "(Unavailable)";
             this.lblUserLTopAlbum15.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopAlbum15.UseMnemonic = false;
             this.lblUserLTopAlbum15.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopAlbumAlbumClicked);
             // 
             // picUserLTopAlbumArt15
@@ -17585,6 +18413,7 @@ namespace Audiograph
             this.Label340.TabIndex = 106;
             this.Label340.Text = "15";
             this.Label340.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label340.UseMnemonic = false;
             // 
             // lblUserLTopAlbumArtist14
             // 
@@ -17597,6 +18426,7 @@ namespace Audiograph
             this.lblUserLTopAlbumArtist14.TabIndex = 104;
             this.lblUserLTopAlbumArtist14.Text = "(Unavailable)";
             this.lblUserLTopAlbumArtist14.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopAlbumArtist14.UseMnemonic = false;
             // 
             // lblUserLTopAlbum14
             // 
@@ -17609,6 +18439,7 @@ namespace Audiograph
             this.lblUserLTopAlbum14.TabIndex = 103;
             this.lblUserLTopAlbum14.Text = "(Unavailable)";
             this.lblUserLTopAlbum14.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopAlbum14.UseMnemonic = false;
             this.lblUserLTopAlbum14.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopAlbumAlbumClicked);
             // 
             // picUserLTopAlbumArt14
@@ -17636,6 +18467,7 @@ namespace Audiograph
             this.Label343.TabIndex = 101;
             this.Label343.Text = "14";
             this.Label343.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label343.UseMnemonic = false;
             // 
             // lblUserLTopAlbumArtist13
             // 
@@ -17648,6 +18480,7 @@ namespace Audiograph
             this.lblUserLTopAlbumArtist13.TabIndex = 99;
             this.lblUserLTopAlbumArtist13.Text = "(Unavailable)";
             this.lblUserLTopAlbumArtist13.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopAlbumArtist13.UseMnemonic = false;
             // 
             // lblUserLTopAlbum13
             // 
@@ -17660,6 +18493,7 @@ namespace Audiograph
             this.lblUserLTopAlbum13.TabIndex = 98;
             this.lblUserLTopAlbum13.Text = "(Unavailable)";
             this.lblUserLTopAlbum13.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopAlbum13.UseMnemonic = false;
             this.lblUserLTopAlbum13.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopAlbumAlbumClicked);
             // 
             // picUserLTopAlbumArt13
@@ -17687,6 +18521,7 @@ namespace Audiograph
             this.Label346.TabIndex = 96;
             this.Label346.Text = "13";
             this.Label346.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label346.UseMnemonic = false;
             // 
             // lblUserLTopAlbumArtist12
             // 
@@ -17699,6 +18534,7 @@ namespace Audiograph
             this.lblUserLTopAlbumArtist12.TabIndex = 94;
             this.lblUserLTopAlbumArtist12.Text = "(Unavailable)";
             this.lblUserLTopAlbumArtist12.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopAlbumArtist12.UseMnemonic = false;
             // 
             // lblUserLTopAlbum12
             // 
@@ -17711,6 +18547,7 @@ namespace Audiograph
             this.lblUserLTopAlbum12.TabIndex = 93;
             this.lblUserLTopAlbum12.Text = "(Unavailable)";
             this.lblUserLTopAlbum12.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopAlbum12.UseMnemonic = false;
             this.lblUserLTopAlbum12.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopAlbumAlbumClicked);
             // 
             // picUserLTopAlbumArt12
@@ -17738,6 +18575,7 @@ namespace Audiograph
             this.Label349.TabIndex = 91;
             this.Label349.Text = "12";
             this.Label349.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label349.UseMnemonic = false;
             // 
             // lblUserLTopAlbumArtist11
             // 
@@ -17750,6 +18588,7 @@ namespace Audiograph
             this.lblUserLTopAlbumArtist11.TabIndex = 89;
             this.lblUserLTopAlbumArtist11.Text = "(Unavailable)";
             this.lblUserLTopAlbumArtist11.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopAlbumArtist11.UseMnemonic = false;
             // 
             // lblUserLTopAlbum11
             // 
@@ -17762,6 +18601,7 @@ namespace Audiograph
             this.lblUserLTopAlbum11.TabIndex = 88;
             this.lblUserLTopAlbum11.Text = "(Unavailable)";
             this.lblUserLTopAlbum11.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopAlbum11.UseMnemonic = false;
             this.lblUserLTopAlbum11.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopAlbumAlbumClicked);
             // 
             // picUserLTopAlbumArt11
@@ -17789,6 +18629,7 @@ namespace Audiograph
             this.Label352.TabIndex = 86;
             this.Label352.Text = "11";
             this.Label352.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label352.UseMnemonic = false;
             // 
             // lblUserLTopAlbumArtist10
             // 
@@ -17801,6 +18642,7 @@ namespace Audiograph
             this.lblUserLTopAlbumArtist10.TabIndex = 84;
             this.lblUserLTopAlbumArtist10.Text = "(Unavailable)";
             this.lblUserLTopAlbumArtist10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopAlbumArtist10.UseMnemonic = false;
             // 
             // lblUserLTopAlbum10
             // 
@@ -17813,6 +18655,7 @@ namespace Audiograph
             this.lblUserLTopAlbum10.TabIndex = 83;
             this.lblUserLTopAlbum10.Text = "(Unavailable)";
             this.lblUserLTopAlbum10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopAlbum10.UseMnemonic = false;
             this.lblUserLTopAlbum10.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopAlbumAlbumClicked);
             // 
             // picUserLTopAlbumArt10
@@ -17840,6 +18683,7 @@ namespace Audiograph
             this.Label355.TabIndex = 81;
             this.Label355.Text = "10";
             this.Label355.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label355.UseMnemonic = false;
             // 
             // lblUserLTopAlbumArtist9
             // 
@@ -17852,6 +18696,7 @@ namespace Audiograph
             this.lblUserLTopAlbumArtist9.TabIndex = 79;
             this.lblUserLTopAlbumArtist9.Text = "(Unavailable)";
             this.lblUserLTopAlbumArtist9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopAlbumArtist9.UseMnemonic = false;
             // 
             // lblUserLTopAlbum9
             // 
@@ -17864,6 +18709,7 @@ namespace Audiograph
             this.lblUserLTopAlbum9.TabIndex = 78;
             this.lblUserLTopAlbum9.Text = "(Unavailable)";
             this.lblUserLTopAlbum9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopAlbum9.UseMnemonic = false;
             this.lblUserLTopAlbum9.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopAlbumAlbumClicked);
             // 
             // picUserLTopAlbumArt9
@@ -17891,6 +18737,7 @@ namespace Audiograph
             this.Label358.TabIndex = 76;
             this.Label358.Text = "9";
             this.Label358.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label358.UseMnemonic = false;
             // 
             // lblUserLTopAlbumArtist8
             // 
@@ -17903,6 +18750,7 @@ namespace Audiograph
             this.lblUserLTopAlbumArtist8.TabIndex = 74;
             this.lblUserLTopAlbumArtist8.Text = "(Unavailable)";
             this.lblUserLTopAlbumArtist8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopAlbumArtist8.UseMnemonic = false;
             this.lblUserLTopAlbumArtist8.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopAlbumArtistClicked);
             // 
             // lblUserLTopAlbum8
@@ -17916,6 +18764,7 @@ namespace Audiograph
             this.lblUserLTopAlbum8.TabIndex = 73;
             this.lblUserLTopAlbum8.Text = "(Unavailable)";
             this.lblUserLTopAlbum8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopAlbum8.UseMnemonic = false;
             this.lblUserLTopAlbum8.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopAlbumAlbumClicked);
             // 
             // picUserLTopAlbumArt8
@@ -17943,6 +18792,7 @@ namespace Audiograph
             this.Label361.TabIndex = 71;
             this.Label361.Text = "8";
             this.Label361.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label361.UseMnemonic = false;
             // 
             // lblUserLTopAlbumArtist7
             // 
@@ -17955,6 +18805,7 @@ namespace Audiograph
             this.lblUserLTopAlbumArtist7.TabIndex = 69;
             this.lblUserLTopAlbumArtist7.Text = "(Unavailable)";
             this.lblUserLTopAlbumArtist7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopAlbumArtist7.UseMnemonic = false;
             this.lblUserLTopAlbumArtist7.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopAlbumArtistClicked);
             // 
             // lblUserLTopAlbum7
@@ -17968,6 +18819,7 @@ namespace Audiograph
             this.lblUserLTopAlbum7.TabIndex = 68;
             this.lblUserLTopAlbum7.Text = "(Unavailable)";
             this.lblUserLTopAlbum7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopAlbum7.UseMnemonic = false;
             this.lblUserLTopAlbum7.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopAlbumAlbumClicked);
             // 
             // picUserLTopAlbumArt7
@@ -17995,6 +18847,7 @@ namespace Audiograph
             this.Label364.TabIndex = 66;
             this.Label364.Text = "7";
             this.Label364.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label364.UseMnemonic = false;
             // 
             // lblUserLTopAlbumArtist6
             // 
@@ -18007,6 +18860,7 @@ namespace Audiograph
             this.lblUserLTopAlbumArtist6.TabIndex = 64;
             this.lblUserLTopAlbumArtist6.Text = "(Unavailable)";
             this.lblUserLTopAlbumArtist6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopAlbumArtist6.UseMnemonic = false;
             this.lblUserLTopAlbumArtist6.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopAlbumArtistClicked);
             // 
             // lblUserLTopAlbum6
@@ -18020,6 +18874,7 @@ namespace Audiograph
             this.lblUserLTopAlbum6.TabIndex = 63;
             this.lblUserLTopAlbum6.Text = "(Unavailable)";
             this.lblUserLTopAlbum6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopAlbum6.UseMnemonic = false;
             this.lblUserLTopAlbum6.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopAlbumAlbumClicked);
             // 
             // picUserLTopAlbumArt6
@@ -18047,6 +18902,7 @@ namespace Audiograph
             this.Label367.TabIndex = 61;
             this.Label367.Text = "6";
             this.Label367.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label367.UseMnemonic = false;
             // 
             // lblUserLTopAlbumArtist5
             // 
@@ -18059,6 +18915,7 @@ namespace Audiograph
             this.lblUserLTopAlbumArtist5.TabIndex = 59;
             this.lblUserLTopAlbumArtist5.Text = "(Unavailable)";
             this.lblUserLTopAlbumArtist5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopAlbumArtist5.UseMnemonic = false;
             this.lblUserLTopAlbumArtist5.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopAlbumArtistClicked);
             // 
             // lblUserLTopAlbum5
@@ -18072,6 +18929,7 @@ namespace Audiograph
             this.lblUserLTopAlbum5.TabIndex = 58;
             this.lblUserLTopAlbum5.Text = "(Unavailable)";
             this.lblUserLTopAlbum5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopAlbum5.UseMnemonic = false;
             this.lblUserLTopAlbum5.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopAlbumAlbumClicked);
             // 
             // picUserLTopAlbumArt5
@@ -18099,6 +18957,7 @@ namespace Audiograph
             this.Label370.TabIndex = 56;
             this.Label370.Text = "5";
             this.Label370.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label370.UseMnemonic = false;
             // 
             // lblUserLTopAlbumArtist4
             // 
@@ -18111,6 +18970,7 @@ namespace Audiograph
             this.lblUserLTopAlbumArtist4.TabIndex = 54;
             this.lblUserLTopAlbumArtist4.Text = "(Unavailable)";
             this.lblUserLTopAlbumArtist4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopAlbumArtist4.UseMnemonic = false;
             this.lblUserLTopAlbumArtist4.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopAlbumArtistClicked);
             // 
             // lblUserLTopAlbum4
@@ -18124,6 +18984,7 @@ namespace Audiograph
             this.lblUserLTopAlbum4.TabIndex = 53;
             this.lblUserLTopAlbum4.Text = "(Unavailable)";
             this.lblUserLTopAlbum4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopAlbum4.UseMnemonic = false;
             this.lblUserLTopAlbum4.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopAlbumAlbumClicked);
             // 
             // picUserLTopAlbumArt4
@@ -18151,6 +19012,7 @@ namespace Audiograph
             this.Label373.TabIndex = 51;
             this.Label373.Text = "4";
             this.Label373.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label373.UseMnemonic = false;
             // 
             // lblUserLTopAlbumArtist3
             // 
@@ -18163,6 +19025,7 @@ namespace Audiograph
             this.lblUserLTopAlbumArtist3.TabIndex = 49;
             this.lblUserLTopAlbumArtist3.Text = "(Unavailable)";
             this.lblUserLTopAlbumArtist3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopAlbumArtist3.UseMnemonic = false;
             this.lblUserLTopAlbumArtist3.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopAlbumArtistClicked);
             // 
             // lblUserLTopAlbum3
@@ -18176,6 +19039,7 @@ namespace Audiograph
             this.lblUserLTopAlbum3.TabIndex = 48;
             this.lblUserLTopAlbum3.Text = "(Unavailable)";
             this.lblUserLTopAlbum3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopAlbum3.UseMnemonic = false;
             this.lblUserLTopAlbum3.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopAlbumAlbumClicked);
             // 
             // picUserLTopAlbumArt3
@@ -18203,6 +19067,7 @@ namespace Audiograph
             this.Label376.TabIndex = 46;
             this.Label376.Text = "3";
             this.Label376.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label376.UseMnemonic = false;
             // 
             // lblUserLTopAlbumArtist2
             // 
@@ -18215,6 +19080,7 @@ namespace Audiograph
             this.lblUserLTopAlbumArtist2.TabIndex = 44;
             this.lblUserLTopAlbumArtist2.Text = "(Unavailable)";
             this.lblUserLTopAlbumArtist2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopAlbumArtist2.UseMnemonic = false;
             this.lblUserLTopAlbumArtist2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopAlbumArtistClicked);
             // 
             // lblUserLTopAlbum2
@@ -18228,6 +19094,7 @@ namespace Audiograph
             this.lblUserLTopAlbum2.TabIndex = 43;
             this.lblUserLTopAlbum2.Text = "(Unavailable)";
             this.lblUserLTopAlbum2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopAlbum2.UseMnemonic = false;
             this.lblUserLTopAlbum2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopAlbumAlbumClicked);
             // 
             // picUserLTopAlbumArt2
@@ -18255,6 +19122,7 @@ namespace Audiograph
             this.Label379.TabIndex = 41;
             this.Label379.Text = "2";
             this.Label379.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label379.UseMnemonic = false;
             // 
             // lblUserLTopAlbumArtist1
             // 
@@ -18267,6 +19135,7 @@ namespace Audiograph
             this.lblUserLTopAlbumArtist1.TabIndex = 39;
             this.lblUserLTopAlbumArtist1.Text = "(Unavailable)";
             this.lblUserLTopAlbumArtist1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopAlbumArtist1.UseMnemonic = false;
             this.lblUserLTopAlbumArtist1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopAlbumArtistClicked);
             // 
             // lblUserLTopAlbum1
@@ -18280,6 +19149,7 @@ namespace Audiograph
             this.lblUserLTopAlbum1.TabIndex = 38;
             this.lblUserLTopAlbum1.Text = "(Unavailable)";
             this.lblUserLTopAlbum1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLTopAlbum1.UseMnemonic = false;
             this.lblUserLTopAlbum1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLTopAlbumAlbumClicked);
             // 
             // Label382
@@ -18291,6 +19161,7 @@ namespace Audiograph
             this.Label382.TabIndex = 37;
             this.Label382.Text = "1";
             this.Label382.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label382.UseMnemonic = false;
             // 
             // Label383
             // 
@@ -18301,6 +19172,7 @@ namespace Audiograph
             this.Label383.TabIndex = 33;
             this.Label383.Text = "Art";
             this.Label383.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Label383.UseMnemonic = false;
             // 
             // picUserLTopAlbumArt1
             // 
@@ -18327,6 +19199,7 @@ namespace Audiograph
             this.Label384.TabIndex = 32;
             this.Label384.Text = "#";
             this.Label384.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label384.UseMnemonic = false;
             // 
             // Label385
             // 
@@ -18337,6 +19210,7 @@ namespace Audiograph
             this.Label385.TabIndex = 34;
             this.Label385.Text = "Album";
             this.Label385.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Label385.UseMnemonic = false;
             // 
             // Label386
             // 
@@ -18347,6 +19221,7 @@ namespace Audiograph
             this.Label386.TabIndex = 35;
             this.Label386.Text = "Artist";
             this.Label386.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Label386.UseMnemonic = false;
             // 
             // pgUserLHistory
             // 
@@ -18371,6 +19246,7 @@ namespace Audiograph
             this.lblUserLHistoryTotalTracks.Size = new System.Drawing.Size(79, 13);
             this.lblUserLHistoryTotalTracks.TabIndex = 32;
             this.lblUserLHistoryTotalTracks.Text = "Total Tracks: 0";
+            this.lblUserLHistoryTotalTracks.UseMnemonic = false;
             // 
             // nudUserLHistoryPage
             // 
@@ -18398,6 +19274,7 @@ namespace Audiograph
             this.Label23.Size = new System.Drawing.Size(35, 13);
             this.Label23.TabIndex = 29;
             this.Label23.Text = "Page:";
+            this.Label23.UseMnemonic = false;
             // 
             // lblUserLHistoryTotalPages
             // 
@@ -18407,6 +19284,7 @@ namespace Audiograph
             this.lblUserLHistoryTotalPages.Size = new System.Drawing.Size(76, 13);
             this.lblUserLHistoryTotalPages.TabIndex = 31;
             this.lblUserLHistoryTotalPages.Text = "Total Pages: 0";
+            this.lblUserLHistoryTotalPages.UseMnemonic = false;
             // 
             // ltvUserLHistory
             // 
@@ -18517,6 +19395,7 @@ namespace Audiograph
             this.lblUserLFrom.Size = new System.Drawing.Size(33, 13);
             this.lblUserLFrom.TabIndex = 2;
             this.lblUserLFrom.Text = "From:";
+            this.lblUserLFrom.UseMnemonic = false;
             // 
             // GroupBox4
             // 
@@ -18663,6 +19542,7 @@ namespace Audiograph
             this.lblUserLFriendTotal.Size = new System.Drawing.Size(80, 13);
             this.lblUserLFriendTotal.TabIndex = 4;
             this.lblUserLFriendTotal.Text = "Total Friends: 0";
+            this.lblUserLFriendTotal.UseMnemonic = false;
             // 
             // ltvUserLFriends
             // 
@@ -18766,6 +19646,7 @@ namespace Audiograph
             this.lblUserLLovedTotalTracks.Size = new System.Drawing.Size(79, 13);
             this.lblUserLLovedTotalTracks.TabIndex = 3;
             this.lblUserLLovedTotalTracks.Text = "Total Tracks: 0";
+            this.lblUserLLovedTotalTracks.UseMnemonic = false;
             // 
             // nudUserLLovedPage
             // 
@@ -18872,6 +19753,7 @@ namespace Audiograph
             this.Label390.Size = new System.Drawing.Size(35, 13);
             this.Label390.TabIndex = 0;
             this.Label390.Text = "Page:";
+            this.Label390.UseMnemonic = false;
             // 
             // lblUserLLovedTotalPages
             // 
@@ -18881,6 +19763,7 @@ namespace Audiograph
             this.lblUserLLovedTotalPages.Size = new System.Drawing.Size(76, 13);
             this.lblUserLLovedTotalPages.TabIndex = 2;
             this.lblUserLLovedTotalPages.Text = "Total Pages: 0";
+            this.lblUserLLovedTotalPages.UseMnemonic = false;
             // 
             // pgUserLRecentTracks
             // 
@@ -19090,6 +19973,7 @@ namespace Audiograph
             this.lblUserLRecentAlbum20.TabIndex = 117;
             this.lblUserLRecentAlbum20.Text = "(Unavailable)";
             this.lblUserLRecentAlbum20.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLRecentAlbum20.UseMnemonic = false;
             this.lblUserLRecentAlbum20.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLRecentAlbumClick);
             // 
             // lblUserLRecentArtist20
@@ -19104,6 +19988,7 @@ namespace Audiograph
             this.lblUserLRecentArtist20.TabIndex = 116;
             this.lblUserLRecentArtist20.Text = "(Unavailable)";
             this.lblUserLRecentArtist20.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLRecentArtist20.UseMnemonic = false;
             this.lblUserLRecentArtist20.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLRecentArtistClick);
             // 
             // lblUserLRecentTitle20
@@ -19118,6 +20003,7 @@ namespace Audiograph
             this.lblUserLRecentTitle20.TabIndex = 115;
             this.lblUserLRecentTitle20.Text = "(Unavailable)";
             this.lblUserLRecentTitle20.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLRecentTitle20.UseMnemonic = false;
             this.lblUserLRecentTitle20.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLRecentTrackClick);
             // 
             // picUserLRecentArt20
@@ -19147,6 +20033,7 @@ namespace Audiograph
             this.lblUserLRecentAlbum19.TabIndex = 113;
             this.lblUserLRecentAlbum19.Text = "(Unavailable)";
             this.lblUserLRecentAlbum19.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLRecentAlbum19.UseMnemonic = false;
             this.lblUserLRecentAlbum19.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLRecentAlbumClick);
             // 
             // lblUserLRecentArtist19
@@ -19161,6 +20048,7 @@ namespace Audiograph
             this.lblUserLRecentArtist19.TabIndex = 112;
             this.lblUserLRecentArtist19.Text = "(Unavailable)";
             this.lblUserLRecentArtist19.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLRecentArtist19.UseMnemonic = false;
             this.lblUserLRecentArtist19.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLRecentArtistClick);
             // 
             // lblUserLRecentTitle19
@@ -19175,6 +20063,7 @@ namespace Audiograph
             this.lblUserLRecentTitle19.TabIndex = 111;
             this.lblUserLRecentTitle19.Text = "(Unavailable)";
             this.lblUserLRecentTitle19.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLRecentTitle19.UseMnemonic = false;
             this.lblUserLRecentTitle19.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLRecentTrackClick);
             // 
             // picUserLRecentArt19
@@ -19204,6 +20093,7 @@ namespace Audiograph
             this.lblUserLRecentAlbum18.TabIndex = 109;
             this.lblUserLRecentAlbum18.Text = "(Unavailable)";
             this.lblUserLRecentAlbum18.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLRecentAlbum18.UseMnemonic = false;
             this.lblUserLRecentAlbum18.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLRecentAlbumClick);
             // 
             // lblUserLRecentArtist18
@@ -19218,6 +20108,7 @@ namespace Audiograph
             this.lblUserLRecentArtist18.TabIndex = 108;
             this.lblUserLRecentArtist18.Text = "(Unavailable)";
             this.lblUserLRecentArtist18.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLRecentArtist18.UseMnemonic = false;
             this.lblUserLRecentArtist18.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLRecentArtistClick);
             // 
             // lblUserLRecentTitle18
@@ -19232,6 +20123,7 @@ namespace Audiograph
             this.lblUserLRecentTitle18.TabIndex = 107;
             this.lblUserLRecentTitle18.Text = "(Unavailable)";
             this.lblUserLRecentTitle18.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLRecentTitle18.UseMnemonic = false;
             this.lblUserLRecentTitle18.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLRecentTrackClick);
             // 
             // picUserLRecentArt18
@@ -19261,6 +20153,7 @@ namespace Audiograph
             this.lblUserLRecentAlbum17.TabIndex = 105;
             this.lblUserLRecentAlbum17.Text = "(Unavailable)";
             this.lblUserLRecentAlbum17.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLRecentAlbum17.UseMnemonic = false;
             this.lblUserLRecentAlbum17.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLRecentAlbumClick);
             // 
             // lblUserLRecentArtist17
@@ -19275,6 +20168,7 @@ namespace Audiograph
             this.lblUserLRecentArtist17.TabIndex = 104;
             this.lblUserLRecentArtist17.Text = "(Unavailable)";
             this.lblUserLRecentArtist17.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLRecentArtist17.UseMnemonic = false;
             this.lblUserLRecentArtist17.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLRecentArtistClick);
             // 
             // lblUserLRecentTitle17
@@ -19289,6 +20183,7 @@ namespace Audiograph
             this.lblUserLRecentTitle17.TabIndex = 103;
             this.lblUserLRecentTitle17.Text = "(Unavailable)";
             this.lblUserLRecentTitle17.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLRecentTitle17.UseMnemonic = false;
             this.lblUserLRecentTitle17.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLRecentTrackClick);
             // 
             // picUserLRecentArt17
@@ -19318,6 +20213,7 @@ namespace Audiograph
             this.lblUserLRecentAlbum16.TabIndex = 101;
             this.lblUserLRecentAlbum16.Text = "(Unavailable)";
             this.lblUserLRecentAlbum16.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLRecentAlbum16.UseMnemonic = false;
             this.lblUserLRecentAlbum16.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLRecentAlbumClick);
             // 
             // lblUserLRecentArtist16
@@ -19332,6 +20228,7 @@ namespace Audiograph
             this.lblUserLRecentArtist16.TabIndex = 100;
             this.lblUserLRecentArtist16.Text = "(Unavailable)";
             this.lblUserLRecentArtist16.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLRecentArtist16.UseMnemonic = false;
             this.lblUserLRecentArtist16.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLRecentArtistClick);
             // 
             // lblUserLRecentTitle16
@@ -19346,6 +20243,7 @@ namespace Audiograph
             this.lblUserLRecentTitle16.TabIndex = 99;
             this.lblUserLRecentTitle16.Text = "(Unavailable)";
             this.lblUserLRecentTitle16.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLRecentTitle16.UseMnemonic = false;
             this.lblUserLRecentTitle16.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLRecentTrackClick);
             // 
             // picUserLRecentArt16
@@ -19375,6 +20273,7 @@ namespace Audiograph
             this.lblUserLRecentAlbum15.TabIndex = 97;
             this.lblUserLRecentAlbum15.Text = "(Unavailable)";
             this.lblUserLRecentAlbum15.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLRecentAlbum15.UseMnemonic = false;
             this.lblUserLRecentAlbum15.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLRecentAlbumClick);
             // 
             // lblUserLRecentArtist15
@@ -19389,6 +20288,7 @@ namespace Audiograph
             this.lblUserLRecentArtist15.TabIndex = 96;
             this.lblUserLRecentArtist15.Text = "(Unavailable)";
             this.lblUserLRecentArtist15.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLRecentArtist15.UseMnemonic = false;
             this.lblUserLRecentArtist15.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLRecentArtistClick);
             // 
             // lblUserLRecentTitle15
@@ -19403,6 +20303,7 @@ namespace Audiograph
             this.lblUserLRecentTitle15.TabIndex = 95;
             this.lblUserLRecentTitle15.Text = "(Unavailable)";
             this.lblUserLRecentTitle15.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLRecentTitle15.UseMnemonic = false;
             this.lblUserLRecentTitle15.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLRecentTrackClick);
             // 
             // picUserLRecentArt15
@@ -19432,6 +20333,7 @@ namespace Audiograph
             this.lblUserLRecentAlbum14.TabIndex = 93;
             this.lblUserLRecentAlbum14.Text = "(Unavailable)";
             this.lblUserLRecentAlbum14.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLRecentAlbum14.UseMnemonic = false;
             this.lblUserLRecentAlbum14.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLRecentAlbumClick);
             // 
             // lblUserLRecentArtist14
@@ -19446,6 +20348,7 @@ namespace Audiograph
             this.lblUserLRecentArtist14.TabIndex = 92;
             this.lblUserLRecentArtist14.Text = "(Unavailable)";
             this.lblUserLRecentArtist14.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLRecentArtist14.UseMnemonic = false;
             this.lblUserLRecentArtist14.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLRecentArtistClick);
             // 
             // lblUserLRecentTitle14
@@ -19460,6 +20363,7 @@ namespace Audiograph
             this.lblUserLRecentTitle14.TabIndex = 91;
             this.lblUserLRecentTitle14.Text = "(Unavailable)";
             this.lblUserLRecentTitle14.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLRecentTitle14.UseMnemonic = false;
             this.lblUserLRecentTitle14.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLRecentTrackClick);
             // 
             // picUserLRecentArt14
@@ -19489,6 +20393,7 @@ namespace Audiograph
             this.lblUserLRecentAlbum13.TabIndex = 89;
             this.lblUserLRecentAlbum13.Text = "(Unavailable)";
             this.lblUserLRecentAlbum13.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLRecentAlbum13.UseMnemonic = false;
             this.lblUserLRecentAlbum13.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLRecentAlbumClick);
             // 
             // lblUserLRecentArtist13
@@ -19503,6 +20408,7 @@ namespace Audiograph
             this.lblUserLRecentArtist13.TabIndex = 88;
             this.lblUserLRecentArtist13.Text = "(Unavailable)";
             this.lblUserLRecentArtist13.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLRecentArtist13.UseMnemonic = false;
             this.lblUserLRecentArtist13.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLRecentArtistClick);
             // 
             // lblUserLRecentTitle13
@@ -19517,6 +20423,7 @@ namespace Audiograph
             this.lblUserLRecentTitle13.TabIndex = 87;
             this.lblUserLRecentTitle13.Text = "(Unavailable)";
             this.lblUserLRecentTitle13.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLRecentTitle13.UseMnemonic = false;
             this.lblUserLRecentTitle13.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLRecentTrackClick);
             // 
             // picUserLRecentArt13
@@ -19546,6 +20453,7 @@ namespace Audiograph
             this.lblUserLRecentAlbum12.TabIndex = 85;
             this.lblUserLRecentAlbum12.Text = "(Unavailable)";
             this.lblUserLRecentAlbum12.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLRecentAlbum12.UseMnemonic = false;
             this.lblUserLRecentAlbum12.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLRecentAlbumClick);
             // 
             // lblUserLRecentArtist12
@@ -19560,6 +20468,7 @@ namespace Audiograph
             this.lblUserLRecentArtist12.TabIndex = 84;
             this.lblUserLRecentArtist12.Text = "(Unavailable)";
             this.lblUserLRecentArtist12.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLRecentArtist12.UseMnemonic = false;
             this.lblUserLRecentArtist12.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLRecentArtistClick);
             // 
             // lblUserLRecentTitle12
@@ -19574,6 +20483,7 @@ namespace Audiograph
             this.lblUserLRecentTitle12.TabIndex = 83;
             this.lblUserLRecentTitle12.Text = "(Unavailable)";
             this.lblUserLRecentTitle12.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLRecentTitle12.UseMnemonic = false;
             this.lblUserLRecentTitle12.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLRecentTrackClick);
             // 
             // picUserLRecentArt12
@@ -19603,6 +20513,7 @@ namespace Audiograph
             this.lblUserLRecentAlbum11.TabIndex = 81;
             this.lblUserLRecentAlbum11.Text = "(Unavailable)";
             this.lblUserLRecentAlbum11.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLRecentAlbum11.UseMnemonic = false;
             this.lblUserLRecentAlbum11.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLRecentAlbumClick);
             // 
             // lblUserLRecentArtist11
@@ -19617,6 +20528,7 @@ namespace Audiograph
             this.lblUserLRecentArtist11.TabIndex = 80;
             this.lblUserLRecentArtist11.Text = "(Unavailable)";
             this.lblUserLRecentArtist11.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLRecentArtist11.UseMnemonic = false;
             this.lblUserLRecentArtist11.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLRecentArtistClick);
             // 
             // lblUserLRecentTitle11
@@ -19631,6 +20543,7 @@ namespace Audiograph
             this.lblUserLRecentTitle11.TabIndex = 79;
             this.lblUserLRecentTitle11.Text = "(Unavailable)";
             this.lblUserLRecentTitle11.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLRecentTitle11.UseMnemonic = false;
             this.lblUserLRecentTitle11.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLRecentTrackClick);
             // 
             // picUserLRecentArt11
@@ -19660,6 +20573,7 @@ namespace Audiograph
             this.lblUserLRecentAlbum10.TabIndex = 77;
             this.lblUserLRecentAlbum10.Text = "(Unavailable)";
             this.lblUserLRecentAlbum10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLRecentAlbum10.UseMnemonic = false;
             this.lblUserLRecentAlbum10.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLRecentAlbumClick);
             // 
             // lblUserLRecentArtist10
@@ -19674,6 +20588,7 @@ namespace Audiograph
             this.lblUserLRecentArtist10.TabIndex = 76;
             this.lblUserLRecentArtist10.Text = "(Unavailable)";
             this.lblUserLRecentArtist10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLRecentArtist10.UseMnemonic = false;
             this.lblUserLRecentArtist10.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLRecentArtistClick);
             // 
             // lblUserLRecentTitle10
@@ -19688,6 +20603,7 @@ namespace Audiograph
             this.lblUserLRecentTitle10.TabIndex = 75;
             this.lblUserLRecentTitle10.Text = "(Unavailable)";
             this.lblUserLRecentTitle10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLRecentTitle10.UseMnemonic = false;
             this.lblUserLRecentTitle10.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLRecentTrackClick);
             // 
             // picUserLRecentArt10
@@ -19717,6 +20633,7 @@ namespace Audiograph
             this.lblUserLRecentAlbum9.TabIndex = 73;
             this.lblUserLRecentAlbum9.Text = "(Unavailable)";
             this.lblUserLRecentAlbum9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLRecentAlbum9.UseMnemonic = false;
             this.lblUserLRecentAlbum9.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLRecentAlbumClick);
             // 
             // lblUserLRecentArtist9
@@ -19731,6 +20648,7 @@ namespace Audiograph
             this.lblUserLRecentArtist9.TabIndex = 72;
             this.lblUserLRecentArtist9.Text = "(Unavailable)";
             this.lblUserLRecentArtist9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLRecentArtist9.UseMnemonic = false;
             this.lblUserLRecentArtist9.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLRecentArtistClick);
             // 
             // lblUserLRecentTitle9
@@ -19745,6 +20663,7 @@ namespace Audiograph
             this.lblUserLRecentTitle9.TabIndex = 71;
             this.lblUserLRecentTitle9.Text = "(Unavailable)";
             this.lblUserLRecentTitle9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLRecentTitle9.UseMnemonic = false;
             this.lblUserLRecentTitle9.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLRecentTrackClick);
             // 
             // picUserLRecentArt9
@@ -19774,6 +20693,7 @@ namespace Audiograph
             this.lblUserLRecentAlbum8.TabIndex = 69;
             this.lblUserLRecentAlbum8.Text = "(Unavailable)";
             this.lblUserLRecentAlbum8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLRecentAlbum8.UseMnemonic = false;
             this.lblUserLRecentAlbum8.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLRecentAlbumClick);
             // 
             // lblUserLRecentArtist8
@@ -19788,6 +20708,7 @@ namespace Audiograph
             this.lblUserLRecentArtist8.TabIndex = 68;
             this.lblUserLRecentArtist8.Text = "(Unavailable)";
             this.lblUserLRecentArtist8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLRecentArtist8.UseMnemonic = false;
             this.lblUserLRecentArtist8.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLRecentArtistClick);
             // 
             // lblUserLRecentTitle8
@@ -19802,6 +20723,7 @@ namespace Audiograph
             this.lblUserLRecentTitle8.TabIndex = 67;
             this.lblUserLRecentTitle8.Text = "(Unavailable)";
             this.lblUserLRecentTitle8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLRecentTitle8.UseMnemonic = false;
             this.lblUserLRecentTitle8.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLRecentTrackClick);
             // 
             // picUserLRecentArt8
@@ -19830,6 +20752,7 @@ namespace Audiograph
             this.lblUserLRecentAlbum7.TabIndex = 65;
             this.lblUserLRecentAlbum7.Text = "(Unavailable)";
             this.lblUserLRecentAlbum7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLRecentAlbum7.UseMnemonic = false;
             this.lblUserLRecentAlbum7.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLRecentAlbumClick);
             // 
             // lblUserLRecentArtist7
@@ -19844,6 +20767,7 @@ namespace Audiograph
             this.lblUserLRecentArtist7.TabIndex = 64;
             this.lblUserLRecentArtist7.Text = "(Unavailable)";
             this.lblUserLRecentArtist7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLRecentArtist7.UseMnemonic = false;
             this.lblUserLRecentArtist7.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLRecentArtistClick);
             // 
             // lblUserLRecentTitle7
@@ -19858,6 +20782,7 @@ namespace Audiograph
             this.lblUserLRecentTitle7.TabIndex = 63;
             this.lblUserLRecentTitle7.Text = "(Unavailable)";
             this.lblUserLRecentTitle7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLRecentTitle7.UseMnemonic = false;
             this.lblUserLRecentTitle7.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLRecentTrackClick);
             // 
             // picUserLRecentArt7
@@ -19886,6 +20811,7 @@ namespace Audiograph
             this.lblUserLRecentAlbum6.TabIndex = 61;
             this.lblUserLRecentAlbum6.Text = "(Unavailable)";
             this.lblUserLRecentAlbum6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLRecentAlbum6.UseMnemonic = false;
             this.lblUserLRecentAlbum6.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLRecentAlbumClick);
             // 
             // lblUserLRecentArtist6
@@ -19900,6 +20826,7 @@ namespace Audiograph
             this.lblUserLRecentArtist6.TabIndex = 60;
             this.lblUserLRecentArtist6.Text = "(Unavailable)";
             this.lblUserLRecentArtist6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLRecentArtist6.UseMnemonic = false;
             this.lblUserLRecentArtist6.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLRecentArtistClick);
             // 
             // lblUserLRecentTitle6
@@ -19914,6 +20841,7 @@ namespace Audiograph
             this.lblUserLRecentTitle6.TabIndex = 59;
             this.lblUserLRecentTitle6.Text = "(Unavailable)";
             this.lblUserLRecentTitle6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLRecentTitle6.UseMnemonic = false;
             this.lblUserLRecentTitle6.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLRecentTrackClick);
             // 
             // picUserLRecentArt6
@@ -19942,6 +20870,7 @@ namespace Audiograph
             this.lblUserLRecentAlbum5.TabIndex = 57;
             this.lblUserLRecentAlbum5.Text = "(Unavailable)";
             this.lblUserLRecentAlbum5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLRecentAlbum5.UseMnemonic = false;
             this.lblUserLRecentAlbum5.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLRecentAlbumClick);
             // 
             // lblUserLRecentArtist5
@@ -19956,6 +20885,7 @@ namespace Audiograph
             this.lblUserLRecentArtist5.TabIndex = 56;
             this.lblUserLRecentArtist5.Text = "(Unavailable)";
             this.lblUserLRecentArtist5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLRecentArtist5.UseMnemonic = false;
             this.lblUserLRecentArtist5.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLRecentArtistClick);
             // 
             // lblUserLRecentTitle5
@@ -19970,6 +20900,7 @@ namespace Audiograph
             this.lblUserLRecentTitle5.TabIndex = 55;
             this.lblUserLRecentTitle5.Text = "(Unavailable)";
             this.lblUserLRecentTitle5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLRecentTitle5.UseMnemonic = false;
             this.lblUserLRecentTitle5.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLRecentTrackClick);
             // 
             // picUserLRecentArt5
@@ -19998,6 +20929,7 @@ namespace Audiograph
             this.lblUserLRecentAlbum4.TabIndex = 53;
             this.lblUserLRecentAlbum4.Text = "(Unavailable)";
             this.lblUserLRecentAlbum4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLRecentAlbum4.UseMnemonic = false;
             this.lblUserLRecentAlbum4.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLRecentAlbumClick);
             // 
             // lblUserLRecentArtist4
@@ -20012,6 +20944,7 @@ namespace Audiograph
             this.lblUserLRecentArtist4.TabIndex = 52;
             this.lblUserLRecentArtist4.Text = "(Unavailable)";
             this.lblUserLRecentArtist4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLRecentArtist4.UseMnemonic = false;
             this.lblUserLRecentArtist4.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLRecentArtistClick);
             // 
             // lblUserLRecentTitle4
@@ -20026,6 +20959,7 @@ namespace Audiograph
             this.lblUserLRecentTitle4.TabIndex = 51;
             this.lblUserLRecentTitle4.Text = "(Unavailable)";
             this.lblUserLRecentTitle4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLRecentTitle4.UseMnemonic = false;
             this.lblUserLRecentTitle4.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLRecentTrackClick);
             // 
             // picUserLRecentArt4
@@ -20054,6 +20988,7 @@ namespace Audiograph
             this.lblUserLRecentAlbum3.TabIndex = 49;
             this.lblUserLRecentAlbum3.Text = "(Unavailable)";
             this.lblUserLRecentAlbum3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLRecentAlbum3.UseMnemonic = false;
             this.lblUserLRecentAlbum3.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLRecentAlbumClick);
             // 
             // lblUserLRecentArtist3
@@ -20068,6 +21003,7 @@ namespace Audiograph
             this.lblUserLRecentArtist3.TabIndex = 48;
             this.lblUserLRecentArtist3.Text = "(Unavailable)";
             this.lblUserLRecentArtist3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLRecentArtist3.UseMnemonic = false;
             this.lblUserLRecentArtist3.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLRecentArtistClick);
             // 
             // lblUserLRecentTitle3
@@ -20082,6 +21018,7 @@ namespace Audiograph
             this.lblUserLRecentTitle3.TabIndex = 47;
             this.lblUserLRecentTitle3.Text = "(Unavailable)";
             this.lblUserLRecentTitle3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLRecentTitle3.UseMnemonic = false;
             this.lblUserLRecentTitle3.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLRecentTrackClick);
             // 
             // picUserLRecentArt3
@@ -20110,6 +21047,7 @@ namespace Audiograph
             this.lblUserLRecentAlbum2.TabIndex = 45;
             this.lblUserLRecentAlbum2.Text = "(Unavailable)";
             this.lblUserLRecentAlbum2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLRecentAlbum2.UseMnemonic = false;
             this.lblUserLRecentAlbum2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLRecentAlbumClick);
             // 
             // lblUserLRecentArtist2
@@ -20124,6 +21062,7 @@ namespace Audiograph
             this.lblUserLRecentArtist2.TabIndex = 44;
             this.lblUserLRecentArtist2.Text = "(Unavailable)";
             this.lblUserLRecentArtist2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLRecentArtist2.UseMnemonic = false;
             this.lblUserLRecentArtist2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLRecentArtistClick);
             // 
             // lblUserLRecentTitle2
@@ -20138,6 +21077,7 @@ namespace Audiograph
             this.lblUserLRecentTitle2.TabIndex = 43;
             this.lblUserLRecentTitle2.Text = "(Unavailable)";
             this.lblUserLRecentTitle2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLRecentTitle2.UseMnemonic = false;
             this.lblUserLRecentTitle2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLRecentTrackClick);
             // 
             // picUserLRecentArt2
@@ -20166,6 +21106,7 @@ namespace Audiograph
             this.lblUserLRecentAlbum1.TabIndex = 41;
             this.lblUserLRecentAlbum1.Text = "(Unavailable)";
             this.lblUserLRecentAlbum1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLRecentAlbum1.UseMnemonic = false;
             this.lblUserLRecentAlbum1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLRecentAlbumClick);
             // 
             // lblUserLRecentArtist1
@@ -20180,6 +21121,7 @@ namespace Audiograph
             this.lblUserLRecentArtist1.TabIndex = 40;
             this.lblUserLRecentArtist1.Text = "(Unavailable)";
             this.lblUserLRecentArtist1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLRecentArtist1.UseMnemonic = false;
             this.lblUserLRecentArtist1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLRecentArtistClick);
             // 
             // Label451
@@ -20191,6 +21133,7 @@ namespace Audiograph
             this.Label451.TabIndex = 37;
             this.Label451.Text = "Album";
             this.Label451.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Label451.UseMnemonic = false;
             // 
             // Label452
             // 
@@ -20201,6 +21144,7 @@ namespace Audiograph
             this.Label452.TabIndex = 36;
             this.Label452.Text = "Artist";
             this.Label452.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Label452.UseMnemonic = false;
             // 
             // Label453
             // 
@@ -20211,6 +21155,7 @@ namespace Audiograph
             this.Label453.TabIndex = 35;
             this.Label453.Text = "Title";
             this.Label453.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Label453.UseMnemonic = false;
             // 
             // Label454
             // 
@@ -20221,6 +21166,7 @@ namespace Audiograph
             this.Label454.TabIndex = 34;
             this.Label454.Text = "Art";
             this.Label454.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Label454.UseMnemonic = false;
             // 
             // picUserLRecentArt1
             // 
@@ -20248,6 +21194,7 @@ namespace Audiograph
             this.lblUserLRecentTitle1.TabIndex = 39;
             this.lblUserLRecentTitle1.Text = "(Unavailable)";
             this.lblUserLRecentTitle1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUserLRecentTitle1.UseMnemonic = false;
             this.lblUserLRecentTitle1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserLRecentTrackClick);
             // 
             // pgMedia
@@ -20392,6 +21339,7 @@ namespace Audiograph
             this.lblMediaTime.Size = new System.Drawing.Size(37, 13);
             this.lblMediaTime.TabIndex = 30;
             this.lblMediaTime.Text = "*Time:";
+            this.lblMediaTime.UseMnemonic = false;
             // 
             // btnMediaExpand
             // 
@@ -20452,6 +21400,7 @@ namespace Audiograph
             this.lblMediaIndex.Size = new System.Drawing.Size(130, 13);
             this.lblMediaIndex.TabIndex = 24;
             this.lblMediaIndex.Text = "No scrobble index loaded.";
+            this.lblMediaIndex.UseMnemonic = false;
             // 
             // radMediaDisable
             // 
@@ -20483,6 +21432,7 @@ namespace Audiograph
             this.Label44.Size = new System.Drawing.Size(85, 13);
             this.Label44.TabIndex = 21;
             this.Label44.Text = "Auto Scrobbling:";
+            this.Label44.UseMnemonic = false;
             // 
             // btnMediaCreate
             // 
@@ -20512,6 +21462,7 @@ namespace Audiograph
             this.Label42.Size = new System.Drawing.Size(81, 13);
             this.Label42.TabIndex = 18;
             this.Label42.Text = "Scrobble Index:";
+            this.Label42.UseMnemonic = false;
             // 
             // btnMediaSearch
             // 
@@ -20543,6 +21494,7 @@ namespace Audiograph
             this.lblMediaScrobble.Size = new System.Drawing.Size(113, 13);
             this.lblMediaScrobble.TabIndex = 15;
             this.lblMediaScrobble.Text = "Nothing scrobbled yet.";
+            this.lblMediaScrobble.UseMnemonic = false;
             // 
             // btnMediaScrobble
             // 
@@ -20569,6 +21521,7 @@ namespace Audiograph
             this.lblMediaAlbum.Size = new System.Drawing.Size(39, 13);
             this.lblMediaAlbum.TabIndex = 12;
             this.lblMediaAlbum.Text = "Album:";
+            this.lblMediaAlbum.UseMnemonic = false;
             // 
             // txtMediaArtist
             // 
@@ -20585,6 +21538,7 @@ namespace Audiograph
             this.lblMediaArtist.Size = new System.Drawing.Size(37, 13);
             this.lblMediaArtist.TabIndex = 10;
             this.lblMediaArtist.Text = "*Artist:";
+            this.lblMediaArtist.UseMnemonic = false;
             // 
             // txtMediaTitle
             // 
@@ -20601,6 +21555,7 @@ namespace Audiograph
             this.lblMediaTitle.Size = new System.Drawing.Size(34, 13);
             this.lblMediaTitle.TabIndex = 8;
             this.lblMediaTitle.Text = "*Title:";
+            this.lblMediaTitle.UseMnemonic = false;
             // 
             // Label46
             // 
@@ -20610,6 +21565,7 @@ namespace Audiograph
             this.Label46.Size = new System.Drawing.Size(84, 13);
             this.Label46.TabIndex = 28;
             this.Label46.Text = "Scrobble History";
+            this.Label46.UseMnemonic = false;
             // 
             // lblMediaDivider
             // 
@@ -20619,6 +21575,7 @@ namespace Audiograph
             this.lblMediaDivider.Size = new System.Drawing.Size(10, 13);
             this.lblMediaDivider.TabIndex = 33;
             this.lblMediaDivider.Text = ":";
+            this.lblMediaDivider.UseMnemonic = false;
             // 
             // tlpMedia2
             // 
@@ -20744,6 +21701,7 @@ namespace Audiograph
             this.Label34.Size = new System.Drawing.Size(42, 13);
             this.Label34.TabIndex = 2;
             this.Label34.Text = "Queue:";
+            this.Label34.UseMnemonic = false;
             // 
             // lblMediaVersion
             // 
@@ -20755,6 +21713,7 @@ namespace Audiograph
             this.lblMediaVersion.TabIndex = 7;
             this.lblMediaVersion.Text = "v.";
             this.lblMediaVersion.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            this.lblMediaVersion.UseMnemonic = false;
             // 
             // tsMenu
             // 
@@ -21608,218 +22567,218 @@ namespace Audiograph
         internal global::System.Windows.Forms.ToolStripMenuItem mnuAPIHistory;
         internal global::System.Windows.Forms.GroupBox GroupBox2;
         internal global::Audiograph.DBLayoutPanel tlpTopArtists;
-        internal global::System.Windows.Forms.Label lblTopArtistPlaycount20;
-        internal global::System.Windows.Forms.Label lblTopArtistPlaycount19;
-        internal global::System.Windows.Forms.Label lblTopArtistPlaycount18;
-        internal global::System.Windows.Forms.Label lblTopArtistPlaycount17;
-        internal global::System.Windows.Forms.Label lblTopArtistPlaycount16;
-        internal global::System.Windows.Forms.Label lblTopArtistPlaycount15;
-        internal global::System.Windows.Forms.Label lblTopArtistPlaycount14;
-        internal global::System.Windows.Forms.Label lblTopArtistPlaycount13;
-        internal global::System.Windows.Forms.Label lblTopArtistPlaycount12;
-        internal global::System.Windows.Forms.Label lblTopArtistPlaycount11;
-        internal global::System.Windows.Forms.Label lblTopArtistPlaycount10;
-        internal global::System.Windows.Forms.Label lblTopArtistPlaycount9;
-        internal global::System.Windows.Forms.Label lblTopArtistPlaycount8;
-        internal global::System.Windows.Forms.Label lblTopArtistPlaycount7;
-        internal global::System.Windows.Forms.Label lblTopArtistPlaycount6;
-        internal global::System.Windows.Forms.Label lblTopArtistPlaycount5;
-        internal global::System.Windows.Forms.Label lblTopArtistPlaycount4;
-        internal global::System.Windows.Forms.Label lblTopArtistPlaycount3;
-        internal global::System.Windows.Forms.Label lblTopArtistPlaycount2;
-        internal global::System.Windows.Forms.Label lblTopArtistPlaycount1;
-        internal global::System.Windows.Forms.Label Label8;
-        internal global::System.Windows.Forms.Label lblTopArtistListeners20;
-        internal global::System.Windows.Forms.Label lblTopArtistListeners19;
-        internal global::System.Windows.Forms.Label lblTopArtistListeners18;
-        internal global::System.Windows.Forms.Label lblTopArtistListeners17;
-        internal global::System.Windows.Forms.Label lblTopArtistListeners16;
-        internal global::System.Windows.Forms.Label lblTopArtistListeners15;
-        internal global::System.Windows.Forms.Label lblTopArtistListeners14;
-        internal global::System.Windows.Forms.Label lblTopArtistListeners13;
-        internal global::System.Windows.Forms.Label lblTopArtistListeners12;
-        internal global::System.Windows.Forms.Label lblTopArtistListeners11;
-        internal global::System.Windows.Forms.Label lblTopArtistListeners10;
-        internal global::System.Windows.Forms.Label lblTopArtistListeners9;
-        internal global::System.Windows.Forms.Label lblTopArtistListeners8;
-        internal global::System.Windows.Forms.Label lblTopArtistListeners7;
-        internal global::System.Windows.Forms.Label lblTopArtistListeners6;
-        internal global::System.Windows.Forms.Label lblTopArtistListeners5;
-        internal global::System.Windows.Forms.Label lblTopArtistListeners4;
-        internal global::System.Windows.Forms.Label lblTopArtistListeners3;
-        internal global::System.Windows.Forms.Label lblTopArtistListeners2;
-        internal global::System.Windows.Forms.Label lblTopArtistListeners1;
-        internal global::System.Windows.Forms.Label Label7;
-        internal global::System.Windows.Forms.Label lblTopArtist20;
-        internal global::System.Windows.Forms.Label Label148;
-        internal global::System.Windows.Forms.Label lblTopArtist19;
-        internal global::System.Windows.Forms.Label Label146;
-        internal global::System.Windows.Forms.Label lblTopArtist18;
-        internal global::System.Windows.Forms.Label Label144;
-        internal global::System.Windows.Forms.Label lblTopArtist17;
-        internal global::System.Windows.Forms.Label Label142;
-        internal global::System.Windows.Forms.Label lblTopArtist16;
-        internal global::System.Windows.Forms.Label Label140;
-        internal global::System.Windows.Forms.Label lblTopArtist15;
-        internal global::System.Windows.Forms.Label Label138;
-        internal global::System.Windows.Forms.Label lblTopArtist14;
-        internal global::System.Windows.Forms.Label Label136;
-        internal global::System.Windows.Forms.Label lblTopArtist13;
-        internal global::System.Windows.Forms.Label Label134;
-        internal global::System.Windows.Forms.Label lblTopArtist12;
-        internal global::System.Windows.Forms.Label Label132;
-        internal global::System.Windows.Forms.Label lblTopArtist11;
-        internal global::System.Windows.Forms.Label Label130;
-        internal global::System.Windows.Forms.Label lblTopArtist10;
-        internal global::System.Windows.Forms.Label Label128;
-        internal global::System.Windows.Forms.Label lblTopArtist9;
-        internal global::System.Windows.Forms.Label Label126;
-        internal global::System.Windows.Forms.Label lblTopArtist8;
-        internal global::System.Windows.Forms.Label Label124;
-        internal global::System.Windows.Forms.Label lblTopArtist7;
-        internal global::System.Windows.Forms.Label Label122;
-        internal global::System.Windows.Forms.Label lblTopArtist6;
-        internal global::System.Windows.Forms.Label Label120;
-        internal global::System.Windows.Forms.Label lblTopArtist5;
-        internal global::System.Windows.Forms.Label Label118;
-        internal global::System.Windows.Forms.Label lblTopArtist4;
-        internal global::System.Windows.Forms.Label Label116;
-        internal global::System.Windows.Forms.Label lblTopArtist3;
-        internal global::System.Windows.Forms.Label Label114;
-        internal global::System.Windows.Forms.Label lblTopArtist2;
-        internal global::System.Windows.Forms.Label Label19;
-        internal global::System.Windows.Forms.Label lblTopArtist1;
-        internal global::System.Windows.Forms.Label Label17;
-        internal global::System.Windows.Forms.Label Label16;
-        internal global::System.Windows.Forms.Label Label14;
+        internal global::Audiograph.Label lblTopArtistPlaycount20;
+        internal global::Audiograph.Label lblTopArtistPlaycount19;
+        internal global::Audiograph.Label lblTopArtistPlaycount18;
+        internal global::Audiograph.Label lblTopArtistPlaycount17;
+        internal global::Audiograph.Label lblTopArtistPlaycount16;
+        internal global::Audiograph.Label lblTopArtistPlaycount15;
+        internal global::Audiograph.Label lblTopArtistPlaycount14;
+        internal global::Audiograph.Label lblTopArtistPlaycount13;
+        internal global::Audiograph.Label lblTopArtistPlaycount12;
+        internal global::Audiograph.Label lblTopArtistPlaycount11;
+        internal global::Audiograph.Label lblTopArtistPlaycount10;
+        internal global::Audiograph.Label lblTopArtistPlaycount9;
+        internal global::Audiograph.Label lblTopArtistPlaycount8;
+        internal global::Audiograph.Label lblTopArtistPlaycount7;
+        internal global::Audiograph.Label lblTopArtistPlaycount6;
+        internal global::Audiograph.Label lblTopArtistPlaycount5;
+        internal global::Audiograph.Label lblTopArtistPlaycount4;
+        internal global::Audiograph.Label lblTopArtistPlaycount3;
+        internal global::Audiograph.Label lblTopArtistPlaycount2;
+        internal global::Audiograph.Label lblTopArtistPlaycount1;
+        internal global::Audiograph.Label Label8;
+        internal global::Audiograph.Label lblTopArtistListeners20;
+        internal global::Audiograph.Label lblTopArtistListeners19;
+        internal global::Audiograph.Label lblTopArtistListeners18;
+        internal global::Audiograph.Label lblTopArtistListeners17;
+        internal global::Audiograph.Label lblTopArtistListeners16;
+        internal global::Audiograph.Label lblTopArtistListeners15;
+        internal global::Audiograph.Label lblTopArtistListeners14;
+        internal global::Audiograph.Label lblTopArtistListeners13;
+        internal global::Audiograph.Label lblTopArtistListeners12;
+        internal global::Audiograph.Label lblTopArtistListeners11;
+        internal global::Audiograph.Label lblTopArtistListeners10;
+        internal global::Audiograph.Label lblTopArtistListeners9;
+        internal global::Audiograph.Label lblTopArtistListeners8;
+        internal global::Audiograph.Label lblTopArtistListeners7;
+        internal global::Audiograph.Label lblTopArtistListeners6;
+        internal global::Audiograph.Label lblTopArtistListeners5;
+        internal global::Audiograph.Label lblTopArtistListeners4;
+        internal global::Audiograph.Label lblTopArtistListeners3;
+        internal global::Audiograph.Label lblTopArtistListeners2;
+        internal global::Audiograph.Label lblTopArtistListeners1;
+        internal global::Audiograph.Label Label7;
+        internal global::Audiograph.Label lblTopArtist20;
+        internal global::Audiograph.Label Label148;
+        internal global::Audiograph.Label lblTopArtist19;
+        internal global::Audiograph.Label Label146;
+        internal global::Audiograph.Label lblTopArtist18;
+        internal global::Audiograph.Label Label144;
+        internal global::Audiograph.Label lblTopArtist17;
+        internal global::Audiograph.Label Label142;
+        internal global::Audiograph.Label lblTopArtist16;
+        internal global::Audiograph.Label Label140;
+        internal global::Audiograph.Label lblTopArtist15;
+        internal global::Audiograph.Label Label138;
+        internal global::Audiograph.Label lblTopArtist14;
+        internal global::Audiograph.Label Label136;
+        internal global::Audiograph.Label lblTopArtist13;
+        internal global::Audiograph.Label Label134;
+        internal global::Audiograph.Label lblTopArtist12;
+        internal global::Audiograph.Label Label132;
+        internal global::Audiograph.Label lblTopArtist11;
+        internal global::Audiograph.Label Label130;
+        internal global::Audiograph.Label lblTopArtist10;
+        internal global::Audiograph.Label Label128;
+        internal global::Audiograph.Label lblTopArtist9;
+        internal global::Audiograph.Label Label126;
+        internal global::Audiograph.Label lblTopArtist8;
+        internal global::Audiograph.Label Label124;
+        internal global::Audiograph.Label lblTopArtist7;
+        internal global::Audiograph.Label Label122;
+        internal global::Audiograph.Label lblTopArtist6;
+        internal global::Audiograph.Label Label120;
+        internal global::Audiograph.Label lblTopArtist5;
+        internal global::Audiograph.Label Label118;
+        internal global::Audiograph.Label lblTopArtist4;
+        internal global::Audiograph.Label Label116;
+        internal global::Audiograph.Label lblTopArtist3;
+        internal global::Audiograph.Label Label114;
+        internal global::Audiograph.Label lblTopArtist2;
+        internal global::Audiograph.Label Label19;
+        internal global::Audiograph.Label lblTopArtist1;
+        internal global::Audiograph.Label Label17;
+        internal global::Audiograph.Label Label16;
+        internal global::Audiograph.Label Label14;
         internal global::System.Windows.Forms.GroupBox GroupBox1;
         internal global::Audiograph.DBLayoutPanel tlpTopTracks;
-        internal global::System.Windows.Forms.Label lblTopTracksListeners20;
-        internal global::System.Windows.Forms.Label lblTopTracksListeners19;
-        internal global::System.Windows.Forms.Label lblTopTracksListeners18;
-        internal global::System.Windows.Forms.Label lblTopTracksListeners17;
-        internal global::System.Windows.Forms.Label lblTopTracksListeners16;
-        internal global::System.Windows.Forms.Label lblTopTracksListeners15;
-        internal global::System.Windows.Forms.Label lblTopTracksListeners14;
-        internal global::System.Windows.Forms.Label lblTopTracksListeners13;
-        internal global::System.Windows.Forms.Label lblTopTracksListeners12;
-        internal global::System.Windows.Forms.Label lblTopTracksListeners11;
-        internal global::System.Windows.Forms.Label lblTopTracksListeners10;
-        internal global::System.Windows.Forms.Label lblTopTracksListeners9;
-        internal global::System.Windows.Forms.Label lblTopTracksListeners8;
-        internal global::System.Windows.Forms.Label lblTopTracksListeners7;
-        internal global::System.Windows.Forms.Label lblTopTracksListeners6;
-        internal global::System.Windows.Forms.Label lblTopTracksListeners5;
-        internal global::System.Windows.Forms.Label lblTopTracksListeners4;
-        internal global::System.Windows.Forms.Label lblTopTracksListeners3;
-        internal global::System.Windows.Forms.Label lblTopTracksListeners2;
-        internal global::System.Windows.Forms.Label lblTopTracksListeners1;
-        internal global::System.Windows.Forms.Label Label93;
-        internal global::System.Windows.Forms.Label lblTopTrackAlbum20;
-        internal global::System.Windows.Forms.Label lblTopTrackArtist20;
-        internal global::System.Windows.Forms.Label lblTopTrackTitle20;
+        internal global::Audiograph.Label lblTopTracksListeners20;
+        internal global::Audiograph.Label lblTopTracksListeners19;
+        internal global::Audiograph.Label lblTopTracksListeners18;
+        internal global::Audiograph.Label lblTopTracksListeners17;
+        internal global::Audiograph.Label lblTopTracksListeners16;
+        internal global::Audiograph.Label lblTopTracksListeners15;
+        internal global::Audiograph.Label lblTopTracksListeners14;
+        internal global::Audiograph.Label lblTopTracksListeners13;
+        internal global::Audiograph.Label lblTopTracksListeners12;
+        internal global::Audiograph.Label lblTopTracksListeners11;
+        internal global::Audiograph.Label lblTopTracksListeners10;
+        internal global::Audiograph.Label lblTopTracksListeners9;
+        internal global::Audiograph.Label lblTopTracksListeners8;
+        internal global::Audiograph.Label lblTopTracksListeners7;
+        internal global::Audiograph.Label lblTopTracksListeners6;
+        internal global::Audiograph.Label lblTopTracksListeners5;
+        internal global::Audiograph.Label lblTopTracksListeners4;
+        internal global::Audiograph.Label lblTopTracksListeners3;
+        internal global::Audiograph.Label lblTopTracksListeners2;
+        internal global::Audiograph.Label lblTopTracksListeners1;
+        internal global::Audiograph.Label Label93;
+        internal global::Audiograph.Label lblTopTrackAlbum20;
+        internal global::Audiograph.Label lblTopTrackArtist20;
+        internal global::Audiograph.Label lblTopTrackTitle20;
         internal global::System.Windows.Forms.PictureBox picTrack20;
-        internal global::System.Windows.Forms.Label Label89;
-        internal global::System.Windows.Forms.Label lblTopTrackAlbum19;
-        internal global::System.Windows.Forms.Label lblTopTrackArtist19;
-        internal global::System.Windows.Forms.Label lblTopTrackTitle19;
+        internal global::Audiograph.Label Label89;
+        internal global::Audiograph.Label lblTopTrackAlbum19;
+        internal global::Audiograph.Label lblTopTrackArtist19;
+        internal global::Audiograph.Label lblTopTrackTitle19;
         internal global::System.Windows.Forms.PictureBox picTrack19;
-        internal global::System.Windows.Forms.Label Label85;
-        internal global::System.Windows.Forms.Label lblTopTrackAlbum18;
-        internal global::System.Windows.Forms.Label lblTopTrackArtist18;
-        internal global::System.Windows.Forms.Label lblTopTrackTitle18;
+        internal global::Audiograph.Label Label85;
+        internal global::Audiograph.Label lblTopTrackAlbum18;
+        internal global::Audiograph.Label lblTopTrackArtist18;
+        internal global::Audiograph.Label lblTopTrackTitle18;
         internal global::System.Windows.Forms.PictureBox picTrack18;
-        internal global::System.Windows.Forms.Label Label81;
-        internal global::System.Windows.Forms.Label lblTopTrackAlbum17;
-        internal global::System.Windows.Forms.Label lblTopTrackArtist17;
-        internal global::System.Windows.Forms.Label lblTopTrackTitle17;
+        internal global::Audiograph.Label Label81;
+        internal global::Audiograph.Label lblTopTrackAlbum17;
+        internal global::Audiograph.Label lblTopTrackArtist17;
+        internal global::Audiograph.Label lblTopTrackTitle17;
         internal global::System.Windows.Forms.PictureBox picTrack17;
-        internal global::System.Windows.Forms.Label Label77;
-        internal global::System.Windows.Forms.Label lblTopTrackAlbum16;
-        internal global::System.Windows.Forms.Label lblTopTrackArtist16;
-        internal global::System.Windows.Forms.Label lblTopTrackTitle16;
+        internal global::Audiograph.Label Label77;
+        internal global::Audiograph.Label lblTopTrackAlbum16;
+        internal global::Audiograph.Label lblTopTrackArtist16;
+        internal global::Audiograph.Label lblTopTrackTitle16;
         internal global::System.Windows.Forms.PictureBox picTrack16;
-        internal global::System.Windows.Forms.Label Label73;
-        internal global::System.Windows.Forms.Label lblTopTrackAlbum15;
-        internal global::System.Windows.Forms.Label lblTopTrackArtist15;
-        internal global::System.Windows.Forms.Label lblTopTrackTitle15;
+        internal global::Audiograph.Label Label73;
+        internal global::Audiograph.Label lblTopTrackAlbum15;
+        internal global::Audiograph.Label lblTopTrackArtist15;
+        internal global::Audiograph.Label lblTopTrackTitle15;
         internal global::System.Windows.Forms.PictureBox picTrack15;
-        internal global::System.Windows.Forms.Label Label69;
-        internal global::System.Windows.Forms.Label lblTopTrackAlbum14;
-        internal global::System.Windows.Forms.Label lblTopTrackArtist14;
-        internal global::System.Windows.Forms.Label lblTopTrackTitle14;
+        internal global::Audiograph.Label Label69;
+        internal global::Audiograph.Label lblTopTrackAlbum14;
+        internal global::Audiograph.Label lblTopTrackArtist14;
+        internal global::Audiograph.Label lblTopTrackTitle14;
         internal global::System.Windows.Forms.PictureBox picTrack14;
-        internal global::System.Windows.Forms.Label Label65;
-        internal global::System.Windows.Forms.Label lblTopTrackAlbum13;
-        internal global::System.Windows.Forms.Label lblTopTrackArtist13;
-        internal global::System.Windows.Forms.Label lblTopTrackTitle13;
+        internal global::Audiograph.Label Label65;
+        internal global::Audiograph.Label lblTopTrackAlbum13;
+        internal global::Audiograph.Label lblTopTrackArtist13;
+        internal global::Audiograph.Label lblTopTrackTitle13;
         internal global::System.Windows.Forms.PictureBox picTrack13;
-        internal global::System.Windows.Forms.Label Label61;
-        internal global::System.Windows.Forms.Label lblTopTrackAlbum12;
-        internal global::System.Windows.Forms.Label lblTopTrackArtist12;
-        internal global::System.Windows.Forms.Label lblTopTrackTitle12;
+        internal global::Audiograph.Label Label61;
+        internal global::Audiograph.Label lblTopTrackAlbum12;
+        internal global::Audiograph.Label lblTopTrackArtist12;
+        internal global::Audiograph.Label lblTopTrackTitle12;
         internal global::System.Windows.Forms.PictureBox picTrack12;
-        internal global::System.Windows.Forms.Label Label57;
-        internal global::System.Windows.Forms.Label lblTopTrackAlbum11;
-        internal global::System.Windows.Forms.Label lblTopTrackArtist11;
-        internal global::System.Windows.Forms.Label lblTopTrackTitle11;
+        internal global::Audiograph.Label Label57;
+        internal global::Audiograph.Label lblTopTrackAlbum11;
+        internal global::Audiograph.Label lblTopTrackArtist11;
+        internal global::Audiograph.Label lblTopTrackTitle11;
         internal global::System.Windows.Forms.PictureBox picTrack11;
-        internal global::System.Windows.Forms.Label Label53;
-        internal global::System.Windows.Forms.Label lblTopTrackAlbum10;
-        internal global::System.Windows.Forms.Label lblTopTrackArtist10;
-        internal global::System.Windows.Forms.Label lblTopTrackTitle10;
+        internal global::Audiograph.Label Label53;
+        internal global::Audiograph.Label lblTopTrackAlbum10;
+        internal global::Audiograph.Label lblTopTrackArtist10;
+        internal global::Audiograph.Label lblTopTrackTitle10;
         internal global::System.Windows.Forms.PictureBox picTrack10;
-        internal global::System.Windows.Forms.Label Label49;
-        internal global::System.Windows.Forms.Label lblTopTrackAlbum9;
-        internal global::System.Windows.Forms.Label lblTopTrackArtist9;
-        internal global::System.Windows.Forms.Label lblTopTrackTitle9;
+        internal global::Audiograph.Label Label49;
+        internal global::Audiograph.Label lblTopTrackAlbum9;
+        internal global::Audiograph.Label lblTopTrackArtist9;
+        internal global::Audiograph.Label lblTopTrackTitle9;
         internal global::System.Windows.Forms.PictureBox picTrack9;
-        internal global::System.Windows.Forms.Label Label45;
-        internal global::System.Windows.Forms.Label lblTopTrackAlbum8;
-        internal global::System.Windows.Forms.Label lblTopTrackArtist8;
-        internal global::System.Windows.Forms.Label lblTopTrackTitle8;
+        internal global::Audiograph.Label Label45;
+        internal global::Audiograph.Label lblTopTrackAlbum8;
+        internal global::Audiograph.Label lblTopTrackArtist8;
+        internal global::Audiograph.Label lblTopTrackTitle8;
         internal global::System.Windows.Forms.PictureBox picTrack8;
-        internal global::System.Windows.Forms.Label Label41;
-        internal global::System.Windows.Forms.Label lblTopTrackAlbum7;
-        internal global::System.Windows.Forms.Label lblTopTrackArtist7;
-        internal global::System.Windows.Forms.Label lblTopTrackTitle7;
+        internal global::Audiograph.Label Label41;
+        internal global::Audiograph.Label lblTopTrackAlbum7;
+        internal global::Audiograph.Label lblTopTrackArtist7;
+        internal global::Audiograph.Label lblTopTrackTitle7;
         internal global::System.Windows.Forms.PictureBox picTrack7;
-        internal global::System.Windows.Forms.Label Label37;
-        internal global::System.Windows.Forms.Label lblTopTrackAlbum6;
-        internal global::System.Windows.Forms.Label lblTopTrackArtist6;
-        internal global::System.Windows.Forms.Label lblTopTrackTitle6;
+        internal global::Audiograph.Label Label37;
+        internal global::Audiograph.Label lblTopTrackAlbum6;
+        internal global::Audiograph.Label lblTopTrackArtist6;
+        internal global::Audiograph.Label lblTopTrackTitle6;
         internal global::System.Windows.Forms.PictureBox picTrack6;
-        internal global::System.Windows.Forms.Label Label33;
-        internal global::System.Windows.Forms.Label lblTopTrackAlbum5;
-        internal global::System.Windows.Forms.Label lblTopTrackArtist5;
-        internal global::System.Windows.Forms.Label lblTopTrackTitle5;
+        internal global::Audiograph.Label Label33;
+        internal global::Audiograph.Label lblTopTrackAlbum5;
+        internal global::Audiograph.Label lblTopTrackArtist5;
+        internal global::Audiograph.Label lblTopTrackTitle5;
         internal global::System.Windows.Forms.PictureBox picTrack5;
-        internal global::System.Windows.Forms.Label Label29;
-        internal global::System.Windows.Forms.Label lblTopTrackAlbum4;
-        internal global::System.Windows.Forms.Label lblTopTrackArtist4;
-        internal global::System.Windows.Forms.Label lblTopTrackTitle4;
+        internal global::Audiograph.Label Label29;
+        internal global::Audiograph.Label lblTopTrackAlbum4;
+        internal global::Audiograph.Label lblTopTrackArtist4;
+        internal global::Audiograph.Label lblTopTrackTitle4;
         internal global::System.Windows.Forms.PictureBox picTrack4;
-        internal global::System.Windows.Forms.Label Label25;
-        internal global::System.Windows.Forms.Label lblTopTrackAlbum3;
-        internal global::System.Windows.Forms.Label lblTopTrackArtist3;
-        internal global::System.Windows.Forms.Label lblTopTrackTitle3;
+        internal global::Audiograph.Label Label25;
+        internal global::Audiograph.Label lblTopTrackAlbum3;
+        internal global::Audiograph.Label lblTopTrackArtist3;
+        internal global::Audiograph.Label lblTopTrackTitle3;
         internal global::System.Windows.Forms.PictureBox picTrack3;
-        internal global::System.Windows.Forms.Label Label21;
-        internal global::System.Windows.Forms.Label lblTopTrackAlbum2;
-        internal global::System.Windows.Forms.Label lblTopTrackArtist2;
-        internal global::System.Windows.Forms.Label lblTopTrackTitle2;
+        internal global::Audiograph.Label Label21;
+        internal global::Audiograph.Label lblTopTrackAlbum2;
+        internal global::Audiograph.Label lblTopTrackArtist2;
+        internal global::Audiograph.Label lblTopTrackTitle2;
         internal global::System.Windows.Forms.PictureBox picTrack2;
-        internal global::System.Windows.Forms.Label Label10;
-        internal global::System.Windows.Forms.Label lblTopTrackAlbum1;
-        internal global::System.Windows.Forms.Label lblTopTrackArtist1;
-        internal global::System.Windows.Forms.Label lblTopTrackTitle1;
-        internal global::System.Windows.Forms.Label Label6;
-        internal global::System.Windows.Forms.Label Label3;
+        internal global::Audiograph.Label Label10;
+        internal global::Audiograph.Label lblTopTrackAlbum1;
+        internal global::Audiograph.Label lblTopTrackArtist1;
+        internal global::Audiograph.Label lblTopTrackTitle1;
+        internal global::Audiograph.Label Label6;
+        internal global::Audiograph.Label Label3;
         internal global::System.Windows.Forms.PictureBox picTrack1;
-        internal global::System.Windows.Forms.Label Label4;
-        internal global::System.Windows.Forms.Label Label5;
-        internal global::System.Windows.Forms.Label Label20;
-        internal global::System.Windows.Forms.Label Label22;
+        internal global::Audiograph.Label Label4;
+        internal global::Audiograph.Label Label5;
+        internal global::Audiograph.Label Label20;
+        internal global::Audiograph.Label Label22;
         internal global::System.Windows.Forms.Button btnChartGo;
         internal global::System.Windows.Forms.ComboBox cmbChartCountry;
         internal global::System.Windows.Forms.RadioButton radChartCountry;
@@ -21827,317 +22786,317 @@ namespace Audiograph
         internal global::System.Windows.Forms.Button btnUserAuthenticate;
         internal global::System.Windows.Forms.Button btnUserSet;
         internal global::System.Windows.Forms.TextBox txtUser;
-        internal global::System.Windows.Forms.Label lblUserTextBox;
-        internal global::System.Windows.Forms.Label lblUserStatus;
+        internal global::Audiograph.Label lblUserTextBox;
+        internal global::Audiograph.Label lblUserStatus;
         internal global::System.Windows.Forms.GroupBox gpbUserCharts;
         internal global::System.Windows.Forms.Button btnUserChartGo;
         internal global::System.Windows.Forms.DateTimePicker dtpUserTo;
-        internal global::System.Windows.Forms.Label lblUserTo;
+        internal global::Audiograph.Label lblUserTo;
         internal global::System.Windows.Forms.DateTimePicker dtpUserFrom;
         internal global::System.Windows.Forms.RadioButton radUserDate;
         internal global::System.Windows.Forms.RadioButton radUserAllTime;
         internal global::System.Windows.Forms.TabControl tbcUserCharts;
         internal global::System.Windows.Forms.TabPage pgUserTopTracks;
         internal global::Audiograph.DBLayoutPanel DbLayoutPanel1;
-        internal global::System.Windows.Forms.Label lblUserTopTrackPlaycount20;
-        internal global::System.Windows.Forms.Label lblUserTopTrackPlaycount19;
-        internal global::System.Windows.Forms.Label lblUserTopTrackPlaycount18;
-        internal global::System.Windows.Forms.Label lblUserTopTrackPlaycount17;
-        internal global::System.Windows.Forms.Label lblUserTopTrackPlaycount16;
-        internal global::System.Windows.Forms.Label lblUserTopTrackPlaycount15;
-        internal global::System.Windows.Forms.Label lblUserTopTrackPlaycount14;
-        internal global::System.Windows.Forms.Label lblUserTopTrackPlaycount13;
-        internal global::System.Windows.Forms.Label lblUserTopTrackPlaycount12;
-        internal global::System.Windows.Forms.Label lblUserTopTrackPlaycount11;
-        internal global::System.Windows.Forms.Label lblUserTopTrackPlaycount10;
-        internal global::System.Windows.Forms.Label lblUserTopTrackPlaycount9;
-        internal global::System.Windows.Forms.Label lblUserTopTrackPlaycount8;
-        internal global::System.Windows.Forms.Label lblUserTopTrackPlaycount7;
-        internal global::System.Windows.Forms.Label lblUserTopTrackPlaycount6;
-        internal global::System.Windows.Forms.Label lblUserTopTrackPlaycount5;
-        internal global::System.Windows.Forms.Label lblUserTopTrackPlaycount4;
-        internal global::System.Windows.Forms.Label lblUserTopTrackPlaycount3;
-        internal global::System.Windows.Forms.Label lblUserTopTrackPlaycount2;
-        internal global::System.Windows.Forms.Label lblUserTopTrackPlaycount1;
-        internal global::System.Windows.Forms.Label Label48;
-        internal global::System.Windows.Forms.Label lblUserTopTrackAlbum20;
-        internal global::System.Windows.Forms.Label lblUserTopTrackArtist20;
-        internal global::System.Windows.Forms.Label lblUserTopTrackTitle20;
+        internal global::Audiograph.Label lblUserTopTrackPlaycount20;
+        internal global::Audiograph.Label lblUserTopTrackPlaycount19;
+        internal global::Audiograph.Label lblUserTopTrackPlaycount18;
+        internal global::Audiograph.Label lblUserTopTrackPlaycount17;
+        internal global::Audiograph.Label lblUserTopTrackPlaycount16;
+        internal global::Audiograph.Label lblUserTopTrackPlaycount15;
+        internal global::Audiograph.Label lblUserTopTrackPlaycount14;
+        internal global::Audiograph.Label lblUserTopTrackPlaycount13;
+        internal global::Audiograph.Label lblUserTopTrackPlaycount12;
+        internal global::Audiograph.Label lblUserTopTrackPlaycount11;
+        internal global::Audiograph.Label lblUserTopTrackPlaycount10;
+        internal global::Audiograph.Label lblUserTopTrackPlaycount9;
+        internal global::Audiograph.Label lblUserTopTrackPlaycount8;
+        internal global::Audiograph.Label lblUserTopTrackPlaycount7;
+        internal global::Audiograph.Label lblUserTopTrackPlaycount6;
+        internal global::Audiograph.Label lblUserTopTrackPlaycount5;
+        internal global::Audiograph.Label lblUserTopTrackPlaycount4;
+        internal global::Audiograph.Label lblUserTopTrackPlaycount3;
+        internal global::Audiograph.Label lblUserTopTrackPlaycount2;
+        internal global::Audiograph.Label lblUserTopTrackPlaycount1;
+        internal global::Audiograph.Label Label48;
+        internal global::Audiograph.Label lblUserTopTrackAlbum20;
+        internal global::Audiograph.Label lblUserTopTrackArtist20;
+        internal global::Audiograph.Label lblUserTopTrackTitle20;
         internal global::System.Windows.Forms.PictureBox picUserTopTrackArt20;
-        internal global::System.Windows.Forms.Label Label54;
-        internal global::System.Windows.Forms.Label lblUserTopTrackAlbum19;
-        internal global::System.Windows.Forms.Label lblUserTopTrackArtist19;
-        internal global::System.Windows.Forms.Label lblUserTopTrackTitle19;
+        internal global::Audiograph.Label Label54;
+        internal global::Audiograph.Label lblUserTopTrackAlbum19;
+        internal global::Audiograph.Label lblUserTopTrackArtist19;
+        internal global::Audiograph.Label lblUserTopTrackTitle19;
         internal global::System.Windows.Forms.PictureBox picUserTopTrackArt19;
-        internal global::System.Windows.Forms.Label Label59;
-        internal global::System.Windows.Forms.Label lblUserTopTrackAlbum18;
-        internal global::System.Windows.Forms.Label lblUserTopTrackArtist18;
-        internal global::System.Windows.Forms.Label lblUserTopTrackTitle18;
+        internal global::Audiograph.Label Label59;
+        internal global::Audiograph.Label lblUserTopTrackAlbum18;
+        internal global::Audiograph.Label lblUserTopTrackArtist18;
+        internal global::Audiograph.Label lblUserTopTrackTitle18;
         internal global::System.Windows.Forms.PictureBox picUserTopTrackArt18;
-        internal global::System.Windows.Forms.Label Label64;
-        internal global::System.Windows.Forms.Label lblUserTopTrackAlbum17;
-        internal global::System.Windows.Forms.Label lblUserTopTrackArtist17;
-        internal global::System.Windows.Forms.Label lblUserTopTrackTitle17;
+        internal global::Audiograph.Label Label64;
+        internal global::Audiograph.Label lblUserTopTrackAlbum17;
+        internal global::Audiograph.Label lblUserTopTrackArtist17;
+        internal global::Audiograph.Label lblUserTopTrackTitle17;
         internal global::System.Windows.Forms.PictureBox picUserTopTrackArt17;
-        internal global::System.Windows.Forms.Label Label70;
-        internal global::System.Windows.Forms.Label lblUserTopTrackAlbum16;
-        internal global::System.Windows.Forms.Label lblUserTopTrackArtist16;
-        internal global::System.Windows.Forms.Label lblUserTopTrackTitle16;
+        internal global::Audiograph.Label Label70;
+        internal global::Audiograph.Label lblUserTopTrackAlbum16;
+        internal global::Audiograph.Label lblUserTopTrackArtist16;
+        internal global::Audiograph.Label lblUserTopTrackTitle16;
         internal global::System.Windows.Forms.PictureBox picUserTopTrackArt16;
-        internal global::System.Windows.Forms.Label Label75;
-        internal global::System.Windows.Forms.Label lblUserTopTrackAlbum15;
-        internal global::System.Windows.Forms.Label lblUserTopTrackArtist15;
-        internal global::System.Windows.Forms.Label lblUserTopTrackTitle15;
+        internal global::Audiograph.Label Label75;
+        internal global::Audiograph.Label lblUserTopTrackAlbum15;
+        internal global::Audiograph.Label lblUserTopTrackArtist15;
+        internal global::Audiograph.Label lblUserTopTrackTitle15;
         internal global::System.Windows.Forms.PictureBox picUserTopTrackArt15;
-        internal global::System.Windows.Forms.Label Label80;
-        internal global::System.Windows.Forms.Label lblUserTopTrackAlbum14;
-        internal global::System.Windows.Forms.Label lblUserTopTrackArtist14;
-        internal global::System.Windows.Forms.Label lblUserTopTrackTitle14;
+        internal global::Audiograph.Label Label80;
+        internal global::Audiograph.Label lblUserTopTrackAlbum14;
+        internal global::Audiograph.Label lblUserTopTrackArtist14;
+        internal global::Audiograph.Label lblUserTopTrackTitle14;
         internal global::System.Windows.Forms.PictureBox picUserTopTrackArt14;
-        internal global::System.Windows.Forms.Label Label86;
-        internal global::System.Windows.Forms.Label lblUserTopTrackAlbum13;
-        internal global::System.Windows.Forms.Label lblUserTopTrackArtist13;
-        internal global::System.Windows.Forms.Label lblUserTopTrackTitle13;
+        internal global::Audiograph.Label Label86;
+        internal global::Audiograph.Label lblUserTopTrackAlbum13;
+        internal global::Audiograph.Label lblUserTopTrackArtist13;
+        internal global::Audiograph.Label lblUserTopTrackTitle13;
         internal global::System.Windows.Forms.PictureBox picUserTopTrackArt13;
-        internal global::System.Windows.Forms.Label Label91;
-        internal global::System.Windows.Forms.Label lblUserTopTrackAlbum12;
-        internal global::System.Windows.Forms.Label lblUserTopTrackArtist12;
-        internal global::System.Windows.Forms.Label lblUserTopTrackTitle12;
+        internal global::Audiograph.Label Label91;
+        internal global::Audiograph.Label lblUserTopTrackAlbum12;
+        internal global::Audiograph.Label lblUserTopTrackArtist12;
+        internal global::Audiograph.Label lblUserTopTrackTitle12;
         internal global::System.Windows.Forms.PictureBox picUserTopTrackArt12;
-        internal global::System.Windows.Forms.Label Label96;
-        internal global::System.Windows.Forms.Label lblUserTopTrackAlbum11;
-        internal global::System.Windows.Forms.Label lblUserTopTrackArtist11;
-        internal global::System.Windows.Forms.Label lblUserTopTrackTitle11;
+        internal global::Audiograph.Label Label96;
+        internal global::Audiograph.Label lblUserTopTrackAlbum11;
+        internal global::Audiograph.Label lblUserTopTrackArtist11;
+        internal global::Audiograph.Label lblUserTopTrackTitle11;
         internal global::System.Windows.Forms.PictureBox picUserTopTrackArt11;
-        internal global::System.Windows.Forms.Label Label100;
-        internal global::System.Windows.Forms.Label lblUserTopTrackAlbum10;
-        internal global::System.Windows.Forms.Label lblUserTopTrackArtist10;
-        internal global::System.Windows.Forms.Label lblUserTopTrackTitle10;
+        internal global::Audiograph.Label Label100;
+        internal global::Audiograph.Label lblUserTopTrackAlbum10;
+        internal global::Audiograph.Label lblUserTopTrackArtist10;
+        internal global::Audiograph.Label lblUserTopTrackTitle10;
         internal global::System.Windows.Forms.PictureBox picUserTopTrackArt10;
-        internal global::System.Windows.Forms.Label Label104;
-        internal global::System.Windows.Forms.Label lblUserTopTrackAlbum9;
-        internal global::System.Windows.Forms.Label lblUserTopTrackArtist9;
-        internal global::System.Windows.Forms.Label lblUserTopTrackTitle9;
+        internal global::Audiograph.Label Label104;
+        internal global::Audiograph.Label lblUserTopTrackAlbum9;
+        internal global::Audiograph.Label lblUserTopTrackArtist9;
+        internal global::Audiograph.Label lblUserTopTrackTitle9;
         internal global::System.Windows.Forms.PictureBox picUserTopTrackArt9;
-        internal global::System.Windows.Forms.Label Label108;
-        internal global::System.Windows.Forms.Label lblUserTopTrackAlbum8;
-        internal global::System.Windows.Forms.Label lblUserTopTrackArtist8;
-        internal global::System.Windows.Forms.Label lblUserTopTrackTitle8;
+        internal global::Audiograph.Label Label108;
+        internal global::Audiograph.Label lblUserTopTrackAlbum8;
+        internal global::Audiograph.Label lblUserTopTrackArtist8;
+        internal global::Audiograph.Label lblUserTopTrackTitle8;
         internal global::System.Windows.Forms.PictureBox picUserTopTrackArt8;
-        internal global::System.Windows.Forms.Label Label112;
-        internal global::System.Windows.Forms.Label lblUserTopTrackAlbum7;
-        internal global::System.Windows.Forms.Label lblUserTopTrackArtist7;
-        internal global::System.Windows.Forms.Label lblUserTopTrackTitle7;
+        internal global::Audiograph.Label Label112;
+        internal global::Audiograph.Label lblUserTopTrackAlbum7;
+        internal global::Audiograph.Label lblUserTopTrackArtist7;
+        internal global::Audiograph.Label lblUserTopTrackTitle7;
         internal global::System.Windows.Forms.PictureBox picUserTopTrackArt7;
-        internal global::System.Windows.Forms.Label Label119;
-        internal global::System.Windows.Forms.Label lblUserTopTrackAlbum6;
-        internal global::System.Windows.Forms.Label lblUserTopTrackArtist6;
-        internal global::System.Windows.Forms.Label lblUserTopTrackTitle6;
+        internal global::Audiograph.Label Label119;
+        internal global::Audiograph.Label lblUserTopTrackAlbum6;
+        internal global::Audiograph.Label lblUserTopTrackArtist6;
+        internal global::Audiograph.Label lblUserTopTrackTitle6;
         internal global::System.Windows.Forms.PictureBox picUserTopTrackArt6;
-        internal global::System.Windows.Forms.Label Label127;
-        internal global::System.Windows.Forms.Label lblUserTopTrackAlbum5;
-        internal global::System.Windows.Forms.Label lblUserTopTrackArtist5;
-        internal global::System.Windows.Forms.Label lblUserTopTrackTitle5;
+        internal global::Audiograph.Label Label127;
+        internal global::Audiograph.Label lblUserTopTrackAlbum5;
+        internal global::Audiograph.Label lblUserTopTrackArtist5;
+        internal global::Audiograph.Label lblUserTopTrackTitle5;
         internal global::System.Windows.Forms.PictureBox picUserTopTrackArt5;
-        internal global::System.Windows.Forms.Label Label135;
-        internal global::System.Windows.Forms.Label lblUserTopTrackAlbum4;
-        internal global::System.Windows.Forms.Label lblUserTopTrackArtist4;
-        internal global::System.Windows.Forms.Label lblUserTopTrackTitle4;
+        internal global::Audiograph.Label Label135;
+        internal global::Audiograph.Label lblUserTopTrackAlbum4;
+        internal global::Audiograph.Label lblUserTopTrackArtist4;
+        internal global::Audiograph.Label lblUserTopTrackTitle4;
         internal global::System.Windows.Forms.PictureBox picUserTopTrackArt4;
-        internal global::System.Windows.Forms.Label Label143;
-        internal global::System.Windows.Forms.Label lblUserTopTrackAlbum3;
-        internal global::System.Windows.Forms.Label lblUserTopTrackArtist3;
-        internal global::System.Windows.Forms.Label lblUserTopTrackTitle3;
+        internal global::Audiograph.Label Label143;
+        internal global::Audiograph.Label lblUserTopTrackAlbum3;
+        internal global::Audiograph.Label lblUserTopTrackArtist3;
+        internal global::Audiograph.Label lblUserTopTrackTitle3;
         internal global::System.Windows.Forms.PictureBox picUserTopTrackArt3;
-        internal global::System.Windows.Forms.Label Label150;
-        internal global::System.Windows.Forms.Label lblUserTopTrackAlbum2;
-        internal global::System.Windows.Forms.Label lblUserTopTrackArtist2;
-        internal global::System.Windows.Forms.Label lblUserTopTrackTitle2;
+        internal global::Audiograph.Label Label150;
+        internal global::Audiograph.Label lblUserTopTrackAlbum2;
+        internal global::Audiograph.Label lblUserTopTrackArtist2;
+        internal global::Audiograph.Label lblUserTopTrackTitle2;
         internal global::System.Windows.Forms.PictureBox picUserTopTrackArt2;
-        internal global::System.Windows.Forms.Label Label154;
-        internal global::System.Windows.Forms.Label lblUserTopTrackAlbum1;
-        internal global::System.Windows.Forms.Label lblUserTopTrackArtist1;
-        internal global::System.Windows.Forms.Label lblUserTopTrackTitle1;
-        internal global::System.Windows.Forms.Label Label158;
-        internal global::System.Windows.Forms.Label Label159;
+        internal global::Audiograph.Label Label154;
+        internal global::Audiograph.Label lblUserTopTrackAlbum1;
+        internal global::Audiograph.Label lblUserTopTrackArtist1;
+        internal global::Audiograph.Label lblUserTopTrackTitle1;
+        internal global::Audiograph.Label Label158;
+        internal global::Audiograph.Label Label159;
         internal global::System.Windows.Forms.PictureBox picUserTopTrackArt1;
-        internal global::System.Windows.Forms.Label Label160;
-        internal global::System.Windows.Forms.Label Label161;
-        internal global::System.Windows.Forms.Label Label162;
-        internal global::System.Windows.Forms.Label Label163;
+        internal global::Audiograph.Label Label160;
+        internal global::Audiograph.Label Label161;
+        internal global::Audiograph.Label Label162;
+        internal global::Audiograph.Label Label163;
         internal global::System.Windows.Forms.TabPage pgUserTopArtists;
         internal global::Audiograph.DBLayoutPanel DbLayoutPanel2;
-        internal global::System.Windows.Forms.Label lblUserTopArtistPlaycount20;
-        internal global::System.Windows.Forms.Label lblUserTopArtistPlaycount19;
-        internal global::System.Windows.Forms.Label lblUserTopArtistPlaycount18;
-        internal global::System.Windows.Forms.Label lblUserTopArtistPlaycount17;
-        internal global::System.Windows.Forms.Label lblUserTopArtistPlaycount16;
-        internal global::System.Windows.Forms.Label lblUserTopArtistPlaycount15;
-        internal global::System.Windows.Forms.Label lblUserTopArtistPlaycount14;
-        internal global::System.Windows.Forms.Label lblUserTopArtistPlaycount13;
-        internal global::System.Windows.Forms.Label lblUserTopArtistPlaycount12;
-        internal global::System.Windows.Forms.Label lblUserTopArtistPlaycount11;
-        internal global::System.Windows.Forms.Label lblUserTopArtistPlaycount10;
-        internal global::System.Windows.Forms.Label lblUserTopArtistPlaycount9;
-        internal global::System.Windows.Forms.Label lblUserTopArtistPlaycount8;
-        internal global::System.Windows.Forms.Label lblUserTopArtistPlaycount7;
-        internal global::System.Windows.Forms.Label lblUserTopArtistPlaycount6;
-        internal global::System.Windows.Forms.Label lblUserTopArtistPlaycount5;
-        internal global::System.Windows.Forms.Label lblUserTopArtistPlaycount4;
-        internal global::System.Windows.Forms.Label lblUserTopArtistPlaycount3;
-        internal global::System.Windows.Forms.Label lblUserTopArtistPlaycount2;
-        internal global::System.Windows.Forms.Label lblUserTopArtistPlaycount1;
-        internal global::System.Windows.Forms.Label Label184;
-        internal global::System.Windows.Forms.Label lblUserTopArtist20;
-        internal global::System.Windows.Forms.Label Label188;
-        internal global::System.Windows.Forms.Label lblUserTopArtist19;
-        internal global::System.Windows.Forms.Label Label192;
-        internal global::System.Windows.Forms.Label lblUserTopArtist18;
-        internal global::System.Windows.Forms.Label Label196;
-        internal global::System.Windows.Forms.Label lblUserTopArtist17;
-        internal global::System.Windows.Forms.Label Label200;
-        internal global::System.Windows.Forms.Label lblUserTopArtist16;
-        internal global::System.Windows.Forms.Label Label204;
-        internal global::System.Windows.Forms.Label lblUserTopArtist15;
-        internal global::System.Windows.Forms.Label Label208;
-        internal global::System.Windows.Forms.Label lblUserTopArtist14;
-        internal global::System.Windows.Forms.Label Label212;
-        internal global::System.Windows.Forms.Label lblUserTopArtist13;
-        internal global::System.Windows.Forms.Label Label216;
-        internal global::System.Windows.Forms.Label lblUserTopArtist12;
-        internal global::System.Windows.Forms.Label Label220;
-        internal global::System.Windows.Forms.Label lblUserTopArtist11;
-        internal global::System.Windows.Forms.Label Label224;
-        internal global::System.Windows.Forms.Label lblUserTopArtist10;
-        internal global::System.Windows.Forms.Label Label228;
-        internal global::System.Windows.Forms.Label lblUserTopArtist9;
-        internal global::System.Windows.Forms.Label Label232;
-        internal global::System.Windows.Forms.Label lblUserTopArtist8;
-        internal global::System.Windows.Forms.Label Label236;
-        internal global::System.Windows.Forms.Label lblUserTopArtist7;
-        internal global::System.Windows.Forms.Label Label240;
-        internal global::System.Windows.Forms.Label lblUserTopArtist6;
-        internal global::System.Windows.Forms.Label Label244;
-        internal global::System.Windows.Forms.Label lblUserTopArtist5;
-        internal global::System.Windows.Forms.Label Label248;
-        internal global::System.Windows.Forms.Label lblUserTopArtist4;
-        internal global::System.Windows.Forms.Label Label252;
-        internal global::System.Windows.Forms.Label lblUserTopArtist3;
-        internal global::System.Windows.Forms.Label Label256;
-        internal global::System.Windows.Forms.Label lblUserTopArtist2;
-        internal global::System.Windows.Forms.Label Label260;
-        internal global::System.Windows.Forms.Label lblUserTopArtist1;
-        internal global::System.Windows.Forms.Label Label264;
-        internal global::System.Windows.Forms.Label Label266;
-        internal global::System.Windows.Forms.Label Label268;
+        internal global::Audiograph.Label lblUserTopArtistPlaycount20;
+        internal global::Audiograph.Label lblUserTopArtistPlaycount19;
+        internal global::Audiograph.Label lblUserTopArtistPlaycount18;
+        internal global::Audiograph.Label lblUserTopArtistPlaycount17;
+        internal global::Audiograph.Label lblUserTopArtistPlaycount16;
+        internal global::Audiograph.Label lblUserTopArtistPlaycount15;
+        internal global::Audiograph.Label lblUserTopArtistPlaycount14;
+        internal global::Audiograph.Label lblUserTopArtistPlaycount13;
+        internal global::Audiograph.Label lblUserTopArtistPlaycount12;
+        internal global::Audiograph.Label lblUserTopArtistPlaycount11;
+        internal global::Audiograph.Label lblUserTopArtistPlaycount10;
+        internal global::Audiograph.Label lblUserTopArtistPlaycount9;
+        internal global::Audiograph.Label lblUserTopArtistPlaycount8;
+        internal global::Audiograph.Label lblUserTopArtistPlaycount7;
+        internal global::Audiograph.Label lblUserTopArtistPlaycount6;
+        internal global::Audiograph.Label lblUserTopArtistPlaycount5;
+        internal global::Audiograph.Label lblUserTopArtistPlaycount4;
+        internal global::Audiograph.Label lblUserTopArtistPlaycount3;
+        internal global::Audiograph.Label lblUserTopArtistPlaycount2;
+        internal global::Audiograph.Label lblUserTopArtistPlaycount1;
+        internal global::Audiograph.Label Label184;
+        internal global::Audiograph.Label lblUserTopArtist20;
+        internal global::Audiograph.Label Label188;
+        internal global::Audiograph.Label lblUserTopArtist19;
+        internal global::Audiograph.Label Label192;
+        internal global::Audiograph.Label lblUserTopArtist18;
+        internal global::Audiograph.Label Label196;
+        internal global::Audiograph.Label lblUserTopArtist17;
+        internal global::Audiograph.Label Label200;
+        internal global::Audiograph.Label lblUserTopArtist16;
+        internal global::Audiograph.Label Label204;
+        internal global::Audiograph.Label lblUserTopArtist15;
+        internal global::Audiograph.Label Label208;
+        internal global::Audiograph.Label lblUserTopArtist14;
+        internal global::Audiograph.Label Label212;
+        internal global::Audiograph.Label lblUserTopArtist13;
+        internal global::Audiograph.Label Label216;
+        internal global::Audiograph.Label lblUserTopArtist12;
+        internal global::Audiograph.Label Label220;
+        internal global::Audiograph.Label lblUserTopArtist11;
+        internal global::Audiograph.Label Label224;
+        internal global::Audiograph.Label lblUserTopArtist10;
+        internal global::Audiograph.Label Label228;
+        internal global::Audiograph.Label lblUserTopArtist9;
+        internal global::Audiograph.Label Label232;
+        internal global::Audiograph.Label lblUserTopArtist8;
+        internal global::Audiograph.Label Label236;
+        internal global::Audiograph.Label lblUserTopArtist7;
+        internal global::Audiograph.Label Label240;
+        internal global::Audiograph.Label lblUserTopArtist6;
+        internal global::Audiograph.Label Label244;
+        internal global::Audiograph.Label lblUserTopArtist5;
+        internal global::Audiograph.Label Label248;
+        internal global::Audiograph.Label lblUserTopArtist4;
+        internal global::Audiograph.Label Label252;
+        internal global::Audiograph.Label lblUserTopArtist3;
+        internal global::Audiograph.Label Label256;
+        internal global::Audiograph.Label lblUserTopArtist2;
+        internal global::Audiograph.Label Label260;
+        internal global::Audiograph.Label lblUserTopArtist1;
+        internal global::Audiograph.Label Label264;
+        internal global::Audiograph.Label Label266;
+        internal global::Audiograph.Label Label268;
         internal global::System.Windows.Forms.TabPage pgTopAlbums;
         internal global::Audiograph.DBLayoutPanel DbLayoutPanel3;
-        internal global::System.Windows.Forms.Label lblUserTopAlbumPlaycount20;
-        internal global::System.Windows.Forms.Label lblUserTopAlbumPlaycount19;
-        internal global::System.Windows.Forms.Label lblUserTopAlbumPlaycount18;
-        internal global::System.Windows.Forms.Label lblUserTopAlbumPlaycount17;
-        internal global::System.Windows.Forms.Label lblUserTopAlbumPlaycount16;
-        internal global::System.Windows.Forms.Label lblUserTopAlbumPlaycount15;
-        internal global::System.Windows.Forms.Label lblUserTopAlbumPlaycount14;
-        internal global::System.Windows.Forms.Label lblUserTopAlbumPlaycount13;
-        internal global::System.Windows.Forms.Label lblUserTopAlbumPlaycount12;
-        internal global::System.Windows.Forms.Label lblUserTopAlbumPlaycount11;
-        internal global::System.Windows.Forms.Label lblUserTopAlbumPlaycount10;
-        internal global::System.Windows.Forms.Label lblUserTopAlbumPlaycount9;
-        internal global::System.Windows.Forms.Label lblUserTopAlbumPlaycount8;
-        internal global::System.Windows.Forms.Label lblUserTopAlbumPlaycount7;
-        internal global::System.Windows.Forms.Label lblUserTopAlbumPlaycount6;
-        internal global::System.Windows.Forms.Label lblUserTopAlbumPlaycount5;
-        internal global::System.Windows.Forms.Label lblUserTopAlbumPlaycount4;
-        internal global::System.Windows.Forms.Label lblUserTopAlbumPlaycount3;
-        internal global::System.Windows.Forms.Label lblUserTopAlbumPlaycount2;
-        internal global::System.Windows.Forms.Label lblUserTopAlbumPlaycount1;
-        internal global::System.Windows.Forms.Label Label18;
-        internal global::System.Windows.Forms.Label lblUserTopAlbumArtist20;
-        internal global::System.Windows.Forms.Label lblUserTopAlbum20;
+        internal global::Audiograph.Label lblUserTopAlbumPlaycount20;
+        internal global::Audiograph.Label lblUserTopAlbumPlaycount19;
+        internal global::Audiograph.Label lblUserTopAlbumPlaycount18;
+        internal global::Audiograph.Label lblUserTopAlbumPlaycount17;
+        internal global::Audiograph.Label lblUserTopAlbumPlaycount16;
+        internal global::Audiograph.Label lblUserTopAlbumPlaycount15;
+        internal global::Audiograph.Label lblUserTopAlbumPlaycount14;
+        internal global::Audiograph.Label lblUserTopAlbumPlaycount13;
+        internal global::Audiograph.Label lblUserTopAlbumPlaycount12;
+        internal global::Audiograph.Label lblUserTopAlbumPlaycount11;
+        internal global::Audiograph.Label lblUserTopAlbumPlaycount10;
+        internal global::Audiograph.Label lblUserTopAlbumPlaycount9;
+        internal global::Audiograph.Label lblUserTopAlbumPlaycount8;
+        internal global::Audiograph.Label lblUserTopAlbumPlaycount7;
+        internal global::Audiograph.Label lblUserTopAlbumPlaycount6;
+        internal global::Audiograph.Label lblUserTopAlbumPlaycount5;
+        internal global::Audiograph.Label lblUserTopAlbumPlaycount4;
+        internal global::Audiograph.Label lblUserTopAlbumPlaycount3;
+        internal global::Audiograph.Label lblUserTopAlbumPlaycount2;
+        internal global::Audiograph.Label lblUserTopAlbumPlaycount1;
+        internal global::Audiograph.Label Label18;
+        internal global::Audiograph.Label lblUserTopAlbumArtist20;
+        internal global::Audiograph.Label lblUserTopAlbum20;
         internal global::System.Windows.Forms.PictureBox picUserTopAlbumArt20;
-        internal global::System.Windows.Forms.Label Label233;
-        internal global::System.Windows.Forms.Label lblUserTopAlbumArtist19;
-        internal global::System.Windows.Forms.Label lblUserTopAlbum19;
+        internal global::Audiograph.Label Label233;
+        internal global::Audiograph.Label lblUserTopAlbumArtist19;
+        internal global::Audiograph.Label lblUserTopAlbum19;
         internal global::System.Windows.Forms.PictureBox picUserTopAlbumArt19;
-        internal global::System.Windows.Forms.Label Label241;
-        internal global::System.Windows.Forms.Label lblUserTopAlbumArtist18;
-        internal global::System.Windows.Forms.Label lblUserTopAlbum18;
+        internal global::Audiograph.Label Label241;
+        internal global::Audiograph.Label lblUserTopAlbumArtist18;
+        internal global::Audiograph.Label lblUserTopAlbum18;
         internal global::System.Windows.Forms.PictureBox picUserTopAlbumArt18;
-        internal global::System.Windows.Forms.Label Label249;
-        internal global::System.Windows.Forms.Label lblUserTopAlbumArtist17;
-        internal global::System.Windows.Forms.Label lblUserTopAlbum17;
+        internal global::Audiograph.Label Label249;
+        internal global::Audiograph.Label lblUserTopAlbumArtist17;
+        internal global::Audiograph.Label lblUserTopAlbum17;
         internal global::System.Windows.Forms.PictureBox picUserTopAlbumArt17;
-        internal global::System.Windows.Forms.Label Label257;
-        internal global::System.Windows.Forms.Label lblUserTopAlbumArtist16;
-        internal global::System.Windows.Forms.Label lblUserTopAlbum16;
+        internal global::Audiograph.Label Label257;
+        internal global::Audiograph.Label lblUserTopAlbumArtist16;
+        internal global::Audiograph.Label lblUserTopAlbum16;
         internal global::System.Windows.Forms.PictureBox picUserTopAlbumArt16;
-        internal global::System.Windows.Forms.Label Label265;
-        internal global::System.Windows.Forms.Label lblUserTopAlbumArtist15;
-        internal global::System.Windows.Forms.Label lblUserTopAlbum15;
+        internal global::Audiograph.Label Label265;
+        internal global::Audiograph.Label lblUserTopAlbumArtist15;
+        internal global::Audiograph.Label lblUserTopAlbum15;
         internal global::System.Windows.Forms.PictureBox picUserTopAlbumArt15;
-        internal global::System.Windows.Forms.Label Label271;
-        internal global::System.Windows.Forms.Label lblUserTopAlbumArtist14;
-        internal global::System.Windows.Forms.Label lblUserTopAlbum14;
+        internal global::Audiograph.Label Label271;
+        internal global::Audiograph.Label lblUserTopAlbumArtist14;
+        internal global::Audiograph.Label lblUserTopAlbum14;
         internal global::System.Windows.Forms.PictureBox picUserTopAlbumArt14;
-        internal global::System.Windows.Forms.Label Label275;
-        internal global::System.Windows.Forms.Label lblUserTopAlbumArtist13;
-        internal global::System.Windows.Forms.Label lblUserTopAlbum13;
+        internal global::Audiograph.Label Label275;
+        internal global::Audiograph.Label lblUserTopAlbumArtist13;
+        internal global::Audiograph.Label lblUserTopAlbum13;
         internal global::System.Windows.Forms.PictureBox picUserTopAlbumArt13;
-        internal global::System.Windows.Forms.Label Label279;
-        internal global::System.Windows.Forms.Label lblUserTopAlbumArtist12;
-        internal global::System.Windows.Forms.Label lblUserTopAlbum12;
+        internal global::Audiograph.Label Label279;
+        internal global::Audiograph.Label lblUserTopAlbumArtist12;
+        internal global::Audiograph.Label lblUserTopAlbum12;
         internal global::System.Windows.Forms.PictureBox picUserTopAlbumArt12;
-        internal global::System.Windows.Forms.Label Label283;
-        internal global::System.Windows.Forms.Label lblUserTopAlbumArtist11;
-        internal global::System.Windows.Forms.Label lblUserTopAlbum11;
+        internal global::Audiograph.Label Label283;
+        internal global::Audiograph.Label lblUserTopAlbumArtist11;
+        internal global::Audiograph.Label lblUserTopAlbum11;
         internal global::System.Windows.Forms.PictureBox picUserTopAlbumArt11;
-        internal global::System.Windows.Forms.Label Label287;
-        internal global::System.Windows.Forms.Label lblUserTopAlbumArtist10;
-        internal global::System.Windows.Forms.Label lblUserTopAlbum10;
+        internal global::Audiograph.Label Label287;
+        internal global::Audiograph.Label lblUserTopAlbumArtist10;
+        internal global::Audiograph.Label lblUserTopAlbum10;
         internal global::System.Windows.Forms.PictureBox picUserTopAlbumArt10;
-        internal global::System.Windows.Forms.Label Label291;
-        internal global::System.Windows.Forms.Label lblUserTopAlbumArtist9;
-        internal global::System.Windows.Forms.Label lblUserTopAlbum9;
+        internal global::Audiograph.Label Label291;
+        internal global::Audiograph.Label lblUserTopAlbumArtist9;
+        internal global::Audiograph.Label lblUserTopAlbum9;
         internal global::System.Windows.Forms.PictureBox picUserTopAlbumArt9;
-        internal global::System.Windows.Forms.Label Label295;
-        internal global::System.Windows.Forms.Label lblUserTopAlbumArtist8;
-        internal global::System.Windows.Forms.Label lblUserTopAlbum8;
+        internal global::Audiograph.Label Label295;
+        internal global::Audiograph.Label lblUserTopAlbumArtist8;
+        internal global::Audiograph.Label lblUserTopAlbum8;
         internal global::System.Windows.Forms.PictureBox picUserTopAlbumArt8;
-        internal global::System.Windows.Forms.Label Label299;
-        internal global::System.Windows.Forms.Label lblUserTopAlbumArtist7;
-        internal global::System.Windows.Forms.Label lblUserTopAlbum7;
+        internal global::Audiograph.Label Label299;
+        internal global::Audiograph.Label lblUserTopAlbumArtist7;
+        internal global::Audiograph.Label lblUserTopAlbum7;
         internal global::System.Windows.Forms.PictureBox picUserTopAlbumArt7;
-        internal global::System.Windows.Forms.Label Label303;
-        internal global::System.Windows.Forms.Label lblUserTopAlbumArtist6;
-        internal global::System.Windows.Forms.Label lblUserTopAlbum6;
+        internal global::Audiograph.Label Label303;
+        internal global::Audiograph.Label lblUserTopAlbumArtist6;
+        internal global::Audiograph.Label lblUserTopAlbum6;
         internal global::System.Windows.Forms.PictureBox picUserTopAlbumArt6;
-        internal global::System.Windows.Forms.Label Label307;
-        internal global::System.Windows.Forms.Label lblUserTopAlbumArtist5;
-        internal global::System.Windows.Forms.Label lblUserTopAlbum5;
+        internal global::Audiograph.Label Label307;
+        internal global::Audiograph.Label lblUserTopAlbumArtist5;
+        internal global::Audiograph.Label lblUserTopAlbum5;
         internal global::System.Windows.Forms.PictureBox picUserTopAlbumArt5;
-        internal global::System.Windows.Forms.Label Label311;
-        internal global::System.Windows.Forms.Label lblUserTopAlbumArtist4;
-        internal global::System.Windows.Forms.Label lblUserTopAlbum4;
+        internal global::Audiograph.Label Label311;
+        internal global::Audiograph.Label lblUserTopAlbumArtist4;
+        internal global::Audiograph.Label lblUserTopAlbum4;
         internal global::System.Windows.Forms.PictureBox picUserTopAlbumArt4;
-        internal global::System.Windows.Forms.Label Label315;
-        internal global::System.Windows.Forms.Label lblUserTopAlbumArtist3;
-        internal global::System.Windows.Forms.Label lblUserTopAlbum3;
+        internal global::Audiograph.Label Label315;
+        internal global::Audiograph.Label lblUserTopAlbumArtist3;
+        internal global::Audiograph.Label lblUserTopAlbum3;
         internal global::System.Windows.Forms.PictureBox picUserTopAlbumArt3;
-        internal global::System.Windows.Forms.Label Label319;
-        internal global::System.Windows.Forms.Label lblUserTopAlbumArtist2;
-        internal global::System.Windows.Forms.Label lblUserTopAlbum2;
+        internal global::Audiograph.Label Label319;
+        internal global::Audiograph.Label lblUserTopAlbumArtist2;
+        internal global::Audiograph.Label lblUserTopAlbum2;
         internal global::System.Windows.Forms.PictureBox picUserTopAlbumArt2;
-        internal global::System.Windows.Forms.Label Label323;
-        internal global::System.Windows.Forms.Label lblUserTopAlbumArtist1;
-        internal global::System.Windows.Forms.Label lblUserTopAlbum1;
-        internal global::System.Windows.Forms.Label Label327;
-        internal global::System.Windows.Forms.Label Label328;
+        internal global::Audiograph.Label Label323;
+        internal global::Audiograph.Label lblUserTopAlbumArtist1;
+        internal global::Audiograph.Label lblUserTopAlbum1;
+        internal global::Audiograph.Label Label327;
+        internal global::Audiograph.Label Label328;
         internal global::System.Windows.Forms.PictureBox picUserTopAlbumArt1;
-        internal global::System.Windows.Forms.Label Label329;
-        internal global::System.Windows.Forms.Label Label330;
-        internal global::System.Windows.Forms.Label Label331;
-        internal global::System.Windows.Forms.Label lblUserFrom;
+        internal global::Audiograph.Label Label329;
+        internal global::Audiograph.Label Label330;
+        internal global::Audiograph.Label Label331;
+        internal global::Audiograph.Label lblUserFrom;
         internal global::System.Windows.Forms.GroupBox gpbUserInfo;
         internal global::System.Windows.Forms.TabControl tbcUserInfo;
         internal global::System.Windows.Forms.TabPage pgUserInfo;
@@ -22145,422 +23104,422 @@ namespace Audiograph
         internal global::System.Windows.Forms.RichTextBox txtUserInfo;
         internal global::System.Windows.Forms.PictureBox picUser;
         internal global::System.Windows.Forms.TabPage pgUserFriends;
-        internal global::System.Windows.Forms.Label lblUserFriendTotal;
+        internal global::Audiograph.Label lblUserFriendTotal;
         internal global::System.Windows.Forms.ListView ltvUserFriends;
         internal global::System.Windows.Forms.ColumnHeader clmUserFriendName;
         internal global::System.Windows.Forms.ColumnHeader clmUserFriendRealName;
         internal global::System.Windows.Forms.ColumnHeader clmUserFriendURL;
         internal global::System.Windows.Forms.ColumnHeader clmUserFriendRegistered;
         internal global::System.Windows.Forms.TabPage pgUserLovedTracks;
-        internal global::System.Windows.Forms.Label lblUserLovedTotalTracks;
+        internal global::Audiograph.Label lblUserLovedTotalTracks;
         internal global::System.Windows.Forms.NumericUpDown nudUserLovedPage;
         internal global::System.Windows.Forms.ListView ltvUserLovedTracks;
         internal global::System.Windows.Forms.ColumnHeader clmUserLovedTitle;
         internal global::System.Windows.Forms.ColumnHeader clmUserLovedArtist;
         internal global::System.Windows.Forms.ColumnHeader clmUserLovedDate;
-        internal global::System.Windows.Forms.Label Label15;
-        internal global::System.Windows.Forms.Label lblUserLovedTotalPages;
+        internal global::Audiograph.Label Label15;
+        internal global::Audiograph.Label lblUserLovedTotalPages;
         internal global::System.Windows.Forms.TabPage pgUserRecentTracks;
         internal global::Audiograph.DBLayoutPanel tlpUserRecent;
-        internal global::System.Windows.Forms.Label lblUserRecentAlbum20;
-        internal global::System.Windows.Forms.Label lblUserRecentArtist20;
-        internal global::System.Windows.Forms.Label lblUserRecentTitle20;
+        internal global::Audiograph.Label lblUserRecentAlbum20;
+        internal global::Audiograph.Label lblUserRecentArtist20;
+        internal global::Audiograph.Label lblUserRecentTitle20;
         internal global::System.Windows.Forms.PictureBox picUserRecentArt20;
-        internal global::System.Windows.Forms.Label lblUserRecentAlbum19;
-        internal global::System.Windows.Forms.Label lblUserRecentArtist19;
-        internal global::System.Windows.Forms.Label lblUserRecentTitle19;
+        internal global::Audiograph.Label lblUserRecentAlbum19;
+        internal global::Audiograph.Label lblUserRecentArtist19;
+        internal global::Audiograph.Label lblUserRecentTitle19;
         internal global::System.Windows.Forms.PictureBox picUserRecentArt19;
-        internal global::System.Windows.Forms.Label lblUserRecentAlbum18;
-        internal global::System.Windows.Forms.Label lblUserRecentArtist18;
-        internal global::System.Windows.Forms.Label lblUserRecentTitle18;
+        internal global::Audiograph.Label lblUserRecentAlbum18;
+        internal global::Audiograph.Label lblUserRecentArtist18;
+        internal global::Audiograph.Label lblUserRecentTitle18;
         internal global::System.Windows.Forms.PictureBox picUserRecentArt18;
-        internal global::System.Windows.Forms.Label lblUserRecentAlbum17;
-        internal global::System.Windows.Forms.Label lblUserRecentArtist17;
-        internal global::System.Windows.Forms.Label lblUserRecentTitle17;
+        internal global::Audiograph.Label lblUserRecentAlbum17;
+        internal global::Audiograph.Label lblUserRecentArtist17;
+        internal global::Audiograph.Label lblUserRecentTitle17;
         internal global::System.Windows.Forms.PictureBox picUserRecentArt17;
-        internal global::System.Windows.Forms.Label lblUserRecentAlbum16;
-        internal global::System.Windows.Forms.Label lblUserRecentArtist16;
-        internal global::System.Windows.Forms.Label lblUserRecentTitle16;
+        internal global::Audiograph.Label lblUserRecentAlbum16;
+        internal global::Audiograph.Label lblUserRecentArtist16;
+        internal global::Audiograph.Label lblUserRecentTitle16;
         internal global::System.Windows.Forms.PictureBox picUserRecentArt16;
-        internal global::System.Windows.Forms.Label lblUserRecentAlbum15;
-        internal global::System.Windows.Forms.Label lblUserRecentArtist15;
-        internal global::System.Windows.Forms.Label lblUserRecentTitle15;
+        internal global::Audiograph.Label lblUserRecentAlbum15;
+        internal global::Audiograph.Label lblUserRecentArtist15;
+        internal global::Audiograph.Label lblUserRecentTitle15;
         internal global::System.Windows.Forms.PictureBox picUserRecentArt15;
-        internal global::System.Windows.Forms.Label lblUserRecentAlbum14;
-        internal global::System.Windows.Forms.Label lblUserRecentArtist14;
-        internal global::System.Windows.Forms.Label lblUserRecentTitle14;
+        internal global::Audiograph.Label lblUserRecentAlbum14;
+        internal global::Audiograph.Label lblUserRecentArtist14;
+        internal global::Audiograph.Label lblUserRecentTitle14;
         internal global::System.Windows.Forms.PictureBox picUserRecentArt14;
-        internal global::System.Windows.Forms.Label lblUserRecentAlbum13;
-        internal global::System.Windows.Forms.Label lblUserRecentArtist13;
-        internal global::System.Windows.Forms.Label lblUserRecentTitle13;
+        internal global::Audiograph.Label lblUserRecentAlbum13;
+        internal global::Audiograph.Label lblUserRecentArtist13;
+        internal global::Audiograph.Label lblUserRecentTitle13;
         internal global::System.Windows.Forms.PictureBox picUserRecentArt13;
-        internal global::System.Windows.Forms.Label lblUserRecentAlbum12;
-        internal global::System.Windows.Forms.Label lblUserRecentArtist12;
-        internal global::System.Windows.Forms.Label lblUserRecentTitle12;
+        internal global::Audiograph.Label lblUserRecentAlbum12;
+        internal global::Audiograph.Label lblUserRecentArtist12;
+        internal global::Audiograph.Label lblUserRecentTitle12;
         internal global::System.Windows.Forms.PictureBox picUserRecentArt12;
-        internal global::System.Windows.Forms.Label lblUserRecentAlbum11;
-        internal global::System.Windows.Forms.Label lblUserRecentArtist11;
-        internal global::System.Windows.Forms.Label lblUserRecentTitle11;
+        internal global::Audiograph.Label lblUserRecentAlbum11;
+        internal global::Audiograph.Label lblUserRecentArtist11;
+        internal global::Audiograph.Label lblUserRecentTitle11;
         internal global::System.Windows.Forms.PictureBox picUserRecentArt11;
-        internal global::System.Windows.Forms.Label lblUserRecentAlbum10;
-        internal global::System.Windows.Forms.Label lblUserRecentArtist10;
-        internal global::System.Windows.Forms.Label lblUserRecentTitle10;
+        internal global::Audiograph.Label lblUserRecentAlbum10;
+        internal global::Audiograph.Label lblUserRecentArtist10;
+        internal global::Audiograph.Label lblUserRecentTitle10;
         internal global::System.Windows.Forms.PictureBox picUserRecentArt10;
-        internal global::System.Windows.Forms.Label lblUserRecentAlbum9;
-        internal global::System.Windows.Forms.Label lblUserRecentArtist9;
-        internal global::System.Windows.Forms.Label lblUserRecentTitle9;
+        internal global::Audiograph.Label lblUserRecentAlbum9;
+        internal global::Audiograph.Label lblUserRecentArtist9;
+        internal global::Audiograph.Label lblUserRecentTitle9;
         internal global::System.Windows.Forms.PictureBox picUserRecentArt9;
-        internal global::System.Windows.Forms.Label lblUserRecentAlbum8;
-        internal global::System.Windows.Forms.Label lblUserRecentArtist8;
-        internal global::System.Windows.Forms.Label lblUserRecentTitle8;
+        internal global::Audiograph.Label lblUserRecentAlbum8;
+        internal global::Audiograph.Label lblUserRecentArtist8;
+        internal global::Audiograph.Label lblUserRecentTitle8;
         internal global::System.Windows.Forms.PictureBox picUserRecentArt8;
-        internal global::System.Windows.Forms.Label lblUserRecentAlbum7;
-        internal global::System.Windows.Forms.Label lblUserRecentArtist7;
-        internal global::System.Windows.Forms.Label lblUserRecentTitle7;
+        internal global::Audiograph.Label lblUserRecentAlbum7;
+        internal global::Audiograph.Label lblUserRecentArtist7;
+        internal global::Audiograph.Label lblUserRecentTitle7;
         internal global::System.Windows.Forms.PictureBox picUserRecentArt7;
-        internal global::System.Windows.Forms.Label lblUserRecentAlbum6;
-        internal global::System.Windows.Forms.Label lblUserRecentArtist6;
-        internal global::System.Windows.Forms.Label lblUserRecentTitle6;
+        internal global::Audiograph.Label lblUserRecentAlbum6;
+        internal global::Audiograph.Label lblUserRecentArtist6;
+        internal global::Audiograph.Label lblUserRecentTitle6;
         internal global::System.Windows.Forms.PictureBox picUserRecentArt6;
-        internal global::System.Windows.Forms.Label lblUserRecentAlbum5;
-        internal global::System.Windows.Forms.Label lblUserRecentArtist5;
-        internal global::System.Windows.Forms.Label lblUserRecentTitle5;
+        internal global::Audiograph.Label lblUserRecentAlbum5;
+        internal global::Audiograph.Label lblUserRecentArtist5;
+        internal global::Audiograph.Label lblUserRecentTitle5;
         internal global::System.Windows.Forms.PictureBox picUserRecentArt5;
-        internal global::System.Windows.Forms.Label lblUserRecentAlbum4;
-        internal global::System.Windows.Forms.Label lblUserRecentArtist4;
-        internal global::System.Windows.Forms.Label lblUserRecentTitle4;
+        internal global::Audiograph.Label lblUserRecentAlbum4;
+        internal global::Audiograph.Label lblUserRecentArtist4;
+        internal global::Audiograph.Label lblUserRecentTitle4;
         internal global::System.Windows.Forms.PictureBox picUserRecentArt4;
-        internal global::System.Windows.Forms.Label lblUserRecentAlbum3;
-        internal global::System.Windows.Forms.Label lblUserRecentArtist3;
-        internal global::System.Windows.Forms.Label lblUserRecentTitle3;
+        internal global::Audiograph.Label lblUserRecentAlbum3;
+        internal global::Audiograph.Label lblUserRecentArtist3;
+        internal global::Audiograph.Label lblUserRecentTitle3;
         internal global::System.Windows.Forms.PictureBox picUserRecentArt3;
-        internal global::System.Windows.Forms.Label lblUserRecentAlbum2;
-        internal global::System.Windows.Forms.Label lblUserRecentArtist2;
-        internal global::System.Windows.Forms.Label lblUserRecentTitle2;
+        internal global::Audiograph.Label lblUserRecentAlbum2;
+        internal global::Audiograph.Label lblUserRecentArtist2;
+        internal global::Audiograph.Label lblUserRecentTitle2;
         internal global::System.Windows.Forms.PictureBox picUserRecentArt2;
-        internal global::System.Windows.Forms.Label lblUserRecentAlbum1;
-        internal global::System.Windows.Forms.Label lblUserRecentArtist1;
-        internal global::System.Windows.Forms.Label Label13;
-        internal global::System.Windows.Forms.Label Label12;
-        internal global::System.Windows.Forms.Label Label11;
-        internal global::System.Windows.Forms.Label Label9;
+        internal global::Audiograph.Label lblUserRecentAlbum1;
+        internal global::Audiograph.Label lblUserRecentArtist1;
+        internal global::Audiograph.Label Label13;
+        internal global::Audiograph.Label Label12;
+        internal global::Audiograph.Label Label11;
+        internal global::Audiograph.Label Label9;
         internal global::System.Windows.Forms.PictureBox picUserRecentArt1;
-        internal global::System.Windows.Forms.Label lblUserRecentTitle1;
+        internal global::Audiograph.Label lblUserRecentTitle1;
         internal global::System.Windows.Forms.TabPage pgMedia;
         internal global::System.Windows.Forms.Button btnUserLSet;
         internal global::System.Windows.Forms.TextBox txtUserL;
-        internal global::System.Windows.Forms.Label Label456;
-        internal global::System.Windows.Forms.Label lblUserLStatus;
+        internal global::Audiograph.Label Label456;
+        internal global::Audiograph.Label lblUserLStatus;
         internal global::Audiograph.DBLayoutPanel tlpUserL;
         internal global::System.Windows.Forms.GroupBox gpbUserLCharts;
         internal global::System.Windows.Forms.Button btnUserLChartGo;
         internal global::System.Windows.Forms.DateTimePicker dtpUserLTo;
-        internal global::System.Windows.Forms.Label lblUserLTo;
+        internal global::Audiograph.Label lblUserLTo;
         internal global::System.Windows.Forms.DateTimePicker dtpUserLFrom;
         internal global::System.Windows.Forms.RadioButton radUserLDate;
         internal global::System.Windows.Forms.RadioButton radUserLAllTime;
         internal global::System.Windows.Forms.TabControl tbcUserLCharts;
         internal global::System.Windows.Forms.TabPage pgUserLTopTracks;
         internal global::Audiograph.DBLayoutPanel DbLayoutPanel5;
-        internal global::System.Windows.Forms.Label lblUserLTopTrackPlaycount20;
-        internal global::System.Windows.Forms.Label lblUserLTopTrackPlaycount19;
-        internal global::System.Windows.Forms.Label lblUserLTopTrackPlaycount18;
-        internal global::System.Windows.Forms.Label lblUserLTopTrackPlaycount17;
-        internal global::System.Windows.Forms.Label lblUserLTopTrackPlaycount16;
-        internal global::System.Windows.Forms.Label lblUserLTopTrackPlaycount15;
-        internal global::System.Windows.Forms.Label lblUserLTopTrackPlaycount14;
-        internal global::System.Windows.Forms.Label lblUserLTopTrackPlaycount13;
-        internal global::System.Windows.Forms.Label lblUserLTopTrackPlaycount12;
-        internal global::System.Windows.Forms.Label lblUserLTopTrackPlaycount11;
-        internal global::System.Windows.Forms.Label lblUserLTopTrackPlaycount10;
-        internal global::System.Windows.Forms.Label lblUserLTopTrackPlaycount9;
-        internal global::System.Windows.Forms.Label lblUserLTopTrackPlaycount8;
-        internal global::System.Windows.Forms.Label lblUserLTopTrackPlaycount7;
-        internal global::System.Windows.Forms.Label lblUserLTopTrackPlaycount6;
-        internal global::System.Windows.Forms.Label lblUserLTopTrackPlaycount5;
-        internal global::System.Windows.Forms.Label lblUserLTopTrackPlaycount4;
-        internal global::System.Windows.Forms.Label lblUserLTopTrackPlaycount3;
-        internal global::System.Windows.Forms.Label lblUserLTopTrackPlaycount2;
-        internal global::System.Windows.Forms.Label lblUserLTopTrackPlaycount1;
-        internal global::System.Windows.Forms.Label Label52;
-        internal global::System.Windows.Forms.Label lblUserLTopTrackAlbum20;
-        internal global::System.Windows.Forms.Label lblUserLTopTrackArtist20;
-        internal global::System.Windows.Forms.Label lblUserLTopTrackTitle20;
+        internal global::Audiograph.Label lblUserLTopTrackPlaycount20;
+        internal global::Audiograph.Label lblUserLTopTrackPlaycount19;
+        internal global::Audiograph.Label lblUserLTopTrackPlaycount18;
+        internal global::Audiograph.Label lblUserLTopTrackPlaycount17;
+        internal global::Audiograph.Label lblUserLTopTrackPlaycount16;
+        internal global::Audiograph.Label lblUserLTopTrackPlaycount15;
+        internal global::Audiograph.Label lblUserLTopTrackPlaycount14;
+        internal global::Audiograph.Label lblUserLTopTrackPlaycount13;
+        internal global::Audiograph.Label lblUserLTopTrackPlaycount12;
+        internal global::Audiograph.Label lblUserLTopTrackPlaycount11;
+        internal global::Audiograph.Label lblUserLTopTrackPlaycount10;
+        internal global::Audiograph.Label lblUserLTopTrackPlaycount9;
+        internal global::Audiograph.Label lblUserLTopTrackPlaycount8;
+        internal global::Audiograph.Label lblUserLTopTrackPlaycount7;
+        internal global::Audiograph.Label lblUserLTopTrackPlaycount6;
+        internal global::Audiograph.Label lblUserLTopTrackPlaycount5;
+        internal global::Audiograph.Label lblUserLTopTrackPlaycount4;
+        internal global::Audiograph.Label lblUserLTopTrackPlaycount3;
+        internal global::Audiograph.Label lblUserLTopTrackPlaycount2;
+        internal global::Audiograph.Label lblUserLTopTrackPlaycount1;
+        internal global::Audiograph.Label Label52;
+        internal global::Audiograph.Label lblUserLTopTrackAlbum20;
+        internal global::Audiograph.Label lblUserLTopTrackArtist20;
+        internal global::Audiograph.Label lblUserLTopTrackTitle20;
         internal global::System.Windows.Forms.PictureBox picUserLTopTrackArt20;
-        internal global::System.Windows.Forms.Label Label60;
-        internal global::System.Windows.Forms.Label lblUserLTopTrackAlbum19;
-        internal global::System.Windows.Forms.Label lblUserLTopTrackArtist19;
-        internal global::System.Windows.Forms.Label lblUserLTopTrackTitle19;
+        internal global::Audiograph.Label Label60;
+        internal global::Audiograph.Label lblUserLTopTrackAlbum19;
+        internal global::Audiograph.Label lblUserLTopTrackArtist19;
+        internal global::Audiograph.Label lblUserLTopTrackTitle19;
         internal global::System.Windows.Forms.PictureBox picUserLTopTrackArt19;
-        internal global::System.Windows.Forms.Label Label67;
-        internal global::System.Windows.Forms.Label lblUserLTopTrackAlbum18;
-        internal global::System.Windows.Forms.Label lblUserLTopTrackArtist18;
-        internal global::System.Windows.Forms.Label lblUserLTopTrackTitle18;
+        internal global::Audiograph.Label Label67;
+        internal global::Audiograph.Label lblUserLTopTrackAlbum18;
+        internal global::Audiograph.Label lblUserLTopTrackArtist18;
+        internal global::Audiograph.Label lblUserLTopTrackTitle18;
         internal global::System.Windows.Forms.PictureBox picUserLTopTrackArt18;
-        internal global::System.Windows.Forms.Label Label74;
-        internal global::System.Windows.Forms.Label lblUserLTopTrackAlbum17;
-        internal global::System.Windows.Forms.Label lblUserLTopTrackArtist17;
-        internal global::System.Windows.Forms.Label lblUserLTopTrackTitle17;
+        internal global::Audiograph.Label Label74;
+        internal global::Audiograph.Label lblUserLTopTrackAlbum17;
+        internal global::Audiograph.Label lblUserLTopTrackArtist17;
+        internal global::Audiograph.Label lblUserLTopTrackTitle17;
         internal global::System.Windows.Forms.PictureBox picUserLTopTrackArt17;
-        internal global::System.Windows.Forms.Label Label82;
-        internal global::System.Windows.Forms.Label lblUserLTopTrackAlbum16;
-        internal global::System.Windows.Forms.Label lblUserLTopTrackArtist16;
-        internal global::System.Windows.Forms.Label lblUserLTopTrackTitle16;
+        internal global::Audiograph.Label Label82;
+        internal global::Audiograph.Label lblUserLTopTrackAlbum16;
+        internal global::Audiograph.Label lblUserLTopTrackArtist16;
+        internal global::Audiograph.Label lblUserLTopTrackTitle16;
         internal global::System.Windows.Forms.PictureBox picUserLTopTrackArt16;
-        internal global::System.Windows.Forms.Label Label88;
-        internal global::System.Windows.Forms.Label lblUserLTopTrackAlbum15;
-        internal global::System.Windows.Forms.Label lblUserLTopTrackArtist15;
-        internal global::System.Windows.Forms.Label lblUserLTopTrackTitle15;
+        internal global::Audiograph.Label Label88;
+        internal global::Audiograph.Label lblUserLTopTrackAlbum15;
+        internal global::Audiograph.Label lblUserLTopTrackArtist15;
+        internal global::Audiograph.Label lblUserLTopTrackTitle15;
         internal global::System.Windows.Forms.PictureBox picUserLTopTrackArt15;
-        internal global::System.Windows.Forms.Label Label95;
-        internal global::System.Windows.Forms.Label lblUserLTopTrackAlbum14;
-        internal global::System.Windows.Forms.Label lblUserLTopTrackArtist14;
-        internal global::System.Windows.Forms.Label lblUserLTopTrackTitle14;
+        internal global::Audiograph.Label Label95;
+        internal global::Audiograph.Label lblUserLTopTrackAlbum14;
+        internal global::Audiograph.Label lblUserLTopTrackArtist14;
+        internal global::Audiograph.Label lblUserLTopTrackTitle14;
         internal global::System.Windows.Forms.PictureBox picUserLTopTrackArt14;
-        internal global::System.Windows.Forms.Label Label101;
-        internal global::System.Windows.Forms.Label lblUserLTopTrackAlbum13;
-        internal global::System.Windows.Forms.Label lblUserLTopTrackArtist13;
-        internal global::System.Windows.Forms.Label lblUserLTopTrackTitle13;
+        internal global::Audiograph.Label Label101;
+        internal global::Audiograph.Label lblUserLTopTrackAlbum13;
+        internal global::Audiograph.Label lblUserLTopTrackArtist13;
+        internal global::Audiograph.Label lblUserLTopTrackTitle13;
         internal global::System.Windows.Forms.PictureBox picUserLTopTrackArt13;
-        internal global::System.Windows.Forms.Label Label106;
-        internal global::System.Windows.Forms.Label lblUserLTopTrackAlbum12;
-        internal global::System.Windows.Forms.Label lblUserLTopTrackArtist12;
-        internal global::System.Windows.Forms.Label lblUserLTopTrackTitle12;
+        internal global::Audiograph.Label Label106;
+        internal global::Audiograph.Label lblUserLTopTrackAlbum12;
+        internal global::Audiograph.Label lblUserLTopTrackArtist12;
+        internal global::Audiograph.Label lblUserLTopTrackTitle12;
         internal global::System.Windows.Forms.PictureBox picUserLTopTrackArt12;
-        internal global::System.Windows.Forms.Label Label111;
-        internal global::System.Windows.Forms.Label lblUserLTopTrackAlbum11;
-        internal global::System.Windows.Forms.Label lblUserLTopTrackArtist11;
-        internal global::System.Windows.Forms.Label lblUserLTopTrackTitle11;
+        internal global::Audiograph.Label Label111;
+        internal global::Audiograph.Label lblUserLTopTrackAlbum11;
+        internal global::Audiograph.Label lblUserLTopTrackArtist11;
+        internal global::Audiograph.Label lblUserLTopTrackTitle11;
         internal global::System.Windows.Forms.PictureBox picUserLTopTrackArt11;
-        internal global::System.Windows.Forms.Label Label121;
-        internal global::System.Windows.Forms.Label lblUserLTopTrackAlbum10;
-        internal global::System.Windows.Forms.Label lblUserLTopTrackArtist10;
-        internal global::System.Windows.Forms.Label lblUserLTopTrackTitle10;
+        internal global::Audiograph.Label Label121;
+        internal global::Audiograph.Label lblUserLTopTrackAlbum10;
+        internal global::Audiograph.Label lblUserLTopTrackArtist10;
+        internal global::Audiograph.Label lblUserLTopTrackTitle10;
         internal global::System.Windows.Forms.PictureBox picUserLTopTrackArt10;
-        internal global::System.Windows.Forms.Label Label131;
-        internal global::System.Windows.Forms.Label lblUserLTopTrackAlbum9;
-        internal global::System.Windows.Forms.Label lblUserLTopTrackArtist9;
-        internal global::System.Windows.Forms.Label lblUserLTopTrackTitle9;
+        internal global::Audiograph.Label Label131;
+        internal global::Audiograph.Label lblUserLTopTrackAlbum9;
+        internal global::Audiograph.Label lblUserLTopTrackArtist9;
+        internal global::Audiograph.Label lblUserLTopTrackTitle9;
         internal global::System.Windows.Forms.PictureBox picUserLTopTrackArt9;
-        internal global::System.Windows.Forms.Label Label141;
-        internal global::System.Windows.Forms.Label lblUserLTopTrackAlbum8;
-        internal global::System.Windows.Forms.Label lblUserLTopTrackArtist8;
-        internal global::System.Windows.Forms.Label lblUserLTopTrackTitle8;
+        internal global::Audiograph.Label Label141;
+        internal global::Audiograph.Label lblUserLTopTrackAlbum8;
+        internal global::Audiograph.Label lblUserLTopTrackArtist8;
+        internal global::Audiograph.Label lblUserLTopTrackTitle8;
         internal global::System.Windows.Forms.PictureBox picUserLTopTrackArt8;
-        internal global::System.Windows.Forms.Label Label151;
-        internal global::System.Windows.Forms.Label lblUserLTopTrackAlbum7;
-        internal global::System.Windows.Forms.Label lblUserLTopTrackArtist7;
-        internal global::System.Windows.Forms.Label lblUserLTopTrackTitle7;
+        internal global::Audiograph.Label Label151;
+        internal global::Audiograph.Label lblUserLTopTrackAlbum7;
+        internal global::Audiograph.Label lblUserLTopTrackArtist7;
+        internal global::Audiograph.Label lblUserLTopTrackTitle7;
         internal global::System.Windows.Forms.PictureBox picUserLTopTrackArt7;
-        internal global::System.Windows.Forms.Label Label156;
-        internal global::System.Windows.Forms.Label lblUserLTopTrackAlbum6;
-        internal global::System.Windows.Forms.Label lblUserLTopTrackArtist6;
-        internal global::System.Windows.Forms.Label lblUserLTopTrackTitle6;
+        internal global::Audiograph.Label Label156;
+        internal global::Audiograph.Label lblUserLTopTrackAlbum6;
+        internal global::Audiograph.Label lblUserLTopTrackArtist6;
+        internal global::Audiograph.Label lblUserLTopTrackTitle6;
         internal global::System.Windows.Forms.PictureBox picUserLTopTrackArt6;
-        internal global::System.Windows.Forms.Label Label166;
-        internal global::System.Windows.Forms.Label lblUserLTopTrackAlbum5;
-        internal global::System.Windows.Forms.Label lblUserLTopTrackArtist5;
-        internal global::System.Windows.Forms.Label lblUserLTopTrackTitle5;
+        internal global::Audiograph.Label Label166;
+        internal global::Audiograph.Label lblUserLTopTrackAlbum5;
+        internal global::Audiograph.Label lblUserLTopTrackArtist5;
+        internal global::Audiograph.Label lblUserLTopTrackTitle5;
         internal global::System.Windows.Forms.PictureBox picUserLTopTrackArt5;
-        internal global::System.Windows.Forms.Label Label170;
-        internal global::System.Windows.Forms.Label lblUserLTopTrackAlbum4;
-        internal global::System.Windows.Forms.Label lblUserLTopTrackArtist4;
-        internal global::System.Windows.Forms.Label lblUserLTopTrackTitle4;
+        internal global::Audiograph.Label Label170;
+        internal global::Audiograph.Label lblUserLTopTrackAlbum4;
+        internal global::Audiograph.Label lblUserLTopTrackArtist4;
+        internal global::Audiograph.Label lblUserLTopTrackTitle4;
         internal global::System.Windows.Forms.PictureBox picUserLTopTrackArt4;
-        internal global::System.Windows.Forms.Label Label174;
-        internal global::System.Windows.Forms.Label lblUserLTopTrackAlbum3;
-        internal global::System.Windows.Forms.Label lblUserLTopTrackArtist3;
-        internal global::System.Windows.Forms.Label lblUserLTopTrackTitle3;
+        internal global::Audiograph.Label Label174;
+        internal global::Audiograph.Label lblUserLTopTrackAlbum3;
+        internal global::Audiograph.Label lblUserLTopTrackArtist3;
+        internal global::Audiograph.Label lblUserLTopTrackTitle3;
         internal global::System.Windows.Forms.PictureBox picUserLTopTrackArt3;
-        internal global::System.Windows.Forms.Label Label178;
-        internal global::System.Windows.Forms.Label lblUserLTopTrackAlbum2;
-        internal global::System.Windows.Forms.Label lblUserLTopTrackArtist2;
-        internal global::System.Windows.Forms.Label lblUserLTopTrackTitle2;
+        internal global::Audiograph.Label Label178;
+        internal global::Audiograph.Label lblUserLTopTrackAlbum2;
+        internal global::Audiograph.Label lblUserLTopTrackArtist2;
+        internal global::Audiograph.Label lblUserLTopTrackTitle2;
         internal global::System.Windows.Forms.PictureBox picUserLTopTrackArt2;
-        internal global::System.Windows.Forms.Label Label182;
-        internal global::System.Windows.Forms.Label lblUserLTopTrackAlbum1;
-        internal global::System.Windows.Forms.Label lblUserLTopTrackArtist1;
-        internal global::System.Windows.Forms.Label lblUserLTopTrackTitle1;
-        internal global::System.Windows.Forms.Label Label187;
-        internal global::System.Windows.Forms.Label Label189;
+        internal global::Audiograph.Label Label182;
+        internal global::Audiograph.Label lblUserLTopTrackAlbum1;
+        internal global::Audiograph.Label lblUserLTopTrackArtist1;
+        internal global::Audiograph.Label lblUserLTopTrackTitle1;
+        internal global::Audiograph.Label Label187;
+        internal global::Audiograph.Label Label189;
         internal global::System.Windows.Forms.PictureBox picUserLTopTrackArt1;
-        internal global::System.Windows.Forms.Label Label190;
-        internal global::System.Windows.Forms.Label Label191;
-        internal global::System.Windows.Forms.Label Label193;
-        internal global::System.Windows.Forms.Label Label194;
+        internal global::Audiograph.Label Label190;
+        internal global::Audiograph.Label Label191;
+        internal global::Audiograph.Label Label193;
+        internal global::Audiograph.Label Label194;
         internal global::System.Windows.Forms.TabPage pgUserLTopArtists;
         internal global::Audiograph.DBLayoutPanel DbLayoutPanel6;
-        internal global::System.Windows.Forms.Label lblUserLTopArtistPlaycount20;
-        internal global::System.Windows.Forms.Label lblUserLTopArtistPlaycount19;
-        internal global::System.Windows.Forms.Label lblUserLTopArtistPlaycount18;
-        internal global::System.Windows.Forms.Label lblUserLTopArtistPlaycount17;
-        internal global::System.Windows.Forms.Label lblUserLTopArtistPlaycount16;
-        internal global::System.Windows.Forms.Label lblUserLTopArtistPlaycount15;
-        internal global::System.Windows.Forms.Label lblUserLTopArtistPlaycount14;
-        internal global::System.Windows.Forms.Label lblUserLTopArtistPlaycount13;
-        internal global::System.Windows.Forms.Label lblUserLTopArtistPlaycount12;
-        internal global::System.Windows.Forms.Label lblUserLTopArtistPlaycount11;
-        internal global::System.Windows.Forms.Label lblUserLTopArtistPlaycount10;
-        internal global::System.Windows.Forms.Label lblUserLTopArtistPlaycount9;
-        internal global::System.Windows.Forms.Label lblUserLTopArtistPlaycount8;
-        internal global::System.Windows.Forms.Label lblUserLTopArtistPlaycount7;
-        internal global::System.Windows.Forms.Label lblUserLTopArtistPlaycount6;
-        internal global::System.Windows.Forms.Label lblUserLTopArtistPlaycount5;
-        internal global::System.Windows.Forms.Label lblUserLTopArtistPlaycount4;
-        internal global::System.Windows.Forms.Label lblUserLTopArtistPlaycount3;
-        internal global::System.Windows.Forms.Label lblUserLTopArtistPlaycount2;
-        internal global::System.Windows.Forms.Label lblUserLTopArtistPlaycount1;
-        internal global::System.Windows.Forms.Label Label222;
-        internal global::System.Windows.Forms.Label lblUserLTopArtist20;
-        internal global::System.Windows.Forms.Label Label225;
-        internal global::System.Windows.Forms.Label lblUserLTopArtist19;
-        internal global::System.Windows.Forms.Label Label227;
-        internal global::System.Windows.Forms.Label lblUserLTopArtist18;
-        internal global::System.Windows.Forms.Label Label230;
-        internal global::System.Windows.Forms.Label lblUserLTopArtist17;
-        internal global::System.Windows.Forms.Label Label234;
-        internal global::System.Windows.Forms.Label lblUserLTopArtist16;
-        internal global::System.Windows.Forms.Label Label237;
-        internal global::System.Windows.Forms.Label lblUserLTopArtist15;
-        internal global::System.Windows.Forms.Label Label239;
-        internal global::System.Windows.Forms.Label lblUserLTopArtist14;
-        internal global::System.Windows.Forms.Label Label243;
-        internal global::System.Windows.Forms.Label lblUserLTopArtist13;
-        internal global::System.Windows.Forms.Label Label246;
-        internal global::System.Windows.Forms.Label lblUserLTopArtist12;
-        internal global::System.Windows.Forms.Label Label250;
-        internal global::System.Windows.Forms.Label lblUserLTopArtist11;
-        internal global::System.Windows.Forms.Label Label253;
-        internal global::System.Windows.Forms.Label lblUserLTopArtist10;
-        internal global::System.Windows.Forms.Label Label255;
-        internal global::System.Windows.Forms.Label lblUserLTopArtist9;
-        internal global::System.Windows.Forms.Label Label259;
-        internal global::System.Windows.Forms.Label lblUserLTopArtist8;
-        internal global::System.Windows.Forms.Label Label262;
-        internal global::System.Windows.Forms.Label lblUserLTopArtist7;
-        internal global::System.Windows.Forms.Label Label267;
-        internal global::System.Windows.Forms.Label lblUserLTopArtist6;
-        internal global::System.Windows.Forms.Label Label270;
-        internal global::System.Windows.Forms.Label lblUserLTopArtist5;
-        internal global::System.Windows.Forms.Label Label273;
-        internal global::System.Windows.Forms.Label lblUserLTopArtist4;
-        internal global::System.Windows.Forms.Label Label276;
-        internal global::System.Windows.Forms.Label lblUserLTopArtist3;
-        internal global::System.Windows.Forms.Label Label278;
-        internal global::System.Windows.Forms.Label lblUserLTopArtist2;
-        internal global::System.Windows.Forms.Label Label281;
-        internal global::System.Windows.Forms.Label lblUserLTopArtist1;
-        internal global::System.Windows.Forms.Label Label284;
-        internal global::System.Windows.Forms.Label Label285;
-        internal global::System.Windows.Forms.Label Label286;
+        internal global::Audiograph.Label lblUserLTopArtistPlaycount20;
+        internal global::Audiograph.Label lblUserLTopArtistPlaycount19;
+        internal global::Audiograph.Label lblUserLTopArtistPlaycount18;
+        internal global::Audiograph.Label lblUserLTopArtistPlaycount17;
+        internal global::Audiograph.Label lblUserLTopArtistPlaycount16;
+        internal global::Audiograph.Label lblUserLTopArtistPlaycount15;
+        internal global::Audiograph.Label lblUserLTopArtistPlaycount14;
+        internal global::Audiograph.Label lblUserLTopArtistPlaycount13;
+        internal global::Audiograph.Label lblUserLTopArtistPlaycount12;
+        internal global::Audiograph.Label lblUserLTopArtistPlaycount11;
+        internal global::Audiograph.Label lblUserLTopArtistPlaycount10;
+        internal global::Audiograph.Label lblUserLTopArtistPlaycount9;
+        internal global::Audiograph.Label lblUserLTopArtistPlaycount8;
+        internal global::Audiograph.Label lblUserLTopArtistPlaycount7;
+        internal global::Audiograph.Label lblUserLTopArtistPlaycount6;
+        internal global::Audiograph.Label lblUserLTopArtistPlaycount5;
+        internal global::Audiograph.Label lblUserLTopArtistPlaycount4;
+        internal global::Audiograph.Label lblUserLTopArtistPlaycount3;
+        internal global::Audiograph.Label lblUserLTopArtistPlaycount2;
+        internal global::Audiograph.Label lblUserLTopArtistPlaycount1;
+        internal global::Audiograph.Label Label222;
+        internal global::Audiograph.Label lblUserLTopArtist20;
+        internal global::Audiograph.Label Label225;
+        internal global::Audiograph.Label lblUserLTopArtist19;
+        internal global::Audiograph.Label Label227;
+        internal global::Audiograph.Label lblUserLTopArtist18;
+        internal global::Audiograph.Label Label230;
+        internal global::Audiograph.Label lblUserLTopArtist17;
+        internal global::Audiograph.Label Label234;
+        internal global::Audiograph.Label lblUserLTopArtist16;
+        internal global::Audiograph.Label Label237;
+        internal global::Audiograph.Label lblUserLTopArtist15;
+        internal global::Audiograph.Label Label239;
+        internal global::Audiograph.Label lblUserLTopArtist14;
+        internal global::Audiograph.Label Label243;
+        internal global::Audiograph.Label lblUserLTopArtist13;
+        internal global::Audiograph.Label Label246;
+        internal global::Audiograph.Label lblUserLTopArtist12;
+        internal global::Audiograph.Label Label250;
+        internal global::Audiograph.Label lblUserLTopArtist11;
+        internal global::Audiograph.Label Label253;
+        internal global::Audiograph.Label lblUserLTopArtist10;
+        internal global::Audiograph.Label Label255;
+        internal global::Audiograph.Label lblUserLTopArtist9;
+        internal global::Audiograph.Label Label259;
+        internal global::Audiograph.Label lblUserLTopArtist8;
+        internal global::Audiograph.Label Label262;
+        internal global::Audiograph.Label lblUserLTopArtist7;
+        internal global::Audiograph.Label Label267;
+        internal global::Audiograph.Label lblUserLTopArtist6;
+        internal global::Audiograph.Label Label270;
+        internal global::Audiograph.Label lblUserLTopArtist5;
+        internal global::Audiograph.Label Label273;
+        internal global::Audiograph.Label lblUserLTopArtist4;
+        internal global::Audiograph.Label Label276;
+        internal global::Audiograph.Label lblUserLTopArtist3;
+        internal global::Audiograph.Label Label278;
+        internal global::Audiograph.Label lblUserLTopArtist2;
+        internal global::Audiograph.Label Label281;
+        internal global::Audiograph.Label lblUserLTopArtist1;
+        internal global::Audiograph.Label Label284;
+        internal global::Audiograph.Label Label285;
+        internal global::Audiograph.Label Label286;
         internal global::System.Windows.Forms.TabPage pgUserLTopAlbums;
         internal global::Audiograph.DBLayoutPanel DbLayoutPanel7;
-        internal global::System.Windows.Forms.Label lblUserLTopAlbumPlaycount20;
-        internal global::System.Windows.Forms.Label lblUserLTopAlbumPlaycount19;
-        internal global::System.Windows.Forms.Label lblUserLTopAlbumPlaycount18;
-        internal global::System.Windows.Forms.Label lblUserLTopAlbumPlaycount17;
-        internal global::System.Windows.Forms.Label lblUserLTopAlbumPlaycount16;
-        internal global::System.Windows.Forms.Label lblUserLTopAlbumPlaycount15;
-        internal global::System.Windows.Forms.Label lblUserLTopAlbumPlaycount14;
-        internal global::System.Windows.Forms.Label lblUserLTopAlbumPlaycount13;
-        internal global::System.Windows.Forms.Label lblUserLTopAlbumPlaycount12;
-        internal global::System.Windows.Forms.Label lblUserLTopAlbumPlaycount11;
-        internal global::System.Windows.Forms.Label lblUserLTopAlbumPlaycount10;
-        internal global::System.Windows.Forms.Label lblUserLTopAlbumPlaycount9;
-        internal global::System.Windows.Forms.Label lblUserLTopAlbumPlaycount8;
-        internal global::System.Windows.Forms.Label lblUserLTopAlbumPlaycount7;
-        internal global::System.Windows.Forms.Label lblUserLTopAlbumPlaycount6;
-        internal global::System.Windows.Forms.Label lblUserLTopAlbumPlaycount5;
-        internal global::System.Windows.Forms.Label lblUserLTopAlbumPlaycount4;
-        internal global::System.Windows.Forms.Label lblUserLTopAlbumPlaycount3;
-        internal global::System.Windows.Forms.Label lblUserLTopAlbumPlaycount2;
-        internal global::System.Windows.Forms.Label lblUserLTopAlbumPlaycount1;
-        internal global::System.Windows.Forms.Label Label314;
-        internal global::System.Windows.Forms.Label lblUserLTopAlbumArtist20;
-        internal global::System.Windows.Forms.Label lblUserLTopAlbum20;
+        internal global::Audiograph.Label lblUserLTopAlbumPlaycount20;
+        internal global::Audiograph.Label lblUserLTopAlbumPlaycount19;
+        internal global::Audiograph.Label lblUserLTopAlbumPlaycount18;
+        internal global::Audiograph.Label lblUserLTopAlbumPlaycount17;
+        internal global::Audiograph.Label lblUserLTopAlbumPlaycount16;
+        internal global::Audiograph.Label lblUserLTopAlbumPlaycount15;
+        internal global::Audiograph.Label lblUserLTopAlbumPlaycount14;
+        internal global::Audiograph.Label lblUserLTopAlbumPlaycount13;
+        internal global::Audiograph.Label lblUserLTopAlbumPlaycount12;
+        internal global::Audiograph.Label lblUserLTopAlbumPlaycount11;
+        internal global::Audiograph.Label lblUserLTopAlbumPlaycount10;
+        internal global::Audiograph.Label lblUserLTopAlbumPlaycount9;
+        internal global::Audiograph.Label lblUserLTopAlbumPlaycount8;
+        internal global::Audiograph.Label lblUserLTopAlbumPlaycount7;
+        internal global::Audiograph.Label lblUserLTopAlbumPlaycount6;
+        internal global::Audiograph.Label lblUserLTopAlbumPlaycount5;
+        internal global::Audiograph.Label lblUserLTopAlbumPlaycount4;
+        internal global::Audiograph.Label lblUserLTopAlbumPlaycount3;
+        internal global::Audiograph.Label lblUserLTopAlbumPlaycount2;
+        internal global::Audiograph.Label lblUserLTopAlbumPlaycount1;
+        internal global::Audiograph.Label Label314;
+        internal global::Audiograph.Label lblUserLTopAlbumArtist20;
+        internal global::Audiograph.Label lblUserLTopAlbum20;
         internal global::System.Windows.Forms.PictureBox picUserLTopAlbumArt20;
-        internal global::System.Windows.Forms.Label Label318;
-        internal global::System.Windows.Forms.Label lblUserLTopAlbumArtist19;
-        internal global::System.Windows.Forms.Label lblUserLTopAlbum19;
+        internal global::Audiograph.Label Label318;
+        internal global::Audiograph.Label lblUserLTopAlbumArtist19;
+        internal global::Audiograph.Label lblUserLTopAlbum19;
         internal global::System.Windows.Forms.PictureBox picUserLTopAlbumArt19;
-        internal global::System.Windows.Forms.Label Label322;
-        internal global::System.Windows.Forms.Label lblUserLTopAlbumArtist18;
-        internal global::System.Windows.Forms.Label lblUserLTopAlbum18;
+        internal global::Audiograph.Label Label322;
+        internal global::Audiograph.Label lblUserLTopAlbumArtist18;
+        internal global::Audiograph.Label lblUserLTopAlbum18;
         internal global::System.Windows.Forms.PictureBox picUserLTopAlbumArt18;
-        internal global::System.Windows.Forms.Label Label326;
-        internal global::System.Windows.Forms.Label lblUserLTopAlbumArtist17;
-        internal global::System.Windows.Forms.Label lblUserLTopAlbum17;
+        internal global::Audiograph.Label Label326;
+        internal global::Audiograph.Label lblUserLTopAlbumArtist17;
+        internal global::Audiograph.Label lblUserLTopAlbum17;
         internal global::System.Windows.Forms.PictureBox picUserLTopAlbumArt17;
-        internal global::System.Windows.Forms.Label Label334;
-        internal global::System.Windows.Forms.Label lblUserLTopAlbumArtist16;
-        internal global::System.Windows.Forms.Label lblUserLTopAlbum16;
+        internal global::Audiograph.Label Label334;
+        internal global::Audiograph.Label lblUserLTopAlbumArtist16;
+        internal global::Audiograph.Label lblUserLTopAlbum16;
         internal global::System.Windows.Forms.PictureBox picUserLTopAlbumArt16;
-        internal global::System.Windows.Forms.Label Label337;
-        internal global::System.Windows.Forms.Label lblUserLTopAlbumArtist15;
-        internal global::System.Windows.Forms.Label lblUserLTopAlbum15;
+        internal global::Audiograph.Label Label337;
+        internal global::Audiograph.Label lblUserLTopAlbumArtist15;
+        internal global::Audiograph.Label lblUserLTopAlbum15;
         internal global::System.Windows.Forms.PictureBox picUserLTopAlbumArt15;
-        internal global::System.Windows.Forms.Label Label340;
-        internal global::System.Windows.Forms.Label lblUserLTopAlbumArtist14;
-        internal global::System.Windows.Forms.Label lblUserLTopAlbum14;
+        internal global::Audiograph.Label Label340;
+        internal global::Audiograph.Label lblUserLTopAlbumArtist14;
+        internal global::Audiograph.Label lblUserLTopAlbum14;
         internal global::System.Windows.Forms.PictureBox picUserLTopAlbumArt14;
-        internal global::System.Windows.Forms.Label Label343;
-        internal global::System.Windows.Forms.Label lblUserLTopAlbumArtist13;
-        internal global::System.Windows.Forms.Label lblUserLTopAlbum13;
+        internal global::Audiograph.Label Label343;
+        internal global::Audiograph.Label lblUserLTopAlbumArtist13;
+        internal global::Audiograph.Label lblUserLTopAlbum13;
         internal global::System.Windows.Forms.PictureBox picUserLTopAlbumArt13;
-        internal global::System.Windows.Forms.Label Label346;
-        internal global::System.Windows.Forms.Label lblUserLTopAlbumArtist12;
-        internal global::System.Windows.Forms.Label lblUserLTopAlbum12;
+        internal global::Audiograph.Label Label346;
+        internal global::Audiograph.Label lblUserLTopAlbumArtist12;
+        internal global::Audiograph.Label lblUserLTopAlbum12;
         internal global::System.Windows.Forms.PictureBox picUserLTopAlbumArt12;
-        internal global::System.Windows.Forms.Label Label349;
-        internal global::System.Windows.Forms.Label lblUserLTopAlbumArtist11;
-        internal global::System.Windows.Forms.Label lblUserLTopAlbum11;
+        internal global::Audiograph.Label Label349;
+        internal global::Audiograph.Label lblUserLTopAlbumArtist11;
+        internal global::Audiograph.Label lblUserLTopAlbum11;
         internal global::System.Windows.Forms.PictureBox picUserLTopAlbumArt11;
-        internal global::System.Windows.Forms.Label Label352;
-        internal global::System.Windows.Forms.Label lblUserLTopAlbumArtist10;
-        internal global::System.Windows.Forms.Label lblUserLTopAlbum10;
+        internal global::Audiograph.Label Label352;
+        internal global::Audiograph.Label lblUserLTopAlbumArtist10;
+        internal global::Audiograph.Label lblUserLTopAlbum10;
         internal global::System.Windows.Forms.PictureBox picUserLTopAlbumArt10;
-        internal global::System.Windows.Forms.Label Label355;
-        internal global::System.Windows.Forms.Label lblUserLTopAlbumArtist9;
-        internal global::System.Windows.Forms.Label lblUserLTopAlbum9;
+        internal global::Audiograph.Label Label355;
+        internal global::Audiograph.Label lblUserLTopAlbumArtist9;
+        internal global::Audiograph.Label lblUserLTopAlbum9;
         internal global::System.Windows.Forms.PictureBox picUserLTopAlbumArt9;
-        internal global::System.Windows.Forms.Label Label358;
-        internal global::System.Windows.Forms.Label lblUserLTopAlbumArtist8;
-        internal global::System.Windows.Forms.Label lblUserLTopAlbum8;
+        internal global::Audiograph.Label Label358;
+        internal global::Audiograph.Label lblUserLTopAlbumArtist8;
+        internal global::Audiograph.Label lblUserLTopAlbum8;
         internal global::System.Windows.Forms.PictureBox picUserLTopAlbumArt8;
-        internal global::System.Windows.Forms.Label Label361;
-        internal global::System.Windows.Forms.Label lblUserLTopAlbumArtist7;
-        internal global::System.Windows.Forms.Label lblUserLTopAlbum7;
+        internal global::Audiograph.Label Label361;
+        internal global::Audiograph.Label lblUserLTopAlbumArtist7;
+        internal global::Audiograph.Label lblUserLTopAlbum7;
         internal global::System.Windows.Forms.PictureBox picUserLTopAlbumArt7;
-        internal global::System.Windows.Forms.Label Label364;
-        internal global::System.Windows.Forms.Label lblUserLTopAlbumArtist6;
-        internal global::System.Windows.Forms.Label lblUserLTopAlbum6;
+        internal global::Audiograph.Label Label364;
+        internal global::Audiograph.Label lblUserLTopAlbumArtist6;
+        internal global::Audiograph.Label lblUserLTopAlbum6;
         internal global::System.Windows.Forms.PictureBox picUserLTopAlbumArt6;
-        internal global::System.Windows.Forms.Label Label367;
-        internal global::System.Windows.Forms.Label lblUserLTopAlbumArtist5;
-        internal global::System.Windows.Forms.Label lblUserLTopAlbum5;
+        internal global::Audiograph.Label Label367;
+        internal global::Audiograph.Label lblUserLTopAlbumArtist5;
+        internal global::Audiograph.Label lblUserLTopAlbum5;
         internal global::System.Windows.Forms.PictureBox picUserLTopAlbumArt5;
-        internal global::System.Windows.Forms.Label Label370;
-        internal global::System.Windows.Forms.Label lblUserLTopAlbumArtist4;
-        internal global::System.Windows.Forms.Label lblUserLTopAlbum4;
+        internal global::Audiograph.Label Label370;
+        internal global::Audiograph.Label lblUserLTopAlbumArtist4;
+        internal global::Audiograph.Label lblUserLTopAlbum4;
         internal global::System.Windows.Forms.PictureBox picUserLTopAlbumArt4;
-        internal global::System.Windows.Forms.Label Label373;
-        internal global::System.Windows.Forms.Label lblUserLTopAlbumArtist3;
-        internal global::System.Windows.Forms.Label lblUserLTopAlbum3;
+        internal global::Audiograph.Label Label373;
+        internal global::Audiograph.Label lblUserLTopAlbumArtist3;
+        internal global::Audiograph.Label lblUserLTopAlbum3;
         internal global::System.Windows.Forms.PictureBox picUserLTopAlbumArt3;
-        internal global::System.Windows.Forms.Label Label376;
-        internal global::System.Windows.Forms.Label lblUserLTopAlbumArtist2;
-        internal global::System.Windows.Forms.Label lblUserLTopAlbum2;
+        internal global::Audiograph.Label Label376;
+        internal global::Audiograph.Label lblUserLTopAlbumArtist2;
+        internal global::Audiograph.Label lblUserLTopAlbum2;
         internal global::System.Windows.Forms.PictureBox picUserLTopAlbumArt2;
-        internal global::System.Windows.Forms.Label Label379;
-        internal global::System.Windows.Forms.Label lblUserLTopAlbumArtist1;
-        internal global::System.Windows.Forms.Label lblUserLTopAlbum1;
-        internal global::System.Windows.Forms.Label Label382;
-        internal global::System.Windows.Forms.Label Label383;
+        internal global::Audiograph.Label Label379;
+        internal global::Audiograph.Label lblUserLTopAlbumArtist1;
+        internal global::Audiograph.Label lblUserLTopAlbum1;
+        internal global::Audiograph.Label Label382;
+        internal global::Audiograph.Label Label383;
         internal global::System.Windows.Forms.PictureBox picUserLTopAlbumArt1;
-        internal global::System.Windows.Forms.Label Label384;
-        internal global::System.Windows.Forms.Label Label385;
-        internal global::System.Windows.Forms.Label Label386;
-        internal global::System.Windows.Forms.Label lblUserLFrom;
+        internal global::Audiograph.Label Label384;
+        internal global::Audiograph.Label Label385;
+        internal global::Audiograph.Label Label386;
+        internal global::Audiograph.Label lblUserLFrom;
         internal global::System.Windows.Forms.GroupBox GroupBox4;
         internal global::System.Windows.Forms.TabControl tbcUserLInfo;
         internal global::System.Windows.Forms.TabPage pgUserLInfo;
@@ -22568,107 +23527,107 @@ namespace Audiograph
         internal global::System.Windows.Forms.RichTextBox txtUserLInfo;
         internal global::System.Windows.Forms.PictureBox picUserL;
         internal global::System.Windows.Forms.TabPage pgUserLFriends;
-        internal global::System.Windows.Forms.Label lblUserLFriendTotal;
+        internal global::Audiograph.Label lblUserLFriendTotal;
         internal global::System.Windows.Forms.ListView ltvUserLFriends;
         internal global::System.Windows.Forms.ColumnHeader ColumnHeader1;
         internal global::System.Windows.Forms.ColumnHeader ColumnHeader2;
         internal global::System.Windows.Forms.ColumnHeader ColumnHeader3;
         internal global::System.Windows.Forms.ColumnHeader ColumnHeader4;
         internal global::System.Windows.Forms.TabPage pgUserLLovedTracks;
-        internal global::System.Windows.Forms.Label lblUserLLovedTotalTracks;
+        internal global::Audiograph.Label lblUserLLovedTotalTracks;
         internal global::System.Windows.Forms.NumericUpDown nudUserLLovedPage;
         internal global::System.Windows.Forms.ListView ltvUserLLovedTracks;
         internal global::System.Windows.Forms.ColumnHeader ColumnHeader5;
         internal global::System.Windows.Forms.ColumnHeader ColumnHeader6;
         internal global::System.Windows.Forms.ColumnHeader ColumnHeader7;
-        internal global::System.Windows.Forms.Label Label390;
-        internal global::System.Windows.Forms.Label lblUserLLovedTotalPages;
+        internal global::Audiograph.Label Label390;
+        internal global::Audiograph.Label lblUserLLovedTotalPages;
         internal global::System.Windows.Forms.TabPage pgUserLRecentTracks;
         internal global::Audiograph.DBLayoutPanel DbLayoutPanel8;
-        internal global::System.Windows.Forms.Label lblUserLRecentAlbum20;
-        internal global::System.Windows.Forms.Label lblUserLRecentArtist20;
-        internal global::System.Windows.Forms.Label lblUserLRecentTitle20;
+        internal global::Audiograph.Label lblUserLRecentAlbum20;
+        internal global::Audiograph.Label lblUserLRecentArtist20;
+        internal global::Audiograph.Label lblUserLRecentTitle20;
         internal global::System.Windows.Forms.PictureBox picUserLRecentArt20;
-        internal global::System.Windows.Forms.Label lblUserLRecentAlbum19;
-        internal global::System.Windows.Forms.Label lblUserLRecentArtist19;
-        internal global::System.Windows.Forms.Label lblUserLRecentTitle19;
+        internal global::Audiograph.Label lblUserLRecentAlbum19;
+        internal global::Audiograph.Label lblUserLRecentArtist19;
+        internal global::Audiograph.Label lblUserLRecentTitle19;
         internal global::System.Windows.Forms.PictureBox picUserLRecentArt19;
-        internal global::System.Windows.Forms.Label lblUserLRecentAlbum18;
-        internal global::System.Windows.Forms.Label lblUserLRecentArtist18;
-        internal global::System.Windows.Forms.Label lblUserLRecentTitle18;
+        internal global::Audiograph.Label lblUserLRecentAlbum18;
+        internal global::Audiograph.Label lblUserLRecentArtist18;
+        internal global::Audiograph.Label lblUserLRecentTitle18;
         internal global::System.Windows.Forms.PictureBox picUserLRecentArt18;
-        internal global::System.Windows.Forms.Label lblUserLRecentAlbum17;
-        internal global::System.Windows.Forms.Label lblUserLRecentArtist17;
-        internal global::System.Windows.Forms.Label lblUserLRecentTitle17;
+        internal global::Audiograph.Label lblUserLRecentAlbum17;
+        internal global::Audiograph.Label lblUserLRecentArtist17;
+        internal global::Audiograph.Label lblUserLRecentTitle17;
         internal global::System.Windows.Forms.PictureBox picUserLRecentArt17;
-        internal global::System.Windows.Forms.Label lblUserLRecentAlbum16;
-        internal global::System.Windows.Forms.Label lblUserLRecentArtist16;
-        internal global::System.Windows.Forms.Label lblUserLRecentTitle16;
+        internal global::Audiograph.Label lblUserLRecentAlbum16;
+        internal global::Audiograph.Label lblUserLRecentArtist16;
+        internal global::Audiograph.Label lblUserLRecentTitle16;
         internal global::System.Windows.Forms.PictureBox picUserLRecentArt16;
-        internal global::System.Windows.Forms.Label lblUserLRecentAlbum15;
-        internal global::System.Windows.Forms.Label lblUserLRecentArtist15;
-        internal global::System.Windows.Forms.Label lblUserLRecentTitle15;
+        internal global::Audiograph.Label lblUserLRecentAlbum15;
+        internal global::Audiograph.Label lblUserLRecentArtist15;
+        internal global::Audiograph.Label lblUserLRecentTitle15;
         internal global::System.Windows.Forms.PictureBox picUserLRecentArt15;
-        internal global::System.Windows.Forms.Label lblUserLRecentAlbum14;
-        internal global::System.Windows.Forms.Label lblUserLRecentArtist14;
-        internal global::System.Windows.Forms.Label lblUserLRecentTitle14;
+        internal global::Audiograph.Label lblUserLRecentAlbum14;
+        internal global::Audiograph.Label lblUserLRecentArtist14;
+        internal global::Audiograph.Label lblUserLRecentTitle14;
         internal global::System.Windows.Forms.PictureBox picUserLRecentArt14;
-        internal global::System.Windows.Forms.Label lblUserLRecentAlbum13;
-        internal global::System.Windows.Forms.Label lblUserLRecentArtist13;
-        internal global::System.Windows.Forms.Label lblUserLRecentTitle13;
+        internal global::Audiograph.Label lblUserLRecentAlbum13;
+        internal global::Audiograph.Label lblUserLRecentArtist13;
+        internal global::Audiograph.Label lblUserLRecentTitle13;
         internal global::System.Windows.Forms.PictureBox picUserLRecentArt13;
-        internal global::System.Windows.Forms.Label lblUserLRecentAlbum12;
-        internal global::System.Windows.Forms.Label lblUserLRecentArtist12;
-        internal global::System.Windows.Forms.Label lblUserLRecentTitle12;
+        internal global::Audiograph.Label lblUserLRecentAlbum12;
+        internal global::Audiograph.Label lblUserLRecentArtist12;
+        internal global::Audiograph.Label lblUserLRecentTitle12;
         internal global::System.Windows.Forms.PictureBox picUserLRecentArt12;
-        internal global::System.Windows.Forms.Label lblUserLRecentAlbum11;
-        internal global::System.Windows.Forms.Label lblUserLRecentArtist11;
-        internal global::System.Windows.Forms.Label lblUserLRecentTitle11;
+        internal global::Audiograph.Label lblUserLRecentAlbum11;
+        internal global::Audiograph.Label lblUserLRecentArtist11;
+        internal global::Audiograph.Label lblUserLRecentTitle11;
         internal global::System.Windows.Forms.PictureBox picUserLRecentArt11;
-        internal global::System.Windows.Forms.Label lblUserLRecentAlbum10;
-        internal global::System.Windows.Forms.Label lblUserLRecentArtist10;
-        internal global::System.Windows.Forms.Label lblUserLRecentTitle10;
+        internal global::Audiograph.Label lblUserLRecentAlbum10;
+        internal global::Audiograph.Label lblUserLRecentArtist10;
+        internal global::Audiograph.Label lblUserLRecentTitle10;
         internal global::System.Windows.Forms.PictureBox picUserLRecentArt10;
-        internal global::System.Windows.Forms.Label lblUserLRecentAlbum9;
-        internal global::System.Windows.Forms.Label lblUserLRecentArtist9;
-        internal global::System.Windows.Forms.Label lblUserLRecentTitle9;
+        internal global::Audiograph.Label lblUserLRecentAlbum9;
+        internal global::Audiograph.Label lblUserLRecentArtist9;
+        internal global::Audiograph.Label lblUserLRecentTitle9;
         internal global::System.Windows.Forms.PictureBox picUserLRecentArt9;
-        internal global::System.Windows.Forms.Label lblUserLRecentAlbum8;
-        internal global::System.Windows.Forms.Label lblUserLRecentArtist8;
-        internal global::System.Windows.Forms.Label lblUserLRecentTitle8;
+        internal global::Audiograph.Label lblUserLRecentAlbum8;
+        internal global::Audiograph.Label lblUserLRecentArtist8;
+        internal global::Audiograph.Label lblUserLRecentTitle8;
         internal global::System.Windows.Forms.PictureBox picUserLRecentArt8;
-        internal global::System.Windows.Forms.Label lblUserLRecentAlbum7;
-        internal global::System.Windows.Forms.Label lblUserLRecentArtist7;
-        internal global::System.Windows.Forms.Label lblUserLRecentTitle7;
+        internal global::Audiograph.Label lblUserLRecentAlbum7;
+        internal global::Audiograph.Label lblUserLRecentArtist7;
+        internal global::Audiograph.Label lblUserLRecentTitle7;
         internal global::System.Windows.Forms.PictureBox picUserLRecentArt7;
-        internal global::System.Windows.Forms.Label lblUserLRecentAlbum6;
-        internal global::System.Windows.Forms.Label lblUserLRecentArtist6;
-        internal global::System.Windows.Forms.Label lblUserLRecentTitle6;
+        internal global::Audiograph.Label lblUserLRecentAlbum6;
+        internal global::Audiograph.Label lblUserLRecentArtist6;
+        internal global::Audiograph.Label lblUserLRecentTitle6;
         internal global::System.Windows.Forms.PictureBox picUserLRecentArt6;
-        internal global::System.Windows.Forms.Label lblUserLRecentAlbum5;
-        internal global::System.Windows.Forms.Label lblUserLRecentArtist5;
-        internal global::System.Windows.Forms.Label lblUserLRecentTitle5;
+        internal global::Audiograph.Label lblUserLRecentAlbum5;
+        internal global::Audiograph.Label lblUserLRecentArtist5;
+        internal global::Audiograph.Label lblUserLRecentTitle5;
         internal global::System.Windows.Forms.PictureBox picUserLRecentArt5;
-        internal global::System.Windows.Forms.Label lblUserLRecentAlbum4;
-        internal global::System.Windows.Forms.Label lblUserLRecentArtist4;
-        internal global::System.Windows.Forms.Label lblUserLRecentTitle4;
+        internal global::Audiograph.Label lblUserLRecentAlbum4;
+        internal global::Audiograph.Label lblUserLRecentArtist4;
+        internal global::Audiograph.Label lblUserLRecentTitle4;
         internal global::System.Windows.Forms.PictureBox picUserLRecentArt4;
-        internal global::System.Windows.Forms.Label lblUserLRecentAlbum3;
-        internal global::System.Windows.Forms.Label lblUserLRecentArtist3;
-        internal global::System.Windows.Forms.Label lblUserLRecentTitle3;
+        internal global::Audiograph.Label lblUserLRecentAlbum3;
+        internal global::Audiograph.Label lblUserLRecentArtist3;
+        internal global::Audiograph.Label lblUserLRecentTitle3;
         internal global::System.Windows.Forms.PictureBox picUserLRecentArt3;
-        internal global::System.Windows.Forms.Label lblUserLRecentAlbum2;
-        internal global::System.Windows.Forms.Label lblUserLRecentArtist2;
-        internal global::System.Windows.Forms.Label lblUserLRecentTitle2;
+        internal global::Audiograph.Label lblUserLRecentAlbum2;
+        internal global::Audiograph.Label lblUserLRecentArtist2;
+        internal global::Audiograph.Label lblUserLRecentTitle2;
         internal global::System.Windows.Forms.PictureBox picUserLRecentArt2;
-        internal global::System.Windows.Forms.Label lblUserLRecentAlbum1;
-        internal global::System.Windows.Forms.Label lblUserLRecentArtist1;
-        internal global::System.Windows.Forms.Label Label451;
-        internal global::System.Windows.Forms.Label Label452;
-        internal global::System.Windows.Forms.Label Label453;
-        internal global::System.Windows.Forms.Label Label454;
+        internal global::Audiograph.Label lblUserLRecentAlbum1;
+        internal global::Audiograph.Label lblUserLRecentArtist1;
+        internal global::Audiograph.Label Label451;
+        internal global::Audiograph.Label Label452;
+        internal global::Audiograph.Label Label453;
+        internal global::Audiograph.Label Label454;
         internal global::System.Windows.Forms.PictureBox picUserLRecentArt1;
-        internal global::System.Windows.Forms.Label lblUserLRecentTitle1;
+        internal global::Audiograph.Label lblUserLRecentTitle1;
         internal global::System.ComponentModel.BackgroundWorker bgwTrackUpdater;
         internal global::System.ComponentModel.BackgroundWorker bgwArtistUpdater;
         internal global::System.ComponentModel.BackgroundWorker bgwAlbumUpdater;
@@ -22676,30 +23635,30 @@ namespace Audiograph
         internal global::System.ComponentModel.BackgroundWorker bgwUserLookupUpdater;
         internal global::System.Windows.Forms.Timer tmrAutoRefresh;
         internal global::System.Windows.Forms.TabPage pgUserHistory;
-        internal global::System.Windows.Forms.Label lblUserHistoryTotalTracks;
+        internal global::Audiograph.Label lblUserHistoryTotalTracks;
         internal global::System.Windows.Forms.NumericUpDown nudUserHistoryPage;
-        internal global::System.Windows.Forms.Label Label2;
-        internal global::System.Windows.Forms.Label lblUserHistoryTotalPages;
+        internal global::Audiograph.Label Label2;
+        internal global::Audiograph.Label lblUserHistoryTotalPages;
         internal global::System.Windows.Forms.ListView ltvUserHistory;
         internal global::System.Windows.Forms.ColumnHeader ColumnHeader8;
         internal global::System.Windows.Forms.ColumnHeader ColumnHeader9;
         internal global::System.Windows.Forms.ColumnHeader ColumnHeader11;
         internal global::System.Windows.Forms.ColumnHeader ColumnHeader10;
         internal global::System.Windows.Forms.TabPage pgUserLHistory;
-        internal global::System.Windows.Forms.Label lblUserLHistoryTotalTracks;
+        internal global::Audiograph.Label lblUserLHistoryTotalTracks;
         internal global::System.Windows.Forms.NumericUpDown nudUserLHistoryPage;
-        internal global::System.Windows.Forms.Label Label23;
-        internal global::System.Windows.Forms.Label lblUserLHistoryTotalPages;
+        internal global::Audiograph.Label Label23;
+        internal global::Audiograph.Label lblUserLHistoryTotalPages;
         internal global::System.Windows.Forms.ListView ltvUserLHistory;
         internal global::System.Windows.Forms.ColumnHeader ColumnHeader12;
         internal global::System.Windows.Forms.ColumnHeader ColumnHeader13;
         internal global::System.Windows.Forms.ColumnHeader ColumnHeader14;
         internal global::System.Windows.Forms.ColumnHeader ColumnHeader15;
         internal global::System.Windows.Forms.TextBox txtTrackTitle;
-        internal global::System.Windows.Forms.Label lblTrackTitle;
+        internal global::Audiograph.Label lblTrackTitle;
         internal global::Audiograph.DBLayoutPanel tlpTrack;
         internal global::System.Windows.Forms.TextBox txtTrackArtist;
-        internal global::System.Windows.Forms.Label lblTrackArtist;
+        internal global::Audiograph.Label lblTrackArtist;
         internal global::System.Windows.Forms.Button btnTrackGo;
         internal global::System.Windows.Forms.Button btnTrackAdvanced;
         internal global::System.Windows.Forms.RichTextBox txtTrackInfo;
@@ -22717,7 +23676,7 @@ namespace Audiograph
         internal global::System.Windows.Forms.Button btnArtistAdvanced;
         internal global::System.Windows.Forms.Button btnArtistGo;
         internal global::System.Windows.Forms.TextBox txtArtistName;
-        internal global::System.Windows.Forms.Label Label1;
+        internal global::Audiograph.Label Label1;
         internal global::System.Windows.Forms.TabPage pgSearch;
         internal global::System.ComponentModel.BackgroundWorker bgwUserLovedUpdater;
         internal global::System.ComponentModel.BackgroundWorker bgwUserChartUpdater;
@@ -22736,145 +23695,145 @@ namespace Audiograph
         internal global::System.Windows.Forms.TabPage pgArtistTopTracks;
         internal global::Audiograph.DBLayoutPanel DbLayoutPanel4;
         internal global::System.Windows.Forms.TabPage pgArtistTopAlbums;
-        internal global::System.Windows.Forms.Label lblArtistTopTrackTitle20;
-        internal global::System.Windows.Forms.Label lblArtistTopTrackListeners20;
-        internal global::System.Windows.Forms.Label Label157;
-        internal global::System.Windows.Forms.Label lblArtistTopTrackTitle19;
-        internal global::System.Windows.Forms.Label lblArtistTopTrackListeners19;
-        internal global::System.Windows.Forms.Label Label152;
-        internal global::System.Windows.Forms.Label lblArtistTopTrackTitle18;
-        internal global::System.Windows.Forms.Label lblArtistTopTrackListeners18;
-        internal global::System.Windows.Forms.Label Label145;
-        internal global::System.Windows.Forms.Label lblArtistTopTrackTitle17;
-        internal global::System.Windows.Forms.Label lblArtistTopTrackListeners17;
-        internal global::System.Windows.Forms.Label Label133;
-        internal global::System.Windows.Forms.Label lblArtistTopTrackTitle16;
-        internal global::System.Windows.Forms.Label lblArtistTopTrackListeners16;
-        internal global::System.Windows.Forms.Label Label123;
-        internal global::System.Windows.Forms.Label lblArtistTopTrackTitle15;
-        internal global::System.Windows.Forms.Label lblArtistTopTrackListeners15;
-        internal global::System.Windows.Forms.Label Label113;
-        internal global::System.Windows.Forms.Label lblArtistTopTrackTitle14;
-        internal global::System.Windows.Forms.Label lblArtistTopTrackListeners14;
-        internal global::System.Windows.Forms.Label Label107;
-        internal global::System.Windows.Forms.Label lblArtistTopTrackTitle13;
-        internal global::System.Windows.Forms.Label lblArtistTopTrackListeners13;
-        internal global::System.Windows.Forms.Label Label102;
-        internal global::System.Windows.Forms.Label lblArtistTopTrackTitle12;
-        internal global::System.Windows.Forms.Label lblArtistTopTrackListeners12;
-        internal global::System.Windows.Forms.Label Label97;
-        internal global::System.Windows.Forms.Label lblArtistTopTrackTitle11;
-        internal global::System.Windows.Forms.Label lblArtistTopTrackListeners11;
-        internal global::System.Windows.Forms.Label Label90;
-        internal global::System.Windows.Forms.Label lblArtistTopTrackTitle10;
-        internal global::System.Windows.Forms.Label lblArtistTopTrackListeners10;
-        internal global::System.Windows.Forms.Label Label83;
-        internal global::System.Windows.Forms.Label lblArtistTopTrackTitle9;
-        internal global::System.Windows.Forms.Label lblArtistTopTrackListeners9;
-        internal global::System.Windows.Forms.Label Label76;
-        internal global::System.Windows.Forms.Label lblArtistTopTrackTitle8;
-        internal global::System.Windows.Forms.Label lblArtistTopTrackListeners8;
-        internal global::System.Windows.Forms.Label Label68;
-        internal global::System.Windows.Forms.Label lblArtistTopTrackTitle7;
-        internal global::System.Windows.Forms.Label lblArtistTopTrackListeners7;
-        internal global::System.Windows.Forms.Label Label62;
-        internal global::System.Windows.Forms.Label lblArtistTopTrackTitle6;
-        internal global::System.Windows.Forms.Label lblArtistTopTrackListeners6;
-        internal global::System.Windows.Forms.Label Label55;
-        internal global::System.Windows.Forms.Label lblArtistTopTrackTitle5;
-        internal global::System.Windows.Forms.Label lblArtistTopTrackListeners5;
-        internal global::System.Windows.Forms.Label Label47;
-        internal global::System.Windows.Forms.Label lblArtistTopTrackTitle4;
-        internal global::System.Windows.Forms.Label lblArtistTopTrackListeners4;
-        internal global::System.Windows.Forms.Label Label43;
-        internal global::System.Windows.Forms.Label lblArtistTopTrackTitle3;
-        internal global::System.Windows.Forms.Label lblArtistTopTrackListeners3;
-        internal global::System.Windows.Forms.Label Label39;
-        internal global::System.Windows.Forms.Label lblArtistTopTrackTitle2;
-        internal global::System.Windows.Forms.Label lblArtistTopTrackListeners2;
-        internal global::System.Windows.Forms.Label Label35;
-        internal global::System.Windows.Forms.Label lblArtistTopTrackListeners1;
-        internal global::System.Windows.Forms.Label lblArtistTopTrackTitle1;
-        internal global::System.Windows.Forms.Label Label31;
-        internal global::System.Windows.Forms.Label Label30;
-        internal global::System.Windows.Forms.Label Label28;
-        internal global::System.Windows.Forms.Label Label27;
+        internal global::Audiograph.Label lblArtistTopTrackTitle20;
+        internal global::Audiograph.Label lblArtistTopTrackListeners20;
+        internal global::Audiograph.Label Label157;
+        internal global::Audiograph.Label lblArtistTopTrackTitle19;
+        internal global::Audiograph.Label lblArtistTopTrackListeners19;
+        internal global::Audiograph.Label Label152;
+        internal global::Audiograph.Label lblArtistTopTrackTitle18;
+        internal global::Audiograph.Label lblArtistTopTrackListeners18;
+        internal global::Audiograph.Label Label145;
+        internal global::Audiograph.Label lblArtistTopTrackTitle17;
+        internal global::Audiograph.Label lblArtistTopTrackListeners17;
+        internal global::Audiograph.Label Label133;
+        internal global::Audiograph.Label lblArtistTopTrackTitle16;
+        internal global::Audiograph.Label lblArtistTopTrackListeners16;
+        internal global::Audiograph.Label Label123;
+        internal global::Audiograph.Label lblArtistTopTrackTitle15;
+        internal global::Audiograph.Label lblArtistTopTrackListeners15;
+        internal global::Audiograph.Label Label113;
+        internal global::Audiograph.Label lblArtistTopTrackTitle14;
+        internal global::Audiograph.Label lblArtistTopTrackListeners14;
+        internal global::Audiograph.Label Label107;
+        internal global::Audiograph.Label lblArtistTopTrackTitle13;
+        internal global::Audiograph.Label lblArtistTopTrackListeners13;
+        internal global::Audiograph.Label Label102;
+        internal global::Audiograph.Label lblArtistTopTrackTitle12;
+        internal global::Audiograph.Label lblArtistTopTrackListeners12;
+        internal global::Audiograph.Label Label97;
+        internal global::Audiograph.Label lblArtistTopTrackTitle11;
+        internal global::Audiograph.Label lblArtistTopTrackListeners11;
+        internal global::Audiograph.Label Label90;
+        internal global::Audiograph.Label lblArtistTopTrackTitle10;
+        internal global::Audiograph.Label lblArtistTopTrackListeners10;
+        internal global::Audiograph.Label Label83;
+        internal global::Audiograph.Label lblArtistTopTrackTitle9;
+        internal global::Audiograph.Label lblArtistTopTrackListeners9;
+        internal global::Audiograph.Label Label76;
+        internal global::Audiograph.Label lblArtistTopTrackTitle8;
+        internal global::Audiograph.Label lblArtistTopTrackListeners8;
+        internal global::Audiograph.Label Label68;
+        internal global::Audiograph.Label lblArtistTopTrackTitle7;
+        internal global::Audiograph.Label lblArtistTopTrackListeners7;
+        internal global::Audiograph.Label Label62;
+        internal global::Audiograph.Label lblArtistTopTrackTitle6;
+        internal global::Audiograph.Label lblArtistTopTrackListeners6;
+        internal global::Audiograph.Label Label55;
+        internal global::Audiograph.Label lblArtistTopTrackTitle5;
+        internal global::Audiograph.Label lblArtistTopTrackListeners5;
+        internal global::Audiograph.Label Label47;
+        internal global::Audiograph.Label lblArtistTopTrackTitle4;
+        internal global::Audiograph.Label lblArtistTopTrackListeners4;
+        internal global::Audiograph.Label Label43;
+        internal global::Audiograph.Label lblArtistTopTrackTitle3;
+        internal global::Audiograph.Label lblArtistTopTrackListeners3;
+        internal global::Audiograph.Label Label39;
+        internal global::Audiograph.Label lblArtistTopTrackTitle2;
+        internal global::Audiograph.Label lblArtistTopTrackListeners2;
+        internal global::Audiograph.Label Label35;
+        internal global::Audiograph.Label lblArtistTopTrackListeners1;
+        internal global::Audiograph.Label lblArtistTopTrackTitle1;
+        internal global::Audiograph.Label Label31;
+        internal global::Audiograph.Label Label30;
+        internal global::Audiograph.Label Label28;
+        internal global::Audiograph.Label Label27;
         internal global::Audiograph.DBLayoutPanel DbLayoutPanel9;
-        internal global::System.Windows.Forms.Label lblArtistTopAlbum10;
+        internal global::Audiograph.Label lblArtistTopAlbum10;
         internal global::System.Windows.Forms.PictureBox picArtistTopAlbum10;
-        internal global::System.Windows.Forms.Label Label203;
-        internal global::System.Windows.Forms.Label lblArtistTopAlbum9;
+        internal global::Audiograph.Label Label203;
+        internal global::Audiograph.Label lblArtistTopAlbum9;
         internal global::System.Windows.Forms.PictureBox picArtistTopAlbum9;
-        internal global::System.Windows.Forms.Label Label201;
-        internal global::System.Windows.Forms.Label lblArtistTopAlbum8;
+        internal global::Audiograph.Label Label201;
+        internal global::Audiograph.Label lblArtistTopAlbum8;
         internal global::System.Windows.Forms.PictureBox picArtistTopAlbum8;
-        internal global::System.Windows.Forms.Label Label198;
-        internal global::System.Windows.Forms.Label lblArtistTopAlbum7;
+        internal global::Audiograph.Label Label198;
+        internal global::Audiograph.Label lblArtistTopAlbum7;
         internal global::System.Windows.Forms.PictureBox picArtistTopAlbum7;
-        internal global::System.Windows.Forms.Label Label195;
-        internal global::System.Windows.Forms.Label lblArtistTopAlbum6;
+        internal global::Audiograph.Label Label195;
+        internal global::Audiograph.Label lblArtistTopAlbum6;
         internal global::System.Windows.Forms.PictureBox picArtistTopAlbum6;
-        internal global::System.Windows.Forms.Label Label185;
-        internal global::System.Windows.Forms.Label lblArtistTopAlbum5;
+        internal global::Audiograph.Label Label185;
+        internal global::Audiograph.Label lblArtistTopAlbum5;
         internal global::System.Windows.Forms.PictureBox picArtistTopAlbum5;
-        internal global::System.Windows.Forms.Label Label181;
-        internal global::System.Windows.Forms.Label lblArtistTopAlbum4;
+        internal global::Audiograph.Label Label181;
+        internal global::Audiograph.Label lblArtistTopAlbum4;
         internal global::System.Windows.Forms.PictureBox picArtistTopAlbum4;
-        internal global::System.Windows.Forms.Label Label179;
-        internal global::System.Windows.Forms.Label lblArtistTopAlbum3;
+        internal global::Audiograph.Label Label179;
+        internal global::Audiograph.Label lblArtistTopAlbum3;
         internal global::System.Windows.Forms.PictureBox picArtistTopAlbum3;
-        internal global::System.Windows.Forms.Label Label176;
-        internal global::System.Windows.Forms.Label lblArtistTopAlbum2;
+        internal global::Audiograph.Label Label176;
+        internal global::Audiograph.Label lblArtistTopAlbum2;
         internal global::System.Windows.Forms.PictureBox picArtistTopAlbum2;
-        internal global::System.Windows.Forms.Label Label173;
-        internal global::System.Windows.Forms.Label lblArtistTopAlbum1;
+        internal global::Audiograph.Label Label173;
+        internal global::Audiograph.Label lblArtistTopAlbum1;
         internal global::System.Windows.Forms.PictureBox picArtistTopAlbum1;
-        internal global::System.Windows.Forms.Label Label171;
-        internal global::System.Windows.Forms.Label Label169;
-        internal global::System.Windows.Forms.Label Label168;
-        internal global::System.Windows.Forms.Label Label167;
+        internal global::Audiograph.Label Label171;
+        internal global::Audiograph.Label Label169;
+        internal global::Audiograph.Label Label168;
+        internal global::Audiograph.Label Label167;
         internal global::System.Windows.Forms.GroupBox gpbTrackUserActions;
         internal global::System.Windows.Forms.SplitContainer spcTrack2;
-        internal global::System.Windows.Forms.Label lblTrackAuthWarning;
+        internal global::Audiograph.Label lblTrackAuthWarning;
         internal global::Audiograph.DBLayoutPanel tlpTrackUser;
         internal global::System.Windows.Forms.Button btnTrackLove;
-        internal global::System.Windows.Forms.Label lblTrackLove;
+        internal global::Audiograph.Label lblTrackLove;
         internal global::System.Windows.Forms.Panel Panel3;
         internal global::System.Windows.Forms.Panel Panel4;
         internal global::System.Windows.Forms.Button btnTrackTagRemove;
         internal global::System.Windows.Forms.Button btnTrackTagAdd;
-        internal global::System.Windows.Forms.Label lblTrackTags;
+        internal global::Audiograph.Label lblTrackTags;
         internal global::System.Windows.Forms.ListBox lstTrackUserTags;
         internal global::System.Windows.Forms.SplitContainer spcArtist;
         internal global::System.Windows.Forms.PictureBox picArtistArt;
         internal global::System.Windows.Forms.GroupBox gpbArtistUser;
         internal global::System.Windows.Forms.SplitContainer spcArtist2;
-        internal global::System.Windows.Forms.Label lblArtistAuthWarning;
+        internal global::Audiograph.Label lblArtistAuthWarning;
         internal global::Audiograph.DBLayoutPanel DbLayoutPanel10;
         internal global::System.Windows.Forms.Panel Panel7;
         internal global::System.Windows.Forms.Panel Panel8;
         internal global::System.Windows.Forms.Button btnArtistTagRemove;
         internal global::System.Windows.Forms.Button btnArtistTagAdd;
-        internal global::System.Windows.Forms.Label lblArtistTags;
+        internal global::Audiograph.Label lblArtistTags;
         internal global::System.Windows.Forms.ListBox lstArtistUserTags;
         internal global::System.Windows.Forms.Button btnAlbumAdvanced;
         internal global::System.Windows.Forms.Button btnAlbumGo;
         internal global::System.Windows.Forms.TextBox txtAlbumArtist;
-        internal global::System.Windows.Forms.Label Label24;
+        internal global::Audiograph.Label Label24;
         internal global::System.Windows.Forms.TextBox txtAlbumTitle;
-        internal global::System.Windows.Forms.Label Label26;
+        internal global::Audiograph.Label Label26;
         internal global::Audiograph.DBLayoutPanel tlpAlbum;
         internal global::System.Windows.Forms.SplitContainer spcAlbum;
         internal global::System.Windows.Forms.PictureBox picAlbumArt;
         internal global::System.Windows.Forms.GroupBox gpbAlbumUser;
         internal global::System.Windows.Forms.SplitContainer spcAlbum2;
-        internal global::System.Windows.Forms.Label lblAlbumAuthWarning;
+        internal global::Audiograph.Label lblAlbumAuthWarning;
         internal global::Audiograph.DBLayoutPanel tlpAlbum2;
         internal global::System.Windows.Forms.Panel Panel6;
         internal global::System.Windows.Forms.Panel Panel9;
         internal global::System.Windows.Forms.Button btnAlbumTagRemove;
         internal global::System.Windows.Forms.Button btnAlbumTagAdd;
-        internal global::System.Windows.Forms.Label lblAlbumTags;
+        internal global::Audiograph.Label lblAlbumTags;
         internal global::System.Windows.Forms.ListBox lstAlbumUserTags;
         internal global::System.Windows.Forms.RichTextBox txtAlbumInfo;
         internal global::System.Windows.Forms.GroupBox gpbAlbumTrackList;
@@ -22885,7 +23844,7 @@ namespace Audiograph
         internal global::System.Windows.Forms.Button btnAlbumGoArtist;
         internal global::System.Windows.Forms.Button btnSearchGo;
         internal global::System.Windows.Forms.TextBox txtSearch;
-        internal global::System.Windows.Forms.Label Label32;
+        internal global::Audiograph.Label Label32;
         internal global::Audiograph.DBLayoutPanel tlpSearch;
         internal global::System.Windows.Forms.GroupBox gpbSearchInfo;
         internal global::System.Windows.Forms.GroupBox gpbSearchTracks;
@@ -22912,35 +23871,35 @@ namespace Audiograph
         internal global::System.Windows.Forms.Button btnMediaRemoveQ;
         internal global::System.Windows.Forms.Button btnMediaAddQ;
         internal global::System.Windows.Forms.ListView ltvMediaQueue;
-        internal global::System.Windows.Forms.Label Label34;
+        internal global::Audiograph.Label Label34;
         internal global::System.Windows.Forms.CheckBox chkMediaShuffle;
-        internal global::System.Windows.Forms.Label lblMediaVersion;
+        internal global::Audiograph.Label lblMediaVersion;
         internal global::System.Windows.Forms.GroupBox gpbMediaScrobble;
         internal global::System.Windows.Forms.Panel pnlMediaScrobble;
         internal global::System.Windows.Forms.Button btnMediaScrobble;
         internal global::System.Windows.Forms.TextBox txtMediaAlbum;
-        internal global::System.Windows.Forms.Label lblMediaAlbum;
+        internal global::Audiograph.Label lblMediaAlbum;
         internal global::System.Windows.Forms.TextBox txtMediaArtist;
-        internal global::System.Windows.Forms.Label lblMediaArtist;
+        internal global::Audiograph.Label lblMediaArtist;
         internal global::System.Windows.Forms.TextBox txtMediaTitle;
-        internal global::System.Windows.Forms.Label lblMediaTitle;
+        internal global::Audiograph.Label lblMediaTitle;
         internal global::System.Windows.Forms.Button btnMediaSearch;
         internal global::System.Windows.Forms.Button btnMediaVerify;
-        internal global::System.Windows.Forms.Label lblMediaScrobble;
+        internal global::Audiograph.Label lblMediaScrobble;
         internal global::System.Windows.Forms.Button btnMediaCreate;
         internal global::System.Windows.Forms.Button btnMediaLoad;
-        internal global::System.Windows.Forms.Label Label42;
+        internal global::Audiograph.Label Label42;
         internal global::System.Windows.Forms.RadioButton radMediaDisable;
         internal global::System.Windows.Forms.RadioButton radMediaEnable;
-        internal global::System.Windows.Forms.Label Label44;
+        internal global::Audiograph.Label Label44;
         internal global::System.Windows.Forms.Button btnMediaEditIndex;
-        internal global::System.Windows.Forms.Label lblMediaIndex;
+        internal global::Audiograph.Label lblMediaIndex;
         internal global::System.Windows.Forms.Button btnMediaExpand;
         internal global::System.Windows.Forms.ListView ltvMediaHistory;
         internal global::System.Windows.Forms.ColumnHeader ColumnHeader29;
         internal global::System.Windows.Forms.ColumnHeader ColumnHeader30;
         internal global::System.Windows.Forms.ColumnHeader ColumnHeader31;
-        internal global::System.Windows.Forms.Label Label46;
+        internal global::Audiograph.Label Label46;
         internal global::System.Windows.Forms.Button btnMediaNext;
         internal global::System.Windows.Forms.ImageList QueueList;
         internal global::System.Windows.Forms.ToolStripMenuItem mnuAuto;
@@ -22968,11 +23927,11 @@ namespace Audiograph
         internal global::System.Windows.Forms.ToolStripSeparator separator2;
         internal global::System.Windows.Forms.ToolStripButton btnMediaPlay;
         internal global::System.Windows.Forms.DateTimePicker dtpMediaScrobble;
-        internal global::System.Windows.Forms.Label lblMediaTime;
+        internal global::Audiograph.Label lblMediaTime;
         internal global::System.Windows.Forms.NumericUpDown nudMediaHour;
         internal global::System.Windows.Forms.ComboBox cmbMediaTime;
         internal global::System.Windows.Forms.NumericUpDown nudMediaMinute;
-        internal global::System.Windows.Forms.Label lblMediaDivider;
+        internal global::Audiograph.Label lblMediaDivider;
         internal global::System.Windows.Forms.ToolStripMenuItem mnuReload;
         internal global::System.Windows.Forms.OpenFileDialog ofdIndexLoad;
         internal global::System.Windows.Forms.Timer tmrMediaScrobble;

@@ -1220,7 +1220,7 @@ namespace Audiograph
             {
                 Invoke(new Action(() => lblUserFriendTotal.Text = "Friends: 0"));
             }
-            string[] FriendsNodes = new string[] { "name", "realname", "url", "registered" };
+            string[] FriendsNodes = new string[] { "name", "realname", "url" };
 
             // find number of users in xml
             uint usercount = Utilities.StrCount(FriendsXML, "<user>");
@@ -1229,14 +1229,23 @@ namespace Audiograph
             Invoke(new Action(() => ltvUserFriends.Items.Clear()));
             if (usercount > 0L)
             {
+                string datestr;
                 for (ushort count = 0, loopTo = (ushort)(usercount - 1L); count <= loopTo; count++)
                 {
-                    Utilities.ParseXML(FriendsXML, "/lfm/friends/user", count, ref FriendsNodes);              // get data from xml
+                    Utilities.ParseXML(FriendsXML, "/lfm/friends/user", count, ref FriendsNodes);            // get data from xml
                     Invoke(new Action(() => ltvUserFriends.Items.Add(FriendsNodes[0])));                     // add listview item
                     Invoke(new Action(() => ltvUserFriends.Items[count].SubItems.Add(FriendsNodes[1])));     // add subitem 1
                     Invoke(new Action(() => ltvUserFriends.Items[count].SubItems.Add(FriendsNodes[2])));     // add subitem 2
-                    Invoke(new Action(() => ltvUserFriends.Items[count].SubItems.Add(FriendsNodes[3])));     // add subitem 3
-                    FriendsNodes = new[] { "name", "realname", "url", "registered" };                    // reset nodes
+                    try
+                    {
+                        datestr = Utilities.ParseMetadata(FriendsXML, "registered unixtime=", count + 1U);
+                        Invoke(new Action(() => ltvUserFriends.Items[count].SubItems.Add(Utilities.UnixToDate((uint)(int.Parse(datestr) + Utilities.timezoneoffset)).ToString("G"))));     // add subitem 3
+                    }
+                    catch (Exception ex)
+                    {
+                        Invoke(new Action(() => ltvUserFriends.Items[count].SubItems.Add("ERROR: " + ex.Message)));
+                    }
+                    FriendsNodes = new[] { "name", "realname", "url" };                                      // reset nodes
                 }
             }
 
@@ -1319,17 +1328,25 @@ namespace Audiograph
             UpdateProgressChange();
 
             // parse information to put in listview
-            string[] xmlnodes = new string[] { "name", "artist/name", "date" };
+            string[] xmlnodes = new string[] { "name", "artist/name" };
             for (byte count = 0; count <= 49; count++)
             {
                 Utilities.ParseXML(xml, "/lfm/lovedtracks/track", count, ref xmlnodes);
-
+                string datestr;
                 // add items if no error
                 if (xmlnodes[0].Contains("ERROR:") == false)
                 {
                     Invoke(new Action(() => ltvUserLovedTracks.Items.Add(xmlnodes[0])));
                     Invoke(new Action(() => ltvUserLovedTracks.Items[count].SubItems.Add(xmlnodes[1])));
-                    Invoke(new Action(() => ltvUserLovedTracks.Items[count].SubItems.Add(xmlnodes[2])));
+                    try
+                    {
+                        datestr = Utilities.ParseMetadata(xml, "date uts=", count + 1U);
+                        Invoke(new Action(() => ltvUserLovedTracks.Items[count].SubItems.Add(Utilities.UnixToDate((uint)(int.Parse(datestr) + Utilities.timezoneoffset)).ToString("G"))));
+                    }
+                    catch (Exception ex)
+                    {
+                        Invoke(new Action(() => ltvUserLovedTracks.Items[count].SubItems.Add("ERROR: " + ex.Message)));
+                    }
                 }
                 // reset nodes
                 xmlnodes = new[] { "name", "artist/name", "date" };
@@ -1916,7 +1933,7 @@ namespace Audiograph
             {
                 Invoke(new Action(() => lblUserLFriendTotal.Text = "Friends: 0"));
             }
-            string[] FriendsNodes = new string[] { "name", "realname", "url", "registered" };
+            string[] FriendsNodes = new string[] { "name", "realname", "url" };
 
             // find number of users in xml
             bool loopend = false;
@@ -1941,14 +1958,23 @@ namespace Audiograph
             Invoke(new Action(() => ltvUserLFriends.Items.Clear()));
             if (usercount > 0)
             {
+                string datestr;
                 for (ushort count = 0, loopTo = (ushort)(usercount - 1); count <= loopTo; count++)
                 {
                     Utilities.ParseXML(FriendsXML, "/lfm/friends/user", count, ref FriendsNodes);              // get data from xml
                     Invoke(new Action(() => ltvUserLFriends.Items.Add(FriendsNodes[0])));                     // add listview item
                     Invoke(new Action(() => ltvUserLFriends.Items[count].SubItems.Add(FriendsNodes[1])));     // add subitem 1
                     Invoke(new Action(() => ltvUserLFriends.Items[count].SubItems.Add(FriendsNodes[2])));     // add subitem 2
-                    Invoke(new Action(() => ltvUserLFriends.Items[count].SubItems.Add(FriendsNodes[3])));     // add subitem 3
-                    FriendsNodes = new[] { "name", "realname", "url", "registered" };                    // reset nodes
+                    try
+                    {
+                        datestr = Utilities.ParseMetadata(FriendsXML, "registered unixtime=", count + 1U);
+                        Invoke(new Action(() => ltvUserLFriends.Items[count].SubItems.Add(Utilities.UnixToDate((uint)(int.Parse(datestr) + Utilities.timezoneoffset)).ToString("G"))));     // add subitem 3
+                    }
+                    catch (Exception ex)
+                    {
+                        Invoke(new Action(() => ltvUserLFriends.Items[count].SubItems.Add("ERROR: " + ex.Message)));
+                    }
+                    FriendsNodes = new[] { "name", "realname", "url" };                    // reset nodes
                 }
             }
 
@@ -2030,17 +2056,26 @@ namespace Audiograph
             UpdateProgressChange();
 
             // parse information to put in listview
-            string[] xmlnodes = new string[] { "name", "artist/name", "date" };
+            string[] xmlnodes = new string[] { "name", "artist/name" };
             for (byte count = 0; count <= 49; count++)
             {
                 Utilities.ParseXML(xml, "/lfm/lovedtracks/track", count, ref xmlnodes);
 
                 // add items if no error
+                string datestr;
                 if (xmlnodes[0].Contains("ERROR:") == false)
                 {
                     Invoke(new Action(() => ltvUserLLovedTracks.Items.Add(xmlnodes[0])));
                     Invoke(new Action(() => ltvUserLLovedTracks.Items[count].SubItems.Add(xmlnodes[1])));
-                    Invoke(new Action(() => ltvUserLLovedTracks.Items[count].SubItems.Add(xmlnodes[2])));
+                    try
+                    {
+                        datestr = Utilities.ParseMetadata(xml, "date uts=", count + 1U);
+                        Invoke(new Action(() => ltvUserLLovedTracks.Items[count].SubItems.Add(Utilities.UnixToDate((uint)(int.Parse(datestr) + Utilities.timezoneoffset)).ToString("G"))));
+                    }
+                    catch (Exception ex)
+                    {
+                        Invoke(new Action(() => ltvUserLLovedTracks.Items[count].SubItems.Add("ERROR: " + ex.Message)));
+                    }
                 }
                 // reset nodes
                 xmlnodes = new[] { "name", "artist/name", "date" };

@@ -118,6 +118,9 @@ namespace Audiograph
                         break;
                     }
             }
+
+            UserEnableAmount(null, null);
+            UserEnableDate(null, null);
         }
 
         private void ChangeContents(global::System.Object sender, global::System.EventArgs e)

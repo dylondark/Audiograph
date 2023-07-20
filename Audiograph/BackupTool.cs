@@ -65,6 +65,7 @@ namespace Audiograph
                         }
                         // fill in country
                         this.cmbChartCountry.SelectedIndex = global::Audiograph.My.MyProject.Forms.frmMain.cmbChartCountry.SelectedIndex;
+                        ChartEnableCountries(null, null);
                         break;
                     }
                 case 1:
@@ -823,6 +824,18 @@ namespace Audiograph
             catch (global::System.Exception ex)
             {
                 this.Invoke(new Action(() => global::System.Windows.Forms.MessageBox.Show("ERROR: " + ex.Message)), "Charts Backup", global::System.Windows.Forms.MessageBoxButtons.OK, global::System.Windows.Forms.MessageBoxIcon.Error);
+            }
+        }
+
+        private void ChartEnableCountries(object sender, EventArgs e)
+        {
+            if (radChartWorldwide.Checked)
+            {
+                cmbChartCountry.Enabled = false;
+            }
+            else
+            {
+                cmbChartCountry.Enabled = true;
             }
         }
         #endregion

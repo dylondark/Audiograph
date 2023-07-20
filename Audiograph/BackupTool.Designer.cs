@@ -37,13 +37,9 @@ namespace Audiograph
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmBackupTool));
             this.txtSave = new System.Windows.Forms.TextBox();
-            this.Label3 = new Audiograph.Label();
             this.btnBrowse = new System.Windows.Forms.Button();
-            this.Label1 = new Audiograph.Label();
-            this.Label2 = new Audiograph.Label();
             this.pbStatus = new System.Windows.Forms.ProgressBar();
             this.cmbContents = new System.Windows.Forms.ComboBox();
-            this.lblStatus = new Audiograph.Label();
             this.pnlCharts = new System.Windows.Forms.Panel();
             this.radChartCountry = new System.Windows.Forms.RadioButton();
             this.radChartWorldwide = new System.Windows.Forms.RadioButton();
@@ -51,9 +47,7 @@ namespace Audiograph
             this.chkChartTopTags = new System.Windows.Forms.CheckBox();
             this.chkChartTopArtists = new System.Windows.Forms.CheckBox();
             this.chkChartTopTracks = new System.Windows.Forms.CheckBox();
-            this.Label6 = new Audiograph.Label();
             this.nudChartResults = new System.Windows.Forms.NumericUpDown();
-            this.Label4 = new Audiograph.Label();
             this.btnClose = new System.Windows.Forms.Button();
             this.btnStart = new System.Windows.Forms.Button();
             this.btnStop = new System.Windows.Forms.Button();
@@ -62,14 +56,10 @@ namespace Audiograph
             this.chkAlbumInfo = new System.Windows.Forms.CheckBox();
             this.chkAlbumTags = new System.Windows.Forms.CheckBox();
             this.chkAlbumStats = new System.Windows.Forms.CheckBox();
-            this.Label15 = new Audiograph.Label();
             this.txtAlbumArtist = new System.Windows.Forms.TextBox();
-            this.Label16 = new Audiograph.Label();
             this.txtAlbumAlbum = new System.Windows.Forms.TextBox();
-            this.Label17 = new Audiograph.Label();
             this.pnlUser = new System.Windows.Forms.Panel();
             this.dtpUserTo = new System.Windows.Forms.DateTimePicker();
-            this.Label14 = new Audiograph.Label();
             this.dtpUserFrom = new System.Windows.Forms.DateTimePicker();
             this.chkUserByDate = new System.Windows.Forms.CheckBox();
             this.nudUserNumber = new System.Windows.Forms.NumericUpDown();
@@ -81,37 +71,27 @@ namespace Audiograph
             this.chkUserLoved = new System.Windows.Forms.CheckBox();
             this.chkUserFriends = new System.Windows.Forms.CheckBox();
             this.chkUserInfo = new System.Windows.Forms.CheckBox();
-            this.Label13 = new Audiograph.Label();
             this.txtUserUser = new System.Windows.Forms.TextBox();
-            this.Label18 = new Audiograph.Label();
             this.pnlTag = new System.Windows.Forms.Panel();
             this.txtTagTag = new System.Windows.Forms.TextBox();
-            this.Label20 = new Audiograph.Label();
             this.chkTagTopAlbums = new System.Windows.Forms.CheckBox();
             this.chkTagTopArtists = new System.Windows.Forms.CheckBox();
             this.chkTagTopTracks = new System.Windows.Forms.CheckBox();
             this.chkTagInfo = new System.Windows.Forms.CheckBox();
-            this.Label5 = new Audiograph.Label();
             this.nudTagResults = new System.Windows.Forms.NumericUpDown();
-            this.Label7 = new Audiograph.Label();
             this.pnlTrack = new System.Windows.Forms.Panel();
             this.chkTrackSimilar = new System.Windows.Forms.CheckBox();
             this.chkTrackTags = new System.Windows.Forms.CheckBox();
             this.chkTrackStats = new System.Windows.Forms.CheckBox();
             this.chkTrackInfo = new System.Windows.Forms.CheckBox();
-            this.Label11 = new Audiograph.Label();
             this.txtTrackArtist = new System.Windows.Forms.TextBox();
-            this.Label8 = new Audiograph.Label();
             this.txtTrackTitle = new System.Windows.Forms.TextBox();
-            this.Label9 = new Audiograph.Label();
             this.pnlArtist = new System.Windows.Forms.Panel();
             this.chkArtistCharts = new System.Windows.Forms.CheckBox();
             this.chkArtistSimilar = new System.Windows.Forms.CheckBox();
             this.chkArtistTags = new System.Windows.Forms.CheckBox();
             this.chkArtistStats = new System.Windows.Forms.CheckBox();
-            this.Label10 = new Audiograph.Label();
             this.txtArtistArtist = new System.Windows.Forms.TextBox();
-            this.Label12 = new Audiograph.Label();
             this.sfdSave = new System.Windows.Forms.SaveFileDialog();
             this.bgwChart = new System.ComponentModel.BackgroundWorker();
             this.bgwTag = new System.ComponentModel.BackgroundWorker();
@@ -119,6 +99,26 @@ namespace Audiograph
             this.bgwArtist = new System.ComponentModel.BackgroundWorker();
             this.bgwAlbum = new System.ComponentModel.BackgroundWorker();
             this.bgwUser = new System.ComponentModel.BackgroundWorker();
+            this.Label14 = new Audiograph.Label();
+            this.Label13 = new Audiograph.Label();
+            this.Label18 = new Audiograph.Label();
+            this.Label15 = new Audiograph.Label();
+            this.Label16 = new Audiograph.Label();
+            this.Label17 = new Audiograph.Label();
+            this.Label10 = new Audiograph.Label();
+            this.Label12 = new Audiograph.Label();
+            this.Label11 = new Audiograph.Label();
+            this.Label8 = new Audiograph.Label();
+            this.Label9 = new Audiograph.Label();
+            this.Label20 = new Audiograph.Label();
+            this.Label5 = new Audiograph.Label();
+            this.Label7 = new Audiograph.Label();
+            this.Label6 = new Audiograph.Label();
+            this.Label4 = new Audiograph.Label();
+            this.Label2 = new Audiograph.Label();
+            this.Label1 = new Audiograph.Label();
+            this.Label3 = new Audiograph.Label();
+            this.lblStatus = new Audiograph.Label();
             this.pnlCharts.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudChartResults)).BeginInit();
             this.pnlAlbum.SuspendLayout();
@@ -137,17 +137,6 @@ namespace Audiograph
             this.txtSave.Size = new System.Drawing.Size(185, 20);
             this.txtSave.TabIndex = 1;
             // 
-            // Label3
-            // 
-            this.Label3.AutoSize = true;
-            this.Label3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label3.Location = new System.Drawing.Point(8, 5);
-            this.Label3.Name = "Label3";
-            this.Label3.Size = new System.Drawing.Size(106, 21);
-            this.Label3.TabIndex = 0;
-            this.Label3.Text = "Save Location";
-            this.Label3.UseMnemonic = false;
-            // 
             // btnBrowse
             // 
             this.btnBrowse.Location = new System.Drawing.Point(202, 28);
@@ -157,28 +146,6 @@ namespace Audiograph
             this.btnBrowse.Text = "&Browse";
             this.btnBrowse.UseVisualStyleBackColor = true;
             this.btnBrowse.Click += new System.EventHandler(this.Browse);
-            // 
-            // Label1
-            // 
-            this.Label1.AutoSize = true;
-            this.Label1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label1.Location = new System.Drawing.Point(8, 61);
-            this.Label1.Name = "Label1";
-            this.Label1.Size = new System.Drawing.Size(72, 21);
-            this.Label1.TabIndex = 3;
-            this.Label1.Text = "Contents";
-            this.Label1.UseMnemonic = false;
-            // 
-            // Label2
-            // 
-            this.Label2.AutoSize = true;
-            this.Label2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label2.Location = new System.Drawing.Point(7, 276);
-            this.Label2.Name = "Label2";
-            this.Label2.Size = new System.Drawing.Size(52, 21);
-            this.Label2.TabIndex = 5;
-            this.Label2.Text = "Status";
-            this.Label2.UseMnemonic = false;
             // 
             // pbStatus
             // 
@@ -204,16 +171,6 @@ namespace Audiograph
             this.cmbContents.Size = new System.Drawing.Size(82, 21);
             this.cmbContents.TabIndex = 4;
             this.cmbContents.SelectedIndexChanged += new System.EventHandler(this.ChangeContents);
-            // 
-            // lblStatus
-            // 
-            this.lblStatus.Location = new System.Drawing.Point(51, 282);
-            this.lblStatus.Name = "lblStatus";
-            this.lblStatus.Size = new System.Drawing.Size(226, 13);
-            this.lblStatus.TabIndex = 6;
-            this.lblStatus.Text = "Ready";
-            this.lblStatus.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.lblStatus.UseMnemonic = false;
             // 
             // pnlCharts
             // 
@@ -242,6 +199,7 @@ namespace Audiograph
             this.radChartCountry.TabIndex = 9;
             this.radChartCountry.Text = "By Country";
             this.radChartCountry.UseVisualStyleBackColor = true;
+            this.radChartCountry.Click += new System.EventHandler(this.ChartEnableCountries);
             // 
             // radChartWorldwide
             // 
@@ -254,6 +212,7 @@ namespace Audiograph
             this.radChartWorldwide.TabStop = true;
             this.radChartWorldwide.Text = "Worldwide";
             this.radChartWorldwide.UseVisualStyleBackColor = true;
+            this.radChartWorldwide.Click += new System.EventHandler(this.ChartEnableCountries);
             // 
             // cmbChartCountry
             // 
@@ -551,16 +510,6 @@ namespace Audiograph
             this.chkChartTopTracks.Text = "Top Tracks";
             this.chkChartTopTracks.UseVisualStyleBackColor = true;
             // 
-            // Label6
-            // 
-            this.Label6.AutoSize = true;
-            this.Label6.Location = new System.Drawing.Point(3, 89);
-            this.Label6.Name = "Label6";
-            this.Label6.Size = new System.Drawing.Size(50, 13);
-            this.Label6.TabIndex = 2;
-            this.Label6.Text = "Columns:";
-            this.Label6.UseMnemonic = false;
-            // 
             // nudChartResults
             // 
             this.nudChartResults.Increment = new decimal(new int[] {
@@ -587,16 +536,6 @@ namespace Audiograph
             0,
             0,
             0});
-            // 
-            // Label4
-            // 
-            this.Label4.AutoSize = true;
-            this.Label4.Location = new System.Drawing.Point(3, 7);
-            this.Label4.Name = "Label4";
-            this.Label4.Size = new System.Drawing.Size(93, 13);
-            this.Label4.TabIndex = 0;
-            this.Label4.Text = "Results (1-10000):";
-            this.Label4.UseMnemonic = false;
             // 
             // btnClose
             // 
@@ -695,16 +634,6 @@ namespace Audiograph
             this.chkAlbumStats.Text = "Stats";
             this.chkAlbumStats.UseVisualStyleBackColor = true;
             // 
-            // Label15
-            // 
-            this.Label15.AutoSize = true;
-            this.Label15.Location = new System.Drawing.Point(3, 59);
-            this.Label15.Name = "Label15";
-            this.Label15.Size = new System.Drawing.Size(50, 13);
-            this.Label15.TabIndex = 6;
-            this.Label15.Text = "Columns:";
-            this.Label15.UseMnemonic = false;
-            // 
             // txtAlbumArtist
             // 
             this.txtAlbumArtist.Location = new System.Drawing.Point(33, 30);
@@ -712,32 +641,12 @@ namespace Audiograph
             this.txtAlbumArtist.Size = new System.Drawing.Size(227, 20);
             this.txtAlbumArtist.TabIndex = 3;
             // 
-            // Label16
-            // 
-            this.Label16.AutoSize = true;
-            this.Label16.Location = new System.Drawing.Point(3, 33);
-            this.Label16.Name = "Label16";
-            this.Label16.Size = new System.Drawing.Size(33, 13);
-            this.Label16.TabIndex = 2;
-            this.Label16.Text = "Artist:";
-            this.Label16.UseMnemonic = false;
-            // 
             // txtAlbumAlbum
             // 
             this.txtAlbumAlbum.Location = new System.Drawing.Point(39, 4);
             this.txtAlbumAlbum.Name = "txtAlbumAlbum";
             this.txtAlbumAlbum.Size = new System.Drawing.Size(221, 20);
             this.txtAlbumAlbum.TabIndex = 1;
-            // 
-            // Label17
-            // 
-            this.Label17.AutoSize = true;
-            this.Label17.Location = new System.Drawing.Point(3, 7);
-            this.Label17.Name = "Label17";
-            this.Label17.Size = new System.Drawing.Size(39, 13);
-            this.Label17.TabIndex = 0;
-            this.Label17.Text = "Album:";
-            this.Label17.UseMnemonic = false;
             // 
             // pnlUser
             // 
@@ -772,16 +681,6 @@ namespace Audiograph
             this.dtpUserTo.Name = "dtpUserTo";
             this.dtpUserTo.Size = new System.Drawing.Size(82, 20);
             this.dtpUserTo.TabIndex = 24;
-            // 
-            // Label14
-            // 
-            this.Label14.AutoSize = true;
-            this.Label14.Location = new System.Drawing.Point(161, 33);
-            this.Label14.Name = "Label14";
-            this.Label14.Size = new System.Drawing.Size(16, 13);
-            this.Label14.TabIndex = 23;
-            this.Label14.Text = "to";
-            this.Label14.UseMnemonic = false;
             // 
             // dtpUserFrom
             // 
@@ -926,32 +825,12 @@ namespace Audiograph
             this.chkUserInfo.Text = "Info";
             this.chkUserInfo.UseVisualStyleBackColor = true;
             // 
-            // Label13
-            // 
-            this.Label13.AutoSize = true;
-            this.Label13.Location = new System.Drawing.Point(3, 57);
-            this.Label13.Name = "Label13";
-            this.Label13.Size = new System.Drawing.Size(50, 13);
-            this.Label13.TabIndex = 6;
-            this.Label13.Text = "Columns:";
-            this.Label13.UseMnemonic = false;
-            // 
             // txtUserUser
             // 
             this.txtUserUser.Location = new System.Drawing.Point(32, 4);
             this.txtUserUser.Name = "txtUserUser";
             this.txtUserUser.Size = new System.Drawing.Size(147, 20);
             this.txtUserUser.TabIndex = 1;
-            // 
-            // Label18
-            // 
-            this.Label18.AutoSize = true;
-            this.Label18.Location = new System.Drawing.Point(3, 7);
-            this.Label18.Name = "Label18";
-            this.Label18.Size = new System.Drawing.Size(32, 13);
-            this.Label18.TabIndex = 0;
-            this.Label18.Text = "User:";
-            this.Label18.UseMnemonic = false;
             // 
             // pnlTag
             // 
@@ -977,16 +856,6 @@ namespace Audiograph
             this.txtTagTag.Name = "txtTagTag";
             this.txtTagTag.Size = new System.Drawing.Size(232, 20);
             this.txtTagTag.TabIndex = 9;
-            // 
-            // Label20
-            // 
-            this.Label20.AutoSize = true;
-            this.Label20.Location = new System.Drawing.Point(3, 7);
-            this.Label20.Name = "Label20";
-            this.Label20.Size = new System.Drawing.Size(29, 13);
-            this.Label20.TabIndex = 8;
-            this.Label20.Text = "Tag:";
-            this.Label20.UseMnemonic = false;
             // 
             // chkTagTopAlbums
             // 
@@ -1036,16 +905,6 @@ namespace Audiograph
             this.chkTagInfo.Text = "Info";
             this.chkTagInfo.UseVisualStyleBackColor = true;
             // 
-            // Label5
-            // 
-            this.Label5.AutoSize = true;
-            this.Label5.Location = new System.Drawing.Point(3, 58);
-            this.Label5.Name = "Label5";
-            this.Label5.Size = new System.Drawing.Size(50, 13);
-            this.Label5.TabIndex = 2;
-            this.Label5.Text = "Columns:";
-            this.Label5.UseMnemonic = false;
-            // 
             // nudTagResults
             // 
             this.nudTagResults.Increment = new decimal(new int[] {
@@ -1072,16 +931,6 @@ namespace Audiograph
             0,
             0,
             0});
-            // 
-            // Label7
-            // 
-            this.Label7.AutoSize = true;
-            this.Label7.Location = new System.Drawing.Point(3, 32);
-            this.Label7.Name = "Label7";
-            this.Label7.Size = new System.Drawing.Size(93, 13);
-            this.Label7.TabIndex = 0;
-            this.Label7.Text = "Results (1-10000):";
-            this.Label7.UseMnemonic = false;
             // 
             // pnlTrack
             // 
@@ -1149,16 +998,6 @@ namespace Audiograph
             this.chkTrackInfo.Text = "Info";
             this.chkTrackInfo.UseVisualStyleBackColor = true;
             // 
-            // Label11
-            // 
-            this.Label11.AutoSize = true;
-            this.Label11.Location = new System.Drawing.Point(3, 59);
-            this.Label11.Name = "Label11";
-            this.Label11.Size = new System.Drawing.Size(50, 13);
-            this.Label11.TabIndex = 6;
-            this.Label11.Text = "Columns:";
-            this.Label11.UseMnemonic = false;
-            // 
             // txtTrackArtist
             // 
             this.txtTrackArtist.Location = new System.Drawing.Point(33, 30);
@@ -1166,32 +1005,12 @@ namespace Audiograph
             this.txtTrackArtist.Size = new System.Drawing.Size(227, 20);
             this.txtTrackArtist.TabIndex = 3;
             // 
-            // Label8
-            // 
-            this.Label8.AutoSize = true;
-            this.Label8.Location = new System.Drawing.Point(3, 33);
-            this.Label8.Name = "Label8";
-            this.Label8.Size = new System.Drawing.Size(33, 13);
-            this.Label8.TabIndex = 2;
-            this.Label8.Text = "Artist:";
-            this.Label8.UseMnemonic = false;
-            // 
             // txtTrackTitle
             // 
             this.txtTrackTitle.Location = new System.Drawing.Point(30, 4);
             this.txtTrackTitle.Name = "txtTrackTitle";
             this.txtTrackTitle.Size = new System.Drawing.Size(230, 20);
             this.txtTrackTitle.TabIndex = 1;
-            // 
-            // Label9
-            // 
-            this.Label9.AutoSize = true;
-            this.Label9.Location = new System.Drawing.Point(3, 7);
-            this.Label9.Name = "Label9";
-            this.Label9.Size = new System.Drawing.Size(30, 13);
-            this.Label9.TabIndex = 0;
-            this.Label9.Text = "Title:";
-            this.Label9.UseMnemonic = false;
             // 
             // pnlArtist
             // 
@@ -1257,32 +1076,12 @@ namespace Audiograph
             this.chkArtistStats.Text = "Stats";
             this.chkArtistStats.UseVisualStyleBackColor = true;
             // 
-            // Label10
-            // 
-            this.Label10.AutoSize = true;
-            this.Label10.Location = new System.Drawing.Point(3, 31);
-            this.Label10.Name = "Label10";
-            this.Label10.Size = new System.Drawing.Size(50, 13);
-            this.Label10.TabIndex = 6;
-            this.Label10.Text = "Columns:";
-            this.Label10.UseMnemonic = false;
-            // 
             // txtArtistArtist
             // 
             this.txtArtistArtist.Location = new System.Drawing.Point(33, 4);
             this.txtArtistArtist.Name = "txtArtistArtist";
             this.txtArtistArtist.Size = new System.Drawing.Size(227, 20);
             this.txtArtistArtist.TabIndex = 3;
-            // 
-            // Label12
-            // 
-            this.Label12.AutoSize = true;
-            this.Label12.Location = new System.Drawing.Point(3, 7);
-            this.Label12.Name = "Label12";
-            this.Label12.Size = new System.Drawing.Size(33, 13);
-            this.Label12.TabIndex = 2;
-            this.Label12.Text = "Artist:";
-            this.Label12.UseMnemonic = false;
             // 
             // sfdSave
             // 
@@ -1324,6 +1123,209 @@ namespace Audiograph
             this.bgwUser.WorkerSupportsCancellation = true;
             this.bgwUser.DoWork += new System.ComponentModel.DoWorkEventHandler(this.UserOp);
             this.bgwUser.RunWorkerCompleted += new System.ComponentModel.RunWorkerCompletedEventHandler(this.BackgroundStopOp);
+            // 
+            // Label14
+            // 
+            this.Label14.AutoSize = true;
+            this.Label14.Location = new System.Drawing.Point(161, 33);
+            this.Label14.Name = "Label14";
+            this.Label14.Size = new System.Drawing.Size(16, 13);
+            this.Label14.TabIndex = 23;
+            this.Label14.Text = "to";
+            this.Label14.UseMnemonic = false;
+            // 
+            // Label13
+            // 
+            this.Label13.AutoSize = true;
+            this.Label13.Location = new System.Drawing.Point(3, 57);
+            this.Label13.Name = "Label13";
+            this.Label13.Size = new System.Drawing.Size(50, 13);
+            this.Label13.TabIndex = 6;
+            this.Label13.Text = "Columns:";
+            this.Label13.UseMnemonic = false;
+            // 
+            // Label18
+            // 
+            this.Label18.AutoSize = true;
+            this.Label18.Location = new System.Drawing.Point(3, 7);
+            this.Label18.Name = "Label18";
+            this.Label18.Size = new System.Drawing.Size(32, 13);
+            this.Label18.TabIndex = 0;
+            this.Label18.Text = "User:";
+            this.Label18.UseMnemonic = false;
+            // 
+            // Label15
+            // 
+            this.Label15.AutoSize = true;
+            this.Label15.Location = new System.Drawing.Point(3, 59);
+            this.Label15.Name = "Label15";
+            this.Label15.Size = new System.Drawing.Size(50, 13);
+            this.Label15.TabIndex = 6;
+            this.Label15.Text = "Columns:";
+            this.Label15.UseMnemonic = false;
+            // 
+            // Label16
+            // 
+            this.Label16.AutoSize = true;
+            this.Label16.Location = new System.Drawing.Point(3, 33);
+            this.Label16.Name = "Label16";
+            this.Label16.Size = new System.Drawing.Size(33, 13);
+            this.Label16.TabIndex = 2;
+            this.Label16.Text = "Artist:";
+            this.Label16.UseMnemonic = false;
+            // 
+            // Label17
+            // 
+            this.Label17.AutoSize = true;
+            this.Label17.Location = new System.Drawing.Point(3, 7);
+            this.Label17.Name = "Label17";
+            this.Label17.Size = new System.Drawing.Size(39, 13);
+            this.Label17.TabIndex = 0;
+            this.Label17.Text = "Album:";
+            this.Label17.UseMnemonic = false;
+            // 
+            // Label10
+            // 
+            this.Label10.AutoSize = true;
+            this.Label10.Location = new System.Drawing.Point(3, 31);
+            this.Label10.Name = "Label10";
+            this.Label10.Size = new System.Drawing.Size(50, 13);
+            this.Label10.TabIndex = 6;
+            this.Label10.Text = "Columns:";
+            this.Label10.UseMnemonic = false;
+            // 
+            // Label12
+            // 
+            this.Label12.AutoSize = true;
+            this.Label12.Location = new System.Drawing.Point(3, 7);
+            this.Label12.Name = "Label12";
+            this.Label12.Size = new System.Drawing.Size(33, 13);
+            this.Label12.TabIndex = 2;
+            this.Label12.Text = "Artist:";
+            this.Label12.UseMnemonic = false;
+            // 
+            // Label11
+            // 
+            this.Label11.AutoSize = true;
+            this.Label11.Location = new System.Drawing.Point(3, 59);
+            this.Label11.Name = "Label11";
+            this.Label11.Size = new System.Drawing.Size(50, 13);
+            this.Label11.TabIndex = 6;
+            this.Label11.Text = "Columns:";
+            this.Label11.UseMnemonic = false;
+            // 
+            // Label8
+            // 
+            this.Label8.AutoSize = true;
+            this.Label8.Location = new System.Drawing.Point(3, 33);
+            this.Label8.Name = "Label8";
+            this.Label8.Size = new System.Drawing.Size(33, 13);
+            this.Label8.TabIndex = 2;
+            this.Label8.Text = "Artist:";
+            this.Label8.UseMnemonic = false;
+            // 
+            // Label9
+            // 
+            this.Label9.AutoSize = true;
+            this.Label9.Location = new System.Drawing.Point(3, 7);
+            this.Label9.Name = "Label9";
+            this.Label9.Size = new System.Drawing.Size(30, 13);
+            this.Label9.TabIndex = 0;
+            this.Label9.Text = "Title:";
+            this.Label9.UseMnemonic = false;
+            // 
+            // Label20
+            // 
+            this.Label20.AutoSize = true;
+            this.Label20.Location = new System.Drawing.Point(3, 7);
+            this.Label20.Name = "Label20";
+            this.Label20.Size = new System.Drawing.Size(29, 13);
+            this.Label20.TabIndex = 8;
+            this.Label20.Text = "Tag:";
+            this.Label20.UseMnemonic = false;
+            // 
+            // Label5
+            // 
+            this.Label5.AutoSize = true;
+            this.Label5.Location = new System.Drawing.Point(3, 58);
+            this.Label5.Name = "Label5";
+            this.Label5.Size = new System.Drawing.Size(50, 13);
+            this.Label5.TabIndex = 2;
+            this.Label5.Text = "Columns:";
+            this.Label5.UseMnemonic = false;
+            // 
+            // Label7
+            // 
+            this.Label7.AutoSize = true;
+            this.Label7.Location = new System.Drawing.Point(3, 32);
+            this.Label7.Name = "Label7";
+            this.Label7.Size = new System.Drawing.Size(93, 13);
+            this.Label7.TabIndex = 0;
+            this.Label7.Text = "Results (1-10000):";
+            this.Label7.UseMnemonic = false;
+            // 
+            // Label6
+            // 
+            this.Label6.AutoSize = true;
+            this.Label6.Location = new System.Drawing.Point(3, 89);
+            this.Label6.Name = "Label6";
+            this.Label6.Size = new System.Drawing.Size(50, 13);
+            this.Label6.TabIndex = 2;
+            this.Label6.Text = "Columns:";
+            this.Label6.UseMnemonic = false;
+            // 
+            // Label4
+            // 
+            this.Label4.AutoSize = true;
+            this.Label4.Location = new System.Drawing.Point(3, 7);
+            this.Label4.Name = "Label4";
+            this.Label4.Size = new System.Drawing.Size(93, 13);
+            this.Label4.TabIndex = 0;
+            this.Label4.Text = "Results (1-10000):";
+            this.Label4.UseMnemonic = false;
+            // 
+            // Label2
+            // 
+            this.Label2.AutoSize = true;
+            this.Label2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Label2.Location = new System.Drawing.Point(7, 276);
+            this.Label2.Name = "Label2";
+            this.Label2.Size = new System.Drawing.Size(52, 21);
+            this.Label2.TabIndex = 5;
+            this.Label2.Text = "Status";
+            this.Label2.UseMnemonic = false;
+            // 
+            // Label1
+            // 
+            this.Label1.AutoSize = true;
+            this.Label1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Label1.Location = new System.Drawing.Point(8, 61);
+            this.Label1.Name = "Label1";
+            this.Label1.Size = new System.Drawing.Size(72, 21);
+            this.Label1.TabIndex = 3;
+            this.Label1.Text = "Contents";
+            this.Label1.UseMnemonic = false;
+            // 
+            // Label3
+            // 
+            this.Label3.AutoSize = true;
+            this.Label3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Label3.Location = new System.Drawing.Point(8, 5);
+            this.Label3.Name = "Label3";
+            this.Label3.Size = new System.Drawing.Size(106, 21);
+            this.Label3.TabIndex = 0;
+            this.Label3.Text = "Save Location";
+            this.Label3.UseMnemonic = false;
+            // 
+            // lblStatus
+            // 
+            this.lblStatus.Location = new System.Drawing.Point(51, 282);
+            this.lblStatus.Name = "lblStatus";
+            this.lblStatus.Size = new System.Drawing.Size(226, 13);
+            this.lblStatus.TabIndex = 6;
+            this.lblStatus.Text = "Ready";
+            this.lblStatus.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.lblStatus.UseMnemonic = false;
             // 
             // frmBackupTool
             // 

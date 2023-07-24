@@ -832,10 +832,12 @@ namespace Audiograph
             if (radChartWorldwide.Checked)
             {
                 cmbChartCountry.Enabled = false;
+                chkChartTopTags.Enabled = true;
             }
             else
             {
                 cmbChartCountry.Enabled = true;
+                chkChartTopTags.Enabled = false;
             }
         }
         #endregion

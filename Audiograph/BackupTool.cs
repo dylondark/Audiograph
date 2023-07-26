@@ -1860,8 +1860,8 @@ public partial class frmBackupTool
         }
         catch (Exception ex)
         {
-            Invoke(new Action(() => MessageBox.Show("ERROR: " + ex.Message)), "Charts Backup", MessageBoxButtons.OK,
-                MessageBoxIcon.Error);
+            Invoke(new Action(() => MessageBox.Show("An error occurred. This may be due to rate limiting or otherwise invalid data from the API. \nPlease try again later.", "Charts Backup", MessageBoxButtons.OK,
+                MessageBoxIcon.Error)));
         }
     }
 

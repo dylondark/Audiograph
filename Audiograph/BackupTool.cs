@@ -1576,22 +1576,32 @@ public partial class frmBackupTool
             var topTagInfo = new List<string[]>();
             var lists = new List<List<string[]>>();
             int progress = 0;
+            bool geo = false;
+            Invoke(new Action(() => geo = radChartCountry.Checked));
+            string country = null;
+            Invoke(new Action(() => country = cmbChartCountry.Text));    
 
             // progress multiplier
             progressMultiplier = 0;
             if (columnContents[0])
             {
-                topTrackInfo.Add(new[] { "Track", "Artist", "Listeners", "Playcount" });
+                if (geo)
+                    topTrackInfo.Add(new[] { "Track", "Artist", "Listeners" });
+                else
+                    topTrackInfo.Add(new[] { "Track", "Artist", "Listeners", "Playcount" });
                 progressMultiplier = (byte)(progressMultiplier + 1);
             }
 
             if (columnContents[1])
             {
-                topArtistInfo.Add(new[] { "Artist", "Listeners", "Playcount" });
+                if (geo)
+                    topArtistInfo.Add(new[] { "Artist", "Listeners" });
+                else
+                    topArtistInfo.Add(new[] { "Artist", "Listeners", "Playcount" });
                 progressMultiplier = (byte)(progressMultiplier + 1);
             }
 
-            if (columnContents[2])
+            if (!geo && columnContents[2])
             {
                 topTagInfo.Add(new[] { "Tag", "Reach", "Taggings" });
                 progressMultiplier = (byte)(progressMultiplier + 1);
@@ -1616,21 +1626,37 @@ public partial class frmBackupTool
                         // last page, only request leftover
                         if (chartResults <= 50)
                             // if results below 50
-                            xmlPages.Add(Utilities.CallAPI("chart.getTopTracks", string.Empty,
-                                "page=" + (currentPage + 1), "limit=" + chartResults));
+                            if (geo)
+                                xmlPages.Add(Utilities.CallAPI("geo.getTopTracks", string.Empty,
+                                    "country=" + country, "page=" + (currentPage + 1), "limit=" + chartResults));
+                            else
+                                xmlPages.Add(Utilities.CallAPI("chart.getTopTracks", string.Empty,
+                                    "page=" + (currentPage + 1), "limit=" + chartResults));
                         else if (chartResults % 50 == 0)
                             // if no remainder
-                            xmlPages.Add(Utilities.CallAPI("chart.getTopTracks", string.Empty,
-                                "page=" + (currentPage + 1), "limit=50"));
+                            if (geo)
+                                xmlPages.Add(Utilities.CallAPI("geo.getTopTracks", string.Empty,
+                                    "country=" + country, "page=" + (currentPage + 1), "limit=50"));
+                            else
+                                xmlPages.Add(Utilities.CallAPI("chart.getTopTracks", string.Empty,
+                                    "page=" + (currentPage + 1), "limit=50"));
                         else
                             // if not below 50 get remainder
-                            xmlPages.Add(Utilities.CallAPI("chart.getTopTracks", string.Empty,
-                                "page=" + (currentPage + 1), "limit=" + chartResults % 50));
+                            if (geo)
+                                xmlPages.Add(Utilities.CallAPI("geo.getTopTracks", string.Empty,
+                                    "country=" + country, "page=" + (currentPage + 1), "limit=" + chartResults % 50));
+                        else
+                                xmlPages.Add(Utilities.CallAPI("chart.getTopTracks", string.Empty,
+                                    "page=" + (currentPage + 1), "limit=" + chartResults % 50));
                     }
                     else
                     {
-                        xmlPages.Add(Utilities.CallAPI("chart.getTopTracks", string.Empty, "page=" + (currentPage + 1),
-                            "limit=50"));
+                        if (geo)
+                            xmlPages.Add(Utilities.CallAPI("geo.getTopTracks", string.Empty, "country=" + country, "page=" + (currentPage + 1),
+                                "limit=50"));
+                        else
+                            xmlPages.Add(Utilities.CallAPI("chart.getTopTracks", string.Empty, "page=" + (currentPage + 1),
+                                "limit=50"));
                     }
 
                     // cancel check
@@ -1654,7 +1680,10 @@ public partial class frmBackupTool
                     // parse
                     for (int track = 0, loopTo2 = currentPageAmount - 1; track <= loopTo2; track++)
                     {
-                        xmlNodes = new[] { "name", "artist/name", "listeners", "playcount" };
+                        if (geo)
+                            xmlNodes = new[] { "name", "artist/name", "listeners" };
+                        else
+                            xmlNodes = new[] { "name", "artist/name", "listeners", "playcount" };
                         Utilities.ParseXML(xmlPages[currentPage], "/lfm/tracks/track", (uint)track, ref xmlNodes);
                         topTrackInfo.Add(xmlNodes);
                     }
@@ -1684,20 +1713,36 @@ public partial class frmBackupTool
                         // last page, only request leftover
                         if (chartResults <= 50)
                             // if results below 50
-                            xmlPages.Add(Utilities.CallAPI("chart.getTopArtists", string.Empty,
-                                "page=" + (currentPage + 1), "limit=" + chartResults));
+                            if (geo)
+                                xmlPages.Add(Utilities.CallAPI("geo.getTopArtists", string.Empty,
+                                    "country=" + country, "page=" + (currentPage + 1), "limit=" + chartResults));
+                            else
+                                xmlPages.Add(Utilities.CallAPI("chart.getTopArtists", string.Empty,
+                                    "page=" + (currentPage + 1), "limit=" + chartResults));
                         else if (chartResults % 50 == 0)
                             // if no remainder
-                            xmlPages.Add(Utilities.CallAPI("chart.getTopArtists", string.Empty,
-                                "page=" + (currentPage + 1), "limit=50"));
+                            if (geo)
+                                 xmlPages.Add(Utilities.CallAPI("geo.getTopArtists", string.Empty,
+                                     "country=" + country, "page=" + (currentPage + 1), "limit=50"));
+                            else
+                                xmlPages.Add(Utilities.CallAPI("chart.getTopArtists", string.Empty,
+                                    "page=" + (currentPage + 1), "limit=50"));
                         else
                             // if not below 50 get remainder
-                            xmlPages.Add(Utilities.CallAPI("chart.getTopArtists", string.Empty,
-                                "page=" + (currentPage + 1), "limit=" + chartResults % 50));
+                            if (geo)
+                                xmlPages.Add(Utilities.CallAPI("geo.getTopArtists", string.Empty,
+                                    "country=" + country, "page=" + (currentPage + 1), "limit=" + chartResults % 50));
+                            else
+                                xmlPages.Add(Utilities.CallAPI("chart.getTopArtists", string.Empty,
+                                    "page=" + (currentPage + 1), "limit=" + chartResults % 50));
                     }
                     else
                     {
-                        xmlPages.Add(Utilities.CallAPI("chart.getTopArtists", string.Empty, "page=" + (currentPage + 1),
+                        if (geo)
+                            xmlPages.Add(Utilities.CallAPI("geo.getTopArtists", string.Empty, "page=" + (currentPage + 1),
+                                "country=" + country, "limit=50"));
+                        else
+                            xmlPages.Add(Utilities.CallAPI("chart.getTopArtists", string.Empty, "page=" + (currentPage + 1),
                             "limit=50"));
                     }
 
@@ -1710,6 +1755,13 @@ public partial class frmBackupTool
                 // add to list
                 int currentPageAmount;
                 string[] xmlNodes;
+
+                string directory;
+                if (geo)    // correct annoying inconsistent api behavior
+                    directory = "topartists";
+                else
+                    directory = "artists";
+
                 for (int currentPage = 0, loopTo4 = pageAmount - 1; currentPage <= loopTo4; currentPage++)
                 {
                     // progress
@@ -1722,8 +1774,11 @@ public partial class frmBackupTool
                     // parse
                     for (int artist = 0, loopTo5 = currentPageAmount - 1; artist <= loopTo5; artist++)
                     {
-                        xmlNodes = new[] { "name", "listeners", "playcount" };
-                        Utilities.ParseXML(xmlPages[currentPage], "/lfm/artists/artist", (uint)artist, ref xmlNodes);
+                        if (geo)
+                            xmlNodes = new[] { "name", "listeners" };
+                        else
+                            xmlNodes = new[] { "name", "listeners", "playcount" };
+                        Utilities.ParseXML(xmlPages[currentPage], "/lfm/" + directory + "/artist", (uint)artist, ref xmlNodes);
                         topArtistInfo.Add(xmlNodes);
                     }
 
@@ -1735,7 +1790,7 @@ public partial class frmBackupTool
             }
 
             // top tags
-            if (columnContents[2])
+            if (!geo && columnContents[2])
             {
                 lists.Add(topTagInfo);
                 // get all xml pages

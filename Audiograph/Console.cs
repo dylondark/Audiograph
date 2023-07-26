@@ -669,9 +669,8 @@ namespace Audiograph
 
         private void CmdAuthorize(string[] commands)
         {
-            /* TODO ERROR: Skipped IfDirectiveTrivia
-            #If DEBUG Then
-            */ // make sure method has been passed required params
+#if DEBUG
+            // make sure method has been passed required params
             if (commands.Count() >= 2)
             {
                 // check that password is correct
@@ -689,13 +688,9 @@ namespace Audiograph
             {
                 DisplayOut("ERROR: Missing required parameter 'code'. Type 'help authorize' for proper command usage.");
             }
-            /* TODO ERROR: Skipped ElseDirectiveTrivia
-            #Else
-            */ /* TODO ERROR: Skipped DisabledTextTrivia
-                    DisplayOut("ERROR: This function is not present in release builds.")
-            */ /* TODO ERROR: Skipped EndIfDirectiveTrivia
-            #End If
-            */
+#else
+            DisplayOut("ERROR: This function is not present in release builds.");
+#endif
         }
 
         private void CmdVar(string[] commands)

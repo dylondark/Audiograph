@@ -5482,8 +5482,8 @@ public partial class frmMain
 
         if (e.Button == MouseButtons.Left && ((Label)sender).Text.Contains("(Unavailable)") == false &&
             ((Label)sender).Text.Contains("ERROR: ") == false &&
-            CMSLists.UserRecentLabel[row, 1].Text.Contains("(Unavailable)") == false &&
-            CMSLists.UserRecentLabel[row, 1].Text.Contains("ERROR: ") == false)
+            CMSLists.ChartTrackLabel[row, 1].Text.Contains("(Unavailable)") == false &&
+            CMSLists.ChartTrackLabel[row, 1].Text.Contains("ERROR: ") == false)
             Utilities.GoToTrack(CMSLists.ChartTrackLabel[row, 0].Text, CMSLists.ChartTrackLabel[row, 1].Text);
     }
 
@@ -5502,8 +5502,8 @@ public partial class frmMain
 
         if (e.Button == MouseButtons.Left && ((Label)sender).Text.Contains("(Unavailable)") == false &&
             ((Label)sender).Text.Contains("ERROR: ") == false &&
-            CMSLists.UserRecentLabel[row, 1].Text.Contains("(Unavailable)") == false &&
-            CMSLists.UserRecentLabel[row, 1].Text.Contains("ERROR: ") == false)
+            CMSLists.ChartTrackLabel[row, 1].Text.Contains("(Unavailable)") == false &&
+            CMSLists.ChartTrackLabel[row, 1].Text.Contains("ERROR: ") == false)
             Utilities.GoToAlbum(CMSLists.ChartTrackLabel[row, 2].Text, CMSLists.ChartTrackLabel[row, 1].Text);
     }
 

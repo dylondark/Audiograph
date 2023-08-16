@@ -442,15 +442,10 @@ public partial class frmMain
             tracknodes[8] = Conversions.ToUInteger(tracknodes[8]).ToString("N0");
 
         // remove link from wiki
-        if (tracknodes[10].Contains("<a href") || tracknodes[8].Contains("<a href"))
-        {
-            if (!string.IsNullOrEmpty(MySettingsProperty.Settings.User))
-                tracknodes[10] = tracknodes[10].Substring(0,
-                    tracknodes[10].Count() - (tracknodes[10].Count() - Strings.InStr(tracknodes[10], "<a href") + 1));
-            else
-                tracknodes[8] = tracknodes[8].Substring(0,
-                    tracknodes[8].Count() - (tracknodes[8].Count() - Strings.InStr(tracknodes[8], "<a href") + 1));
-        }
+        int wikicount = tracknodes.Length > 9 ? 10 : 8;
+        if (tracknodes[wikicount].Contains("<a href"))
+            tracknodes[wikicount] = tracknodes[wikicount].Substring(0,
+                    tracknodes[wikicount].Count() - (tracknodes[wikicount].Count() - Strings.InStr(tracknodes[wikicount], "<a href") + 1));
 
         // set text box
         BeginInvoke(new Action(() => txtTrackInfo.Clear()));
@@ -514,7 +509,7 @@ public partial class frmMain
         }
 
         // set loved button
-        if (tracknodes[9] == "1")
+        if (tracknodes.Length > 9 && tracknodes[9] == "1")
             BeginInvoke(new Action(() => btnTrackLove.Text = "Unlove"));
         else
             BeginInvoke(new Action(() => btnTrackLove.Text = "Love"));
@@ -689,14 +684,11 @@ public partial class frmMain
         }
 
         // remove link from wiki
-        if (artistnodes[6].Contains("<a href") || artistnodes[5].Contains("<a href"))
+        int wikicount = artistnodes.Length > 6 ? 6 : 5;
+        if (artistnodes[wikicount].Contains("<a href"))
         {
-            if (!string.IsNullOrEmpty(MySettingsProperty.Settings.User))
-                artistnodes[6] = artistnodes[6].Substring(0,
-                    artistnodes[6].Count() - (artistnodes[6].Count() - Strings.InStr(artistnodes[6], "<a href") + 1));
-            else
-                artistnodes[5] = artistnodes[5].Substring(0,
-                    artistnodes[5].Count() - (artistnodes[5].Count() - Strings.InStr(artistnodes[5], "<a href") + 1));
+                artistnodes[wikicount] = artistnodes[wikicount].Substring(0,
+                    artistnodes[wikicount].Count() - (artistnodes[wikicount].Count() - Strings.InStr(artistnodes[wikicount], "<a href") + 1));
         }
 
         // set text box
@@ -986,14 +978,11 @@ public partial class frmMain
             albumnodes[6] = Conversions.ToUInteger(albumnodes[6]).ToString("N0");
 
         // remove link from wiki
-        if (albumnodes[7].Contains("<a href") || albumnodes[6].Contains("<a href"))
+        int wikicount = albumnodes.Length > 7 ? 7 : 6;
+        if (albumnodes[wikicount].Contains("<a href"))
         {
-            if (!string.IsNullOrEmpty(MySettingsProperty.Settings.User))
-                albumnodes[7] = albumnodes[7].Substring(0,
-                    albumnodes[7].Count() - (albumnodes[7].Count() - Strings.InStr(albumnodes[7], "<a href") + 1));
-            else
-                albumnodes[6] = albumnodes[6].Substring(0,
-                    albumnodes[6].Count() - (albumnodes[6].Count() - Strings.InStr(albumnodes[6], "<a href") + 1));
+            albumnodes[wikicount] = albumnodes[wikicount].Substring(0,
+                 albumnodes[wikicount].Count() - (albumnodes[wikicount].Count() - Strings.InStr(albumnodes[wikicount], "<a href") + 1));
         }
 
         // set text box

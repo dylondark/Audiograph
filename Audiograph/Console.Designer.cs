@@ -59,7 +59,7 @@ namespace Audiograph
             txtOutput.ScrollBars = ScrollBars.Vertical;
             txtOutput.Size = new Size(680, 390);
             txtOutput.TabIndex = 2;
-            txtOutput.Text = "Audiograph Release 1.0.0 ©2023 Dylan Miller (dylondark)" + '\r' + '\n' + "Type 'help' for command " + "list" + '\r' + '\n' + '\r' + '\n' + "user>";
+            txtOutput.Text = "Audiograph Release 1.0.1 ©2023 Dylan Miller (dylondark)" + '\r' + '\n' + "Type 'help' for command " + "list" + '\r' + '\n' + '\r' + '\n' + "user>";
             // 
             // txtInput
             // 

@@ -35,90 +35,98 @@ namespace Audiograph
         [DebuggerStepThrough()]
         private void InitializeComponent()
         {
-            var resources = new System.ComponentModel.ComponentResourceManager(typeof(frmAbout));
-            PictureBox1 = new PictureBox();
-            Label1 = new Label();
-            Label2 = new Label();
-            btnOK = new Button();
-            btnOK.Click += new EventHandler(ExitForm);
-            txtAbout = new RichTextBox();
-            txtAbout.LinkClicked += new LinkClickedEventHandler(LinkClicked);
-            ((System.ComponentModel.ISupportInitialize)PictureBox1).BeginInit();
-            SuspendLayout();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmAbout));
+            this.PictureBox1 = new System.Windows.Forms.PictureBox();
+            this.Label1 = new Audiograph.Label();
+            this.Label2 = new Audiograph.Label();
+            this.btnOK = new System.Windows.Forms.Button();
+            this.txtAbout = new System.Windows.Forms.RichTextBox();
+            ((System.ComponentModel.ISupportInitialize)(this.PictureBox1)).BeginInit();
+            this.SuspendLayout();
             // 
             // PictureBox1
             // 
-            PictureBox1.Image = (Image)resources.GetObject("PictureBox1.Image");
-            PictureBox1.Location = new Point(12, 12);
-            PictureBox1.Name = "PictureBox1";
-            PictureBox1.Size = new Size(75, 75);
-            PictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
-            PictureBox1.TabIndex = 0;
-            PictureBox1.TabStop = false;
+            this.PictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("PictureBox1.Image")));
+            this.PictureBox1.Location = new System.Drawing.Point(18, 18);
+            this.PictureBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.PictureBox1.Name = "PictureBox1";
+            this.PictureBox1.Size = new System.Drawing.Size(112, 115);
+            this.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.PictureBox1.TabIndex = 0;
+            this.PictureBox1.TabStop = false;
             // 
             // Label1
             // 
-            Label1.AutoSize = true;
-            Label1.Font = new Font("Nirmala UI", 27.75f, FontStyle.Regular, GraphicsUnit.Point, 0);
-            Label1.Location = new Point(89, 10);
-            Label1.Name = "Label1";
-            Label1.Size = new Size(217, 50);
-            Label1.TabIndex = 1;
-            Label1.Text = "Audiograph";
+            this.Label1.AutoSize = true;
+            this.Label1.Font = new System.Drawing.Font("Nirmala UI", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Label1.Location = new System.Drawing.Point(134, 15);
+            this.Label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.Label1.Name = "Label1";
+            this.Label1.Size = new System.Drawing.Size(326, 74);
+            this.Label1.TabIndex = 1;
+            this.Label1.Text = "Audiograph";
+            this.Label1.UseMnemonic = false;
             // 
             // Label2
             // 
-            Label2.AutoSize = true;
-            Label2.Font = new Font("Segoe UI", 12.0f, FontStyle.Regular, GraphicsUnit.Point, 0);
-            Label2.Location = new Point(93, 60);
-            Label2.Name = "Label2";
-            Label2.Size = new Size(282, 21);
-            Label2.TabIndex = 2;
-            Label2.Text = "Release 1.0.0 - Dylan Miller (dylondark)";
+            this.Label2.AutoSize = true;
+            this.Label2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Label2.Location = new System.Drawing.Point(140, 92);
+            this.Label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.Label2.Name = "Label2";
+            this.Label2.Size = new System.Drawing.Size(430, 32);
+            this.Label2.TabIndex = 2;
+            this.Label2.Text = "Release 1.0.1 - Dylan Miller (dylondark)";
+            this.Label2.UseMnemonic = false;
             // 
             // btnOK
             // 
-            btnOK.Location = new Point(377, 286);
-            btnOK.Name = "btnOK";
-            btnOK.Size = new Size(75, 23);
-            btnOK.TabIndex = 4;
-            btnOK.Text = "&OK";
-            btnOK.UseVisualStyleBackColor = true;
+            this.btnOK.Location = new System.Drawing.Point(566, 440);
+            this.btnOK.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnOK.Name = "btnOK";
+            this.btnOK.Size = new System.Drawing.Size(112, 35);
+            this.btnOK.TabIndex = 4;
+            this.btnOK.Text = "&OK";
+            this.btnOK.UseVisualStyleBackColor = true;
+            this.btnOK.Click += new System.EventHandler(this.ExitForm);
             // 
             // txtAbout
             // 
-            txtAbout.BackColor = SystemColors.ControlLightLight;
-            txtAbout.BorderStyle = BorderStyle.FixedSingle;
-            txtAbout.Font = new Font("Segoe UI", 8.25f, FontStyle.Regular, GraphicsUnit.Point, 0);
-            txtAbout.Location = new Point(97, 98);
-            txtAbout.Name = "txtAbout";
-            txtAbout.ReadOnly = true;
-            txtAbout.Size = new Size(355, 182);
-            txtAbout.TabIndex = 5;
-            txtAbout.Text = "";
+            this.txtAbout.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.txtAbout.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtAbout.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtAbout.Location = new System.Drawing.Point(146, 151);
+            this.txtAbout.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtAbout.Name = "txtAbout";
+            this.txtAbout.ReadOnly = true;
+            this.txtAbout.Size = new System.Drawing.Size(530, 278);
+            this.txtAbout.TabIndex = 5;
+            this.txtAbout.Text = "";
+            this.txtAbout.LinkClicked += new System.Windows.Forms.LinkClickedEventHandler(this.LinkClicked);
             // 
             // frmAbout
             // 
-            AutoScaleDimensions = new SizeF(6.0f, 13.0f);
-            AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(464, 321);
-            Controls.Add(txtAbout);
-            Controls.Add(btnOK);
-            Controls.Add(Label2);
-            Controls.Add(Label1);
-            Controls.Add(PictureBox1);
-            FormBorderStyle = FormBorderStyle.FixedSingle;
-            Icon = (Icon)resources.GetObject("$this.Icon");
-            MaximizeBox = false;
-            MaximumSize = new Size(480, 360);
-            MinimumSize = new Size(480, 360);
-            Name = "frmAbout";
-            StartPosition = FormStartPosition.CenterScreen;
-            Text = "About Audiograph";
-            ((System.ComponentModel.ISupportInitialize)PictureBox1).EndInit();
-            Load += new EventHandler(FormLoad);
-            ResumeLayout(false);
-            PerformLayout();
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(687, 468);
+            this.Controls.Add(this.txtAbout);
+            this.Controls.Add(this.btnOK);
+            this.Controls.Add(this.Label2);
+            this.Controls.Add(this.Label1);
+            this.Controls.Add(this.PictureBox1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(709, 524);
+            this.MinimumSize = new System.Drawing.Size(709, 524);
+            this.Name = "frmAbout";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "About Audiograph";
+            this.Load += new System.EventHandler(this.FormLoad);
+            ((System.ComponentModel.ISupportInitialize)(this.PictureBox1)).EndInit();
+            this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 

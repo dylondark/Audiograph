@@ -1516,7 +1516,6 @@ namespace Audiograph
             this.Label46 = new Audiograph.Label();
             this.lblMediaDivider = new Audiograph.Label();
             this.tlpMedia2 = new Audiograph.DBLayoutPanel();
-            this.MediaPlayer = new AxWMPLib.AxWindowsMediaPlayer();
             this.pnlMedia = new System.Windows.Forms.Panel();
             this.chkMediaRepeat = new System.Windows.Forms.CheckBox();
             this.btnMediaNext = new System.Windows.Forms.Button();
@@ -1888,7 +1887,6 @@ namespace Audiograph
             ((System.ComponentModel.ISupportInitialize)(this.nudMediaMinute)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudMediaHour)).BeginInit();
             this.tlpMedia2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.MediaPlayer)).BeginInit();
             this.pnlMedia.SuspendLayout();
             this.tsMenu.SuspendLayout();
             this.SuspendLayout();
@@ -21605,7 +21603,6 @@ namespace Audiograph
             // 
             this.tlpMedia2.ColumnCount = 1;
             this.tlpMedia2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tlpMedia2.Controls.Add(this.MediaPlayer, 0, 0);
             this.tlpMedia2.Controls.Add(this.pnlMedia, 0, 1);
             this.tlpMedia2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tlpMedia2.Location = new System.Drawing.Point(3, 3);
@@ -21615,17 +21612,6 @@ namespace Audiograph
             this.tlpMedia2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 150F));
             this.tlpMedia2.Size = new System.Drawing.Size(925, 610);
             this.tlpMedia2.TabIndex = 3;
-            // 
-            // MediaPlayer
-            // 
-            this.MediaPlayer.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.MediaPlayer.Enabled = true;
-            this.MediaPlayer.Location = new System.Drawing.Point(3, 3);
-            this.MediaPlayer.Name = "MediaPlayer";
-            this.MediaPlayer.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("MediaPlayer.OcxState")));
-            this.MediaPlayer.Size = new System.Drawing.Size(919, 454);
-            this.MediaPlayer.TabIndex = 0;
-            this.MediaPlayer.PlayStateChange += new AxWMPLib._WMPOCXEvents_PlayStateChangeEventHandler(this.PlayStateChange);
             // 
             // pnlMedia
             // 
@@ -22553,7 +22539,6 @@ namespace Audiograph
             ((System.ComponentModel.ISupportInitialize)(this.nudMediaMinute)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudMediaHour)).EndInit();
             this.tlpMedia2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.MediaPlayer)).EndInit();
             this.pnlMedia.ResumeLayout(false);
             this.pnlMedia.PerformLayout();
             this.tsMenu.ResumeLayout(false);
@@ -23889,7 +23874,6 @@ namespace Audiograph
         internal global::System.Windows.Forms.Panel Panel2;
         internal global::Audiograph.DBLayoutPanel tlpMedia;
         internal global::Audiograph.DBLayoutPanel tlpMedia2;
-        internal global::AxWMPLib.AxWindowsMediaPlayer MediaPlayer;
         internal global::System.Windows.Forms.Panel pnlMedia;
         internal global::System.Windows.Forms.Button btnMediaRemoveQ;
         internal global::System.Windows.Forms.Button btnMediaAddQ;

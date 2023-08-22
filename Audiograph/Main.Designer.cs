@@ -21669,7 +21669,6 @@ namespace Audiograph
             this.btnMediaRemoveQ.TabIndex = 4;
             this.btnMediaRemoveQ.Text = "&Remove";
             this.btnMediaRemoveQ.UseVisualStyleBackColor = true;
-            this.btnMediaRemoveQ.Click += new System.EventHandler(this.RemoveQueueBtn);
             // 
             // btnMediaAddQ
             // 
@@ -21679,7 +21678,6 @@ namespace Audiograph
             this.btnMediaAddQ.TabIndex = 1;
             this.btnMediaAddQ.Text = "&Add...";
             this.btnMediaAddQ.UseVisualStyleBackColor = true;
-            this.btnMediaAddQ.Click += new System.EventHandler(this.AddQueue);
             // 
             // ltvMediaQueue
             // 

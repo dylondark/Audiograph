@@ -23517,7 +23517,6 @@ namespace Audiograph
             // 
             // tmrMediaPlayer
             // 
-            this.tmrMediaPlayer.Tick += new System.EventHandler(this.TimerPlay);
             // 
             // ofdIndexLoad
             // 

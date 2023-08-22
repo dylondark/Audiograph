@@ -78,14 +78,14 @@ namespace Audiograph
             }
 
             // begin playing if nothing is in queue or in the player, only recount if not
-            if (queueitems < 1 && My.MyProject.Forms.frmMain.MediaPlayer.playState != WMPPlayState.wmppsPlaying && My.MyProject.Forms.frmMain.MediaPlayer.playState != WMPPlayState.wmppsPaused)
-            {
-                My.MyProject.Forms.frmMain.QueuePlay(0);
-            }
-            else
-            {
-                My.MyProject.Forms.frmMain.QueueRecount();
-            }
+            //if (queueitems < 1 && My.MyProject.Forms.frmMain.MediaPlayer.playState != WMPPlayState.wmppsPlaying && My.MyProject.Forms.frmMain.MediaPlayer.playState != WMPPlayState.wmppsPaused)
+            //{
+            //    My.MyProject.Forms.frmMain.QueuePlay(0);
+            //}
+            //else
+            //{
+            //    My.MyProject.Forms.frmMain.QueueRecount();
+            //}
 
             // close form
             Close();

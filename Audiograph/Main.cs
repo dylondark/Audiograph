@@ -3700,7 +3700,7 @@ public partial class frmMain
         cmbMediaTime.SelectedIndex = 0;
 
         // get version of wmp
-        lblMediaVersion.Text = "v." + MediaPlayer.versionInfo;
+        lblMediaVersion.Text = "v.";
 
         // set auto refresh time
         switch (MySettingsProperty.Settings.AutoRefresh)
@@ -6369,10 +6369,10 @@ public partial class frmMain
         if (ltvMediaQueue.Items.Count < 1) return;
 
         Utilities.newsong = true;
-        MediaPlayer.URL = ltvMediaQueue.Items[item].SubItems[1].Text;
+        //MediaPlayer.URL = ltvMediaQueue.Items[item].SubItems[1].Text;
         QueueRemove(new[] { item });
         // check if player is playing, if its not then turn on the timer
-        if (MediaPlayer.playState != WMPPlayState.wmppsPlaying) tmrMediaPlayer.Enabled = true;
+        //if (MediaPlayer.playState != WMPPlayState.wmppsPlaying) tmrMediaPlayer.Enabled = true;
     }
 
     public void QueueRemove(int[] index)
@@ -6467,95 +6467,7 @@ public partial class frmMain
 
     private bool _PlayStateChange_ended;
 
-    private void PlayStateChange(object sender, _WMPOCXEvents_PlayStateChangeEvent e)
-    {
-        // media ended
-        if (e.newState == (int)WMPPlayState.wmppsMediaEnded)
-        {
-            _PlayStateChange_ended = true;
-            // hide play button
-            separator2.Visible = false;
-            btnMediaPlay.Visible = false;
-            tmrMediaScrobble.Enabled = false;
-            Utilities.newsong = true;
-            btnMediaPlay.Visible = false;
-            btnMediaPlay.Image = Resources.play;
-        }
-
-        // repeat current
-        if (_PlayStateChange_ended && e.newState == (int)WMPPlayState.wmppsStopped && chkMediaRepeat.Checked)
-        {
-            MediaPlayer.Ctlcontrols.play();
-            _PlayStateChange_ended = false;
-            Utilities.newsong = true;
-        }
-
-        // song end
-        if (_PlayStateChange_ended && e.newState == (int)WMPPlayState.wmppsStopped && chkMediaRepeat.Checked == false)
-        {
-            QueuePlay(0);
-            _PlayStateChange_ended = false;
-            tmrMediaScrobble.Enabled = false;
-            Utilities.newsong = true;
-            btnMediaPlay.Visible = false;
-            btnMediaPlay.Image = Resources.play;
-        }
-
-        // user hits stop
-        if (_PlayStateChange_ended == false && e.newState == (int)WMPPlayState.wmppsStopped &&
-            chkMediaRepeat.Checked == false)
-        {
-            _PlayStateChange_ended = true;
-            tmrMediaScrobble.Enabled = false;
-            Utilities.newsong = true;
-            btnMediaPlay.Visible = false;
-            btnMediaPlay.Image = Resources.play;
-        }
-
-        // paused
-        if (e.newState == (int)WMPPlayState.wmppsPaused)
-        {
-            tmrMediaScrobble.Enabled = false;
-            btnMediaPlay.Image = Resources.play;
-        }
-
-        // playing
-        if (e.newState == (int)WMPPlayState.wmppsPlaying)
-        {
-            tmrMediaPlayer.Enabled = false;
-            // show play button
-            separator2.Visible = true;
-            btnMediaPlay.Visible = true;
-            btnMediaPlay.Image = Resources.pause;
-            // enable scrobble check timer
-            tmrMediaScrobble.Enabled = true;
-            // update now playing
-            if (radMediaEnable.Checked && Utilities.SearchIndex(Utilities.GetFilename(MediaPlayer.URL)) is not null &&
-                Utilities.scrobbleindexdata.Count > 0)
-            {
-                string[] data = Utilities.SearchIndex(Utilities.GetFilename(MediaPlayer.URL));
-
-                var th = new Thread(() =>
-                {
-                    string[] results = Utilities.SearchIndex(Utilities.GetFilename(MediaPlayer.URL));
-
-                    if (results is not null && Utilities.scrobbleindexdata.Count > 0)
-                        Utilities.CallAPIAuth("track.updateNowPlaying", "track=" + results[0], "artist=" + results[1],
-                            "album=" + results[2],
-                            "duration=" + Math.Round(MediaPlayer.currentMedia.duration -
-                                                     MediaPlayer.Ctlcontrols.currentPosition));
-                });
-                th.Name = "Media";
-                th.Start();
-            }
-        }
-    }
-
     // timer that repeatedly tells the media player to play after its stopped
-    private void TimerPlay(object sender, EventArgs e)
-    {
-        MediaPlayer.Ctlcontrols.play();
-    }
 
     private void MediaShuffle(object sender, EventArgs e)
     {
@@ -6635,16 +6547,16 @@ public partial class frmMain
 
     private void MediaPlayButton(object sender, EventArgs e)
     {
-        if (MediaPlayer.playState == WMPPlayState.wmppsPlaying)
-        {
-            btnMediaPlay.Image = Resources.play;
-            MediaPlayer.Ctlcontrols.pause();
-        }
-        else
-        {
-            btnMediaPlay.Image = Resources.pause;
-            MediaPlayer.Ctlcontrols.play();
-        }
+        //if (MediaPlayer.playState == WMPPlayState.wmppsPlaying)
+        //{
+        //    btnMediaPlay.Image = Resources.play;
+        //    MediaPlayer.Ctlcontrols.pause();
+        //}
+        //else
+        //{
+        //    btnMediaPlay.Image = Resources.pause;
+        //    MediaPlayer.Ctlcontrols.play();
+        //}
     }
 
     private void ButtonVerifyTrack(object sender, EventArgs e)
@@ -6716,28 +6628,28 @@ public partial class frmMain
     private void ScrobbleTimerTick(object sender, EventArgs e)
     {
         // analyze the current position of the playing media and decide if it must be scrobbled according to lfm protocol
-        int totalDuration = (int)Math.Round(MediaPlayer.currentMedia.duration);
-        int currentDuration = (int)Math.Round(MediaPlayer.Ctlcontrols.currentPosition);
+        //int totalDuration = (int)Math.Round(MediaPlayer.currentMedia.duration);
+        //int currentDuration = (int)Math.Round(MediaPlayer.Ctlcontrols.currentPosition);
 
-        if (radMediaEnable.Checked && Utilities.newsong &&
-            (currentDuration > totalDuration / 2d || currentDuration > 240) && totalDuration > 30)
-        {
-            Utilities.newsong = false;
-            string[] results = Utilities.SearchIndex(Utilities.GetFilename(MediaPlayer.URL));
+        //if (radMediaEnable.Checked && Utilities.newsong &&
+        //    (currentDuration > totalDuration / 2d || currentDuration > 240) && totalDuration > 30)
+        //{
+        //    Utilities.newsong = false;
+        //    //string[] results = Utilities.SearchIndex(Utilities.GetFilename(MediaPlayer.URL));
 
-            if (results is not null)
-            {
-                // update now playing
-                if (Utilities.scrobbleindexdata.Count > 0)
-                    Utilities.CallAPIAuth("track.updateNowPlaying", "track=" + results[0], "artist=" + results[1],
-                        "album=" + results[2],
-                        "duration=" + Math.Round(MediaPlayer.currentMedia.duration -
-                                                 MediaPlayer.Ctlcontrols.currentPosition));
+        //    if (results is not null)
+        //    {
+        //        // update now playing
+        //        if (Utilities.scrobbleindexdata.Count > 0)
+        //            Utilities.CallAPIAuth("track.updateNowPlaying", "track=" + results[0], "artist=" + results[1],
+        //                "album=" + results[2],
+        //                "duration=" + Math.Round(MediaPlayer.currentMedia.duration -
+        //                                         MediaPlayer.Ctlcontrols.currentPosition));
 
-                // scrobble
-                Utilities.Scrobble(results[0], results[1], Utilities.GetCurrentUTC(), "Auto", results[2]);
-            }
-        }
+        //        // scrobble
+        //        Utilities.Scrobble(results[0], results[1], Utilities.GetCurrentUTC(), "Auto", results[2]);
+        //    }
+        //}
     }
 
     private void ExpandScrobbleHistory(object sender, EventArgs e)

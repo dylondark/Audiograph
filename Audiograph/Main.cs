@@ -10,11 +10,9 @@ using System.Threading;
 using System.Windows.Forms;
 using Audiograph.My;
 using Audiograph.My.Resources;
-using AxWMPLib;
 using Microsoft.VisualBasic;
 using Microsoft.VisualBasic.CompilerServices;
 using Microsoft.VisualBasic.FileIO;
-using WMPLib;
 // Audiograph by Dylan Miller (dylondark)
 // Project started on 11/11/2020
 
